@@ -14,7 +14,8 @@
 |---|---|
 | 0. Tiếp nhận | Xong (2026-11-15), xem mục 3 |
 | 1. Khảo sát và quyết định | Xong. 8 quyết định (mục 1c); **[plan.md](plan.md) được duyệt 2026-11-15** (kể cả các đề xuất kỹ thuật và thêm 分). Chủ dự án yêu cầu triển khai liên tục toàn bộ kế hoạch, chỉ hỏi khi cần thiết |
-| 2. Nền tảng | Đang làm (mục 5): monorepo, lõi bộ chấm, khung `course`, khung app, e2e đã chạy được |
+| 2. Nền tảng | **Xong** (2026-11-15). `npm run check` 23 file/91 test; `npm run e2e` 6 test (Pixel 7, iPhone 13, offline, giấy phép, axe sáng/tối); **CI GitHub Actions xanh** ở commit `281bee7` (lần chạy đầu). Bundle ban đầu (gzip): index 8,2 KB + jsxRuntime 9,2 KB + trang chủ 9,6 KB (trang chủ gồm ts-fsrs); precache 16 file, 118 KB. Nguồn gốc file chép: mục 5 |
+| 3. Dữ liệu | Đang làm: `sources:fetch` xong (`packages/course/sources/`, chạy lại cho kết quả y hệt) |
 
 ## 1c. Quyết định đã chốt
 
@@ -128,6 +129,8 @@ Chưa chép (sẽ chép khi tới giai đoạn tương ứng): `lang/zh` (chỉ 
 
 - **Playwright trong môi trường cloud:** dự án khóa `playwright` 1.63.0, khớp Chromium cài sẵn (`/opt/pw-browsers/chromium-1243`): `npm run e2e` chạy được không cần `playwright install`. Trên CI vẫn chạy `npx playwright install --with-deps chromium`.
 - **Test `lang="ja"`** (`apps/web/tests/lang.test.tsx`): mọi trang không có tham số phải không có chữ kana/kanji nằm ngoài phần tử `lang="ja"`. Chữ Nhật trong câu tiếng Việt (ví dụ trong `strings.ts`) phải hiện qua `MixedText`.
+- **`fetch` của Node không tự dùng proxy:** chạy script tải nguồn với `NODE_USE_ENV_PROXY=1` (Node ≥ 22.21), ví dụ `NODE_USE_ENV_PROXY=1 npm run sources:fetch -w @j-learn-write/course`. File lớn được lưu đệm ở `node_modules/.cache/j-learn-write-sources` (thêm `-- --refresh` để tải lại).
+- **Công cụ ghi file của Claude giải mã `\uXXXX`** thành ký tự thật (đã xảy ra với BOM và dải `\u3400-\u9fff` trong `fetch-sources.ts`). Trong mã: dùng `String.fromCharCode(0x…)` hoặc `\p{Script=Han}`, rồi chạy lệnh kiểm tra ký tự vô hình.
 - **TypeScript "weak type"**: truyền object literal có thêm trường vào hàm nhận kiểu chỉ có trường tùy chọn sẽ lỗi; gán vào biến trước.
 
 - Ký tự vô hình (BOM, U+2028…): trong mã dùng `String.fromCharCode(0x…)`; trước mỗi commit có chữ Nhật chạy
