@@ -6,3 +6,6 @@ export { normalizeJa, type JaNormalized } from './lang/ja/normalize';
 export { hasJapanese, hasKanji, isAllKana, isHiragana, isKana, isKanji, isKatakana, toHiragana, toKatakana } from './lang/ja/kana';
 export { conjClassOf, conjugate, type ConjClass, type ConjForm } from './lang/ja/conjugate';
 export { COUNTERS, counterReadings, findCounter, numberReading, numberValue, type Counter, type CounterGroup } from './lang/ja/numbers';
+export { FUNCTION_WORDS, JaLexicon, type Analysis, type FunctionRole, type FunctionWord, type NameEntry as JaName, type WordEntry } from './lang/ja/lexicon';
+export { hasKanjiToken, isUnknown, tokenize, type Token, type TokenAnalysis } from './lang/ja/tokenize';
+export { COURSE_WORDS, courseLexicon } from './lang/ja/words';

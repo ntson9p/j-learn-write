@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { buildJlptData, jsonLines, kanjiOf } from '../src/jlpt-build';
+import { buildJlptData, graderWords, jsonLines, kanjiOf } from '../src/jlpt-build';
 import type { KanaEntry, ListGrammar, ListKanji, ListWord } from '../src/types';
 import { loadBuildSources } from '../scripts/lib/sources';
 
@@ -33,6 +33,7 @@ describe('JLPT lists (data/jlpt)', () => {
     expect(read('jlpt/grammar.json')).toBe(jsonLines(fresh.grammar));
     expect(read('kana.json')).toBe(jsonLines(fresh.kana));
     expect(JSON.parse(read('jlpt/ids.lock.json'))).toEqual(fresh.lock);
+    expect(readFileSync(join(DATA, '..', '..', 'grader', 'src', 'lang', 'ja', 'data', 'words.json'), 'utf8')).toBe(jsonLines(graderWords(fresh.vocabulary)));
   });
 
   it('have the planned sizes', () => {

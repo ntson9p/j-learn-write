@@ -6,7 +6,7 @@
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { buildJlptData, jsonLines } from '../src/jlpt-build.ts';
+import { buildJlptData, graderWords, jsonLines } from '../src/jlpt-build.ts';
 import { DATA, loadBuildSources } from './lib/sources.ts';
 
 const result = buildJlptData(loadBuildSources());
@@ -17,6 +17,7 @@ const files: [string, string][] = [
   [join(DATA, 'jlpt', 'grammar.json'), jsonLines(result.grammar)],
   [join(DATA, 'jlpt', 'ids.lock.json'), `${JSON.stringify(result.lock, null, 1)}\n`],
   [join(DATA, 'kana.json'), jsonLines(result.kana)],
+  [join(DATA, '..', '..', 'grader', 'src', 'lang', 'ja', 'data', 'words.json'), jsonLines(graderWords(result.vocabulary))],
 ];
 for (const [path, text] of files) writeFileSync(path, text, 'utf8');
 console.log(`words ${result.vocabulary.length}, kanji ${result.kanji.length}, grammar ${result.grammar.length}, kana ${result.kana.length}`);

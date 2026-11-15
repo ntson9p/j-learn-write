@@ -15,7 +15,7 @@
 | 0. Tiếp nhận | Xong (2026-11-15), xem mục 3 |
 | 1. Khảo sát và quyết định | Xong. 8 quyết định (mục 1c); **[plan.md](plan.md) được duyệt 2026-11-15** (kể cả các đề xuất kỹ thuật và thêm 分). Chủ dự án yêu cầu triển khai liên tục toàn bộ kế hoạch, chỉ hỏi khi cần thiết |
 | 2. Nền tảng | **Xong** (2026-11-15). `npm run check` 23 file/91 test; `npm run e2e` 6 test (Pixel 7, iPhone 13, offline, giấy phép, axe sáng/tối); **CI GitHub Actions xanh** ở commit `281bee7` (lần chạy đầu). Bundle ban đầu (gzip): index 8,2 KB + jsxRuntime 9,2 KB + trang chủ 9,6 KB (trang chủ gồm ts-fsrs); precache 16 file, 118 KB. Nguồn gốc file chép: mục 5 |
-| 3. Dữ liệu | Đang làm: `sources:fetch` xong (`packages/course/sources/`, chạy lại cho kết quả y hệt) |
+| 3. Dữ liệu | Đang làm. Xong: `sources:fetch` (`packages/course/sources/`, chạy lại cho kết quả y hệt); `data:build` → `data/jlpt/{vocabulary,kanji,grammar}.json`, `ids.lock.json`, `data/kana.json`, `grader/src/lang/ja/data/words.json` (test giữ đồng bộ); âm Hán Việt (`src/hanviet.ts`, `data/hanviet-overrides.json`); bảng chia (`grader/src/lang/ja/conjugate.ts`, đối chiếu kuromoji); số và trợ số từ (`numbers.ts`, `data/counters.json`); từ vựng nội bộ + bộ tách từ (`lexicon.ts`, `tokenize.ts`, `data/function-words.json`). **Đổi thứ tự so với plan:** bảng chia, số đếm và bộ tách từ của `lang/ja` làm ngay ở giai đoạn 3 vì kiểm soát từ vựng và điền furigana cần chúng. Còn: furigana (`content:fill`), bộ kiểm tra nội dung, bảng tính duyệt, `curriculum.json` |
 
 ## 1c. Quyết định đã chốt
 
@@ -124,6 +124,16 @@ Mọi file dưới đây chép từ c-learn-write **commit `e51323e25905859d37c9
 | `apps/web/e2e/{app,a11y}.e2e.ts` | Danh sách màn hình theo các trang đang có |
 
 Chưa chép (sẽ chép khi tới giai đoạn tương ứng): `lang/zh` (chỉ tham khảo), `packages/course/src/{validate,review-sheet,segment,generate,readings}.ts`, `scripts/*`, `apps/web/src/lib/{content,exercises,search}.ts`, `components/{exercise,grade-result,run,writer}.tsx`, các trang học, `build/strokes.ts`.
+
+## 5b. Thiết kế dữ liệu và bộ tách từ (tóm tắt, chi tiết trong mã)
+
+- **Dạng hiển thị của từ:** dạng của OpenJLPT, trừ khi JMdict đánh dấu nghĩa đầu là `uk` (thường viết kana) hoặc từ có kanji ngoài Jōyō → viết kana (わかる, めがね). `forms` = các dạng được chấp nhận khi trả lời: dạng hiển thị, dạng OpenJLPT, kana; dạng kanji khác của JMdict chỉ thêm cho từ hiển thị bằng kana (vì một mục JMdict có thể gộp hai từ: 開く/空く).
+- **Furigana của từ** (`ruby`): theo JmdictFurigana, dạng `{学|がく}{生|せい}`, `{大人|おとな}` (熟字訓 phủ cả cụm).
+- **Âm Hán Việt:** `chooseHanViet` đối chiếu KANJIDIC2 với ph0ngp (qua bảng OpenCC chữ Nhật → phồn thể); chỉ tin khi hai nguồn chung đúng một âm. `data/hanviet-overrides.json`: `kanji` = âm chính Claude chọn cho chữ còn mơ hồ (vẫn gắn cờ), chuỗi rỗng = kokuji (込); `words` = âm theo nghĩa trong từ (勉強 miễn cưỡng), mỗi âm phải là âm đã biết của chữ đó.
+- **Kanji cần học:** 79 N5 + 分 (quyết định 2026-11-15) + 166 N4 = 246.
+- **Bảng chia** (`conjugate.ts`): nhãn dạng (`masu`, `neg`, `past`, `te`, `ta`, `nai`, `ba`, `vol`, `tai`, `potential`, `passive`, `causative`…) dùng cho kiểm soát "dạng chia đã học".
+- **Bộ tách từ** (`tokenize.ts`): quy hoạch động, token biết = 10, ký tự lạ = 25, dấu câu = 1. Một mặt chữ giữ **mọi** cách phân tích (降ります: 降る/降りる; は: trợ từ/歯/葉). Số + trợ số từ nhận theo quy tắc (`numbers.ts`), cả dạng kana (さんぼん). Tên riêng truyền vào `courseLexicon(names)`.
+- **Điểm ngữ pháp thêm của khóa học** (dự kiến, chưa làm): OpenJLPT không có số đếm/trợ số từ/giờ/ngày tháng; sẽ thêm các điểm `x-…` (cho phép theo plan mục 3.2).
 
 ## 6. Lưu ý kỹ thuật (bẫy đã biết)
 

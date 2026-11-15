@@ -277,6 +277,11 @@ export function buildKana(toRomaji: (kana: string) => string, strokes: Record<st
   return out;
 }
 
+/** The grader's copy of the course words (packages/grader/src/lang/ja/data/words.json). */
+export function graderWords(vocabulary: readonly ListWord[]): { no: number; word: string; reading: string; forms: string[]; pos: string[] }[] {
+  return vocabulary.map((w) => ({ no: w.no, word: w.word, reading: w.reading, forms: w.forms.filter((f) => f !== w.word), pos: w.pos }));
+}
+
 /** One array item per line: readable diffs. */
 export function jsonLines(items: readonly unknown[]): string {
   return `[\n${items.map((x) => JSON.stringify(x)).join(',\n')}\n]\n`;
