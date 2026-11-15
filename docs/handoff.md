@@ -13,7 +13,7 @@
 | Giai đoạn | Trạng thái |
 |---|---|
 | 0. Tiếp nhận | Xong (2026-11-15), xem mục 3 |
-| 1. Khảo sát và quyết định | Đang làm: khảo sát nguồn xong (mục 4); đợt hỏi 1 xong (mục 1c); còn đợt hỏi 2 và viết `docs/plan.md` |
+| 1. Khảo sát và quyết định | Khảo sát xong (mục 4), 8 quyết định đã chốt (mục 1c), **[plan.md](plan.md) đã viết, chờ chủ dự án duyệt**. Chưa viết code |
 
 ## 1c. Quyết định đã chốt
 
@@ -74,6 +74,19 @@
 - **JmdictFurigana** <https://github.com/Doublevil/JmdictFurigana> commit `8ab9472`: furigana theo từng chữ cho mục từ JMdict, giấy phép như JMdict (CC BY-SA), phát hành hàng tháng. (Claude đọc README)
 - **WanaKana** 5.3.1 (MIT): chuyển romaji → kana (thử: watashiha → わたしは, kitte → きって; "konnnichiha" → こんんにちは, cần xử lý "nn"). (Claude)
 - **Từ điển Nhật–Việt có giấy phép mở:** chưa tìm thấy (tìm kiếm web 2026-11-15). (Claude)
+- **Ghép nét kana của animCJK:** quy tắc "đoạn có đường trục ra ngoài khung (x ∉ [0, 1024] hoặc y ∉ [−124, 900]) là phần nối của nét trước" cho số nét khớp KanjiVG ở 173/177 kana; す, ず, ね, の phải khai báo tay. 177 kana gồm cả chữ cổ/hiếm (ゐ ゑ ヰ ヱ ヷ ヸ ヹ ヺ ゕ ゖ ヵ ヶ ゎ ヮ). (Claude)
+- **Irodori (JF):** điều khoản <https://www.irodori.jpf.go.jp/privacy.html> cấm dùng nội dung để soạn tài liệu khác ("本サイトと全く関係のない別の教材…を新たに作成するために…用いることはできません"). (Claude)
+- **Thông tư 19/2021/TT-BGDĐT** (Công báo 691+692, <https://congbaocdn.chinhphu.vn/CongBaoCP/VanBan/2021/7/34061/36370-1-2021691-69219-2021-tt-bgddt.pdf>, SHA-256 `0ff60008…270538c`): hết tiểu học Bậc 1 (50 hiragana, 50 katakana, ~900 từ, 55 chữ Hán, 42 cấu trúc); hết THCS Bậc 2 (thêm ~1200 từ, 240 chữ Hán, 100 cấu trúc); hết THPT Bậc 3 (thêm ~1200 từ, 240 chữ Hán, 90 cấu trúc). (Claude, đọc lớp chữ của PDF)
+- **Agent tìm hiểu (Claude chưa tự mở lại)**, ghi chú đầy đủ có trích dẫn từng ở scratchpad của phiên (`agent-survey.md`, sẽ mất khi container bị thu hồi; tóm tắt nằm trong plan mục 3):
+  - JFT-Basic: ~50 câu/60 phút, 4 phần; từ 8/2026 xếp A1, A2.1, A2.2 (A2.2 cho 特定技能1号); thi ở Việt Nam từ năm tài chính 2025; đề mẫu theo chính sách trang JF, không được sao chép.
+  - 日本語教育の参照枠: không có danh sách từ/ngữ pháp; 122 基礎漢字 tới A2; trang bunka.go.jp theo quy tắc MEXT (公共データ利用規約 1.0, tương thích CC BY 4.0).
+  - 常用漢字表 (2010): 360 chữ kèm dạng cũ trong ngoặc; 62 dạng cũ là CJK Compatibility Ideograph, bị NFC đổi về dạng mới; 著作権法 第13条 loại 告示 khỏi bảo hộ.
+  - JF Can-do, Marugoto: không phải giấy phép mở; Marugoto cấm công bố danh sách từ đã sửa.
+  - Tatoeba: câu CC BY 2.0 FR; 6123 câu tiếng Nhật có bản dịch tiếng Việt trực tiếp (bản xuất 2026-11-14); âm thanh phần lớn không có giấy phép dùng lại.
+  - Trọng âm: Kanjium CC BY-SA 4.0 (ghi công "Uros O."); UniDic 3.1.0 GPL/LGPL/BSD.
+  - Phông: AOSP `fonts.xml` gán `lang="ja"` cho mặt chữ Nhật của Noto Sans CJK; Chrome Android dùng ngôn ngữ của phần tử khi chọn phông CJK; iOS dùng Hiragino Sans; `system-ui` có thể bỏ qua `lang`.
+  - Luật SHTT Việt Nam Điều 15: văn bản quy phạm pháp luật không được bảo hộ quyền tác giả.
+  - Danh sách Waller: ba README thứ cấp ghi "Creative Commons BY"; tanos.co.uk không vào được.
 - **Phiên bản thư viện** (npm, 2026-11-15): c-learn-write chạy xanh với TypeScript 7.0.2, Vite 8.3.8, Vitest 5.1.0, Preact 10.29.8, @preact/signals 2.11.4, idb 8.0.4, ts-fsrs 6.0.0, vite-plugin-pwa 2.0.0, Playwright 1.63.0, axe-core 4.14.0, happy-dom 21.0.4, hanzi-writer 3.7.3. Bản mới hơn: Preact 11.2.0 (bản lớn), Playwright 1.65.1 (2026-11-13), fake-indexeddb 6.2.8.
 
 ## 5. Nguồn gốc mã chép từ c-learn-write
