@@ -851,6 +851,68 @@ input[type='search'] {
   border-color: var(--good);
 }
 
+/* Words, kanji, grammar */
+.kanji-chips {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.kanji-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text);
+  text-decoration: none;
+  text-align: center;
+}
+.kanji-chip .ja-word {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.kanji-chip .meaning,
+.kanji-chip .hanviet {
+  font-size: 0.85rem;
+}
+.kanji-chip .hanviet,
+.hanviet {
+  color: var(--accent);
+}
+.kanji-big {
+  font-size: 4.5rem;
+}
+.readings {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 12px;
+  margin: 12px 0;
+}
+.readings dt {
+  color: var(--muted);
+}
+.readings dd {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.ja-sentence {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.kanji-link {
+  margin-right: 8px;
+  font-size: 1.5rem;
+}
+.kanji-words li {
+  font-size: 1.15rem;
+}
+
 /* Kana lessons */
 .lesson-kana {
   margin-top: 8px;

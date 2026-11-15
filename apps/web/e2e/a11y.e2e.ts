@@ -47,6 +47,11 @@ const PAGES: [string, string][] = [
   ['#/lesson/kana-01', ''],
   ['#/practice/kana-01', ''],
   ['#/quiz/kana-01', ''],
+  ['#/lesson/n5-01', ''],
+  ['#/word/1305', ''],
+  ['#/kanji/%E6%97%A5', ''],
+  ['#/grammar/wa', ''],
+  ['#/dict', 'Từ điển'],
   ['#/write', 'Luyện viết'],
   ['#/about', 'Giới thiệu và giấy phép'],
 ];

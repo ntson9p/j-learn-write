@@ -24,7 +24,7 @@ describe('exercises on screen', async () => {
     it(`${lesson.meta.id}: ${exercises.length} exercises tag their Japanese text`, () => {
       for (const ex of exercises) {
         const { container, unmount } = render(
-          <RubyContext.Provider value={{ ruby: lesson.content!.ruby ?? {}, learned: new Set() }}>
+          <RubyContext.Provider value={{ ruby: lesson.content!.ruby ?? {} }}>
             <ExerciseView exercise={ex} onChecked={() => {}} />
           </RubyContext.Provider>,
         );

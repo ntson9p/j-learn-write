@@ -6,14 +6,13 @@ import { ExerciseRun, type Answered } from '../components/run';
 import { MixedText, RubyContext } from '../components/text';
 import { findLesson } from '../lib/content';
 import { shuffle } from '../lib/exercises';
+import { refreshLearned } from '../lib/learned';
 import { PASS_MARK, recordQuiz } from '../lib/progress';
 import { addResult, averageScore, resultsFor, weakGrammar } from '../lib/results';
 import { href } from '../router';
 import { T } from '../strings';
 
 export const QUIZ_SIZE = 12;
-const NO_LEARNED: ReadonlySet<string> = new Set();
-
 /** Quiz questions: a seeded selection of the lesson's exercises (no matching), different at each attempt. */
 export function quizExercises(lessonId: string, exercises: readonly Exercise[], attempt: number): Exercise[] {
   return shuffle(
@@ -44,6 +43,7 @@ export default function QuizPage({ params }: PageProps) {
     const weak = weakGrammar(answers.map((a) => ({ correct: a.outcome.correct, grammar: 'grammar' in a.exercise ? a.exercise.grammar : undefined })));
     await addResult({ kind: 'lesson', level: lesson.meta.level, lessonId: id, score: value, at: Date.now(), durationMs: Date.now() - startedAt, weakGrammar: weak });
     await recordQuiz(id, value, new Date());
+    await refreshLearned();
     setScore({ value, weak });
   };
 
@@ -92,7 +92,7 @@ export default function QuizPage({ params }: PageProps) {
           </button>
         </div>
       ) : (
-        <RubyContext.Provider value={{ ruby: content.ruby ?? {}, learned: NO_LEARNED }}>
+        <RubyContext.Provider value={{ ruby: content.ruby ?? {} }}>
           <ExerciseRun exercises={questions} onFinish={(a) => void finish(a)} />
         </RubyContext.Provider>
       )}

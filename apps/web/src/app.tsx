@@ -1,6 +1,7 @@
 import { useEffect } from 'preact/hooks';
 import { LazyPage } from './components/lazy';
 import { BottomNav } from './components/nav';
+import { refreshLearned } from './lib/learned';
 import { applyTheme, loadSettings, settings } from './lib/settings';
 import { initSpeech } from './lib/speech';
 import { currentPath, href } from './router';
@@ -10,6 +11,7 @@ import { T } from './strings';
 export function App() {
   useEffect(() => {
     void loadSettings().catch(() => undefined);
+    void refreshLearned().catch(() => undefined);
     initSpeech();
   }, []);
   const theme = settings.value.theme;

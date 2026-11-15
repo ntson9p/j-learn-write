@@ -13,8 +13,6 @@ import { voices } from '../lib/speech';
 import { href } from '../router';
 import { T } from '../strings';
 
-const NO_LEARNED: ReadonlySet<string> = new Set();
-
 /** Generated drills of a lesson (kana stage: its kana and practice words). */
 export function lessonDrills(lesson: Lesson, kana: readonly KanaEntry[], taughtSoFar: readonly string[], listening: boolean): Drill[] {
   const content = lesson.content;
@@ -69,7 +67,7 @@ export default function PracticePage({ params }: PageProps) {
           </div>
         </div>
       ) : (
-        <RubyContext.Provider value={{ ruby: content.ruby ?? {}, learned: NO_LEARNED }}>
+        <RubyContext.Provider value={{ ruby: content.ruby ?? {} }}>
           <ExerciseRun
             key={run}
             exercises={list}

@@ -35,7 +35,7 @@ afterAll(async () => {
 describe('app (production build)', () => {
   // Device emulation runs on Chromium (only Chromium is installed): it checks
   // viewport, pixel ratio, touch and user agent, not the WebKit engine itself.
-  const SCREENS = ['#/', '#/kana', '#/kana/%E3%81%82', '#/lesson/kana-01', '#/practice/kana-01', '#/quiz/kana-01', '#/write', '#/write/%E5%AD%A6', '#/review', '#/dict', '#/progress', '#/settings', '#/guide', '#/about'];
+  const SCREENS = ['#/', '#/kana', '#/kana/%E3%81%82', '#/lesson/kana-01', '#/practice/kana-01', '#/quiz/kana-01', '#/lesson/n5-01', '#/word/1305', '#/kanji/%E6%97%A5', '#/grammar/wa', '#/write', '#/write/%E5%AD%A6', '#/review', '#/dict', '#/progress', '#/settings', '#/guide', '#/about'];
   for (const device of ['Pixel 7', 'iPhone 13'] as const) {
     it(`fits a phone screen without horizontal scrolling (${device})`, async () => {
       const { defaultBrowserType: _engine, ...descriptor } = devices[device];
@@ -191,6 +191,35 @@ describe('app (production build)', () => {
     await page.goto(base);
     // Progress loads after the first render.
     await page.locator('.lesson-item').first().locator('.state-badge', { hasText: 'Đã xong' }).waitFor();
+    expect(errors).toEqual([]);
+    await context.close();
+  });
+
+  it('adds a lesson\'s words and kanji to review, then reviews a card', async () => {
+    const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const page = await context.newPage();
+    const errors: string[] = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.goto(`${base}#/lesson/n5-01`);
+    await page.getByRole('button', { name: 'Thêm từ và kanji của bài vào thẻ ôn tập' }).click();
+    await page.getByText(/Đã thêm 22 thẻ vào ôn tập/).waitFor();
+    await page.getByRole('link', { name: 'Bắt đầu ôn' }).click();
+    await page.getByText(/thẻ mới hôm nay/).waitFor();
+    await page.getByRole('button', { name: 'Bắt đầu ôn' }).click();
+    // Cards come in course order: 私 first (its content loads after the card).
+    await page.getByTestId('flashcard').getByText('私', { exact: true }).waitFor();
+    await page.getByRole('button', { name: 'Xem đáp án' }).click();
+    await page.getByTestId('flashcard').getByText('tôi', { exact: true }).waitFor();
+    await shot(page, 'review-card');
+    await page.getByRole('button', { name: /^Được/ }).click();
+    // The next card (あなた) replaces it once the answer is saved.
+    await page.getByTestId('flashcard').getByText('あなた').waitFor();
+    // Dictionary: romaji finds the word, its page shows meaning and kanji links.
+    await page.goto(`${base}#/dict`);
+    await page.getByRole('searchbox').fill('gakusei');
+    await page.locator('.dict-list a', { hasText: '学生' }).first().click();
+    await page.getByRole('heading', { level: 2, name: 'Nghĩa' }).waitFor();
+    await expect(page.locator('main').textContent()).resolves.toContain('học sinh');
     expect(errors).toEqual([]);
     await context.close();
   });

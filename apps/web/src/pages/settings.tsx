@@ -2,6 +2,7 @@ import { useEffect, useState } from 'preact/hooks';
 import type { PageProps } from '../components/lazy';
 import { BackupError, backupFileName, exportBackup, importBackup } from '../lib/backup';
 import { clearAll, requestPersistence } from '../lib/db';
+import { refreshLearned } from '../lib/learned';
 import { DEFAULT_SETTINGS, loadSettings, settings, updateSettings, type FuriganaMode, type Theme } from '../lib/settings';
 import { speak, voices } from '../lib/speech';
 import { href } from '../router';
@@ -52,6 +53,7 @@ export default function SettingsPage(_props: PageProps) {
     try {
       await importBackup(JSON.parse(await file.text()));
       await loadSettings();
+      await refreshLearned();
       setMessage({ kind: 'ok', text: T.settings.importDone });
     } catch (e) {
       const detail = e instanceof BackupError ? e.problems.join(' ') : e instanceof SyntaxError ? T.settings.notJson : String(e);
@@ -63,6 +65,7 @@ export default function SettingsPage(_props: PageProps) {
     if (!confirm(T.settings.clearConfirm)) return;
     await clearAll();
     await updateSettings({ ...DEFAULT_SETTINGS });
+    await refreshLearned();
     setMessage({ kind: 'ok', text: T.settings.cleared });
   };
 
