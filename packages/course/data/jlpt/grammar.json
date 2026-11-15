@@ -177,5 +177,15 @@
 {"id":"ga-suru","no":176,"level":"n4","pattern":"〜がする"},
 {"id":"kana-kashira","no":177,"level":"n4","pattern":"〜かな / 〜かしら"},
 {"id":"te-kuremasen-ka-te-itadakemasen-ka","no":178,"level":"n4","pattern":"〜てくれませんか / 〜ていただけませんか"},
-{"id":"naide","no":179,"level":"n4","pattern":"〜ないで"}
+{"id":"naide","no":179,"level":"n4","pattern":"〜ないで"},
+{"id":"x-numbers","no":180,"level":"n5","pattern":"数字（いち、に、さん…）","extra":true},
+{"id":"x-counters-basic","no":181,"level":"n5","pattern":"〜つ / 〜人 / 〜歳 / 〜円","extra":true},
+{"id":"x-counters","no":182,"level":"n5","pattern":"〜本 / 〜枚 / 〜冊 / 〜台 / 〜匹 / 〜個 / 〜杯","extra":true},
+{"id":"x-time","no":183,"level":"n5","pattern":"〜時 / 〜分 / 〜時間","extra":true},
+{"id":"x-dates","no":184,"level":"n5","pattern":"〜月 / 〜日 / 〜年 / 〜週間 / 〜か月","extra":true},
+{"id":"x-position","no":185,"level":"n5","pattern":"Nの上 / 中 / 下 / 前 / 後ろ / 隣","extra":true},
+{"id":"x-i-adjective","no":186,"level":"n5","pattern":"〜い（い-adjective）","extra":true},
+{"id":"x-te-form","no":187,"level":"n5","pattern":"〜て形の作り方","extra":true},
+{"id":"x-dictionary-form","no":188,"level":"n5","pattern":"辞書形（nhóm động từ）","extra":true},
+{"id":"x-counters-n4","no":189,"level":"n4","pattern":"〜泊 / 〜軒 / 〜着 / 〜番目 / 〜度","extra":true}
 ]

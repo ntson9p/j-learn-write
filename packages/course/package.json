@@ -12,7 +12,11 @@
     "typecheck": "tsc --noEmit -p .",
     "test": "vitest run",
     "sources:fetch": "node scripts/fetch-sources.ts",
-    "data:build": "node scripts/build-data.ts"
+    "data:build": "node scripts/build-data.ts",
+    "content:fill": "node scripts/fill.ts",
+    "content:brief": "node scripts/lesson-brief.ts",
+    "review:export": "node scripts/review-export.ts",
+    "review:import": "node scripts/review-import.ts"
   },
   "dependencies": {
     "@j-learn-write/grader": "*"

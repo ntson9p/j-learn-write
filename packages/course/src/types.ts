@@ -27,14 +27,9 @@ export type LevelId = 'kana' | 'n5' | 'n4';
 export type JlptLevel = 'n5' | 'n4';
 export type LevelStatus = 'complete' | 'in_progress' | 'planned';
 
-/** A Japanese sentence with furigana and a Vietnamese translation. */
+/** A Japanese sentence and its Vietnamese translation (furigana: LessonContent.ruby). */
 export interface Sentence {
   ja: string;
-  /**
-   * Furigana markup, e.g. "{学生|がくせい}です。": every kanji run of `ja` in
-   * braces with its reading. Filled by `npm run content:fill`.
-   */
-  ruby?: string;
   vi: string;
 }
 
@@ -92,6 +87,8 @@ export interface ListGrammar {
   level: JlptLevel;
   /** Pattern as listed, e.g. "〜は". */
   pattern: string;
+  /** True for a point the course adds (data/grammar-extra.json). */
+  extra?: boolean;
 }
 
 export type KanaScript = 'hiragana' | 'katakana';
@@ -257,6 +254,12 @@ export interface LessonContent {
   kanji?: KanjiContent[];
   grammar?: GrammarContent[];
   exercises: Exercise[];
+  /**
+   * Furigana of every Japanese text of the lesson, keyed by the text:
+   * "{学|がく}{生|せい}です。" (kanji runs in braces with their reading).
+   * Filled by `npm run content:fill`; an ambiguous reading is written by hand.
+   */
+  ruby?: Record<string, string>;
 }
 
 /** A curriculum lesson with its content, when written. */

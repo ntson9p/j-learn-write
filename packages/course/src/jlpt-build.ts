@@ -59,8 +59,18 @@ export interface ExtraWord {
   level: string;
 }
 
+export interface ExtraGrammar {
+  id: string;
+  level: string;
+  pattern: string;
+  titleVi: string;
+  counters?: string[];
+}
+
 export interface BuildSources {
   vocabulary: OjWord[];
+  /** Grammar points the course adds (data/grammar-extra.json). */
+  extraGrammar: ExtraGrammar[];
   /** Words the course adds (data/vocabulary-extra.json). */
   extraWords: ExtraWord[];
   kanji: OjKanji[];
@@ -222,7 +232,16 @@ export function buildJlptData(src: BuildSources): BuildResult {
     }
   }
 
-  const grammar: ListGrammar[] = src.grammar.map((g, i) => ({ id: g.id, no: i + 1, level: level(g.level), pattern: g.pattern }));
+  const merged: { id: string; level: JlptLevel; pattern: string; extra?: boolean }[] = [
+    ...src.grammar.map((g) => ({ id: g.id, level: level(g.level), pattern: g.pattern })),
+    ...src.extraGrammar.map((g) => ({ id: g.id, level: level(g.level), pattern: g.pattern, extra: true })),
+  ];
+  const grammar: ListGrammar[] = merged.map((g, i) => ({ id: g.id, no: i + 1, level: g.level, pattern: g.pattern, ...(g.extra ? { extra: true } : {}) }));
+  const ids = new Set<string>();
+  for (const g of grammar) {
+    if (ids.has(g.id)) problems.push(`grammar id ${g.id} is used twice`);
+    ids.add(g.id);
+  }
 
   return { vocabulary, kanji, grammar, kana: buildKana(src.toRomaji, src.strokeCounts), lock, problems };
 }

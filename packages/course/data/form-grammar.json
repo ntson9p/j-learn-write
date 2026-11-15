@@ -1,0 +1,51 @@
+{
+  "_doc": "Which grammar point must be taught before a conjugated form may appear in a sentence. Keys: form tags joined with + (see grader conjugate.ts), separately for verbs and i-adjectives. A list means any of these points. Forms built on a potential, passive or causative verb need that point too (prefix).",
+  "verb": {
+    "": ["x-dictionary-form"],
+    "stem": ["masu"],
+    "masu": ["masu"],
+    "masu+neg": ["masen"],
+    "masu+past": ["mashita"],
+    "masu+neg+past": ["masen-deshita"],
+    "masu+vol": ["mashou", "mashou-ka"],
+    "masu+neg+ka": ["masen-ka"],
+    "tai": ["tai"],
+    "tai+neg": ["tai"],
+    "tai+past": ["tai"],
+    "tai+neg+past": ["tai"],
+    "tai+te": ["tai"],
+    "nagara": ["nagara"],
+    "te": ["x-te-form"],
+    "ta": ["ta"],
+    "tara": ["tara"],
+    "tari": ["tari-tari-suru"],
+    "nai": ["nai"],
+    "nai+past": ["nai"],
+    "nai+te": ["nakute-mo-ii", "nakereba-naranai-nakute-wa-ikenai"],
+    "naide": ["naide-kudasai", "naide"],
+    "nai+ba": ["nakereba-naranai-nakute-wa-ikenai"],
+    "nai+kucha": ["nai-to-ikenai-nakucha"],
+    "ba": ["ba"],
+    "vol": ["ou-you"],
+    "imperative": ["e-ro"]
+  },
+  "derived": {
+    "potential": ["eru-rareru-potential"],
+    "passive": ["reru-rareru-passive"],
+    "causative": ["seru-saseru"]
+  },
+  "adjective": {
+    "": ["x-i-adjective"],
+    "stem": ["x-i-adjective"],
+    "ku": ["x-i-adjective"],
+    "neg": ["ku-nai-katta-ku-nakatta"],
+    "past": ["ku-nai-katta-ku-nakatta"],
+    "neg+past": ["ku-nai-katta-ku-nakatta"],
+    "te": ["kute-de"],
+    "neg+te": ["kute-de"],
+    "ba": ["ba"],
+    "tara": ["tara"],
+    "sou": ["sou-da-appearance"],
+    "sa": ["sa"]
+  }
+}

@@ -41,7 +41,9 @@ describe('JLPT lists (data/jlpt)', () => {
     expect([count(listed, (w) => w.level === 'n5'), count(listed, (w) => w.level === 'n4')]).toEqual([674, 630]);
     expect(vocabulary.filter((w) => w.extra).map((w) => `${w.word}:${w.reading}`)).toEqual(['私:わたし', '何:なに', '父:ちち', '母:はは', '日本:にほん', '日本語:にほんご', '日本人:にほんじん']);
     expect([count(kanji, (k) => k.level === 'n5'), count(kanji, (k) => k.level === 'n4')]).toEqual([80, 166]);
-    expect([count(grammar, (g) => g.level === 'n5'), count(grammar, (g) => g.level === 'n4')]).toEqual([81, 98]);
+    const listedGrammar = grammar.filter((g) => !g.extra);
+    expect([count(listedGrammar, (g) => g.level === 'n5'), count(listedGrammar, (g) => g.level === 'n4')]).toEqual([81, 98]);
+    expect(grammar.filter((g) => g.extra).map((g) => g.id)).toContain('x-counters');
     expect(kanji.find((k) => k.char === '分')?.level).toBe('n5');
   });
 
