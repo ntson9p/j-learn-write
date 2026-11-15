@@ -14,6 +14,9 @@ export const ROUTES: readonly RouteDef[] = [
   { pattern: '/guide', tab: 'settings', load: () => import('./pages/guide') },
   { pattern: '/kana', tab: 'learn', load: () => import('./pages/kana') },
   { pattern: '/kana/:char', tab: 'learn', load: () => import('./pages/kana') },
+  { pattern: '/lesson/:id', tab: 'learn', load: () => import('./pages/lesson') },
+  { pattern: '/practice/:id', tab: 'learn', load: () => import('./pages/practice') },
+  { pattern: '/quiz/:id', tab: 'learn', load: () => import('./pages/quiz') },
   { pattern: '/write', tab: 'learn', load: () => import('./pages/write') },
   { pattern: '/write/:char', tab: 'learn', load: () => import('./pages/write') },
   // Sections built in later phases of docs/plan.md show a placeholder until then.

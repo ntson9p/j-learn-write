@@ -44,6 +44,9 @@ const PAGES: [string, string][] = [
   ['#/guide', 'Hướng dẫn cài bộ gõ và giọng đọc'],
   ['#/kana', 'Bảng chữ kana'],
   ['#/kana/%E3%81%82', ''],
+  ['#/lesson/kana-01', ''],
+  ['#/practice/kana-01', ''],
+  ['#/quiz/kana-01', ''],
   ['#/write', 'Luyện viết'],
   ['#/about', 'Giới thiệu và giấy phép'],
 ];

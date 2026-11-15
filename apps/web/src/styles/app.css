@@ -668,11 +668,11 @@ input:not([type]) {
   color: var(--text);
   text-decoration: none;
 }
-.word-chip .hanzi {
+.word-chip .ja-word {
   font-size: 1.4rem;
 }
-.word-chip .pinyin,
-.dict-list .pinyin {
+.word-chip .reading,
+.dict-list .reading {
   color: var(--accent);
 }
 .word-chip .meaning {
@@ -688,12 +688,12 @@ input:not([type]) {
   justify-content: center;
   gap: 8px;
 }
-.hanzi-big {
+.ja-big {
   margin: 0;
   font-size: 3.4rem;
   line-height: 1.2;
 }
-.pinyin-big {
+.reading-big {
   margin: 4px 0;
   color: var(--accent);
   font-size: 1.3rem;
@@ -740,7 +740,7 @@ input:not([type]) {
 .mistakes li:first-child {
   border-top: 0;
 }
-.example-zh {
+.example-ja {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -754,10 +754,10 @@ ruby {
 }
 rt {
   color: var(--muted);
-  font-family: var(--font-ui);
-  font-size: 0.6em;
+  font-family: var(--font-ja);
+  font-size: 0.55em;
 }
-.pinyin-line {
+.ruby-line {
   line-height: 2.2;
 }
 .tag {
@@ -806,7 +806,7 @@ input[type='search'] {
   color: var(--text);
   text-decoration: none;
 }
-.dict-list .hanzi {
+.dict-list .ja-word {
   font-size: 1.3rem;
 }
 .dict-list .meaning {
@@ -851,6 +851,43 @@ input[type='search'] {
   border-color: var(--good);
 }
 
+/* Kana lessons */
+.lesson-kana {
+  margin-top: 8px;
+}
+.practice-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.practice-list li {
+  display: grid;
+  grid-template-columns: minmax(4em, auto) 1fr auto;
+  grid-template-areas: 'ja romaji speak' 'ja vi speak';
+  align-items: center;
+  column-gap: 12px;
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+}
+.practice-list li:first-child {
+  border-top: 0;
+}
+.practice-ja {
+  grid-area: ja;
+  font-size: 1.5rem;
+}
+.practice-romaji {
+  grid-area: romaji;
+  color: var(--accent);
+}
+.practice-vi {
+  grid-area: vi;
+  color: var(--muted);
+}
+.practice-list .icon-button {
+  grid-area: speak;
+}
+
 /* Exercises */
 .progress-bar {
   height: 6px;
@@ -868,11 +905,11 @@ input[type='search'] {
   margin-top: 0;
   font-weight: 600;
 }
-.ex-zh {
+.ex-ja {
   font-size: 1.5rem;
   margin: 8px 0;
 }
-.ex-zh-row {
+.ex-ja-row {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -900,6 +937,9 @@ input[type='search'] {
   font-size: 1.05rem;
   text-align: left;
   cursor: pointer;
+}
+.option [lang='ja'] {
+  font-size: 1.3em;
 }
 .option.picked {
   border-color: var(--accent);

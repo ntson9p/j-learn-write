@@ -3,21 +3,7 @@ import { describe, expect, it } from 'vitest';
 import { App } from '../src/app';
 import { navigate, syncFromLocation } from '../src/router';
 import { ROUTES } from '../src/routes';
-
-const JAPANESE = /[぀-ヿ㐀-鿿豈-﫿]/;
-
-/** Text nodes with kana or kanji that no ancestor marks as lang="ja". */
-export function untaggedJapanese(root: Node): string[] {
-  const found: string[] = [];
-  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
-  for (let node = walker.nextNode(); node; node = walker.nextNode()) {
-    const text = node.textContent ?? '';
-    if (!JAPANESE.test(text)) continue;
-    const lang = (node.parentElement?.closest('[lang]') as HTMLElement | null)?.lang;
-    if (lang !== 'ja') found.push(text.trim());
-  }
-  return found;
-}
+import { untaggedJapanese } from './untagged';
 
 describe('lang="ja"', () => {
   it('finds Japanese text outside lang="ja"', () => {
@@ -26,9 +12,11 @@ describe('lang="ja"', () => {
     expect(untaggedJapanese(div)).toEqual(['và 先生']);
   });
 
-  for (const route of ROUTES.filter((r) => !r.pattern.includes(':'))) {
-    it(`marks every Japanese text on ${route.pattern}`, async () => {
-      navigate(route.pattern);
+  /** Every route without parameters, and samples of the others. */
+  const paths = [...ROUTES.filter((r) => !r.pattern.includes(':')).map((r) => r.pattern), '/lesson/kana-01', '/practice/kana-01', '/quiz/kana-01', '/kana/あ', '/write/あ'];
+  for (const path of paths) {
+    it(`marks every Japanese text on ${path}`, async () => {
+      navigate(path);
       syncFromLocation();
       const { container } = render(<App />);
       await screen.findByRole('heading', { level: 1 });

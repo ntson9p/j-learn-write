@@ -3,7 +3,7 @@
  * phone layout, offline start through the service worker, license notices.
  * Set E2E_SCREENSHOTS=<dir> to save screenshots.
  */
-import { mkdirSync } from 'node:fs';
+import { mkdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { chromium, devices, type Browser, type Page } from 'playwright';
 import { preview, type PreviewServer } from 'vite';
@@ -35,7 +35,7 @@ afterAll(async () => {
 describe('app (production build)', () => {
   // Device emulation runs on Chromium (only Chromium is installed): it checks
   // viewport, pixel ratio, touch and user agent, not the WebKit engine itself.
-  const SCREENS = ['#/', '#/kana', '#/kana/%E3%81%82', '#/write', '#/write/%E5%AD%A6', '#/review', '#/dict', '#/progress', '#/settings', '#/guide', '#/about'];
+  const SCREENS = ['#/', '#/kana', '#/kana/%E3%81%82', '#/lesson/kana-01', '#/practice/kana-01', '#/quiz/kana-01', '#/write', '#/write/%E5%AD%A6', '#/review', '#/dict', '#/progress', '#/settings', '#/guide', '#/about'];
   for (const device of ['Pixel 7', 'iPhone 13'] as const) {
     it(`fits a phone screen without horizontal scrolling (${device})`, async () => {
       const { defaultBrowserType: _engine, ...descriptor } = devices[device];
@@ -129,6 +129,69 @@ describe('app (production build)', () => {
       await page.locator('.writer .notice').waitFor();
       await expect(page.locator('.writer .notice').textContent(), ch).resolves.toBe('Viết đúng hết các nét!');
     }
+    await context.close();
+  });
+
+  it('completes a kana lesson: practice, then a quiz passed at 80% or more', async () => {
+    type Ex = { id: string; type: string; promptVi?: string; vi?: string; options?: string[]; answer?: number; answers?: string[] };
+    const lesson = JSON.parse(readFileSync(join(appDir, '../../packages/course/data/lessons/kana/01.json'), 'utf8')) as { exercises: Ex[] };
+    const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const page = await context.newPage();
+    const errors: string[] = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+
+    await page.goto(`${base}#/lesson/kana-01`);
+    await page.getByRole('link', { name: 'Làm bài tập' }).click();
+    // Practice: answer every item (right or wrong) until the summary.
+    for (let i = 0; i < 40 && !(await page.getByText(/Hoàn thành: đúng/).count()); i++) {
+      const ex = page.locator('.exercise');
+      const type = await ex.getAttribute('data-type');
+      if (type === 'choice') await ex.locator('.option').first().click();
+      else if (type === 'order') {
+        while (await ex.locator('.tile-pool .tile').count()) await ex.locator('.tile-pool .tile').first().click();
+        await ex.getByRole('button', { name: 'Kiểm tra' }).click();
+      } else if (type === 'match') {
+        const left = ex.locator('.match-col').first().locator('.option');
+        const right = ex.locator('.match-col').nth(1).locator('.option');
+        for (let k = 0; k < (await left.count()); k++) {
+          for (let j = 0; j < (await right.count()); j++) {
+            if (await left.nth(k).isDisabled()) break;
+            await left.nth(k).click();
+            if (!(await right.nth(j).isDisabled())) await right.nth(j).click();
+          }
+        }
+      }
+      await page.locator('.feedback').waitFor();
+      await page.getByRole('button', { name: 'Tiếp tục' }).click();
+      await page.locator('.feedback').waitFor({ state: 'detached' });
+    }
+    await page.getByText(/Hoàn thành: đúng \d+\/\d+ câu/).waitFor();
+
+    // Quiz: answer right, using the lesson data.
+    await page.getByRole('link', { name: 'Làm bài kiểm tra cuối bài' }).click();
+    await page.getByRole('button', { name: 'Bắt đầu kiểm tra' }).click();
+    while (!(await page.getByTestId('quiz-result').count())) {
+      const ex = page.locator('.exercise');
+      const prompt = ((await ex.locator('.ex-prompt').textContent()) ?? '').trim();
+      const data = lesson.exercises.find((e) => (e.promptVi ?? e.vi) === prompt)!;
+      expect(data, prompt).toBeDefined();
+      if (data.type === 'choice') await ex.getByRole('radio', { name: data.options![data.answer!], exact: true }).click();
+      else if (data.type === 'order') {
+        for (const ch of data.answers![0]!) await ex.locator('.tile-pool .tile', { hasText: ch }).first().click();
+        await ex.getByRole('button', { name: 'Kiểm tra' }).click();
+      } else throw new Error(`unexpected quiz exercise ${data.id}`);
+      await expect(page.locator('.feedback').textContent(), data.id).resolves.toContain('Chính xác!');
+      await page.getByRole('button', { name: 'Tiếp tục' }).click();
+      // The next exercise, or the result once the score is saved.
+      await page.locator('.feedback').waitFor({ state: 'detached' });
+    }
+    await expect(page.getByTestId('quiz-result').textContent()).resolves.toContain('Điểm của bạn: 100/100');
+    await shot(page, 'quiz-kana-01');
+
+    await page.goto(base);
+    // Progress loads after the first render.
+    await page.locator('.lesson-item').first().locator('.state-badge', { hasText: 'Đã xong' }).waitFor();
+    expect(errors).toEqual([]);
     await context.close();
   });
 
