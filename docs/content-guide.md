@@ -21,7 +21,7 @@ Nội dung khóa học nằm trong `packages/course/data/` và theo giấy phép
 ## 2. Quy trình soạn một bài
 
 1. Xem bài cần dạy gì và được dùng gì: `npm run content:brief -w @j-learn-write/course -- n5-05`.
-2. Viết `data/lessons/n5/05.json` theo mẫu của bài đã có (mục 4). **Không** cần viết furigana.
+2. Viết `data/lessons/n5/05.json` theo mẫu của bài đã có (mục 4; bài mẫu đầy đủ: `data/lessons/n5/01.json`). **Không** cần viết furigana.
 3. Điền furigana và chuẩn hóa định dạng: `npm run content:fill -w @j-learn-write/course -- n5-05`. Nếu lệnh báo "ambiguous reading" (降ります: ふります hay おります), viết tay cách đọc đúng vào mục tương ứng của bảng `ruby` trong file bài (ví dụ `"雨が降ります。": "{雨|あめ}が{降|ふ}ります。"`), rồi chạy lại.
 4. Kiểm tra riêng bài đó: `CONTENT_FILTER=n5-05 npx vitest run --project course` (ở thư mục gốc). Sửa đến khi không còn lỗi, rồi chạy `npm run check`.
 
@@ -29,11 +29,14 @@ Nội dung khóa học nằm trong `packages/course/data/` và theo giấy phép
 
 **Kiểm soát từ vựng và dạng chia (bắt buộc, test tự kiểm tra).** Mọi câu tiếng Nhật của một bài chỉ được dùng:
 - từ của bài đó và các bài trước (cả cấp trước), viết theo một dạng được chấp nhận của từ (`forms` trong `vocabulary.json`);
-- hư từ (trợ từ, です, …), tên riêng trong `names.json`;
+- tên riêng trong `names.json`; tiền tố お/ご, hậu tố さん/人(じん)/語(ご)…;
+- **hư từ sau khi đã học điểm ngữ pháp của nó** (bảng `function` trong `data/form-grammar.json`): が sau `ga-subject` (hoặc một điểm có が), を sau `o`/`o-kudasai`, に sau `ni-time`…, で sau `de-place`/`de-means`, の sau `no`, から/まで sau `kara-from`/`made`, でした sau `deshita`, だ sau `da`; ではありません/じゃありません là một đơn vị (điểm `de-wa-arimasen-ja-nai`);
 - **dạng chia đã học**: ví dụ chưa học điểm `masu` thì không dùng 食べます; chưa học `x-te-form` thì không dùng 食べて; chưa học `x-dictionary-form` thì không dùng 食べる trong câu (bảng đầy đủ: `data/form-grammar.json`);
 - số + trợ số từ sau khi đã học điểm ngữ pháp của trợ số từ đó (`x-counters-basic`: つ, 人, 歳, 円; `x-counters`: 本, 枚, 冊…; `x-time`: 時, 分; `x-dates`: 月, 日, 年).
 
 Gặp từ không có trong khóa học, test báo "not a course word": đổi câu, hoặc (nếu là tên riêng hợp lý) thêm vào `names.json`.
+
+**Cách đọc của 何.** `content:fill` tự chọn なん trước です/で/だ/の/と và なに trước を/が/も/か và trong 何語; chỗ khác (ví dụ 「何」 đứng một mình làm phương án) phải ghi tay trong `ruby`.
 
 **Chữ viết.** Viết từ theo dạng trong danh sách (trường `word`): có kanji thì viết kanji, kể cả kanji chưa học (app tự hiện furigana); từ trong danh sách viết kana thì viết kana. Số: dùng chữ số Ả Rập cho giờ, ngày, giá tiền, số lượng (3時, 100円, 3本); chữ số kanji dạy ở bài số đếm. Dấu câu Nhật: 。、？！「」.
 
@@ -48,7 +51,7 @@ Gặp từ không có trong khóa học, test báo "not a course word": đổi c
 
 **Ngữ pháp (`grammar`).** `titleVi`, `summaryVi` (một câu), `explanationVi` (2–4 đoạn ngắn, viết cho người mới học, so sánh với tiếng Việt khi có ích), `patterns` (ví dụ "N1 は N2 です"), `examples` (2–4 câu), `mistakes` (lỗi hay gặp, **ưu tiên lỗi do thói quen tiếng Việt**: trật tự S-V-O, định ngữ đặt sau danh từ, あります/います, に/で…). Trong giải thích, chữ Nhật đặt trong 「」, chỗ nhấn mạnh viết `**…**`. Câu `mistakes.right` phải đúng và qua kiểm soát từ vựng; `wrong` phải thật sự sai (nếu chỉ sai ý định hoặc kém tự nhiên, ghi rõ trong `noteVi`). `issue` ghi mã lỗi của bộ chấm nếu bộ chấm bắt được lỗi đó.
 
-**Bài tập (`exercises`).** Mã `n5-05-e01`, `e02`… Mỗi điểm ngữ pháp của bài cần **ít nhất 3 bài tập** ghi `grammar: ["id"]`. Nên có 15–25 bài tập mỗi bài, đủ các dạng:
+**Bài tập (`exercises`).** Mã `n5-05-e01`, `e02`… Mỗi điểm ngữ pháp của bài cần **ít nhất 3 bài tập** ghi `grammar: ["id"]`. Nên có 15–25 bài tập mỗi bài, đủ các dạng (hiện chỉ dùng `choice`, `fill`, `order`, `match`: `translate` và `question` bị test từ chối cho tới khi có bộ chấm tiếng Nhật):
 
 | Dạng | Trường | Chấm |
 |---|---|---|
@@ -58,6 +61,8 @@ Gặp từ không có trong khóa học, test báo "not a course word": đổi c
 | `translate` | `vi`, `answers` (cú pháp `[a\|b](x)` của bộ chấm), `examples` | Bộ chấm loại `model` |
 | `question` | `question`: câu hỏi của bộ chấm (`count`, `location`, `model`) không có `id`, `lang` | Bộ chấm |
 | `match` | `promptVi`, `pairs` (tiếng Nhật ↔ nghĩa) | So cặp |
+
+**Chỉ một đáp án đúng.** Trong `choice` và `fill` có `options`, đúng **một** lựa chọn là đúng (cẩn thận với は/も, が/は: thêm `vi` hoặc `promptVi` để chỉ rõ ý). `fill` không có `options` phải liệt kê **mọi** cách điền đúng trong `answers`. Phương án sai cũng phải qua kiểm soát từ vựng (chỉ dùng từ, hư từ đã học). Câu tiếng Nhật có kanji đặt ở `ja` (để có furigana), không đặt trong `promptVi`.
 
 Với `translate` và `question`: liệt kê đủ các cách nói đúng phổ biến trong `answers` (viết cả dạng kanji; bộ chấm tự chấp nhận câu viết toàn kana), và thêm `examples` gồm vài câu đúng, vài câu sai kèm điểm mong đợi: mỗi ví dụ là một test.
 
