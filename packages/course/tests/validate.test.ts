@@ -48,6 +48,13 @@ describe('validateCourse', () => {
     expect(errors.filter((e) => !/should use/.test(e))).toEqual([]);
   });
 
+  it('checks that kana lessons use taught kana only, small kana included', () => {
+    const kanaLessons = base.curriculum.filter((l) => l.level === 'kana');
+    const kana02: LessonContent = { id: 'kana-02', goalsVi: ['g'], practice: [{ ja: 'おちゃ', vi: 'trà' }, { ja: 'すし', vi: 'sushi' }], exercises: [] };
+    const errors = validateCourse({ ...base, levels: { kana: 'planned', n5: 'planned', n4: 'planned' }, curriculum: kanaLessons, lessons: [kana02] }, tools);
+    expect(errors).toEqual(['kana-02 practice おちゃ: kana not taught yet: ゃ in 「おちゃ」']);
+  });
+
   it('checks the curriculum', () => {
     const errors = validateCourse(course({}, [{ ...lesson1, id: 'n5-1', words: [...lesson1.words!, no('学生')] }]), tools);
     expect(errors).toContain('n5-1: id must be <level>-<order, 2 digits>');

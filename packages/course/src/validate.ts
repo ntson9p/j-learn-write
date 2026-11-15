@@ -349,7 +349,7 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
       checkRuby(`${where} ${t.where}`, t.text, ruby[t.text]);
       if (t.where.includes('example') && !SENTENCE_END.test(t.text)) err(`${where} ${t.where}`, `「${t.text}」 must end with 。！？`);
       if (meta.level === 'kana') {
-        const unknownKana = kanaChecked.has(t.text) ? [...t.text].filter((c) => isKana(c) && c !== 'ー' && !kanaKnown.has(c) && !isSmallOrCombo(c)) : [];
+        const unknownKana = kanaChecked.has(t.text) ? [...t.text].filter((c) => isKana(c) && !kanaKnown.has(c)) : [];
         if ([...t.text].some(isKanji)) err(`${where} ${t.where}`, `kana lessons use no kanji: 「${t.text}」`);
         if (unknownKana.length > 0) err(`${where} ${t.where}`, `kana not taught yet: ${[...new Set(unknownKana)].join('')} in 「${t.text}」`);
         continue;
@@ -365,10 +365,6 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
   return errors;
 }
 
-/** Small kana and combinations are checked through the kana they are made of. */
-function isSmallOrCombo(c: string): boolean {
-  return 'ぁぃぅぇぉっゃゅょァィゥェォッャュョ'.includes(c);
-}
 
 /** The counter of a digits + counter token (3{本|ぼん}): its reading must end that token's reading. */
 function isCounterAfterDigits(before: string, seg: { text: string; rt?: string }, tools: CheckTools): boolean {
