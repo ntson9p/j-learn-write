@@ -1,0 +1,18 @@
+{
+  "name": "@j-learn-write/course",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Japanese course content (kana, JLPT N5-N4: words, kanji, grammar, lessons, exercises) for Vietnamese learners, with validators and tools.",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@j-learn-write/grader": "*"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "_doc": "Which lesson teaches which kana, words (numbers in jlpt/vocabulary.json), kanji and grammar points (ids in jlpt/grammar.json). Lesson content lives in lessons/<level>/<NN>.json. DRAFT: to be reviewed by a Japanese teacher.",
+  "lessons": []
+}
