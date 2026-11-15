@@ -936,7 +936,7 @@
 {"no":935,"level":"n4","openjlptId":"dd89673ae0","jmdictId":1315130,"word":"字","reading":"じ","ruby":"{字|じ}","forms":["字","じ"],"pos":["n"],"hanViet":"tự"},
 {"no":936,"level":"n4","openjlptId":"fd00937783","jmdictId":1312420,"word":"試合","reading":"しあい","ruby":"{試|し}{合|あい}","forms":["試合","しあい"],"pos":["n","vs","vi"],"hanViet":"thí cáp","hanVietAmbiguous":true},
 {"no":937,"level":"n4","openjlptId":"88125cd960","jmdictId":1594110,"word":"仕方","reading":"しかた","ruby":"{仕|し}{方|かた}","forms":["仕方","しかた"],"pos":["n"],"hanViet":"sĩ phương"},
-{"no":938,"level":"n4","openjlptId":"f9a20b5203","jmdictId":1394730,"word":"しかる","reading":"しかる","ruby":"しかる","forms":["しかる"],"pos":["adj-pn"]},
+{"no":938,"level":"n4","openjlptId":"f9a20b5203","jmdictId":1319580,"word":"しかる","reading":"しかる","ruby":"しかる","forms":["しかる","叱る"],"pos":["v5r","vt"]},
 {"no":939,"level":"n4","openjlptId":"7855de335f","jmdictId":1312350,"word":"試験","reading":"しけん","ruby":"{試|し}{験|けん}","forms":["試験","しけん"],"pos":["n","vs","vt"],"hanViet":"thí nghiệm"},
 {"no":940,"level":"n4","openjlptId":"7f6ffe3432","jmdictId":1313850,"word":"事故","reading":"じこ","ruby":"{事|じ}{故|こ}","forms":["事故","じこ"],"pos":["n"],"hanViet":"sự cố"},
 {"no":941,"level":"n4","openjlptId":"ba8831572d","jmdictId":1421210,"word":"地震","reading":"じしん","ruby":"{地|じ}{震|しん}","forms":["地震","じしん"],"pos":["n"],"hanViet":"địa chấn"},

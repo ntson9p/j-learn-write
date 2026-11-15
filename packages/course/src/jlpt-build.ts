@@ -59,6 +59,13 @@ export interface ExtraWord {
   level: string;
 }
 
+/** data/vocabulary-fixes.json: the written form and JMdict entry used instead of OpenJLPT's link. */
+export interface WordFix {
+  word: string;
+  jmdictId: number;
+  why: string;
+}
+
 export interface ExtraGrammar {
   id: string;
   level: string;
@@ -73,6 +80,8 @@ export interface BuildSources {
   extraGrammar: ExtraGrammar[];
   /** Words the course adds (data/vocabulary-extra.json). */
   extraWords: ExtraWord[];
+  /** Corrections to OpenJLPT words by OpenJLPT id (data/vocabulary-fixes.json). */
+  wordFixes: Record<string, WordFix>;
   kanji: OjKanji[];
   grammar: OjGrammar[];
   jmdict: JmEntry[];
@@ -164,7 +173,12 @@ export function buildJlptData(src: BuildSources): BuildResult {
     meaningsEn: [],
   }));
   const extraIds = new Set(extras.map((x) => x.id));
-  for (const w of [...src.vocabulary, ...extras]) {
+  const fixed = src.vocabulary.map((w) => {
+    const fix = src.wordFixes[w.id];
+    return fix ? { ...w, word: fix.word, jmdictId: fix.jmdictId } : w;
+  });
+  for (const id of Object.keys(src.wordFixes)) if (!src.vocabulary.some((w) => w.id === id)) problems.push(`vocabulary fix ${id}: no such OpenJLPT word`);
+  for (const w of [...fixed, ...extras]) {
     const entry = jm.get(w.jmdictId);
     if (!entry) throw new Error(`JMdict has no entry ${w.jmdictId} (${w.word})`);
     const no = (lock.words[w.id] ??= next++);

@@ -936,7 +936,7 @@
 {"no":935,"word":"字","reading":"じ","forms":["じ"],"pos":["n"]},
 {"no":936,"word":"試合","reading":"しあい","forms":["しあい"],"pos":["n","vs","vi"]},
 {"no":937,"word":"仕方","reading":"しかた","forms":["しかた"],"pos":["n"]},
-{"no":938,"word":"しかる","reading":"しかる","forms":[],"pos":["adj-pn"]},
+{"no":938,"word":"しかる","reading":"しかる","forms":["叱る"],"pos":["v5r","vt"]},
 {"no":939,"word":"試験","reading":"しけん","forms":["しけん"],"pos":["n","vs","vt"]},
 {"no":940,"word":"事故","reading":"じこ","forms":["じこ"],"pos":["n"]},
 {"no":941,"word":"地震","reading":"じしん","forms":["じしん"],"pos":["n"]},

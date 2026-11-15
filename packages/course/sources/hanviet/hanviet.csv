@@ -62,6 +62,8 @@ char,hanviet,pinyin
 否,"['bĩ', 'bỉ']",pi3
 吭,"['hàng', 'hạng']",hang2
 吭,['khang'],keng1
+呵,['a'],a1
+呵,['ha'],he1
 咽,['yết'],yan1
 咽,['yến'],yan4
 咽,['ế'],ye4
@@ -567,6 +569,7 @@ char,hanviet,pinyin
 口,['khẩu'],*
 古,['cổ'],*
 叮,['đinh'],*
+叱,['sất'],*
 史,['sử'],*
 右,['hữu'],*
 同,['đồng'],*

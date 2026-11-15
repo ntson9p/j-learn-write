@@ -1,0 +1,10 @@
+{
+  "_doc": "Corrections to OpenJLPT words, keyed by OpenJLPT id: the written form and JMdict entry the course uses instead of the upstream link. Each fix says why. Applied by sources:fetch (to keep the JMdict entry) and data:build.",
+  "fixes": {
+    "f9a20b5203": {
+      "word": "叱る",
+      "jmdictId": 1319580,
+      "why": "OpenJLPT links しかる to 然る (adj-pn, \"a particular\"); the N4 lists mean 叱る (to scold)."
+    }
+  }
+}

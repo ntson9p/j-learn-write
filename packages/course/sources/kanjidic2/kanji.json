@@ -187,6 +187,7 @@
 {"char":"叮","grade":null,"jlptOld":null,"strokes":5,"on":["テイ"],"kun":[],"vi":["Đinh"],"meaningsEn":["courtesy"]},
 {"char":"可","grade":5,"jlptOld":2,"strokes":5,"on":["カ","コク"],"kun":["-べ.き","-べ.し"],"vi":["Khả","Khắc"],"meaningsEn":["can","passable","approval"]},
 {"char":"台","grade":2,"jlptOld":3,"strokes":5,"on":["ダイ","タイ"],"kun":["うてな","われ","つかさ"],"vi":["Thai","Đài","Di"],"meaningsEn":["pedestal","a stand","counter for machines and vehicles"]},
+{"char":"叱","grade":null,"jlptOld":null,"strokes":5,"on":["シツ","シチ","カ"],"kun":["しか.る"],"vi":["Sất"],"meaningsEn":["scold","reprove"]},
 {"char":"史","grade":5,"jlptOld":2,"strokes":5,"on":["シ"],"kun":[],"vi":["Sử"],"meaningsEn":["history","chronicle"]},
 {"char":"右","grade":1,"jlptOld":4,"strokes":5,"on":["ウ","ユウ"],"kun":["みぎ"],"vi":["Hữu"],"meaningsEn":["right"]},
 {"char":"号","grade":3,"jlptOld":2,"strokes":5,"on":["ゴウ"],"kun":["さけ.ぶ","よびな"],"vi":["Hiệu"],"meaningsEn":["nickname","number","item","title","pseudonym"]},
@@ -207,6 +208,7 @@
 {"char":"呑","grade":null,"jlptOld":null,"strokes":7,"on":["トン","ドン"],"kun":["の.む"],"vi":["Thôn"],"meaningsEn":["drink"]},
 {"char":"周","grade":4,"jlptOld":2,"strokes":8,"on":["シュウ"],"kun":["まわ.り"],"vi":["Chu"],"meaningsEn":["circumference","circuit","lap"]},
 {"char":"味","grade":3,"jlptOld":3,"strokes":8,"on":["ミ"],"kun":["あじ","あじ.わう"],"vi":["Vị"],"meaningsEn":["flavor","taste"]},
+{"char":"呵","grade":null,"jlptOld":null,"strokes":8,"on":["カ"],"kun":["か.す","しか.る","わら.う"],"vi":["A","Ha","Kha","Há","Hà","Hả","Khá","Khà"],"meaningsEn":["scold","blow on","reprove"]},
 {"char":"呼","grade":6,"jlptOld":2,"strokes":8,"on":["コ"],"kun":["よ.ぶ"],"vi":["Hô","Há"],"meaningsEn":["call","call out to","invite"]},
 {"char":"命","grade":3,"jlptOld":2,"strokes":8,"on":["メイ","ミョウ"],"kun":["いのち"],"vi":["Mệnh"],"meaningsEn":["fate","command","decree","destiny","life"]},
 {"char":"咄","grade":null,"jlptOld":null,"strokes":8,"on":["トツ"],"kun":["はなし","しか.る"],"vi":["Đốt","Đoát"],"meaningsEn":["exclamation of surprise","cry out (in anger)","scold","talk","chat"]},
@@ -1243,5 +1245,6 @@
 {"char":"黄","grade":2,"jlptOld":2,"strokes":11,"on":["コウ","オウ"],"kun":["き","こ-"],"vi":["Hoàng"],"meaningsEn":["yellow"]},
 {"char":"黒","grade":2,"jlptOld":3,"strokes":11,"on":["コク"],"kun":["くろ","くろ.ずむ","くろ.い"],"vi":["Hắc"],"meaningsEn":["black"]},
 {"char":"鼻","grade":3,"jlptOld":2,"strokes":14,"on":["ビ"],"kun":["はな"],"vi":["Tị"],"meaningsEn":["nose","snout"]},
-{"char":"齒","grade":null,"jlptOld":null,"strokes":15,"on":["シ"],"kun":["よわい","は","よわ.い","よわい.する"],"vi":["Xỉ"],"meaningsEn":["tooth","cog"]}
+{"char":"齒","grade":null,"jlptOld":null,"strokes":15,"on":["シ"],"kun":["よわい","は","よわ.い","よわい.する"],"vi":["Xỉ"],"meaningsEn":["tooth","cog"]},
+{"char":"𠮟","grade":8,"jlptOld":null,"strokes":5,"on":["シツ","シチ","カ"],"kun":["しか.る"],"vi":[],"meaningsEn":["scold","reprove"]}
 ]
