@@ -1,0 +1,350 @@
+{
+  "id": "kana-06",
+  "goalsVi": [
+    "Đọc được âm ghép với ゃ ゅ ょ nhỏ: きゃ, しゅ, ちょ…",
+    "Đọc được âm ngắt っ nhỏ: きって, がっこう",
+    "Đọc được trường âm (nguyên âm kéo dài): おかあさん, がっこう, とけい"
+  ],
+  "practice": [
+    {
+      "ja": "きって",
+      "vi": "con tem"
+    },
+    {
+      "ja": "がっこう",
+      "vi": "trường học"
+    },
+    {
+      "ja": "ざっし",
+      "vi": "tạp chí"
+    },
+    {
+      "ja": "きっぷ",
+      "vi": "vé (tàu, xe)"
+    },
+    {
+      "ja": "おちゃ",
+      "vi": "trà"
+    },
+    {
+      "ja": "でんしゃ",
+      "vi": "tàu điện"
+    },
+    {
+      "ja": "いしゃ",
+      "vi": "bác sĩ"
+    },
+    {
+      "ja": "しゃしん",
+      "vi": "bức ảnh"
+    },
+    {
+      "ja": "りょこう",
+      "vi": "du lịch"
+    },
+    {
+      "ja": "びょういん",
+      "vi": "bệnh viện"
+    },
+    {
+      "ja": "びよういん",
+      "vi": "tiệm làm tóc"
+    },
+    {
+      "ja": "ひゃく",
+      "vi": "một trăm"
+    },
+    {
+      "ja": "きょう",
+      "vi": "hôm nay"
+    },
+    {
+      "ja": "べんきょう",
+      "vi": "việc học"
+    },
+    {
+      "ja": "おかあさん",
+      "vi": "mẹ"
+    },
+    {
+      "ja": "おとうさん",
+      "vi": "bố"
+    },
+    {
+      "ja": "とけい",
+      "vi": "đồng hồ"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-06-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"kya\"?",
+      "options": [
+        "きゃ",
+        "きや",
+        "ちゃ"
+      ],
+      "answer": 0,
+      "explainVi": "ゃ viết nhỏ thì ghép với chữ đứng trước thành một âm: き + ゃ = きゃ (kya); きや (や viết to) là hai âm \"ki-ya\"."
+    },
+    {
+      "id": "kana-06-e02",
+      "type": "choice",
+      "promptVi": "Chữ しょ đọc là gì?",
+      "options": [
+        "shiyo",
+        "sho",
+        "so"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-06-e03",
+      "type": "choice",
+      "promptVi": "Từ nào đọc là \"kitte\" (con tem)?",
+      "options": [
+        "きて",
+        "きって",
+        "きつて"
+      ],
+      "answer": 1,
+      "explainVi": "っ nhỏ không đọc thành âm riêng mà ngắt hơi trước phụ âm đứng sau, như gấp đôi phụ âm đó: きって = kit-te."
+    },
+    {
+      "id": "kana-06-e04",
+      "type": "choice",
+      "promptVi": "\"byouin\" (bệnh viện) viết thế nào?",
+      "options": [
+        "びょういん",
+        "びよういん",
+        "びょうき"
+      ],
+      "answer": 0,
+      "explainVi": "びょういん (bệnh viện) và びよういん (tiệm làm tóc) chỉ khác nhau ở ょ nhỏ và よ to."
+    },
+    {
+      "id": "kana-06-e05",
+      "type": "choice",
+      "promptVi": "Từ おかあさん nghĩa là gì?",
+      "options": [
+        "mẹ",
+        "bố",
+        "bà"
+      ],
+      "answer": 0,
+      "explainVi": "あ sau か kéo dài âm \"a\": o-ka-a-san (trường âm)."
+    },
+    {
+      "id": "kana-06-e06",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ryo\"?",
+      "options": [
+        "りゅ",
+        "りゃ",
+        "りょ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-06-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "きゃ",
+          "kya"
+        ],
+        [
+          "しゅ",
+          "shu"
+        ],
+        [
+          "ちょ",
+          "cho"
+        ],
+        [
+          "にゃ",
+          "nya"
+        ],
+        [
+          "ひゅ",
+          "hyu"
+        ]
+      ]
+    },
+    {
+      "id": "kana-06-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "じゃ",
+          "ja"
+        ],
+        [
+          "びょ",
+          "byo"
+        ],
+        [
+          "ぴゃ",
+          "pya"
+        ],
+        [
+          "みゅ",
+          "myu"
+        ],
+        [
+          "ぎょ",
+          "gyo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-06-e09",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "でんしゃ",
+          "tàu điện"
+        ],
+        [
+          "しゃしん",
+          "bức ảnh"
+        ],
+        [
+          "りょこう",
+          "du lịch"
+        ],
+        [
+          "おちゃ",
+          "trà"
+        ]
+      ]
+    },
+    {
+      "id": "kana-06-e10",
+      "type": "order",
+      "vi": "Ghép thành từ \"gakkou\" (trường học)",
+      "tiles": [
+        "こ",
+        "っ",
+        "が",
+        "う"
+      ],
+      "answers": [
+        "がっこう"
+      ]
+    },
+    {
+      "id": "kana-06-e11",
+      "type": "order",
+      "vi": "Ghép thành từ \"kyou\" (hôm nay)",
+      "tiles": [
+        "う",
+        "きょ"
+      ],
+      "answers": [
+        "きょう"
+      ]
+    },
+    {
+      "id": "kana-06-e12",
+      "type": "order",
+      "vi": "Ghép thành từ \"isha\" (bác sĩ)",
+      "tiles": [
+        "しゃ",
+        "い"
+      ],
+      "answers": [
+        "いしゃ"
+      ]
+    },
+    {
+      "id": "kana-06-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"benkyou\" (việc học)",
+      "tiles": [
+        "きょ",
+        "べ",
+        "う",
+        "ん"
+      ],
+      "answers": [
+        "べんきょう"
+      ]
+    },
+    {
+      "id": "kana-06-e14",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"một trăm\"?",
+      "options": [
+        "きゅう",
+        "ひゃく",
+        "じゅう"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-06-e15",
+      "type": "choice",
+      "promptVi": "Từ とけい nghĩa là gì?",
+      "options": [
+        "đồng hồ",
+        "con tem",
+        "tạp chí"
+      ],
+      "answer": 0,
+      "explainVi": "えい thường được đọc kéo dài thành \"ee\": tokee."
+    }
+  ],
+  "ruby": {
+    "きって": "きって",
+    "がっこう": "がっこう",
+    "ざっし": "ざっし",
+    "きっぷ": "きっぷ",
+    "おちゃ": "おちゃ",
+    "でんしゃ": "でんしゃ",
+    "いしゃ": "いしゃ",
+    "しゃしん": "しゃしん",
+    "りょこう": "りょこう",
+    "びょういん": "びょういん",
+    "びよういん": "びよういん",
+    "ひゃく": "ひゃく",
+    "きょう": "きょう",
+    "べんきょう": "べんきょう",
+    "おかあさん": "おかあさん",
+    "おとうさん": "おとうさん",
+    "とけい": "とけい",
+    "きゃ": "きゃ",
+    "きや": "きや",
+    "ちゃ": "ちゃ",
+    "きて": "きて",
+    "きつて": "きつて",
+    "びょうき": "びょうき",
+    "りゅ": "りゅ",
+    "りゃ": "りゃ",
+    "りょ": "りょ",
+    "しゅ": "しゅ",
+    "ちょ": "ちょ",
+    "にゃ": "にゃ",
+    "ひゅ": "ひゅ",
+    "じゃ": "じゃ",
+    "びょ": "びょ",
+    "ぴゃ": "ぴゃ",
+    "みゅ": "みゅ",
+    "ぎょ": "ぎょ",
+    "こ": "こ",
+    "っ": "っ",
+    "が": "が",
+    "う": "う",
+    "きょ": "きょ",
+    "しゃ": "しゃ",
+    "い": "い",
+    "べ": "べ",
+    "ん": "ん",
+    "きゅう": "きゅう",
+    "じゅう": "じゅう"
+  }
+}

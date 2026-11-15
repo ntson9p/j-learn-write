@@ -36,7 +36,7 @@ function course(content: Partial<LessonContent>, curriculum: CurriculumLesson[] 
     ruby: { '私は学生です。': '{私|わたし}は{学|がく}{生|せい}です。' },
     ...content,
   };
-  return { ...base, curriculum, lessons: [lesson] };
+  return { ...base, levels: { kana: 'planned', n5: 'planned', n4: 'planned' }, curriculum, lessons: [lesson] };
 }
 
 const only = (errors: string[], pattern: RegExp) => errors.filter((e) => pattern.test(e));

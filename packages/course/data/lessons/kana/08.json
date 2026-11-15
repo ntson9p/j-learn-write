@@ -1,0 +1,409 @@
+{
+  "id": "kana-08",
+  "goalsVi": [
+    "Đọc và viết được katakana từ ナ đến ン",
+    "Phân biệt được ン và ソ, ヌ và ス, ユ và コ",
+    "Đọc được tên nước, tên thành phố viết bằng katakana: アメリカ, ハノイ"
+  ],
+  "practice": [
+    {
+      "ja": "カメラ",
+      "vi": "máy ảnh"
+    },
+    {
+      "ja": "ホテル",
+      "vi": "khách sạn"
+    },
+    {
+      "ja": "メロン",
+      "vi": "dưa lưới"
+    },
+    {
+      "ja": "ミルク",
+      "vi": "sữa"
+    },
+    {
+      "ja": "トマト",
+      "vi": "cà chua"
+    },
+    {
+      "ja": "ナイフ",
+      "vi": "con dao"
+    },
+    {
+      "ja": "レモン",
+      "vi": "quả chanh"
+    },
+    {
+      "ja": "テニス",
+      "vi": "quần vợt"
+    },
+    {
+      "ja": "ワイン",
+      "vi": "rượu vang"
+    },
+    {
+      "ja": "アメリカ",
+      "vi": "nước Mỹ"
+    },
+    {
+      "ja": "マスク",
+      "vi": "khẩu trang"
+    },
+    {
+      "ja": "ロシア",
+      "vi": "nước Nga"
+    },
+    {
+      "ja": "キムチ",
+      "vi": "kim chi"
+    },
+    {
+      "ja": "ハノイ",
+      "vi": "Hà Nội"
+    },
+    {
+      "ja": "ホイアン",
+      "vi": "Hội An"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-08-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"n\"?",
+      "options": [
+        "ン",
+        "ソ",
+        "シ"
+      ],
+      "answer": 0,
+      "explainVi": "ン: chấm ở trên, nét dài hất từ dưới lên. ソ: nét dài kéo từ trên xuống."
+    },
+    {
+      "id": "kana-08-e02",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"nu\"?",
+      "options": [
+        "ス",
+        "ヌ",
+        "メ"
+      ],
+      "answer": 1,
+      "explainVi": "ヌ và ス đều bắt đầu bằng nét giống フ; ở ヌ nét chéo cắt qua nét đó, ở ス nét chéo tách ra phía dưới bên phải."
+    },
+    {
+      "id": "kana-08-e03",
+      "type": "choice",
+      "promptVi": "Chữ ユ đọc là gì?",
+      "options": [
+        "yu",
+        "ko",
+        "yo"
+      ],
+      "answer": 0,
+      "explainVi": "ユ có nét ngang dưới dài vượt ra ngoài; コ khép gọn ở góc; ヨ có ba nét ngang."
+    },
+    {
+      "id": "kana-08-e04",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ma\"?",
+      "options": [
+        "ム",
+        "ア",
+        "マ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-08-e05",
+      "type": "choice",
+      "promptVi": "Chữ ル đọc là gì?",
+      "options": [
+        "re",
+        "ru",
+        "ha"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-08-e06",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"wa\"?",
+      "options": [
+        "ワ",
+        "ウ",
+        "フ"
+      ],
+      "answer": 0,
+      "explainVi": "ウ giống ワ nhưng có thêm một chấm ở trên."
+    },
+    {
+      "id": "kana-08-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ナ",
+          "na"
+        ],
+        [
+          "ニ",
+          "ni"
+        ],
+        [
+          "ヌ",
+          "nu"
+        ],
+        [
+          "ネ",
+          "ne"
+        ],
+        [
+          "ノ",
+          "no"
+        ]
+      ]
+    },
+    {
+      "id": "kana-08-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ハ",
+          "ha"
+        ],
+        [
+          "ヒ",
+          "hi"
+        ],
+        [
+          "フ",
+          "fu"
+        ],
+        [
+          "ヘ",
+          "he"
+        ],
+        [
+          "ホ",
+          "ho"
+        ]
+      ]
+    },
+    {
+      "id": "kana-08-e09",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "マ",
+          "ma"
+        ],
+        [
+          "ミ",
+          "mi"
+        ],
+        [
+          "ム",
+          "mu"
+        ],
+        [
+          "メ",
+          "me"
+        ],
+        [
+          "モ",
+          "mo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-08-e10",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ヤ",
+          "ya"
+        ],
+        [
+          "ユ",
+          "yu"
+        ],
+        [
+          "ヨ",
+          "yo"
+        ],
+        [
+          "ワ",
+          "wa"
+        ],
+        [
+          "ン",
+          "n"
+        ]
+      ]
+    },
+    {
+      "id": "kana-08-e11",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ラ",
+          "ra"
+        ],
+        [
+          "リ",
+          "ri"
+        ],
+        [
+          "ル",
+          "ru"
+        ],
+        [
+          "レ",
+          "re"
+        ],
+        [
+          "ロ",
+          "ro"
+        ]
+      ]
+    },
+    {
+      "id": "kana-08-e12",
+      "type": "choice",
+      "promptVi": "\"hoteru\" (khách sạn) viết thế nào?",
+      "options": [
+        "ホテレ",
+        "ホテル",
+        "ホチル"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-08-e13",
+      "type": "choice",
+      "promptVi": "Từ ハノイ nghĩa là gì?",
+      "options": [
+        "Hà Nội",
+        "Hội An",
+        "nước Nga"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-08-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"kamera\" (máy ảnh)",
+      "tiles": [
+        "ラ",
+        "カ",
+        "メ"
+      ],
+      "answers": [
+        "カメラ"
+      ]
+    },
+    {
+      "id": "kana-08-e15",
+      "type": "order",
+      "vi": "Ghép thành từ \"remon\" (quả chanh)",
+      "tiles": [
+        "ン",
+        "モ",
+        "レ"
+      ],
+      "answers": [
+        "レモン"
+      ]
+    },
+    {
+      "id": "kana-08-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "トマト",
+          "cà chua"
+        ],
+        [
+          "ミルク",
+          "sữa"
+        ],
+        [
+          "ナイフ",
+          "con dao"
+        ],
+        [
+          "ワイン",
+          "rượu vang"
+        ]
+      ]
+    },
+    {
+      "id": "kana-08-e17",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"nước Mỹ\"?",
+      "options": [
+        "ロシア",
+        "ホイアン",
+        "アメリカ"
+      ],
+      "answer": 2
+    }
+  ],
+  "ruby": {
+    "カメラ": "カメラ",
+    "ホテル": "ホテル",
+    "メロン": "メロン",
+    "ミルク": "ミルク",
+    "トマト": "トマト",
+    "ナイフ": "ナイフ",
+    "レモン": "レモン",
+    "テニス": "テニス",
+    "ワイン": "ワイン",
+    "アメリカ": "アメリカ",
+    "マスク": "マスク",
+    "ロシア": "ロシア",
+    "キムチ": "キムチ",
+    "ハノイ": "ハノイ",
+    "ホイアン": "ホイアン",
+    "ン": "ン",
+    "ソ": "ソ",
+    "シ": "シ",
+    "ス": "ス",
+    "ヌ": "ヌ",
+    "メ": "メ",
+    "ム": "ム",
+    "ア": "ア",
+    "マ": "マ",
+    "ワ": "ワ",
+    "ウ": "ウ",
+    "フ": "フ",
+    "ナ": "ナ",
+    "ニ": "ニ",
+    "ネ": "ネ",
+    "ノ": "ノ",
+    "ハ": "ハ",
+    "ヒ": "ヒ",
+    "ヘ": "ヘ",
+    "ホ": "ホ",
+    "ミ": "ミ",
+    "モ": "モ",
+    "ヤ": "ヤ",
+    "ユ": "ユ",
+    "ヨ": "ヨ",
+    "ラ": "ラ",
+    "リ": "リ",
+    "ル": "ル",
+    "レ": "レ",
+    "ロ": "ロ",
+    "ホテレ": "ホテレ",
+    "ホチル": "ホチル",
+    "カ": "カ"
+  }
+}

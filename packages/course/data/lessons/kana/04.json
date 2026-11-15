@@ -1,0 +1,362 @@
+{
+  "id": "kana-04",
+  "goalsVi": [
+    "Đọc và viết được hàng ま, や, ら, わ và chữ ん",
+    "Biết を chỉ dùng làm trợ từ, đọc như \"o\"",
+    "Đọc được mọi từ viết bằng hiragana cơ bản: やま, くるま, にほん"
+  ],
+  "practice": [
+    {
+      "ja": "やま",
+      "vi": "núi"
+    },
+    {
+      "ja": "みみ",
+      "vi": "cái tai"
+    },
+    {
+      "ja": "むし",
+      "vi": "côn trùng"
+    },
+    {
+      "ja": "ゆき",
+      "vi": "tuyết"
+    },
+    {
+      "ja": "よる",
+      "vi": "ban đêm"
+    },
+    {
+      "ja": "さくら",
+      "vi": "hoa anh đào"
+    },
+    {
+      "ja": "くるま",
+      "vi": "xe ô tô"
+    },
+    {
+      "ja": "わたし",
+      "vi": "tôi"
+    },
+    {
+      "ja": "ほん",
+      "vi": "quyển sách"
+    },
+    {
+      "ja": "みせ",
+      "vi": "cửa hàng"
+    },
+    {
+      "ja": "にほん",
+      "vi": "Nhật Bản"
+    },
+    {
+      "ja": "みかん",
+      "vi": "quả quýt"
+    },
+    {
+      "ja": "れきし",
+      "vi": "lịch sử"
+    },
+    {
+      "ja": "もの",
+      "vi": "đồ vật"
+    },
+    {
+      "ja": "ほんをよむ",
+      "vi": "đọc sách"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-04-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ma\"?",
+      "options": [
+        "ま",
+        "ほ",
+        "も"
+      ],
+      "answer": 0,
+      "explainVi": "ま có hai nét ngang và một nét dọc xuyên qua, kết thúc bằng vòng nhỏ; ほ có thêm nét dọc bên trái."
+    },
+    {
+      "id": "kana-04-e02",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ru\"?",
+      "options": [
+        "ろ",
+        "る",
+        "ら"
+      ],
+      "answer": 1,
+      "explainVi": "る có vòng nhỏ ở cuối, ろ thì không."
+    },
+    {
+      "id": "kana-04-e03",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"re\"?",
+      "options": [
+        "わ",
+        "ね",
+        "れ"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-04-e04",
+      "type": "choice",
+      "promptVi": "Chữ り đọc là gì?",
+      "options": [
+        "ri",
+        "i",
+        "ko"
+      ],
+      "answer": 0,
+      "explainVi": "り có nét bên phải dài hơn; い có nét bên trái dài hơn."
+    },
+    {
+      "id": "kana-04-e05",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"n\"?",
+      "options": [
+        "そ",
+        "ん",
+        "ろ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-04-e06",
+      "type": "choice",
+      "promptVi": "Chữ を đọc là gì?",
+      "options": [
+        "wo",
+        "wa",
+        "ne"
+      ],
+      "answer": 0,
+      "explainVi": "を viết là \"wo\" nhưng thường đọc như お (\"o\"); chỉ dùng làm trợ từ, đứng sau tân ngữ: ほんをよむ (đọc sách)."
+    },
+    {
+      "id": "kana-04-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ま",
+          "ma"
+        ],
+        [
+          "み",
+          "mi"
+        ],
+        [
+          "む",
+          "mu"
+        ],
+        [
+          "め",
+          "me"
+        ],
+        [
+          "も",
+          "mo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-04-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "や",
+          "ya"
+        ],
+        [
+          "ゆ",
+          "yu"
+        ],
+        [
+          "よ",
+          "yo"
+        ],
+        [
+          "わ",
+          "wa"
+        ],
+        [
+          "ん",
+          "n"
+        ]
+      ]
+    },
+    {
+      "id": "kana-04-e09",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ら",
+          "ra"
+        ],
+        [
+          "り",
+          "ri"
+        ],
+        [
+          "る",
+          "ru"
+        ],
+        [
+          "れ",
+          "re"
+        ],
+        [
+          "ろ",
+          "ro"
+        ]
+      ]
+    },
+    {
+      "id": "kana-04-e10",
+      "type": "choice",
+      "promptVi": "\"yama\" (núi) viết thế nào?",
+      "options": [
+        "やま",
+        "やも",
+        "ゆま"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-04-e11",
+      "type": "choice",
+      "promptVi": "Từ くるま nghĩa là gì?",
+      "options": [
+        "xe ô tô",
+        "hoa anh đào",
+        "côn trùng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-04-e12",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "みみ",
+          "cái tai"
+        ],
+        [
+          "ゆき",
+          "tuyết"
+        ],
+        [
+          "よる",
+          "ban đêm"
+        ],
+        [
+          "みせ",
+          "cửa hàng"
+        ]
+      ]
+    },
+    {
+      "id": "kana-04-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"sakura\" (hoa anh đào)",
+      "tiles": [
+        "ら",
+        "く",
+        "さ"
+      ],
+      "answers": [
+        "さくら"
+      ]
+    },
+    {
+      "id": "kana-04-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"watashi\" (tôi)",
+      "tiles": [
+        "し",
+        "た",
+        "わ"
+      ],
+      "answers": [
+        "わたし"
+      ]
+    },
+    {
+      "id": "kana-04-e15",
+      "type": "order",
+      "vi": "Ghép thành từ \"nihon\" (Nhật Bản)",
+      "tiles": [
+        "ん",
+        "ほ",
+        "に"
+      ],
+      "answers": [
+        "にほん"
+      ]
+    },
+    {
+      "id": "kana-04-e16",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"quyển sách\"?",
+      "options": [
+        "ほし",
+        "はな",
+        "ほん"
+      ],
+      "answer": 2
+    }
+  ],
+  "ruby": {
+    "やま": "やま",
+    "みみ": "みみ",
+    "むし": "むし",
+    "ゆき": "ゆき",
+    "よる": "よる",
+    "さくら": "さくら",
+    "くるま": "くるま",
+    "わたし": "わたし",
+    "ほん": "ほん",
+    "みせ": "みせ",
+    "にほん": "にほん",
+    "みかん": "みかん",
+    "れきし": "れきし",
+    "もの": "もの",
+    "ほんをよむ": "ほんをよむ",
+    "ま": "ま",
+    "ほ": "ほ",
+    "も": "も",
+    "ろ": "ろ",
+    "る": "る",
+    "ら": "ら",
+    "わ": "わ",
+    "ね": "ね",
+    "れ": "れ",
+    "そ": "そ",
+    "ん": "ん",
+    "み": "み",
+    "む": "む",
+    "め": "め",
+    "や": "や",
+    "ゆ": "ゆ",
+    "よ": "よ",
+    "り": "り",
+    "やも": "やも",
+    "ゆま": "ゆま",
+    "く": "く",
+    "さ": "さ",
+    "し": "し",
+    "た": "た",
+    "に": "に",
+    "ほし": "ほし",
+    "はな": "はな"
+  }
+}

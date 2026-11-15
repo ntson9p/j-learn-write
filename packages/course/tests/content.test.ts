@@ -25,6 +25,12 @@ describe('course content', () => {
     expect(validateCourse({ ...data, lessons: [], levels: allComplete }, tools)).toEqual([]);
   });
 
+  it.skipIf(FILTER.length > 0)('has the content of every lesson of a complete level', () => {
+    const written = new Set(data.lessons.map((l) => l.id));
+    const missing = data.curriculum.filter((l) => data.levels[l.level] === 'complete' && !written.has(l.id)).map((l) => l.id);
+    expect(missing).toEqual([]);
+  });
+
   it('names each file after its lesson and keeps the canonical format (npm run content:fill)', () => {
     for (const f of lessonFiles(FILTER)) {
       const [, level, order] = /lessons\/(\w+)\/(\d+)\.json$/.exec(f.path) ?? [];

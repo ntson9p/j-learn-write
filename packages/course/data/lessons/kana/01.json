@@ -258,13 +258,13 @@
     {
       "id": "kana-01-e14",
       "type": "order",
-      "vi": "Ghép thành từ \"koko\" (chỗ này)",
+      "vi": "Ghép thành từ \"ike\" (cái ao)",
       "tiles": [
-        "こ",
-        "こ"
+        "け",
+        "い"
       ],
       "answers": [
-        "ここ"
+        "いけ"
       ]
     },
     {

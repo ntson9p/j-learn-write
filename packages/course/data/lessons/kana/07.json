@@ -1,0 +1,342 @@
+{
+  "id": "kana-07",
+  "goalsVi": [
+    "Biết katakana dùng để viết từ mượn và tên nước ngoài",
+    "Đọc và viết được katakana từ ア đến ト",
+    "Phân biệt được シ và ツ, ク và タ"
+  ],
+  "practice": [
+    {
+      "ja": "アイス",
+      "vi": "kem"
+    },
+    {
+      "ja": "テスト",
+      "vi": "bài kiểm tra"
+    },
+    {
+      "ja": "スイス",
+      "vi": "Thụy Sĩ"
+    },
+    {
+      "ja": "タイ",
+      "vi": "Thái Lan"
+    },
+    {
+      "ja": "ココア",
+      "vi": "ca cao (đồ uống)"
+    },
+    {
+      "ja": "サイト",
+      "vi": "trang web"
+    },
+    {
+      "ja": "キウイ",
+      "vi": "quả kiwi"
+    },
+    {
+      "ja": "テキスト",
+      "vi": "giáo trình"
+    },
+    {
+      "ja": "オアシス",
+      "vi": "ốc đảo"
+    },
+    {
+      "ja": "カカオ",
+      "vi": "hạt ca cao"
+    },
+    {
+      "ja": "アクセス",
+      "vi": "truy cập; đường đi tới"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-07-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"shi\"?",
+      "options": [
+        "シ",
+        "ツ",
+        "ソ"
+      ],
+      "answer": 0,
+      "explainVi": "シ: hai chấm xếp dọc bên trái, nét dài hất từ dưới lên. ツ: hai chấm nằm phía trên, nét dài kéo từ trên xuống."
+    },
+    {
+      "id": "kana-07-e02",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"tsu\"?",
+      "options": [
+        "シ",
+        "ツ",
+        "ン"
+      ],
+      "answer": 1,
+      "explainVi": "ツ: hai chấm nằm phía trên, nét dài kéo từ trên xuống. シ: hai chấm xếp dọc bên trái, nét dài hất từ dưới lên."
+    },
+    {
+      "id": "kana-07-e03",
+      "type": "choice",
+      "promptVi": "Chữ ソ đọc là gì?",
+      "options": [
+        "so",
+        "n",
+        "tsu"
+      ],
+      "answer": 0,
+      "explainVi": "ソ có một chấm và nét dài kéo từ trên xuống; ン (học ở bài sau) có nét dài hất từ dưới lên."
+    },
+    {
+      "id": "kana-07-e04",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ku\"?",
+      "options": [
+        "タ",
+        "ケ",
+        "ク"
+      ],
+      "answer": 2,
+      "explainVi": "タ giống ク nhưng có thêm một nét chéo bên trong."
+    },
+    {
+      "id": "kana-07-e05",
+      "type": "choice",
+      "promptVi": "Chữ チ đọc là gì?",
+      "options": [
+        "te",
+        "chi",
+        "sa"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-07-e06",
+      "type": "choice",
+      "promptVi": "Chữ katakana nào đọc giống hiragana か?",
+      "options": [
+        "ク",
+        "カ",
+        "ケ"
+      ],
+      "answer": 1,
+      "explainVi": "カ và か có hình gần giống nhau, cùng đọc là \"ka\"."
+    },
+    {
+      "id": "kana-07-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ア",
+          "a"
+        ],
+        [
+          "イ",
+          "i"
+        ],
+        [
+          "ウ",
+          "u"
+        ],
+        [
+          "エ",
+          "e"
+        ],
+        [
+          "オ",
+          "o"
+        ]
+      ]
+    },
+    {
+      "id": "kana-07-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "カ",
+          "ka"
+        ],
+        [
+          "キ",
+          "ki"
+        ],
+        [
+          "ク",
+          "ku"
+        ],
+        [
+          "ケ",
+          "ke"
+        ],
+        [
+          "コ",
+          "ko"
+        ]
+      ]
+    },
+    {
+      "id": "kana-07-e09",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "サ",
+          "sa"
+        ],
+        [
+          "シ",
+          "shi"
+        ],
+        [
+          "ス",
+          "su"
+        ],
+        [
+          "セ",
+          "se"
+        ],
+        [
+          "ソ",
+          "so"
+        ]
+      ]
+    },
+    {
+      "id": "kana-07-e10",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "タ",
+          "ta"
+        ],
+        [
+          "チ",
+          "chi"
+        ],
+        [
+          "ツ",
+          "tsu"
+        ],
+        [
+          "テ",
+          "te"
+        ],
+        [
+          "ト",
+          "to"
+        ]
+      ]
+    },
+    {
+      "id": "kana-07-e11",
+      "type": "choice",
+      "promptVi": "\"tesuto\" (bài kiểm tra) viết thế nào?",
+      "options": [
+        "テスト",
+        "チスト",
+        "テスソ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-07-e12",
+      "type": "choice",
+      "promptVi": "Từ タイ nghĩa là gì?",
+      "options": [
+        "Thụy Sĩ",
+        "ốc đảo",
+        "Thái Lan"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-07-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"aisu\" (kem)",
+      "tiles": [
+        "ス",
+        "イ",
+        "ア"
+      ],
+      "answers": [
+        "アイス"
+      ]
+    },
+    {
+      "id": "kana-07-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"kokoa\" (ca cao)",
+      "tiles": [
+        "ア",
+        "コ",
+        "コ"
+      ],
+      "answers": [
+        "ココア"
+      ]
+    },
+    {
+      "id": "kana-07-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "スイス",
+          "Thụy Sĩ"
+        ],
+        [
+          "キウイ",
+          "quả kiwi"
+        ],
+        [
+          "テキスト",
+          "giáo trình"
+        ],
+        [
+          "サイト",
+          "trang web"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "アイス": "アイス",
+    "テスト": "テスト",
+    "スイス": "スイス",
+    "タイ": "タイ",
+    "ココア": "ココア",
+    "サイト": "サイト",
+    "キウイ": "キウイ",
+    "テキスト": "テキスト",
+    "オアシス": "オアシス",
+    "カカオ": "カカオ",
+    "アクセス": "アクセス",
+    "シ": "シ",
+    "ツ": "ツ",
+    "ソ": "ソ",
+    "ン": "ン",
+    "タ": "タ",
+    "ケ": "ケ",
+    "ク": "ク",
+    "カ": "カ",
+    "ア": "ア",
+    "イ": "イ",
+    "ウ": "ウ",
+    "エ": "エ",
+    "オ": "オ",
+    "キ": "キ",
+    "コ": "コ",
+    "サ": "サ",
+    "ス": "ス",
+    "セ": "セ",
+    "チ": "チ",
+    "テ": "テ",
+    "ト": "ト",
+    "チスト": "チスト",
+    "テスソ": "テスソ"
+  }
+}
