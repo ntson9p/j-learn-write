@@ -1,6 +1,7 @@
 import { CURRICULUM, hasContent, LEVELS, type LevelId } from '@j-learn-write/course';
 import { useState } from 'preact/hooks';
 import { useAsync } from '../components/hooks';
+import { MixedText } from '../components/text';
 import type { PageProps } from '../components/lazy';
 import { sessionFor } from '../lib/cards';
 import { allLessonProgress, lessonStates, startLesson } from '../lib/progress';
@@ -50,8 +51,12 @@ export default function HomePage(_props: PageProps) {
               <a class="lesson-link" href={clickable ? href(`/lesson/${l.id}`) : undefined} aria-disabled={!clickable}>
                 <span class="lesson-order">{l.order}</span>
                 <span class="lesson-text">
-                  <span class="lesson-title">{l.titleVi}</span>
-                  <span class="lesson-topic muted">{l.topicVi}</span>
+                  <span class="lesson-title">
+                    <MixedText text={l.titleVi} />
+                  </span>
+                  <span class="lesson-topic muted">
+                    <MixedText text={l.topicVi} />
+                  </span>
                   {p && p.bestScore > 0 && <span class="muted">{T.home.bestScore(p.bestScore)}</span>}
                 </span>
                 <span class={`state-badge ${state}`}>{T.home.state[state]}</span>
