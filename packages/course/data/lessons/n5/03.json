@@ -1,0 +1,983 @@
+{
+  "id": "n5-03",
+  "goalsVi": [
+    "Hỏi và chỉ đường trong trường, nhà ga, cửa hàng: トイレはどこですか、あそこです",
+    "Nói lịch sự với こちら/そちら/あちら/どちら; giới thiệu người khác: こちらは田中さんです",
+    "Thêm sắc thái cuối câu: ね khi tìm sự đồng tình, xác nhận; よ khi báo điều người nghe chưa biết"
+  ],
+  "words": [
+    {
+      "no": 235,
+      "word": "ここ",
+      "meaningsVi": [
+        "chỗ này, ở đây (gần người nói)"
+      ],
+      "noteVi": "ここ chỉ nơi chốn; chỉ đồ vật dùng これ. Tiếng Việt \"đây\" dùng cho cả hai, nên dễ nhầm.",
+      "examples": [
+        {
+          "ja": "ここは教室です。",
+          "vi": "Đây là lớp học."
+        },
+        {
+          "ja": "すみません、ここはどこですか。",
+          "vi": "Xin lỗi, đây là đâu ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 340,
+      "word": "そこ",
+      "meaningsVi": [
+        "chỗ đó (gần người nghe)"
+      ],
+      "examples": [
+        {
+          "ja": "そこはトイレですよ。",
+          "vi": "Chỗ đó là nhà vệ sinh đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 16,
+      "word": "あそこ",
+      "meaningsVi": [
+        "chỗ kia, đằng kia (xa cả hai người)"
+      ],
+      "examples": [
+        {
+          "ja": "食堂はあそこです。",
+          "vi": "Nhà ăn ở đằng kia."
+        },
+        {
+          "ja": "あそこは駅です。",
+          "vi": "Chỗ kia là nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 427,
+      "word": "どこ",
+      "meaningsVi": [
+        "ở đâu, chỗ nào"
+      ],
+      "noteVi": "Là từ để hỏi nên không đứng trước は: 「トイレはどこですか」. Cách nói lịch sự hơn là どちら.",
+      "examples": [
+        {
+          "ja": "トイレはどこですか。",
+          "vi": "Nhà vệ sinh ở đâu?"
+        },
+        {
+          "ja": "ミンさんの会社はどこですか。",
+          "vi": "Công ty của anh Minh ở đâu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 242,
+      "word": "こちら",
+      "meaningsVi": [
+        "phía này, đây (lịch sự)",
+        "vị này, người này (khi giới thiệu)"
+      ],
+      "noteVi": "Cách nói lịch sự của ここ, これ và この人. Nhân viên cửa hàng, khách sạn thường dùng こちら/そちら/あちら khi nói với khách.",
+      "examples": [
+        {
+          "ja": "こちらは田中さんです。",
+          "vi": "Đây là anh Tanaka."
+        },
+        {
+          "ja": "お手洗いはこちらです。",
+          "vi": "Nhà vệ sinh ở phía này ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 341,
+      "word": "そちら",
+      "meaningsVi": [
+        "phía đó, đó (lịch sự)"
+      ],
+      "noteVi": "Cách nói lịch sự của そこ, それ. Còn dùng để chỉ người nghe hoặc phía người nghe một cách lịch sự.",
+      "examples": [
+        {
+          "ja": "教室はそちらです。",
+          "vi": "Lớp học ở phía đó ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 21,
+      "word": "あちら",
+      "meaningsVi": [
+        "phía kia, đằng kia (lịch sự)"
+      ],
+      "noteVi": "Cách nói lịch sự của あそこ, あれ.",
+      "examples": [
+        {
+          "ja": "図書館はあちらです。",
+          "vi": "Thư viện ở phía kia ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 431,
+      "word": "どちら",
+      "meaningsVi": [
+        "đâu, phía nào (lịch sự)",
+        "cái nào (chọn một trong hai)"
+      ],
+      "noteVi": "Cách nói lịch sự của どこ: 「お国はどちらですか」 (Anh/chị từ nước nào đến?). Khi chọn một trong hai vật, どちら nghĩa là \"cái nào\"; chọn trong ba vật trở lên dùng どれ.",
+      "examples": [
+        {
+          "ja": "お国はどちらですか。",
+          "vi": "Anh/chị là người nước nào ạ?"
+        },
+        {
+          "ja": "田中さんの傘はどちらですか。",
+          "vi": "Ô của anh Tanaka là cái nào (trong hai cái)?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 159,
+      "word": "学校",
+      "meaningsVi": [
+        "trường học"
+      ],
+      "noteVi": "Âm Hán Việt \"học hiệu\". Thường chỉ trường phổ thông, trường tiếng, trường nghề; trường đại học thường gọi là 大学.",
+      "examples": [
+        {
+          "ja": "ここは日本語の学校です。",
+          "vi": "Đây là trường tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 350,
+      "word": "大学",
+      "meaningsVi": [
+        "trường đại học"
+      ],
+      "noteVi": "Sinh viên đại học là 大学生 (だいがくせい).",
+      "examples": [
+        {
+          "ja": "田中さんの大学はどこですか。",
+          "vi": "Trường đại học của anh Tanaka ở đâu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 142,
+      "word": "会社",
+      "meaningsVi": [
+        "công ty"
+      ],
+      "noteVi": "Âm Hán Việt \"hội xã\" nhưng nghĩa là công ty. Nhân viên công ty là 会社員 (かいしゃいん). Hỏi lịch sự người khác làm ở công ty nào: 「会社はどちらですか」.",
+      "examples": [
+        {
+          "ja": "会社はどちらですか。",
+          "vi": "Anh/chị làm ở công ty nào ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 193,
+      "word": "教室",
+      "meaningsVi": [
+        "phòng học, lớp học",
+        "lớp dạy (một môn, một kỹ năng)"
+      ],
+      "noteVi": "Âm Hán Việt \"giáo thất\" (phòng dạy học). Cũng chỉ lớp dạy ngoài trường: 日本語教室 (lớp tiếng Nhật).",
+      "examples": [
+        {
+          "ja": "ここは教室です。",
+          "vi": "Đây là lớp học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 302,
+      "word": "食堂",
+      "meaningsVi": [
+        "nhà ăn, căng tin",
+        "quán ăn bình dân"
+      ],
+      "noteVi": "Âm Hán Việt \"thực đường\" (phòng ăn): nhà ăn của trường, công ty, hoặc quán ăn bình dân.",
+      "examples": [
+        {
+          "ja": "大学の食堂はどこですか。",
+          "vi": "Nhà ăn của trường đại học ở đâu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 430,
+      "word": "図書館",
+      "meaningsVi": [
+        "thư viện"
+      ],
+      "noteVi": "Âm Hán Việt \"đồ thư quán\": nơi chứa sách.",
+      "examples": [
+        {
+          "ja": "ここは大学の図書館です。",
+          "vi": "Đây là thư viện của trường đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 112,
+      "word": "お手洗い",
+      "meaningsVi": [
+        "nhà vệ sinh (lịch sự)"
+      ],
+      "noteVi": "Nghĩa đen là \"chỗ rửa tay\". Lịch sự hơn トイレ, hay dùng khi hỏi ở cửa hàng, nhà hàng, nhà người khác.",
+      "examples": [
+        {
+          "ja": "すみません、お手洗いはどこですか。",
+          "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 416,
+      "word": "トイレ",
+      "meaningsVi": [
+        "nhà vệ sinh"
+      ],
+      "noteVi": "Từ tiếng Anh toilet, dùng hằng ngày. Lịch sự hơn: お手洗い.",
+      "examples": [
+        {
+          "ja": "トイレはあそこですよ。",
+          "vi": "Nhà vệ sinh ở đằng kia đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 91,
+      "word": "駅",
+      "meaningsVi": [
+        "nhà ga (tàu điện, tàu hỏa)"
+      ],
+      "noteVi": "Chỉ ga tàu; bến xe buýt là バス停 (バスてい), không gọi là 駅. Tên ga + 駅: 東京駅 (ga Tokyo).",
+      "examples": [
+        {
+          "ja": "すみません、駅はどこですか。",
+          "vi": "Xin lỗi, nhà ga ở đâu ạ?"
+        },
+        {
+          "ja": "ここは東京駅です。",
+          "vi": "Đây là ga Tokyo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 406,
+      "word": "デパート",
+      "meaningsVi": [
+        "cửa hàng bách hóa, trung tâm thương mại"
+      ],
+      "noteVi": "Từ tiếng Anh department store rút gọn: cửa hàng lớn nhiều tầng, bán đủ loại hàng.",
+      "examples": [
+        {
+          "ja": "デパートはあちらです。",
+          "vi": "Cửa hàng bách hóa ở phía kia ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 209,
+      "word": "国",
+      "meaningsVi": [
+        "nước, đất nước",
+        "quê hương"
+      ],
+      "noteVi": "Âm Hán Việt \"quốc\". Hỏi lịch sự người nghe từ nước nào đến: 「お国はどちらですか」 (thêm お khi nói về nước của người khác).",
+      "examples": [
+        {
+          "ja": "お国はどちらですか。",
+          "vi": "Anh/chị là người nước nào ạ?"
+        },
+        {
+          "ja": "私の国はベトナムです。",
+          "vi": "Nước của tôi là Việt Nam."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 320,
+      "word": "すみません",
+      "meaningsVi": [
+        "xin lỗi, cho hỏi (khi gọi, bắt chuyện)",
+        "xin lỗi (khi có lỗi nhỏ)",
+        "cảm ơn (khi làm phiền người khác)"
+      ],
+      "noteVi": "Dùng rất nhiều: gọi nhân viên, bắt chuyện với người lạ (\"Xin lỗi, cho hỏi…\"), xin lỗi nhẹ, và cả để cảm ơn khi ai đó giúp mình.",
+      "examples": [
+        {
+          "ja": "すみません、駅はどこですか。",
+          "vi": "Xin lỗi, nhà ga ở đâu ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "学",
+      "meaningVi": "học",
+      "noteVi": "Dưới mái nhà (冖) có đứa trẻ (子): trẻ con đi học. Gặp trong 学生, 学校, 大学.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "校",
+      "meaningVi": "trường học",
+      "noteVi": "Bên trái là bộ mộc 木 (cây). Gặp trong 学校 (がっこう: trường học).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "生",
+      "meaningVi": "sống; sinh ra",
+      "noteVi": "Hình mầm cây mọc lên từ mặt đất. Gặp trong 学生 (học sinh), 先生 (thầy cô): đọc せい.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "先",
+      "meaningVi": "trước",
+      "noteVi": "先生 nghĩa đen là \"người sinh ra trước\", tức là thầy cô.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "koko-soko-asoko-doko",
+      "titleVi": "ここ / そこ / あそこ / どこ: chỗ này, chỗ đó, chỗ kia, ở đâu",
+      "summaryVi": "Từ chỉ nơi chốn: ここは教室です = Đây là lớp học; トイレはあそこです = Nhà vệ sinh ở đằng kia.",
+      "explanationVi": [
+        "**ここ, そこ, あそこ** chỉ **nơi chốn**, chia theo khoảng cách như これ/それ/あれ: ここ là chỗ gần người nói, そこ là chỗ gần người nghe, あそこ là chỗ xa cả hai. **どこ** là \"ở đâu\".",
+        "Có hai mẫu câu: 「ここは教室です」 = \"Đây là lớp học\" (nói chỗ này là chỗ gì) và 「教室はあそこです」 = \"Lớp học ở đằng kia\" (nói một nơi ở đâu). Tiếng Việt cần chữ \"ở\", tiếng Nhật chỉ cần です.",
+        "**こちら, そちら, あちら, どちら** là cách nói **lịch sự** (\"phía này, phía đó, phía kia, phía nào\"), hay dùng ở cửa hàng, công ty: 「お手洗いはあちらです」. Khi giới thiệu người: 「こちらは田中さんです」. Hỏi lịch sự nước của người nghe: 「お国はどちらですか」."
+      ],
+      "patterns": [
+        "ここ／そこ／あそこ は N です",
+        "N は ここ／そこ／あそこ です",
+        "N は どこ ですか"
+      ],
+      "examples": [
+        {
+          "ja": "ここは教室です。",
+          "vi": "Đây là lớp học."
+        },
+        {
+          "ja": "トイレはあそこです。",
+          "vi": "Nhà vệ sinh ở đằng kia."
+        },
+        {
+          "ja": "すみません、駅はどこですか。",
+          "vi": "Xin lỗi, nhà ga ở đâu ạ?"
+        },
+        {
+          "ja": "お手洗いはあちらです。",
+          "vi": "Nhà vệ sinh ở phía kia ạ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "どこはトイレですか。",
+          "right": "トイレはどこですか。",
+          "noteVi": "どこ là từ để hỏi, không đứng trước は. Như tiếng Việt \"Nhà vệ sinh ở đâu?\": nơi cần tìm đứng trước, どこ đứng ở chỗ của câu trả lời."
+        },
+        {
+          "wrong": "ここは私の本です。",
+          "right": "これは私の本です。",
+          "noteVi": "Tiếng Việt \"đây\" chỉ được cả đồ vật lẫn nơi chốn. Tiếng Nhật: đồ vật dùng これ, nơi chốn dùng ここ (ここは教室です)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ne",
+      "titleVi": "ね: … nhỉ, … phải không (tìm sự đồng tình, xác nhận)",
+      "summaryVi": "Đặt cuối câu khi người nói nghĩ người nghe cũng biết, cũng đồng ý, hoặc để xác nhận lại điều vừa nghe.",
+      "explanationVi": [
+        "**ね** đặt ở cuối câu, sau です. Người nói dùng ね khi nghĩ **người nghe cũng biết hoặc cũng đồng ý**, giống \"… nhỉ\", \"… phải không\" trong tiếng Việt: 「ここは大学の図書館ですね」 = \"Đây là thư viện của trường đại học nhỉ\".",
+        "ね còn dùng để **xác nhận lại** điều vừa nghe: A 「トイレはあそこです」, B 「あそこですね」 = \"Ở đằng kia phải không ạ?\".",
+        "Không dùng ね khi nói điều người nghe **chưa biết**. Chỉ đường cho người lạ, nói 「あそこです」 hay 「あそこですよ」, không nói 「あそこですね」."
+      ],
+      "patterns": [
+        "… ですね"
+      ],
+      "examples": [
+        {
+          "ja": "ここは大学の図書館ですね。",
+          "vi": "Đây là thư viện của trường đại học nhỉ."
+        },
+        {
+          "ja": "田中さんの会社は東京ですね。",
+          "vi": "Công ty của anh Tanaka ở Tokyo phải không?"
+        },
+        {
+          "ja": "トイレはあそこですね。",
+          "vi": "Nhà vệ sinh ở đằng kia phải không ạ?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "駅はあそこですね。",
+          "right": "駅はあそこですよ。",
+          "noteVi": "Tình huống: một người lạ hỏi đường và bạn chỉ cho họ. Họ chưa biết nên dùng よ (hoặc chỉ nói です). Câu bên trái không sai ngữ pháp, nhưng ね nghe như bạn đang hỏi lại người lạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "yo",
+      "titleVi": "よ: … đấy, … mà (báo cho người nghe biết)",
+      "summaryVi": "Đặt cuối câu khi báo cho người nghe một điều họ chưa biết, hoặc để nhấn mạnh.",
+      "explanationVi": [
+        "**よ** đặt ở cuối câu, sau です, khi người nói **báo cho người nghe một điều họ chưa biết**, giống \"… đấy\", \"… mà\" trong tiếng Việt: 「食堂はあそこですよ」 = \"Nhà ăn ở đằng kia đấy\".",
+        "So sánh: với **ね**, người nghe cũng biết và người nói tìm sự đồng tình; với **よ**, người nghe chưa biết và người nói cho họ biết.",
+        "Dùng よ quá nhiều với người trên có thể nghe như đang dạy bảo; với thầy cô, người lạ, chỉ cần 「…です」. Khi dùng cả hai, よ đứng trước ね: 「あれは駅ですよね」 = \"Kia là nhà ga, đúng không?\" (người nói gần như chắc chắn, muốn xác nhận)."
+      ],
+      "patterns": [
+        "… ですよ",
+        "… ですよね"
+      ],
+      "examples": [
+        {
+          "ja": "食堂はあそこですよ。",
+          "vi": "Nhà ăn ở đằng kia đấy."
+        },
+        {
+          "ja": "それは私の傘ですよ。",
+          "vi": "Đó là ô của tôi đấy."
+        },
+        {
+          "ja": "あれはデパートですよね。",
+          "vi": "Kia là cửa hàng bách hóa, đúng không?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "あれはデパートですねよ。",
+          "right": "あれはデパートですよね。",
+          "noteVi": "Khi dùng cả よ và ね, よ luôn đứng trước: ですよね."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-03-e01",
+      "type": "choice",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "promptVi": "Bạn đang đứng trong lớp học và nói với người bên cạnh: \"Đây là lớp học.\" Chọn câu đúng.",
+      "options": [
+        "ここは教室です。",
+        "あそこは教室です。",
+        "教室はどこですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-03-e02",
+      "type": "fill",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "before": "すみません、トイレは",
+      "after": "ですか。",
+      "answers": [
+        "どこ"
+      ],
+      "options": [
+        "どこ",
+        "どれ",
+        "誰"
+      ],
+      "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?"
+    },
+    {
+      "id": "n5-03-e03",
+      "type": "order",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "vi": "Nhà ăn ở đằng kia.",
+      "tiles": [
+        "あそこ",
+        "食堂",
+        "です",
+        "は"
+      ],
+      "answers": [
+        "食堂はあそこです"
+      ]
+    },
+    {
+      "id": "n5-03-e04",
+      "type": "choice",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "promptVi": "Thư viện ở xa cả hai người. Chọn câu trả lời đúng.",
+      "ja": "図書館はどこですか。",
+      "options": [
+        "あそこです。",
+        "あれです。",
+        "ここです。"
+      ],
+      "answer": 0,
+      "explainVi": "Hỏi どこ (ở đâu) thì trả lời bằng từ chỉ nơi chốn; nơi ở xa cả hai người là あそこ. あれ chỉ đồ vật."
+    },
+    {
+      "id": "n5-03-e05",
+      "type": "choice",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "promptVi": "Bạn là nhân viên cửa hàng bách hóa, khách hỏi nhà vệ sinh. Chọn câu lịch sự nhất.",
+      "options": [
+        "お手洗いはあちらです。",
+        "トイレはあそこです。",
+        "トイレはあそこですよ。"
+      ],
+      "answer": 0,
+      "explainVi": "お手洗い và あちら là cách nói lịch sự của トイレ và あそこ."
+    },
+    {
+      "id": "n5-03-e06",
+      "type": "order",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "vi": "Đây là anh Tanaka. (giới thiệu lịch sự)",
+      "tiles": [
+        "田中さん",
+        "は",
+        "こちら",
+        "です"
+      ],
+      "answers": [
+        "こちらは田中さんです"
+      ]
+    },
+    {
+      "id": "n5-03-e07",
+      "type": "choice",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "promptVi": "Câu này hỏi điều gì?",
+      "ja": "お国はどちらですか。",
+      "options": [
+        "Anh/chị là người nước nào?",
+        "Anh/chị đi về phía nào?",
+        "Anh/chị chọn cái nào?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-03-e08",
+      "type": "fill",
+      "grammar": [
+        "ne"
+      ],
+      "promptVi": "Hai bạn cùng bước vào thư viện. Bạn nói:",
+      "before": "ここは大学の図書館です",
+      "after": "。",
+      "answers": [
+        "ね"
+      ],
+      "options": [
+        "ね",
+        "よ",
+        "か"
+      ],
+      "vi": "Đây là thư viện của trường đại học nhỉ."
+    },
+    {
+      "id": "n5-03-e09",
+      "type": "fill",
+      "grammar": [
+        "yo"
+      ],
+      "promptVi": "Một bạn mới hỏi nhà ăn ở đâu. Bạn chỉ cho bạn ấy:",
+      "before": "食堂はあそこです",
+      "after": "。",
+      "answers": [
+        "よ"
+      ],
+      "options": [
+        "よ",
+        "ね",
+        "か"
+      ],
+      "vi": "Nhà ăn ở đằng kia đấy."
+    },
+    {
+      "id": "n5-03-e10",
+      "type": "choice",
+      "grammar": [
+        "yo"
+      ],
+      "promptVi": "Một người cầm nhầm ô của bạn. Bạn nhắc họ: \"Đó là ô của tôi đấy.\" Chọn câu phù hợp.",
+      "options": [
+        "それは私の傘ですよ。",
+        "それは私の傘ですね。",
+        "それは私の傘ですか。"
+      ],
+      "answer": 0,
+      "explainVi": "Người kia chưa biết đó là ô của bạn, nên bạn báo cho họ biết bằng よ."
+    },
+    {
+      "id": "n5-03-e11",
+      "type": "choice",
+      "grammar": [
+        "ne"
+      ],
+      "promptVi": "Hai người cùng nhìn một tòa nhà lớn mà cả hai đều biết. Bạn nói \"Kia là cửa hàng bách hóa nhỉ.\" Chọn câu đúng.",
+      "options": [
+        "あれはデパートですね。",
+        "あれはデパートですよ。",
+        "あれはデパートですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-03-e12",
+      "type": "choice",
+      "grammar": [
+        "ne"
+      ],
+      "promptVi": "Người kia vừa nói câu này. Bạn muốn xác nhận lại: \"Ở đằng kia phải không ạ?\"",
+      "ja": "トイレはあそこです。",
+      "options": [
+        "あそこですね。",
+        "あそこですよ。",
+        "あそこはトイレです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-03-e13",
+      "type": "order",
+      "grammar": [
+        "yo",
+        "koko-soko-asoko-doko"
+      ],
+      "vi": "Chỗ đó (chỗ bạn đang đứng) là nhà vệ sinh đấy.",
+      "tiles": [
+        "そこ",
+        "は",
+        "トイレ",
+        "です",
+        "よ"
+      ],
+      "answers": [
+        "そこはトイレですよ"
+      ]
+    },
+    {
+      "id": "n5-03-e14",
+      "type": "order",
+      "grammar": [
+        "ne"
+      ],
+      "vi": "Công ty của anh Tanaka ở Tokyo phải không?",
+      "tiles": [
+        "の",
+        "田中さん",
+        "会社",
+        "は",
+        "東京",
+        "ですね"
+      ],
+      "answers": [
+        "田中さんの会社は東京ですね"
+      ]
+    },
+    {
+      "id": "n5-03-e15",
+      "type": "choice",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "promptVi": "Chọn câu đúng: \"Đây là sách của tôi.\"",
+      "options": [
+        "これは私の本です。",
+        "ここは私の本です。",
+        "この私の本です。"
+      ],
+      "answer": 0,
+      "explainVi": "Đồ vật dùng これ; ここ chỉ nơi chốn."
+    },
+    {
+      "id": "n5-03-e16",
+      "type": "fill",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "before": "田中さんの大学は",
+      "after": "ですか。",
+      "answers": [
+        "どこ"
+      ],
+      "options": [
+        "どこ",
+        "どれ",
+        "どの"
+      ],
+      "vi": "Trường đại học của anh Tanaka ở đâu?"
+    },
+    {
+      "id": "n5-03-e17",
+      "type": "choice",
+      "grammar": [
+        "yo",
+        "ne"
+      ],
+      "promptVi": "Chọn cách nói đúng: \"Kia là nhà ga, đúng không?\"",
+      "options": [
+        "あれは駅ですよね。",
+        "あれは駅ですねよ。",
+        "あれは駅よですね。"
+      ],
+      "answer": 0,
+      "explainVi": "よ đứng trước ね, cả hai đứng sau です."
+    },
+    {
+      "id": "n5-03-e18",
+      "type": "choice",
+      "promptVi": "Bạn muốn hỏi đường một người lạ. Bạn bắt đầu bằng câu nào?",
+      "options": [
+        "すみません。",
+        "はじめまして。",
+        "どうぞよろしく。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-03-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "学校",
+          "trường học"
+        ],
+        [
+          "大学",
+          "trường đại học"
+        ],
+        [
+          "会社",
+          "công ty"
+        ],
+        [
+          "教室",
+          "phòng học"
+        ],
+        [
+          "食堂",
+          "nhà ăn"
+        ]
+      ]
+    },
+    {
+      "id": "n5-03-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "図書館",
+          "thư viện"
+        ],
+        [
+          "駅",
+          "nhà ga"
+        ],
+        [
+          "デパート",
+          "cửa hàng bách hóa"
+        ],
+        [
+          "国",
+          "đất nước"
+        ],
+        [
+          "お手洗い",
+          "nhà vệ sinh"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "ここは教室です。": "ここは{教|きょう}{室|しつ}です。",
+    "すみません、ここはどこですか。": "すみません、ここはどこですか。",
+    "そこはトイレですよ。": "そこはトイレですよ。",
+    "食堂はあそこです。": "{食|しょく}{堂|どう}はあそこです。",
+    "あそこは駅です。": "あそこは{駅|えき}です。",
+    "トイレはどこですか。": "トイレはどこですか。",
+    "ミンさんの会社はどこですか。": "ミンさんの{会|かい}{社|しゃ}はどこですか。",
+    "こちらは田中さんです。": "こちらは{田中|たなか}さんです。",
+    "お手洗いはこちらです。": "お{手|て}{洗|あら}いはこちらです。",
+    "教室はそちらです。": "{教|きょう}{室|しつ}はそちらです。",
+    "図書館はあちらです。": "{図|と}{書|しょ}{館|かん}はあちらです。",
+    "お国はどちらですか。": "お{国|くに}はどちらですか。",
+    "田中さんの傘はどちらですか。": "{田中|たなか}さんの{傘|かさ}はどちらですか。",
+    "ここは日本語の学校です。": "ここは{日本|にほん}{語|ご}の{学|がっ}{校|こう}です。",
+    "田中さんの大学はどこですか。": "{田中|たなか}さんの{大|だい}{学|がく}はどこですか。",
+    "会社はどちらですか。": "{会|かい}{社|しゃ}はどちらですか。",
+    "大学の食堂はどこですか。": "{大|だい}{学|がく}の{食|しょく}{堂|どう}はどこですか。",
+    "ここは大学の図書館です。": "ここは{大|だい}{学|がく}の{図|と}{書|しょ}{館|かん}です。",
+    "すみません、お手洗いはどこですか。": "すみません、お{手|て}{洗|あら}いはどこですか。",
+    "トイレはあそこですよ。": "トイレはあそこですよ。",
+    "すみません、駅はどこですか。": "すみません、{駅|えき}はどこですか。",
+    "ここは東京駅です。": "ここは{東京|とうきょう}{駅|えき}です。",
+    "デパートはあちらです。": "デパートはあちらです。",
+    "私の国はベトナムです。": "{私|わたし}の{国|くに}はベトナムです。",
+    "トイレはあそこです。": "トイレはあそこです。",
+    "お手洗いはあちらです。": "お{手|て}{洗|あら}いはあちらです。",
+    "どこはトイレですか。": "どこはトイレですか。",
+    "これは私の本です。": "これは{私|わたし}の{本|ほん}です。",
+    "ここは私の本です。": "ここは{私|わたし}の{本|ほん}です。",
+    "ここは大学の図書館ですね。": "ここは{大|だい}{学|がく}の{図|と}{書|しょ}{館|かん}ですね。",
+    "田中さんの会社は東京ですね。": "{田中|たなか}さんの{会|かい}{社|しゃ}は{東京|とうきょう}ですね。",
+    "トイレはあそこですね。": "トイレはあそこですね。",
+    "駅はあそこですよ。": "{駅|えき}はあそこですよ。",
+    "駅はあそこですね。": "{駅|えき}はあそこですね。",
+    "食堂はあそこですよ。": "{食|しょく}{堂|どう}はあそこですよ。",
+    "それは私の傘ですよ。": "それは{私|わたし}の{傘|かさ}ですよ。",
+    "あれはデパートですよね。": "あれはデパートですよね。",
+    "あれはデパートですねよ。": "あれはデパートですねよ。",
+    "あそこは教室です。": "あそこは{教|きょう}{室|しつ}です。",
+    "教室はどこですか。": "{教|きょう}{室|しつ}はどこですか。",
+    "すみません、トイレはどこですか。": "すみません、トイレはどこですか。",
+    "どこ": "どこ",
+    "どれ": "どれ",
+    "誰": "{誰|だれ}",
+    "あそこ": "あそこ",
+    "食堂": "{食|しょく}{堂|どう}",
+    "です": "です",
+    "は": "は",
+    "食堂はあそこです": "{食|しょく}{堂|どう}はあそこです",
+    "図書館はどこですか。": "{図|と}{書|しょ}{館|かん}はどこですか。",
+    "あそこです。": "あそこです。",
+    "あれです。": "あれです。",
+    "ここです。": "ここです。",
+    "田中さん": "{田中|たなか}さん",
+    "こちら": "こちら",
+    "こちらは田中さんです": "こちらは{田中|たなか}さんです",
+    "ね": "ね",
+    "よ": "よ",
+    "か": "か",
+    "それは私の傘ですね。": "それは{私|わたし}の{傘|かさ}ですね。",
+    "それは私の傘ですか。": "それは{私|わたし}の{傘|かさ}ですか。",
+    "あれはデパートですね。": "あれはデパートですね。",
+    "あれはデパートですよ。": "あれはデパートですよ。",
+    "あれはデパートですか。": "あれはデパートですか。",
+    "あそこですね。": "あそこですね。",
+    "あそこですよ。": "あそこですよ。",
+    "あそこはトイレです。": "あそこはトイレです。",
+    "そこ": "そこ",
+    "トイレ": "トイレ",
+    "そこはトイレですよ": "そこはトイレですよ",
+    "の": "の",
+    "会社": "{会|かい}{社|しゃ}",
+    "東京": "{東京|とうきょう}",
+    "ですね": "ですね",
+    "田中さんの会社は東京ですね": "{田中|たなか}さんの{会|かい}{社|しゃ}は{東京|とうきょう}ですね",
+    "この私の本です。": "この{私|わたし}の{本|ほん}です。",
+    "どの": "どの",
+    "あれは駅ですよね。": "あれは{駅|えき}ですよね。",
+    "あれは駅ですねよ。": "あれは{駅|えき}ですねよ。",
+    "あれは駅よですね。": "あれは{駅|えき}よですね。",
+    "すみません。": "すみません。",
+    "はじめまして。": "はじめまして。",
+    "どうぞよろしく。": "どうぞよろしく。",
+    "学校": "{学|がっ}{校|こう}",
+    "大学": "{大|だい}{学|がく}",
+    "教室": "{教|きょう}{室|しつ}",
+    "図書館": "{図|と}{書|しょ}{館|かん}",
+    "駅": "{駅|えき}",
+    "デパート": "デパート",
+    "国": "{国|くに}",
+    "お手洗い": "お{手|て}{洗|あら}い"
+  }
+}

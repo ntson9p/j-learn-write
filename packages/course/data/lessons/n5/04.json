@@ -1,0 +1,1202 @@
+{
+  "id": "n5-04",
+  "goalsVi": [
+    "Đọc và nói số từ 0 đến hàng vạn; hiểu cách tách số theo 万 (10.000) của tiếng Nhật",
+    "Đếm đồ vật (一つ, 二つ…), người (〜人), tuổi (〜歳), tiền (〜円); hỏi いくら, 何人, 何歳",
+    "Mua hàng: hỏi giá, nói これをください, ノートを二つください; cảm ơn bằng ありがとう, どうも"
+  ],
+  "words": [
+    {
+      "no": 1314,
+      "word": "ありがとうございます",
+      "meaningsVi": [
+        "cảm ơn (lịch sự)"
+      ],
+      "noteVi": "Cách nói lịch sự của ありがとう, dùng với người lạ, người trên. どうも đứng trước để nhấn mạnh.",
+      "examples": [
+        {
+          "ja": "どうもありがとうございます。",
+          "vi": "Cảm ơn anh chị rất nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 57,
+      "word": "一",
+      "meaningsVi": [
+        "một (số 1)"
+      ],
+      "noteVi": "Đọc いち. Một cái (đồ vật) là 一つ (ひとつ); một người là 1人 (ひとり).",
+      "examples": [
+        {
+          "ja": "一、二、三！",
+          "vi": "Một, hai, ba!"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 463,
+      "word": "二",
+      "meaningsVi": [
+        "hai (số 2)"
+      ],
+      "noteVi": "Đọc に. Hai cái là 二つ (ふたつ); hai người là 2人 (ふたり).",
+      "examples": [
+        {
+          "ja": "一、二、三！",
+          "vi": "Một, hai, ba!"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 272,
+      "word": "三",
+      "meaningsVi": [
+        "ba (số 3)"
+      ],
+      "noteVi": "Đọc さん. Chú ý biến âm: 300 さんびゃく, 3.000 さんぜん.",
+      "examples": [
+        {
+          "ja": "一、二、三！",
+          "vi": "Một, hai, ba!"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 274,
+      "word": "四",
+      "meaningsVi": [
+        "bốn (số 4)"
+      ],
+      "noteVi": "Có hai cách đọc: よん (thường dùng nhất) và し (khi đếm một, hai, ba… và trong một số từ). Người Nhật hay tránh し vì đồng âm với 死 (chết). 4人 đọc よにん, 400 đọc よんひゃく.",
+      "examples": [
+        {
+          "ja": "一、二、三、四、五。",
+          "vi": "Một, hai, ba, bốn, năm."
+        },
+        {
+          "ja": "五、四、三、二、一！",
+          "vi": "Năm, bốn, ba, hai, một! (đếm ngược)"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 227,
+      "word": "五",
+      "meaningsVi": [
+        "năm (số 5)"
+      ],
+      "examples": [
+        {
+          "ja": "五、四、三、二、一！",
+          "vi": "Năm, bốn, ba, hai, một! (đếm ngược)"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 666,
+      "word": "六",
+      "meaningsVi": [
+        "sáu (số 6)"
+      ],
+      "noteVi": "Đọc ろく. Chú ý biến âm: 600 ろっぴゃく.",
+      "examples": [
+        {
+          "ja": "六、七、八、九、十。",
+          "vi": "Sáu, bảy, tám, chín, mười."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 282,
+      "word": "七",
+      "meaningsVi": [
+        "bảy (số 7)"
+      ],
+      "noteVi": "Có hai cách đọc: なな (thường dùng nhất, nhất là khi đếm ngược và trong số lớn: 70 ななじゅう) và しち (khi đếm một, hai, ba…).",
+      "examples": [
+        {
+          "ja": "六、七、八、九、十。",
+          "vi": "Sáu, bảy, tám, chín, mười."
+        },
+        {
+          "ja": "十、九、八、七、六、五、四、三、二、一！",
+          "vi": "Mười, chín, tám, bảy, sáu, năm, bốn, ba, hai, một! (đếm ngược)"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 500,
+      "word": "八",
+      "meaningsVi": [
+        "tám (số 8)"
+      ],
+      "noteVi": "Đọc はち. Chú ý biến âm: 800 はっぴゃく, 8.000 はっせん.",
+      "examples": [
+        {
+          "ja": "六、七、八、九、十。",
+          "vi": "Sáu, bảy, tám, chín, mười."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 189,
+      "word": "九",
+      "meaningsVi": [
+        "chín (số 9)"
+      ],
+      "noteVi": "Thường đọc きゅう; cách đọc く gặp trong 9時 (くじ: 9 giờ, học ở bài 5).",
+      "examples": [
+        {
+          "ja": "六、七、八、九、十。",
+          "vi": "Sáu, bảy, tám, chín, mười."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 296,
+      "word": "十",
+      "meaningsVi": [
+        "mười (số 10)"
+      ],
+      "noteVi": "Đọc じゅう. Ghép số như tiếng Việt: 十一 (11), 二十 (20). Khi đếm đồ vật, mười cái là とお.",
+      "examples": [
+        {
+          "ja": "六、七、八、九、十。",
+          "vi": "Sáu, bảy, tám, chín, mười."
+        },
+        {
+          "ja": "十、九、八、七、六、五、四、三、二、一！",
+          "vi": "Mười, chín, tám, bảy, sáu, năm, bốn, ba, hai, một! (đếm ngược)"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 530,
+      "word": "百",
+      "meaningsVi": [
+        "trăm (số 100)"
+      ],
+      "noteVi": "100 là 百, không nói 一百 như \"một trăm\". Chú ý biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく.",
+      "examples": [
+        {
+          "ja": "百は100です。",
+          "vi": "百 (hyaku) là 100."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 332,
+      "word": "千",
+      "meaningsVi": [
+        "nghìn (số 1.000)"
+      ],
+      "noteVi": "1.000 là 千, không thêm 一 ở trước. Chú ý biến âm: 3.000 さんぜん, 8.000 はっせん.",
+      "examples": [
+        {
+          "ja": "千は1,000です。",
+          "vi": "千 (sen) là 1.000."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 590,
+      "word": "万",
+      "meaningsVi": [
+        "vạn, mười nghìn (số 10.000)"
+      ],
+      "noteVi": "Âm Hán Việt \"vạn\". Tiếng Nhật đếm số lớn theo nhóm 4 chữ số: 10.000 là 一万 (いちまん), 100.000 là 十万, 1.000.000 (một triệu) là 百万. Khác 百 và 千, trước 万 phải có số: 一万.",
+      "examples": [
+        {
+          "ja": "万は10,000です。",
+          "vi": "万 (man) là 10.000 (mười nghìn)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 526,
+      "word": "一つ",
+      "meaningsVi": [
+        "một cái, một chiếc (đồ vật)"
+      ],
+      "noteVi": "Cách đếm đồ vật kiểu Nhật (ひとつ, ふたつ…), dùng cho đồ vật không có trợ số từ riêng hoặc khi không biết đếm bằng gì.",
+      "examples": [
+        {
+          "ja": "これを一つください。",
+          "vi": "Cho tôi một cái này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 542,
+      "word": "二つ",
+      "meaningsVi": [
+        "hai cái"
+      ],
+      "examples": [
+        {
+          "ja": "それを二つください。",
+          "vi": "Cho tôi hai cái đó."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 600,
+      "word": "三つ",
+      "meaningsVi": [
+        "ba cái"
+      ],
+      "examples": [
+        {
+          "ja": "私のかばんは三つです。",
+          "vi": "Tôi có ba cái túi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 644,
+      "word": "四つ",
+      "meaningsVi": [
+        "bốn cái"
+      ],
+      "noteVi": "Đọc よっつ, không đọc しつ.",
+      "examples": [
+        {
+          "ja": "一つ、二つ、三つ、四つ、五つ。",
+          "vi": "Một cái, hai cái, ba cái, bốn cái, năm cái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 63,
+      "word": "五つ",
+      "meaningsVi": [
+        "năm cái"
+      ],
+      "examples": [
+        {
+          "ja": "これを五つください。",
+          "vi": "Cho tôi năm cái này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 610,
+      "word": "六つ",
+      "meaningsVi": [
+        "sáu cái"
+      ],
+      "examples": [
+        {
+          "ja": "あれを六つください。",
+          "vi": "Cho tôi sáu cái kia."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 455,
+      "word": "七つ",
+      "meaningsVi": [
+        "bảy cái"
+      ],
+      "noteVi": "Đọc ななつ, không đọc しちつ.",
+      "examples": [
+        {
+          "ja": "六つ、七つ、八つ、九つ。",
+          "vi": "Sáu cái, bảy cái, tám cái, chín cái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 629,
+      "word": "八つ",
+      "meaningsVi": [
+        "tám cái"
+      ],
+      "examples": [
+        {
+          "ja": "六つ、七つ、八つ、九つ。",
+          "vi": "Sáu cái, bảy cái, tám cái, chín cái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 238,
+      "word": "九つ",
+      "meaningsVi": [
+        "chín cái"
+      ],
+      "noteVi": "Mười cái là とお (viết 十).",
+      "examples": [
+        {
+          "ja": "六つ、七つ、八つ、九つ。",
+          "vi": "Sáu cái, bảy cái, tám cái, chín cái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 50,
+      "word": "いくら",
+      "meaningsVi": [
+        "bao nhiêu (tiền)"
+      ],
+      "noteVi": "Dùng để hỏi giá tiền: 「この傘はいくらですか」. Hỏi số lượng \"mấy cái\" dùng いくつ (học sau).",
+      "examples": [
+        {
+          "ja": "この傘はいくらですか。",
+          "vi": "Cái ô này bao nhiêu tiền?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 204,
+      "word": "ください",
+      "meaningsVi": [
+        "xin cho tôi, làm ơn đưa cho tôi"
+      ],
+      "noteVi": "Đứng cuối câu, sau 「N を」: 「これをください」 = \"Cho tôi cái này\", hay dùng khi mua hàng, gọi món.",
+      "examples": [
+        {
+          "ja": "これをください。",
+          "vi": "Cho tôi cái này."
+        },
+        {
+          "ja": "すみません、その傘をください。",
+          "vi": "Xin lỗi, cho tôi cái ô đó."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 39,
+      "word": "ありがとう",
+      "meaningsVi": [
+        "cảm ơn"
+      ],
+      "noteVi": "ありがとう là cách nói thân mật, dùng với bạn bè, người nhà, người dưới. Với người trên, người lạ, khách hàng, nói lịch sự: ありがとうございます.",
+      "examples": [
+        {
+          "ja": "田中さん、ありがとう。",
+          "vi": "Cảm ơn anh Tanaka."
+        },
+        {
+          "ja": "どうもありがとう。",
+          "vi": "Cảm ơn nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 422,
+      "word": "どうも",
+      "meaningsVi": [
+        "cảm ơn (nói ngắn)",
+        "rất, thật (đứng trước ありがとう, すみません)"
+      ],
+      "noteVi": "Một mình どうも là lời cảm ơn ngắn, nhẹ, ví dụ khi nhận đồ ở cửa hàng. Đứng trước ありがとう, すみません để nhấn mạnh: どうもありがとう (cảm ơn nhiều), どうもすみません (thật xin lỗi).",
+      "examples": [
+        {
+          "ja": "どうもありがとう。",
+          "vi": "Cảm ơn nhiều."
+        },
+        {
+          "ja": "どうもすみません。",
+          "vi": "Thật xin lỗi. / Cảm ơn (vì đã làm phiền)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 596,
+      "word": "店",
+      "meaningsVi": [
+        "cửa hàng, quán"
+      ],
+      "noteVi": "Âm Hán Việt \"điếm\" (tiệm). Từ chung cho cửa hàng và quán ăn.",
+      "examples": [
+        {
+          "ja": "あの店は何の店ですか。",
+          "vi": "Cửa hàng kia là cửa hàng gì?"
+        },
+        {
+          "ja": "この店のかばんはいくらですか。",
+          "vi": "Túi ở cửa hàng này giá bao nhiêu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "一",
+      "meaningVi": "một",
+      "noteVi": "Một nét ngang.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "二",
+      "meaningVi": "hai",
+      "noteVi": "Hai nét ngang, nét dưới dài hơn.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "三",
+      "meaningVi": "ba",
+      "noteVi": "Ba nét ngang, nét giữa ngắn nhất, nét dưới dài nhất.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "四",
+      "meaningVi": "bốn",
+      "noteVi": "Một khung vuông, bên trong có hai nét cong (儿).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "五",
+      "meaningVi": "năm",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "六",
+      "meaningVi": "sáu",
+      "noteVi": "Trên là chấm và nét ngang (亠), dưới là hai nét tách ra như chữ 八.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "七",
+      "meaningVi": "bảy",
+      "noteVi": "Nét ngang cắt qua một nét sổ cong về bên phải. Đừng nhầm với 匕.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "八",
+      "meaningVi": "tám",
+      "noteVi": "Hai nét tách ra hai bên. Người Nhật coi 八 là số may mắn vì hình chữ rộng dần ra phía dưới, như việc làm ăn ngày càng phát đạt.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "九",
+      "meaningVi": "chín",
+      "noteVi": "Dễ nhầm với 力 (sức) và 丸 (tròn).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "十",
+      "meaningVi": "mười",
+      "noteVi": "Như dấu cộng: một nét ngang, một nét sổ.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "円",
+      "meaningVi": "yên (tiền Nhật); tròn",
+      "noteVi": "Âm Hán Việt \"viên\" (tròn). Đơn vị tiền của Nhật: 100円 (ひゃくえん). Người nước ngoài gọi là \"yen\" nhưng người Nhật đọc えん.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-numbers",
+      "titleVi": "Số đếm: いち, に, さん…",
+      "summaryVi": "Cách đọc số từ 1 đến hàng vạn; tiếng Nhật tách số lớn theo nhóm 4 chữ số (万 = 10.000).",
+      "explanationVi": [
+        "Số 1–10: **一** いち, **二** に, **三** さん, **四** よん (し), **五** ご, **六** ろく, **七** なな (しち), **八** はち, **九** きゅう (く), **十** じゅう. Số 4, 7, 9 có hai cách đọc; thường dùng よん, なな, きゅう. Số 0 là ゼロ (học ở bài 5).",
+        "Ghép số giống tiếng Việt: 11 = 十一 (じゅういち, \"mười một\"), 20 = 二十 (にじゅう, \"hai mươi\"), 35 = 三十五. Trăm là **百** (ひゃく), nghìn là **千** (せん); 100 và 1.000 không thêm 一 ở trước. Chú ý biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく, 3.000 さんぜん, 8.000 はっせん.",
+        "Khác tiếng Việt quan trọng nhất: tiếng Nhật đếm số lớn theo nhóm **4 chữ số** với **万** (まん) = 10.000. Vì vậy 10.000 = 一万 (いちまん), 100.000 = 十万 (じゅうまん), 1.000.000 = 百万 (ひゃくまん). Không nói \"mười nghìn\" (十千).",
+        "Khi viết ngang, giá tiền và số lượng thường viết bằng chữ số Ả Rập, hàng nghìn tách bằng **dấu phẩy**: 1,500円 (tiếng Việt viết 1.500). Chữ số Hán gặp trong 一つ, 二つ…, trong văn bản viết dọc và trong một số từ."
+      ],
+      "patterns": [
+        "十一 (11)、二十 (20)、三百 (300)",
+        "千 (1,000)、一万 (10,000)、十万 (100,000)"
+      ],
+      "examples": [
+        {
+          "ja": "11は十一です。",
+          "vi": "11 là 十一 (じゅういち)."
+        },
+        {
+          "ja": "300は三百です。",
+          "vi": "300 là 三百 (さんびゃく)."
+        },
+        {
+          "ja": "10,000は一万です。",
+          "vi": "10.000 là 一万 (いちまん)."
+        },
+        {
+          "ja": "この辞書は2,800円です。",
+          "vi": "Quyển từ điển này giá 2.800 yên."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この本は1.500円です。",
+          "right": "この本は1,500円です。",
+          "noteVi": "Tiếng Việt tách hàng nghìn bằng dấu chấm (1.500), tiếng Nhật dùng dấu phẩy (1,500) hoặc không dùng dấu (1500). Viết 1.500円 người Nhật sẽ hiểu là 1,5 yên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "x-counters-basic",
+      "titleVi": "Đếm đồ vật, người, tuổi, tiền: 〜つ, 〜人, 〜歳, 〜円",
+      "summaryVi": "Số + trợ số từ: 一つ (một cái), 3人 (ba người), 19歳 (19 tuổi), 500円 (500 yên).",
+      "explanationVi": [
+        "Tiếng Nhật đếm bằng **số + trợ số từ**, giống \"cái, người, tuổi\" trong tiếng Việt, nhưng trợ số từ đứng **sau** số: 3人 = \"ba người\". Bài này học bốn trợ số từ thông dụng.",
+        "**〜つ** đếm đồ vật nói chung từ 1 đến 9, với cách đọc riêng: 一つ ひとつ, 二つ ふたつ, 三つ みっつ, 四つ よっつ, 五つ いつつ, 六つ むっつ, 七つ ななつ, 八つ やっつ, 九つ ここのつ; mười cái là とお. Khi không biết đếm đồ vật bằng gì, dùng つ.",
+        "**〜人** (にん) đếm người, nhưng 1 người là **ひとり**, 2 người là **ふたり**, 4 người là **よにん**. **〜歳** (さい) nói tuổi: 1 tuổi いっさい, 8 tuổi はっさい, 10 tuổi じゅっさい; 20 tuổi thường nói **はたち**. **〜円** (えん) là yên; 4 yên đọc よえん.",
+        "Câu hỏi: **何人** (なんにん: mấy người), **何歳** (なんさい: bao nhiêu tuổi), **いくら** (bao nhiêu tiền). Số lượng đứng **sau** danh từ, không đứng trước như tiếng Việt: 「学生は20人です」, 「ノートを二つください」."
+      ],
+      "patterns": [
+        "N は 数 + 人／歳／円 です",
+        "N は 何人／何歳 ですか",
+        "N は いくら ですか"
+      ],
+      "examples": [
+        {
+          "ja": "教室の学生は20人です。",
+          "vi": "Lớp học có 20 học sinh."
+        },
+        {
+          "ja": "私は19歳です。",
+          "vi": "Tôi 19 tuổi."
+        },
+        {
+          "ja": "この傘は500円です。",
+          "vi": "Cái ô này giá 500 yên."
+        },
+        {
+          "ja": "田中さんは何歳ですか。",
+          "vi": "Anh Tanaka bao nhiêu tuổi?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "学生は三つです。",
+          "right": "学生は3人です。",
+          "noteVi": "Đếm người dùng 人, không dùng つ: つ chỉ dùng để đếm đồ vật."
+        },
+        {
+          "wrong": "3人学生です。",
+          "right": "学生は3人です。",
+          "noteVi": "Tiếng Việt đặt số trước danh từ (\"ba học sinh\"). Tiếng Nhật thường nói số lượng ở cuối câu: 学生は3人です (học sinh có ba người)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "o-kudasai",
+      "titleVi": "N をください: xin cho tôi N",
+      "summaryVi": "Dùng khi mua hàng, xin thứ gì: これをください = Cho tôi cái này.",
+      "explanationVi": [
+        "「N をください」 dùng khi **xin hoặc mua** một thứ gì: 「これをください」 = \"Cho tôi cái này\", \"Tôi lấy cái này\". Trợ từ **を** đứng sau vật mình muốn; を đọc là \"o\".",
+        "Tiếng Việt \"cho tôi…\" có động từ đứng trước; tiếng Nhật **ください luôn đứng cuối câu**.",
+        "Muốn nói số lượng, đặt số **sau を, trước ください**: 「ノートを二つください」 = \"Cho tôi hai quyển vở\". Không đặt số trước danh từ như tiếng Việt (\"hai quyển vở\")."
+      ],
+      "patterns": [
+        "N を ください",
+        "N を 数 ください"
+      ],
+      "examples": [
+        {
+          "ja": "これをください。",
+          "vi": "Cho tôi cái này."
+        },
+        {
+          "ja": "このかばんを一つください。",
+          "vi": "Cho tôi một cái túi này."
+        },
+        {
+          "ja": "すみません、その傘をください。",
+          "vi": "Xin lỗi, cho tôi cái ô đó."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "三つかばんをください。",
+          "right": "かばんを三つください。",
+          "noteVi": "Tiếng Việt nói \"cho tôi ba cái túi\" (số đứng trước danh từ). Tiếng Nhật đặt số lượng sau を: かばんを三つください."
+        },
+        {
+          "wrong": "くださいこれを。",
+          "right": "これをください。",
+          "noteVi": "\"Cho tôi cái này\": tiếng Việt có \"cho\" đứng đầu câu, còn ください luôn đứng cuối câu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-04-e01",
+      "type": "choice",
+      "grammar": [
+        "x-numbers"
+      ],
+      "promptVi": "Đây là số nào?",
+      "ja": "三百",
+      "options": [
+        "300",
+        "30",
+        "3000"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-04-e02",
+      "type": "choice",
+      "grammar": [
+        "x-numbers"
+      ],
+      "promptVi": "Số 10.000 viết bằng chữ Hán thế nào?",
+      "options": [
+        "一万",
+        "千",
+        "百万"
+      ],
+      "answer": 0,
+      "explainVi": "10.000 là 一万 (いちまん); 千 là 1.000, 百万 là 1.000.000."
+    },
+    {
+      "id": "n5-04-e03",
+      "type": "choice",
+      "grammar": [
+        "x-numbers"
+      ],
+      "promptVi": "Số 600 viết bằng chữ Hán thế nào?",
+      "options": [
+        "六百",
+        "六十",
+        "六千"
+      ],
+      "answer": 0,
+      "explainVi": "600 là 六百, đọc ろっぴゃく (có biến âm)."
+    },
+    {
+      "id": "n5-04-e04",
+      "type": "choice",
+      "grammar": [
+        "x-numbers"
+      ],
+      "promptVi": "Giá \"một nghìn năm trăm yên\" viết theo kiểu Nhật thế nào?",
+      "options": [
+        "1,500円",
+        "1.500円",
+        "150円"
+      ],
+      "answer": 0,
+      "explainVi": "Tiếng Nhật tách hàng nghìn bằng dấu phẩy; 1.500円 là 1,5 yên."
+    },
+    {
+      "id": "n5-04-e05",
+      "type": "choice",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "promptVi": "\"Lớp học có 20 học sinh.\" Chọn câu đúng.",
+      "options": [
+        "教室の学生は20人です。",
+        "教室の学生は20つです。",
+        "教室の学生は20円です。"
+      ],
+      "answer": 0,
+      "explainVi": "Đếm người dùng 人."
+    },
+    {
+      "id": "n5-04-e06",
+      "type": "choice",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "promptVi": "Câu này hỏi điều gì?",
+      "ja": "田中さんは何歳ですか。",
+      "options": [
+        "Anh Tanaka bao nhiêu tuổi?",
+        "Anh Tanaka đi mấy người?",
+        "Anh Tanaka có bao nhiêu tiền?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-04-e07",
+      "type": "fill",
+      "grammar": [
+        "x-counters-basic",
+        "o-kudasai"
+      ],
+      "before": "これを",
+      "after": "ください。",
+      "answers": [
+        "一つ"
+      ],
+      "options": [
+        "一つ",
+        "1人",
+        "一"
+      ],
+      "vi": "Cho tôi một cái này.",
+      "explainVi": "Đếm đồ vật dùng つ: 一つ (ひとつ)."
+    },
+    {
+      "id": "n5-04-e08",
+      "type": "order",
+      "grammar": [
+        "o-kudasai"
+      ],
+      "vi": "Cho tôi hai cái kia.",
+      "tiles": [
+        "二つ",
+        "あれ",
+        "ください",
+        "を"
+      ],
+      "answers": [
+        "あれを二つください"
+      ]
+    },
+    {
+      "id": "n5-04-e09",
+      "type": "order",
+      "grammar": [
+        "o-kudasai"
+      ],
+      "vi": "Cho tôi cái ô này.",
+      "tiles": [
+        "傘",
+        "ください",
+        "この",
+        "を"
+      ],
+      "answers": [
+        "この傘をください"
+      ]
+    },
+    {
+      "id": "n5-04-e10",
+      "type": "choice",
+      "grammar": [
+        "o-kudasai"
+      ],
+      "promptVi": "Bạn muốn mua ba cái túi. Chọn câu đúng.",
+      "options": [
+        "かばんを三つください。",
+        "三つかばんをください。",
+        "かばんをください三つ。"
+      ],
+      "answer": 0,
+      "explainVi": "Số lượng đứng sau を và trước ください."
+    },
+    {
+      "id": "n5-04-e11",
+      "type": "fill",
+      "grammar": [
+        "o-kudasai"
+      ],
+      "before": "すみません、それ",
+      "after": "ください。",
+      "answers": [
+        "を"
+      ],
+      "options": [
+        "を",
+        "は",
+        "の"
+      ],
+      "vi": "Xin lỗi, cho tôi cái đó."
+    },
+    {
+      "id": "n5-04-e12",
+      "type": "choice",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "promptVi": "Bạn muốn hỏi giá chiếc đồng hồ này. Chọn câu đúng.",
+      "options": [
+        "この時計はいくらですか。",
+        "この時計は何ですか。",
+        "この時計は誰のですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-04-e13",
+      "type": "choice",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "promptVi": "\"Hai người\" viết thế nào?",
+      "options": [
+        "2人",
+        "二つ",
+        "2歳"
+      ],
+      "answer": 0,
+      "explainVi": "2人 đọc là ふたり."
+    },
+    {
+      "id": "n5-04-e14",
+      "type": "choice",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "promptVi": "\"Tôi 19 tuổi.\" Chọn câu đúng.",
+      "options": [
+        "私は19歳です。",
+        "私は19人です。",
+        "私は19円です。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-04-e15",
+      "type": "choice",
+      "grammar": [
+        "x-numbers",
+        "x-counters-basic"
+      ],
+      "promptVi": "Cái túi này giá bao nhiêu?",
+      "ja": "このかばんは2,800円です。",
+      "options": [
+        "2.800 yên",
+        "280 yên",
+        "28.000 yên"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-04-e16",
+      "type": "order",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "vi": "Có hai giáo viên người Nhật.",
+      "tiles": [
+        "日本人",
+        "の",
+        "先生",
+        "は",
+        "2人",
+        "です"
+      ],
+      "answers": [
+        "日本人の先生は2人です"
+      ]
+    },
+    {
+      "id": "n5-04-e17",
+      "type": "order",
+      "grammar": [
+        "x-numbers"
+      ],
+      "vi": "Quyển từ điển này giá 2.800 yên.",
+      "tiles": [
+        "この",
+        "辞書",
+        "は",
+        "2,800円",
+        "です"
+      ],
+      "answers": [
+        "この辞書は2,800円です"
+      ]
+    },
+    {
+      "id": "n5-04-e18",
+      "type": "choice",
+      "promptVi": "Nhân viên cửa hàng đưa túi hàng cho bạn. Bạn nói gì?",
+      "options": [
+        "どうもありがとう。",
+        "これをください。",
+        "いくらですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-04-e19",
+      "type": "match",
+      "grammar": [
+        "x-numbers"
+      ],
+      "promptVi": "Ghép chữ số Hán với số",
+      "pairs": [
+        [
+          "四",
+          "4"
+        ],
+        [
+          "七",
+          "7"
+        ],
+        [
+          "九",
+          "9"
+        ],
+        [
+          "百",
+          "100"
+        ],
+        [
+          "千",
+          "1.000"
+        ]
+      ]
+    },
+    {
+      "id": "n5-04-e20",
+      "type": "match",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "promptVi": "Ghép cách đọc với số lượng",
+      "pairs": [
+        [
+          "ひとつ",
+          "1 cái"
+        ],
+        [
+          "みっつ",
+          "3 cái"
+        ],
+        [
+          "よっつ",
+          "4 cái"
+        ],
+        [
+          "むっつ",
+          "6 cái"
+        ],
+        [
+          "ここのつ",
+          "9 cái"
+        ]
+      ]
+    },
+    {
+      "id": "n5-04-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "店",
+          "cửa hàng"
+        ],
+        [
+          "いくら",
+          "bao nhiêu tiền"
+        ],
+        [
+          "ください",
+          "xin cho tôi"
+        ],
+        [
+          "ありがとう",
+          "cảm ơn"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "どうもありがとうございます。": "どうもありがとうございます。",
+    "一、二、三！": "{一|いち}、{二|に}、{三|さん}！",
+    "一、二、三、四、五。": "{一|いち}、{二|に}、{三|さん}、{四|し}、{五|ご}。",
+    "五、四、三、二、一！": "{五|ご}、{四|よん}、{三|さん}、{二|に}、{一|いち}！",
+    "六、七、八、九、十。": "{六|ろく}、{七|しち}、{八|はち}、{九|きゅう}、{十|じゅう}。",
+    "十、九、八、七、六、五、四、三、二、一！": "{十|じゅう}、{九|きゅう}、{八|はち}、{七|なな}、{六|ろく}、{五|ご}、{四|よん}、{三|さん}、{二|に}、{一|いち}！",
+    "百は100です。": "{百|ひゃく}は100です。",
+    "千は1,000です。": "{千|せん}は1,000です。",
+    "万は10,000です。": "{万|まん}は10,000です。",
+    "これを一つください。": "これを{一|ひと}つください。",
+    "それを二つください。": "それを{二|ふた}つください。",
+    "私のかばんは三つです。": "{私|わたし}のかばんは{三|みっ}つです。",
+    "一つ、二つ、三つ、四つ、五つ。": "{一|ひと}つ、{二|ふた}つ、{三|みっ}つ、{四|よっ}つ、{五|いつ}つ。",
+    "これを五つください。": "これを{五|いつ}つください。",
+    "あれを六つください。": "あれを{六|むっ}つください。",
+    "六つ、七つ、八つ、九つ。": "{六|むっ}つ、{七|なな}つ、{八|やっ}つ、{九|ここの}つ。",
+    "この傘はいくらですか。": "この{傘|かさ}はいくらですか。",
+    "これをください。": "これをください。",
+    "すみません、その傘をください。": "すみません、その{傘|かさ}をください。",
+    "田中さん、ありがとう。": "{田中|たなか}さん、ありがとう。",
+    "どうもありがとう。": "どうもありがとう。",
+    "どうもすみません。": "どうもすみません。",
+    "あの店は何の店ですか。": "あの{店|みせ}は{何|なん}の{店|みせ}ですか。",
+    "この店のかばんはいくらですか。": "この{店|みせ}のかばんはいくらですか。",
+    "11は十一です。": "11は{十一|じゅういち}です。",
+    "300は三百です。": "300は{三百|さんびゃく}です。",
+    "10,000は一万です。": "10,000は{一万|いちまん}です。",
+    "この辞書は2,800円です。": "この{辞|じ}{書|しょ}は2,800{円|えん}です。",
+    "この本は1,500円です。": "この{本|ほん}は1,500{円|えん}です。",
+    "この本は1.500円です。": "この{本|ほん}は1.500{円|えん}です。",
+    "教室の学生は20人です。": "{教|きょう}{室|しつ}の{学|がく}{生|せい}は20{人|にん}です。",
+    "私は19歳です。": "{私|わたし}は19{歳|さい}です。",
+    "この傘は500円です。": "この{傘|かさ}は500{円|えん}です。",
+    "田中さんは何歳ですか。": "{田中|たなか}さんは{何歳|なんさい}ですか。",
+    "学生は3人です。": "{学|がく}{生|せい}は3{人|にん}です。",
+    "学生は三つです。": "{学|がく}{生|せい}は{三|みっ}つです。",
+    "3人学生です。": "3{人|にん}{学|がく}{生|せい}です。",
+    "このかばんを一つください。": "このかばんを{一|ひと}つください。",
+    "かばんを三つください。": "かばんを{三|みっ}つください。",
+    "三つかばんをください。": "{三|みっ}つかばんをください。",
+    "くださいこれを。": "くださいこれを。",
+    "三百": "{三百|さんびゃく}",
+    "一万": "{一万|いちまん}",
+    "千": "{千|せん}",
+    "百万": "{百万|ひゃくまん}",
+    "六百": "{六百|ろっぴゃく}",
+    "六十": "{六十|ろくじゅう}",
+    "六千": "{六千|ろくせん}",
+    "1,500円": "1,500{円|えん}",
+    "1.500円": "1.500{円|えん}",
+    "150円": "150{円|えん}",
+    "教室の学生は20つです。": "{教|きょう}{室|しつ}の{学|がく}{生|せい}は20つです。",
+    "教室の学生は20円です。": "{教|きょう}{室|しつ}の{学|がく}{生|せい}は20{円|えん}です。",
+    "一つ": "{一|ひと}つ",
+    "1人": "{1人|ひとり}",
+    "一": "{一|いち}",
+    "二つ": "{二|ふた}つ",
+    "あれ": "あれ",
+    "ください": "ください",
+    "を": "を",
+    "あれを二つください": "あれを{二|ふた}つください",
+    "傘": "{傘|かさ}",
+    "この": "この",
+    "この傘をください": "この{傘|かさ}をください",
+    "かばんをください三つ。": "かばんをください{三|みっ}つ。",
+    "すみません、それをください。": "すみません、それをください。",
+    "は": "は",
+    "の": "の",
+    "この時計はいくらですか。": "この{時計|とけい}はいくらですか。",
+    "この時計は何ですか。": "この{時計|とけい}は{何|なん}ですか。",
+    "この時計は誰のですか。": "この{時計|とけい}は{誰|だれ}のですか。",
+    "2人": "{2人|ふたり}",
+    "2歳": "2{歳|さい}",
+    "私は19人です。": "{私|わたし}は19{人|にん}です。",
+    "私は19円です。": "{私|わたし}は19{円|えん}です。",
+    "このかばんは2,800円です。": "このかばんは2,800{円|えん}です。",
+    "日本人": "{日本|にほん}{人|じん}",
+    "先生": "{先|せん}{生|せい}",
+    "です": "です",
+    "日本人の先生は2人です": "{日本|にほん}{人|じん}の{先|せん}{生|せい}は{2人|ふたり}です",
+    "辞書": "{辞|じ}{書|しょ}",
+    "2,800円": "2,800{円|えん}",
+    "この辞書は2,800円です": "この{辞|じ}{書|しょ}は2,800{円|えん}です",
+    "いくらですか。": "いくらですか。",
+    "四": "{四|よん}",
+    "七": "{七|なな}",
+    "九": "{九|きゅう}",
+    "百": "{百|ひゃく}",
+    "ひとつ": "ひとつ",
+    "みっつ": "みっつ",
+    "よっつ": "よっつ",
+    "むっつ": "むっつ",
+    "ここのつ": "ここのつ",
+    "店": "{店|みせ}",
+    "いくら": "いくら",
+    "ありがとう": "ありがとう"
+  }
+}

@@ -1,0 +1,1143 @@
+{
+  "id": "n5-05",
+  "goalsVi": [
+    "Hỏi và nói giờ: 今、何時ですか、午後3時半です; nói khoảng thời gian bằng 〜時間",
+    "Nói giờ làm việc, giờ học, giờ mở cửa với から và まで: 銀行は9時から3時までです",
+    "Nói giờ ước chừng với ごろ; chào hỏi theo buổi: おはよう, こんにちは, こんばんは"
+  ],
+  "words": [
+    {
+      "no": 1315,
+      "word": "おはようございます",
+      "meaningsVi": [
+        "chào buổi sáng (lịch sự)"
+      ],
+      "noteVi": "Câu chào buổi sáng lịch sự; với bạn bè, người nhà nói おはよう.",
+      "examples": [
+        {
+          "ja": "先生、おはようございます。",
+          "vi": "Em chào thầy ạ (buổi sáng)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 66,
+      "word": "今",
+      "meaningsVi": [
+        "bây giờ"
+      ],
+      "noteVi": "今 (いま) là \"bây giờ\"; đừng nhầm với 今日 (きょう: hôm nay). Hỏi giờ: 「今、何時ですか」.",
+      "examples": [
+        {
+          "ja": "今、何時ですか。",
+          "vi": "Bây giờ là mấy giờ?"
+        },
+        {
+          "ja": "今、3時半です。",
+          "vi": "Bây giờ là 3 giờ rưỡi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 239,
+      "word": "午前",
+      "meaningsVi": [
+        "buổi sáng (trước 12 giờ trưa), sáng"
+      ],
+      "noteVi": "Âm Hán Việt \"ngọ tiền\" (trước giờ ngọ, tức trước 12 giờ trưa). Đứng trước giờ: 午前9時 = 9 giờ sáng.",
+      "examples": [
+        {
+          "ja": "銀行は午前9時からです。",
+          "vi": "Ngân hàng mở cửa từ 9 giờ sáng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 236,
+      "word": "午後",
+      "meaningsVi": [
+        "buổi chiều (sau 12 giờ trưa), chiều"
+      ],
+      "noteVi": "Âm Hán Việt \"ngọ hậu\" (sau giờ ngọ). Đứng trước giờ: 午後3時 = 3 giờ chiều; 午後8時 cũng là 8 giờ tối.",
+      "examples": [
+        {
+          "ja": "郵便局は午後5時までです。",
+          "vi": "Bưu điện mở cửa đến 5 giờ chiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 512,
+      "word": "半",
+      "meaningsVi": [
+        "rưỡi (sau giờ)",
+        "nửa"
+      ],
+      "noteVi": "Đứng sau giờ: 3時半 = 3 giờ rưỡi (3:30), giống \"rưỡi\" trong tiếng Việt.",
+      "examples": [
+        {
+          "ja": "今、3時半です。",
+          "vi": "Bây giờ là 3 giờ rưỡi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 518,
+      "word": "半分",
+      "meaningsVi": [
+        "một nửa"
+      ],
+      "noteVi": "半分 là \"một nửa\" của một vật hay một nhóm; \"rưỡi\" sau giờ thì chỉ dùng 半: 3時半.",
+      "examples": [
+        {
+          "ja": "学生の半分は留学生です。",
+          "vi": "Một nửa số sinh viên là du học sinh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 277,
+      "word": "時間",
+      "meaningsVi": [
+        "thời gian, giờ (giấc)",
+        "tiếng, giờ đồng hồ (sau số)"
+      ],
+      "noteVi": "Âm Hán Việt \"thời gian\". Sau số, 時間 là \"tiếng\": 2時間 = 2 tiếng. Phân biệt: 2時 = 2 giờ (thời điểm), 2時間 = 2 tiếng (bao lâu).",
+      "examples": [
+        {
+          "ja": "時間ですよ。",
+          "vi": "Đến giờ rồi đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 11,
+      "word": "朝",
+      "meaningsVi": [
+        "buổi sáng"
+      ],
+      "noteVi": "Cũng đứng trước giờ như 午前: 朝8時 = 8 giờ sáng.",
+      "examples": [
+        {
+          "ja": "授業は朝8時からです。",
+          "vi": "Giờ học bắt đầu từ 8 giờ sáng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 533,
+      "word": "昼",
+      "meaningsVi": [
+        "buổi trưa",
+        "ban ngày"
+      ],
+      "examples": [
+        {
+          "ja": "昼は12時から1時まで休みです。",
+          "vi": "Buổi trưa được nghỉ từ 12 giờ đến 1 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 513,
+      "word": "晩",
+      "meaningsVi": [
+        "buổi tối"
+      ],
+      "noteVi": "晩 là buổi tối (lúc ăn tối, nghỉ ngơi); 夜 là ban đêm nói chung, đến khuya. 朝から晩まで = từ sáng đến tối.",
+      "examples": [
+        {
+          "ja": "朝から晩まで仕事です。",
+          "vi": "Tôi làm việc từ sáng đến tối."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 648,
+      "word": "夜",
+      "meaningsVi": [
+        "ban đêm, buổi tối"
+      ],
+      "noteVi": "Đứng trước giờ: 夜10時 = 10 giờ tối.",
+      "examples": [
+        {
+          "ja": "仕事は夜10時までです。",
+          "vi": "Công việc kéo dài đến 10 giờ tối."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 576,
+      "word": "毎日",
+      "meaningsVi": [
+        "mỗi ngày, hằng ngày"
+      ],
+      "noteVi": "Âm Hán Việt \"mỗi nhật\". Không cần thêm trợ từ: 「毎日9時からです」.",
+      "examples": [
+        {
+          "ja": "授業は毎日9時からです。",
+          "vi": "Ngày nào giờ học cũng bắt đầu từ 9 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 192,
+      "word": "今日",
+      "meaningsVi": [
+        "hôm nay"
+      ],
+      "noteVi": "Đọc きょう (cách đọc đặc biệt, không đọc theo từng chữ). Âm Hán Việt \"kim nhật\".",
+      "examples": [
+        {
+          "ja": "今日は休みです。",
+          "vi": "Hôm nay là ngày nghỉ."
+        },
+        {
+          "ja": "銀行は今日休みです。",
+          "vi": "Hôm nay ngân hàng nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 15,
+      "word": "明日",
+      "meaningsVi": [
+        "ngày mai"
+      ],
+      "noteVi": "Đọc あした (cách đọc đặc biệt). Trong văn trang trọng còn đọc あす.",
+      "examples": [
+        {
+          "ja": "明日は休みです。",
+          "vi": "Ngày mai là ngày nghỉ."
+        },
+        {
+          "ja": "明日も授業ですか。",
+          "vi": "Ngày mai cũng có giờ học à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 188,
+      "word": "昨日",
+      "meaningsVi": [
+        "hôm qua"
+      ],
+      "noteVi": "Đọc きのう (cách đọc đặc biệt). Âm Hán Việt \"tạc nhật\".",
+      "examples": [
+        {
+          "ja": "これは昨日の新聞です。",
+          "vi": "Đây là báo hôm qua."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 278,
+      "word": "仕事",
+      "meaningsVi": [
+        "công việc, việc làm"
+      ],
+      "noteVi": "Âm Hán Việt \"sĩ sự\". 「明日は仕事です」 = \"Ngày mai tôi phải đi làm\".",
+      "examples": [
+        {
+          "ja": "仕事は9時から5時までです。",
+          "vi": "Tôi làm việc từ 9 giờ đến 5 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 297,
+      "word": "授業",
+      "meaningsVi": [
+        "giờ học, buổi học (trên lớp)"
+      ],
+      "noteVi": "Âm Hán Việt \"thụ nghiệp\": giờ giáo viên dạy trên lớp. Khác 勉強 (tự học, học bài).",
+      "examples": [
+        {
+          "ja": "日本語の授業は何時からですか。",
+          "vi": "Giờ học tiếng Nhật bắt đầu từ mấy giờ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 627,
+      "word": "休み",
+      "meaningsVi": [
+        "ngày nghỉ, kỳ nghỉ",
+        "giờ nghỉ"
+      ],
+      "noteVi": "Cũng dùng khi cửa hàng, ngân hàng đóng cửa: 「銀行は今日休みです」.",
+      "examples": [
+        {
+          "ja": "明日は休みです。",
+          "vi": "Ngày mai là ngày nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 516,
+      "word": "番号",
+      "meaningsVi": [
+        "số (số điện thoại, số phòng…)"
+      ],
+      "noteVi": "Âm Hán Việt \"phiên hiệu\". Chỉ con số dùng để gọi tên, đánh dấu: 電話番号 (số điện thoại). Số lượng, số đếm không gọi là 番号.",
+      "examples": [
+        {
+          "ja": "これは会社の電話番号です。",
+          "vi": "Đây là số điện thoại của công ty."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 413,
+      "word": "電話",
+      "meaningsVi": [
+        "điện thoại",
+        "cuộc gọi"
+      ],
+      "noteVi": "Âm Hán Việt \"điện thoại\", giống tiếng Việt. 「電話ですよ」 = \"Có điện thoại (gọi cho bạn) đấy\".",
+      "examples": [
+        {
+          "ja": "田中さん、電話ですよ。",
+          "vi": "Anh Tanaka ơi, có điện thoại đấy."
+        },
+        {
+          "ja": "これは会社の電話番号です。",
+          "vi": "Đây là số điện thoại của công ty."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 331,
+      "word": "ゼロ",
+      "meaningsVi": [
+        "số không (0)"
+      ],
+      "noteVi": "Từ tiếng Anh zero. Khi đọc số điện thoại, 0 đọc là ゼロ hoặc れい. Chữ Hán của số 0 là 〇.",
+      "examples": [
+        {
+          "ja": "すみません、ゼロですか。",
+          "vi": "Xin lỗi, là số 0 phải không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 383,
+      "word": "ちょうど",
+      "meaningsVi": [
+        "vừa đúng, đúng (giờ, số lượng)"
+      ],
+      "examples": [
+        {
+          "ja": "今、ちょうど12時です。",
+          "vi": "Bây giờ đúng 12 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 201,
+      "word": "銀行",
+      "meaningsVi": [
+        "ngân hàng"
+      ],
+      "noteVi": "Âm Hán Việt \"ngân hàng\", giống tiếng Việt. Ở Nhật, quầy giao dịch của ngân hàng thường chỉ mở đến 3 giờ chiều.",
+      "examples": [
+        {
+          "ja": "銀行は午後3時までです。",
+          "vi": "Ngân hàng mở cửa đến 3 giờ chiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 634,
+      "word": "郵便局",
+      "meaningsVi": [
+        "bưu điện"
+      ],
+      "noteVi": "Âm Hán Việt \"bưu tiện cục\".",
+      "examples": [
+        {
+          "ja": "郵便局は何時までですか。",
+          "vi": "Bưu điện mở cửa đến mấy giờ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 127,
+      "word": "おはよう",
+      "meaningsVi": [
+        "chào buổi sáng (thân mật)"
+      ],
+      "noteVi": "Dùng với bạn bè, người nhà. Với thầy cô, người trên, người lạ nói lịch sự: おはようございます.",
+      "examples": [
+        {
+          "ja": "ミンさん、おはよう。",
+          "vi": "Chào buổi sáng, Minh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 257,
+      "word": "こんにちは",
+      "meaningsVi": [
+        "xin chào (ban ngày)"
+      ],
+      "noteVi": "Dùng từ khoảng trưa đến chiều tối. Chữ cuối viết は nhưng đọc là wa. Ít dùng với người trong nhà hay đồng nghiệp đã gặp trong ngày.",
+      "examples": [
+        {
+          "ja": "田中さん、こんにちは。",
+          "vi": "Chào anh Tanaka."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 259,
+      "word": "こんばんは",
+      "meaningsVi": [
+        "chào buổi tối"
+      ],
+      "noteVi": "Chữ cuối viết は nhưng đọc là wa, như こんにちは.",
+      "examples": [
+        {
+          "ja": "山田さん、こんばんは。",
+          "vi": "Chào buổi tối, anh Yamada."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "時",
+      "meaningVi": "thời gian; giờ",
+      "noteVi": "Bên trái là bộ nhật 日 (mặt trời), bên phải là 寺 (chùa): nhìn mặt trời để biết giờ. Gặp trong 時計, 時間, 3時.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "分",
+      "meaningVi": "phần, chia; phút",
+      "noteVi": "Trên là 八 (tách ra), dưới là 刀 (con dao): dùng dao chia ra. Sau số là phút: 5分 (ごふん). Gặp trong 半分 (một nửa).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "間",
+      "meaningVi": "khoảng, ở giữa",
+      "noteVi": "Mặt trời 日 nhìn thấy qua khe cửa 門: khoảng hở ở giữa. Gặp trong 時間 (thời gian).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "半",
+      "meaningVi": "nửa",
+      "noteVi": "Một nét sổ dài chia đôi chữ, như chia làm hai nửa. Gặp trong 3時半 (3 giờ rưỡi), 半分 (một nửa).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-time",
+      "titleVi": "Giờ và phút: 〜時, 〜分, 〜時間",
+      "summaryVi": "3時 = 3 giờ, 15分 = 15 phút, 3時半 = 3 giờ rưỡi; 2時間 = 2 tiếng.",
+      "explanationVi": [
+        "Nói giờ: **số + 時** (じ); nói phút: **số + 分** (ふん hoặc ぷん). 3時15分 = 3 giờ 15 phút; 3時半 = 3 giờ rưỡi. Hỏi giờ: 「今、何時ですか」 (なんじ).",
+        "Chú ý cách đọc: 4時 **よじ**, 7時 **しちじ**, 9時 **くじ**. Phút có biến âm: 1分 いっぷん, 3分 さんぷん, 4分 よんぷん, 6分 ろっぷん, 8分 はっぷん, 10分 じゅっぷん; các số khác đọc ふん: 2分 にふん, 5分 ごふん.",
+        "**午前** (sáng) và **午後** (chiều) đứng **trước** giờ, ngược với tiếng Việt: 午後3時 = \"3 giờ chiều\". Tương tự: 朝8時 (8 giờ sáng), 夜10時 (10 giờ tối).",
+        "Nói khoảng thời gian (bao lâu) dùng **時間** (じかん) = \"tiếng\": 2時間 = 2 tiếng; với phút vẫn dùng 分: 30分 = 30 phút. Đừng nhầm: **2時** là \"2 giờ\" (thời điểm), **2時間** là \"2 tiếng\"."
+      ],
+      "patterns": [
+        "今、数 時 数 分 です",
+        "午前／午後 数 時",
+        "数 時間"
+      ],
+      "examples": [
+        {
+          "ja": "今、何時ですか。",
+          "vi": "Bây giờ là mấy giờ?"
+        },
+        {
+          "ja": "午後3時半です。",
+          "vi": "3 giờ rưỡi chiều."
+        },
+        {
+          "ja": "今、9時10分です。",
+          "vi": "Bây giờ là 9 giờ 10 phút."
+        },
+        {
+          "ja": "授業は2時間です。",
+          "vi": "Giờ học kéo dài 2 tiếng."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "3時午後です。",
+          "right": "午後3時です。",
+          "noteVi": "Tiếng Việt nói \"3 giờ chiều\"; tiếng Nhật đặt 午後 trước giờ: 午後3時."
+        },
+        {
+          "wrong": "授業は2時です。",
+          "right": "授業は2時間です。",
+          "noteVi": "Muốn nói \"giờ học kéo dài 2 tiếng\" phải dùng 時間. Câu bên trái không sai ngữ pháp nhưng nghĩa là \"giờ học lúc 2 giờ\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kara-from",
+      "titleVi": "から: từ (điểm bắt đầu)",
+      "summaryVi": "N から: từ N. 授業は9時からです = Giờ học bắt đầu từ 9 giờ.",
+      "explanationVi": [
+        "**から** đứng **sau** danh từ chỉ thời gian hay nơi chốn, nghĩa là \"từ\": 9時から = \"từ 9 giờ\". Tiếng Việt đặt \"từ\" trước, tiếng Nhật đặt から sau.",
+        "「N は (thời gian) から です」 nói việc gì bắt đầu lúc nào: 「授業は9時からです」 = \"Giờ học bắt đầu từ 9 giờ\". Hỏi: 「仕事は何時からですか」.",
+        "から cũng chỉ nơi xuất phát, thường đi với まで (đến): 「ハノイから東京まで」 = \"từ Hà Nội đến Tokyo\"."
+      ],
+      "patterns": [
+        "N は (thời gian) から です",
+        "N1 から N2 まで"
+      ],
+      "examples": [
+        {
+          "ja": "授業は9時からです。",
+          "vi": "Giờ học bắt đầu từ 9 giờ."
+        },
+        {
+          "ja": "銀行は午前9時からです。",
+          "vi": "Ngân hàng mở cửa từ 9 giờ sáng."
+        },
+        {
+          "ja": "仕事は何時からですか。",
+          "vi": "Công việc bắt đầu từ mấy giờ?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "授業はから9時です。",
+          "right": "授業は9時からです。",
+          "noteVi": "Tiếng Việt nói \"từ 9 giờ\" (\"từ\" đứng trước). Tiếng Nhật から đứng sau: 9時から."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "made",
+      "titleVi": "まで: đến (điểm kết thúc)",
+      "summaryVi": "N まで: đến N. 銀行は3時までです = Ngân hàng mở cửa đến 3 giờ.",
+      "explanationVi": [
+        "**まで** đứng **sau** danh từ chỉ thời gian hay nơi chốn, nghĩa là \"đến\", \"cho đến\": 3時まで = \"đến 3 giờ\".",
+        "Hay đi với から: 「N1 から N2 まで」 = \"từ N1 đến N2\": 「仕事は9時から5時までです」 = \"Tôi làm việc từ 9 giờ đến 5 giờ\". Với nơi chốn: 「ハノイから東京まで5時間です」.",
+        "Hỏi giờ đóng cửa, giờ kết thúc: 「郵便局は何時までですか」. Có thể dùng から hay まで một mình, không bắt buộc có đủ cả hai."
+      ],
+      "patterns": [
+        "N は (thời gian) まで です",
+        "N は N1 から N2 まで です"
+      ],
+      "examples": [
+        {
+          "ja": "銀行は午後3時までです。",
+          "vi": "Ngân hàng mở cửa đến 3 giờ chiều."
+        },
+        {
+          "ja": "仕事は9時から5時までです。",
+          "vi": "Tôi làm việc từ 9 giờ đến 5 giờ."
+        },
+        {
+          "ja": "ハノイから東京まで5時間です。",
+          "vi": "Từ Hà Nội đến Tokyo mất 5 tiếng."
+        },
+        {
+          "ja": "郵便局は何時までですか。",
+          "vi": "Bưu điện mở cửa đến mấy giờ?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "から9時まで5時です。",
+          "right": "9時から5時までです。",
+          "noteVi": "Tiếng Việt nói \"từ 9 giờ đến 5 giờ\". Tiếng Nhật đặt から, まで sau số giờ: 9時から5時まで."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "goro",
+      "titleVi": "ごろ: khoảng, chừng (thời điểm)",
+      "summaryVi": "Thời điểm + ごろ: khoảng lúc đó. 3時ごろ = khoảng 3 giờ.",
+      "explanationVi": [
+        "**ごろ** đứng **sau** một thời điểm, nghĩa là \"khoảng, chừng (vào lúc)\": 3時ごろ = \"khoảng 3 giờ\". Tiếng Việt đặt \"khoảng\" trước, tiếng Nhật đặt ごろ sau.",
+        "ごろ chỉ dùng với **thời điểm** (mấy giờ), không dùng với khoảng thời gian: không nói 2時間ごろ. \"Khoảng 2 tiếng\" dùng ぐらい (học ở bài sau).",
+        "ごろ đi được với から, まで: 「授業は12時ごろまでです」 = \"Giờ học kéo dài đến khoảng 12 giờ\"."
+      ],
+      "patterns": [
+        "数 時 ごろ です",
+        "N は 数 時 ごろ から／まで です"
+      ],
+      "examples": [
+        {
+          "ja": "授業は12時ごろまでです。",
+          "vi": "Giờ học kéo dài đến khoảng 12 giờ."
+        },
+        {
+          "ja": "明日は10時ごろからです。",
+          "vi": "Ngày mai bắt đầu từ khoảng 10 giờ."
+        },
+        {
+          "ja": "仕事は夜9時ごろまでです。",
+          "vi": "Công việc kéo dài đến khoảng 9 giờ tối."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ごろ3時です。",
+          "right": "3時ごろです。",
+          "noteVi": "\"Khoảng 3 giờ\": tiếng Việt \"khoảng\" đứng trước, còn ごろ đứng sau số giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-05-e01",
+      "type": "choice",
+      "grammar": [
+        "x-time"
+      ],
+      "promptVi": "Đồng hồ chỉ 4:00. Chọn câu trả lời đúng.",
+      "ja": "今、何時ですか。",
+      "options": [
+        "4時です。",
+        "4時間です。",
+        "4分です。"
+      ],
+      "answer": 0,
+      "explainVi": "Giờ (thời điểm) dùng 時; 4時 đọc là よじ."
+    },
+    {
+      "id": "n5-05-e02",
+      "type": "choice",
+      "grammar": [
+        "x-time"
+      ],
+      "promptVi": "\"3 giờ rưỡi\" viết thế nào?",
+      "options": [
+        "3時半",
+        "3時間",
+        "半3時"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-05-e03",
+      "type": "choice",
+      "grammar": [
+        "x-time"
+      ],
+      "promptVi": "\"3 giờ chiều\" viết thế nào?",
+      "options": [
+        "午後3時",
+        "3時午後",
+        "午前3時"
+      ],
+      "answer": 0,
+      "explainVi": "午前, 午後 đứng trước giờ; 午前 là buổi sáng."
+    },
+    {
+      "id": "n5-05-e04",
+      "type": "choice",
+      "grammar": [
+        "x-time"
+      ],
+      "promptVi": "\"Giờ học kéo dài 2 tiếng.\" Chọn câu đúng.",
+      "options": [
+        "授業は2時間です。",
+        "授業は2時です。",
+        "授業は2分です。"
+      ],
+      "answer": 0,
+      "explainVi": "Khoảng thời gian (bao lâu) dùng 時間; 2時 là thời điểm \"2 giờ\"."
+    },
+    {
+      "id": "n5-05-e05",
+      "type": "choice",
+      "grammar": [
+        "x-time"
+      ],
+      "promptVi": "\"9 giờ\" (9時) đọc thế nào?",
+      "options": [
+        "くじ",
+        "よじ",
+        "しちじ"
+      ],
+      "answer": 0,
+      "explainVi": "9時 đọc くじ; よじ là 4時, しちじ là 7時."
+    },
+    {
+      "id": "n5-05-e06",
+      "type": "fill",
+      "grammar": [
+        "kara-from"
+      ],
+      "before": "授業は9時",
+      "after": "です。",
+      "answers": [
+        "から"
+      ],
+      "options": [
+        "から",
+        "まで",
+        "ごろ"
+      ],
+      "vi": "Giờ học bắt đầu từ 9 giờ."
+    },
+    {
+      "id": "n5-05-e07",
+      "type": "fill",
+      "grammar": [
+        "made"
+      ],
+      "before": "銀行は午後3時",
+      "after": "です。",
+      "answers": [
+        "まで"
+      ],
+      "options": [
+        "まで",
+        "から",
+        "ごろ"
+      ],
+      "vi": "Ngân hàng mở cửa đến 3 giờ chiều."
+    },
+    {
+      "id": "n5-05-e08",
+      "type": "order",
+      "grammar": [
+        "kara-from",
+        "made"
+      ],
+      "vi": "Tôi làm việc từ 9 giờ đến 5 giờ.",
+      "tiles": [
+        "から",
+        "仕事",
+        "5時",
+        "9時",
+        "は",
+        "まで",
+        "です"
+      ],
+      "answers": [
+        "仕事は9時から5時までです"
+      ]
+    },
+    {
+      "id": "n5-05-e09",
+      "type": "choice",
+      "grammar": [
+        "kara-from"
+      ],
+      "promptVi": "Bạn muốn hỏi \"Công việc bắt đầu từ mấy giờ?\". Chọn câu đúng.",
+      "options": [
+        "仕事は何時からですか。",
+        "仕事は何時までですか。",
+        "仕事は何時間ですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-05-e10",
+      "type": "choice",
+      "grammar": [
+        "made"
+      ],
+      "promptVi": "Câu này hỏi điều gì?",
+      "ja": "郵便局は何時までですか。",
+      "options": [
+        "Bưu điện mở cửa đến mấy giờ?",
+        "Bưu điện mở cửa từ mấy giờ?",
+        "Bưu điện ở đâu?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-05-e11",
+      "type": "order",
+      "grammar": [
+        "kara-from",
+        "made"
+      ],
+      "vi": "Từ Hà Nội đến Tokyo mất 5 tiếng.",
+      "tiles": [
+        "ハノイ",
+        "から",
+        "東京",
+        "まで",
+        "5時間",
+        "です"
+      ],
+      "answers": [
+        "ハノイから東京まで5時間です"
+      ]
+    },
+    {
+      "id": "n5-05-e12",
+      "type": "fill",
+      "grammar": [
+        "goro",
+        "made"
+      ],
+      "before": "授業は12時",
+      "after": "までです。",
+      "answers": [
+        "ごろ"
+      ],
+      "options": [
+        "ごろ",
+        "から",
+        "時間"
+      ],
+      "vi": "Giờ học kéo dài đến khoảng 12 giờ."
+    },
+    {
+      "id": "n5-05-e13",
+      "type": "choice",
+      "grammar": [
+        "goro"
+      ],
+      "promptVi": "\"Khoảng 3 giờ\" nói thế nào?",
+      "options": [
+        "3時ごろ",
+        "ごろ3時",
+        "3時間ごろ"
+      ],
+      "answer": 0,
+      "explainVi": "ごろ đứng sau thời điểm (3時), không đi với khoảng thời gian (3時間)."
+    },
+    {
+      "id": "n5-05-e14",
+      "type": "order",
+      "grammar": [
+        "goro",
+        "kara-from"
+      ],
+      "vi": "Ngày mai bắt đầu từ khoảng 10 giờ.",
+      "tiles": [
+        "明日",
+        "は",
+        "10時",
+        "ごろ",
+        "から",
+        "です"
+      ],
+      "answers": [
+        "明日は10時ごろからです"
+      ]
+    },
+    {
+      "id": "n5-05-e15",
+      "type": "choice",
+      "grammar": [
+        "x-time",
+        "goro"
+      ],
+      "promptVi": "Đồng hồ chỉ đúng 12:00. Chọn câu phù hợp nhất.",
+      "options": [
+        "今、ちょうど12時です。",
+        "今、12時ごろです。",
+        "今、12時間です。"
+      ],
+      "answer": 0,
+      "explainVi": "ちょうど là \"vừa đúng\"; ごろ là \"khoảng\", dùng khi không biết chính xác."
+    },
+    {
+      "id": "n5-05-e16",
+      "type": "choice",
+      "promptVi": "Bạn gặp anh Yamada lúc 7 giờ tối. Bạn chào thế nào?",
+      "options": [
+        "こんばんは。",
+        "おはよう。",
+        "こんにちは。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-05-e17",
+      "type": "choice",
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "田中さん、電話ですよ。",
+      "options": [
+        "Anh Tanaka ơi, có điện thoại đấy.",
+        "Anh Tanaka ơi, đây là số điện thoại.",
+        "Anh Tanaka có điện thoại không?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-05-e18",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "朝",
+          "buổi sáng"
+        ],
+        [
+          "昼",
+          "buổi trưa"
+        ],
+        [
+          "晩",
+          "buổi tối"
+        ],
+        [
+          "午後",
+          "buổi chiều"
+        ]
+      ]
+    },
+    {
+      "id": "n5-05-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "今日",
+          "hôm nay"
+        ],
+        [
+          "明日",
+          "ngày mai"
+        ],
+        [
+          "昨日",
+          "hôm qua"
+        ],
+        [
+          "毎日",
+          "mỗi ngày"
+        ],
+        [
+          "今",
+          "bây giờ"
+        ]
+      ]
+    },
+    {
+      "id": "n5-05-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "仕事",
+          "công việc"
+        ],
+        [
+          "授業",
+          "giờ học"
+        ],
+        [
+          "休み",
+          "ngày nghỉ"
+        ],
+        [
+          "銀行",
+          "ngân hàng"
+        ],
+        [
+          "郵便局",
+          "bưu điện"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "先生、おはようございます。": "{先|せん}{生|せい}、おはようございます。",
+    "今、何時ですか。": "{今|いま}、{何時|なんじ}ですか。",
+    "今、3時半です。": "{今|いま}、3{時|じ}{半|はん}です。",
+    "銀行は午前9時からです。": "{銀|ぎん}{行|こう}は{午|ご}{前|ぜん}{9時|くじ}からです。",
+    "郵便局は午後5時までです。": "{郵|ゆう}{便|びん}{局|きょく}は{午|ご}{後|ご}5{時|じ}までです。",
+    "学生の半分は留学生です。": "{学|がく}{生|せい}の{半|はん}{分|ぶん}は{留|りゅう}{学|がく}{生|せい}です。",
+    "時間ですよ。": "{時|じ}{間|かん}ですよ。",
+    "授業は朝8時からです。": "{授|じゅ}{業|ぎょう}は{朝|あさ}8{時|じ}からです。",
+    "昼は12時から1時まで休みです。": "{昼|ひる}は12{時|じ}から1{時|じ}まで{休|やす}みです。",
+    "朝から晩まで仕事です。": "{朝|あさ}から{晩|ばん}まで{仕|し}{事|ごと}です。",
+    "仕事は夜10時までです。": "{仕|し}{事|ごと}は{夜|よる}10{時|じ}までです。",
+    "授業は毎日9時からです。": "{授|じゅ}{業|ぎょう}は{毎|まい}{日|にち}{9時|くじ}からです。",
+    "今日は休みです。": "{今日|きょう}は{休|やす}みです。",
+    "銀行は今日休みです。": "{銀|ぎん}{行|こう}は{今日|きょう}{休|やす}みです。",
+    "明日は休みです。": "{明日|あした}は{休|やす}みです。",
+    "明日も授業ですか。": "{明日|あした}も{授|じゅ}{業|ぎょう}ですか。",
+    "これは昨日の新聞です。": "これは{昨日|きのう}の{新|しん}{聞|ぶん}です。",
+    "仕事は9時から5時までです。": "{仕|し}{事|ごと}は{9時|くじ}から5{時|じ}までです。",
+    "日本語の授業は何時からですか。": "{日本|にほん}{語|ご}の{授|じゅ}{業|ぎょう}は{何時|なんじ}からですか。",
+    "これは会社の電話番号です。": "これは{会|かい}{社|しゃ}の{電|でん}{話|わ}{番|ばん}{号|ごう}です。",
+    "田中さん、電話ですよ。": "{田中|たなか}さん、{電|でん}{話|わ}ですよ。",
+    "すみません、ゼロですか。": "すみません、ゼロですか。",
+    "今、ちょうど12時です。": "{今|いま}、ちょうど12{時|じ}です。",
+    "銀行は午後3時までです。": "{銀|ぎん}{行|こう}は{午|ご}{後|ご}3{時|じ}までです。",
+    "郵便局は何時までですか。": "{郵|ゆう}{便|びん}{局|きょく}は{何時|なんじ}までですか。",
+    "ミンさん、おはよう。": "ミンさん、おはよう。",
+    "田中さん、こんにちは。": "{田中|たなか}さん、こんにちは。",
+    "山田さん、こんばんは。": "{山田|やまだ}さん、こんばんは。",
+    "午後3時半です。": "{午|ご}{後|ご}3{時|じ}{半|はん}です。",
+    "今、9時10分です。": "{今|いま}、{9時|くじ}10{分|ぷん}です。",
+    "授業は2時間です。": "{授|じゅ}{業|ぎょう}は2{時間|じかん}です。",
+    "午後3時です。": "{午|ご}{後|ご}3{時|じ}です。",
+    "3時午後です。": "3{時|じ}{午|ご}{後|ご}です。",
+    "授業は2時です。": "{授|じゅ}{業|ぎょう}は2{時|じ}です。",
+    "授業は9時からです。": "{授|じゅ}{業|ぎょう}は{9時|くじ}からです。",
+    "仕事は何時からですか。": "{仕|し}{事|ごと}は{何時|なんじ}からですか。",
+    "授業はから9時です。": "{授|じゅ}{業|ぎょう}はから{9時|くじ}です。",
+    "ハノイから東京まで5時間です。": "ハノイから{東京|とうきょう}まで5{時間|じかん}です。",
+    "9時から5時までです。": "{9時|くじ}から5{時|じ}までです。",
+    "から9時まで5時です。": "から{9時|くじ}まで5{時|じ}です。",
+    "授業は12時ごろまでです。": "{授|じゅ}{業|ぎょう}は12{時|じ}ごろまでです。",
+    "明日は10時ごろからです。": "{明日|あした}は10{時|じ}ごろからです。",
+    "仕事は夜9時ごろまでです。": "{仕|し}{事|ごと}は{夜|よる}{9時|くじ}ごろまでです。",
+    "3時ごろです。": "3{時|じ}ごろです。",
+    "ごろ3時です。": "ごろ3{時|じ}です。",
+    "4時です。": "{4時|よじ}です。",
+    "4時間です。": "{4時間|よじかん}です。",
+    "4分です。": "4{分|ぷん}です。",
+    "3時半": "3{時|じ}{半|はん}",
+    "3時間": "3{時間|じかん}",
+    "半3時": "{半|はん}3{時|じ}",
+    "午後3時": "{午|ご}{後|ご}3{時|じ}",
+    "3時午後": "3{時|じ}{午|ご}{後|ご}",
+    "午前3時": "{午|ご}{前|ぜん}3{時|じ}",
+    "授業は2分です。": "{授|じゅ}{業|ぎょう}は2{分|ふん}です。",
+    "くじ": "くじ",
+    "よじ": "よじ",
+    "しちじ": "しちじ",
+    "から": "から",
+    "まで": "まで",
+    "ごろ": "ごろ",
+    "仕事": "{仕|し}{事|ごと}",
+    "5時": "5{時|じ}",
+    "9時": "{9時|くじ}",
+    "は": "は",
+    "です": "です",
+    "仕事は9時から5時までです": "{仕|し}{事|ごと}は{9時|くじ}から5{時|じ}までです",
+    "仕事は何時までですか。": "{仕|し}{事|ごと}は{何時|なんじ}までですか。",
+    "仕事は何時間ですか。": "{仕|し}{事|ごと}は{何時間|なんじかん}ですか。",
+    "ハノイ": "ハノイ",
+    "東京": "{東京|とうきょう}",
+    "5時間": "5{時間|じかん}",
+    "ハノイから東京まで5時間です": "ハノイから{東京|とうきょう}まで5{時間|じかん}です",
+    "時間": "{時|じ}{間|かん}",
+    "3時ごろ": "3{時|じ}ごろ",
+    "ごろ3時": "ごろ3{時|じ}",
+    "3時間ごろ": "3{時間|じかん}ごろ",
+    "明日": "{明日|あした}",
+    "10時": "10{時|じ}",
+    "明日は10時ごろからです": "{明日|あした}は10{時|じ}ごろからです",
+    "今、12時ごろです。": "{今|いま}、12{時|じ}ごろです。",
+    "今、12時間です。": "{今|いま}、12{時間|じかん}です。",
+    "こんばんは。": "こんばんは。",
+    "おはよう。": "おはよう。",
+    "こんにちは。": "こんにちは。",
+    "朝": "{朝|あさ}",
+    "昼": "{昼|ひる}",
+    "晩": "{晩|ばん}",
+    "午後": "{午|ご}{後|ご}",
+    "今日": "{今日|きょう}",
+    "昨日": "{昨日|きのう}",
+    "毎日": "{毎|まい}{日|にち}",
+    "今": "{今|いま}",
+    "授業": "{授|じゅ}{業|ぎょう}",
+    "休み": "{休|やす}み",
+    "銀行": "{銀|ぎん}{行|こう}",
+    "郵便局": "{郵|ゆう}{便|びん}{局|きょく}"
+  }
+}

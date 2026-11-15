@@ -1,0 +1,1043 @@
+{
+  "id": "n5-02",
+  "goalsVi": [
+    "Hỏi và nói tên đồ vật: これは何ですか、それは辞書です",
+    "Nói đồ vật của ai, về cái gì với の: 私の本, 日本語の新聞; hỏi 誰のですか",
+    "Chỉ đồ vật, người ở gần hay ở xa với この/その/あの + danh từ; hỏi \"cái nào\" với どれ, どの"
+  ],
+  "words": [
+    {
+      "no": 1313,
+      "word": "そう",
+      "meaningsVi": [
+        "như vậy, đúng vậy"
+      ],
+      "noteVi": "Trả lời câu hỏi danh từ (これは本ですか): 「はい、そうです」 = \"Vâng, đúng vậy\". 「そうですか」 nói giọng xuống nghĩa là \"Thế à\", khi nghe một thông tin mới.",
+      "examples": [
+        {
+          "ja": "はい、そうです。",
+          "vi": "Vâng, đúng vậy."
+        },
+        {
+          "ja": "そうですか。",
+          "vi": "Thế à."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 525,
+      "word": "人",
+      "meaningsVi": [
+        "người"
+      ],
+      "noteVi": "Đứng một mình đọc ひと: あの人 (người kia). Sau tên nước đọc じん (日本人); khi đếm người đọc にん (học ở bài 4). Nói về người trên, người lạ một cách lịch sự hơn: あの方 (あのかた).",
+      "examples": [
+        {
+          "ja": "あの人は誰ですか。",
+          "vi": "Người kia là ai?"
+        },
+        {
+          "ja": "あの人は日本語の先生です。",
+          "vi": "Người kia là giáo viên tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 253,
+      "word": "これ",
+      "meaningsVi": [
+        "cái này (vật ở gần người nói)"
+      ],
+      "noteVi": "これ đứng một mình như một danh từ. Tiếng Việt \"đây\" chỉ được cả đồ vật lẫn nơi chốn; tiếng Nhật chỉ đồ vật dùng これ, chỉ nơi chốn dùng ここ (bài 3).",
+      "examples": [
+        {
+          "ja": "これは何ですか。",
+          "vi": "Cái này là cái gì?"
+        },
+        {
+          "ja": "これは私の本です。",
+          "vi": "Đây là sách của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 347,
+      "word": "それ",
+      "meaningsVi": [
+        "cái đó (vật ở gần người nghe)"
+      ],
+      "noteVi": "Khi người kia cầm một vật và hỏi 「これは何ですか」, ta trả lời bằng それ vì vật ở gần người hỏi.",
+      "examples": [
+        {
+          "ja": "それは英語の辞書です。",
+          "vi": "Đó là từ điển tiếng Anh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 42,
+      "word": "あれ",
+      "meaningsVi": [
+        "cái kia (vật ở xa cả người nói lẫn người nghe)"
+      ],
+      "examples": [
+        {
+          "ja": "あれは何ですか。",
+          "vi": "Cái kia là cái gì?"
+        },
+        {
+          "ja": "あれは日本の新聞です。",
+          "vi": "Kia là báo Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 445,
+      "word": "どれ",
+      "meaningsVi": [
+        "cái nào (chọn trong ba cái trở lên)"
+      ],
+      "noteVi": "Là từ để hỏi nên không đứng trước は: nói 「田中さんのかばんはどれですか」. Chọn một trong hai cái dùng どちら (bài 3).",
+      "examples": [
+        {
+          "ja": "田中さんのかばんはどれですか。",
+          "vi": "Cặp của anh Tanaka là cái nào?"
+        },
+        {
+          "ja": "あなたの傘はどれですか。",
+          "vi": "Ô của bạn là cái nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 248,
+      "word": "この",
+      "meaningsVi": [
+        "… này (đứng trước danh từ)"
+      ],
+      "noteVi": "Luôn có danh từ theo sau: この本 = quyển sách này. Tiếng Việt đặt \"này\" sau danh từ, tiếng Nhật đặt この trước.",
+      "examples": [
+        {
+          "ja": "この本は私のです。",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "ja": "この時計は日本のです。",
+          "vi": "Chiếc đồng hồ này là của Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 344,
+      "word": "その",
+      "meaningsVi": [
+        "… đó (đứng trước danh từ, vật ở gần người nghe)"
+      ],
+      "examples": [
+        {
+          "ja": "その傘は誰のですか。",
+          "vi": "Cái ô đó là của ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 30,
+      "word": "あの",
+      "meaningsVi": [
+        "… kia (đứng trước danh từ, ở xa cả hai người)"
+      ],
+      "noteVi": "Kéo dài thành あのう thì là tiếng đệm \"à, ừm…\" khi bắt đầu nói hay gọi ai đó; khác với あの + danh từ.",
+      "examples": [
+        {
+          "ja": "あのかばんは山田さんのです。",
+          "vi": "Cái cặp kia là của anh Yamada."
+        },
+        {
+          "ja": "あの人は誰ですか。",
+          "vi": "Người kia là ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 436,
+      "word": "どの",
+      "meaningsVi": [
+        "… nào (đứng trước danh từ)"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんはどの人ですか。",
+          "vi": "Anh Tanaka là người nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 570,
+      "word": "本",
+      "meaningsVi": [
+        "sách, quyển sách"
+      ],
+      "noteVi": "Âm Hán Việt \"bản\" (gốc), nhưng một mình 本 (ほん) là quyển sách. 本 còn dùng để đếm vật dài như bút, ô (học ở bài sau).",
+      "examples": [
+        {
+          "ja": "これは日本語の本です。",
+          "vi": "Đây là sách tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 279,
+      "word": "辞書",
+      "meaningsVi": [
+        "từ điển"
+      ],
+      "noteVi": "Âm Hán Việt \"từ thư\": sách tra từ.",
+      "examples": [
+        {
+          "ja": "それは私の辞書です。",
+          "vi": "Đó là từ điển của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 93,
+      "word": "鉛筆",
+      "meaningsVi": [
+        "bút chì"
+      ],
+      "noteVi": "Âm Hán Việt \"duyên bút\": 鉛 (duyên) là chì.",
+      "examples": [
+        {
+          "ja": "この鉛筆は誰のですか。",
+          "vi": "Cây bút chì này là của ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 562,
+      "word": "ボールペン",
+      "meaningsVi": [
+        "bút bi"
+      ],
+      "noteVi": "Từ tiếng Anh \"ball-point pen\" rút gọn. ペン là bút nói chung (bút bi, bút mực…).",
+      "examples": [
+        {
+          "ja": "このボールペンはミンさんのです。",
+          "vi": "Cây bút bi này là của anh Minh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 476,
+      "word": "ノート",
+      "meaningsVi": [
+        "vở, sổ ghi chép"
+      ],
+      "noteVi": "Từ tiếng Anh \"notebook\" rút gọn: ノート là cuốn vở, không phải \"ghi chú\". Máy tính xách tay là ノートパソコン.",
+      "examples": [
+        {
+          "ja": "それは私のノートです。",
+          "vi": "Đó là vở của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 267,
+      "word": "雑誌",
+      "meaningsVi": [
+        "tạp chí"
+      ],
+      "examples": [
+        {
+          "ja": "これは何の雑誌ですか。",
+          "vi": "Đây là tạp chí về gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 306,
+      "word": "新聞",
+      "meaningsVi": [
+        "báo, tờ báo"
+      ],
+      "noteVi": "Âm Hán Việt \"tân văn\" (tin mới), nhưng 新聞 là tờ báo giấy, không phải \"tin tức\" nói chung (tin tức là ニュース).",
+      "examples": [
+        {
+          "ja": "それは英語の新聞ですか。",
+          "vi": "Đó là báo tiếng Anh à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 153,
+      "word": "傘",
+      "meaningsVi": [
+        "cái ô, cái dù"
+      ],
+      "noteVi": "Âm Hán Việt \"tản\". Chữ 傘 trông như một cái ô đang mở, bên dưới có nhiều người (人) trú mưa.",
+      "examples": [
+        {
+          "ja": "あれは私の傘です。",
+          "vi": "Kia là ô của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 163,
+      "word": "かばん",
+      "meaningsVi": [
+        "cặp, túi xách"
+      ],
+      "noteVi": "Chỉ chung các loại cặp, túi để mang đồ: cặp sách, túi xách, cặp tài liệu. Có chữ Hán 鞄 nhưng thường viết bằng hiragana.",
+      "examples": [
+        {
+          "ja": "このかばんは誰のですか。",
+          "vi": "Cái cặp này là của ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 426,
+      "word": "時計",
+      "meaningsVi": [
+        "đồng hồ"
+      ],
+      "noteVi": "Dùng cho cả đồng hồ treo tường lẫn đồng hồ đeo tay (đồng hồ đeo tay nói rõ là 腕時計 うでどけい).",
+      "examples": [
+        {
+          "ja": "この時計は日本のです。",
+          "vi": "Chiếc đồng hồ này là của Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1310,
+      "word": "日本語",
+      "meaningsVi": [
+        "tiếng Nhật"
+      ],
+      "noteVi": "Tên nước + 語 (ご) = tiếng của nước đó: ベトナム語 (tiếng Việt), 中国語 (tiếng Trung).",
+      "examples": [
+        {
+          "ja": "それは日本語の新聞ですか。",
+          "vi": "Đó là báo tiếng Nhật à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 89,
+      "word": "英語",
+      "meaningsVi": [
+        "tiếng Anh"
+      ],
+      "noteVi": "英 (anh) chỉ nước Anh; 英語 là tiếng Anh nói chung, dù người nói là người Anh hay người Mỹ.",
+      "examples": [
+        {
+          "ja": "これは英語の辞書です。",
+          "vi": "Đây là từ điển tiếng Anh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "何",
+      "meaningVi": "gì, cái gì",
+      "noteVi": "Bên trái là bộ nhân đứng 亻 (người). Đọc なん trước です, の: 何ですか, 何の本; đọc なに trong 何語.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "語",
+      "meaningVi": "lời nói; tiếng, ngôn ngữ",
+      "noteVi": "Bên trái là bộ ngôn 言 (lời nói). Tên nước + 語 = tiếng của nước đó: 日本語, 英語.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "名",
+      "meaningVi": "tên",
+      "noteVi": "Trên là 夕 (buổi tối), dưới là 口 (miệng): trời tối không nhìn thấy mặt nên phải gọi tên. Gặp trong 名前 (なまえ: tên).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "kore-sore-are-dore",
+      "titleVi": "これ / それ / あれ / どれ: cái này, cái đó, cái kia, cái nào",
+      "summaryVi": "Đại từ chỉ đồ vật, đứng một mình như danh từ: これは本です = Cái này là quyển sách.",
+      "explanationVi": [
+        "**これ, それ, あれ** chỉ đồ vật và đứng một mình như một danh từ: 「これは何ですか」 = \"Cái này là cái gì?\".",
+        "Chọn từ theo **khoảng cách**: **これ** cho vật ở gần người nói, **それ** cho vật ở gần người nghe, **あれ** cho vật ở xa cả hai người. Vì vậy khi người kia cầm một vật và hỏi 「これは何ですか」, ta trả lời 「**それ**は辞書です」.",
+        "**どれ** là từ để hỏi \"cái nào\" khi chọn trong ba vật trở lên. Như mọi từ để hỏi, どれ không đứng trước は: nói 「田中さんの傘はどれですか」."
+      ],
+      "patterns": [
+        "これ／それ／あれ は N です",
+        "N は どれ ですか"
+      ],
+      "examples": [
+        {
+          "ja": "これは何ですか。",
+          "vi": "Cái này là cái gì?"
+        },
+        {
+          "ja": "それは英語の新聞です。",
+          "vi": "Đó là báo tiếng Anh."
+        },
+        {
+          "ja": "田中さんのかばんはどれですか。",
+          "vi": "Cặp của anh Tanaka là cái nào?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "どれは田中さんの傘ですか。",
+          "right": "田中さんの傘はどれですか。",
+          "noteVi": "Từ để hỏi (どれ, 何, 誰) không đứng trước は. Đặt chủ đề trước, どれ đứng ở chỗ của câu trả lời."
+        },
+        {
+          "wrong": "これは辞書です。",
+          "right": "それは辞書です。",
+          "noteVi": "Tình huống: người kia đang cầm quyển từ điển và hỏi 「これは何ですか」. Vật ở gần người hỏi nên phải trả lời bằng それ. Câu bên trái không sai ngữ pháp nhưng sai trong tình huống này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "no",
+      "titleVi": "の: của, về (nối hai danh từ)",
+      "summaryVi": "N1 の N2: N2 của N1, N2 về N1. 私の本 = sách của tôi.",
+      "explanationVi": [
+        "**の** nối hai danh từ: 「N1 の N2」. N2 là vật chính, N1 nói rõ thêm cho N2. Trật tự **ngược với tiếng Việt**: 「私の本」 = \"sách của tôi\", 「田中さんのかばん」 = \"cặp của anh Tanaka\".",
+        "N1 có thể là **người sở hữu** (私の辞書: từ điển của tôi), **nội dung, loại** (日本語の本: sách tiếng Nhật; 何の雑誌: tạp chí về gì) hay **nơi làm ra** (日本の時計: đồng hồ Nhật). Tiếng Việt hay bỏ \"của\" (\"sách tôi\"), còn tiếng Nhật **không bỏ** の.",
+        "Khi đã rõ đang nói vật gì, có thể bỏ N2, chỉ giữ 「N1 の」: 「この傘は私のです」 = \"Cái ô này là của tôi\". Hỏi \"của ai\": 「誰のですか」, lịch sự hơn: 「どなたのですか」."
+      ],
+      "patterns": [
+        "N1 の N2",
+        "N は N1 の です",
+        "N は 誰 の ですか"
+      ],
+      "examples": [
+        {
+          "ja": "これは私の辞書です。",
+          "vi": "Đây là từ điển của tôi."
+        },
+        {
+          "ja": "それは日本語の本ですか。",
+          "vi": "Đó là sách tiếng Nhật à?"
+        },
+        {
+          "ja": "このかばんは誰のですか。",
+          "vi": "Cái cặp này là của ai?"
+        },
+        {
+          "ja": "いいえ、私のではありません。",
+          "vi": "Không, không phải của tôi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "これは本の私です。",
+          "right": "これは私の本です。",
+          "noteVi": "Tiếng Việt nói \"sách của tôi\" (vật trước, người sở hữu sau). Tiếng Nhật ngược lại: người sở hữu đứng trước の, vật đứng sau: 私の本."
+        },
+        {
+          "wrong": "これは私本です。",
+          "right": "これは私の本です。",
+          "noteVi": "Tiếng Việt có thể nói \"sách tôi\", nhưng tiếng Nhật không bỏ の giữa hai danh từ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kono-sono-ano-dono",
+      "titleVi": "この / その / あの / どの + danh từ: … này, … đó, … kia, … nào",
+      "summaryVi": "Đứng trước danh từ để chỉ người, vật: この本 = quyển sách này; どの人 = người nào.",
+      "explanationVi": [
+        "**この, その, あの** chia theo khoảng cách giống これ, それ, あれ (gần người nói, gần người nghe, xa cả hai), nhưng **luôn đứng trước một danh từ**: 「この本」 = \"quyển sách này\", 「あの人」 = \"người kia\".",
+        "Tiếng Việt đặt \"này, đó, kia\" **sau** danh từ; tiếng Nhật đặt **trước**: \"chiếc đồng hồ này\" = 「この時計」.",
+        "**どの** + danh từ là \"… nào\": 「田中さんはどの人ですか」 = \"Anh Tanaka là người nào?\". この, その, あの, どの không đứng một mình: không nói 「このは…」 mà nói 「これは…」."
+      ],
+      "patterns": [
+        "この／その／あの N1 は N2 です",
+        "N1 は どの N2 ですか"
+      ],
+      "examples": [
+        {
+          "ja": "この本は私のです。",
+          "vi": "Quyển sách này là của tôi."
+        },
+        {
+          "ja": "その傘は誰のですか。",
+          "vi": "Cái ô đó là của ai?"
+        },
+        {
+          "ja": "あの人は日本語の先生です。",
+          "vi": "Người kia là giáo viên tiếng Nhật."
+        },
+        {
+          "ja": "田中さんはどの人ですか。",
+          "vi": "Anh Tanaka là người nào?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "本このは私のです。",
+          "right": "この本は私のです。",
+          "noteVi": "\"Quyển sách này\": この đứng trước danh từ, không đứng sau như \"này\" trong tiếng Việt."
+        },
+        {
+          "wrong": "このは私の傘です。",
+          "right": "これは私の傘です。",
+          "noteVi": "この phải có danh từ đi sau. Đứng một mình thì dùng これ (hoặc nói 「この傘は私のです」)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-02-e01",
+      "type": "choice",
+      "grammar": [
+        "kore-sore-are-dore"
+      ],
+      "promptVi": "Bạn đang cầm một quyển sách trong tay và muốn hỏi đó là sách gì. Chọn câu đúng.",
+      "options": [
+        "これは何ですか。",
+        "それは何ですか。",
+        "あれは何ですか。"
+      ],
+      "answer": 0,
+      "explainVi": "Vật ở gần người nói (trong tay mình) dùng これ."
+    },
+    {
+      "id": "n5-02-e02",
+      "type": "choice",
+      "grammar": [
+        "kore-sore-are-dore"
+      ],
+      "promptVi": "Người kia đang cầm một quyển từ điển và hỏi câu này. Bạn trả lời thế nào?",
+      "ja": "これは何ですか。",
+      "options": [
+        "これは辞書です。",
+        "それは辞書です。",
+        "あれは辞書です。"
+      ],
+      "answer": 1,
+      "explainVi": "Quyển từ điển ở gần người hỏi (người nghe của bạn) nên dùng それ."
+    },
+    {
+      "id": "n5-02-e03",
+      "type": "choice",
+      "grammar": [
+        "kore-sore-are-dore"
+      ],
+      "promptVi": "Chiếc đồng hồ treo trên tường ở xa cả bạn và người nghe. Chọn câu \"Kia là cái đồng hồ.\"",
+      "options": [
+        "これは時計です。",
+        "それは時計です。",
+        "あれは時計です。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-02-e04",
+      "type": "fill",
+      "grammar": [
+        "kore-sore-are-dore"
+      ],
+      "before": "田中さんのかばんは",
+      "after": "ですか。",
+      "answers": [
+        "どれ"
+      ],
+      "options": [
+        "どれ",
+        "これ",
+        "どの"
+      ],
+      "vi": "Cặp của anh Tanaka là cái nào?",
+      "explainVi": "Hỏi \"cái nào\" (đứng một mình) dùng どれ; どの phải có danh từ theo sau."
+    },
+    {
+      "id": "n5-02-e05",
+      "type": "order",
+      "grammar": [
+        "kore-sore-are-dore",
+        "no"
+      ],
+      "vi": "Đây là từ điển của tôi.",
+      "tiles": [
+        "辞書",
+        "これ",
+        "の",
+        "は",
+        "私",
+        "です"
+      ],
+      "answers": [
+        "これは私の辞書です"
+      ]
+    },
+    {
+      "id": "n5-02-e06",
+      "type": "fill",
+      "grammar": [
+        "no"
+      ],
+      "before": "これは日本語",
+      "after": "本です。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "は",
+        "も"
+      ],
+      "vi": "Đây là sách tiếng Nhật."
+    },
+    {
+      "id": "n5-02-e07",
+      "type": "choice",
+      "grammar": [
+        "no"
+      ],
+      "promptVi": "Chọn cách nói đúng: \"cặp của anh Tanaka\"",
+      "options": [
+        "田中さんのかばん",
+        "かばんの田中さん",
+        "田中さんかばん"
+      ],
+      "answer": 0,
+      "explainVi": "Người sở hữu đứng trước の, vật đứng sau; không bỏ の."
+    },
+    {
+      "id": "n5-02-e08",
+      "type": "choice",
+      "grammar": [
+        "no"
+      ],
+      "promptVi": "Câu này hỏi điều gì?",
+      "ja": "この傘は誰のですか。",
+      "options": [
+        "Cái ô này là của ai?",
+        "Cái ô này là ô gì?",
+        "Cái ô nào là của bạn?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-02-e09",
+      "type": "order",
+      "grammar": [
+        "no",
+        "kono-sono-ano-dono"
+      ],
+      "vi": "Chiếc đồng hồ này là của anh Yamada.",
+      "tiles": [
+        "山田さん",
+        "この",
+        "です",
+        "時計",
+        "の",
+        "は"
+      ],
+      "answers": [
+        "この時計は山田さんのです"
+      ]
+    },
+    {
+      "id": "n5-02-e10",
+      "type": "fill",
+      "grammar": [
+        "kono-sono-ano-dono"
+      ],
+      "before": "",
+      "after": "本は私のです。",
+      "answers": [
+        "この"
+      ],
+      "options": [
+        "この",
+        "これ",
+        "どの"
+      ],
+      "vi": "Quyển sách này là của tôi."
+    },
+    {
+      "id": "n5-02-e11",
+      "type": "choice",
+      "grammar": [
+        "kono-sono-ano-dono"
+      ],
+      "promptVi": "Bạn muốn hỏi \"Anh Tanaka là người nào?\". Chọn câu đúng.",
+      "options": [
+        "田中さんはどの人ですか。",
+        "田中さんはどれですか。",
+        "田中さんはあの人ですか。"
+      ],
+      "answer": 0,
+      "explainVi": "どれ dùng cho đồ vật; hỏi người nào dùng どの人. 「あの人ですか」 là \"có phải người kia không?\"."
+    },
+    {
+      "id": "n5-02-e12",
+      "type": "order",
+      "grammar": [
+        "kono-sono-ano-dono",
+        "no"
+      ],
+      "vi": "Cái ô kia là của ai?",
+      "tiles": [
+        "誰",
+        "あの",
+        "の",
+        "傘",
+        "は",
+        "ですか"
+      ],
+      "answers": [
+        "あの傘は誰のですか"
+      ]
+    },
+    {
+      "id": "n5-02-e13",
+      "type": "choice",
+      "grammar": [
+        "kono-sono-ano-dono"
+      ],
+      "promptVi": "\"Cái cặp đó là của tôi.\" Chọn từ điền vào chỗ trống.",
+      "ja": "＿かばんは私のです。",
+      "options": [
+        "それ",
+        "その",
+        "どれ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-02-e14",
+      "type": "choice",
+      "grammar": [
+        "kore-sore-are-dore"
+      ],
+      "promptVi": "\"Cái này là ô của tôi.\" Chọn từ điền vào chỗ trống.",
+      "ja": "＿は私の傘です。",
+      "options": [
+        "これ",
+        "この",
+        "どの"
+      ],
+      "answer": 0,
+      "explainVi": "Trước は không có danh từ nên dùng これ (đứng một mình)."
+    },
+    {
+      "id": "n5-02-e15",
+      "type": "choice",
+      "grammar": [
+        "kore-sore-are-dore",
+        "kono-sono-ano-dono"
+      ],
+      "promptVi": "Người kia hỏi câu này; ô của bạn ở đằng xa. Chọn câu trả lời đúng.",
+      "ja": "あなたの傘はどれですか。",
+      "options": [
+        "あれです。",
+        "あのです。",
+        "どれです。"
+      ],
+      "answer": 0,
+      "explainVi": "あの phải có danh từ theo sau (あの傘です); đứng một mình dùng あれ."
+    },
+    {
+      "id": "n5-02-e16",
+      "type": "choice",
+      "grammar": [
+        "no"
+      ],
+      "promptVi": "Chọn câu trả lời phù hợp với câu hỏi.",
+      "ja": "これは何の本ですか。",
+      "options": [
+        "日本語の本です。",
+        "私の本です。",
+        "田中さんの本です。"
+      ],
+      "answer": 0,
+      "explainVi": "何の本 hỏi sách về gì, sách loại gì; 誰の本 mới hỏi sách của ai."
+    },
+    {
+      "id": "n5-02-e17",
+      "type": "order",
+      "grammar": [
+        "kore-sore-are-dore",
+        "no"
+      ],
+      "vi": "Đó có phải là báo tiếng Anh không?",
+      "tiles": [
+        "それ",
+        "は",
+        "英語",
+        "の",
+        "新聞",
+        "ですか"
+      ],
+      "answers": [
+        "それは英語の新聞ですか"
+      ]
+    },
+    {
+      "id": "n5-02-e18",
+      "type": "fill",
+      "grammar": [
+        "no"
+      ],
+      "before": "いいえ、私",
+      "after": "ではありません。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "は",
+        "も"
+      ],
+      "vi": "Không, không phải của tôi."
+    },
+    {
+      "id": "n5-02-e19",
+      "type": "choice",
+      "grammar": [
+        "kono-sono-ano-dono"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "あの人は誰ですか。",
+      "options": [
+        "Người kia là ai?",
+        "Người này là ai?",
+        "Người kia tên là gì?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-02-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "辞書",
+          "từ điển"
+        ],
+        [
+          "鉛筆",
+          "bút chì"
+        ],
+        [
+          "雑誌",
+          "tạp chí"
+        ],
+        [
+          "新聞",
+          "báo"
+        ],
+        [
+          "傘",
+          "cái ô"
+        ]
+      ]
+    },
+    {
+      "id": "n5-02-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "時計",
+          "đồng hồ"
+        ],
+        [
+          "かばん",
+          "cặp, túi xách"
+        ],
+        [
+          "ノート",
+          "vở"
+        ],
+        [
+          "ボールペン",
+          "bút bi"
+        ],
+        [
+          "英語",
+          "tiếng Anh"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "はい、そうです。": "はい、そうです。",
+    "そうですか。": "そうですか。",
+    "あの人は誰ですか。": "あの{人|ひと}は{誰|だれ}ですか。",
+    "あの人は日本語の先生です。": "あの{人|ひと}は{日本|にほん}{語|ご}の{先|せん}{生|せい}です。",
+    "これは何ですか。": "これは{何|なん}ですか。",
+    "これは私の本です。": "これは{私|わたし}の{本|ほん}です。",
+    "それは英語の辞書です。": "それは{英|えい}{語|ご}の{辞|じ}{書|しょ}です。",
+    "あれは何ですか。": "あれは{何|なん}ですか。",
+    "あれは日本の新聞です。": "あれは{日本|にほん}の{新|しん}{聞|ぶん}です。",
+    "田中さんのかばんはどれですか。": "{田中|たなか}さんのかばんはどれですか。",
+    "あなたの傘はどれですか。": "あなたの{傘|かさ}はどれですか。",
+    "この本は私のです。": "この{本|ほん}は{私|わたし}のです。",
+    "この時計は日本のです。": "この{時計|とけい}は{日本|にほん}のです。",
+    "その傘は誰のですか。": "その{傘|かさ}は{誰|だれ}のですか。",
+    "あのかばんは山田さんのです。": "あのかばんは{山田|やまだ}さんのです。",
+    "田中さんはどの人ですか。": "{田中|たなか}さんはどの{人|ひと}ですか。",
+    "これは日本語の本です。": "これは{日本|にほん}{語|ご}の{本|ほん}です。",
+    "それは私の辞書です。": "それは{私|わたし}の{辞|じ}{書|しょ}です。",
+    "この鉛筆は誰のですか。": "この{鉛|えん}{筆|ぴつ}は{誰|だれ}のですか。",
+    "このボールペンはミンさんのです。": "このボールペンはミンさんのです。",
+    "それは私のノートです。": "それは{私|わたし}のノートです。",
+    "これは何の雑誌ですか。": "これは{何|なん}の{雑|ざっ}{誌|し}ですか。",
+    "それは英語の新聞ですか。": "それは{英|えい}{語|ご}の{新|しん}{聞|ぶん}ですか。",
+    "あれは私の傘です。": "あれは{私|わたし}の{傘|かさ}です。",
+    "このかばんは誰のですか。": "このかばんは{誰|だれ}のですか。",
+    "それは日本語の新聞ですか。": "それは{日本|にほん}{語|ご}の{新|しん}{聞|ぶん}ですか。",
+    "これは英語の辞書です。": "これは{英|えい}{語|ご}の{辞|じ}{書|しょ}です。",
+    "それは英語の新聞です。": "それは{英|えい}{語|ご}の{新|しん}{聞|ぶん}です。",
+    "田中さんの傘はどれですか。": "{田中|たなか}さんの{傘|かさ}はどれですか。",
+    "どれは田中さんの傘ですか。": "どれは{田中|たなか}さんの{傘|かさ}ですか。",
+    "それは辞書です。": "それは{辞|じ}{書|しょ}です。",
+    "これは辞書です。": "これは{辞|じ}{書|しょ}です。",
+    "これは私の辞書です。": "これは{私|わたし}の{辞|じ}{書|しょ}です。",
+    "それは日本語の本ですか。": "それは{日本|にほん}{語|ご}の{本|ほん}ですか。",
+    "いいえ、私のではありません。": "いいえ、{私|わたし}のではありません。",
+    "これは本の私です。": "これは{本|ほん}の{私|わたし}です。",
+    "これは私本です。": "これは{私|わたし}{本|ほん}です。",
+    "本このは私のです。": "{本|ほん}このは{私|わたし}のです。",
+    "これは私の傘です。": "これは{私|わたし}の{傘|かさ}です。",
+    "このは私の傘です。": "このは{私|わたし}の{傘|かさ}です。",
+    "それは何ですか。": "それは{何|なん}ですか。",
+    "あれは辞書です。": "あれは{辞|じ}{書|しょ}です。",
+    "これは時計です。": "これは{時計|とけい}です。",
+    "それは時計です。": "それは{時計|とけい}です。",
+    "あれは時計です。": "あれは{時計|とけい}です。",
+    "どれ": "どれ",
+    "これ": "これ",
+    "どの": "どの",
+    "辞書": "{辞|じ}{書|しょ}",
+    "の": "の",
+    "は": "は",
+    "私": "{私|わたし}",
+    "です": "です",
+    "これは私の辞書です": "これは{私|わたし}の{辞|じ}{書|しょ}です",
+    "も": "も",
+    "田中さんのかばん": "{田中|たなか}さんのかばん",
+    "かばんの田中さん": "かばんの{田中|たなか}さん",
+    "田中さんかばん": "{田中|たなか}さんかばん",
+    "この傘は誰のですか。": "この{傘|かさ}は{誰|だれ}のですか。",
+    "山田さん": "{山田|やまだ}さん",
+    "この": "この",
+    "時計": "{時計|とけい}",
+    "この時計は山田さんのです": "この{時計|とけい}は{山田|やまだ}さんのです",
+    "田中さんはどれですか。": "{田中|たなか}さんはどれですか。",
+    "田中さんはあの人ですか。": "{田中|たなか}さんはあの{人|ひと}ですか。",
+    "誰": "{誰|だれ}",
+    "あの": "あの",
+    "傘": "{傘|かさ}",
+    "ですか": "ですか",
+    "あの傘は誰のですか": "あの{傘|かさ}は{誰|だれ}のですか",
+    "＿かばんは私のです。": "＿かばんは{私|わたし}のです。",
+    "それ": "それ",
+    "その": "その",
+    "＿は私の傘です。": "＿は{私|わたし}の{傘|かさ}です。",
+    "あれです。": "あれです。",
+    "あのです。": "あのです。",
+    "どれです。": "どれです。",
+    "これは何の本ですか。": "これは{何|なん}の{本|ほん}ですか。",
+    "日本語の本です。": "{日本|にほん}{語|ご}の{本|ほん}です。",
+    "私の本です。": "{私|わたし}の{本|ほん}です。",
+    "田中さんの本です。": "{田中|たなか}さんの{本|ほん}です。",
+    "英語": "{英|えい}{語|ご}",
+    "新聞": "{新|しん}{聞|ぶん}",
+    "それは英語の新聞ですか": "それは{英|えい}{語|ご}の{新|しん}{聞|ぶん}ですか",
+    "鉛筆": "{鉛|えん}{筆|ぴつ}",
+    "雑誌": "{雑|ざっ}{誌|し}",
+    "かばん": "かばん",
+    "ノート": "ノート",
+    "ボールペン": "ボールペン"
+  }
+}
