@@ -13,7 +13,18 @@
 | Giai đoạn | Trạng thái |
 |---|---|
 | 0. Tiếp nhận | Xong (2026-11-15), xem mục 3 |
-| 1. Khảo sát và quyết định | Đang làm: khảo sát nguồn (mục 4), chưa hỏi quyết định, chưa có `docs/plan.md` |
+| 1. Khảo sát và quyết định | Đang làm: khảo sát nguồn xong (mục 4); đợt hỏi 1 xong (mục 1c); còn đợt hỏi 2 và viết `docs/plan.md` |
+
+## 1c. Quyết định đã chốt
+
+Đợt 1 (2026-11-15), chủ dự án chọn phương án khuyên dùng ở cả 4 câu:
+
+| # | Vấn đề | Quyết định |
+|---|---|---|
+| 1 | Phạm vi | Chặng kana + **N5 + N4** theo danh sách cộng đồng của J. Waller qua OpenJLPT (CC BY-SA 4.0): ~1304 từ, 245 kanji cần học, ~179 điểm ngữ pháp (rà lại) |
+| 2 | Kiến trúc | **Giữ kiến trúc c-learn-write** (PWA offline, Preact 10.29.8 + Vite 8, monorepo grader/course/web, FSRS, giọng đọc thiết bị); **sao chép mã** rồi sửa, ghi nguồn gốc + commit |
+| 3 | Soạn và duyệt | Claude soạn nháp; giáo viên duyệt qua bảng tính CSV; nhãn "Chưa duyệt"; âm Hán Việt nhiều âm có dấu * |
+| 4 | Giấy phép | Code **MIT**, nội dung **CC BY-SA 4.0**; dùng dữ liệu EDRDG/OpenJLPT trong app, ghi công ở trang Giới thiệu, tải lại dữ liệu EDRDG và báo khác biệt trước mỗi lần phát hành |
 
 ## 2. Làm việc với chủ dự án
 
