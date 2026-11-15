@@ -26,6 +26,15 @@
 | 3 | Soạn và duyệt | Claude soạn nháp; giáo viên duyệt qua bảng tính CSV; nhãn "Chưa duyệt"; âm Hán Việt nhiều âm có dấu * |
 | 4 | Giấy phép | Code **MIT**, nội dung **CC BY-SA 4.0**; dùng dữ liệu EDRDG/OpenJLPT trong app, ghi công ở trang Giới thiệu, tải lại dữ liệu EDRDG và báo khác biệt trước mỗi lần phát hành |
 
+Đợt 2 (2026-11-15):
+
+| # | Vấn đề | Quyết định |
+|---|---|---|
+| 5 | Nhập câu trả lời | **Chỉ bộ gõ của máy** (có trang hướng dẫn cài) + thẻ chữ cho bài sắp xếp. Không chọn bộ chuyển romaji → kana trong ô nhập. Bộ chấm vẫn phải chấp nhận câu viết toàn kana |
+| 6 | Hiển thị | **Kanji + furigana tự động**: từ viết dạng thường gặp; furigana trên kanji chưa học (nút "luôn hiện"); romaji chỉ ở chặng kana hoặc khi bấm; Hán Việt trên thẻ từ/kanji, trong câu bật/tắt |
+| 7 | Luyện viết | **animCJK + hanzi-writer** cho 177 kana + 245 kanji; ghép đoạn nét kana khi build, test đối chiếu số nét với KanjiVG |
+| 8 | Phát hành | **Chỉ phát hành khi xong N5 + N4** (vẫn hỏi trước khi triển khai) |
+
 ## 2. Làm việc với chủ dự án
 
 - Trả lời bằng **tiếng Việt**. Code, tên biến, commit message bằng **tiếng Anh**. Tài liệu dự án (README, `docs/`) bằng **tiếng Việt**.
