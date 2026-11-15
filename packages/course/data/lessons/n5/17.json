@@ -1,0 +1,1093 @@
+{
+  "id": "n5-17",
+  "goalsVi": [
+    "Nói điều mình muốn làm: 日本へ行きたいです、今日は出かけたくないです",
+    "Nói thứ mình muốn có: 新しいカメラが欲しいです",
+    "Nói đi đâu để làm gì: 海へ泳ぎに行きます、デパートへ買い物に行きます",
+    "Nói về kế hoạch nghỉ hè, du lịch, mua sắm"
+  ],
+  "words": [
+    {
+      "no": 565,
+      "word": "欲しい",
+      "meaningsVi": [
+        "muốn có"
+      ],
+      "noteVi": "Dùng cho đồ vật: N が欲しいです. Muốn làm gì thì dùng 〜たい. Chỉ nói mong muốn của mình hoặc hỏi người nghe (không nói về người thứ ba).",
+      "examples": [
+        {
+          "ja": "新しいカメラが欲しいです。",
+          "vi": "Tôi muốn có một cái máy ảnh mới."
+        },
+        {
+          "ja": "誕生日に何が欲しいですか。",
+          "vi": "Sinh nhật bạn muốn được tặng gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 72,
+      "word": "いる",
+      "meaningsVi": [
+        "cần"
+      ],
+      "noteVi": "Thường viết bằng hiragana (kanji là 要る). Chia: いります, いりません; khác với いる \"có, ở\" (います). Thứ cần đi với が: 傘がいります.",
+      "examples": [
+        {
+          "ja": "明日、傘がいりますか。",
+          "vi": "Ngày mai có cần ô không?"
+        },
+        {
+          "ja": "旅行にはお金がいります。",
+          "vi": "Đi du lịch thì cần tiền."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 659,
+      "word": "旅行",
+      "meaningsVi": [
+        "du lịch, chuyến đi"
+      ],
+      "noteVi": "Hán Việt \"lữ hành\". Dùng như danh từ (旅行に行きます) hoặc với します (旅行します: đi du lịch).",
+      "examples": [
+        {
+          "ja": "来月、家族と京都へ旅行します。",
+          "vi": "Tháng sau tôi đi du lịch Kyoto cùng gia đình."
+        },
+        {
+          "ja": "夏休みに外国へ旅行に行きたいです。",
+          "vi": "Kỳ nghỉ hè tôi muốn đi du lịch nước ngoài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 453,
+      "word": "夏休み",
+      "meaningsVi": [
+        "kỳ nghỉ hè"
+      ],
+      "noteVi": "夏 (mùa hè) + 休み (nghỉ).",
+      "examples": [
+        {
+          "ja": "夏休みに何をしますか。",
+          "vi": "Kỳ nghỉ hè bạn sẽ làm gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 82,
+      "word": "海",
+      "meaningsVi": [
+        "biển"
+      ],
+      "examples": [
+        {
+          "ja": "夏休みに海へ行きました。",
+          "vi": "Kỳ nghỉ hè tôi đã đi biển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 630,
+      "word": "山",
+      "meaningsVi": [
+        "núi"
+      ],
+      "examples": [
+        {
+          "ja": "夏休みに家族と山へ行きます。",
+          "vi": "Kỳ nghỉ hè tôi lên núi cùng gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 174,
+      "word": "川",
+      "meaningsVi": [
+        "sông, suối"
+      ],
+      "examples": [
+        {
+          "ja": "この川はきれいです。",
+          "vi": "Con sông này sạch đẹp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 477,
+      "word": "登る",
+      "meaningsVi": [
+        "leo, trèo (núi)"
+      ],
+      "noteVi": "Leo lên đâu: N に登ります (山に登ります).",
+      "examples": [
+        {
+          "ja": "来年、日本の山に登りたいです。",
+          "vi": "Năm sau tôi muốn leo núi ở Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 134,
+      "word": "泳ぐ",
+      "meaningsVi": [
+        "bơi"
+      ],
+      "examples": [
+        {
+          "ja": "海で泳ぎたいです。",
+          "vi": "Tôi muốn bơi ở biển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 17,
+      "word": "遊ぶ",
+      "meaningsVi": [
+        "chơi, đi chơi"
+      ],
+      "noteVi": "遊ぶ là vui chơi, đi chơi với bạn bè; chơi thể thao dùng します, chơi đàn dùng 弾きます. 遊びに行きます／来ます = đi chơi, đến chơi.",
+      "examples": [
+        {
+          "ja": "日曜日に友達と遊びました。",
+          "vi": "Chủ nhật tôi đã đi chơi với bạn."
+        },
+        {
+          "ja": "日曜日、私の家へ遊びに来ませんか。",
+          "vi": "Chủ nhật bạn đến nhà mình chơi không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 140,
+      "word": "外国",
+      "meaningsVi": [
+        "nước ngoài"
+      ],
+      "noteVi": "Hán Việt \"ngoại quốc\". 外国人 (bài 1) là người nước ngoài.",
+      "examples": [
+        {
+          "ja": "外国の映画をよく見ます。",
+          "vi": "Tôi hay xem phim nước ngoài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 569,
+      "word": "ホテル",
+      "meaningsVi": [
+        "khách sạn"
+      ],
+      "examples": [
+        {
+          "ja": "駅の前に新しいホテルがあります。",
+          "vi": "Trước nhà ga có một khách sạn mới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 166,
+      "word": "カメラ",
+      "meaningsVi": [
+        "máy ảnh"
+      ],
+      "examples": [
+        {
+          "ja": "カメラで写真を撮ります。",
+          "vi": "Tôi chụp ảnh bằng máy ảnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 144,
+      "word": "買い物",
+      "meaningsVi": [
+        "mua sắm, việc đi chợ"
+      ],
+      "noteVi": "買い物します (mua sắm) hoặc 買い物に行きます (đi mua sắm).",
+      "examples": [
+        {
+          "ja": "デパートへ買い物に行きます。",
+          "vi": "Tôi đi mua sắm ở cửa hàng bách hóa."
+        },
+        {
+          "ja": "明日、町で買い物します。",
+          "vi": "Ngày mai tôi đi mua sắm trong thành phố."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 101,
+      "word": "お金",
+      "meaningsVi": [
+        "tiền"
+      ],
+      "noteVi": "Hầu như luôn nói お金. Chữ 金 có âm Hán Việt \"kim\" (vàng, kim loại).",
+      "examples": [
+        {
+          "ja": "お金がありません。",
+          "vi": "Tôi không có tiền."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 129,
+      "word": "お弁当",
+      "meaningsVi": [
+        "cơm hộp (bento)"
+      ],
+      "noteVi": "Hộp cơm mang theo để ăn trưa hay đi chơi; cơm hộp bán sẵn ở cửa hàng cũng gọi là お弁当.",
+      "examples": [
+        {
+          "ja": "公園でお弁当を食べましょう。",
+          "vi": "Mình ăn cơm hộp ở công viên nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 172,
+      "word": "カレー",
+      "meaningsVi": [
+        "cà ri, cơm cà ri"
+      ],
+      "noteVi": "Ở Nhật, カレー thường là cơm cà ri (カレーライス).",
+      "examples": [
+        {
+          "ja": "今日はカレーが食べたいです。",
+          "vi": "Hôm nay tôi muốn ăn cà ri."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 538,
+      "word": "プール",
+      "meaningsVi": [
+        "bể bơi, hồ bơi"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝、プールで泳ぎます。",
+          "vi": "Sáng nào tôi cũng bơi ở bể bơi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 88,
+      "word": "映画館",
+      "meaningsVi": [
+        "rạp chiếu phim"
+      ],
+      "noteVi": "映画 (phim) + 館 (quán: tòa nhà).",
+      "examples": [
+        {
+          "ja": "映画館へ映画を見に行きます。",
+          "vi": "Tôi đến rạp xem phim."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 400,
+      "word": "出かける",
+      "meaningsVi": [
+        "ra ngoài, đi ra ngoài"
+      ],
+      "noteVi": "Rời nhà để đi đâu đó: 出かけます, 出かけません.",
+      "examples": [
+        {
+          "ja": "日曜日に家族と出かけます。",
+          "vi": "Chủ nhật tôi đi ra ngoài cùng gia đình."
+        },
+        {
+          "ja": "今日は寒いですから、出かけたくないです。",
+          "vi": "Hôm nay lạnh nên tôi không muốn ra ngoài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 640,
+      "word": "洋服",
+      "meaningsVi": [
+        "quần áo (kiểu Âu)"
+      ],
+      "noteVi": "Hán Việt \"dương phục\": quần áo kiểu phương Tây, khác 着物 (kimono). Ngày nay thường nói ngắn là 服.",
+      "examples": [
+        {
+          "ja": "デパートで洋服を買いたいです。",
+          "vi": "Tôi muốn mua quần áo ở cửa hàng bách hóa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 541,
+      "word": "服",
+      "meaningsVi": [
+        "quần áo"
+      ],
+      "examples": [
+        {
+          "ja": "新しい服が欲しいです。",
+          "vi": "Tôi muốn có quần áo mới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 207,
+      "word": "靴",
+      "meaningsVi": [
+        "giày"
+      ],
+      "noteVi": "Đếm bằng 〜足: 靴を1足 (một đôi giày).",
+      "examples": [
+        {
+          "ja": "この靴は少し小さいです。",
+          "vi": "Đôi giày này hơi chật."
+        },
+        {
+          "ja": "靴を1足買いました。",
+          "vi": "Tôi đã mua một đôi giày."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 561,
+      "word": "帽子",
+      "meaningsVi": [
+        "mũ, nón"
+      ],
+      "examples": [
+        {
+          "ja": "夏は帽子がいります。",
+          "vi": "Mùa hè cần có mũ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 394,
+      "word": "冷たい",
+      "meaningsVi": [
+        "lạnh (khi chạm vào), mát lạnh"
+      ],
+      "noteVi": "Dùng cho đồ vật, đồ ăn uống, nước: 冷たい水 (nước lạnh). Trời lạnh thì dùng 寒い.",
+      "examples": [
+        {
+          "ja": "冷たい水が飲みたいです。",
+          "vi": "Tôi muốn uống nước lạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "山",
+      "meaningVi": "núi",
+      "noteVi": "Hình ba ngọn núi. Gặp trong 山 (やま) và họ 山田 (やまだ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "川",
+      "meaningVi": "sông",
+      "noteVi": "Ba nét như dòng nước chảy. Gặp trong 川 (かわ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "外",
+      "meaningVi": "ngoài",
+      "noteVi": "Gặp trong 外 (そと, bên ngoài), 外国 (がいこく, nước ngoài), 外国人 (người nước ngoài).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "tai",
+      "titleVi": "〜たいです: muốn làm gì",
+      "summaryVi": "V (bỏ ます) + たいです: muốn làm V.",
+      "explanationVi": [
+        "Muốn nói **muốn làm** gì, bỏ **ます** của động từ rồi thêm **たいです**: 行きます → 行き**たいです** (muốn đi), 食べます → 食べ**たいです** (muốn ăn).",
+        "〜たい chia như tính từ đuôi い: phủ định **〜たくないです** (không muốn), quá khứ **〜たかったです** (đã muốn). Với động từ có を, có thể dùng を hoặc が: 「水を飲みたいです」 hay 「水が飲みたいです」.",
+        "〜たいです chỉ dùng để nói mong muốn **của mình** hoặc **hỏi người nghe** (bạn bè, người ngang hàng). Không hỏi người trên 「〜たいですか」 (\"thầy có muốn… không?\"); khi mời, dùng **〜ませんか** (bài 10)."
+      ],
+      "patterns": [
+        "V (bỏ ます) たいです",
+        "V (bỏ ます) たくないです"
+      ],
+      "examples": [
+        {
+          "ja": "日本へ行きたいです。",
+          "vi": "Tôi muốn đi Nhật."
+        },
+        {
+          "ja": "夏休みに何をしたいですか。",
+          "vi": "Kỳ nghỉ hè bạn muốn làm gì?"
+        },
+        {
+          "ja": "今日は出かけたくないです。",
+          "vi": "Hôm nay tôi không muốn ra ngoài."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日本へ行くたいです。",
+          "right": "日本へ行きたいです。",
+          "noteVi": "たい gắn vào động từ bỏ ます (行きます → 行き), không gắn vào thể từ điển (行く)."
+        },
+        {
+          "wrong": "先生、コーヒーを飲みたいですか。",
+          "right": "先生、コーヒーを飲みませんか。",
+          "noteVi": "Câu bên trái không sai ngữ pháp nhưng thiếu lịch sự: hỏi thẳng mong muốn của người trên. Khi mời, dùng 〜ませんか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ga-hoshii",
+      "titleVi": "〜が欲しいです: muốn có",
+      "summaryVi": "N が 欲しいです: muốn có N (đồ vật).",
+      "explanationVi": [
+        "**欲しい** là tính từ đuôi い, nghĩa là \"muốn có\". Thứ muốn có đi với **が**: 「新しいカメラが欲しいです」 (tôi muốn có máy ảnh mới).",
+        "Tiếng Việt dùng \"muốn\" cho cả đồ vật lẫn hành động, còn tiếng Nhật tách làm hai: muốn **có đồ vật** → 「N が欲しいです」; muốn **làm gì** → 「V たいです」: 「カメラが欲しいです」 nhưng 「写真を撮りたいです」.",
+        "欲しい chia như tính từ đuôi い: 欲しくないです (không muốn có), 欲しかったです (đã muốn có). Giống 〜たい, chỉ dùng cho mong muốn của mình hoặc để hỏi người nghe: 「何が欲しいですか」."
+      ],
+      "patterns": [
+        "N が 欲しいです",
+        "N は 欲しくないです"
+      ],
+      "examples": [
+        {
+          "ja": "大きい冷蔵庫が欲しいです。",
+          "vi": "Tôi muốn có một cái tủ lạnh to."
+        },
+        {
+          "ja": "今、何がいちばん欲しいですか。",
+          "vi": "Bây giờ bạn muốn có gì nhất?"
+        },
+        {
+          "ja": "車は欲しくないです。",
+          "vi": "Tôi không muốn có ô tô."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "水を飲み欲しいです。",
+          "right": "水が飲みたいです。",
+          "noteVi": "Muốn làm gì thì dùng 〜たい; 欲しい chỉ đi sau danh từ (thứ muốn có)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-iku",
+      "titleVi": "〜に行きます: đi để làm gì",
+      "summaryVi": "(Nơi へ) V (bỏ ます) に 行きます: đi (đến nơi đó) để làm V.",
+      "explanationVi": [
+        "Muốn nói **đi đâu để làm gì**, đặt mục đích trước **に**, rồi đến **行きます／来ます／帰ります**: 「泳ぎに行きます」 (đi bơi), 「映画を見に行きます」 (đi xem phim). Mục đích là động từ bỏ ます: 泳ぎます → 泳ぎ.",
+        "Với danh từ chỉ hoạt động (買い物, 旅行, 散歩…), đặt thẳng danh từ trước に: 「買い物に行きます」 (đi mua sắm), 「旅行に行きます」 (đi du lịch).",
+        "Nơi đến đi với **へ**: 「デパートへ買い物に行きます」. Tiếng Việt nói \"đi + làm gì\" (đi bơi, đi mua sắm), còn tiếng Nhật đặt mục đích + に **trước** 行きます."
+      ],
+      "patterns": [
+        "Nơi へ V (bỏ ます) に 行きます／来ます／帰ります",
+        "Nơi へ N に 行きます"
+      ],
+      "examples": [
+        {
+          "ja": "海へ泳ぎに行きます。",
+          "vi": "Tôi ra biển bơi."
+        },
+        {
+          "ja": "町へ買い物に行きました。",
+          "vi": "Tôi đã vào thành phố mua sắm."
+        },
+        {
+          "ja": "昼ご飯を食べに家へ帰ります。",
+          "vi": "Tôi về nhà để ăn trưa."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "泳ぐに行きます。",
+          "right": "泳ぎに行きます。",
+          "noteVi": "Trước に dùng động từ bỏ ます (泳ぎます → 泳ぎ), không dùng thể từ điển (泳ぐ)."
+        },
+        {
+          "wrong": "買い物を行きます。",
+          "right": "買い物に行きます。",
+          "noteVi": "Dịch từng chữ \"đi mua sắm\" dễ dùng nhầm を; mục đích của việc đi dùng に."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-17-e01",
+      "type": "choice",
+      "grammar": [
+        "tai"
+      ],
+      "promptVi": "Chọn cách nói đúng: \"Tôi muốn đi Nhật.\"",
+      "ja": "日本へ＿。",
+      "options": [
+        "行きたいです",
+        "行きましょう",
+        "行きたくないです"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-17-e02",
+      "type": "fill",
+      "grammar": [
+        "tai"
+      ],
+      "promptVi": "Điền vào chỗ trống để nói \"muốn\".",
+      "before": "冷たい水が飲み",
+      "after": "です。",
+      "answers": [
+        "たい"
+      ],
+      "vi": "Tôi muốn uống nước lạnh."
+    },
+    {
+      "id": "n5-17-e03",
+      "type": "order",
+      "grammar": [
+        "tai"
+      ],
+      "vi": "Kỳ nghỉ hè tôi muốn đi nước ngoài.",
+      "tiles": [
+        "行きたい",
+        "外国",
+        "に",
+        "です",
+        "夏休み",
+        "へ"
+      ],
+      "answers": [
+        "夏休みに外国へ行きたいです",
+        "外国へ夏休みに行きたいです"
+      ]
+    },
+    {
+      "id": "n5-17-e04",
+      "type": "choice",
+      "grammar": [
+        "tai"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "今日は出かけたくないです。",
+      "options": [
+        "Hôm nay tôi không muốn ra ngoài.",
+        "Hôm nay tôi muốn ra ngoài.",
+        "Hôm nay tôi đã không ra ngoài."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-17-e05",
+      "type": "choice",
+      "grammar": [
+        "tai"
+      ],
+      "promptVi": "Bạn muốn mời thầy giáo uống cà phê. Câu nào lịch sự?",
+      "options": [
+        "先生、コーヒーを飲みませんか。",
+        "先生、コーヒーを飲みたいですか。",
+        "先生、コーヒーが欲しいですか。"
+      ],
+      "answer": 0,
+      "explainVi": "Không hỏi thẳng mong muốn của người trên bằng 〜たいですか／欲しいですか; khi mời dùng 〜ませんか."
+    },
+    {
+      "id": "n5-17-e06",
+      "type": "fill",
+      "grammar": [
+        "ga-hoshii"
+      ],
+      "before": "新しいカメラ",
+      "after": "欲しいです。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "に",
+        "で"
+      ],
+      "vi": "Tôi muốn có một cái máy ảnh mới."
+    },
+    {
+      "id": "n5-17-e07",
+      "type": "choice",
+      "grammar": [
+        "ga-hoshii"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi muốn có một chiếc xe đạp\"?",
+      "options": [
+        "自転車が欲しいです。",
+        "自転車がしたいです。",
+        "自転車が欲しいたいです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-17-e08",
+      "type": "choice",
+      "grammar": [
+        "ga-hoshii",
+        "tai"
+      ],
+      "promptVi": "Chọn cách nói đúng: \"Tôi muốn chụp ảnh.\"",
+      "ja": "写真を＿。",
+      "options": [
+        "撮りたいです",
+        "欲しいです",
+        "撮り欲しいです"
+      ],
+      "answer": 0,
+      "explainVi": "Muốn làm gì dùng 〜たい; 欲しい chỉ dùng cho đồ vật."
+    },
+    {
+      "id": "n5-17-e09",
+      "type": "order",
+      "grammar": [
+        "ga-hoshii"
+      ],
+      "vi": "Bây giờ bạn muốn có gì nhất?",
+      "tiles": [
+        "欲しい",
+        "何",
+        "か",
+        "今",
+        "いちばん",
+        "です",
+        "が"
+      ],
+      "answers": [
+        "今何がいちばん欲しいですか",
+        "何が今いちばん欲しいですか"
+      ]
+    },
+    {
+      "id": "n5-17-e10",
+      "type": "fill",
+      "grammar": [
+        "ni-iku"
+      ],
+      "before": "海へ泳ぎ",
+      "after": "行きます。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "vi": "Tôi ra biển bơi."
+    },
+    {
+      "id": "n5-17-e11",
+      "type": "choice",
+      "grammar": [
+        "ni-iku"
+      ],
+      "promptVi": "Chọn cách nói đúng: \"đi bơi\"",
+      "options": [
+        "泳ぎに行きます",
+        "泳ぎを行きます",
+        "泳ぎで行きます"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-17-e12",
+      "type": "order",
+      "grammar": [
+        "ni-iku"
+      ],
+      "vi": "Tôi đến rạp để xem phim.",
+      "tiles": [
+        "見に",
+        "映画",
+        "へ",
+        "行きます",
+        "映画館",
+        "を"
+      ],
+      "answers": [
+        "映画館へ映画を見に行きます",
+        "映画を見に映画館へ行きます"
+      ]
+    },
+    {
+      "id": "n5-17-e13",
+      "type": "fill",
+      "grammar": [
+        "ni-iku"
+      ],
+      "before": "デパートへ買い物",
+      "after": "行きました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "が"
+      ],
+      "vi": "Tôi đã đến cửa hàng bách hóa để mua sắm."
+    },
+    {
+      "id": "n5-17-e14",
+      "type": "choice",
+      "grammar": [
+        "ni-iku"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "昼ご飯を食べに家へ帰ります。",
+      "options": [
+        "Tôi về nhà để ăn trưa.",
+        "Tôi ăn trưa rồi về nhà.",
+        "Tôi ăn trưa ở nhà bạn."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-17-e15",
+      "type": "order",
+      "grammar": [
+        "tai",
+        "ni-iku"
+      ],
+      "vi": "Tôi muốn ra biển bơi.",
+      "tiles": [
+        "に",
+        "海",
+        "行きたい",
+        "泳ぎ",
+        "です",
+        "へ"
+      ],
+      "answers": [
+        "海へ泳ぎに行きたいです",
+        "泳ぎに海へ行きたいです"
+      ]
+    },
+    {
+      "id": "n5-17-e16",
+      "type": "choice",
+      "grammar": [
+        "ni-iku"
+      ],
+      "promptVi": "Rủ bạn: \"Chủ nhật đến nhà mình chơi không?\" Chọn từ điền vào chỗ trống.",
+      "ja": "日曜日、私の家へ＿に来ませんか。",
+      "options": [
+        "遊び",
+        "泳ぎ",
+        "出かけ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-17-e17",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Ngày mai có cần ô không?\"",
+      "ja": "明日、傘が＿か。",
+      "options": [
+        "いります",
+        "います",
+        "欲しいです"
+      ],
+      "answer": 0,
+      "explainVi": "いります (cần) khác います (có, ở: dùng cho người, động vật)."
+    },
+    {
+      "id": "n5-17-e18",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tôi muốn uống nước lạnh.\"",
+      "ja": "＿水が飲みたいです。",
+      "options": [
+        "冷たい",
+        "寒い",
+        "涼しい"
+      ],
+      "answer": 0,
+      "explainVi": "Đồ uống, đồ vật lạnh dùng 冷たい; trời lạnh dùng 寒い."
+    },
+    {
+      "id": "n5-17-e19",
+      "type": "fill",
+      "promptVi": "Chọn từ đúng.",
+      "before": "来年、山に",
+      "after": "たいです。",
+      "answers": [
+        "登り"
+      ],
+      "options": [
+        "登り",
+        "泳ぎ",
+        "遊び"
+      ],
+      "vi": "Năm sau tôi muốn leo núi."
+    },
+    {
+      "id": "n5-17-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "海",
+          "biển"
+        ],
+        [
+          "山",
+          "núi"
+        ],
+        [
+          "川",
+          "sông"
+        ],
+        [
+          "プール",
+          "bể bơi"
+        ],
+        [
+          "ホテル",
+          "khách sạn"
+        ]
+      ]
+    },
+    {
+      "id": "n5-17-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "服",
+          "quần áo"
+        ],
+        [
+          "靴",
+          "giày"
+        ],
+        [
+          "帽子",
+          "mũ"
+        ],
+        [
+          "カメラ",
+          "máy ảnh"
+        ],
+        [
+          "お金",
+          "tiền"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "新しいカメラが欲しいです。": "{新|あたら}しいカメラが{欲|ほ}しいです。",
+    "誕生日に何が欲しいですか。": "{誕|たん}{生|じょう}{日|び}に{何|なに}が{欲|ほ}しいですか。",
+    "明日、傘がいりますか。": "{明日|あした}、{傘|かさ}がいりますか。",
+    "旅行にはお金がいります。": "{旅|りょ}{行|こう}にはお{金|かね}がいります。",
+    "来月、家族と京都へ旅行します。": "{来|らい}{月|げつ}、{家|か}{族|ぞく}と{京都|きょうと}へ{旅|りょ}{行|こう}します。",
+    "夏休みに外国へ旅行に行きたいです。": "{夏|なつ}{休|やす}みに{外|がい}{国|こく}へ{旅|りょ}{行|こう}に{行|い}きたいです。",
+    "夏休みに何をしますか。": "{夏|なつ}{休|やす}みに{何|なに}をしますか。",
+    "夏休みに海へ行きました。": "{夏|なつ}{休|やす}みに{海|うみ}へ{行|い}きました。",
+    "夏休みに家族と山へ行きます。": "{夏|なつ}{休|やす}みに{家|か}{族|ぞく}と{山|やま}へ{行|い}きます。",
+    "この川はきれいです。": "この{川|かわ}はきれいです。",
+    "来年、日本の山に登りたいです。": "{来|らい}{年|ねん}、{日本|にほん}の{山|やま}に{登|のぼ}りたいです。",
+    "海で泳ぎたいです。": "{海|うみ}で{泳|およ}ぎたいです。",
+    "日曜日に友達と遊びました。": "{日|にち}{曜|よう}{日|び}に{友|とも}{達|だち}と{遊|あそ}びました。",
+    "日曜日、私の家へ遊びに来ませんか。": "{日|にち}{曜|よう}{日|び}、{私|わたし}の{家|いえ}へ{遊|あそ}びに{来|き}ませんか。",
+    "外国の映画をよく見ます。": "{外|がい}{国|こく}の{映|えい}{画|が}をよく{見|み}ます。",
+    "駅の前に新しいホテルがあります。": "{駅|えき}の{前|まえ}に{新|あたら}しいホテルがあります。",
+    "カメラで写真を撮ります。": "カメラで{写|しゃ}{真|しん}を{撮|と}ります。",
+    "デパートへ買い物に行きます。": "デパートへ{買|か}い{物|もの}に{行|い}きます。",
+    "明日、町で買い物します。": "{明日|あした}、{町|まち}で{買|か}い{物|もの}します。",
+    "お金がありません。": "お{金|かね}がありません。",
+    "公園でお弁当を食べましょう。": "{公|こう}{園|えん}でお{弁|べん}{当|とう}を{食|た}べましょう。",
+    "今日はカレーが食べたいです。": "{今日|きょう}はカレーが{食|た}べたいです。",
+    "毎朝、プールで泳ぎます。": "{毎|まい}{朝|あさ}、プールで{泳|およ}ぎます。",
+    "映画館へ映画を見に行きます。": "{映|えい}{画|が}{館|かん}へ{映|えい}{画|が}を{見|み}に{行|い}きます。",
+    "日曜日に家族と出かけます。": "{日|にち}{曜|よう}{日|び}に{家|か}{族|ぞく}と{出|で}かけます。",
+    "今日は寒いですから、出かけたくないです。": "{今日|きょう}は{寒|さむ}いですから、{出|で}かけたくないです。",
+    "デパートで洋服を買いたいです。": "デパートで{洋|よう}{服|ふく}を{買|か}いたいです。",
+    "新しい服が欲しいです。": "{新|あたら}しい{服|ふく}が{欲|ほ}しいです。",
+    "この靴は少し小さいです。": "この{靴|くつ}は{少|すこ}し{小|ちい}さいです。",
+    "靴を1足買いました。": "{靴|くつ}を1{足|そく}{買|か}いました。",
+    "夏は帽子がいります。": "{夏|なつ}は{帽|ぼう}{子|し}がいります。",
+    "冷たい水が飲みたいです。": "{冷|つめ}たい{水|みず}が{飲|の}みたいです。",
+    "日本へ行きたいです。": "{日本|にほん}へ{行|い}きたいです。",
+    "夏休みに何をしたいですか。": "{夏|なつ}{休|やす}みに{何|なに}をしたいですか。",
+    "今日は出かけたくないです。": "{今日|きょう}は{出|で}かけたくないです。",
+    "日本へ行くたいです。": "{日本|にほん}へ{行|い}くたいです。",
+    "先生、コーヒーを飲みませんか。": "{先|せん}{生|せい}、コーヒーを{飲|の}みませんか。",
+    "先生、コーヒーを飲みたいですか。": "{先|せん}{生|せい}、コーヒーを{飲|の}みたいですか。",
+    "大きい冷蔵庫が欲しいです。": "{大|おお}きい{冷|れい}{蔵|ぞう}{庫|こ}が{欲|ほ}しいです。",
+    "今、何がいちばん欲しいですか。": "{今|いま}、{何|なに}がいちばん{欲|ほ}しいですか。",
+    "車は欲しくないです。": "{車|くるま}は{欲|ほ}しくないです。",
+    "水が飲みたいです。": "{水|みず}が{飲|の}みたいです。",
+    "水を飲み欲しいです。": "{水|みず}を{飲|の}み{欲|ほ}しいです。",
+    "海へ泳ぎに行きます。": "{海|うみ}へ{泳|およ}ぎに{行|い}きます。",
+    "町へ買い物に行きました。": "{町|まち}へ{買|か}い{物|もの}に{行|い}きました。",
+    "昼ご飯を食べに家へ帰ります。": "{昼|ひる}ご{飯|はん}を{食|た}べに{家|いえ}へ{帰|かえ}ります。",
+    "泳ぎに行きます。": "{泳|およ}ぎに{行|い}きます。",
+    "泳ぐに行きます。": "{泳|およ}ぐに{行|い}きます。",
+    "買い物に行きます。": "{買|か}い{物|もの}に{行|い}きます。",
+    "買い物を行きます。": "{買|か}い{物|もの}を{行|い}きます。",
+    "日本へ＿。": "{日本|にほん}へ＿。",
+    "行きたいです": "{行|い}きたいです",
+    "行きましょう": "{行|い}きましょう",
+    "行きたくないです": "{行|い}きたくないです",
+    "たい": "たい",
+    "行きたい": "{行|い}きたい",
+    "外国": "{外|がい}{国|こく}",
+    "に": "に",
+    "です": "です",
+    "夏休み": "{夏|なつ}{休|やす}み",
+    "へ": "へ",
+    "夏休みに外国へ行きたいです": "{夏|なつ}{休|やす}みに{外|がい}{国|こく}へ{行|い}きたいです",
+    "外国へ夏休みに行きたいです": "{外|がい}{国|こく}へ{夏|なつ}{休|やす}みに{行|い}きたいです",
+    "先生、コーヒーが欲しいですか。": "{先|せん}{生|せい}、コーヒーが{欲|ほ}しいですか。",
+    "が": "が",
+    "で": "で",
+    "自転車が欲しいです。": "{自|じ}{転|てん}{車|しゃ}が{欲|ほ}しいです。",
+    "自転車がしたいです。": "{自|じ}{転|てん}{車|しゃ}がしたいです。",
+    "自転車が欲しいたいです。": "{自|じ}{転|てん}{車|しゃ}が{欲|ほ}しいたいです。",
+    "写真を＿。": "{写|しゃ}{真|しん}を＿。",
+    "撮りたいです": "{撮|と}りたいです",
+    "欲しいです": "{欲|ほ}しいです",
+    "撮り欲しいです": "{撮|と}り{欲|ほ}しいです",
+    "欲しい": "{欲|ほ}しい",
+    "何": "{何|なに}",
+    "か": "か",
+    "今": "{今|いま}",
+    "いちばん": "いちばん",
+    "今何がいちばん欲しいですか": "{今|いま}{何|なに}がいちばん{欲|ほ}しいですか",
+    "何が今いちばん欲しいですか": "{何|なに}が{今|いま}いちばん{欲|ほ}しいですか",
+    "を": "を",
+    "泳ぎに行きます": "{泳|およ}ぎに{行|い}きます",
+    "泳ぎを行きます": "{泳|およ}ぎを{行|い}きます",
+    "泳ぎで行きます": "{泳|およ}ぎで{行|い}きます",
+    "見に": "{見|み}に",
+    "映画": "{映|えい}{画|が}",
+    "行きます": "{行|い}きます",
+    "映画館": "{映|えい}{画|が}{館|かん}",
+    "映画館へ映画を見に行きます": "{映|えい}{画|が}{館|かん}へ{映|えい}{画|が}を{見|み}に{行|い}きます",
+    "映画を見に映画館へ行きます": "{映|えい}{画|が}を{見|み}に{映|えい}{画|が}{館|かん}へ{行|い}きます",
+    "デパートへ買い物に行きました。": "デパートへ{買|か}い{物|もの}に{行|い}きました。",
+    "海": "{海|うみ}",
+    "泳ぎ": "{泳|およ}ぎ",
+    "海へ泳ぎに行きたいです": "{海|うみ}へ{泳|およ}ぎに{行|い}きたいです",
+    "泳ぎに海へ行きたいです": "{泳|およ}ぎに{海|うみ}へ{行|い}きたいです",
+    "日曜日、私の家へ＿に来ませんか。": "{日|にち}{曜|よう}{日|び}、{私|わたし}の{家|いえ}へ＿に{来|き}ませんか。",
+    "遊び": "{遊|あそ}び",
+    "出かけ": "{出|で}かけ",
+    "明日、傘が＿か。": "{明日|あした}、{傘|かさ}が＿か。",
+    "いります": "いります",
+    "います": "います",
+    "＿水が飲みたいです。": "＿{水|みず}が{飲|の}みたいです。",
+    "冷たい": "{冷|つめ}たい",
+    "寒い": "{寒|さむ}い",
+    "涼しい": "{涼|すず}しい",
+    "来年、山に登りたいです。": "{来|らい}{年|ねん}、{山|やま}に{登|のぼ}りたいです。",
+    "登り": "{登|のぼ}り",
+    "山": "{山|やま}",
+    "川": "{川|かわ}",
+    "プール": "プール",
+    "ホテル": "ホテル",
+    "服": "{服|ふく}",
+    "靴": "{靴|くつ}",
+    "帽子": "{帽|ぼう}{子|し}",
+    "カメラ": "カメラ",
+    "お金": "お{金|かね}"
+  }
+}

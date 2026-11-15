@@ -1,0 +1,1190 @@
+{
+  "id": "n5-15",
+  "goalsVi": [
+    "Đếm đồ vật, con vật bằng trợ số từ: 鉛筆を3本、紙を2枚、猫が2匹",
+    "Nói về gia đình mình: 兄が1人と妹が1人います",
+    "Nói làm gì bao nhiêu lần trong một khoảng thời gian: 1週間に3回",
+    "Nói \"chỉ\" với だけ, \"khoảng\" với ぐらい; hỏi mất bao lâu: どのくらいかかりますか",
+    "Mua tem, phong bì, bưu thiếp"
+  ],
+  "words": [
+    {
+      "no": 544,
+      "word": "二人",
+      "meaningsVi": [
+        "hai người"
+      ],
+      "noteVi": "Đọc ふたり. 一人 ひとり, 二人 ふたり; từ ba người trở đi đọc 〜にん: 3人 さんにん. 二人で = hai người cùng nhau.",
+      "examples": [
+        {
+          "ja": "姉が二人います。",
+          "vi": "Tôi có hai chị gái."
+        },
+        {
+          "ja": "日曜日に二人で映画を見ました。",
+          "vi": "Chủ nhật, hai chúng tôi đã cùng xem phim."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 194,
+      "word": "兄弟",
+      "meaningsVi": [
+        "anh chị em"
+      ],
+      "noteVi": "Hán Việt \"huynh đệ\" (anh em trai), nhưng 兄弟 dùng chung cho anh chị em, cả trai lẫn gái.",
+      "examples": [
+        {
+          "ja": "兄弟がいますか。",
+          "vi": "Bạn có anh chị em không?"
+        },
+        {
+          "ja": "私は兄弟がいません。",
+          "vi": "Tôi không có anh chị em."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 28,
+      "word": "兄",
+      "meaningsVi": [
+        "anh trai (của mình)"
+      ],
+      "noteVi": "Dùng khi nói với người khác về anh của mình. Anh của người khác, hoặc khi gọi anh mình, là お兄さん (bài sau).",
+      "examples": [
+        {
+          "ja": "兄は医者です。",
+          "vi": "Anh trai tôi là bác sĩ."
+        },
+        {
+          "ja": "はい、兄が1人と妹が1人います。",
+          "vi": "Có, tôi có một anh trai và một em gái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 29,
+      "word": "姉",
+      "meaningsVi": [
+        "chị gái (của mình)"
+      ],
+      "noteVi": "Chị của người khác, hoặc khi gọi chị mình, là お姉さん (bài sau).",
+      "examples": [
+        {
+          "ja": "姉は料理が上手です。",
+          "vi": "Chị tôi nấu ăn giỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 114,
+      "word": "弟",
+      "meaningsVi": [
+        "em trai"
+      ],
+      "noteVi": "Nói về em trai người khác thì thêm さん: 弟さん.",
+      "examples": [
+        {
+          "ja": "弟は10歳です。",
+          "vi": "Em trai tôi 10 tuổi."
+        },
+        {
+          "ja": "弟はスポーツが好きです。",
+          "vi": "Em trai tôi thích thể thao."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 68,
+      "word": "妹",
+      "meaningsVi": [
+        "em gái"
+      ],
+      "noteVi": "Nói về em gái người khác thì thêm さん: 妹さん.",
+      "examples": [
+        {
+          "ja": "妹は猫が大好きです。",
+          "vi": "Em gái tôi rất thích mèo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1307,
+      "word": "父",
+      "meaningsVi": [
+        "bố, cha (của mình)"
+      ],
+      "noteVi": "Dùng khi nói với người khác về bố mình. Bố của người khác, hoặc khi gọi bố mình, là お父さん (bài sau).",
+      "examples": [
+        {
+          "ja": "父は毎朝6時に起きます。",
+          "vi": "Sáng nào bố tôi cũng dậy lúc 6 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1308,
+      "word": "母",
+      "meaningsVi": [
+        "mẹ (của mình)"
+      ],
+      "noteVi": "Mẹ của người khác, hoặc khi gọi mẹ mình, là お母さん (bài sau).",
+      "examples": [
+        {
+          "ja": "母の料理はおいしいです。",
+          "vi": "Mẹ tôi nấu ăn rất ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 186,
+      "word": "切手",
+      "meaningsVi": [
+        "tem (thư)"
+      ],
+      "noteVi": "Hán Việt \"thiết thủ\" không giúp đoán nghĩa. Đếm tem bằng 〜枚.",
+      "examples": [
+        {
+          "ja": "このきってを3枚ください。",
+          "vi": "Cho tôi 3 con tem này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 486,
+      "word": "はがき",
+      "meaningsVi": [
+        "bưu thiếp"
+      ],
+      "noteVi": "Kanji là 葉書, thường viết bằng hiragana. Đếm bằng 〜枚.",
+      "examples": [
+        {
+          "ja": "はがきを2枚買いました。",
+          "vi": "Tôi đã mua 2 tấm bưu thiếp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 537,
+      "word": "封筒",
+      "meaningsVi": [
+        "phong bì"
+      ],
+      "noteVi": "Chữ 封 (phong) như trong \"phong bì\". Đếm bằng 〜枚.",
+      "examples": [
+        {
+          "ja": "白い封筒を5枚ください。",
+          "vi": "Cho tôi 5 cái phong bì trắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 566,
+      "word": "ポスト",
+      "meaningsVi": [
+        "hòm thư, thùng thư"
+      ],
+      "noteVi": "Hòm thư đặt ngoài đường (ở Nhật thường màu đỏ), hoặc hộp thư trước nhà.",
+      "examples": [
+        {
+          "ja": "駅の前にポストがあります。",
+          "vi": "Trước nhà ga có hòm thư."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 509,
+      "word": "貼る",
+      "meaningsVi": [
+        "dán"
+      ],
+      "noteVi": "Dán tem, giấy, ảnh…: chỗ dán + に, vật dán + を: 封筒に切手を貼ります.",
+      "examples": [
+        {
+          "ja": "封筒にきってを貼りました。",
+          "vi": "Tôi đã dán tem lên phong bì."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 165,
+      "word": "紙",
+      "meaningsVi": [
+        "giấy"
+      ],
+      "noteVi": "Đếm tờ giấy bằng 〜枚: 紙を1枚 (một tờ giấy).",
+      "examples": [
+        {
+          "ja": "紙を1枚ください。",
+          "vi": "Cho tôi một tờ giấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 337,
+      "word": "全部",
+      "meaningsVi": [
+        "tất cả, toàn bộ"
+      ],
+      "noteVi": "全部で = tổng cộng (khi tính tiền, đếm số lượng): 全部でいくらですか.",
+      "examples": [
+        {
+          "ja": "全部でいくらですか。",
+          "vi": "Tổng cộng bao nhiêu tiền?"
+        },
+        {
+          "ja": "宿題は全部しました。",
+          "vi": "Tôi đã làm hết bài tập rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 98,
+      "word": "大勢",
+      "meaningsVi": [
+        "đông người, nhiều người"
+      ],
+      "noteVi": "Chỉ dùng cho người. Đồ vật, con vật nhiều thì dùng たくさん. Hán Việt \"đại thế\" không giúp đoán nghĩa.",
+      "examples": [
+        {
+          "ja": "公園に人が大勢います。",
+          "vi": "Ở công viên có rất đông người."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 58,
+      "word": "一日",
+      "meaningsVi": [
+        "một ngày",
+        "cả ngày"
+      ],
+      "noteVi": "Đọc いちにち khi là \"một ngày\" (độ dài thời gian); đọc ついたち khi là \"ngày mùng 1\" (bài 6). 一日に… = mỗi ngày (bao nhiêu lần, bao lâu).",
+      "examples": [
+        {
+          "ja": "一日に2時間日本語を勉強します。",
+          "vi": "Mỗi ngày tôi học tiếng Nhật 2 tiếng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 527,
+      "word": "一月",
+      "meaningsVi": [
+        "một tháng (độ dài thời gian)"
+      ],
+      "noteVi": "Đọc ひとつき = \"một tháng\", giống 1か月. Đọc いちがつ thì là \"tháng Một\".",
+      "examples": [
+        {
+          "ja": "一月に1回映画を見ます。",
+          "vi": "Mỗi tháng tôi xem phim một lần."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 575,
+      "word": "毎週",
+      "meaningsVi": [
+        "mỗi tuần, hằng tuần"
+      ],
+      "examples": [
+        {
+          "ja": "毎週、母に電話をかけます。",
+          "vi": "Tuần nào tôi cũng gọi điện cho mẹ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 574,
+      "word": "毎月",
+      "meaningsVi": [
+        "mỗi tháng, hằng tháng"
+      ],
+      "noteVi": "Đọc まいげつ hoặc まいつき; trong hội thoại hằng ngày まいつき phổ biến hơn.",
+      "examples": [
+        {
+          "ja": "毎月、家族に手紙を書きます。",
+          "vi": "Tháng nào tôi cũng viết thư cho gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 200,
+      "word": "キロ",
+      "meaningsVi": [
+        "ki-lô-mét (km)",
+        "ki-lô-gam (kg)"
+      ],
+      "noteVi": "Nói tắt của キロメートル (km) và キログラム (kg); nghĩa nào tùy ngữ cảnh.",
+      "examples": [
+        {
+          "ja": "駅まで2キロぐらいです。",
+          "vi": "Đến ga khoảng 2 km."
+        },
+        {
+          "ja": "私は毎日5キロ歩きます。",
+          "vi": "Mỗi ngày tôi đi bộ 5 km."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 214,
+      "word": "グラム",
+      "meaningsVi": [
+        "gam (g)"
+      ],
+      "examples": [
+        {
+          "ja": "肉を500グラムください。",
+          "vi": "Cho tôi 500 gam thịt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 613,
+      "word": "メートル",
+      "meaningsVi": [
+        "mét (m)"
+      ],
+      "examples": [
+        {
+          "ja": "駅はここから100メートルぐらいです。",
+          "vi": "Nhà ga cách đây khoảng 100 mét."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 49,
+      "word": "いくつ",
+      "meaningsVi": [
+        "bao nhiêu, mấy (cái)",
+        "mấy tuổi"
+      ],
+      "noteVi": "Hỏi số lượng đồ vật đếm bằng 〜つ: 卵はいくつありますか. Cũng dùng để hỏi tuổi; lịch sự hơn là おいくつ.",
+      "examples": [
+        {
+          "ja": "卵はいくつありますか。",
+          "vi": "Có mấy quả trứng?"
+        },
+        {
+          "ja": "田中さんの妹さんはいくつですか。",
+          "vi": "Em gái chị Tanaka mấy tuổi?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 148,
+      "word": "かかる",
+      "meaningsVi": [
+        "mất, tốn (thời gian, tiền)"
+      ],
+      "noteVi": "Lượng thời gian hoặc tiền đứng ngay trước かかります, không cần trợ từ: 10分かかります (mất 10 phút).",
+      "examples": [
+        {
+          "ja": "家から学校まで自転車で15分かかります。",
+          "vi": "Từ nhà đến trường đi xe đạp mất 15 phút."
+        },
+        {
+          "ja": "東京まで5000円ぐらいかかります。",
+          "vi": "Đi đến Tokyo tốn khoảng 5000 yên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "百",
+      "meaningVi": "trăm",
+      "noteVi": "百 (ひゃく). Biến âm: 300 さんびゃく, 600 ろっぴゃく, 800 はっぴゃく.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "千",
+      "meaningVi": "nghìn",
+      "noteVi": "千 (せん). Biến âm: 3000 さんぜん, 8000 はっせん. Dễ nhầm với 干 và 十.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "万",
+      "meaningVi": "vạn, mười nghìn",
+      "noteVi": "Người Nhật đếm số lớn theo 万 (10.000), không theo nghìn như tiếng Việt: 10万 = 100.000 (một trăm nghìn), 100万 = 1.000.000 (một triệu).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-counters",
+      "titleVi": "Trợ số từ: 〜本, 〜枚, 〜冊, 〜台, 〜匹, 〜個, 〜杯",
+      "summaryVi": "Đếm bằng số + trợ số từ chọn theo loại vật: 鉛筆を3本, 紙を2枚, 本を5冊.",
+      "explanationVi": [
+        "Giống tiếng Việt có \"cái, con, quyển, tờ\", tiếng Nhật đếm bằng **số + trợ số từ**, chọn theo loại vật: **本** (vật dài: bút, chai, ô, cây), **枚** (vật mỏng, phẳng: giấy, tem, áo), **冊** (sách, vở), **台** (máy móc, xe), **匹** (con vật nhỏ: chó, mèo, cá), **個** (đồ vật nhỏ, tròn), **杯** (cốc, chén, bát). Ngoài ra còn **回** (lần), **階** (tầng), **足** (đôi giày, đôi tất).",
+        "Khác tiếng Việt, cụm số lượng thường đứng **sau danh từ và trợ từ, ngay trước động từ**: 「鉛筆を3本ください」 (cho tôi 3 cây bút chì), 「猫が2匹います」 (có 2 con mèo).",
+        "Hỏi số lượng: **何** + trợ số từ: 何本, 何枚, 何冊, 何匹, 何階. Nhiều trợ số từ **biến âm** sau 1, 3, 6, 8, 10: 1本 いっぽん, 3本 さんぼん, 6本 ろっぽん; 1冊 いっさつ; 1杯 いっぱい; 3階 さんがい. Xem cách đọc ở furigana và học dần."
+      ],
+      "patterns": [
+        "N を Số + trợ số từ V",
+        "N が Số + trợ số từ あります／います",
+        "N は 何 + trợ số từ ありますか"
+      ],
+      "examples": [
+        {
+          "ja": "鉛筆が3本あります。",
+          "vi": "Có 3 cây bút chì."
+        },
+        {
+          "ja": "猫が2匹います。",
+          "vi": "Có 2 con mèo."
+        },
+        {
+          "ja": "本を5冊借りました。",
+          "vi": "Tôi đã mượn 5 quyển sách."
+        },
+        {
+          "ja": "犬は何匹いますか。",
+          "vi": "Có mấy con chó?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "猫が2人います。",
+          "right": "猫が2匹います。",
+          "noteVi": "人 chỉ dùng để đếm người; con vật nhỏ đếm bằng 匹."
+        },
+        {
+          "wrong": "鉛筆を3枚ください。",
+          "right": "鉛筆を3本ください。",
+          "noteVi": "Bút chì là vật dài: đếm bằng 本. 枚 dùng cho vật mỏng, phẳng như giấy, tem."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-frequency",
+      "titleVi": "Khoảng thời gian + に + số lần: 1週間に3回",
+      "summaryVi": "Khoảng thời gian + に + số lần (hoặc lượng): 1週間に3回 = một tuần ba lần.",
+      "explanationVi": [
+        "Muốn nói làm gì **bao nhiêu lần trong một khoảng thời gian**, đặt khoảng thời gian trước, thêm **に**, rồi đến số lần (〜回): 「1週間に3回」 (một tuần ba lần), 「一日に2回」 (một ngày hai lần), 「一月に1回」 (một tháng một lần).",
+        "Tiếng Việt hay nói \"ba lần một tuần\" (số lần trước), còn tiếng Nhật luôn nói **khoảng thời gian trước**: 「1週間に3回」. Sau に cũng có thể là một lượng: 「一日に2時間」 (mỗi ngày 2 tiếng).",
+        "Hỏi bao nhiêu lần: 「1週間に何回…か」."
+      ],
+      "patterns": [
+        "Khoảng thời gian に Số 回 V",
+        "Khoảng thời gian に 何回 V か"
+      ],
+      "examples": [
+        {
+          "ja": "1週間に3回日本語の授業があります。",
+          "vi": "Một tuần có 3 buổi học tiếng Nhật."
+        },
+        {
+          "ja": "一日に2回シャワーをあびます。",
+          "vi": "Mỗi ngày tôi tắm vòi sen hai lần."
+        },
+        {
+          "ja": "一月に何回映画を見ますか。",
+          "vi": "Một tháng bạn xem phim mấy lần?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日本語を3回に1週間勉強します。",
+          "right": "1週間に3回日本語を勉強します。",
+          "noteVi": "Dịch theo trật tự \"ba lần một tuần\" là sai. Tiếng Nhật: khoảng thời gian + に + số lần."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "dake",
+      "titleVi": "だけ: chỉ",
+      "summaryVi": "N (hoặc số lượng) + だけ: chỉ N, chỉ chừng ấy.",
+      "explanationVi": [
+        "**だけ** nghĩa là \"chỉ\", đặt **ngay sau** từ được giới hạn: 「水だけ」 (chỉ nước), 「1人だけ」 (chỉ một người). Tiếng Việt đặt \"chỉ\" trước động từ (\"tôi chỉ uống nước\"), còn tiếng Nhật đặt だけ sau danh từ: 「水だけ飲みます」.",
+        "Khi có だけ, trợ từ **が** và **を** thường được bỏ: 「コーヒーだけ飲みます」. だけ cũng đứng sau số lượng: 「500円だけあります」 (tôi chỉ có 500 yên)."
+      ],
+      "patterns": [
+        "N だけ V",
+        "Số + trợ số từ だけ V"
+      ],
+      "examples": [
+        {
+          "ja": "朝はコーヒーだけ飲みます。",
+          "vi": "Buổi sáng tôi chỉ uống cà phê."
+        },
+        {
+          "ja": "教室に学生が1人だけいます。",
+          "vi": "Trong lớp chỉ có một học sinh."
+        },
+        {
+          "ja": "500円だけあります。",
+          "vi": "Tôi chỉ có 500 yên."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "だけ水を飲みます。",
+          "right": "水だけ飲みます。",
+          "noteVi": "だけ đứng sau từ được giới hạn, không đứng trước như chữ \"chỉ\" trong tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kurai-gurai",
+      "titleVi": "ぐらい／くらい: khoảng, chừng",
+      "summaryVi": "Số lượng + ぐらい (くらい): khoảng chừng ấy (lượng, độ dài thời gian, khoảng cách).",
+      "explanationVi": [
+        "**ぐらい** (hoặc **くらい**, nghĩa như nhau) đặt sau số lượng để nói \"**khoảng**, **chừng**\": 「10分ぐらい」 (khoảng 10 phút), 「30人ぐらい」 (khoảng 30 người), 「2キロぐらい」 (khoảng 2 km).",
+        "Phân biệt với **ごろ** (bài 5): ごろ chỉ **thời điểm** (「3時ごろ」 khoảng 3 giờ), còn ぐらい chỉ **lượng, độ dài thời gian** (「3時間ぐらい」 khoảng 3 tiếng). Tiếng Việt đều nói \"khoảng\" nên dễ nhầm.",
+        "Hỏi lượng hoặc thời gian: **どのくらい** (bao lâu, bao nhiêu): 「駅までどのくらいかかりますか」."
+      ],
+      "patterns": [
+        "Số + trợ số từ ぐらい／くらい",
+        "どのくらい V か"
+      ],
+      "examples": [
+        {
+          "ja": "家から駅まで10分ぐらいかかります。",
+          "vi": "Từ nhà đến ga mất khoảng 10 phút."
+        },
+        {
+          "ja": "学生は30人ぐらいいます。",
+          "vi": "Có khoảng 30 học sinh."
+        },
+        {
+          "ja": "駅までどのくらいかかりますか。",
+          "vi": "Đến ga mất bao lâu?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "毎日2時間ごろ勉強します。",
+          "right": "毎日2時間ぐらい勉強します。",
+          "noteVi": "ごろ chỉ dùng với thời điểm (3時ごろ); với khoảng thời gian, số lượng dùng ぐらい."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-15-e01",
+      "type": "choice",
+      "grammar": [
+        "x-counters"
+      ],
+      "promptVi": "Chọn cách đếm đúng: \"Có 3 cây bút chì.\"",
+      "ja": "鉛筆が＿あります。",
+      "options": [
+        "3本",
+        "3枚",
+        "3冊"
+      ],
+      "answer": 0,
+      "explainVi": "Bút chì là vật dài: 〜本."
+    },
+    {
+      "id": "n5-15-e02",
+      "type": "choice",
+      "grammar": [
+        "x-counters"
+      ],
+      "promptVi": "Chọn cách đếm đúng: \"Cho tôi 2 tờ giấy.\"",
+      "ja": "紙を＿ください。",
+      "options": [
+        "2本",
+        "2枚",
+        "2台"
+      ],
+      "answer": 1,
+      "explainVi": "Giấy là vật mỏng, phẳng: 〜枚."
+    },
+    {
+      "id": "n5-15-e03",
+      "type": "fill",
+      "grammar": [
+        "x-counters"
+      ],
+      "before": "本を",
+      "after": "借りました。",
+      "answers": [
+        "5冊"
+      ],
+      "options": [
+        "5冊",
+        "5匹",
+        "5台"
+      ],
+      "vi": "Tôi đã mượn 5 quyển sách."
+    },
+    {
+      "id": "n5-15-e04",
+      "type": "choice",
+      "grammar": [
+        "x-counters"
+      ],
+      "promptVi": "Chọn cách đếm đúng: \"Có 2 con chó.\"",
+      "ja": "犬が＿います。",
+      "options": [
+        "2匹",
+        "2人",
+        "2台"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-15-e05",
+      "type": "choice",
+      "grammar": [
+        "x-counters"
+      ],
+      "promptVi": "Hỏi \"Nhà bạn có mấy chiếc ô tô?\": chọn từ điền vào chỗ trống.",
+      "ja": "家に車が＿ありますか。",
+      "options": [
+        "何台",
+        "何本",
+        "何杯"
+      ],
+      "answer": 0,
+      "explainVi": "Máy móc, xe cộ đếm bằng 〜台."
+    },
+    {
+      "id": "n5-15-e06",
+      "type": "choice",
+      "grammar": [
+        "x-counters"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "お茶を1杯ください。",
+      "options": [
+        "Cho tôi một cốc trà.",
+        "Cho tôi một chai trà.",
+        "Cho tôi một gói trà."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-15-e07",
+      "type": "order",
+      "grammar": [
+        "x-counters"
+      ],
+      "vi": "Tôi đã mua 2 tấm bưu thiếp.",
+      "tiles": [
+        "2枚",
+        "買いました",
+        "はがき",
+        "を"
+      ],
+      "answers": [
+        "はがきを2枚買いました"
+      ]
+    },
+    {
+      "id": "n5-15-e08",
+      "type": "fill",
+      "grammar": [
+        "ni-frequency"
+      ],
+      "before": "1週間",
+      "after": "3回日本語の授業があります。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "が"
+      ],
+      "vi": "Một tuần có 3 buổi học tiếng Nhật."
+    },
+    {
+      "id": "n5-15-e09",
+      "type": "order",
+      "grammar": [
+        "ni-frequency"
+      ],
+      "vi": "Mỗi ngày tôi tắm vòi sen hai lần.",
+      "tiles": [
+        "あびます",
+        "2回",
+        "シャワー",
+        "に",
+        "一日",
+        "を"
+      ],
+      "answers": [
+        "一日に2回シャワーをあびます",
+        "シャワーを一日に2回あびます"
+      ]
+    },
+    {
+      "id": "n5-15-e10",
+      "type": "choice",
+      "grammar": [
+        "ni-frequency"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "一月に2回家族に電話をかけます。",
+      "options": [
+        "Mỗi tháng tôi gọi điện cho gia đình hai lần.",
+        "Ngày 2 tháng Một tôi gọi điện cho gia đình.",
+        "Tôi gọi điện cho gia đình suốt hai tháng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-15-e11",
+      "type": "choice",
+      "grammar": [
+        "ni-frequency"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Một tuần tôi đến thư viện 2 lần\"?",
+      "options": [
+        "1週間に2回図書館へ行きます。",
+        "2回に1週間図書館へ行きます。",
+        "1週間を2回図書館へ行きます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-15-e12",
+      "type": "fill",
+      "grammar": [
+        "dake"
+      ],
+      "before": "朝はコーヒー",
+      "after": "飲みます。",
+      "answers": [
+        "だけ"
+      ],
+      "options": [
+        "だけ",
+        "ぐらい",
+        "も"
+      ],
+      "vi": "Buổi sáng tôi chỉ uống cà phê."
+    },
+    {
+      "id": "n5-15-e13",
+      "type": "order",
+      "grammar": [
+        "dake"
+      ],
+      "vi": "Trong lớp chỉ có một học sinh.",
+      "tiles": [
+        "だけ",
+        "学生",
+        "います",
+        "教室",
+        "1人",
+        "に",
+        "が"
+      ],
+      "answers": [
+        "教室に学生が1人だけいます",
+        "学生が教室に1人だけいます"
+      ]
+    },
+    {
+      "id": "n5-15-e14",
+      "type": "choice",
+      "grammar": [
+        "dake"
+      ],
+      "promptVi": "Câu nào đúng? (\"Tôi chỉ uống nước.\")",
+      "options": [
+        "水だけ飲みます。",
+        "だけ水を飲みます。",
+        "水を飲みますだけ。"
+      ],
+      "answer": 0,
+      "explainVi": "だけ đứng ngay sau từ được giới hạn."
+    },
+    {
+      "id": "n5-15-e15",
+      "type": "fill",
+      "grammar": [
+        "kurai-gurai"
+      ],
+      "before": "家から駅まで10分",
+      "after": "かかります。",
+      "answers": [
+        "ぐらい"
+      ],
+      "options": [
+        "ぐらい",
+        "ごろ",
+        "に"
+      ],
+      "vi": "Từ nhà đến ga mất khoảng 10 phút."
+    },
+    {
+      "id": "n5-15-e16",
+      "type": "choice",
+      "grammar": [
+        "kurai-gurai"
+      ],
+      "promptVi": "Chọn từ đúng: \"Hôm qua tôi đã ngủ khoảng 8 tiếng.\"",
+      "ja": "昨日は8時間＿寝ました。",
+      "options": [
+        "ぐらい",
+        "ごろ",
+        "だけ"
+      ],
+      "answer": 0,
+      "explainVi": "8時間 là độ dài thời gian: dùng ぐらい. ごろ chỉ dùng với thời điểm."
+    },
+    {
+      "id": "n5-15-e17",
+      "type": "order",
+      "grammar": [
+        "kurai-gurai"
+      ],
+      "vi": "Đến ga mất bao lâu?",
+      "tiles": [
+        "かかります",
+        "まで",
+        "か",
+        "どのくらい",
+        "駅"
+      ],
+      "answers": [
+        "駅までどのくらいかかりますか"
+      ]
+    },
+    {
+      "id": "n5-15-e18",
+      "type": "fill",
+      "grammar": [
+        "kurai-gurai"
+      ],
+      "promptVi": "Điền từ nghĩa là \"khoảng\".",
+      "before": "学生は30人",
+      "after": "います。",
+      "answers": [
+        "ぐらい",
+        "くらい"
+      ],
+      "vi": "Có khoảng 30 học sinh."
+    },
+    {
+      "id": "n5-15-e19",
+      "type": "fill",
+      "promptVi": "Chọn từ đúng.",
+      "before": "家から会社まで電車で1時間",
+      "after": "。",
+      "answers": [
+        "かかります"
+      ],
+      "options": [
+        "かかります",
+        "あります",
+        "います"
+      ],
+      "vi": "Từ nhà đến công ty đi tàu điện mất 1 tiếng."
+    },
+    {
+      "id": "n5-15-e20",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Trong tủ lạnh có nhiều trứng.\"",
+      "ja": "冷蔵庫に卵が＿あります。",
+      "options": [
+        "たくさん",
+        "大勢",
+        "いくつ"
+      ],
+      "answer": 0,
+      "explainVi": "大勢 chỉ dùng cho người."
+    },
+    {
+      "id": "n5-15-e21",
+      "type": "choice",
+      "promptVi": "Chọn câu trả lời đúng.",
+      "ja": "卵はいくつありますか。",
+      "options": [
+        "6つあります。",
+        "6人あります。",
+        "6回あります。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-15-e22",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "父",
+          "bố (tôi)"
+        ],
+        [
+          "母",
+          "mẹ (tôi)"
+        ],
+        [
+          "兄",
+          "anh trai (tôi)"
+        ],
+        [
+          "姉",
+          "chị gái (tôi)"
+        ],
+        [
+          "弟",
+          "em trai"
+        ],
+        [
+          "妹",
+          "em gái"
+        ]
+      ]
+    },
+    {
+      "id": "n5-15-e23",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "きって",
+          "tem"
+        ],
+        [
+          "はがき",
+          "bưu thiếp"
+        ],
+        [
+          "封筒",
+          "phong bì"
+        ],
+        [
+          "ポスト",
+          "hòm thư"
+        ],
+        [
+          "紙",
+          "giấy"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "姉が二人います。": "{姉|あね}が{二人|ふたり}います。",
+    "日曜日に二人で映画を見ました。": "{日|にち}{曜|よう}{日|び}に{二人|ふたり}で{映|えい}{画|が}を{見|み}ました。",
+    "兄弟がいますか。": "{兄|きょう}{弟|だい}がいますか。",
+    "私は兄弟がいません。": "{私|わたし}は{兄|きょう}{弟|だい}がいません。",
+    "兄は医者です。": "{兄|あに}は{医|い}{者|しゃ}です。",
+    "はい、兄が1人と妹が1人います。": "はい、{兄|あに}が{1人|ひとり}と{妹|いもうと}が{1人|ひとり}います。",
+    "姉は料理が上手です。": "{姉|あね}は{料|りょう}{理|り}が{上手|じょうず}です。",
+    "弟は10歳です。": "{弟|おとうと}は10{歳|さい}です。",
+    "弟はスポーツが好きです。": "{弟|おとうと}はスポーツが{好|す}きです。",
+    "妹は猫が大好きです。": "{妹|いもうと}は{猫|ねこ}が{大|だい}{好|す}きです。",
+    "父は毎朝6時に起きます。": "{父|ちち}は{毎|まい}{朝|あさ}6{時|じ}に{起|お}きます。",
+    "母の料理はおいしいです。": "{母|はは}の{料|りょう}{理|り}はおいしいです。",
+    "このきってを3枚ください。": "このきってを3{枚|まい}ください。",
+    "はがきを2枚買いました。": "はがきを2{枚|まい}{買|か}いました。",
+    "白い封筒を5枚ください。": "{白|しろ}い{封|ふう}{筒|とう}を5{枚|まい}ください。",
+    "駅の前にポストがあります。": "{駅|えき}の{前|まえ}にポストがあります。",
+    "封筒にきってを貼りました。": "{封|ふう}{筒|とう}にきってを{貼|は}りました。",
+    "紙を1枚ください。": "{紙|かみ}を1{枚|まい}ください。",
+    "全部でいくらですか。": "{全|ぜん}{部|ぶ}でいくらですか。",
+    "宿題は全部しました。": "{宿|しゅく}{題|だい}は{全|ぜん}{部|ぶ}しました。",
+    "公園に人が大勢います。": "{公|こう}{園|えん}に{人|ひと}が{大|おお}{勢|ぜい}います。",
+    "一日に2時間日本語を勉強します。": "{一|いち}{日|にち}に2{時間|じかん}{日本|にほん}{語|ご}を{勉|べん}{強|きょう}します。",
+    "一月に1回映画を見ます。": "{一|ひと}{月|つき}に1{回|かい}{映|えい}{画|が}を{見|み}ます。",
+    "毎週、母に電話をかけます。": "{毎|まい}{週|しゅう}、{母|はは}に{電|でん}{話|わ}をかけます。",
+    "毎月、家族に手紙を書きます。": "{毎|まい}{月|つき}、{家|か}{族|ぞく}に{手|て}{紙|がみ}を{書|か}きます。",
+    "駅まで2キロぐらいです。": "{駅|えき}まで2キロぐらいです。",
+    "私は毎日5キロ歩きます。": "{私|わたし}は{毎|まい}{日|にち}5キロ{歩|ある}きます。",
+    "肉を500グラムください。": "{肉|にく}を500グラムください。",
+    "駅はここから100メートルぐらいです。": "{駅|えき}はここから100メートルぐらいです。",
+    "卵はいくつありますか。": "{卵|たまご}はいくつありますか。",
+    "田中さんの妹さんはいくつですか。": "{田中|たなか}さんの{妹|いもうと}さんはいくつですか。",
+    "家から学校まで自転車で15分かかります。": "{家|いえ}から{学|がっ}{校|こう}まで{自|じ}{転|てん}{車|しゃ}で15{分|ふん}かかります。",
+    "東京まで5000円ぐらいかかります。": "{東京|とうきょう}まで5000{円|えん}ぐらいかかります。",
+    "鉛筆が3本あります。": "{鉛|えん}{筆|ぴつ}が3{本|ぼん}あります。",
+    "猫が2匹います。": "{猫|ねこ}が2{匹|ひき}います。",
+    "本を5冊借りました。": "{本|ほん}を5{冊|さつ}{借|か}りました。",
+    "犬は何匹いますか。": "{犬|いぬ}は{何匹|なんびき}いますか。",
+    "猫が2人います。": "{猫|ねこ}が{2人|ふたり}います。",
+    "鉛筆を3本ください。": "{鉛|えん}{筆|ぴつ}を3{本|ぼん}ください。",
+    "鉛筆を3枚ください。": "{鉛|えん}{筆|ぴつ}を3{枚|まい}ください。",
+    "1週間に3回日本語の授業があります。": "1{週間|しゅうかん}に3{回|かい}{日本|にほん}{語|ご}の{授|じゅ}{業|ぎょう}があります。",
+    "一日に2回シャワーをあびます。": "{一|いち}{日|にち}に2{回|かい}シャワーをあびます。",
+    "一月に何回映画を見ますか。": "{一|ひと}{月|つき}に{何回|なんかい}{映|えい}{画|が}を{見|み}ますか。",
+    "1週間に3回日本語を勉強します。": "1{週間|しゅうかん}に3{回|かい}{日本|にほん}{語|ご}を{勉|べん}{強|きょう}します。",
+    "日本語を3回に1週間勉強します。": "{日本|にほん}{語|ご}を3{回|かい}に1{週間|しゅうかん}{勉|べん}{強|きょう}します。",
+    "朝はコーヒーだけ飲みます。": "{朝|あさ}はコーヒーだけ{飲|の}みます。",
+    "教室に学生が1人だけいます。": "{教|きょう}{室|しつ}に{学|がく}{生|せい}が{1人|ひとり}だけいます。",
+    "500円だけあります。": "500{円|えん}だけあります。",
+    "水だけ飲みます。": "{水|みず}だけ{飲|の}みます。",
+    "だけ水を飲みます。": "だけ{水|みず}を{飲|の}みます。",
+    "家から駅まで10分ぐらいかかります。": "{家|いえ}から{駅|えき}まで10{分|ぷん}ぐらいかかります。",
+    "学生は30人ぐらいいます。": "{学|がく}{生|せい}は30{人|にん}ぐらいいます。",
+    "駅までどのくらいかかりますか。": "{駅|えき}までどのくらいかかりますか。",
+    "毎日2時間ぐらい勉強します。": "{毎|まい}{日|にち}2{時間|じかん}ぐらい{勉|べん}{強|きょう}します。",
+    "毎日2時間ごろ勉強します。": "{毎|まい}{日|にち}2{時間|じかん}ごろ{勉|べん}{強|きょう}します。",
+    "鉛筆が＿あります。": "{鉛|えん}{筆|ぴつ}が＿あります。",
+    "3本": "3{本|ぼん}",
+    "3枚": "3{枚|まい}",
+    "3冊": "3{冊|さつ}",
+    "紙を＿ください。": "{紙|かみ}を＿ください。",
+    "2本": "2{本|ほん}",
+    "2枚": "2{枚|まい}",
+    "2台": "2{台|だい}",
+    "5冊": "5{冊|さつ}",
+    "5匹": "5{匹|ひき}",
+    "5台": "5{台|だい}",
+    "犬が＿います。": "{犬|いぬ}が＿います。",
+    "2匹": "2{匹|ひき}",
+    "2人": "{2人|ふたり}",
+    "家に車が＿ありますか。": "{家|いえ}に{車|くるま}が＿ありますか。",
+    "何台": "{何台|なんだい}",
+    "何本": "{何本|なんぼん}",
+    "何杯": "{何杯|なんばい}",
+    "お茶を1杯ください。": "お{茶|ちゃ}を1{杯|ぱい}ください。",
+    "買いました": "{買|か}いました",
+    "はがき": "はがき",
+    "を": "を",
+    "はがきを2枚買いました": "はがきを2{枚|まい}{買|か}いました",
+    "に": "に",
+    "が": "が",
+    "あびます": "あびます",
+    "2回": "2{回|かい}",
+    "シャワー": "シャワー",
+    "一日": "{一|いち}{日|にち}",
+    "一日に2回シャワーをあびます": "{一|いち}{日|にち}に2{回|かい}シャワーをあびます",
+    "シャワーを一日に2回あびます": "シャワーを{一|いち}{日|にち}に2{回|かい}あびます",
+    "一月に2回家族に電話をかけます。": "{一|ひと}{月|つき}に2{回|かい}{家|か}{族|ぞく}に{電|でん}{話|わ}をかけます。",
+    "1週間に2回図書館へ行きます。": "1{週間|しゅうかん}に2{回|かい}{図|と}{書|しょ}{館|かん}へ{行|い}きます。",
+    "2回に1週間図書館へ行きます。": "2{回|かい}に1{週間|しゅうかん}{図|と}{書|しょ}{館|かん}へ{行|い}きます。",
+    "1週間を2回図書館へ行きます。": "1{週間|しゅうかん}を2{回|かい}{図|と}{書|しょ}{館|かん}へ{行|い}きます。",
+    "だけ": "だけ",
+    "ぐらい": "ぐらい",
+    "も": "も",
+    "学生": "{学|がく}{生|せい}",
+    "います": "います",
+    "教室": "{教|きょう}{室|しつ}",
+    "1人": "{1人|ひとり}",
+    "教室に学生が1人だけいます": "{教|きょう}{室|しつ}に{学|がく}{生|せい}が{1人|ひとり}だけいます",
+    "学生が教室に1人だけいます": "{学|がく}{生|せい}が{教|きょう}{室|しつ}に{1人|ひとり}だけいます",
+    "水を飲みますだけ。": "{水|みず}を{飲|の}みますだけ。",
+    "ごろ": "ごろ",
+    "昨日は8時間＿寝ました。": "{昨日|きのう}は8{時間|じかん}＿{寝|ね}ました。",
+    "かかります": "かかります",
+    "まで": "まで",
+    "か": "か",
+    "どのくらい": "どのくらい",
+    "駅": "{駅|えき}",
+    "駅までどのくらいかかりますか": "{駅|えき}までどのくらいかかりますか",
+    "くらい": "くらい",
+    "家から会社まで電車で1時間かかります。": "{家|いえ}から{会|かい}{社|しゃ}まで{電|でん}{車|しゃ}で1{時間|じかん}かかります。",
+    "あります": "あります",
+    "冷蔵庫に卵が＿あります。": "{冷|れい}{蔵|ぞう}{庫|こ}に{卵|たまご}が＿あります。",
+    "たくさん": "たくさん",
+    "大勢": "{大|おお}{勢|ぜい}",
+    "いくつ": "いくつ",
+    "6つあります。": "6つあります。",
+    "6人あります。": "6{人|にん}あります。",
+    "6回あります。": "6{回|かい}あります。",
+    "父": "{父|ちち}",
+    "母": "{母|はは}",
+    "兄": "{兄|あに}",
+    "姉": "{姉|あね}",
+    "弟": "{弟|おとうと}",
+    "妹": "{妹|いもうと}",
+    "きって": "きって",
+    "封筒": "{封|ふう}{筒|とう}",
+    "ポスト": "ポスト",
+    "紙": "{紙|かみ}"
+  }
+}
