@@ -11,9 +11,13 @@
   "scripts": {
     "typecheck": "tsc --noEmit -p .",
     "test": "vitest run",
-    "sources:fetch": "node scripts/fetch-sources.ts"
+    "sources:fetch": "node scripts/fetch-sources.ts",
+    "data:build": "node scripts/build-data.ts"
   },
   "dependencies": {
     "@j-learn-write/grader": "*"
+  },
+  "devDependencies": {
+    "wanakana": "5.3.1"
   }
 }
