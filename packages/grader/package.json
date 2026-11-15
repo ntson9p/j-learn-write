@@ -1,0 +1,15 @@
+{
+  "name": "@j-learn-write/grader",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Rule-based grader for Japanese learners' free-text answers (no LLM).",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run"
+  }
+}

@@ -1,6 +1,6 @@
 # Kế hoạch: web app dạy tiếng Nhật sơ cấp (kana, N5, N4) cho người Việt
 
-> **Trạng thái: chờ chủ dự án duyệt** (viết ngày 2026-11-15, giai đoạn 1). Chưa có dòng code nào trước khi kế hoạch được duyệt. Tiến độ từng giai đoạn sẽ ghi trong [handoff.md](handoff.md).
+> **Trạng thái: đã được chủ dự án duyệt ngày 2026-11-15**, gồm cả các đề xuất kỹ thuật ở cuối mục 2 và việc thêm 分 vào kanji cần học. Chủ dự án yêu cầu triển khai liên tục toàn bộ kế hoạch, chỉ hỏi khi cần thiết. Tiến độ từng giai đoạn ghi trong [handoff.md](handoff.md).
 >
 > Kế hoạch theo khuôn `docs/plan.md` của c-learn-write (commit `e51323e`). Tài liệu liên quan: [handoff.md](handoff.md).
 
@@ -345,7 +345,7 @@ Mỗi giai đoạn kết thúc bằng: `npm run check` qua; commit theo từng b
 
 - [x] Khảo sát nguồn và giấy phép (mục 3).
 - [x] Chốt 8 quyết định (mục 2).
-- [ ] Chủ dự án duyệt `docs/plan.md`.
+- [x] Chủ dự án duyệt `docs/plan.md` (2026-11-15).
 
 ### Giai đoạn 2: Nền tảng
 

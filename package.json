@@ -1,0 +1,32 @@
+{
+  "name": "j-learn-write",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Learn Japanese (kana, JLPT N5-N4) for Vietnamese learners, with a rule-based grader (no LLM).",
+  "type": "module",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w @j-learn-write/web",
+    "build": "npm run build -w @j-learn-write/web",
+    "preview": "npm run preview -w @j-learn-write/web",
+    "typecheck": "tsc --noEmit -p . && npm run typecheck --workspaces --if-present",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "check": "npm run typecheck && npm run test",
+    "e2e": "npm run e2e -w @j-learn-write/web"
+  },
+  "engines": {
+    "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "happy-dom": "21.0.4",
+    "typescript": "7.0.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  }
+}
