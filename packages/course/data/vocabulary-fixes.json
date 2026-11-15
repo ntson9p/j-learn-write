@@ -5,6 +5,11 @@
       "word": "叱る",
       "jmdictId": 1319580,
       "why": "OpenJLPT links しかる to 然る (adj-pn, \"a particular\"); the N4 lists mean 叱る (to scold)."
+    },
+    "b48d0c99d4": {
+      "word": "せっけん",
+      "jmdictId": 1382590,
+      "why": "OpenJLPT links せっけん to 節倹 (thrift); the N5 lists mean 石鹸 (soap)."
     }
   }
 }

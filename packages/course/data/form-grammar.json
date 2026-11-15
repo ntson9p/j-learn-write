@@ -100,6 +100,8 @@
     "tai": ["tai"],
     "sou": ["sou-da-appearance", "sou-da-hearsay"],
     "mitai": ["mitai"],
-    "rashii": ["rashii"]
+    "rashii": ["rashii"],
+    "ikenai": ["te-wa-ikenai", "nakereba-naranai-nakute-wa-ikenai", "nai-to-ikenai-nakucha"],
+    "koto": ["ta-koto-ga-aru", "koto-ga-dekiru", "koto-ni-suru", "koto-ni-naru", "koto-ga-aru", "no-koto-nominalizer"]
   }
 }

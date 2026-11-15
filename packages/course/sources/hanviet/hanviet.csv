@@ -470,6 +470,8 @@ char,hanviet,pinyin
 飯,['phạn'],fan4
 首,"['thủ', 'thú']",shou3
 髭,['tỳ'],zi1
+鹸,['kiềm'],jian3
+鹼,['kiềm'],jian3
 黃,['hoàng'],huang2
 鼻,['tỵ'],bi2
 一,['nhất'],*
@@ -1347,6 +1349,7 @@ char,hanviet,pinyin
 紅,['hồng'],hong2
 綺,"['ỷ', 'khỉ']",qi3
 縱,"['tung', 'túng']",zong4
+而,['nhi'],er2
 聞,['văn'],wen2
 聽,['thính'],ting1
 肆,['tứ'],si4

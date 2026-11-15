@@ -63,6 +63,26 @@ describe('validateCourse', () => {
     expect(only(errors, /ではありません/)).toEqual([expect.stringContaining('「ではありません」 needs grammar de-wa-arimasen-ja-nai')]);
   });
 
+  it('accepts いけません and こと of the grammar points that teach them, and dictionary furigana of single kanji', () => {
+    const lesson: CurriculumLesson = { ...lesson1, words: [no('パン'), no('食べる'), no('字引'), no('ある')], grammar: ['wa', 'o', 'x-te-form', 'te-wa-ikenai', 'ta', 'ta-koto-ga-aru', 'ga-aru-ga-iru', 'masu'] };
+    const s1 = 'パンを食べてはいけません。';
+    const s2 = 'パンを食べたことがあります。';
+    const s3 = '字引です。';
+    const ex = (ja: string) => [{ ja, vi: 'v' }];
+    const content: Partial<LessonContent> = {
+      words: [
+        { no: no('パン'), word: 'パン', meaningsVi: ['x'], examples: ex(s1), review: draft },
+        { no: no('食べる'), word: '食べる', meaningsVi: ['x'], examples: ex(s2), review: draft },
+        { no: no('字引'), word: '字引', meaningsVi: ['x'], examples: ex(s3), review: draft },
+        { no: no('ある'), word: 'ある', meaningsVi: ['x'], examples: ex(s2), review: draft },
+      ],
+      grammar: lesson.grammar!.map((id) => ({ id, titleVi: 't', summaryVi: 's', explanationVi: ['e'], examples: ex(s1), review: draft })),
+      ruby: { [s1]: 'パンを{食|た}べてはいけません。', [s2]: 'パンを{食|た}べたことがあります。', [s3]: '{字|じ}{引|びき}です。' },
+    };
+    const errors = validateCourse(course(content, [lesson]), tools).filter((e) => !/desu|です/.test(e));
+    expect(errors).toEqual([]);
+  });
+
   it('checks the curriculum', () => {
     const errors = validateCourse(course({}, [{ ...lesson1, id: 'n5-1', words: [...lesson1.words!, no('学生')] }]), tools);
     expect(errors).toContain('n5-1: id must be <level>-<order, 2 digits>');

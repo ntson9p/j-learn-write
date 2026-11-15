@@ -22,7 +22,7 @@ export interface WordEntry {
   pos: string[];
 }
 
-export type FunctionRole = 'particle' | 'copula' | 'aux' | 'prefix' | 'suffix' | 'interjection';
+export type FunctionRole = 'particle' | 'copula' | 'aux' | 'nominal' | 'prefix' | 'suffix' | 'interjection';
 
 export interface FunctionWord {
   text: string;

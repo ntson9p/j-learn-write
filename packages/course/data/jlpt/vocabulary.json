@@ -326,7 +326,7 @@
 {"no":325,"level":"n5","openjlptId":"898b067287","jmdictId":2147990,"word":"背","reading":"せ","ruby":"{背|せ}","forms":["背","せ"],"pos":["n"],"hanViet":"bối","hanVietAmbiguous":true},
 {"no":326,"level":"n5","openjlptId":"af7459ef1e","jmdictId":1379380,"word":"生徒","reading":"せいと","ruby":"{生|せい}{徒|と}","forms":["生徒","せいと"],"pos":["n"],"hanViet":"sinh đồ"},
 {"no":327,"level":"n5","openjlptId":"4b0b49a42d","jmdictId":1074270,"word":"セーター","reading":"セーター","ruby":"セーター","forms":["セーター"],"pos":["n"]},
-{"no":328,"level":"n5","openjlptId":"b48d0c99d4","jmdictId":1386220,"word":"せっけん","reading":"せっけん","ruby":"せっけん","forms":["せっけん"],"pos":["n","vs","vt","vi"]},
+{"no":328,"level":"n5","openjlptId":"b48d0c99d4","jmdictId":1382590,"word":"せっけん","reading":"せっけん","ruby":"せっけん","forms":["せっけん","石鹸"],"pos":["n"]},
 {"no":329,"level":"n5","openjlptId":"9d432ac114","jmdictId":1472740,"word":"背広","reading":"せびろ","ruby":"{背|せ}{広|びろ}","forms":["背広","せびろ"],"pos":["n"],"hanViet":"bối quảng","hanVietAmbiguous":true},
 {"no":330,"level":"n5","openjlptId":"d12ee2e932","jmdictId":1237680,"word":"狭い","reading":"せまい","ruby":"{狭|せま}い","forms":["狭い","せまい"],"pos":["adj-i"],"hanViet":"hẹp"},
 {"no":331,"level":"n5","openjlptId":"434707d737","jmdictId":2839962,"word":"ゼロ","reading":"ゼロ","ruby":"ゼロ","forms":["ゼロ","〇"],"pos":["n"]},
@@ -1309,5 +1309,6 @@
 {"no":1308,"level":"n5","openjlptId":"extra-1514990-はは","jmdictId":1514990,"word":"母","reading":"はは","ruby":"{母|はは}","forms":["母","はは"],"pos":["n"],"extra":true,"hanViet":"mẫu"},
 {"no":1309,"level":"n5","openjlptId":"extra-1582710-にほん","jmdictId":1582710,"word":"日本","reading":"にほん","ruby":"{日本|にほん}","forms":["日本","にほん"],"pos":["n"],"extra":true,"hanViet":"nhật bản"},
 {"no":1310,"level":"n5","openjlptId":"extra-1464530-にほんご","jmdictId":1464530,"word":"日本語","reading":"にほんご","ruby":"{日本|にほん}{語|ご}","forms":["日本語","にほんご"],"pos":["n"],"extra":true,"hanViet":"nhật bản ngữ","hanVietAmbiguous":true},
-{"no":1311,"level":"n5","openjlptId":"extra-1464700-にほんじん","jmdictId":1464700,"word":"日本人","reading":"にほんじん","ruby":"{日本|にほん}{人|じん}","forms":["日本人","にほんじん"],"pos":["n"],"extra":true,"hanViet":"nhật bản nhân"}
+{"no":1311,"level":"n5","openjlptId":"extra-1464700-にほんじん","jmdictId":1464700,"word":"日本人","reading":"にほんじん","ruby":"{日本|にほん}{人|じん}","forms":["日本人","にほんじん"],"pos":["n"],"extra":true,"hanViet":"nhật bản nhân"},
+{"no":1312,"level":"n5","openjlptId":"extra-1006730-そして","jmdictId":1006730,"word":"そして","reading":"そして","ruby":"そして","forms":["そして"],"pos":["conj"],"extra":true}
 ]

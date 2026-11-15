@@ -326,7 +326,7 @@
 {"no":325,"word":"背","reading":"せ","forms":["せ"],"pos":["n"]},
 {"no":326,"word":"生徒","reading":"せいと","forms":["せいと"],"pos":["n"]},
 {"no":327,"word":"セーター","reading":"セーター","forms":[],"pos":["n"]},
-{"no":328,"word":"せっけん","reading":"せっけん","forms":[],"pos":["n","vs","vt","vi"]},
+{"no":328,"word":"せっけん","reading":"せっけん","forms":["石鹸"],"pos":["n"]},
 {"no":329,"word":"背広","reading":"せびろ","forms":["せびろ"],"pos":["n"]},
 {"no":330,"word":"狭い","reading":"せまい","forms":["せまい"],"pos":["adj-i"]},
 {"no":331,"word":"ゼロ","reading":"ゼロ","forms":["〇"],"pos":["n"]},
@@ -1309,5 +1309,6 @@
 {"no":1308,"word":"母","reading":"はは","forms":["はは"],"pos":["n"]},
 {"no":1309,"word":"日本","reading":"にほん","forms":["にほん"],"pos":["n"]},
 {"no":1310,"word":"日本語","reading":"にほんご","forms":["にほんご"],"pos":["n"]},
-{"no":1311,"word":"日本人","reading":"にほんじん","forms":["にほんじん"],"pos":["n"]}
+{"no":1311,"word":"日本人","reading":"にほんじん","forms":["にほんじん"],"pos":["n"]},
+{"no":1312,"word":"そして","reading":"そして","forms":[],"pos":["conj"]}
 ]

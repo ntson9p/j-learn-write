@@ -210,7 +210,8 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
   const knownKana = (l: CurriculumLesson) => new Set(ordered.filter((x) => rank(x) <= rank(l)).flatMap((x) => x.kana ?? []));
   const names = new Set(data.names.map((n) => n.ja));
   const dictionaryRuns = new Set<string>();
-  for (const w of data.vocabulary) for (const s of parseRuby(w.ruby)) if (s.rt && [...s.text].length > 1) dictionaryRuns.add(`${s.text}|${s.rt}`);
+  // Every furigana segment of the course words (JmdictFurigana): 引 びき in 字引 is a reading of 引.
+  for (const w of data.vocabulary) for (const s of parseRuby(w.ruby)) if (s.rt) dictionaryRuns.add(`${s.text}|${toHiragana(s.rt)}`);
   for (const n of data.names) dictionaryRuns.add(`${n.ja}|${toHiragana(n.reading)}`);
 
   const formAllowed = (cls: string, tags: readonly string[], grammar: ReadonlySet<string>): string | null => {

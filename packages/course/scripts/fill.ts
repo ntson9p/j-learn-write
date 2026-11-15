@@ -7,12 +7,12 @@
  * (降ります: ふります or おります) is taken from the existing markup when it
  * is one of the candidates; otherwise it is reported and must be written by
  * hand in the lesson's "ruby" map. A hand-written markup is kept when the
- * tokenizer cannot build one (unknown kanji).
+ * tokenizer cannot build one (unknown kanji), if it gives every kanji a reading.
  */
-import { courseLexicon } from '@j-learn-write/grader';
+import { courseLexicon, isKanji } from '@j-learn-write/grader';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { buildRuby, rubyText } from '../src/furigana.ts';
+import { buildRuby, parseRuby, rubyText } from '../src/furigana.ts';
 import type { ListWord, NameEntry } from '../src/types.ts';
 import { lessonTexts } from '../src/validate.ts';
 import { DATA, lessonFiles, rel, writeLesson } from './lib/course-files.ts';
@@ -31,7 +31,8 @@ for (const file of lessonFiles(filters)) {
     if (t.text in ruby) continue;
     const previous = before[t.text];
     const built = buildRuby(t.text, lexicon, (no) => rubyOf.get(no), previous);
-    if (built.problems.length > 0 && previous !== undefined && rubyText(previous) === t.text) {
+    const complete = previous !== undefined && rubyText(previous) === t.text && !parseRuby(previous).some((s) => !s.rt && [...s.text].some(isKanji));
+    if (built.problems.length > 0 && complete) {
       ruby[t.text] = previous;
       continue;
     }
