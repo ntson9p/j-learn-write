@@ -15,8 +15,9 @@
 | 0. Tiếp nhận | Xong (2026-11-15), xem mục 3 |
 | 1. Khảo sát và quyết định | Xong. 8 quyết định (mục 1c); **[plan.md](plan.md) được duyệt 2026-11-15** (kể cả các đề xuất kỹ thuật và thêm 分). Chủ dự án yêu cầu triển khai liên tục toàn bộ kế hoạch, chỉ hỏi khi cần thiết |
 | 2. Nền tảng | **Xong** (2026-11-15). `npm run check` 23 file/91 test; `npm run e2e` 6 test (Pixel 7, iPhone 13, offline, giấy phép, axe sáng/tối); **CI GitHub Actions xanh** ở commit `281bee7` (lần chạy đầu). Bundle ban đầu (gzip): index 8,2 KB + jsxRuntime 9,2 KB + trang chủ 9,6 KB (trang chủ gồm ts-fsrs); precache 16 file, 118 KB. Nguồn gốc file chép: mục 5 |
-| 3. Dữ liệu | Đang làm. Xong: nguồn (`sources:fetch`, chạy lại y hệt, có báo thay đổi); danh sách (`data:build`: 1311 từ gồm 7 từ bổ sung `vocabulary-extra.json`, 246 kanji, 189 điểm ngữ pháp gồm 10 điểm `x-…` của `grammar-extra.json`, 241 kana); âm Hán Việt; bảng chia; số/trợ số từ; từ vựng nội bộ + bộ tách từ của `lang/ja`; furigana (`src/furigana.ts`, `content:fill`); bộ kiểm tra nội dung (`src/validate.ts`, `tests/content.test.ts`, `CONTENT_FILTER`); `content:brief`; `review:export/import`; `docs/content-guide.md`; 10 bài kana trong `curriculum.json`. **Đang chờ:** hai agent xếp từ/kanji vào bài N5 (28 bài) và N4 (26 bài) theo trình tự ngữ pháp tôi đã chốt (khung ở scratchpad `n5-skeleton.json`, `n4-skeleton.json`; kết quả `n5-curriculum.json`, `n4-curriculum.json`; script kiểm `curr/check_curriculum.py`). Nếu mất scratchpad: dựng lại khung từ mục 5c |
-| 4. Kana | Đang làm. Xong: bài `kana-01`; dữ liệu nét (`src/strokes.ts`, `apps/web/build/strokes.ts`); trang bảng kana (`/kana`, `/kana/:char`), luyện viết (`/write`, `/write/:char`); e2e mô phỏng viết theo đường trục (nét kana ghép được nhận). Còn: trang bài học + bộ máy bài tập (chép từ c-learn-write), bài kana-02…10, `levels.kana = complete` |
+| 3. Dữ liệu | **Xong** (2026-11-15). Nguồn (`sources:fetch`, chạy lại y hệt, có báo thay đổi); danh sách (`data:build`: 1311 từ gồm 7 từ bổ sung `vocabulary-extra.json`, 246 kanji, 189 điểm ngữ pháp gồm 10 điểm `x-…` của `grammar-extra.json`, 241 kana); sửa lỗi nguồn trong `vocabulary-fixes.json` (しかる: OpenJLPT nối nhầm sang 然る, đúng là 叱る); âm Hán Việt; bảng chia; số/trợ số từ; từ vựng nội bộ + bộ tách từ của `lang/ja`; furigana (`src/furigana.ts`, `content:fill`); bộ kiểm tra nội dung (`src/validate.ts`, `tests/content.test.ts`, `CONTENT_FILTER`); `content:brief`; `review:export/import`; `docs/content-guide.md`. **`curriculum.json` đủ 64 bài**: 10 kana, 28 N5, 26 N4; mỗi từ/kanji/điểm ngữ pháp N5, N4 nằm đúng một bài (test kiểm tra cả khi cấp chưa xong). Hai agent xếp từ/kanji vào bài theo trình tự ngữ pháp ở mục 5c; tôi kiểm lại bằng script và `validateCourse` |
+| 4. Kana | **Xong** (2026-11-15). 10 bài kana (`data/lessons/kana/01…10.json`, `levels.kana = complete`): mỗi bài có mục tiêu, 11–17 từ luyện đọc chỉ dùng kana đã học, 15–18 bài tập. Trang bài học/luyện tập/kiểm tra (`/lesson/:id`, `/practice/:id`, `/quiz/:id`) và bộ máy bài tập chép từ c-learn-write (mục 5); câu hỏi nhanh tự sinh (đọc kana, chọn kana theo cách đọc, nghe; nghĩa/romaji/nghe của từ luyện đọc); dữ liệu nét; bảng kana; luyện viết. Từ luyện đọc có dòng trong bảng duyệt; trang bài hiện "Chưa duyệt" tới khi mọi mục được duyệt. Kiểm tra: `npm run check` 38 file/187 test; `npm run e2e` 9 test (làm trọn bài kana-01: luyện tập → kiểm tra 100/100 → trang chủ "Đã xong"; axe trên trang bài học); CI xanh |
+| 5. N5: từ, kanji | Bắt đầu |
 
 ## 1c. Quyết định đã chốt
 
@@ -124,7 +125,14 @@ Mọi file dưới đây chép từ c-learn-write **commit `e51323e25905859d37c9
 | `apps/web/tests/{setup,router,backup,settings,speech,srs,cards,progress,stats,licenses,boundaries,app}.test.ts(x)` | Đổi id bài, cấp, giọng đọc; `licenses.test` dùng thư mục tạm thay cho opencc-js |
 | `apps/web/e2e/{app,a11y}.e2e.ts` | Danh sách màn hình theo các trang đang có |
 
-Chưa chép (sẽ chép khi tới giai đoạn tương ứng): `lang/zh` (chỉ tham khảo), `packages/course/src/{validate,review-sheet,segment,generate,readings}.ts`, `scripts/*`, `apps/web/src/lib/{content,exercises,search}.ts`, `components/{exercise,grade-result,run,writer}.tsx`, các trang học, `build/strokes.ts`.
+| `apps/web/src/components/run.tsx` | Chốt chặn bằng `useRef`: bấm đúp "Tiếp tục" ở câu cuối không gọi `onFinish` hai lần |
+| `apps/web/src/components/exercise.tsx` | Chữ Nhật qua `JaText`/`MixedText`; `TextAnswer` không chấm câu gõ romaji (nhắc bật bộ gõ); chốt chặn bấm đúp; bỏ phần dịch/câu hỏi tự do tới giai đoạn 6 |
+| `apps/web/src/lib/{content,exercises}.ts` | Cấp/mã bài `kana-NN`, `n5-NN`; `normalizeJa`; đáp án điền từ chấp nhận cách đọc kana (theo `ruby` của bài); câu hỏi nhanh kana thay cho pinyin |
+| `apps/web/src/pages/{lesson,practice,quiz}.tsx` | Phần kana (lưới chữ, từ luyện đọc + romaji); `RubyContext` cho furigana |
+
+Viết mới (không có trong c-learn-write): `apps/web/src/lib/romaji.ts` (romaji theo bảng kana của khóa học; WanaKana sai với ティ → "tei", ヴァ → "vua"), `JaText`/`RubyContext` trong `components/text.tsx`.
+
+Chưa chép (sẽ chép khi tới giai đoạn tương ứng): `lang/zh` (chỉ tham khảo), `apps/web/src/lib/search.ts`, `components/grade-result.tsx`, các trang từ/ngữ pháp/ôn tập/từ điển/tiến độ/kiểm tra cấp.
 
 ## 5b. Thiết kế dữ liệu và bộ tách từ (tóm tắt, chi tiết trong mã)
 
@@ -150,6 +158,8 @@ N4 (26 bài): 1 n-desu-no-desu kedo-keredomo shi kana-kashira · 2 ageru-kureru-
 ## 6. Lưu ý kỹ thuật (bẫy đã biết)
 
 - **Script Node import gói grader:** mã của grader phải dùng import có đuôi `.ts`, JSON `with { type: 'json' }`, và **không** dùng thuộc tính khai báo trong constructor (`constructor(readonly x)`) vì Node chỉ bỏ được kiểu "xóa được".
+- **Bài tập tự do (`translate`, `question`) bị bộ kiểm tra nội dung từ chối** tới khi có bộ chấm tiếng Nhật (giai đoạn 6); `check()` của app ném lỗi nếu gặp. Khi làm giai đoạn 6: bỏ `FREE_ANSWERS_NOT_READY` trong `validate.ts`.
+- **Đáp án không được chấm sai câu đúng:** ở bài kana, を đọc là "o" nên không dùng "o" làm phương án nhiễu cho を (đáp án theo bảng là "wo").
 - **Kiểm soát kana ở bài kana:** phương án nhiễu của câu trắc nghiệm được dùng kana chưa học (め nhiễu cho あ); phần luyện đọc và đáp án đúng thì không.
 
 - **Playwright trong môi trường cloud:** dự án khóa `playwright` 1.63.0, khớp Chromium cài sẵn (`/opt/pw-browsers/chromium-1243`): `npm run e2e` chạy được không cần `playwright install`. Trên CI vẫn chạy `npx playwright install --with-deps chromium`.

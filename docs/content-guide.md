@@ -8,6 +8,7 @@ Nội dung khóa học nằm trong `packages/course/data/` và theo giấy phép
 |---|---|---|
 | `data/jlpt/vocabulary.json`, `kanji.json`, `grammar.json`, `ids.lock.json`, `data/kana.json` | Danh sách từ (1311), kanji cần học (246), điểm ngữ pháp (189), kana (241) | Sinh tự động: `npm run data:build -w @j-learn-write/course`, không sửa tay |
 | `data/vocabulary-extra.json` | Từ khóa học thêm vào danh sách (私 わたし, 何 なに, 父, 母, 日本…) | Người soạn, giáo viên duyệt |
+| `data/vocabulary-fixes.json` | Sửa lỗi của danh sách nguồn: từ OpenJLPT bị nối nhầm mục JMdict (しかる → 叱る), có ghi lý do | Người soạn, giáo viên duyệt |
 | `data/grammar-extra.json` | Điểm ngữ pháp khóa học thêm (`x-…`: số đếm, trợ số từ, giờ, ngày, vị trí, tính từ đuôi い, thể て, thể từ điển) | Người soạn |
 | `data/hanviet-overrides.json` | Âm Hán Việt chính do người soạn chọn cho kanji còn nhiều âm; âm theo nghĩa trong từ (勉強 miễn cưỡng) | Người soạn, giáo viên duyệt |
 | `data/form-grammar.json` | Dạng chia nào cần điểm ngữ pháp nào đã học | Người soạn |
@@ -103,14 +104,14 @@ Với `translate` và `question`: liệt kê đủ các cách nói đúng phổ 
 
 ## 5. Trạng thái duyệt
 
-Mỗi từ, kanji, điểm ngữ pháp (và tùy chọn mỗi bài tập) có `review`:
+Mỗi từ, kanji, điểm ngữ pháp (và tùy chọn mỗi bài tập, mỗi từ luyện đọc của bài kana) có `review`; thiếu `review` nghĩa là chưa duyệt:
 
 ```json
 { "status": "draft" }
 { "status": "approved", "by": "GV Hương", "date": "2026-12-01", "hash": "1a2b3c4d" }
 ```
 
-- `draft`: chưa duyệt, app hiện nhãn "Chưa duyệt".
+- `draft`: chưa duyệt, app hiện nhãn "Chưa duyệt" (trên mục đó, và ở đầu trang bài học khi còn mục nào của bài chưa duyệt).
 - `approved`: giáo viên đã duyệt. `hash` là mã của nội dung lúc duyệt; nếu nội dung bị sửa sau đó thì app coi như chưa duyệt.
 - `changes_requested`: giáo viên yêu cầu sửa; `note` ghi góp ý.
 
@@ -119,7 +120,7 @@ Mỗi từ, kanji, điểm ngữ pháp (và tùy chọn mỗi bài tập) có `r
 Giáo viên không cần biết JSON hay GitHub.
 
 1. Người phụ trách xuất các bài cần duyệt ra bảng tính: `npm run review:export -w @j-learn-write/course -- duyet-n5.csv n5` (cả N5), hoặc `… -- duyet-bai3.csv n5-03` (một bài).
-2. Giáo viên mở file bằng Excel hoặc Google Sheets. Mỗi dòng là một từ, một kanji, một điểm ngữ pháp hoặc một bài tập, gồm chữ Nhật, cách đọc, âm Hán Việt (dấu `(*)`: chữ có nhiều âm, cần chọn), nghĩa, ghi chú, ví dụ (tiếng Nhật — cách đọc — bản dịch), lỗi hay gặp.
+2. Giáo viên mở file bằng Excel hoặc Google Sheets. Mỗi dòng là một từ luyện đọc (bài kana), một từ, một kanji, một điểm ngữ pháp hoặc một bài tập, gồm chữ Nhật, cách đọc, âm Hán Việt (dấu `(*)`: chữ có nhiều âm, cần chọn), nghĩa, ghi chú, ví dụ (tiếng Nhật — cách đọc — bản dịch), lỗi hay gặp.
 3. Với mỗi dòng đã xem, giáo viên điền:
    - **Kết quả duyệt**: `đạt` hoặc `cần sửa`;
    - **Người duyệt**: tên hoặc chữ viết tắt;
