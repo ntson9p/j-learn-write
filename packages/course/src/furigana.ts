@@ -110,14 +110,14 @@ export function tokenReadings(t: Token): string[] {
  * Readings chosen by context when a token has several (only clear cases;
  * anything else stays ambiguous for the author):
  * - 私: わたし (わたくし is the formal reading, written by hand when meant);
- * - 何: なん before で, です, だ, の, と; なに before を, が, も, か.
+ * - 何: なん before で, です, だ, の, と; なに before を, が, も, か and in 何語.
  */
 export function contextReading(surface: string, readings: readonly string[], next: string): string | undefined {
   const pick = (r: string) => (readings.includes(r) ? r : undefined);
   if (surface === '私') return pick('わたし');
   if (surface === '何') {
     if (/^(です|で|だ|の|と)/.test(next)) return pick('なん');
-    if (/^[をがもか]/.test(next)) return pick('なに');
+    if (/^[をがもか]/.test(next) || next.startsWith('語')) return pick('なに');
   }
   return undefined;
 }
