@@ -1,0 +1,1271 @@
+{
+  "id": "n5-26",
+  "goalsVi": [
+    "Nói một người làm hai việc cùng lúc: ラジオを聞きながら料理を作ります",
+    "Giới thiệu và hỏi tên gọi của người, vật, nơi chốn: ダナンという町、これは日本語で何と言いますか",
+    "Phỏng đoán, nói dự báo thời tiết với たぶん…でしょう; nói phương hướng đông, tây, nam, bắc",
+    "Hỏi nghĩa của từ, đặt câu hỏi và trả lời trong lớp học: 質問があります、質問に答えてください"
+  ],
+  "words": [
+    {
+      "no": 67,
+      "word": "意味",
+      "meaningsVi": [
+        "nghĩa, ý nghĩa"
+      ],
+      "noteVi": "Âm Hán Việt \"ý vị\", nhưng 意味 là \"nghĩa\" của từ, của câu, không phải \"ý vị, thú vị\". Hỏi nghĩa: 「この言葉の意味は何ですか」.",
+      "examples": [
+        {
+          "ja": "この言葉の意味は何ですか。",
+          "vi": "Nghĩa của từ này là gì?"
+        },
+        {
+          "ja": "先生、この文章の意味がわかりません。",
+          "vi": "Thưa thầy, em không hiểu nghĩa của đoạn văn này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 246,
+      "word": "言葉",
+      "meaningsVi": [
+        "từ, từ ngữ",
+        "lời nói",
+        "tiếng, ngôn ngữ"
+      ],
+      "noteVi": "言葉 là từ chung cho từ ngữ và lời nói. Khi nói về một thứ tiếng cụ thể, thường dùng tên nước + 語: ベトナム語, 日本語.",
+      "examples": [
+        {
+          "ja": "わからない言葉がありますか。",
+          "vi": "Có từ nào các em không hiểu không?"
+        },
+        {
+          "ja": "「ありがとう」は大切な言葉です。",
+          "vi": "\"Cảm ơn\" là một lời nói quan trọng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 551,
+      "word": "文章",
+      "meaningsVi": [
+        "đoạn văn, bài viết"
+      ],
+      "noteVi": "Âm Hán Việt \"văn chương\", nhưng 文章 không phải là \"văn chương, văn học\": đó là một đoạn văn, bài viết gồm nhiều câu.",
+      "examples": [
+        {
+          "ja": "この文章を読んで、質問に答えてください。",
+          "vi": "Hãy đọc đoạn văn này rồi trả lời câu hỏi."
+        },
+        {
+          "ja": "グエンさんは文章がとても上手です。",
+          "vi": "Anh Nguyễn viết văn rất hay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 287,
+      "word": "字引",
+      "meaningsVi": [
+        "từ điển"
+      ],
+      "noteVi": "Cách nói cũ, nghĩa như 辞書; ngày nay người Nhật thường nói 辞書. Âm Hán Việt \"tự dẫn\".",
+      "examples": [
+        {
+          "ja": "このじびきは古いですが、便利です。",
+          "vi": "Cuốn từ điển này cũ nhưng tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 265,
+      "word": "作文",
+      "meaningsVi": [
+        "bài văn, bài tập làm văn"
+      ],
+      "noteVi": "Âm Hán Việt \"tác văn\": bài văn tự mình viết, thường là bài tập ở trường. Viết bài văn: 作文を書く.",
+      "examples": [
+        {
+          "ja": "日本語で作文を書きました。",
+          "vi": "Tôi đã viết một bài văn bằng tiếng Nhật."
+        },
+        {
+          "ja": "今週の宿題は作文です。",
+          "vi": "Bài tập về nhà tuần này là viết một bài văn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 283,
+      "word": "質問",
+      "meaningsVi": [
+        "câu hỏi"
+      ],
+      "noteVi": "Âm Hán Việt \"chất vấn\", nhưng 質問 chỉ là câu hỏi bình thường (trong lớp, khi gặp ai đó), không mang ý gay gắt như \"chất vấn\" trong tiếng Việt. Hỏi, đặt câu hỏi: 質問する.",
+      "examples": [
+        {
+          "ja": "先生、質問があります。",
+          "vi": "Thưa thầy, em có câu hỏi ạ."
+        },
+        {
+          "ja": "質問してもいいですか。",
+          "vi": "Tôi hỏi một câu có được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 240,
+      "word": "答える",
+      "meaningsVi": [
+        "trả lời, đáp"
+      ],
+      "noteVi": "Câu hỏi được trả lời đi với に, không dùng を: 「質問に答えます」.",
+      "examples": [
+        {
+          "ja": "質問に答えてください。",
+          "vi": "Hãy trả lời câu hỏi."
+        },
+        {
+          "ja": "田中さんは何も答えませんでした。",
+          "vi": "Anh Tanaka không trả lời gì cả."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 622,
+      "word": "問題",
+      "meaningsVi": [
+        "câu hỏi, bài tập (trong bài thi)",
+        "vấn đề"
+      ],
+      "noteVi": "Trong bài thi, sách bài tập, 問題 là \"câu hỏi, bài tập\" cần giải. 「問題ありません」 = không có vấn đề gì.",
+      "examples": [
+        {
+          "ja": "この問題は難しいです。",
+          "vi": "Câu hỏi (bài tập) này khó."
+        },
+        {
+          "ja": "大丈夫です。問題ありません。",
+          "vi": "Không sao đâu. Không có vấn đề gì."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 552,
+      "word": "ページ",
+      "meaningsVi": [
+        "trang (sách, vở)"
+      ],
+      "noteVi": "Đứng sau số: 25ページ (trang 25), 300ページ (300 trang). Hỏi trang mấy: 何ページ.",
+      "examples": [
+        {
+          "ja": "25ページを見てください。",
+          "vi": "Hãy xem trang 25."
+        },
+        {
+          "ja": "この本は300ページあります。",
+          "vi": "Cuốn sách này có 300 trang."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 367,
+      "word": "たぶん",
+      "meaningsVi": [
+        "có lẽ, chắc là"
+      ],
+      "noteVi": "Thường đi cùng でしょう ở cuối câu: 「たぶん雨でしょう」. Viết kanji: 多分.",
+      "examples": [
+        {
+          "ja": "明日はたぶん雨でしょう。",
+          "vi": "Ngày mai có lẽ sẽ mưa."
+        },
+        {
+          "ja": "田中さんはたぶん来ないでしょう。",
+          "vi": "Chắc anh Tanaka sẽ không đến."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 469,
+      "word": "ニュース",
+      "meaningsVi": [
+        "tin tức, thời sự"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝テレビでニュースを見ます。",
+          "vi": "Sáng nào tôi cũng xem thời sự trên tivi."
+        },
+        {
+          "ja": "ラジオでニュースを聞きながら、朝ごはんを食べます。",
+          "vi": "Tôi vừa nghe tin tức trên đài vừa ăn sáng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 653,
+      "word": "ラジオ",
+      "meaningsVi": [
+        "đài, radio"
+      ],
+      "examples": [
+        {
+          "ja": "父は毎朝ラジオを聞きます。",
+          "vi": "Sáng nào bố tôi cũng nghe đài."
+        },
+        {
+          "ja": "車の中でラジオを聞きます。",
+          "vi": "Tôi nghe đài trong xe ô tô."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 511,
+      "word": "晴れる",
+      "meaningsVi": [
+        "(trời) nắng, quang đãng",
+        "(trời) tạnh, hửng lên"
+      ],
+      "noteVi": "晴れ (đã học) là danh từ \"trời nắng\"; 晴れる là động từ: 「明日は晴れるでしょう」. Sau mưa trời quang trở lại cũng dùng 晴れる.",
+      "examples": [
+        {
+          "ja": "明日は晴れるでしょう。",
+          "vi": "Ngày mai có lẽ trời sẽ nắng."
+        },
+        {
+          "ja": "午後から晴れました。",
+          "vi": "Từ chiều trời đã hửng nắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 211,
+      "word": "曇る",
+      "meaningsVi": [
+        "(trời) có mây, u ám"
+      ],
+      "noteVi": "曇り (đã học) là danh từ \"trời nhiều mây\". Nói trời đang u ám: 「曇っています」.",
+      "examples": [
+        {
+          "ja": "今日は朝から曇っています。",
+          "vi": "Hôm nay trời u ám từ sáng."
+        },
+        {
+          "ja": "明日は曇るでしょう。",
+          "vi": "Ngày mai có lẽ trời sẽ nhiều mây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 540,
+      "word": "吹く",
+      "meaningsVi": [
+        "(gió) thổi",
+        "thổi (bằng miệng)"
+      ],
+      "noteVi": "Gió thổi: 「風が吹く」.",
+      "examples": [
+        {
+          "ja": "冷たい風が吹いています。",
+          "vi": "Gió lạnh đang thổi."
+        },
+        {
+          "ja": "明日は北の風が吹くでしょう。",
+          "vi": "Ngày mai có lẽ sẽ có gió bắc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 266,
+      "word": "差す",
+      "meaningsVi": [
+        "che, giương (ô)"
+      ],
+      "noteVi": "Ở N5 chủ yếu gặp trong 「傘を差す」 (che ô, giương ô). Tiếng Việt dùng động từ \"che\", tiếng Nhật dùng 差す.",
+      "examples": [
+        {
+          "ja": "雨が降っていますから、傘を差しましょう。",
+          "vi": "Trời đang mưa, mình che ô đi."
+        },
+        {
+          "ja": "傘を差しながら自転車に乗らないでください。",
+          "vi": "Đừng vừa che ô vừa đi xe đạp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 519,
+      "word": "東",
+      "meaningsVi": [
+        "phía đông, hướng đông"
+      ],
+      "noteVi": "Bốn hướng: 東 (đông), 西 (tây), 南 (nam), 北 (bắc). Vị trí: 「Aの東にあります」 = ở phía đông của A.",
+      "examples": [
+        {
+          "ja": "駅の東に大きい公園があります。",
+          "vi": "Ở phía đông nhà ga có một công viên lớn."
+        },
+        {
+          "ja": "日本は中国の東にあります。",
+          "vi": "Nhật Bản nằm ở phía đông Trung Quốc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 466,
+      "word": "西",
+      "meaningsVi": [
+        "phía tây, hướng tây"
+      ],
+      "examples": [
+        {
+          "ja": "大阪は東京の西にあります。",
+          "vi": "Osaka nằm ở phía tây Tokyo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 603,
+      "word": "南",
+      "meaningsVi": [
+        "phía nam, hướng nam"
+      ],
+      "examples": [
+        {
+          "ja": "ホーチミンはベトナムの南にあります。",
+          "vi": "Thành phố Hồ Chí Minh nằm ở miền Nam Việt Nam."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 182,
+      "word": "北",
+      "meaningsVi": [
+        "phía bắc, hướng bắc"
+      ],
+      "noteVi": "Đọc きた, giống 来た (thể た của 来る) nhưng khác chữ.",
+      "examples": [
+        {
+          "ja": "ハノイはベトナムの北にあります。",
+          "vi": "Hà Nội nằm ở miền Bắc Việt Nam."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 654,
+      "word": "ラジカセ",
+      "meaningsVi": [
+        "máy radio cát-xét"
+      ],
+      "noteVi": "Nói tắt của ラジオ + カセット (cassette): máy vừa nghe đài vừa nghe băng. Đồ cũ, nay ít dùng.",
+      "examples": [
+        {
+          "ja": "古いラジカセでテープを聞きます。",
+          "vi": "Tôi nghe băng bằng cái máy radio cát-xét cũ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 662,
+      "word": "レコード",
+      "meaningsVi": [
+        "đĩa hát, đĩa than"
+      ],
+      "examples": [
+        {
+          "ja": "父は古いレコードをたくさん持っています。",
+          "vi": "Bố tôi có rất nhiều đĩa hát cũ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 397,
+      "word": "テープ",
+      "meaningsVi": [
+        "băng (cát-xét, ghi âm)",
+        "băng dính"
+      ],
+      "examples": [
+        {
+          "ja": "テープを聞きながら日本語を練習します。",
+          "vi": "Tôi vừa nghe băng vừa luyện tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 399,
+      "word": "テープレコーダー",
+      "meaningsVi": [
+        "máy ghi âm (băng cát-xét)"
+      ],
+      "examples": [
+        {
+          "ja": "テープレコーダーにテープを入れてください。",
+          "vi": "Hãy cho băng vào máy ghi âm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 645,
+      "word": "呼ぶ",
+      "meaningsVi": [
+        "gọi (người, xe)",
+        "mời (đến nhà, đến tiệc)"
+      ],
+      "noteVi": "「AをBと呼びます」 = gọi A là B. \"Gọi điện thoại\" không dùng 呼ぶ mà dùng 電話をかける.",
+      "examples": [
+        {
+          "ja": "タクシーを呼んでください。",
+          "vi": "Hãy gọi taxi giúp tôi."
+        },
+        {
+          "ja": "みんなは私をミンと呼びます。",
+          "vi": "Mọi người gọi tôi là Minh."
+        },
+        {
+          "ja": "誕生日のパーティーに友達を呼びました。",
+          "vi": "Tôi đã mời bạn bè đến tiệc sinh nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "東",
+      "meaningVi": "phía đông",
+      "noteVi": "Mặt trời 日 mọc sau cây 木: phía đông. Âm on とう: 東京 (Tokyo, \"kinh đô phía đông\").",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "西",
+      "meaningVi": "phía tây",
+      "noteVi": "Âm on せい, さい. Đừng nhầm với 四 (số bốn).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "南",
+      "meaningVi": "phía nam",
+      "noteVi": "Âm on なん: 東西南北 (とうざいなんぼく, đông tây nam bắc).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "北",
+      "meaningVi": "phía bắc",
+      "noteVi": "Trông như hai người ngồi quay lưng vào nhau. Âm on ほく.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "nagara",
+      "titleVi": "〜ながら: vừa … vừa …",
+      "summaryVi": "V1 (gốc ます) ながら V2: một người làm V2, đồng thời làm V1.",
+      "explanationVi": [
+        "**ながら** nối hai hành động mà **cùng một người** làm **cùng lúc**: 「ラジオを聞きながら料理を作ります」 = vừa nghe đài vừa nấu ăn.",
+        "ながら gắn vào **gốc ます** của động từ (bỏ ます): 聞きます → 聞き**ながら**, 食べます → 食べ**ながら**, します → し**ながら**. Không gắn vào thể từ điển hay thể て.",
+        "Hành động **chính** đứng ở **cuối câu**, hành động đi kèm đứng trước ながら. Tiếng Việt \"vừa A vừa B\" coi hai việc ngang nhau; tiếng Nhật 「テレビを見ながら晩ご飯を食べます」 nhấn vào việc ăn tối, xem tivi chỉ là việc làm kèm.",
+        "Thì (quá khứ, hiện tại) và lời đề nghị, cấm đoán chỉ thể hiện ở **động từ cuối câu**: 「コーヒーを飲みながら新聞を読みました」, 「歩きながら電話をしないでください」."
+      ],
+      "patterns": [
+        "V1 (gốc ます) ながら V2"
+      ],
+      "examples": [
+        {
+          "ja": "ラジオを聞きながら料理を作ります。",
+          "vi": "Tôi vừa nghe đài vừa nấu ăn."
+        },
+        {
+          "ja": "コーヒーを飲みながら新聞を読みました。",
+          "vi": "Tôi đã vừa uống cà phê vừa đọc báo."
+        },
+        {
+          "ja": "歩きながら電話をしないでください。",
+          "vi": "Đừng vừa đi bộ vừa gọi điện thoại."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "音楽を聞くながら勉強します。",
+          "right": "音楽を聞きながら勉強します。",
+          "noteVi": "ながら gắn vào gốc ます (聞き), không gắn vào thể từ điển (聞く) hay thể て (聞いて)."
+        },
+        {
+          "wrong": "昨日、テレビを見たながら晩ご飯を食べました。",
+          "right": "昨日、テレビを見ながら晩ご飯を食べました。",
+          "noteVi": "Động từ trước ながら không chia quá khứ; thì quá khứ chỉ thể hiện ở động từ cuối câu (食べました)."
+        },
+        {
+          "wrong": "私は歌を歌いながら、マイさんはギターを弾きます。",
+          "right": "私は歌を歌いながら、ギターを弾きます。",
+          "noteVi": "ながら chỉ dùng khi một người làm cả hai việc. Hai người làm hai việc khác nhau thì không dùng ながら (câu đúng ở đây là tôi vừa hát vừa chơi đàn)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to-iu-named",
+      "titleVi": "〜という: tên là …, gọi là …",
+      "summaryVi": "A という N: N tên là A (người, vật, nơi chốn mà người nghe có thể chưa biết).",
+      "explanationVi": [
+        "**A という N** giới thiệu tên của một người, vật, nơi chốn mà người nghe **có thể chưa biết**: 「ダナンという町」 = thành phố (tên là) Đà Nẵng, 「田中さんという人」 = một người tên là Tanaka.",
+        "Chú ý trật tự: tiếng Việt nói \"thành phố Đà Nẵng\" (loại trước, tên sau); tiếng Nhật đặt **tên trước**, rồi **という**, rồi danh từ chỉ loại: ダナン + という + 町.",
+        "Hỏi tên gọi: 「これは何という花ですか」 (hoa này tên là gì?), 「これは日本語で何と言いますか」 (cái này tiếng Nhật gọi là gì?). 何 ở đây đọc **なん**. Tự giới thiệu lịch sự: 「グエンと言います」 (tôi tên là Nguyễn)."
+      ],
+      "patterns": [
+        "A という N",
+        "これは 何という N ですか",
+        "これは 〜語で 何と 言いますか",
+        "(私は) A と 言います"
+      ],
+      "examples": [
+        {
+          "ja": "ダナンという町を知っていますか。",
+          "vi": "Bạn có biết thành phố tên là Đà Nẵng không?"
+        },
+        {
+          "ja": "昨日、田中さんという人から電話がありました。",
+          "vi": "Hôm qua có một người tên là Tanaka gọi điện đến."
+        },
+        {
+          "ja": "これは日本語で何と言いますか。",
+          "vi": "Cái này tiếng Nhật gọi là gì?"
+        },
+        {
+          "ja": "はじめまして。グエンと言います。",
+          "vi": "Rất vui được gặp anh chị. Tôi tên là Nguyễn."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "町というダナンに行きました。",
+          "right": "ダナンという町に行きました。",
+          "noteVi": "Tên riêng đứng trước という, danh từ chỉ loại (町, 人, 花…) đứng sau: ngược với trật tự \"thành phố Đà Nẵng\" của tiếng Việt."
+        },
+        {
+          "wrong": "これは日本語で何を言いますか。",
+          "right": "これは日本語で何と言いますか。",
+          "noteVi": "Hỏi tên gọi dùng 「何と言いますか」 (と). 「何を言いますか」 nghĩa là \"nói cái gì\", không phải hỏi tên gọi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "deshou",
+      "titleVi": "〜でしょう: có lẽ, chắc là …",
+      "summaryVi": "Đặt cuối câu để phỏng đoán một cách lịch sự: 明日は雨でしょう = Ngày mai có lẽ sẽ mưa.",
+      "explanationVi": [
+        "**でしょう** đứng cuối câu để nói điều mình **đoán**, không chắc chắn: \"có lẽ, chắc là\". Rất hay gặp trong dự báo thời tiết: 「明日は晴れるでしょう」. Thường đi cùng **たぶん** (có lẽ).",
+        "Cách ghép: danh từ, tính từ đuôi な + でしょう (không có だ, な): 「雨でしょう」, 「静かでしょう」. Tính từ đuôi い + でしょう (bỏ です): 「寒いでしょう」. Động từ ở **thể thông thường** + でしょう: 「降るでしょう」, 「来ないでしょう」.",
+        "Nói lên giọng 「〜でしょう？」 là hỏi để người nghe **xác nhận**: \"… đúng không?\". Thêm か thành 「〜でしょうか」 là câu hỏi lịch sự, nhẹ nhàng hơn 「〜ですか」."
+      ],
+      "patterns": [
+        "N／Aな でしょう",
+        "Aい でしょう",
+        "V (thể thông thường) でしょう",
+        "たぶん 〜 でしょう"
+      ],
+      "examples": [
+        {
+          "ja": "明日は雨でしょう。",
+          "vi": "Ngày mai có lẽ sẽ mưa."
+        },
+        {
+          "ja": "東京は午後から晴れるでしょう。",
+          "vi": "Tokyo có lẽ sẽ nắng từ buổi chiều."
+        },
+        {
+          "ja": "田中さんはたぶん来ないでしょう。",
+          "vi": "Chắc anh Tanaka sẽ không đến."
+        },
+        {
+          "ja": "この辞書は便利でしょう？",
+          "vi": "Cuốn từ điển này tiện đúng không?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は雨だでしょう。",
+          "right": "明日は雨でしょう。",
+          "noteVi": "Danh từ + でしょう trực tiếp, không thêm だ."
+        },
+        {
+          "wrong": "明日は寒いですでしょう。",
+          "right": "明日は寒いでしょう。",
+          "noteVi": "Tính từ đuôi い + でしょう; không dùng です và でしょう cùng lúc."
+        },
+        {
+          "wrong": "その町は静かなでしょう。",
+          "right": "その町は静かでしょう。",
+          "noteVi": "Tính từ đuôi な bỏ な trước でしょう."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-26-e01",
+      "type": "fill",
+      "grammar": [
+        "nagara"
+      ],
+      "before": "ラジオを",
+      "after": "ながら料理を作ります。",
+      "answers": [
+        "聞き"
+      ],
+      "options": [
+        "聞き",
+        "聞く",
+        "聞いて"
+      ],
+      "vi": "Tôi vừa nghe đài vừa nấu ăn.",
+      "explainVi": "ながら gắn vào gốc ます: 聞きます → 聞きながら."
+    },
+    {
+      "id": "n5-26-e02",
+      "type": "fill",
+      "grammar": [
+        "nagara"
+      ],
+      "before": "コーヒーを",
+      "after": "ながら、新聞を読みました。",
+      "answers": [
+        "飲み"
+      ],
+      "options": [
+        "飲んで",
+        "飲み",
+        "飲む"
+      ],
+      "vi": "Tôi đã vừa uống cà phê vừa đọc báo.",
+      "explainVi": "飲みます → 飲みながら. Thì quá khứ chỉ ở động từ cuối câu (読みました)."
+    },
+    {
+      "id": "n5-26-e03",
+      "type": "choice",
+      "grammar": [
+        "nagara"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi vừa xem tivi vừa ăn tối\"?",
+      "options": [
+        "テレビを見ながら晩ご飯を食べます。",
+        "晩ご飯を食べてからテレビを見ます。",
+        "テレビを見る前に晩ご飯を食べます。"
+      ],
+      "answer": 0,
+      "explainVi": "〜てから: làm xong rồi mới…; 〜前に: trước khi…; 〜ながら: làm cùng lúc."
+    },
+    {
+      "id": "n5-26-e04",
+      "type": "order",
+      "grammar": [
+        "nagara",
+        "naide-kudasai"
+      ],
+      "vi": "Đừng vừa che ô vừa đi xe đạp.",
+      "tiles": [
+        "自転車に",
+        "傘を",
+        "乗らないでください",
+        "差しながら"
+      ],
+      "answers": [
+        "傘を差しながら自転車に乗らないでください",
+        "自転車に傘を差しながら乗らないでください"
+      ]
+    },
+    {
+      "id": "n5-26-e05",
+      "type": "choice",
+      "grammar": [
+        "nagara"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "アンさんは音楽を聞きながら走ります。",
+      "options": [
+        "Chị An vừa nghe nhạc vừa chạy bộ.",
+        "Chị An nghe nhạc xong rồi chạy bộ.",
+        "Chị An chạy bộ trước khi nghe nhạc."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-26-e06",
+      "type": "fill",
+      "grammar": [
+        "to-iu-named"
+      ],
+      "before": "ダナン",
+      "after": "町を知っていますか。",
+      "answers": [
+        "という"
+      ],
+      "options": [
+        "という",
+        "に",
+        "を"
+      ],
+      "vi": "Bạn có biết thành phố tên là Đà Nẵng không?"
+    },
+    {
+      "id": "n5-26-e07",
+      "type": "choice",
+      "grammar": [
+        "to-iu-named"
+      ],
+      "promptVi": "Hỏi \"Hoa này tên là gì?\": chọn câu đúng.",
+      "options": [
+        "これは何という花ですか。",
+        "これは花という何ですか。",
+        "これは何と花ですか。"
+      ],
+      "answer": 0,
+      "explainVi": "Từ để hỏi 何 đứng vào chỗ của tên, trước という; danh từ chỉ loại (花) đứng sau."
+    },
+    {
+      "id": "n5-26-e08",
+      "type": "order",
+      "grammar": [
+        "to-iu-named"
+      ],
+      "vi": "Hôm qua có một người tên là Tanaka gọi điện đến.",
+      "tiles": [
+        "電話が",
+        "田中さん",
+        "昨日",
+        "ありました",
+        "人から",
+        "という"
+      ],
+      "answers": [
+        "昨日田中さんという人から電話がありました",
+        "田中さんという人から昨日電話がありました"
+      ]
+    },
+    {
+      "id": "n5-26-e09",
+      "type": "fill",
+      "grammar": [
+        "to-iu-named"
+      ],
+      "before": "これは日本語で何",
+      "after": "言いますか。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "を",
+        "が"
+      ],
+      "vi": "Cái này tiếng Nhật gọi là gì?",
+      "explainVi": "Hỏi tên gọi: 何と言いますか (何 đọc なん)."
+    },
+    {
+      "id": "n5-26-e10",
+      "type": "choice",
+      "grammar": [
+        "to-iu-named"
+      ],
+      "promptVi": "Tự giới thiệu lịch sự \"Tôi tên là Mai\": chọn câu đúng.",
+      "options": [
+        "マイと言います。",
+        "マイを言います。",
+        "マイの言います。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-26-e11",
+      "type": "order",
+      "grammar": [
+        "to-iu-named",
+        "tai"
+      ],
+      "vi": "Tôi muốn đi đến thành phố tên là Kyoto.",
+      "tiles": [
+        "行きたいです",
+        "という",
+        "町へ",
+        "京都"
+      ],
+      "answers": [
+        "京都という町へ行きたいです"
+      ]
+    },
+    {
+      "id": "n5-26-e12",
+      "type": "fill",
+      "grammar": [
+        "deshou"
+      ],
+      "before": "明日は雨",
+      "after": "。",
+      "answers": [
+        "でしょう"
+      ],
+      "options": [
+        "でしょう",
+        "だでしょう",
+        "ですでしょう"
+      ],
+      "vi": "Ngày mai có lẽ sẽ mưa.",
+      "explainVi": "Danh từ + でしょう, không thêm だ hay です."
+    },
+    {
+      "id": "n5-26-e13",
+      "type": "choice",
+      "grammar": [
+        "deshou"
+      ],
+      "promptVi": "Chọn câu đúng: \"Ngày mai có lẽ sẽ lạnh.\"",
+      "options": [
+        "明日は寒いでしょう。",
+        "明日は寒いですでしょう。",
+        "明日は寒いだでしょう。"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đuôi い + でしょう."
+    },
+    {
+      "id": "n5-26-e14",
+      "type": "fill",
+      "grammar": [
+        "deshou"
+      ],
+      "before": "その町はたぶん",
+      "after": "でしょう。",
+      "answers": [
+        "静か"
+      ],
+      "options": [
+        "静かな",
+        "静か",
+        "静かだ"
+      ],
+      "vi": "Thành phố đó chắc là yên tĩnh.",
+      "explainVi": "Tính từ đuôi な bỏ な trước でしょう."
+    },
+    {
+      "id": "n5-26-e15",
+      "type": "order",
+      "grammar": [
+        "deshou"
+      ],
+      "vi": "Chiều nay có lẽ trời sẽ nhiều mây.",
+      "tiles": [
+        "曇る",
+        "午後は",
+        "でしょう",
+        "今日の",
+        "たぶん"
+      ],
+      "answers": [
+        "今日の午後はたぶん曇るでしょう",
+        "たぶん今日の午後は曇るでしょう"
+      ]
+    },
+    {
+      "id": "n5-26-e16",
+      "type": "choice",
+      "grammar": [
+        "deshou"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "明日は晴れるでしょう。",
+      "options": [
+        "Ngày mai có lẽ trời sẽ nắng.",
+        "Hôm qua trời nắng.",
+        "Ngày mai trời không nắng."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-26-e17",
+      "type": "choice",
+      "grammar": [
+        "deshou"
+      ],
+      "promptVi": "Chọn từ điền vào chỗ trống.",
+      "ja": "＿明日は晴れるでしょう。",
+      "options": [
+        "たぶん",
+        "ちょうど",
+        "まっすぐ"
+      ],
+      "answer": 0,
+      "explainVi": "たぶん (có lẽ) hay đi cùng でしょう."
+    },
+    {
+      "id": "n5-26-e18",
+      "type": "fill",
+      "grammar": [
+        "deshou",
+        "kara-reason"
+      ],
+      "before": "田中さんは忙しいですから、パーティーに",
+      "after": "でしょう。",
+      "answers": [
+        "来ない"
+      ],
+      "options": [
+        "来ない",
+        "来なくて",
+        "来て"
+      ],
+      "vi": "Anh Tanaka bận nên chắc sẽ không đến bữa tiệc.",
+      "explainVi": "Động từ ở thể thông thường + でしょう: 来ない + でしょう."
+    },
+    {
+      "id": "n5-26-e19",
+      "type": "choice",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "promptVi": "Trời đang mưa. Chọn từ đúng.",
+      "ja": "雨が降っていますから、傘を＿ください。",
+      "options": [
+        "差して",
+        "吹いて",
+        "呼んで"
+      ],
+      "answer": 0,
+      "explainVi": "傘を差す: che ô."
+    },
+    {
+      "id": "n5-26-e20",
+      "type": "choice",
+      "promptVi": "Thành phố Hồ Chí Minh ở miền Nam Việt Nam. Chọn từ đúng.",
+      "ja": "ホーチミンはベトナムの＿にあります。",
+      "options": [
+        "南",
+        "北",
+        "東"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-26-e21",
+      "type": "fill",
+      "before": "先生の質問",
+      "after": "答えてください。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "vi": "Hãy trả lời câu hỏi của thầy.",
+      "explainVi": "答える đi với に: 質問に答える."
+    },
+    {
+      "id": "n5-26-e22",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "東",
+          "phía đông"
+        ],
+        [
+          "西",
+          "phía tây"
+        ],
+        [
+          "南",
+          "phía nam"
+        ],
+        [
+          "北",
+          "phía bắc"
+        ]
+      ]
+    },
+    {
+      "id": "n5-26-e23",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "意味",
+          "nghĩa"
+        ],
+        [
+          "質問",
+          "câu hỏi"
+        ],
+        [
+          "作文",
+          "bài văn"
+        ],
+        [
+          "言葉",
+          "từ, từ ngữ"
+        ]
+      ]
+    },
+    {
+      "id": "n5-26-e24",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "晴れる",
+          "(trời) nắng"
+        ],
+        [
+          "曇る",
+          "(trời) nhiều mây"
+        ],
+        [
+          "吹く",
+          "(gió) thổi"
+        ],
+        [
+          "呼ぶ",
+          "gọi"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "この言葉の意味は何ですか。": "この{言|こと}{葉|ば}の{意|い}{味|み}は{何|なん}ですか。",
+    "先生、この文章の意味がわかりません。": "{先|せん}{生|せい}、この{文|ぶん}{章|しょう}の{意|い}{味|み}がわかりません。",
+    "わからない言葉がありますか。": "わからない{言|こと}{葉|ば}がありますか。",
+    "「ありがとう」は大切な言葉です。": "「ありがとう」は{大|たい}{切|せつ}な{言|こと}{葉|ば}です。",
+    "この文章を読んで、質問に答えてください。": "この{文|ぶん}{章|しょう}を{読|よ}んで、{質|しつ}{問|もん}に{答|こた}えてください。",
+    "グエンさんは文章がとても上手です。": "グエンさんは{文|ぶん}{章|しょう}がとても{上手|じょうず}です。",
+    "このじびきは古いですが、便利です。": "このじびきは{古|ふる}いですが、{便|べん}{利|り}です。",
+    "日本語で作文を書きました。": "{日本|にほん}{語|ご}で{作|さく}{文|ぶん}を{書|か}きました。",
+    "今週の宿題は作文です。": "{今|こん}{週|しゅう}の{宿|しゅく}{題|だい}は{作|さく}{文|ぶん}です。",
+    "先生、質問があります。": "{先|せん}{生|せい}、{質|しつ}{問|もん}があります。",
+    "質問してもいいですか。": "{質|しつ}{問|もん}してもいいですか。",
+    "質問に答えてください。": "{質|しつ}{問|もん}に{答|こた}えてください。",
+    "田中さんは何も答えませんでした。": "{田中|たなか}さんは{何|なに}も{答|こた}えませんでした。",
+    "この問題は難しいです。": "この{問|もん}{題|だい}は{難|むずか}しいです。",
+    "大丈夫です。問題ありません。": "{大|だい}{丈|じょう}{夫|ぶ}です。{問|もん}{題|だい}ありません。",
+    "25ページを見てください。": "25ページを{見|み}てください。",
+    "この本は300ページあります。": "この{本|ほん}は300ページあります。",
+    "明日はたぶん雨でしょう。": "{明日|あした}はたぶん{雨|あめ}でしょう。",
+    "田中さんはたぶん来ないでしょう。": "{田中|たなか}さんはたぶん{来|こ}ないでしょう。",
+    "毎朝テレビでニュースを見ます。": "{毎|まい}{朝|あさ}テレビでニュースを{見|み}ます。",
+    "ラジオでニュースを聞きながら、朝ごはんを食べます。": "ラジオでニュースを{聞|き}きながら、{朝|あさ}ごはんを{食|た}べます。",
+    "父は毎朝ラジオを聞きます。": "{父|ちち}は{毎|まい}{朝|あさ}ラジオを{聞|き}きます。",
+    "車の中でラジオを聞きます。": "{車|くるま}の{中|なか}でラジオを{聞|き}きます。",
+    "明日は晴れるでしょう。": "{明日|あした}は{晴|は}れるでしょう。",
+    "午後から晴れました。": "{午|ご}{後|ご}から{晴|は}れました。",
+    "今日は朝から曇っています。": "{今日|きょう}は{朝|あさ}から{曇|くも}っています。",
+    "明日は曇るでしょう。": "{明日|あした}は{曇|くも}るでしょう。",
+    "冷たい風が吹いています。": "{冷|つめ}たい{風|かぜ}が{吹|ふ}いています。",
+    "明日は北の風が吹くでしょう。": "{明日|あした}は{北|きた}の{風|かぜ}が{吹|ふ}くでしょう。",
+    "雨が降っていますから、傘を差しましょう。": "{雨|あめ}が{降|ふ}っていますから、{傘|かさ}を{差|さ}しましょう。",
+    "傘を差しながら自転車に乗らないでください。": "{傘|かさ}を{差|さ}しながら{自|じ}{転|てん}{車|しゃ}に{乗|の}らないでください。",
+    "駅の東に大きい公園があります。": "{駅|えき}の{東|ひがし}に{大|おお}きい{公|こう}{園|えん}があります。",
+    "日本は中国の東にあります。": "{日本|にほん}は{中国|ちゅうごく}の{東|ひがし}にあります。",
+    "大阪は東京の西にあります。": "{大阪|おおさか}は{東京|とうきょう}の{西|にし}にあります。",
+    "ホーチミンはベトナムの南にあります。": "ホーチミンはベトナムの{南|みなみ}にあります。",
+    "ハノイはベトナムの北にあります。": "ハノイはベトナムの{北|きた}にあります。",
+    "古いラジカセでテープを聞きます。": "{古|ふる}いラジカセでテープを{聞|き}きます。",
+    "父は古いレコードをたくさん持っています。": "{父|ちち}は{古|ふる}いレコードをたくさん{持|も}っています。",
+    "テープを聞きながら日本語を練習します。": "テープを{聞|き}きながら{日本|にほん}{語|ご}を{練|れん}{習|しゅう}します。",
+    "テープレコーダーにテープを入れてください。": "テープレコーダーにテープを{入|い}れてください。",
+    "タクシーを呼んでください。": "タクシーを{呼|よ}んでください。",
+    "みんなは私をミンと呼びます。": "みんなは{私|わたし}をミンと{呼|よ}びます。",
+    "誕生日のパーティーに友達を呼びました。": "{誕|たん}{生|じょう}{日|び}のパーティーに{友|とも}{達|だち}を{呼|よ}びました。",
+    "ラジオを聞きながら料理を作ります。": "ラジオを{聞|き}きながら{料|りょう}{理|り}を{作|つく}ります。",
+    "コーヒーを飲みながら新聞を読みました。": "コーヒーを{飲|の}みながら{新|しん}{聞|ぶん}を{読|よ}みました。",
+    "歩きながら電話をしないでください。": "{歩|ある}きながら{電|でん}{話|わ}をしないでください。",
+    "音楽を聞きながら勉強します。": "{音|おん}{楽|がく}を{聞|き}きながら{勉|べん}{強|きょう}します。",
+    "音楽を聞くながら勉強します。": "{音|おん}{楽|がく}を{聞|き}くながら{勉|べん}{強|きょう}します。",
+    "昨日、テレビを見ながら晩ご飯を食べました。": "{昨日|きのう}、テレビを{見|み}ながら{晩|ばん}ご{飯|はん}を{食|た}べました。",
+    "昨日、テレビを見たながら晩ご飯を食べました。": "{昨日|きのう}、テレビを{見|み}たながら{晩|ばん}ご{飯|はん}を{食|た}べました。",
+    "私は歌を歌いながら、ギターを弾きます。": "{私|わたし}は{歌|うた}を{歌|うた}いながら、ギターを{弾|ひ}きます。",
+    "私は歌を歌いながら、マイさんはギターを弾きます。": "{私|わたし}は{歌|うた}を{歌|うた}いながら、マイさんはギターを{弾|ひ}きます。",
+    "ダナンという町を知っていますか。": "ダナンという{町|まち}を{知|し}っていますか。",
+    "昨日、田中さんという人から電話がありました。": "{昨日|きのう}、{田中|たなか}さんという{人|ひと}から{電|でん}{話|わ}がありました。",
+    "これは日本語で何と言いますか。": "これは{日本|にほん}{語|ご}で{何|なん}と{言|い}いますか。",
+    "はじめまして。グエンと言います。": "はじめまして。グエンと{言|い}います。",
+    "ダナンという町に行きました。": "ダナンという{町|まち}に{行|い}きました。",
+    "町というダナンに行きました。": "{町|まち}というダナンに{行|い}きました。",
+    "これは日本語で何を言いますか。": "これは{日本|にほん}{語|ご}で{何|なに}を{言|い}いますか。",
+    "明日は雨でしょう。": "{明日|あした}は{雨|あめ}でしょう。",
+    "東京は午後から晴れるでしょう。": "{東京|とうきょう}は{午|ご}{後|ご}から{晴|は}れるでしょう。",
+    "この辞書は便利でしょう？": "この{辞|じ}{書|しょ}は{便|べん}{利|り}でしょう？",
+    "明日は雨だでしょう。": "{明日|あした}は{雨|あめ}だでしょう。",
+    "明日は寒いでしょう。": "{明日|あした}は{寒|さむ}いでしょう。",
+    "明日は寒いですでしょう。": "{明日|あした}は{寒|さむ}いですでしょう。",
+    "その町は静かでしょう。": "その{町|まち}は{静|しず}かでしょう。",
+    "その町は静かなでしょう。": "その{町|まち}は{静|しず}かなでしょう。",
+    "聞き": "{聞|き}き",
+    "聞く": "{聞|き}く",
+    "聞いて": "{聞|き}いて",
+    "コーヒーを飲みながら、新聞を読みました。": "コーヒーを{飲|の}みながら、{新|しん}{聞|ぶん}を{読|よ}みました。",
+    "飲み": "{飲|の}み",
+    "飲んで": "{飲|の}んで",
+    "飲む": "{飲|の}む",
+    "テレビを見ながら晩ご飯を食べます。": "テレビを{見|み}ながら{晩|ばん}ご{飯|はん}を{食|た}べます。",
+    "晩ご飯を食べてからテレビを見ます。": "{晩|ばん}ご{飯|はん}を{食|た}べてからテレビを{見|み}ます。",
+    "テレビを見る前に晩ご飯を食べます。": "テレビを{見|み}る{前|まえ}に{晩|ばん}ご{飯|はん}を{食|た}べます。",
+    "自転車に": "{自|じ}{転|てん}{車|しゃ}に",
+    "傘を": "{傘|かさ}を",
+    "乗らないでください": "{乗|の}らないでください",
+    "差しながら": "{差|さ}しながら",
+    "傘を差しながら自転車に乗らないでください": "{傘|かさ}を{差|さ}しながら{自|じ}{転|てん}{車|しゃ}に{乗|の}らないでください",
+    "自転車に傘を差しながら乗らないでください": "{自|じ}{転|てん}{車|しゃ}に{傘|かさ}を{差|さ}しながら{乗|の}らないでください",
+    "アンさんは音楽を聞きながら走ります。": "アンさんは{音|おん}{楽|がく}を{聞|き}きながら{走|はし}ります。",
+    "という": "という",
+    "に": "に",
+    "を": "を",
+    "これは何という花ですか。": "これは{何|なん}という{花|はな}ですか。",
+    "これは花という何ですか。": "これは{花|はな}という{何|なん}ですか。",
+    "これは何と花ですか。": "これは{何|なん}と{花|はな}ですか。",
+    "電話が": "{電|でん}{話|わ}が",
+    "田中さん": "{田中|たなか}さん",
+    "昨日": "{昨日|きのう}",
+    "ありました": "ありました",
+    "人から": "{人|ひと}から",
+    "昨日田中さんという人から電話がありました": "{昨日|きのう}{田中|たなか}さんという{人|ひと}から{電|でん}{話|わ}がありました",
+    "田中さんという人から昨日電話がありました": "{田中|たなか}さんという{人|ひと}から{昨日|きのう}{電|でん}{話|わ}がありました",
+    "と": "と",
+    "が": "が",
+    "マイと言います。": "マイと{言|い}います。",
+    "マイを言います。": "マイを{言|い}います。",
+    "マイの言います。": "マイの{言|い}います。",
+    "行きたいです": "{行|い}きたいです",
+    "町へ": "{町|まち}へ",
+    "京都": "{京都|きょうと}",
+    "京都という町へ行きたいです": "{京都|きょうと}という{町|まち}へ{行|い}きたいです",
+    "でしょう": "でしょう",
+    "だでしょう": "だでしょう",
+    "ですでしょう": "ですでしょう",
+    "明日は寒いだでしょう。": "{明日|あした}は{寒|さむ}いだでしょう。",
+    "その町はたぶん静かでしょう。": "その{町|まち}はたぶん{静|しず}かでしょう。",
+    "静か": "{静|しず}か",
+    "静かな": "{静|しず}かな",
+    "静かだ": "{静|しず}かだ",
+    "曇る": "{曇|くも}る",
+    "午後は": "{午|ご}{後|ご}は",
+    "今日の": "{今日|きょう}の",
+    "たぶん": "たぶん",
+    "今日の午後はたぶん曇るでしょう": "{今日|きょう}の{午|ご}{後|ご}はたぶん{曇|くも}るでしょう",
+    "たぶん今日の午後は曇るでしょう": "たぶん{今日|きょう}の{午|ご}{後|ご}は{曇|くも}るでしょう",
+    "＿明日は晴れるでしょう。": "＿{明日|あした}は{晴|は}れるでしょう。",
+    "ちょうど": "ちょうど",
+    "まっすぐ": "まっすぐ",
+    "田中さんは忙しいですから、パーティーに来ないでしょう。": "{田中|たなか}さんは{忙|いそが}しいですから、パーティーに{来|こ}ないでしょう。",
+    "来ない": "{来|こ}ない",
+    "来なくて": "{来|こ}なくて",
+    "来て": "{来|き}て",
+    "雨が降っていますから、傘を＿ください。": "{雨|あめ}が{降|ふ}っていますから、{傘|かさ}を＿ください。",
+    "差して": "{差|さ}して",
+    "吹いて": "{吹|ふ}いて",
+    "呼んで": "{呼|よ}んで",
+    "ホーチミンはベトナムの＿にあります。": "ホーチミンはベトナムの＿にあります。",
+    "南": "{南|みなみ}",
+    "北": "{北|きた}",
+    "東": "{東|ひがし}",
+    "先生の質問に答えてください。": "{先|せん}{生|せい}の{質|しつ}{問|もん}に{答|こた}えてください。",
+    "で": "で",
+    "西": "{西|にし}",
+    "意味": "{意|い}{味|み}",
+    "質問": "{質|しつ}{問|もん}",
+    "作文": "{作|さく}{文|ぶん}",
+    "言葉": "{言|こと}{葉|ば}",
+    "晴れる": "{晴|は}れる",
+    "吹く": "{吹|ふ}く",
+    "呼ぶ": "{呼|よ}ぶ"
+  }
+}
