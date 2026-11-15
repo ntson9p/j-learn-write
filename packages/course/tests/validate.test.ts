@@ -55,6 +55,14 @@ describe('validateCourse', () => {
     expect(errors).toEqual(['kana-02 practice おちゃ: kana not taught yet: ゃ in 「おちゃ」']);
   });
 
+  it('allows a particle or copula only once its grammar point is taught', () => {
+    const sentence = '私が学生です。';
+    const errors = validateCourse(course({ grammar: [{ id: 'wa', titleVi: 't', summaryVi: 's', explanationVi: ['e'], examples: [{ ja: sentence, vi: 'v' }], review: draft }, { id: 'desu', titleVi: 't', summaryVi: 's', explanationVi: ['e'], examples: [{ ja: '私は学生ではありません。', vi: 'v' }], review: draft }], ruby: { '私は学生です。': '{私|わたし}は{学|がく}{生|せい}です。', [sentence]: '{私|わたし}が{学|がく}{生|せい}です。', '私は学生ではありません。': '{私|わたし}は{学|がく}{生|せい}ではありません。' } }), tools);
+    expect(only(errors, /「が」 needs grammar ga-subject or/)).toHaveLength(1);
+    // ではありません is one unit (not ある + ません, taught later); it needs de-wa-arimasen-ja-nai.
+    expect(only(errors, /ではありません/)).toEqual([expect.stringContaining('「ではありません」 needs grammar de-wa-arimasen-ja-nai')]);
+  });
+
   it('checks the curriculum', () => {
     const errors = validateCourse(course({}, [{ ...lesson1, id: 'n5-1', words: [...lesson1.words!, no('学生')] }]), tools);
     expect(errors).toContain('n5-1: id must be <level>-<order, 2 digits>');

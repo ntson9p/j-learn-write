@@ -4,7 +4,7 @@
  * vocabulary and form control (a sentence only uses words and conjugated
  * forms taught so far), exercise consistency.
  */
-import { conjClassOf, expandPattern, hasJapanese, isKana, isKanji, toHiragana, tokenize, validateQuestion, type JaLexicon, type Token } from '@j-learn-write/grader';
+import { conjClassOf, expandPattern, FUNCTION_WORDS, hasJapanese, isKana, isKanji, toHiragana, tokenize, validateQuestion, type JaLexicon, type Token } from '@j-learn-write/grader';
 import { parseRuby, rubyText, runReadingOk } from './furigana.ts';
 import type {
   CurriculumLesson,
@@ -24,6 +24,8 @@ export interface FormGrammar {
   verb: Record<string, string[]>;
   derived: Record<string, string[]>;
   adjective: Record<string, string[]>;
+  /** Function-word id (grader function-words.json) → grammar points, any of which allows it. */
+  function: Record<string, string[]>;
 }
 
 export interface CourseData {
@@ -126,6 +128,15 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
   const wordByNo = new Map(data.vocabulary.map((w) => [w.no, w]));
   const kanjiByChar = new Map(data.kanji.map((k) => [k.char, k]));
   const grammarById = new Map(data.grammar.map((g) => [g.id, g]));
+  // data/form-grammar.json names existing grammar points and function words.
+  const functionIds = new Set(FUNCTION_WORDS.map((f) => f.id));
+  for (const [table, map] of Object.entries(data.formGrammar)) {
+    if (typeof map !== 'object' || map === null) continue;
+    for (const [key, ids] of Object.entries(map as Record<string, string[]>)) {
+      for (const id of ids) if (!grammarById.has(id)) err('form-grammar', `${table} ${key}: unknown grammar point ${id}`);
+      if (table === 'function' && !functionIds.has(key)) err('form-grammar', `function ${key}: not a grader function word`);
+    }
+  }
   const teachKana = data.kana.filter((k) => !data.kanaNotTaught.includes(k.kana));
   const kanaSet = new Set(teachKana.map((k) => k.kana));
 
@@ -220,7 +231,13 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
   const tokenProblem = (t: Token, words: ReadonlySet<number>, grammar: ReadonlySet<string>): string | null => {
     const reasons: string[] = [];
     for (const a of t.analyses) {
-      if (a.kind === 'punct' || a.kind === 'function' || a.kind === 'number' || a.kind === 'name') return null;
+      if (a.kind === 'punct' || a.kind === 'number' || a.kind === 'name') return null;
+      if (a.kind === 'function') {
+        const need = data.formGrammar.function[a.id];
+        if (!need || need.some((g) => grammar.has(g))) return null;
+        reasons.push(`needs grammar ${need.join(' or ')}`);
+        continue;
+      }
       if (a.kind === 'counted') {
         const point = data.counterGrammar[a.counter];
         if (!point || grammar.has(point)) return null;
