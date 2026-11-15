@@ -2,6 +2,7 @@ import preact from '@preact/preset-vite';
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import { licensesPlugin } from './build/licenses.ts';
+import { strokesPlugin } from './build/strokes.ts';
 
 // Static PWA: relative base and hash routes, so the build works from any
 // sub-path (GitHub Pages) and offline.
@@ -11,6 +12,7 @@ export default defineConfig({
     preact(),
     // The service worker bundles these Workbox modules (vite-plugin-pwa, generateSW).
     licensesPlugin(['workbox-core', 'workbox-precaching', 'workbox-routing', 'workbox-strategies']),
+    strokesPlugin(),
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: false,

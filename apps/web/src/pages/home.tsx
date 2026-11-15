@@ -40,6 +40,16 @@ export default function HomePage(_props: PageProps) {
       </div>
       <p class="muted">{T.home.levelSummary[level]}</p>
       {level !== 'kana' && <p class="muted small">{T.home.unofficial}</p>}
+      <p class="button-row">
+        {level === 'kana' && (
+          <a class="button" href={href('/kana')}>
+            {T.kana.homeLink}
+          </a>
+        )}
+        <a class="button" href={href('/write')}>
+          {T.writing.homeLink}
+        </a>
+      </p>
       {lessons.length === 0 && <p class="card">{T.home.comingSoon}</p>}
       <ol class="lesson-list">
         {lessons.map((l, i) => {

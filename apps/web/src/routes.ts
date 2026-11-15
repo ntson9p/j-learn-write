@@ -12,6 +12,10 @@ export interface RouteDef {
 export const ROUTES: readonly RouteDef[] = [
   { pattern: '/', tab: 'learn', load: () => import('./pages/home') },
   { pattern: '/guide', tab: 'settings', load: () => import('./pages/guide') },
+  { pattern: '/kana', tab: 'learn', load: () => import('./pages/kana') },
+  { pattern: '/kana/:char', tab: 'learn', load: () => import('./pages/kana') },
+  { pattern: '/write', tab: 'learn', load: () => import('./pages/write') },
+  { pattern: '/write/:char', tab: 'learn', load: () => import('./pages/write') },
   // Sections built in later phases of docs/plan.md show a placeholder until then.
   { pattern: '/review', tab: 'review', load: () => import('./pages/soon') },
   { pattern: '/dict', tab: 'dict', load: () => import('./pages/soon') },

@@ -1090,3 +1090,39 @@ input[type='range'] {
 .small {
   font-size: 0.8rem;
 }
+
+/* Kana table */
+.kana-grid {
+  display: grid;
+  gap: 6px;
+}
+.kana-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 56px;
+  padding: 4px 2px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  text-decoration: none;
+}
+.kana-cell.empty {
+  border: none;
+  background: transparent;
+}
+.kana-char {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+.kana-romaji {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.kana-big {
+  font-size: 4.5rem;
+  line-height: 1.1;
+  margin: 0.2em 0;
+}

@@ -4,7 +4,7 @@
  */
 import curriculumFile from '../data/curriculum.json';
 import levelsFile from '../data/levels.json';
-import type { CurriculumLesson, Lesson, LessonContent, LevelId, LevelStatus } from './types.ts';
+import type { CurriculumLesson, KanaEntry, Lesson, LessonContent, LevelId, LevelStatus, ListGrammar, ListKanji, ListWord, NameEntry } from './types.ts';
 
 /** Levels in learning order. */
 export const LEVELS: readonly LevelId[] = ['kana', 'n5', 'n4'];
@@ -32,6 +32,26 @@ export async function loadLevel(level: LevelId): Promise<Lesson[]> {
       return { meta, content: load ? await load() : null };
     }),
   );
+}
+
+export async function loadVocabulary(): Promise<ListWord[]> {
+  return (await import('../data/jlpt/vocabulary.json')).default as ListWord[];
+}
+
+export async function loadKanjiList(): Promise<ListKanji[]> {
+  return (await import('../data/jlpt/kanji.json')).default as ListKanji[];
+}
+
+export async function loadGrammarList(): Promise<ListGrammar[]> {
+  return (await import('../data/jlpt/grammar.json')).default as ListGrammar[];
+}
+
+export async function loadKana(): Promise<KanaEntry[]> {
+  return (await import('../data/kana.json')).default as KanaEntry[];
+}
+
+export async function loadNames(): Promise<NameEntry[]> {
+  return (await import('../data/names.json')).default.names as NameEntry[];
 }
 
 /** Word id used by the app's storage: "w0001". */

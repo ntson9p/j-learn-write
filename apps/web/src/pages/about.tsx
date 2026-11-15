@@ -55,6 +55,12 @@ export const DATA_SOURCES: DataSource[] = [
     license: 'Arphic Public License',
     url: 'https://github.com/parsimonhi/animCJK',
   },
+  {
+    name: 'KanjiVG (Ulrich Apel)',
+    use: 'Đường nét của các nét kana được ghép lại, số nét để kiểm tra',
+    license: 'CC BY-SA 3.0',
+    url: 'https://kanjivg.tagaini.net/',
+  },
 ];
 
 export default function AboutPage(_props: PageProps) {
