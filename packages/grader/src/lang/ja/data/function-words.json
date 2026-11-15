@@ -60,6 +60,8 @@
     { "text": "らしい", "reading": "らしい", "role": "aux", "id": "rashii", "conj": "adj-i" },
     { "text": "いけない", "reading": "いけない", "role": "aux", "id": "ikenai", "conj": "adj-i" },
     { "text": "いけません", "reading": "いけません", "role": "aux", "id": "ikenai" },
+    { "text": "ならない", "reading": "ならない", "role": "aux", "id": "naranai", "conj": "adj-i" },
+    { "text": "なりません", "reading": "なりません", "role": "aux", "id": "naranai" },
     { "text": "こと", "reading": "こと", "role": "nominal", "id": "koto" },
     { "text": "お", "reading": "お", "role": "prefix", "id": "o-prefix" },
     { "text": "ご", "reading": "ご", "role": "prefix", "id": "go-prefix" },

@@ -1,5 +1,5 @@
 {
-  "_doc": "Corrections to OpenJLPT words, keyed by OpenJLPT id: the written form and JMdict entry the course uses instead of the upstream link. Each fix says why. Applied by sources:fetch (to keep the JMdict entry) and data:build.",
+  "_doc": "Corrections to OpenJLPT words, keyed by OpenJLPT id: the written form (word), reading or JMdict entry the course uses instead of the upstream one. The upstream spelling stays an accepted form. Each fix says why. Applied by sources:fetch (to keep the JMdict entry) and data:build.",
   "fixes": {
     "f9a20b5203": {
       "word": "叱る",
@@ -10,6 +10,60 @@
       "word": "せっけん",
       "jmdictId": 1382590,
       "why": "OpenJLPT links せっけん to 節倹 (thrift); the N5 lists mean 石鹸 (soap)."
+    },
+    "d7960dc78d": {
+      "word": "終わる",
+      "why": "Standard okurigana (送り仮名の付け方): 終わる."
+    },
+    "ae3e0a705f": {
+      "word": "曲がる",
+      "why": "Standard okurigana: 曲がる."
+    },
+    "99de4451f7": {
+      "word": "起こす",
+      "why": "Standard okurigana: 起こす."
+    },
+    "f786333cf9": {
+      "word": "落とす",
+      "why": "Standard okurigana: 落とす."
+    },
+    "a2694d259e": {
+      "word": "ご飯",
+      "why": "ご飯 is the usual spelling (JMdict lists it first)."
+    },
+    "0b492c3209": {
+      "word": "昼ご飯",
+      "why": "昼ご飯 is the usual spelling (JMdict lists it first)."
+    },
+    "246b5ae84d": {
+      "word": "晩ご飯",
+      "why": "晩ご飯, like ご飯 and 昼ご飯."
+    },
+    "8bd7bc72e8": {
+      "word": "ご主人",
+      "why": "ご主人 is the usual spelling (JMdict lists it first)."
+    },
+    "aac669551b": {
+      "word": "答え",
+      "why": "The noun is written 答え (JMdict lists it first)."
+    },
+    "771fbe6b4d": {
+      "reading": "まいつき",
+      "why": "まいつき is the everyday reading (JMdict lists it first); まいげつ is formal."
+    },
+    "9661cbac61": {
+      "word": "あげる",
+      "why": "In the sense \"give\" taught at N5, あげる is usually written in kana."
+    },
+    "d980cb1531": {
+      "forms": [
+        "ゆっくり"
+      ],
+      "why": "ゆっくり (without と) is the usual form of the adverb."
+    },
+    "ba20bc66d0": {
+      "level": "n5",
+      "why": "The N5 grammar point 全然〜ない (zenzen-nai) needs it; the lists put the word itself in N4."
     }
   }
 }

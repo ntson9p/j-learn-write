@@ -134,7 +134,7 @@
 {"no":133,"char":"重","level":"n4","on":["ジュウ","チョウ"],"kun":["え","おも.い","おも.り","おも.なう","かさ.ねる","かさ.なる","おも"],"strokes":9,"hanViet":"trọng","hanVietOthers":["trùng"],"hanVietAmbiguous":true,"jlptOld":3},
 {"no":134,"char":"近","level":"n4","on":["キン","コン"],"kun":["ちか.い"],"strokes":7,"hanViet":"cận","hanVietOthers":[],"jlptOld":3},
 {"no":135,"char":"考","level":"n4","on":["コウ"],"kun":["かんが.える","かんが.え"],"strokes":6,"hanViet":"khảo","hanVietOthers":[],"jlptOld":3},
-{"no":136,"char":"画","level":"n4","on":["ガ","カク","エ","カイ"],"kun":["えが.く","かく.する","かぎ.る","はかりごと","はか.る"],"strokes":8,"hanViet":"hoạch","hanVietOthers":["hoạ"],"jlptOld":3},
+{"no":136,"char":"画","level":"n4","on":["ガ","カク","エ","カイ"],"kun":["えが.く","かく.する","かぎ.る","はかりごと","はか.る"],"strokes":8,"hanViet":"họa","hanVietOthers":["hoạch"],"hanVietAmbiguous":true,"jlptOld":3},
 {"no":137,"char":"海","level":"n4","on":["カイ"],"kun":["うみ"],"strokes":9,"hanViet":"hải","hanVietOthers":[],"jlptOld":3},
 {"no":138,"char":"売","level":"n4","on":["バイ"],"kun":["う.る","う.れる"],"strokes":7,"hanViet":"mại","hanVietOthers":[],"jlptOld":3},
 {"no":139,"char":"知","level":"n4","on":["チ"],"kun":["し.る","し.らせる"],"strokes":8,"hanViet":"tri","hanVietOthers":[],"jlptOld":3},

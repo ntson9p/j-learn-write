@@ -46,6 +46,13 @@ describe('buildRuby', () => {
     expect(fill('1人です。').markup).toBe('{1人|ひとり}です。');
     expect(fill('20日です。').markup).toBe('{20日|はつか}です。');
     expect(fill('3時です。').markup).toBe('3{時|じ}です。');
+    expect(fill('30,000円です。').markup).toBe('30,000{円|えん}です。');
+    expect(fill('3万円です。').markup).toBe('3{万円|まんえん}です。');
+    expect(fill('1か月です。').markup).toBe('1か{月|げつ}です。');
+  });
+
+  it('reads a counter written on its own', () => {
+    expect(fill('円').markup).toBe('{円|えん}');
   });
 
   it('reports ambiguous readings instead of guessing, and keeps an author choice', () => {

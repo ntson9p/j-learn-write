@@ -12,6 +12,16 @@ describe('numbers', () => {
     expect(numberValue('二つ')).toBeNull();
   });
 
+  it('reads digit groups and digits with kanji units', () => {
+    expect(numberValue('30,000')).toBe(30000);
+    expect(numberValue('1,500')).toBe(1500);
+    expect(numberValue('3万')).toBe(30000);
+    expect(numberValue('3万5000')).toBe(35000);
+    expect(numberValue('2千')).toBe(2000);
+    expect(numberValue('30千')).toBeNull();
+    expect(numberValue('3,00')).toBeNull();
+  });
+
   it('says numbers', () => {
     expect([1, 4, 7, 9, 10, 14, 300, 600, 800, 3000, 8000, 10000, 2026].map(numberReading)).toEqual([
       'いち', 'よん', 'なな', 'きゅう', 'じゅう', 'じゅうよん', 'さんびゃく', 'ろっぴゃく', 'はっぴゃく', 'さんぜん', 'はっせん', 'いちまん', 'にせんにじゅうろく',

@@ -211,7 +211,7 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
   const names = new Set(data.names.map((n) => n.ja));
   const dictionaryRuns = new Set<string>();
   // Every furigana segment of the course words (JmdictFurigana): 引 びき in 字引 is a reading of 引.
-  for (const w of data.vocabulary) for (const s of parseRuby(w.ruby)) if (s.rt) dictionaryRuns.add(`${s.text}|${toHiragana(s.rt)}`);
+  for (const w of data.vocabulary) for (const m of [w.ruby, ...(w.formsRuby ?? [])]) for (const s of parseRuby(m)) if (s.rt) dictionaryRuns.add(`${s.text}|${toHiragana(s.rt)}`);
   for (const n of data.names) dictionaryRuns.add(`${n.ja}|${toHiragana(n.reading)}`);
 
   const formAllowed = (cls: string, tags: readonly string[], grammar: ReadonlySet<string>): string | null => {
@@ -246,7 +246,10 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
         continue;
       }
       if (a.kind === 'unknown') {
-        reasons.push('not a course word');
+        // A counter on its own (円, 歳 as an answer option) once its grammar point is taught.
+        const point = data.counterGrammar[t.surface];
+        if (point && grammar.has(point)) return null;
+        reasons.push(point ? `counter ${t.surface} needs grammar ${point}` : 'not a course word');
         continue;
       }
       if (!words.has(a.no)) {
@@ -274,9 +277,10 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
       if (plainKanji) err(where, `kanji without furigana 「${s.text}」 in 「${text}」 (run npm run content:fill)`);
       if (!s.rt) continue;
       const counted = isCountedRun(s.text, s.rt, tools);
-      if (!counted && ![...s.text].every((c) => isKanji(c) || c === ITERATION)) err(where, `furigana run 「${s.text}」 must be kanji only`);
+      const afterDigits = isCounterAfterDigits(segs.slice(0, i).map((x) => x.text).join(''), s, tools);
+      if (!counted && !afterDigits && ![...s.text].every((c) => isKanji(c) || c === ITERATION)) err(where, `furigana run 「${s.text}」 must be kanji only`);
       if (![...s.rt].every((c) => isKana(c))) err(where, `furigana 「${s.rt}」 must be kana`);
-      const ok = dictionaryRuns.has(`${s.text}|${toHiragana(s.rt)}`) || runReadingOk(s.text, s.rt, tools.kanjiReadings) || counted || isCounterAfterDigits(segs.slice(0, i).map((x) => x.text).join(''), s, tools);
+      const ok = dictionaryRuns.has(`${s.text}|${toHiragana(s.rt)}`) || runReadingOk(s.text, s.rt, tools.kanjiReadings) || counted || afterDigits;
       if (!ok) err(where, `「${s.text}」 cannot be read 「${s.rt}」 in 「${text}」`);
     }
   };
@@ -386,7 +390,7 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
 
 /** The counter of a digits + counter token (3{本|ぼん}): its reading must end that token's reading. */
 function isCounterAfterDigits(before: string, seg: { text: string; rt?: string }, tools: CheckTools): boolean {
-  const digits = /\d+$/.exec(before)?.[0];
+  const digits = /\d{1,3}(?:,\d{3})+$|\d+$/.exec(before)?.[0];
   if (!digits || !seg.rt) return false;
   const tokens = tokenize(digits + seg.text, tools.lexicon);
   return tokens.length === 1 && tokens[0]!.analyses.some((a) => a.kind === 'counted' && toHiragana(a.reading).endsWith(toHiragana(seg.rt!)));

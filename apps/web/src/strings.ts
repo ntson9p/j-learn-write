@@ -37,11 +37,8 @@ export const T = {
     intro:
       'Học từ con số 0: bảng chữ kana, rồi từ vựng, kanji và ngữ pháp sơ cấp (tương đương JLPT N5 và N4). Mỗi bài có từ mới, ngữ pháp và bài tập.',
     levels: 'Chọn chặng',
-    levelSummary: {
-      kana: 'Hiragana, katakana, âm đục, âm ghép, âm ngắt và trường âm',
-      n5: '674 từ · 80 kanji · 81 điểm ngữ pháp',
-      n4: '630 từ · 166 kanji · 98 điểm ngữ pháp',
-    } as Record<LevelId, string>,
+    kanaSummary: 'Hiragana, katakana, âm đục, âm ghép, âm ngắt và trường âm',
+    levelSummary: (words: number, kanji: number, grammar: number) => `${words} từ · ${kanji} kanji · ${grammar} điểm ngữ pháp`,
     unofficial: 'JLPT không công bố danh sách từ, kanji và ngữ pháp chính thức; khóa học theo danh sách cộng đồng phổ biến (J. Waller, OpenJLPT).',
     comingSoon: 'Nội dung của chặng này đang được soạn.',
     state: {

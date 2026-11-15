@@ -4,7 +4,7 @@
  * the course words (never from a morphological analyser's guesses) and
  * checked against KANJIDIC2 readings.
  */
-import { isKana, isKanji, numberReading, toHiragana, tokenize, type JaLexicon, type Token } from '@j-learn-write/grader';
+import { findCounter, isKana, isKanji, numberReading, toHiragana, tokenize, type JaLexicon, type Token } from '@j-learn-write/grader';
 
 export interface RubySegment {
   text: string;
@@ -81,14 +81,19 @@ export function splitWithDictionary(seg: RubySegment, dictionary: readonly RubyS
  * of the counter after the number's own reading (3{本|ぼん}), or of the whole
  * run when the reading is irregular ({1人|ひとり}).
  */
-export function countedRuby(surface: string, reading: string, value: number): RubySegment[] {
-  const digits = /^\d+/.exec(surface)?.[0];
+export function countedRuby(surface: string, reading: string, _value: number): RubySegment[] {
+  const digits = /^\d{1,3}(?:,\d{3})+|^\d+/.exec(surface)?.[0];
   if (!digits) return [{ text: surface, rt: reading }];
   const counter = surface.slice(digits.length);
-  const said = numberReading(value);
+  // The reading of the digits as written (3 in 3万円 is さん), with its sound changes (8千: はっ).
+  const said = numberReading(Number(digits.replace(/,/g, '')));
   const prefixes = [said, said.replace(/(ち|く|つ|う)$/, 'っ'), said.replace(/じゅう$/, 'じゅっ'), said.replace(/じゅう$/, 'じっ')];
   for (const p of prefixes) {
-    if (reading.startsWith(p) && reading.length > p.length) return [{ text: digits }, { text: counter, rt: reading.slice(p.length) }];
+    if (reading.startsWith(p) && reading.length > p.length) {
+      const rest = reading.slice(p.length);
+      // Kana inside the counter stay outside the furigana: 1か{月|げつ}.
+      return [{ text: digits }, ...(alignReading(counter, rest) ?? [{ text: counter, rt: rest }])];
+    }
   }
   return [{ text: surface, rt: reading }];
 }
@@ -162,6 +167,9 @@ export function buildRuby(
       continue;
     }
     let readings = tokenReadings(t);
+    // A counter on its own (円, 歳 as a word option) reads as its counter reading.
+    const counter = readings.length === 0 ? findCounter(t.surface) : undefined;
+    if (counter?.reading && counter.counter === t.surface) readings = [counter.reading];
     if (readings.length === 0) {
       problems.push({ surface: t.surface, message: 'kanji not in the course words (unknown token): write its furigana by hand' });
       segments.push({ text: t.surface });

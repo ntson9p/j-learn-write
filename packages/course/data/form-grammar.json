@@ -102,6 +102,7 @@
     "mitai": ["mitai"],
     "rashii": ["rashii"],
     "ikenai": ["te-wa-ikenai", "nakereba-naranai-nakute-wa-ikenai", "nai-to-ikenai-nakucha"],
+    "naranai": ["nakereba-naranai-nakute-wa-ikenai"],
     "koto": ["ta-koto-ga-aru", "koto-ga-dekiru", "koto-ni-suru", "koto-ni-naru", "koto-ga-aru", "no-koto-nominalizer"]
   }
 }

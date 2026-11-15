@@ -52,6 +52,8 @@ export interface ListWord {
   ruby: string;
   /** Other written forms accepted in answers (kana form, other kanji…). */
   forms: string[];
+  /** Furigana markup of the other kanji forms (美味しい: "{美味|おい}しい"). */
+  formsRuby?: string[];
   /** JMdict part-of-speech codes (n, v1, v5k, adj-i, adj-na, …). */
   pos: string[];
   /** Hán Việt reading of the kanji of the word, one syllable per kanji ("học sinh"). */

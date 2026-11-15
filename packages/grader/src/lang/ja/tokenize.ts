@@ -61,7 +61,9 @@ interface Edge {
 function numberEdges(text: string, start: number): Edge[] {
   const out: Edge[] = [];
   let end = start;
-  while (end < text.length && end - start < 12 && NUMBER_CHAR.test(text[end]!)) end++;
+  // A comma between digit groups belongs to the number (30,000).
+  const groupComma = (i: number) => text[i] === ',' && /\d/.test(text[i - 1] ?? '') && /^\d{3}(?!\d)/.test(text.slice(i + 1));
+  while (end < text.length && end - start < 16 && (NUMBER_CHAR.test(text[end]!) || groupComma(end))) end++;
   // 何 + counter (何本, 何人).
   const runs: { len: number; value: number | null }[] = [];
   if (text[start] === '何') runs.push({ len: 1, value: null });
@@ -100,6 +102,20 @@ function kanaCountedEdges(text: string, start: number): Edge[] {
   return out;
 }
 
+/**
+ * A small extra cost that only decides between segmentations of equal cost:
+ * a lone verb or adjective stem (近 of 近い, くら of 暗い) and a kanji word
+ * spelled in kana (くに for 国, いいます for 言います) are less likely than the
+ * alternative (近く + に, くらい + います).
+ */
+function tieCost(surface: string, analyses: readonly Analysis[]): number {
+  const words = analyses.filter((a) => a.kind === 'word');
+  if (words.length !== analyses.length) return 0;
+  const stem = words.every((a) => a.tags[0] === 'stem' && a.tags.length === 1);
+  const kanaSpelling = [...surface].every(isKana) && words.every((a) => [...a.word].some(isKanji));
+  return stem || kanaSpelling ? 1 : 0;
+}
+
 /** One code point (a kanji outside the BMP takes two UTF-16 units). */
 function codePointEnd(text: string, start: number): number {
   return start + (text.codePointAt(start)! > 0xffff ? 2 : 1);
@@ -115,7 +131,7 @@ export function tokenize(text: string, lexicon: JaLexicon): Token[] {
     if (!here) continue;
     const edges: Edge[] = [];
     if (PUNCT.test(text[i]!)) edges.push({ end: i + 1, analyses: [{ kind: 'punct' }], cost: PUNCT_COST });
-    for (const m of lexicon.matchesAt(text, i)) edges.push({ end: m.end, analyses: [...m.analyses], cost: KNOWN_COST });
+    for (const m of lexicon.matchesAt(text, i)) edges.push({ end: m.end, analyses: [...m.analyses], cost: KNOWN_COST + tieCost(text.slice(i, m.end), m.analyses) });
     edges.push(...numberEdges(text, i), ...kanaCountedEdges(text, i));
     // Merge analyses of edges with the same span.
     const bySpan = new Map<number, Edge>();

@@ -30,10 +30,14 @@
     "弟": "đệ",
     "着": "trước",
     "机": "kỷ",
-    "込": ""
+    "込": "",
+    "狭": "hiệp",
+    "画": "họa"
   },
   "_words": "Draft Hán Việt reading of whole words (display form), one syllable per kanji ( - for a kokuji), chosen for the meaning in the word. Checked: each syllable must be a known reading of its kanji.",
   "words": {
-    "勉強": "miễn cưỡng"
+    "勉強": "miễn cưỡng",
+    "音楽": "âm nhạc",
+    "弾く": "đàn"
   }
 }

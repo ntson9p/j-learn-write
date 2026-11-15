@@ -38,7 +38,15 @@ export default function HomePage(_props: PageProps) {
           </button>
         ))}
       </div>
-      <p class="muted">{T.home.levelSummary[level]}</p>
+      <p class="muted">
+        {level === 'kana'
+          ? T.home.kanaSummary
+          : T.home.levelSummary(
+              lessons.reduce((n, l) => n + (l.words?.length ?? 0), 0),
+              lessons.reduce((n, l) => n + (l.kanji?.length ?? 0), 0),
+              lessons.reduce((n, l) => n + (l.grammar?.length ?? 0), 0),
+            )}
+      </p>
       {level !== 'kana' && <p class="muted small">{T.home.unofficial}</p>}
       <p class="button-row">
         {level === 'kana' && (

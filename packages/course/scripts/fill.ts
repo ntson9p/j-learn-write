@@ -12,7 +12,7 @@
 import { courseLexicon, isKanji } from '@j-learn-write/grader';
 import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { buildRuby, parseRuby, rubyText } from '../src/furigana.ts';
+import { buildRuby, parseRuby, rubyReading, rubyText } from '../src/furigana.ts';
 import type { ListWord, NameEntry } from '../src/types.ts';
 import { lessonTexts } from '../src/validate.ts';
 import { DATA, lessonFiles, rel, writeLesson } from './lib/course-files.ts';
@@ -32,7 +32,11 @@ for (const file of lessonFiles(filters)) {
     const previous = before[t.text];
     const built = buildRuby(t.text, lexicon, (no) => rubyOf.get(no), previous);
     const complete = previous !== undefined && rubyText(previous) === t.text && !parseRuby(previous).some((s) => !s.rt && [...s.text].some(isKanji));
-    if (built.problems.length > 0 && complete) {
+    // A complete markup that differs from the built one was written by hand (十 とお, 何で なにで): keep it.
+    if (complete && (built.problems.length > 0 || previous !== built.markup)) {
+      if (built.problems.length === 0 && rubyReading(previous) !== rubyReading(built.markup)) {
+        console.log(`${file.lesson.id} ${t.where}: kept hand-written furigana ${previous} (built: ${built.markup})`);
+      }
       ruby[t.text] = previous;
       continue;
     }

@@ -59,10 +59,17 @@ export interface ExtraWord {
   level: string;
 }
 
-/** data/vocabulary-fixes.json: the written form and JMdict entry used instead of OpenJLPT's link. */
+/** data/vocabulary-fixes.json: what the course uses instead of OpenJLPT's word (the upstream spelling stays accepted). */
 export interface WordFix {
-  word: string;
-  jmdictId: number;
+  /** Written form (display form when its kanji are usual). */
+  word?: string;
+  reading?: string;
+  /** JMdict entry, when OpenJLPT links the wrong one. */
+  jmdictId?: number;
+  /** More accepted spellings (ゆっくり for ゆっくりと). */
+  forms?: string[];
+  /** Level the course teaches it at, when a grammar point of that level needs it (ぜんぜん for 全然〜ない, N5). */
+  level?: string;
   why: string;
 }
 
@@ -173,18 +180,28 @@ export function buildJlptData(src: BuildSources): BuildResult {
     meaningsEn: [],
   }));
   const extraIds = new Set(extras.map((x) => x.id));
-  const fixed = src.vocabulary.map((w) => {
+  const fixed: (OjWord & { upstream?: string[]; moreForms?: string[] })[] = src.vocabulary.map((w) => {
     const fix = src.wordFixes[w.id];
-    return fix ? { ...w, word: fix.word, jmdictId: fix.jmdictId } : w;
+    if (!fix) return w;
+    return {
+      ...w,
+      word: fix.word ?? w.word,
+      reading: fix.reading ?? w.reading,
+      jmdictId: fix.jmdictId ?? w.jmdictId,
+      level: fix.level ?? w.level,
+      upstream: [w.word, w.reading],
+      moreForms: fix.forms ?? [],
+    };
   });
   for (const id of Object.keys(src.wordFixes)) if (!src.vocabulary.some((w) => w.id === id)) problems.push(`vocabulary fix ${id}: no such OpenJLPT word`);
-  for (const w of [...fixed, ...extras]) {
+  for (const w of [...fixed, ...extras] as (OjWord & { upstream?: string[]; moreForms?: string[] })[]) {
     const entry = jm.get(w.jmdictId);
     if (!entry) throw new Error(`JMdict has no entry ${w.jmdictId} (${w.word})`);
     const no = (lock.words[w.id] ??= next++);
     const firstSense = entry.senses[0];
     const usuallyKana = firstSense?.misc.includes('uk') ?? false;
-    const outsideJoyo = kanjiOf(w.word).some((c) => c !== ITERATION && !kd.get(c)?.grade);
+    // KANJIDIC2 grades 1-6 and 8 are the Jōyō kanji; 9-10 are name kanji (賑).
+    const outsideJoyo = kanjiOf(w.word).some((c) => c !== ITERATION && !((kd.get(c)?.grade ?? 99) <= 8));
     const display = kanjiOf(w.word).length > 0 && (usuallyKana || outsideJoyo) ? w.reading : w.word;
 
     let ruby = display;
@@ -194,13 +211,15 @@ export function buildJlptData(src: BuildSources): BuildResult {
       else problems.push(`word ${no} ${display}: no furigana for reading ${w.reading}`);
     }
 
-    // Other kanji spellings are accepted only for words shown in kana (わかる: 分かる):
-    // for a word shown in kanji they may be another word of the same entry (開く / 空く).
+    // Other kanji spellings are accepted only for words shown in kana (わかる: 分かる): for a word
+    // shown in kanji they may be another word of the same entry (開く / 空く), and okurigana
+    // variants collide with other words (後 for 後ろ, 上る for 上がる). A spelling replaced by a
+    // fix (終る → 終わる) stays accepted.
     const otherForms = (kanjiOf(display).length > 0 ? [] : entry.kanji)
       .filter((k) => k.pri.length > 0 && !k.inf.some((x) => BAD_FORM.has(x)) && !/\p{Nd}/u.test(k.text))
       .filter((k) => entry.readings.some((r) => r.text === w.reading && !r.nokanji && (r.restr.length === 0 || r.restr.includes(k.text))))
       .map((k) => k.text);
-    const forms = unique([display, w.word, w.reading]);
+    const forms = unique([display, w.word, ...(w.upstream ?? []), w.reading, ...(w.moreForms ?? [])]);
     candidates.set(no, otherForms.filter((f) => !forms.includes(f)));
 
     const item: ListWord = {
@@ -244,6 +263,14 @@ export function buildJlptData(src: BuildSources): BuildResult {
       const phrase = tokens.length > 1 && tokens.every((t) => t.analyses.every((a) => a.kind !== 'unknown'));
       if (!phrase) w.forms.push(form);
     }
+    // Furigana of the other kanji spellings (美味しい: {美味|おい}しい), for checking sentences that use them.
+    const formsRuby = w.forms
+      .filter((f) => f !== w.word && kanjiOf(f).length > 0)
+      .flatMap((f) => {
+        const fr = furi.get(`${f}|${w.reading}`);
+        return fr ? [rubyMarkup(fr.furigana)] : [];
+      });
+    if (formsRuby.length > 0) w.formsRuby = formsRuby;
   }
 
   const merged: { id: string; level: JlptLevel; pattern: string; extra?: boolean }[] = [

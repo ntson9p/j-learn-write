@@ -113,7 +113,7 @@ const words: OjWord[] = [];
 const extraWords = (JSON.parse(readFileSync(join(PKG, 'data', 'vocabulary-extra.json'), 'utf8')) as { words: { word: string; reading: string; jmdictId: number }[] }).words;
 /** Corrections to OpenJLPT words (data/vocabulary-fixes.json): the corrected JMdict entries, furigana and kanji are kept too. */
 const wordFixes = Object.values(
-  (JSON.parse(readFileSync(join(PKG, 'data', 'vocabulary-fixes.json'), 'utf8')) as { fixes: Record<string, { word: string; jmdictId: number }> }).fixes,
+  (JSON.parse(readFileSync(join(PKG, 'data', 'vocabulary-fixes.json'), 'utf8')) as { fixes: Record<string, { word?: string; jmdictId?: number }> }).fixes,
 );
 const kanjiList: { char: string; level: string; supplementary: boolean }[] = [];
 const grammar: { id: string; level: string; pattern: string; meaning: string }[] = [];
@@ -173,7 +173,7 @@ const entity = (s: string) => s.replace(/^&(.*);$/, '$1');
 const jmGz = await cached('JMdict_e.gz', JMDICT_URL);
 const jmText = gunzipSync(jmGz).toString('utf8');
 const jmCreated = /<!-- JMdict created: (\d{4}-\d{2}-\d{2}) -->/.exec(jmText)?.[1] ?? '?';
-const wantedSeq = new Set([...words.map((w) => w.jmdict_id), ...extraWords.map((w) => w.jmdictId), ...wordFixes.map((w) => w.jmdictId)]);
+const wantedSeq = new Set([...words.map((w) => w.jmdict_id), ...extraWords.map((w) => w.jmdictId), ...wordFixes.flatMap((w) => (w.jmdictId ? [w.jmdictId] : []))]);
 const jmEntries: JmEntry[] = [];
 for (const m of jmText.matchAll(/<entry>([\s\S]*?)<\/entry>/g)) {
   const block = m[1]!;
@@ -212,7 +212,7 @@ write(join(jmDir, 'entries.json'), jsonLines(jmEntries));
 // ---------------------------------------------------------------- characters needed
 const wordKanji = new Set<string>();
 for (const e of jmEntries) for (const k of e.kanji) for (const c of kanjiOf(k.text)) wordKanji.add(c);
-for (const w of [...words, ...extraWords, ...wordFixes]) for (const c of kanjiOf(w.word)) wordKanji.add(c);
+for (const w of [...words, ...extraWords, ...wordFixes]) for (const c of kanjiOf(w.word ?? '')) wordKanji.add(c);
 const learnKanji = kanjiList.filter((k) => !k.supplementary || (k.level === 'n5' && EXTRA_N5_KANJI.includes(k.char))).map((k) => k.char);
 for (const c of EXTRA_N5_KANJI) if (!learnKanji.includes(c)) learnKanji.push(c);
 for (const c of learnKanji) wordKanji.add(c);

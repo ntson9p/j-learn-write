@@ -34,6 +34,17 @@ describe('tokenize', () => {
     expect(tokenize('2026年', lex)[0]).toMatchObject({ surface: '2026年' });
   });
 
+  it('reads numbers with digit groups and kanji units', () => {
+    expect(tokenize('30,000円です', lex)[0]).toMatchObject({ surface: '30,000円', analyses: [{ kind: 'counted', value: 30000, counter: '円' }] });
+    expect(tokenize('3万円です', lex)[0]).toMatchObject({ surface: '3万円', analyses: [{ kind: 'counted', value: 30000, counter: '円', reading: 'さんまんえん' }] });
+  });
+
+  it('prefers whole words to stems and kana spellings when the costs tie', () => {
+    expect(tokenize('家の近くに公園があります', lex).map((x) => x.surface)).toEqual(['家', 'の', '近く', 'に', '公園', 'が', 'あります']);
+    expect(tokenize('30人くらいいます', lex).map((x) => x.surface)).toEqual(['30人', 'くらい', 'います']);
+    expect(tokenize('安いと', lex).map((x) => x.surface)).toEqual(['安い', 'と']);
+  });
+
   it('knows names and keeps unknown stretches together', () => {
     const t = tokenize('グエンさんはベトナム人です', lex);
     expect(t.map((x) => x.surface)).toEqual(['グエン', 'さん', 'は', 'ベトナム', '人', 'です']);

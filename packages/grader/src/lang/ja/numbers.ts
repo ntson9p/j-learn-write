@@ -10,9 +10,14 @@ const DIGITS: Record<string, number> = { 〇: 0, 零: 0, 一: 1, 二: 2, 三: 3,
 const UNITS: Record<string, number> = { 十: 10, 百: 100, 千: 1000 };
 const MAN = '万';
 
-/** Value of a number written in kanji (二十三, 三千五百, 一万) or digits (23). Null when not a number. */
+/**
+ * Value of a number written in kanji (二十三, 三千五百, 一万), digits (23,
+ * 30,000) or digits with kanji units (3万, 2千). Null when not a number.
+ */
 export function numberValue(text: string): number | null {
   if (/^\d+$/.test(text)) return Number(text);
+  if (/^\d{1,3}(,\d{3})+$/.test(text)) return Number(text.replace(/,/g, ''));
+  if (/^\d+$/.test(text.replace(/[十百千万]/g, '')) && /\d/.test(text) && /^\d/.test(text)) return mixedValue(text);
   if (text === '' || ![...text].every((c) => c in DIGITS || c in UNITS || c === MAN)) return null;
   // Digit-by-digit form (二〇二六) has no units.
   if (![...text].some((c) => c in UNITS || c === MAN)) return Number([...text].map((c) => DIGITS[c]).join(''));
@@ -29,6 +34,29 @@ export function numberValue(text: string): number | null {
     } else {
       total += (section + (digit ?? 0) || 1) * 10000;
       section = 0;
+      digit = null;
+    }
+  }
+  return total + section + (digit ?? 0);
+}
+
+/** Digits with kanji units (3万, 3万5000, 2千): each run of digits is the multiplier of the unit after it. */
+function mixedValue(text: string): number | null {
+  let total = 0;
+  let section = 0;
+  let digit: number | null = null;
+  for (const m of text.matchAll(/\d+|[十百千万]/g)) {
+    const t = m[0];
+    if (/\d/.test(t)) {
+      if (digit !== null) return null;
+      digit = Number(t);
+    } else if (t === MAN) {
+      total += (section + (digit ?? 0) || 1) * 10000;
+      section = 0;
+      digit = null;
+    } else {
+      if (digit !== null && digit > 9) return null;
+      section += (digit ?? 1) * UNITS[t]!;
       digit = null;
     }
   }
