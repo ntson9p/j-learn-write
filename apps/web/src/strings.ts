@@ -1,0 +1,171 @@
+/**
+ * Every Vietnamese string of the user interface, in one place so that it can
+ * be reviewed and changed without reading the components.
+ */
+import type { LevelId } from '@j-learn-write/course';
+
+const LEVEL_NAMES: Record<LevelId, string> = { kana: 'Kana', n5: 'N5', n4: 'N4' };
+
+export const T = {
+  appName: 'Học tiếng Nhật',
+  appTagline: 'Kana, từ vựng, kanji và ngữ pháp sơ cấp (N5–N4) cho người Việt',
+  skipToContent: 'Bỏ qua, tới nội dung chính',
+  loading: 'Đang tải…',
+  loadFailed: 'Không tải được trang này. Nếu bạn đang offline, hãy mở lại khi có mạng một lần để ứng dụng lưu sẵn.',
+  retry: 'Thử lại',
+  notFound: 'Không tìm thấy trang này.',
+  backHome: 'Về trang chính',
+  soon: 'Phần này đang được xây dựng.',
+  back: 'Quay lại',
+  draftBadge: 'Chưa duyệt',
+  draftHint: 'Nội dung này là bản nháp, chưa được giáo viên duyệt.',
+  speak: (text: string) => `Nghe: ${text}`,
+  levelName: (level: LevelId) => LEVEL_NAMES[level],
+  lessonLabel: (level: LevelId, order: number) => `${LEVEL_NAMES[level]} · Bài ${order}`,
+
+  nav: {
+    label: 'Điều hướng chính',
+    learn: 'Học',
+    review: 'Ôn tập',
+    dict: 'Từ điển',
+    progress: 'Tiến độ',
+    settings: 'Cài đặt',
+  },
+
+  home: {
+    title: 'Lộ trình học',
+    intro:
+      'Học từ con số 0: bảng chữ kana, rồi từ vựng, kanji và ngữ pháp sơ cấp (tương đương JLPT N5 và N4). Mỗi bài có từ mới, ngữ pháp và bài tập.',
+    levels: 'Chọn chặng',
+    levelSummary: {
+      kana: 'Hiragana, katakana, âm đục, âm ghép, âm ngắt và trường âm',
+      n5: '674 từ · 80 kanji · 81 điểm ngữ pháp',
+      n4: '630 từ · 166 kanji · 98 điểm ngữ pháp',
+    } as Record<LevelId, string>,
+    unofficial: 'JLPT không công bố danh sách từ, kanji và ngữ pháp chính thức; khóa học theo danh sách cộng đồng phổ biến (J. Waller, OpenJLPT).',
+    comingSoon: 'Nội dung của chặng này đang được soạn.',
+    state: {
+      writing: 'Đang soạn',
+      locked: 'Chưa mở',
+      open: 'Bắt đầu',
+      started: 'Đang học',
+      completed: 'Đã xong',
+    },
+    skipAhead: 'Học vượt',
+    skipConfirm: 'Bài này mở khi bạn đạt 80% bài kiểm tra của bài trước. Bạn vẫn muốn học vượt?',
+    bestScore: (n: number) => `Điểm kiểm tra: ${n}%`,
+    dueToday: (n: number) => `${n} thẻ cần ôn hôm nay`,
+    goReview: 'Ôn ngay',
+  },
+
+  review: {
+    title: 'Ôn tập',
+    empty: 'Chưa có thẻ nào để ôn. Hãy mở một bài học và bấm "Thêm vào thẻ ôn tập".',
+    nothingDue: 'Hôm nay bạn đã ôn xong. Hãy quay lại sau!',
+    summary: (due: number, fresh: number) => `${due} thẻ đến hạn ôn · ${fresh} thẻ mới hôm nay`,
+    start: 'Bắt đầu ôn',
+    show: 'Xem đáp án',
+    remaining: (n: number) => `Còn ${n} thẻ`,
+    ratings: { 1: 'Quên', 2: 'Khó', 3: 'Được', 4: 'Dễ' } as Record<1 | 2 | 3 | 4, string>,
+    done: (n: number) => `Xong! Bạn đã ôn ${n} lượt.`,
+    again: 'Ôn tiếp',
+    newBadge: 'Thẻ mới',
+  },
+
+  guide: {
+    title: 'Hướng dẫn cài bộ gõ và giọng đọc',
+    imeTitle: 'Cài bộ gõ tiếng Nhật',
+    imeIntro:
+      'Để gõ tiếng Nhật, bạn gõ romaji (ví dụ "watashi") và bộ gõ đổi thành kana わたし; bấm phím cách để chọn kanji 私. Bài tập chấp nhận câu viết toàn kana. Tên các mục cài đặt có thể khác một chút tùy phiên bản máy.',
+    voiceTitle: 'Cài giọng đọc tiếng Nhật',
+    voiceIntro: 'Ứng dụng dùng giọng đọc có sẵn của máy. Nếu không thấy nút nghe, máy bạn chưa có giọng tiếng Nhật.',
+    voiceNow: (n: number) => (n > 0 ? `Máy này có ${n} giọng tiếng Nhật.` : 'Máy này chưa có giọng tiếng Nhật.'),
+    platforms: [
+      {
+        name: 'Điện thoại Android (bàn phím Gboard)',
+        ime: 'Mở Cài đặt Gboard → Ngôn ngữ → Thêm bàn phím → Tiếng Nhật → chọn kiểu QWERTY (gõ romaji). Khi gõ, bấm biểu tượng quả địa cầu để đổi bàn phím.',
+        voice: 'Mở Cài đặt → tìm "Chuyển văn bản thành giọng nói" → Công cụ của Google → Cài đặt → Cài đặt dữ liệu giọng nói → tải gói Tiếng Nhật.',
+      },
+      {
+        name: 'iPhone, iPad',
+        ime: 'Cài đặt → Cài đặt chung → Bàn phím → Bàn phím → Thêm bàn phím mới → Tiếng Nhật → Romaji.',
+        voice: 'Cài đặt → Trợ năng → Nội dung được đọc → Giọng nói → Tiếng Nhật → tải một giọng.',
+      },
+      {
+        name: 'Máy tính Windows',
+        ime: 'Settings → Time & language → Language & region → Add a language → 日本語 (Japanese) → bộ gõ Microsoft IME. Đổi bộ gõ bằng Windows + Phím cách; bấm Alt + ` để bật/tắt chế độ kana.',
+        voice: 'Settings → Time & language → Speech → Manage voices → Add voices → Japanese.',
+      },
+      {
+        name: 'Máy Mac',
+        ime: 'System Settings → Keyboard → Text Input → Edit → + → Japanese → Romaji.',
+        voice: 'System Settings → Accessibility → Spoken Content → System voice → Manage Voices → Japanese.',
+      },
+    ],
+  },
+
+  settings: {
+    title: 'Cài đặt',
+    display: 'Hiển thị',
+    theme: 'Giao diện',
+    themeAuto: 'Theo máy',
+    themeLight: 'Sáng',
+    themeDark: 'Tối',
+    furigana: 'Furigana (cách đọc trên kanji)',
+    furiganaAuto: 'Chỉ trên kanji chưa học',
+    furiganaAlways: 'Luôn hiện',
+    furiganaNever: 'Ẩn',
+    showHanViet: 'Hiện âm Hán Việt trong câu ví dụ',
+    voice: 'Giọng đọc',
+    voiceAuto: 'Tự chọn',
+    voiceNone: 'Máy này chưa có giọng đọc tiếng Nhật.',
+    speechRate: 'Tốc độ đọc',
+    testVoice: 'Nghe thử',
+    testSentence: 'こんにちは。わたしはベトナムじんです。',
+    guideLink: 'Hướng dẫn cài bộ gõ và giọng đọc',
+    study: 'Học tập',
+    newWordsPerDay: 'Số thẻ mới mỗi ngày',
+    data: 'Dữ liệu của bạn',
+    dataIntro:
+      'Tiến độ học chỉ được lưu trên máy này, không gửi đi đâu. Hãy tải file sao lưu thường xuyên; muốn chuyển sang máy khác thì mở file đó trên máy mới.',
+    lastBackup: (date: string | null) => (date ? `Lần sao lưu gần nhất: ${date}.` : 'Bạn chưa sao lưu lần nào.'),
+    exportBackup: 'Tải file sao lưu',
+    importBackup: 'Khôi phục từ file sao lưu',
+    importConfirm: 'Khôi phục sẽ thay toàn bộ tiến độ hiện tại bằng dữ liệu trong file. Tiếp tục?',
+    importDone: 'Đã khôi phục dữ liệu.',
+    importFailed: 'Không khôi phục được:',
+    notJson: 'File không phải JSON.',
+    persistent: 'Trình duyệt đã đồng ý giữ dữ liệu lâu dài.',
+    notPersistent: 'Trình duyệt có thể tự xóa dữ liệu khi máy thiếu bộ nhớ.',
+    askPersistent: 'Xin giữ dữ liệu lâu dài',
+    iosHint: 'Trên iPhone/iPad, hãy dùng "Thêm vào màn hình chính" trong Safari để dữ liệu không bị xóa khi lâu không mở.',
+    clearAll: 'Xóa toàn bộ dữ liệu',
+    clearConfirm: 'Xóa toàn bộ tiến độ học trên máy này? Không thể hoàn tác.',
+    cleared: 'Đã xóa toàn bộ dữ liệu.',
+    tools: 'Công cụ và thông tin',
+    aboutLink: 'Giới thiệu và giấy phép',
+  },
+
+  about: {
+    title: 'Giới thiệu và giấy phép',
+    intro:
+      'Ứng dụng giúp người Việt học tiếng Nhật từ con số 0: bảng chữ kana, rồi từ vựng, kanji (kèm âm Hán Việt) và ngữ pháp sơ cấp, tương đương JLPT N5 và N4. Ứng dụng chạy hoàn toàn trên máy của bạn và dùng được khi không có mạng.',
+    principlesTitle: 'Nguyên tắc',
+    principles: [
+      'Không dùng AI khi chấm bài: mọi bài đều được chấm bằng luật, cùng một câu trả lời luôn cho cùng một kết quả.',
+      'Không thu thập dữ liệu: không có quảng cáo, không có thống kê, tiến độ chỉ nằm trên máy của bạn.',
+      'Nội dung do Claude (một mô hình AI) soạn nháp trong lúc phát triển và đang chờ giáo viên duyệt; mục nào chưa duyệt đều có nhãn "Chưa duyệt".',
+      'JLPT không công bố danh sách từ, kanji và ngữ pháp chính thức từ năm 2010. Cấp N5, N4 của khóa học theo danh sách cộng đồng phổ biến, chỉ là ước lượng.',
+      'Giọng đọc là giọng có sẵn của thiết bị. Một số giọng đọc của hệ điều hành cần mạng; khi đó văn bản cần đọc được gửi tới dịch vụ giọng nói của hệ điều hành.',
+    ],
+    sourcesTitle: 'Nguồn dữ liệu',
+    dataDate: (date: string) => `Dữ liệu từ điển cập nhật ngày ${date}.`,
+    licensesTitle: 'Giấy phép',
+    codeLicense: 'Mã nguồn: giấy phép MIT.',
+    contentLicense:
+      'Nội dung khóa học do dự án soạn: giấy phép CC BY-SA 4.0 (được chia sẻ, chỉnh sửa, kể cả mục đích thương mại, với điều kiện ghi nguồn và chia sẻ cùng giấy phép).',
+    thirdParty: 'Giấy phép của các thư viện trong ứng dụng',
+    thirdPartyMissing: 'Danh sách giấy phép chỉ có trong bản build (npm run build).',
+    sourceCode: 'Mã nguồn',
+  },
+} as const;

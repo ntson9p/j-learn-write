@@ -13,7 +13,8 @@
 | Giai đoạn | Trạng thái |
 |---|---|
 | 0. Tiếp nhận | Xong (2026-11-15), xem mục 3 |
-| 1. Khảo sát và quyết định | Khảo sát xong (mục 4), 8 quyết định đã chốt (mục 1c), **[plan.md](plan.md) đã viết, chờ chủ dự án duyệt**. Chưa viết code |
+| 1. Khảo sát và quyết định | Xong. 8 quyết định (mục 1c); **[plan.md](plan.md) được duyệt 2026-11-15** (kể cả các đề xuất kỹ thuật và thêm 分). Chủ dự án yêu cầu triển khai liên tục toàn bộ kế hoạch, chỉ hỏi khi cần thiết |
+| 2. Nền tảng | Đang làm (mục 5): monorepo, lõi bộ chấm, khung `course`, khung app, e2e đã chạy được |
 
 ## 1c. Quyết định đã chốt
 
@@ -91,9 +92,43 @@
 
 ## 5. Nguồn gốc mã chép từ c-learn-write
 
-Chưa chép file nào (chờ duyệt plan).
+Mọi file dưới đây chép từ c-learn-write **commit `e51323e25905859d37c95093c0c042e73f28abb6`** (MIT, cùng tác giả), đường dẫn giống nhau trừ khi ghi khác. Cột "Sửa" tóm tắt thay đổi.
+
+| File (repo này) | Sửa |
+|---|---|
+| `tsconfig.base.json`, `tsconfig.json`, `vitest.config.ts`, `.editorconfig`, `.gitattributes`, `.gitignore` | Giữ nguyên |
+| `package.json` | Đổi tên `j-learn-write`, workspace `@j-learn-write/*`; khóa đúng phiên bản (không `^`); bỏ script `demo` |
+| `LICENSE` | Thêm dòng bản quyền j-learn-write, giữ dòng c-learn-write |
+| `.github/workflows/ci.yml`, `deploy.yml` | Giữ nguyên |
+| `packages/grader/src/core/{types,patterns,align,fixes,scoring,validate}.ts` | `LangCode = 'ja'`; câu hỏi `count`: `counter`, `modifiers` thay `colors`; `location`: `position` thay `localizer`; ví dụ trong chú thích bằng tiếng Nhật |
+| `packages/grader/src/highlight.ts` | Giữ nguyên |
+| `packages/grader/tests/core/*.test.ts` | Dữ liệu thử đổi sang câu tiếng Nhật cùng cấu trúc (cùng vị trí, độ dài) |
+| `packages/grader/tests/highlight.test.ts` | Từ `tests/demo/highlight.test.ts`, bỏ phần dùng câu hỏi mẫu, dữ liệu tiếng Nhật |
+| `packages/grader/{tsconfig,vitest.config}.ts(on)` | Bỏ `demo`, `vite.config.ts` |
+| `packages/course/LICENSE` | Giữ nguyên (CC BY-SA 4.0) |
+| `packages/course/src/{csv,hash,review}.ts`, `tests/csv.test.ts` | Giữ nguyên (dữ liệu thử CSV đổi sang tiếng Việt/Nhật) |
+| `packages/course/src/course.ts` | Viết lại theo cấp `kana`/`n5`/`n4` |
+| `packages/course/src/types.ts` | Viết lại cho tiếng Nhật (theo khuôn cũ) |
+| `apps/web/{index.html,vite.config.ts,vitest.config.ts,vitest.e2e.config.ts,tsconfig.json}` | Tên, mô tả; bỏ plugin nét chữ (thêm lại ở giai đoạn 4) |
+| `apps/web/build/licenses.ts`, `scripts/make-icons.mjs` | Giữ nguyên |
+| `apps/web/public/icon.svg` (+ PNG sinh lại bằng `npm run icons -w @j-learn-write/web`) | Chữ あ thay 汉 |
+| `apps/web/src/{main.tsx,app.tsx,router.ts,routes.ts}` | Logo あ (`lang="ja"`); bớt route chưa có (trang `soon.tsx` tạm thời) |
+| `apps/web/src/strings.ts` | Viết lại nội dung cho tiếng Nhật |
+| `apps/web/src/styles/app.css` | Phông `--font-ja` cho `:lang(ja)` (không dùng `system-ui`) |
+| `apps/web/src/lib/{db,backup,settings,sw,speech,srs,cards,progress,results,stats,writing}.ts` | `DB_NAME`/`BACKUP_APP` = `j-learn-write`; cấp là `LevelId`, mã ngữ pháp là chuỗi; cài đặt `furigana` thay `showPinyin`; giọng `ja-JP` (`japaneseVoices`) |
+| `apps/web/src/components/{nav,lazy,icons,hooks,speak}.tsx/ts` | Giữ nguyên |
+| `apps/web/src/components/text.tsx` | Viết mới: `MixedText` bọc chữ Nhật trong câu tiếng Việt bằng `lang="ja"` |
+| `apps/web/src/pages/{home,settings,about,guide}.tsx` | Cấp Kana/N5/N4; furigana; nguồn dữ liệu tiếng Nhật; hướng dẫn bộ gõ/giọng tiếng Nhật |
+| `apps/web/tests/{setup,router,backup,settings,speech,srs,cards,progress,stats,licenses,boundaries,app}.test.ts(x)` | Đổi id bài, cấp, giọng đọc; `licenses.test` dùng thư mục tạm thay cho opencc-js |
+| `apps/web/e2e/{app,a11y}.e2e.ts` | Danh sách màn hình theo các trang đang có |
+
+Chưa chép (sẽ chép khi tới giai đoạn tương ứng): `lang/zh` (chỉ tham khảo), `packages/course/src/{validate,review-sheet,segment,generate,readings}.ts`, `scripts/*`, `apps/web/src/lib/{content,exercises,search}.ts`, `components/{exercise,grade-result,run,writer}.tsx`, các trang học, `build/strokes.ts`.
 
 ## 6. Lưu ý kỹ thuật (bẫy đã biết)
+
+- **Playwright trong môi trường cloud:** dự án khóa `playwright` 1.63.0, khớp Chromium cài sẵn (`/opt/pw-browsers/chromium-1243`): `npm run e2e` chạy được không cần `playwright install`. Trên CI vẫn chạy `npx playwright install --with-deps chromium`.
+- **Test `lang="ja"`** (`apps/web/tests/lang.test.tsx`): mọi trang không có tham số phải không có chữ kana/kanji nằm ngoài phần tử `lang="ja"`. Chữ Nhật trong câu tiếng Việt (ví dụ trong `strings.ts`) phải hiện qua `MixedText`.
+- **TypeScript "weak type"**: truyền object literal có thêm trường vào hàm nhận kiểu chỉ có trường tùy chọn sẽ lỗi; gán vào biến trước.
 
 - Ký tự vô hình (BOM, U+2028…): trong mã dùng `String.fromCharCode(0x…)`; trước mỗi commit có chữ Nhật chạy
   `LC_ALL=C grep -rlP '\xe2\x80[\x8b-\x8f\xa8-\xae]|\xe2\x81[\xa0-\xaf]|\xef\xbb\xbf|\xe3\x80\x80' <thư mục>` (mong đợi rỗng; U+200D bên trong emoji ghép là hợp lệ).
