@@ -20,6 +20,11 @@ describe('course content', () => {
     expect(validateCourse(data, tools)).toEqual([]);
   });
 
+  it('plans every kana, word, kanji and grammar point in exactly one lesson (also for levels still being written)', () => {
+    const allComplete = { kana: 'complete', n5: 'complete', n4: 'complete' } as const;
+    expect(validateCourse({ ...data, lessons: [], levels: allComplete }, tools)).toEqual([]);
+  });
+
   it('names each file after its lesson and keeps the canonical format (npm run content:fill)', () => {
     for (const f of lessonFiles(FILTER)) {
       const [, level, order] = /lessons\/(\w+)\/(\d+)\.json$/.exec(f.path) ?? [];
