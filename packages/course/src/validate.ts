@@ -92,6 +92,16 @@ export function exerciseTexts(ex: Exercise): string[] {
   }
 }
 
+/**
+ * Texts of a kana-stage exercise that must use taught kana only: everything
+ * except the wrong options of a choice (look-alike distractors such as め for
+ * あ are useful even before め is taught).
+ */
+export function kanaAnswerTexts(ex: Exercise): string[] {
+  if (ex.type === 'choice') return [ex.ja, ex.options[ex.answer]].filter((s): s is string => typeof s === 'string' && hasJapanese(s));
+  return exerciseTexts(ex);
+}
+
 /** Every Japanese text of a lesson. */
 export function lessonTexts(lesson: LessonContent): LessonText[] {
   const out: LessonText[] = [];
@@ -333,12 +343,13 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
     const kanaKnown = knownKana(meta);
     const ruby = content.ruby ?? {};
     const seen = new Set<string>();
+    const kanaChecked = new Set([...(content.practice ?? []).map((p) => p.ja), ...content.exercises.flatMap(kanaAnswerTexts)]);
     for (const t of lessonTexts(content)) {
       seen.add(t.text);
       checkRuby(`${where} ${t.where}`, t.text, ruby[t.text]);
       if (t.where.includes('example') && !SENTENCE_END.test(t.text)) err(`${where} ${t.where}`, `「${t.text}」 must end with 。！？`);
       if (meta.level === 'kana') {
-        const unknownKana = [...t.text].filter((c) => isKana(c) && c !== 'ー' && !kanaKnown.has(c) && !isSmallOrCombo(c));
+        const unknownKana = kanaChecked.has(t.text) ? [...t.text].filter((c) => isKana(c) && c !== 'ー' && !kanaKnown.has(c) && !isSmallOrCombo(c)) : [];
         if ([...t.text].some(isKanji)) err(`${where} ${t.where}`, `kana lessons use no kanji: 「${t.text}」`);
         if (unknownKana.length > 0) err(`${where} ${t.where}`, `kana not taught yet: ${[...new Set(unknownKana)].join('')} in 「${t.text}」`);
         continue;
