@@ -1,0 +1,1174 @@
+{
+  "id": "n5-09",
+  "goalsVi": [
+    "Nói ăn gì, uống gì, xem gì với を: 毎朝コーヒーを飲みます",
+    "Nói làm việc gì ở đâu với で: レストランで晩ご飯を食べます",
+    "Nối danh từ với と (và), や (… v.v.), か (hoặc)",
+    "Mời và nói câu chào trong bữa ăn: どうぞ, いただきます, ごちそうさまでした"
+  ],
+  "words": [
+    {
+      "no": 369,
+      "word": "食べる",
+      "meaningsVi": [
+        "ăn"
+      ],
+      "noteVi": "Thể ます: 食べます. Món ăn đứng trước を: パンを食べます.",
+      "examples": [
+        {
+          "ja": "毎朝パンを食べます。",
+          "vi": "Sáng nào tôi cũng ăn bánh mì."
+        },
+        {
+          "ja": "昨日、レストランで魚を食べました。",
+          "vi": "Hôm qua tôi đã ăn cá ở nhà hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 479,
+      "word": "飲む",
+      "meaningsVi": [
+        "uống"
+      ],
+      "noteVi": "Thể ます: 飲みます. Đồ uống đứng trước を: 水を飲みます.",
+      "examples": [
+        {
+          "ja": "毎朝コーヒーを飲みます。",
+          "vi": "Sáng nào tôi cũng uống cà phê."
+        },
+        {
+          "ja": "夜はお茶を飲みません。",
+          "vi": "Buổi tối tôi không uống trà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 605,
+      "word": "見る",
+      "meaningsVi": [
+        "xem, nhìn"
+      ],
+      "noteVi": "Thể ます: 見ます. \"Xem tivi\" là テレビを見ます.",
+      "examples": [
+        {
+          "ja": "毎晩テレビを見ます。",
+          "vi": "Tối nào tôi cũng xem tivi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 409,
+      "word": "テレビ",
+      "meaningsVi": [
+        "tivi, truyền hình"
+      ],
+      "examples": [
+        {
+          "ja": "日曜日は家でテレビを見ます。",
+          "vi": "Chủ nhật tôi xem tivi ở nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 12,
+      "word": "朝ごはん",
+      "meaningsVi": [
+        "bữa sáng"
+      ],
+      "noteVi": "Cũng viết 朝ご飯. ごはん vừa là cơm vừa là bữa ăn: 朝ごはん, 昼ご飯, 晩ご飯.",
+      "examples": [
+        {
+          "ja": "朝ごはんは何を食べますか。",
+          "vi": "Bữa sáng bạn ăn gì?"
+        },
+        {
+          "ja": "今朝、朝ごはんを食べませんでした。",
+          "vi": "Sáng nay tôi không ăn sáng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 534,
+      "word": "昼ご飯",
+      "meaningsVi": [
+        "bữa trưa"
+      ],
+      "noteVi": "Cũng viết 昼ごはん (cách viết cũ: 昼御飯).",
+      "examples": [
+        {
+          "ja": "12時に食堂で昼ご飯を食べます。",
+          "vi": "Tôi ăn trưa ở nhà ăn lúc 12 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 517,
+      "word": "晩ご飯",
+      "meaningsVi": [
+        "bữa tối"
+      ],
+      "noteVi": "Cũng viết 晩ごはん (cách viết cũ: 晩御飯).",
+      "examples": [
+        {
+          "ja": "今晩、レストランで晩ご飯を食べます。",
+          "vi": "Tối nay tôi ăn tối ở nhà hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 249,
+      "word": "ご飯",
+      "meaningsVi": [
+        "cơm",
+        "bữa ăn"
+      ],
+      "noteVi": "Thường viết ご飯 hoặc ごはん (cách viết cũ: 御飯). ご là tiếng lịch sự, gần như không bao giờ bỏ đi.",
+      "examples": [
+        {
+          "ja": "ご飯と魚を食べます。",
+          "vi": "Tôi ăn cơm với cá."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 514,
+      "word": "パン",
+      "meaningsVi": [
+        "bánh mì"
+      ],
+      "noteVi": "Chỉ chung các loại bánh mì: bánh mì gối, bánh mì ngọt…",
+      "examples": [
+        {
+          "ja": "朝はパンを食べます。",
+          "vi": "Buổi sáng tôi ăn bánh mì."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 370,
+      "word": "卵",
+      "meaningsVi": [
+        "trứng"
+      ],
+      "examples": [
+        {
+          "ja": "卵を2つ買いました。",
+          "vi": "Tôi đã mua 2 quả trứng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 465,
+      "word": "肉",
+      "meaningsVi": [
+        "thịt"
+      ],
+      "examples": [
+        {
+          "ja": "肉や野菜を買いました。",
+          "vi": "Tôi đã mua thịt, rau…"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 262,
+      "word": "魚",
+      "meaningsVi": [
+        "cá"
+      ],
+      "examples": [
+        {
+          "ja": "店で魚を買いました。",
+          "vi": "Tôi đã mua cá ở cửa hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 624,
+      "word": "野菜",
+      "meaningsVi": [
+        "rau, rau củ"
+      ],
+      "noteVi": "Hán Việt \"dã thái\". Chỉ chung rau củ dùng để nấu ăn.",
+      "examples": [
+        {
+          "ja": "毎日、野菜を食べます。",
+          "vi": "Ngày nào tôi cũng ăn rau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 205,
+      "word": "果物",
+      "meaningsVi": [
+        "hoa quả, trái cây"
+      ],
+      "noteVi": "Đọc đặc biệt くだもの (không đọc theo âm của từng chữ).",
+      "examples": [
+        {
+          "ja": "デパートで果物を買いました。",
+          "vi": "Tôi đã mua hoa quả ở cửa hàng bách hóa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 595,
+      "word": "水",
+      "meaningsVi": [
+        "nước"
+      ],
+      "noteVi": "水 là nước lạnh hoặc nước thường; nước nóng có từ riêng (お湯), học sau.",
+      "examples": [
+        {
+          "ja": "水をください。",
+          "vi": "Cho tôi nước."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 111,
+      "word": "お茶",
+      "meaningsVi": [
+        "trà, trà xanh"
+      ],
+      "noteVi": "Thường là trà xanh Nhật. お là tiếng lịch sự, thường không bỏ đi.",
+      "examples": [
+        {
+          "ja": "お茶をどうぞ。",
+          "vi": "Mời anh dùng trà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 234,
+      "word": "コーヒー",
+      "meaningsVi": [
+        "cà phê"
+      ],
+      "examples": [
+        {
+          "ja": "コーヒーをお願いします。",
+          "vi": "Cho tôi cà phê."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 191,
+      "word": "牛乳",
+      "meaningsVi": [
+        "sữa (bò)"
+      ],
+      "noteVi": "Hán Việt \"ngưu nhũ\" (sữa bò).",
+      "examples": [
+        {
+          "ja": "毎朝、牛乳を飲みます。",
+          "vi": "Sáng nào tôi cũng uống sữa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 368,
+      "word": "食べ物",
+      "meaningsVi": [
+        "đồ ăn, thức ăn"
+      ],
+      "noteVi": "食べ (ăn) + 物 (đồ vật) = đồ ăn; cùng kiểu: 飲み物 (đồ uống).",
+      "examples": [
+        {
+          "ja": "食べ物と飲み物を買いました。",
+          "vi": "Tôi đã mua đồ ăn và đồ uống."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 478,
+      "word": "飲み物",
+      "meaningsVi": [
+        "đồ uống"
+      ],
+      "examples": [
+        {
+          "ja": "飲み物はお茶をお願いします。",
+          "vi": "Đồ uống thì cho tôi trà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 56,
+      "word": "いただきます",
+      "meaningsVi": [
+        "xin phép ăn (nói trước khi ăn)"
+      ],
+      "noteVi": "Nói trước khi ăn, uống, thường chắp hai tay. Cũng dùng khi nhận đồ ăn, thức uống người khác mời.",
+      "examples": [
+        {
+          "ja": "いただきます。",
+          "vi": "Tôi xin phép ăn ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 241,
+      "word": "ごちそうさま",
+      "meaningsVi": [
+        "cảm ơn vì bữa ăn (nói sau khi ăn)"
+      ],
+      "noteVi": "Lịch sự hơn: 「ごちそうさまでした」. Nói với người nấu, người mời, hoặc với nhà hàng khi ra về.",
+      "examples": [
+        {
+          "ja": "ごちそうさまでした。",
+          "vi": "Cảm ơn vì bữa ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 663,
+      "word": "レストラン",
+      "meaningsVi": [
+        "nhà hàng"
+      ],
+      "examples": [
+        {
+          "ja": "土曜日、友達とレストランへ行きます。",
+          "vi": "Thứ Bảy tôi đi nhà hàng với bạn."
+        },
+        {
+          "ja": "レストランで昼ご飯を食べました。",
+          "vi": "Tôi đã ăn trưa ở nhà hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 145,
+      "word": "買う",
+      "meaningsVi": [
+        "mua"
+      ],
+      "noteVi": "Thể ます: 買います. Thứ mua đứng trước を, nơi mua đứng trước で: デパートで果物を買います.",
+      "examples": [
+        {
+          "ja": "昨日、何を買いましたか。",
+          "vi": "Hôm qua bạn đã mua gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 419,
+      "word": "どうぞ",
+      "meaningsVi": [
+        "xin mời",
+        "xin cứ tự nhiên"
+      ],
+      "noteVi": "Dùng khi mời hay đưa cái gì cho ai: 「お茶をどうぞ」. Ngược lại, khi xin cái gì thì dùng ください.",
+      "examples": [
+        {
+          "ja": "お茶をどうぞ。",
+          "vi": "Mời anh dùng trà."
+        },
+        {
+          "ja": "どうぞ。",
+          "vi": "Xin mời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 454,
+      "word": "など",
+      "meaningsVi": [
+        "v.v., … chẳng hạn"
+      ],
+      "noteVi": "Đặt sau danh từ cuối của danh sách, thường đi với や: 肉や魚など (thịt, cá, v.v.).",
+      "examples": [
+        {
+          "ja": "肉や魚などを買いました。",
+          "vi": "Tôi đã mua thịt, cá, v.v."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "食",
+      "meaningVi": "ăn",
+      "noteVi": "Đọc た trong 食べます, 食べ物; しょく trong 食堂 (nhà ăn). Phần trên như cái nắp, phần dưới là bát đựng thức ăn.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "見",
+      "meaningVi": "nhìn, xem",
+      "noteVi": "Hình con mắt (目) đặt trên đôi chân (儿): mắt đi khắp nơi để nhìn. Đọc み trong 見ます.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "水",
+      "meaningVi": "nước",
+      "noteVi": "Hình dòng nước chảy ở giữa, các giọt nước bắn ra hai bên. Đọc みず (nước), すい trong 水曜日.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "o",
+      "titleVi": "を: tân ngữ của động từ",
+      "summaryVi": "N を V: ăn N, uống N, xem N… を đọc là o, đứng ngay trước động từ.",
+      "explanationVi": [
+        "**を** đứng sau danh từ là **tân ngữ** của động từ, tức là thứ mà hành động tác động tới: 「パンを食べます」 (ăn bánh mì), 「テレビを見ます」 (xem tivi). を đọc là **o**, và chỉ dùng chữ を cho trợ từ này.",
+        "Trật tự khác tiếng Việt: tiếng Việt nói chủ ngữ – động từ – tân ngữ (\"tôi uống cà phê\"), tiếng Nhật nói chủ ngữ – **tân ngữ** – **động từ**: 「私はコーヒーを飲みます」.",
+        "Hỏi \"cái gì\": 「何を食べますか」 (何 đọc なに). Cách nói 〜をください đã học cũng dùng を: 「水をください」.",
+        "Không phải động từ nào cũng đi với を: 行きます, 来ます dùng へ hoặc に; 乗ります dùng に."
+      ],
+      "patterns": [
+        "N を V"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝コーヒーを飲みます。",
+          "vi": "Sáng nào tôi cũng uống cà phê."
+        },
+        {
+          "ja": "朝ごはんは何を食べますか。",
+          "vi": "Bữa sáng bạn ăn gì?"
+        },
+        {
+          "ja": "毎晩テレビを見ます。",
+          "vi": "Tối nào tôi cũng xem tivi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は飲みますコーヒーを。",
+          "right": "私はコーヒーを飲みます。",
+          "noteVi": "Tân ngữ + を đứng trước động từ; không theo trật tự \"uống cà phê\" của tiếng Việt."
+        },
+        {
+          "wrong": "パンお食べます。",
+          "right": "パンを食べます。",
+          "noteVi": "Trợ từ đọc là \"o\" nhưng luôn viết を, không viết お."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "de-place",
+      "titleVi": "で: ở, tại (nơi diễn ra hành động)",
+      "summaryVi": "N (nơi chốn) で V: làm việc gì ở N. レストランで食べます = ăn ở nhà hàng.",
+      "explanationVi": [
+        "**で** sau nơi chốn chỉ **nơi diễn ra hành động**, giống \"ở, tại\": 「レストランで晩ご飯を食べます」, 「図書館で勉強します」.",
+        "Người Việt hay dịch \"ở\" thành に. Nhưng に chỉ **nơi đến** (「レストランに行きます」) hoặc nơi có người, có đồ vật (học ở bài 14); nơi **làm** một việc gì thì dùng で.",
+        "Hỏi: 「どこで昼ご飯を食べますか」. Thứ tự thường gặp: nơi chốn で + cái gì を + động từ.",
+        "で ở bài 8 chỉ phương tiện (「バスで」 = bằng xe buýt); で ở bài này chỉ nơi chốn (「レストランで」 = ở nhà hàng). Nghĩa của danh từ cho biết là cách dùng nào."
+      ],
+      "patterns": [
+        "N (nơi chốn) で N を V"
+      ],
+      "examples": [
+        {
+          "ja": "レストランで晩ご飯を食べます。",
+          "vi": "Tôi ăn tối ở nhà hàng."
+        },
+        {
+          "ja": "家でテレビを見ます。",
+          "vi": "Tôi xem tivi ở nhà."
+        },
+        {
+          "ja": "どこで昼ご飯を食べますか。",
+          "vi": "Bạn ăn trưa ở đâu?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "食堂に昼ご飯を食べます。",
+          "right": "食堂で昼ご飯を食べます。",
+          "noteVi": "\"Ăn ở nhà ăn\" là nơi diễn ra hành động nên dùng で; に chỉ nơi đến (食堂に行きます)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to-and",
+      "titleVi": "と: và (nối danh từ, kể đủ)",
+      "summaryVi": "N1 と N2: N1 và N2 (kể hết, chỉ có những thứ đó).",
+      "explanationVi": [
+        "**と** nối hai hay nhiều danh từ, giống \"và\": 「パンと卵を食べました」. Dùng と khi **kể hết**: chỉ có những thứ đó.",
+        "Khác chữ \"và\" của tiếng Việt, と **chỉ nối danh từ**, không nối hai động từ hay hai câu. \"Tôi ăn bánh mì và uống cà phê\" tạm nói thành hai câu: 「パンを食べます。コーヒーも飲みます」.",
+        "と ở bài 8 (cùng với ai) và と ở bài này là cùng một chữ: 「友達と行きます」 (đi với bạn), 「パンと卵」 (bánh mì và trứng)."
+      ],
+      "patterns": [
+        "N1 と N2"
+      ],
+      "examples": [
+        {
+          "ja": "パンと卵を食べました。",
+          "vi": "Tôi đã ăn bánh mì và trứng."
+        },
+        {
+          "ja": "食べ物と飲み物を買いました。",
+          "vi": "Tôi đã mua đồ ăn và đồ uống."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "パンを食べますと、コーヒーを飲みます。",
+          "right": "パンを食べます。コーヒーも飲みます。",
+          "noteVi": "と chỉ nối danh từ, không nối hai hành động như \"và\" của tiếng Việt (と sau động từ có nghĩa khác, học sau)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ya",
+      "titleVi": "や: và (kể vài ví dụ)",
+      "summaryVi": "N1 や N2 (など): N1, N2… (còn những thứ khác nữa).",
+      "explanationVi": [
+        "**や** cũng nối danh từ như と, nhưng chỉ nêu **vài ví dụ** trong nhiều thứ: 「肉や野菜を買いました」 = mua thịt, rau… (còn mua thứ khác nữa).",
+        "Thường thêm **など** (v.v.) sau danh từ cuối: 「肉や魚などを買いました」.",
+        "So sánh: 「パンと卵を食べました」 (chỉ hai thứ đó), 「パンや卵を食べました」 (bánh mì, trứng và vài thứ khác)."
+      ],
+      "patterns": [
+        "N1 や N2 (など)"
+      ],
+      "examples": [
+        {
+          "ja": "肉や野菜を買いました。",
+          "vi": "Tôi đã mua thịt, rau…"
+        },
+        {
+          "ja": "デパートでパンや果物などを買いました。",
+          "vi": "Tôi đã mua bánh mì, hoa quả, v.v. ở cửa hàng bách hóa."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "野菜や果物やを買いました。",
+          "right": "野菜や果物などを買いました。",
+          "noteVi": "や chỉ đứng giữa các danh từ, không đứng sau danh từ cuối; muốn nói \"v.v.\" thì thêm など."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ka-or",
+      "titleVi": "か: hoặc, hay (chọn một)",
+      "summaryVi": "N1 か N2: N1 hoặc N2 (một trong hai).",
+      "explanationVi": [
+        "**か** giữa hai danh từ nghĩa là \"hoặc, hay\": chọn **một** trong các thứ: 「コーヒーかお茶をください」 (cho tôi cà phê hoặc trà).",
+        "か này khác か ở cuối câu hỏi (「お茶を飲みますか」). か (hoặc) đứng **ngay sau danh từ thứ nhất**; trợ từ của cả cụm (を, で…) đứng sau danh từ cuối: 「パンかご飯を食べます」.",
+        "So sánh ba cách nối: 「パンとご飯」 (cả hai), 「パンやご飯」 (ví dụ, còn thứ khác), 「パンかご飯」 (một trong hai)."
+      ],
+      "patterns": [
+        "N1 か N2"
+      ],
+      "examples": [
+        {
+          "ja": "コーヒーかお茶をください。",
+          "vi": "Cho tôi cà phê hoặc trà."
+        },
+        {
+          "ja": "朝はパンかご飯を食べます。",
+          "vi": "Buổi sáng tôi ăn bánh mì hoặc cơm."
+        },
+        {
+          "ja": "今晩、肉か魚を食べます。",
+          "vi": "Tối nay tôi sẽ ăn thịt hoặc cá."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "朝はパンを食べますか、ご飯を食べます。",
+          "right": "朝はパンかご飯を食べます。",
+          "noteVi": "Trong câu kể, \"hoặc\" giữa hai danh từ là か đặt ngay sau danh từ thứ nhất; thêm か sau động từ lại thành câu hỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-09-e01",
+      "type": "fill",
+      "grammar": [
+        "o"
+      ],
+      "before": "毎朝コーヒー",
+      "after": "飲みます。",
+      "answers": [
+        "を"
+      ],
+      "options": [
+        "を",
+        "で",
+        "に"
+      ],
+      "vi": "Sáng nào tôi cũng uống cà phê."
+    },
+    {
+      "id": "n5-09-e02",
+      "type": "choice",
+      "grammar": [
+        "o"
+      ],
+      "promptVi": "Chọn câu đúng trật tự: \"Tôi xem tivi.\"",
+      "options": [
+        "私はテレビを見ます。",
+        "私は見ますテレビを。",
+        "私をテレビは見ます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-09-e03",
+      "type": "order",
+      "grammar": [
+        "o"
+      ],
+      "vi": "Bữa sáng bạn ăn gì?",
+      "tiles": [
+        "食べます",
+        "か",
+        "何",
+        "は",
+        "朝ごはん",
+        "を"
+      ],
+      "answers": [
+        "朝ごはんは何を食べますか"
+      ]
+    },
+    {
+      "id": "n5-09-e04",
+      "type": "fill",
+      "grammar": [
+        "o"
+      ],
+      "before": "毎晩テレビを",
+      "after": "。",
+      "answers": [
+        "見ます"
+      ],
+      "options": [
+        "見ます",
+        "飲みます",
+        "食べます"
+      ],
+      "vi": "Tối nào tôi cũng xem tivi."
+    },
+    {
+      "id": "n5-09-e05",
+      "type": "choice",
+      "grammar": [
+        "de-place"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi ăn trưa ở nhà ăn\"?",
+      "options": [
+        "食堂で昼ご飯を食べます。",
+        "食堂に昼ご飯を食べます。",
+        "食堂へ昼ご飯を食べます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-09-e06",
+      "type": "fill",
+      "grammar": [
+        "de-place"
+      ],
+      "before": "家",
+      "after": "テレビを見ます。",
+      "answers": [
+        "で"
+      ],
+      "options": [
+        "で",
+        "に",
+        "を"
+      ],
+      "vi": "Tôi xem tivi ở nhà."
+    },
+    {
+      "id": "n5-09-e07",
+      "type": "order",
+      "grammar": [
+        "de-place"
+      ],
+      "vi": "Tôi ăn tối ở nhà hàng.",
+      "tiles": [
+        "食べます",
+        "を",
+        "レストラン",
+        "晩ご飯",
+        "で"
+      ],
+      "answers": [
+        "レストランで晩ご飯を食べます",
+        "晩ご飯をレストランで食べます"
+      ]
+    },
+    {
+      "id": "n5-09-e08",
+      "type": "choice",
+      "grammar": [
+        "de-place",
+        "ni-destination"
+      ],
+      "promptVi": "Câu nào đúng?",
+      "options": [
+        "図書館で行きます。",
+        "図書館で勉強します。",
+        "図書館に勉強します。"
+      ],
+      "answer": 1,
+      "explainVi": "Nơi làm việc gì dùng で; nơi đến dùng に: 図書館に行きます."
+    },
+    {
+      "id": "n5-09-e09",
+      "type": "fill",
+      "grammar": [
+        "to-and"
+      ],
+      "before": "パン",
+      "after": "卵を食べました。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "か",
+        "を"
+      ],
+      "vi": "Tôi đã ăn bánh mì và trứng."
+    },
+    {
+      "id": "n5-09-e10",
+      "type": "choice",
+      "grammar": [
+        "to-and",
+        "ya"
+      ],
+      "promptVi": "\"Tôi đã mua thịt và cá\" (chỉ hai thứ đó). Chọn câu đúng.",
+      "options": [
+        "肉と魚を買いました。",
+        "肉や魚を買いました。",
+        "肉か魚を買いました。"
+      ],
+      "answer": 0,
+      "explainVi": "Kể hết dùng と; や chỉ nêu ví dụ; か là \"hoặc\"."
+    },
+    {
+      "id": "n5-09-e11",
+      "type": "order",
+      "grammar": [
+        "to-and"
+      ],
+      "vi": "Tôi uống nước và trà.",
+      "tiles": [
+        "飲みます",
+        "お茶",
+        "と",
+        "水",
+        "を"
+      ],
+      "answers": [
+        "水とお茶を飲みます",
+        "お茶と水を飲みます"
+      ]
+    },
+    {
+      "id": "n5-09-e12",
+      "type": "fill",
+      "grammar": [
+        "ya"
+      ],
+      "before": "野菜",
+      "after": "果物などを買いました。",
+      "answers": [
+        "や"
+      ],
+      "options": [
+        "や",
+        "を",
+        "で"
+      ],
+      "vi": "Tôi đã mua rau, hoa quả, v.v."
+    },
+    {
+      "id": "n5-09-e13",
+      "type": "choice",
+      "grammar": [
+        "ya"
+      ],
+      "promptVi": "\"Tôi ăn những thứ như thịt, cá… (còn thứ khác nữa).\" Chọn câu đúng.",
+      "options": [
+        "肉や魚などを食べます。",
+        "肉と魚を食べます。",
+        "肉か魚を食べます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-09-e14",
+      "type": "order",
+      "grammar": [
+        "ya"
+      ],
+      "vi": "Tôi đã mua trứng, sữa, v.v.",
+      "tiles": [
+        "買いました",
+        "など",
+        "牛乳",
+        "や",
+        "卵",
+        "を"
+      ],
+      "answers": [
+        "卵や牛乳などを買いました",
+        "牛乳や卵などを買いました"
+      ]
+    },
+    {
+      "id": "n5-09-e15",
+      "type": "fill",
+      "grammar": [
+        "ka-or"
+      ],
+      "before": "コーヒー",
+      "after": "お茶をください。",
+      "answers": [
+        "か"
+      ],
+      "options": [
+        "か",
+        "を",
+        "で"
+      ],
+      "vi": "Cho tôi cà phê hoặc trà."
+    },
+    {
+      "id": "n5-09-e16",
+      "type": "choice",
+      "grammar": [
+        "ka-or"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Buổi sáng tôi ăn bánh mì hoặc cơm\"?",
+      "options": [
+        "朝はパンかご飯を食べます。",
+        "朝はパンとご飯を食べます。",
+        "朝はパンを食べますか、ご飯を食べます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-09-e17",
+      "type": "order",
+      "grammar": [
+        "ka-or"
+      ],
+      "vi": "Tối nay tôi sẽ ăn thịt hoặc cá.",
+      "tiles": [
+        "食べます",
+        "魚",
+        "か",
+        "今晩",
+        "肉",
+        "を"
+      ],
+      "answers": [
+        "今晩肉か魚を食べます",
+        "今晩魚か肉を食べます"
+      ]
+    },
+    {
+      "id": "n5-09-e18",
+      "type": "choice",
+      "promptVi": "Trước khi ăn, người Nhật nói câu nào?",
+      "options": [
+        "いただきます。",
+        "ごちそうさまでした。",
+        "どうぞ。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-09-e19",
+      "type": "choice",
+      "promptVi": "Bạn mời khách uống trà. Bạn nói câu nào?",
+      "options": [
+        "お茶をどうぞ。",
+        "お茶をください。",
+        "ごちそうさまでした。"
+      ],
+      "answer": 0,
+      "explainVi": "Mời dùng どうぞ; ください là xin."
+    },
+    {
+      "id": "n5-09-e20",
+      "type": "match",
+      "promptVi": "Ghép món ăn với nghĩa",
+      "pairs": [
+        [
+          "肉",
+          "thịt"
+        ],
+        [
+          "魚",
+          "cá"
+        ],
+        [
+          "野菜",
+          "rau"
+        ],
+        [
+          "果物",
+          "hoa quả"
+        ],
+        [
+          "卵",
+          "trứng"
+        ]
+      ]
+    },
+    {
+      "id": "n5-09-e21",
+      "type": "match",
+      "promptVi": "Ghép đồ uống với nghĩa",
+      "pairs": [
+        [
+          "水",
+          "nước"
+        ],
+        [
+          "お茶",
+          "trà"
+        ],
+        [
+          "牛乳",
+          "sữa"
+        ],
+        [
+          "コーヒー",
+          "cà phê"
+        ]
+      ]
+    },
+    {
+      "id": "n5-09-e22",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "朝ごはん",
+          "bữa sáng"
+        ],
+        [
+          "昼ご飯",
+          "bữa trưa"
+        ],
+        [
+          "晩ご飯",
+          "bữa tối"
+        ],
+        [
+          "飲み物",
+          "đồ uống"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "毎朝パンを食べます。": "{毎|まい}{朝|あさ}パンを{食|た}べます。",
+    "昨日、レストランで魚を食べました。": "{昨日|きのう}、レストランで{魚|さかな}を{食|た}べました。",
+    "毎朝コーヒーを飲みます。": "{毎|まい}{朝|あさ}コーヒーを{飲|の}みます。",
+    "夜はお茶を飲みません。": "{夜|よる}はお{茶|ちゃ}を{飲|の}みません。",
+    "毎晩テレビを見ます。": "{毎|まい}{晩|ばん}テレビを{見|み}ます。",
+    "日曜日は家でテレビを見ます。": "{日|にち}{曜|よう}{日|び}は{家|いえ}でテレビを{見|み}ます。",
+    "朝ごはんは何を食べますか。": "{朝|あさ}ごはんは{何|なに}を{食|た}べますか。",
+    "今朝、朝ごはんを食べませんでした。": "{今朝|けさ}、{朝|あさ}ごはんを{食|た}べませんでした。",
+    "12時に食堂で昼ご飯を食べます。": "12{時|じ}に{食|しょく}{堂|どう}で{昼|ひる}ご{飯|はん}を{食|た}べます。",
+    "今晩、レストランで晩ご飯を食べます。": "{今|こん}{晩|ばん}、レストランで{晩|ばん}ご{飯|はん}を{食|た}べます。",
+    "ご飯と魚を食べます。": "ご{飯|はん}と{魚|さかな}を{食|た}べます。",
+    "朝はパンを食べます。": "{朝|あさ}はパンを{食|た}べます。",
+    "卵を2つ買いました。": "{卵|たまご}を2つ{買|か}いました。",
+    "肉や野菜を買いました。": "{肉|にく}や{野|や}{菜|さい}を{買|か}いました。",
+    "店で魚を買いました。": "{店|みせ}で{魚|さかな}を{買|か}いました。",
+    "毎日、野菜を食べます。": "{毎|まい}{日|にち}、{野|や}{菜|さい}を{食|た}べます。",
+    "デパートで果物を買いました。": "デパートで{果物|くだもの}を{買|か}いました。",
+    "水をください。": "{水|みず}をください。",
+    "お茶をどうぞ。": "お{茶|ちゃ}をどうぞ。",
+    "コーヒーをお願いします。": "コーヒーをお{願|ねが}いします。",
+    "毎朝、牛乳を飲みます。": "{毎|まい}{朝|あさ}、{牛|ぎゅう}{乳|にゅう}を{飲|の}みます。",
+    "食べ物と飲み物を買いました。": "{食|た}べ{物|もの}と{飲|の}み{物|もの}を{買|か}いました。",
+    "飲み物はお茶をお願いします。": "{飲|の}み{物|もの}はお{茶|ちゃ}をお{願|ねが}いします。",
+    "いただきます。": "いただきます。",
+    "ごちそうさまでした。": "ごちそうさまでした。",
+    "土曜日、友達とレストランへ行きます。": "{土|ど}{曜|よう}{日|び}、{友|とも}{達|だち}とレストランへ{行|い}きます。",
+    "レストランで昼ご飯を食べました。": "レストランで{昼|ひる}ご{飯|はん}を{食|た}べました。",
+    "昨日、何を買いましたか。": "{昨日|きのう}、{何|なに}を{買|か}いましたか。",
+    "どうぞ。": "どうぞ。",
+    "肉や魚などを買いました。": "{肉|にく}や{魚|さかな}などを{買|か}いました。",
+    "私はコーヒーを飲みます。": "{私|わたし}はコーヒーを{飲|の}みます。",
+    "私は飲みますコーヒーを。": "{私|わたし}は{飲|の}みますコーヒーを。",
+    "パンを食べます。": "パンを{食|た}べます。",
+    "パンお食べます。": "パンお{食|た}べます。",
+    "レストランで晩ご飯を食べます。": "レストランで{晩|ばん}ご{飯|はん}を{食|た}べます。",
+    "家でテレビを見ます。": "{家|いえ}でテレビを{見|み}ます。",
+    "どこで昼ご飯を食べますか。": "どこで{昼|ひる}ご{飯|はん}を{食|た}べますか。",
+    "食堂で昼ご飯を食べます。": "{食|しょく}{堂|どう}で{昼|ひる}ご{飯|はん}を{食|た}べます。",
+    "食堂に昼ご飯を食べます。": "{食|しょく}{堂|どう}に{昼|ひる}ご{飯|はん}を{食|た}べます。",
+    "パンと卵を食べました。": "パンと{卵|たまご}を{食|た}べました。",
+    "パンを食べます。コーヒーも飲みます。": "パンを{食|た}べます。コーヒーも{飲|の}みます。",
+    "パンを食べますと、コーヒーを飲みます。": "パンを{食|た}べますと、コーヒーを{飲|の}みます。",
+    "デパートでパンや果物などを買いました。": "デパートでパンや{果物|くだもの}などを{買|か}いました。",
+    "野菜や果物などを買いました。": "{野|や}{菜|さい}や{果物|くだもの}などを{買|か}いました。",
+    "野菜や果物やを買いました。": "{野|や}{菜|さい}や{果物|くだもの}やを{買|か}いました。",
+    "コーヒーかお茶をください。": "コーヒーかお{茶|ちゃ}をください。",
+    "朝はパンかご飯を食べます。": "{朝|あさ}はパンかご{飯|はん}を{食|た}べます。",
+    "今晩、肉か魚を食べます。": "{今|こん}{晩|ばん}、{肉|にく}か{魚|さかな}を{食|た}べます。",
+    "朝はパンを食べますか、ご飯を食べます。": "{朝|あさ}はパンを{食|た}べますか、ご{飯|はん}を{食|た}べます。",
+    "を": "を",
+    "で": "で",
+    "に": "に",
+    "私はテレビを見ます。": "{私|わたし}はテレビを{見|み}ます。",
+    "私は見ますテレビを。": "{私|わたし}は{見|み}ますテレビを。",
+    "私をテレビは見ます。": "{私|わたし}をテレビは{見|み}ます。",
+    "食べます": "{食|た}べます",
+    "か": "か",
+    "何": "{何|なに}",
+    "は": "は",
+    "朝ごはん": "{朝|あさ}ごはん",
+    "朝ごはんは何を食べますか": "{朝|あさ}ごはんは{何|なに}を{食|た}べますか",
+    "見ます": "{見|み}ます",
+    "飲みます": "{飲|の}みます",
+    "食堂へ昼ご飯を食べます。": "{食|しょく}{堂|どう}へ{昼|ひる}ご{飯|はん}を{食|た}べます。",
+    "レストラン": "レストラン",
+    "晩ご飯": "{晩|ばん}ご{飯|はん}",
+    "レストランで晩ご飯を食べます": "レストランで{晩|ばん}ご{飯|はん}を{食|た}べます",
+    "晩ご飯をレストランで食べます": "{晩|ばん}ご{飯|はん}をレストランで{食|た}べます",
+    "図書館で行きます。": "{図|と}{書|しょ}{館|かん}で{行|い}きます。",
+    "図書館で勉強します。": "{図|と}{書|しょ}{館|かん}で{勉|べん}{強|きょう}します。",
+    "図書館に勉強します。": "{図|と}{書|しょ}{館|かん}に{勉|べん}{強|きょう}します。",
+    "と": "と",
+    "肉と魚を買いました。": "{肉|にく}と{魚|さかな}を{買|か}いました。",
+    "肉や魚を買いました。": "{肉|にく}や{魚|さかな}を{買|か}いました。",
+    "肉か魚を買いました。": "{肉|にく}か{魚|さかな}を{買|か}いました。",
+    "お茶": "お{茶|ちゃ}",
+    "水": "{水|みず}",
+    "水とお茶を飲みます": "{水|みず}とお{茶|ちゃ}を{飲|の}みます",
+    "お茶と水を飲みます": "お{茶|ちゃ}と{水|みず}を{飲|の}みます",
+    "や": "や",
+    "肉や魚などを食べます。": "{肉|にく}や{魚|さかな}などを{食|た}べます。",
+    "肉と魚を食べます。": "{肉|にく}と{魚|さかな}を{食|た}べます。",
+    "肉か魚を食べます。": "{肉|にく}か{魚|さかな}を{食|た}べます。",
+    "買いました": "{買|か}いました",
+    "など": "など",
+    "牛乳": "{牛|ぎゅう}{乳|にゅう}",
+    "卵": "{卵|たまご}",
+    "卵や牛乳などを買いました": "{卵|たまご}や{牛|ぎゅう}{乳|にゅう}などを{買|か}いました",
+    "牛乳や卵などを買いました": "{牛|ぎゅう}{乳|にゅう}や{卵|たまご}などを{買|か}いました",
+    "朝はパンとご飯を食べます。": "{朝|あさ}はパンとご{飯|はん}を{食|た}べます。",
+    "魚": "{魚|さかな}",
+    "今晩": "{今|こん}{晩|ばん}",
+    "肉": "{肉|にく}",
+    "今晩肉か魚を食べます": "{今|こん}{晩|ばん}{肉|にく}か{魚|さかな}を{食|た}べます",
+    "今晩魚か肉を食べます": "{今|こん}{晩|ばん}{魚|さかな}か{肉|にく}を{食|た}べます",
+    "お茶をください。": "お{茶|ちゃ}をください。",
+    "野菜": "{野|や}{菜|さい}",
+    "果物": "{果物|くだもの}",
+    "コーヒー": "コーヒー",
+    "昼ご飯": "{昼|ひる}ご{飯|はん}",
+    "飲み物": "{飲|の}み{物|もの}"
+  }
+}
