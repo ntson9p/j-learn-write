@@ -383,6 +383,9 @@ function isCountedRun(text: string, rt: string, tools: CheckTools): boolean {
   return tokenize(text, tools.lexicon).length === 1 && tokenize(text, tools.lexicon)[0]!.analyses.some((a) => a.kind === 'counted' && toHiragana(a.reading) === toHiragana(rt));
 }
 
+/** Until the Japanese grader exists (docs/plan.md, phase 6), the app cannot grade free answers. */
+const FREE_ANSWERS_NOT_READY = 'translate and question exercises need the Japanese grader (docs/plan.md, phase 6)';
+
 function checkExercise(ex: Exercise, where: string, err: (where: string, msg: string) => void): void {
   switch (ex.type) {
     case 'choice':
@@ -407,10 +410,12 @@ function checkExercise(ex: Exercise, where: string, err: (where: string, msg: st
       if (ex.answers?.some((a) => /[。！？、]/.test(a))) err(where, 'answers have no punctuation');
       break;
     case 'translate':
+      err(where, FREE_ANSWERS_NOT_READY);
       if (!nonEmpty(ex.vi)) err(where, 'vi is required');
       for (const e of validateQuestion({ id: ex.id, lang: 'ja', type: 'model', prompt: ex.vi, answers: ex.answers, examples: ex.examples })) err(where, e);
       break;
     case 'question':
+      err(where, FREE_ANSWERS_NOT_READY);
       for (const e of validateQuestion({ ...ex.question, id: ex.id, lang: 'ja' })) err(where, e);
       break;
     case 'match':
