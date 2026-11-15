@@ -4,7 +4,7 @@
  * the course words (never from a morphological analyser's guesses) and
  * checked against KANJIDIC2 readings.
  */
-import { isKana, isKanji, toHiragana, tokenize, type JaLexicon, type Token } from '@j-learn-write/grader';
+import { isKana, isKanji, numberReading, toHiragana, tokenize, type JaLexicon, type Token } from '@j-learn-write/grader';
 
 export interface RubySegment {
   text: string;
@@ -74,6 +74,23 @@ export function splitWithDictionary(seg: RubySegment, dictionary: readonly RubyS
     }
   }
   return [seg];
+}
+
+/**
+ * Furigana of a number written in digits + counter (3本 さんぼん): the reading
+ * of the counter after the number's own reading (3{本|ぼん}), or of the whole
+ * run when the reading is irregular ({1人|ひとり}).
+ */
+export function countedRuby(surface: string, reading: string, value: number): RubySegment[] {
+  const digits = /^\d+/.exec(surface)?.[0];
+  if (!digits) return [{ text: surface, rt: reading }];
+  const counter = surface.slice(digits.length);
+  const said = numberReading(value);
+  const prefixes = [said, said.replace(/(ち|く|つ|う)$/, 'っ'), said.replace(/じゅう$/, 'じゅっ'), said.replace(/じゅう$/, 'じっ')];
+  for (const p of prefixes) {
+    if (reading.startsWith(p) && reading.length > p.length) return [{ text: digits }, { text: counter, rt: reading.slice(p.length) }];
+  }
+  return [{ text: surface, rt: reading }];
 }
 
 export interface FillProblem {
@@ -160,6 +177,11 @@ export function buildRuby(
         segments.push({ text: t.surface });
         continue;
       }
+    }
+    const counted = t.analyses.find((a) => a.kind === 'counted' && toHiragana(a.reading) === readings[0]);
+    if (counted && counted.kind === 'counted' && /^\d/.test(t.surface) && counted.value !== null) {
+      segments.push(...countedRuby(t.surface, readings[0]!, counted.value));
+      continue;
     }
     const aligned = alignReading(t.surface, readings[0]!);
     if (!aligned) {

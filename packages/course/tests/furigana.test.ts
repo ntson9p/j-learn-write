@@ -40,6 +40,14 @@ describe('buildRuby', () => {
     expect(fill('鉛筆が三本あります。').markup).toBe('{鉛|えん}{筆|ぴつ}が{三本|さんぼん}あります。');
   });
 
+  it('puts furigana on the counter after digits', () => {
+    expect(fill('鉛筆が3本あります。').markup).toBe('{鉛|えん}{筆|ぴつ}が3{本|ぼん}あります。');
+    expect(fill('1本です。').markup).toBe('1{本|ぽん}です。');
+    expect(fill('1人です。').markup).toBe('{1人|ひとり}です。');
+    expect(fill('20日です。').markup).toBe('{20日|はつか}です。');
+    expect(fill('3時です。').markup).toBe('3{時|じ}です。');
+  });
+
   it('reports ambiguous readings instead of guessing, and keeps an author choice', () => {
     const r = fill('雨が降ります。');
     expect(r.problems).toEqual([{ surface: '降ります', message: 'ambiguous reading (おります / ふります): choose one in the markup' }]);

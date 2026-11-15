@@ -240,13 +240,15 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
       return;
     }
     if (rubyText(markup) !== text) return err(where, `furigana text differs from 「${text}」`);
-    for (const s of parseRuby(markup)) {
+    const segs = parseRuby(markup);
+    for (const [i, s] of segs.entries()) {
       const plainKanji = !s.rt && [...s.text].some(isKanji);
       if (plainKanji) err(where, `kanji without furigana 「${s.text}」 in 「${text}」 (run npm run content:fill)`);
       if (!s.rt) continue;
-      if (![...s.text].every((c) => isKanji(c) || c === ITERATION)) err(where, `furigana run 「${s.text}」 must be kanji only`);
+      const counted = isCountedRun(s.text, s.rt, tools);
+      if (!counted && ![...s.text].every((c) => isKanji(c) || c === ITERATION)) err(where, `furigana run 「${s.text}」 must be kanji only`);
       if (![...s.rt].every((c) => isKana(c))) err(where, `furigana 「${s.rt}」 must be kana`);
-      const ok = dictionaryRuns.has(`${s.text}|${toHiragana(s.rt)}`) || runReadingOk(s.text, s.rt, tools.kanjiReadings) || isCountedRun(s.text, s.rt, tools);
+      const ok = dictionaryRuns.has(`${s.text}|${toHiragana(s.rt)}`) || runReadingOk(s.text, s.rt, tools.kanjiReadings) || counted || isCounterAfterDigits(segs.slice(0, i).map((x) => x.text).join(''), s, tools);
       if (!ok) err(where, `「${s.text}」 cannot be read 「${s.rt}」 in 「${text}」`);
     }
   };
@@ -355,6 +357,14 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
 /** Small kana and combinations are checked through the kana they are made of. */
 function isSmallOrCombo(c: string): boolean {
   return 'ぁぃぅぇぉっゃゅょァィゥェォッャュョ'.includes(c);
+}
+
+/** The counter of a digits + counter token (3{本|ぼん}): its reading must end that token's reading. */
+function isCounterAfterDigits(before: string, seg: { text: string; rt?: string }, tools: CheckTools): boolean {
+  const digits = /\d+$/.exec(before)?.[0];
+  if (!digits || !seg.rt) return false;
+  const tokens = tokenize(digits + seg.text, tools.lexicon);
+  return tokens.length === 1 && tokens[0]!.analyses.some((a) => a.kind === 'counted' && toHiragana(a.reading).endsWith(toHiragana(seg.rt!)));
 }
 
 /** A run read as number + counter (三本 さんぼん, 一人 ひとり). */
