@@ -18,6 +18,7 @@
     "@j-learn-write/grader": "*"
   },
   "devDependencies": {
-    "wanakana": "5.3.1"
+    "wanakana": "5.3.1",
+    "kuromoji": "0.1.2"
   }
 }
