@@ -62,6 +62,8 @@
     { "text": "いけません", "reading": "いけません", "role": "aux", "id": "ikenai" },
     { "text": "ならない", "reading": "ならない", "role": "aux", "id": "naranai", "conj": "adj-i" },
     { "text": "なりません", "reading": "なりません", "role": "aux", "id": "naranai" },
+    { "text": "なりませんか", "reading": "なりませんか", "role": "aux", "id": "naranai" },
+    { "text": "いけませんか", "reading": "いけませんか", "role": "aux", "id": "ikenai" },
     { "text": "こと", "reading": "こと", "role": "nominal", "id": "koto" },
     { "text": "お", "reading": "お", "role": "prefix", "id": "o-prefix" },
     { "text": "ご", "reading": "ご", "role": "prefix", "id": "go-prefix" },

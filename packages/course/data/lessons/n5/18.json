@@ -1,0 +1,1207 @@
+{
+  "id": "n5-18",
+  "goalsVi": [
+    "Chia động từ sang thể て từ thể ます: 買います → 買って, 飲みます → 飲んで, 書きます → 書いて",
+    "Nhờ vả và chỉ đường lịch sự với 〜てください: まっすぐ行って、右に曲がってください",
+    "Kể các việc làm theo thứ tự với 〜て và 〜てから"
+  ],
+  "words": [
+    {
+      "no": 586,
+      "word": "まっすぐ",
+      "meaningsVi": [
+        "thẳng, đi thẳng",
+        "thẳng một mạch (không ghé đâu)"
+      ],
+      "noteVi": "Thường đứng trước động từ: まっすぐ行きます (đi thẳng). まっすぐ帰ります: về thẳng, không ghé đâu.",
+      "examples": [
+        {
+          "ja": "この道をまっすぐ行ってください。",
+          "vi": "Anh chị cứ đi thẳng đường này."
+        },
+        {
+          "ja": "今日はまっすぐ家に帰ります。",
+          "vi": "Hôm nay tôi về thẳng nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 580,
+      "word": "曲がる",
+      "meaningsVi": [
+        "rẽ, quẹo",
+        "uốn cong"
+      ],
+      "noteVi": "Chỗ rẽ dùng を (角を曲がります), hướng rẽ dùng に (右に曲がります). Nhóm I: 曲がります → 曲がって. Cách viết cũ 曲る đôi khi vẫn gặp.",
+      "examples": [
+        {
+          "ja": "次の角を右に曲がってください。",
+          "vi": "Đến góc phố tiếp theo thì anh chị rẽ phải."
+        },
+        {
+          "ja": "あの交差点を左に曲がります。",
+          "vi": "Tôi rẽ trái ở ngã tư kia."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 673,
+      "word": "渡る",
+      "meaningsVi": [
+        "băng qua, đi qua (đường, cầu, sông)"
+      ],
+      "noteVi": "Chỗ đi qua dùng を: 道を渡ります, 橋を渡ります. Đừng nhầm với 渡す (đưa, trao).",
+      "examples": [
+        {
+          "ja": "橋を渡って、まっすぐ行ってください。",
+          "vi": "Anh chị qua cầu rồi đi thẳng."
+        },
+        {
+          "ja": "ここで道を渡りましょう。",
+          "vi": "Mình qua đường ở đây đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 229,
+      "word": "交差点",
+      "meaningsVi": [
+        "ngã tư, giao lộ"
+      ],
+      "noteVi": "Chỗ các con đường cắt nhau, thường có đèn giao thông. Hay gặp khi chỉ đường, cùng với 角 (góc phố).",
+      "examples": [
+        {
+          "ja": "次の交差点を左に曲がってください。",
+          "vi": "Đến ngã tư tiếp theo thì anh chị rẽ trái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 162,
+      "word": "角",
+      "meaningsVi": [
+        "góc (phố, bàn…)"
+      ],
+      "noteVi": "Trong từ này 角 đọc là かど: góc phố, góc bàn. 角を曲がります: rẽ ở góc phố.",
+      "examples": [
+        {
+          "ja": "あの角に郵便局があります。",
+          "vi": "Ở góc phố kia có bưu điện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 490,
+      "word": "橋",
+      "meaningsVi": [
+        "cây cầu"
+      ],
+      "noteVi": "橋 (はし, cầu) đọc giống 箸 (はし, đũa) nhưng khác chữ và khác ngữ điệu.",
+      "examples": [
+        {
+          "ja": "橋の向こうに大きい公園があります。",
+          "vi": "Bên kia cầu có một công viên lớn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 598,
+      "word": "道",
+      "meaningsVi": [
+        "đường, con đường",
+        "đường đi (đến nơi nào)"
+      ],
+      "noteVi": "Hỏi đường: 「〜までの道を教えてください」 (xin chỉ đường đến …).",
+      "examples": [
+        {
+          "ja": "この道は車が多いです。",
+          "vi": "Đường này nhiều xe."
+        },
+        {
+          "ja": "駅までの道を教えてください。",
+          "vi": "Xin chỉ giúp tôi đường đến ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 438,
+      "word": "止まる",
+      "meaningsVi": [
+        "dừng lại, đỗ lại (xe, máy móc)"
+      ],
+      "noteVi": "Vật tự dừng, dùng が: バスが止まります. Bảo tài xế dừng xe thì dùng một động từ khác (止める), sẽ học sau.",
+      "examples": [
+        {
+          "ja": "バスが止まってから、降りてください。",
+          "vi": "Xin đợi xe buýt dừng hẳn rồi hãy xuống."
+        },
+        {
+          "ja": "車が家の前で止まりました。",
+          "vi": "Một chiếc ô tô dừng lại trước nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 135,
+      "word": "降りる",
+      "meaningsVi": [
+        "xuống (xe, tàu)",
+        "đi xuống (cầu thang, núi)"
+      ],
+      "noteVi": "Xuống khỏi xe, tàu dùng を (電車を降ります); xuống ở ga nào dùng で. Ngược với 乗ります (lên xe: 電車に乗ります). Nhóm II dù trước ます là âm i: 降ります → 降りて.",
+      "examples": [
+        {
+          "ja": "次の駅で降りてください。",
+          "vi": "Anh chị xuống ở ga tiếp theo."
+        },
+        {
+          "ja": "電車を降りて、右に曲がってください。",
+          "vi": "Xuống tàu rồi anh chị rẽ phải."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 388,
+      "word": "着く",
+      "meaningsVi": [
+        "đến, tới (nơi nào)"
+      ],
+      "noteVi": "Nơi đến dùng に: 駅に着きます. Cùng chữ 着 với 着る (きる: mặc áo) nhưng khác cách đọc và nghĩa.",
+      "examples": [
+        {
+          "ja": "駅に着いてから、電話してください。",
+          "vi": "Đến ga rồi thì anh chị gọi điện cho tôi."
+        },
+        {
+          "ja": "何時に東京に着きますか。",
+          "vi": "Mấy giờ thì đến Tokyo?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 380,
+      "word": "地図",
+      "meaningsVi": [
+        "bản đồ"
+      ],
+      "noteVi": "Âm Hán Việt \"địa đồ\".",
+      "examples": [
+        {
+          "ja": "地図を書いてください。",
+          "vi": "Anh chị vẽ giúp tôi cái bản đồ."
+        },
+        {
+          "ja": "すみません、地図を見せてください。",
+          "vi": "Xin lỗi, cho tôi xem bản đồ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 638,
+      "word": "ゆっくりと",
+      "meaningsVi": [
+        "chậm rãi, thong thả"
+      ],
+      "noteVi": "Trong hội thoại thường nói ゆっくり (không có と), cùng nghĩa. Câu rất hay dùng khi nghe không kịp: 「ゆっくり話してください」.",
+      "examples": [
+        {
+          "ja": "ゆっくりと話してください。",
+          "vi": "Xin anh chị nói chậm thôi."
+        },
+        {
+          "ja": "ゆっくりと歩きましょう。",
+          "vi": "Mình đi bộ thong thả thôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 616,
+      "word": "もう一度",
+      "meaningsVi": [
+        "một lần nữa"
+      ],
+      "noteVi": "Khi nghe không rõ, nói 「もう一度お願いします」 là lịch sự và tự nhiên.",
+      "examples": [
+        {
+          "ja": "すみません、もう一度言ってください。",
+          "vi": "Xin lỗi, anh chị nói lại một lần nữa giúp tôi."
+        },
+        {
+          "ja": "もう一度お願いします。",
+          "vi": "Xin anh chị (nói) lại lần nữa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 45,
+      "word": "言う",
+      "meaningsVi": [
+        "nói"
+      ],
+      "noteVi": "Lời nói đặt trong 「」 rồi thêm と: 「ありがとう」と言いました. Nhóm I: 言います → 言って.",
+      "examples": [
+        {
+          "ja": "これは日本語で何と言いますか。",
+          "vi": "Cái này tiếng Nhật gọi là gì?"
+        },
+        {
+          "ja": "田中さんは「ありがとう」と言いました。",
+          "vi": "Anh Tanaka đã nói \"cảm ơn\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 348,
+      "word": "それから",
+      "meaningsVi": [
+        "sau đó, rồi thì",
+        "ngoài ra, thêm nữa"
+      ],
+      "noteVi": "Đứng đầu câu (hoặc vế) sau để kể việc tiếp theo, hay để thêm một thứ khi liệt kê, gọi món.",
+      "examples": [
+        {
+          "ja": "朝、シャワーをあびます。それから、朝ごはんを食べます。",
+          "vi": "Buổi sáng tôi tắm. Sau đó tôi ăn sáng."
+        },
+        {
+          "ja": "コーヒーを二つ、それからパンをください。",
+          "vi": "Cho tôi hai cà phê, thêm bánh mì nữa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 408,
+      "word": "出る",
+      "meaningsVi": [
+        "ra, ra khỏi (nơi nào)",
+        "rời (nhà, phòng…) để đi"
+      ],
+      "noteVi": "Nơi rời khỏi thường dùng を: 家を出ます (ra khỏi nhà), 部屋を出ます. Nhóm II: 出ます → 出て.",
+      "examples": [
+        {
+          "ja": "毎朝8時に家を出ます。",
+          "vi": "Sáng nào tôi cũng ra khỏi nhà lúc 8 giờ."
+        },
+        {
+          "ja": "家を出て、駅まで歩きます。",
+          "vi": "Tôi ra khỏi nhà rồi đi bộ đến ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 365,
+      "word": "頼む",
+      "meaningsVi": [
+        "nhờ, yêu cầu",
+        "gọi (món), đặt (hàng)"
+      ],
+      "noteVi": "Người được nhờ dùng に: 田中さんに頼みます. Ở quán ăn, 頼みます cũng là gọi món.",
+      "examples": [
+        {
+          "ja": "田中さんに仕事を頼みました。",
+          "vi": "Tôi đã nhờ anh Tanaka làm một việc."
+        },
+        {
+          "ja": "喫茶店でコーヒーを頼みました。",
+          "vi": "Tôi đã gọi cà phê ở quán."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 672,
+      "word": "渡す",
+      "meaningsVi": [
+        "đưa, trao (cho ai)"
+      ],
+      "noteVi": "Người nhận dùng に: 田中さんに渡します. Đừng nhầm với 渡る (băng qua). Nhóm I: 渡します → 渡して.",
+      "examples": [
+        {
+          "ja": "この手紙を田中さんに渡してください。",
+          "vi": "Anh chị đưa lá thư này cho anh Tanaka giúp tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 345,
+      "word": "そば",
+      "meaningsVi": [
+        "bên cạnh, sát bên"
+      ],
+      "noteVi": "N のそば: ngay sát bên N, gần hơn 近く (gần, quanh). Món mì そば (mì kiều mạch) là một từ khác, chỉ đọc giống.",
+      "examples": [
+        {
+          "ja": "駅のそばに銀行があります。",
+          "vi": "Ngay cạnh ga có ngân hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 608,
+      "word": "向こう",
+      "meaningsVi": [
+        "phía bên kia, đằng kia"
+      ],
+      "noteVi": "N の向こう: phía bên kia của N (đường, cầu, sông).",
+      "examples": [
+        {
+          "ja": "橋の向こうに大きい公園があります。",
+          "vi": "Bên kia cầu có một công viên lớn."
+        },
+        {
+          "ja": "道の向こうにレストランがあります。",
+          "vi": "Bên kia đường có một nhà hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 557,
+      "word": "辺",
+      "meaningsVi": [
+        "vùng, khu vực (quanh đó)"
+      ],
+      "noteVi": "Hầu như chỉ dùng trong この辺 (quanh đây), その辺, あの辺. Câu hỏi đường rất hay dùng: 「この辺に…がありますか」.",
+      "examples": [
+        {
+          "ja": "この辺に郵便局がありますか。",
+          "vi": "Quanh đây có bưu điện không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 396,
+      "word": "手",
+      "meaningsVi": [
+        "tay, bàn tay"
+      ],
+      "noteVi": "手 chủ yếu là bàn tay; 右手 (tay phải), 左手 (tay trái).",
+      "examples": [
+        {
+          "ja": "手を洗ってから、ご飯を食べます。",
+          "vi": "Tôi rửa tay rồi mới ăn cơm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 38,
+      "word": "洗う",
+      "meaningsVi": [
+        "rửa, giặt (bằng tay)"
+      ],
+      "noteVi": "Giặt quần áo bằng máy thường nói 洗濯します. Nhóm I: 洗います → 洗って.",
+      "examples": [
+        {
+          "ja": "手を洗ってください。",
+          "vi": "Hãy rửa tay."
+        },
+        {
+          "ja": "昨日、車を洗いました。",
+          "vi": "Hôm qua tôi đã rửa xe."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "右",
+      "meaningVi": "bên phải",
+      "noteVi": "Có 口 (miệng) bên dưới: tay phải đưa thức ăn lên miệng. Viết nét phẩy trước rồi mới đến nét ngang (ngược với 左). Từ: 右 (みぎ), 右手.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "左",
+      "meaningVi": "bên trái",
+      "noteVi": "Có 工 (dụng cụ) bên dưới: tay trái giữ dụng cụ. Viết nét ngang trước rồi mới đến nét phẩy. Từ: 左 (ひだり), 左手.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-te-form",
+      "titleVi": "Thể て: cách chia",
+      "summaryVi": "Đổi động từ từ thể ます sang thể て theo ba nhóm: 買います → 買って, 食べます → 食べて, します → して.",
+      "explanationVi": [
+        "**Thể て** là một dạng của động từ, kết thúc bằng **て** hoặc **で**. Thể て không có thì, không mang nghĩa lịch sự hay thân mật; nó dùng để ghép với từ khác: 〜てください (hãy…), nối các hành động, 〜てから (sau khi…) và nhiều mẫu ở các bài sau. Ở bài này ta chia từ **thể ます**.",
+        "**Nhóm II**: bỏ ます, thêm **て**: 食べます → 食べて, 寝ます → 寝て, 見ます → 見て. Động từ có âm **e** trước ます luôn là nhóm II. Một số động từ có âm **i** trước ます cũng là nhóm II, phải nhớ riêng: 見ます, 起きます, 借ります, 降ります (xuống xe), あびます, います. **Nhóm III**: します → **して** (勉強します → 勉強して), 来ます → **来て** (đọc きて).",
+        "**Nhóm I** (các động từ còn lại) đổi theo chữ đứng trước ます: 「い・ち・り」 → **って** (買います → 買って, 待ちます → 待って, 帰ります → 帰って) · 「み・び・に」 → **んで** (飲みます → 飲んで, 遊びます → 遊んで) · 「き」 → **いて** (書きます → 書いて) · 「ぎ」 → **いで** (泳ぎます → 泳いで) · 「し」 → **して** (話します → 話して).",
+        "Ngoại lệ duy nhất của nhóm I: 行きます → **行って** (không phải 行いて). Tiếng Việt không chia động từ nên lúc đầu rất dễ quên đổi âm; hãy đọc to từng cặp (書きます – 書いて, 飲みます – 飲んで…) cho tới khi thuộc."
+      ],
+      "patterns": [
+        "Nhóm I: い・ち・り → って ／ み・び・に → んで ／ き → いて ／ ぎ → いで ／ し → して",
+        "Nhóm II: 〜ます → 〜て",
+        "Nhóm III: します → して ／ 来ます → 来て"
+      ],
+      "examples": [
+        {
+          "ja": "ここに名前を書いてください。",
+          "vi": "Xin viết tên vào đây. (書きます → 書いて)"
+        },
+        {
+          "ja": "ちょっと待ってください。",
+          "vi": "Xin chờ một chút. (待ちます → 待って)"
+        },
+        {
+          "ja": "コーヒーを飲んで、新聞を読みます。",
+          "vi": "Tôi uống cà phê rồi đọc báo. (飲みます → 飲んで)"
+        },
+        {
+          "ja": "明日、また来てください。",
+          "vi": "Ngày mai anh chị lại đến nhé. (来ます → 来て)"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ここに名前を書きてください。",
+          "right": "ここに名前を書いてください。",
+          "noteVi": "書きます là nhóm I (trước ます là き) nên đổi thành 書いて. Chỉ nhóm II mới bỏ ます rồi thêm て."
+        },
+        {
+          "wrong": "駅に行きてください。",
+          "right": "駅に行ってください。",
+          "noteVi": "行きます là ngoại lệ của nhóm I: thể て là 行って. Không viết 行きて, cũng không theo quy tắc き → いて (行いて)."
+        },
+        {
+          "wrong": "家に帰て、寝ます。",
+          "right": "家に帰って、寝ます。",
+          "noteVi": "帰ります là nhóm I (trước ます là り) nên thành 帰って. Đừng nhầm với nhóm II (寝ます → 寝て)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-kudasai",
+      "titleVi": "〜てください: xin hãy…",
+      "summaryVi": "V てください: nhờ, mời hay chỉ dẫn người khác làm gì một cách lịch sự: 待ってください = xin chờ.",
+      "explanationVi": [
+        "Thể て + **ください** dùng để nhờ hoặc bảo người khác làm gì một cách lịch sự, giống \"xin hãy…, làm ơn…\": 「ちょっと待ってください」 (xin chờ một chút).",
+        "Ở bài 4 đã học **N をください** (cho tôi N: xin một đồ vật). Muốn nhờ một **hành động** thì dùng **V て ください**: 「水をください」 (cho tôi nước) nhưng 「水を飲んでください」 (anh chị uống nước đi).",
+        "〜てください rất hay dùng khi chỉ đường, hướng dẫn: 「まっすぐ行って、右に曲がってください」. Dù lịch sự, đây vẫn là lời yêu cầu; khi nhờ người trên làm việc cho mình, người Nhật nói mềm hơn (sẽ học sau)."
+      ],
+      "patterns": [
+        "V て ください",
+        "N を V て ください"
+      ],
+      "examples": [
+        {
+          "ja": "ゆっくりと話してください。",
+          "vi": "Xin anh chị nói chậm thôi."
+        },
+        {
+          "ja": "あの交差点を右に曲がってください。",
+          "vi": "Đến ngã tư kia thì anh chị rẽ phải."
+        },
+        {
+          "ja": "どうぞ、入ってください。",
+          "vi": "Mời anh chị vào."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "待ちますください。",
+          "right": "待ってください。",
+          "noteVi": "ください đi sau thể て, không đi sau thể ます."
+        },
+        {
+          "wrong": "ください、ゆっくりと話して。",
+          "right": "ゆっくりと話してください。",
+          "noteVi": "Tiếng Việt nói \"xin hãy\" ở đầu câu, nhưng ください luôn đứng cuối, ngay sau động từ thể て."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te",
+      "titleVi": "〜て、〜: làm A rồi làm B",
+      "summaryVi": "Nối các hành động theo thứ tự xảy ra bằng thể て; thì của cả câu do động từ cuối quyết định.",
+      "explanationVi": [
+        "Muốn kể nhiều hành động nối tiếp nhau, đặt các động từ đứng trước ở **thể て**, chỉ chia động từ **cuối câu**: 「朝起きて、シャワーをあびて、朝ごはんを食べます」 (Sáng tôi dậy, tắm rồi ăn sáng).",
+        "Thể て không có thì: **thì và mức lịch sự của cả câu nằm ở động từ cuối**. 「デパートに行って、靴を買いました」: cả hai việc đều đã xảy ra, dù 行って không có ました.",
+        "Các hành động được kể **đúng thứ tự** xảy ra, giống \"…rồi…\" trong tiếng Việt. Không dùng と để nối hai động từ: と chỉ nối danh từ (パンとコーヒー)."
+      ],
+      "patterns": [
+        "V1 て、V2 ます",
+        "V1 て、V2 て、V3 ます"
+      ],
+      "examples": [
+        {
+          "ja": "朝起きて、シャワーをあびて、朝ごはんを食べます。",
+          "vi": "Buổi sáng tôi dậy, tắm rồi ăn sáng."
+        },
+        {
+          "ja": "昨日は図書館に行って、本を借りました。",
+          "vi": "Hôm qua tôi đến thư viện mượn sách."
+        },
+        {
+          "ja": "デパートに行って、靴を買いました。",
+          "vi": "Tôi đến cửa hàng bách hóa và mua giày."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "昨日は図書館に行きました、本を借りました。",
+          "right": "昨日は図書館に行って、本を借りました。",
+          "noteVi": "Không nối hai vế bằng dấu phẩy như tiếng Việt (\"đã đi…, đã mượn…\"): động từ trước đổi sang thể て, chỉ động từ cuối có ました."
+        },
+        {
+          "wrong": "パンを食べますとコーヒーを飲みます。",
+          "right": "パンを食べて、コーヒーを飲みます。",
+          "noteVi": "\"Và\" giữa hai hành động không dịch bằng と: と chỉ nối danh từ (パンとコーヒー). Nối hai động từ thì dùng thể て."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-kara",
+      "titleVi": "〜てから: làm xong… rồi mới…",
+      "summaryVi": "V1 てから、V2: làm xong V1 rồi (mới) làm V2; nhấn mạnh thứ tự trước sau.",
+      "explanationVi": [
+        "**V1 てから、V2** nghĩa là \"làm xong V1 rồi mới làm V2\". So với 〜て, 〜てから **nhấn mạnh** V1 phải xong trước: 「手を洗ってから、食べてください」 (rửa tay xong rồi hãy ăn).",
+        "Tiếng Việt có thể nói ngược: \"Tôi ăn tối sau khi tắm\". Tiếng Nhật thì việc làm **trước** luôn đứng **trước**: 「シャワーをあびてから、晩ご飯を食べます」.",
+        "から ở đây đi sau **thể て**. Đừng nhầm với **〜ますから** (vì…, bài 13): 「時間がありますから」 = vì có thời gian."
+      ],
+      "patterns": [
+        "V1 て から、V2"
+      ],
+      "examples": [
+        {
+          "ja": "仕事が終わってから、友達に会います。",
+          "vi": "Xong việc rồi tôi đi gặp bạn."
+        },
+        {
+          "ja": "宿題をしてから、テレビを見ます。",
+          "vi": "Làm bài tập xong tôi mới xem tivi."
+        },
+        {
+          "ja": "晩ご飯を食べてから、お風呂に入ります。",
+          "vi": "Ăn tối xong tôi đi tắm bồn."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "シャワーをあびますから、晩ご飯を食べます。",
+          "right": "シャワーをあびてから、晩ご飯を食べます。",
+          "noteVi": "〜ますから nghĩa là \"vì…\": câu bên trái thành \"Vì tôi tắm nên tôi ăn tối\". Muốn nói \"tắm xong rồi mới…\" phải dùng thể て + から."
+        },
+        {
+          "wrong": "晩ご飯を食べてから、シャワーをあびます。",
+          "right": "シャワーをあびてから、晩ご飯を食べます。",
+          "noteVi": "Muốn nói \"Tôi ăn tối sau khi tắm\", việc làm trước (tắm) phải đứng trước てから. Câu bên trái đúng ngữ pháp nhưng nghĩa ngược lại: ăn tối xong rồi mới tắm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-18-e01",
+      "type": "choice",
+      "grammar": [
+        "x-te-form"
+      ],
+      "promptVi": "Thể て của 書きます là gì?",
+      "options": [
+        "書きて",
+        "書いて",
+        "書きって"
+      ],
+      "answer": 1,
+      "explainVi": "Nhóm I, trước ます là き → いて: 書いて."
+    },
+    {
+      "id": "n5-18-e02",
+      "type": "choice",
+      "grammar": [
+        "x-te-form"
+      ],
+      "promptVi": "Thể て của 飲みます là gì?",
+      "options": [
+        "飲みて",
+        "飲みって",
+        "飲んで"
+      ],
+      "answer": 2,
+      "explainVi": "Nhóm I, trước ます là み → んで: 飲んで."
+    },
+    {
+      "id": "n5-18-e03",
+      "type": "choice",
+      "grammar": [
+        "x-te-form"
+      ],
+      "promptVi": "Thể て của 行きます là gì?",
+      "options": [
+        "行きて",
+        "行って",
+        "行きって"
+      ],
+      "answer": 1,
+      "explainVi": "行きます là ngoại lệ: 行って."
+    },
+    {
+      "id": "n5-18-e04",
+      "type": "choice",
+      "grammar": [
+        "x-te-form"
+      ],
+      "promptVi": "Thể て của 来ます là gì?",
+      "options": [
+        "来って",
+        "来ますて",
+        "来て"
+      ],
+      "answer": 2,
+      "explainVi": "Nhóm III: 来ます → 来て (きて)."
+    },
+    {
+      "id": "n5-18-e05",
+      "type": "fill",
+      "grammar": [
+        "x-te-form",
+        "te-kudasai"
+      ],
+      "before": "ちょっと",
+      "after": "ください。",
+      "answers": [
+        "待って"
+      ],
+      "options": [
+        "待ちて",
+        "待って",
+        "待ちって"
+      ],
+      "vi": "Xin chờ một chút.",
+      "explainVi": "Nhóm I, trước ます là ち → って: 待って."
+    },
+    {
+      "id": "n5-18-e06",
+      "type": "match",
+      "grammar": [
+        "x-te-form"
+      ],
+      "promptVi": "Ghép thể ます với thể て",
+      "pairs": [
+        [
+          "食べます",
+          "食べて"
+        ],
+        [
+          "帰ります",
+          "帰って"
+        ],
+        [
+          "泳ぎます",
+          "泳いで"
+        ],
+        [
+          "話します",
+          "話して"
+        ]
+      ]
+    },
+    {
+      "id": "n5-18-e07",
+      "type": "fill",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "before": "すみません、もう一度",
+      "after": "ください。",
+      "answers": [
+        "言って"
+      ],
+      "options": [
+        "言いて",
+        "言って",
+        "言います"
+      ],
+      "vi": "Xin lỗi, anh chị nói lại một lần nữa giúp tôi."
+    },
+    {
+      "id": "n5-18-e08",
+      "type": "choice",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "promptVi": "Bạn nghe không kịp và muốn nhờ người kia nói chậm lại. Nói câu nào?",
+      "options": [
+        "ゆっくりと話しました。",
+        "ゆっくりと話してください。",
+        "ゆっくりと話しますください。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-18-e09",
+      "type": "order",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "vi": "Đến ngã tư tiếp theo thì anh chị rẽ trái.",
+      "tiles": [
+        "左に",
+        "ください",
+        "次の",
+        "曲がって",
+        "交差点を"
+      ],
+      "answers": [
+        "次の交差点を左に曲がってください"
+      ]
+    },
+    {
+      "id": "n5-18-e10",
+      "type": "order",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "vi": "Anh chị đưa lá thư này cho anh Tanaka giúp tôi.",
+      "tiles": [
+        "渡して",
+        "この",
+        "田中さんに",
+        "ください",
+        "手紙を"
+      ],
+      "answers": [
+        "この手紙を田中さんに渡してください",
+        "田中さんにこの手紙を渡してください"
+      ]
+    },
+    {
+      "id": "n5-18-e11",
+      "type": "choice",
+      "grammar": [
+        "te"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Hôm qua tôi đến thư viện rồi mượn sách\"?",
+      "options": [
+        "昨日は本を借りて、図書館に行きました。",
+        "昨日は図書館に行って、本を借りました。",
+        "明日は図書館に行って、本を借ります。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-18-e12",
+      "type": "fill",
+      "grammar": [
+        "te",
+        "x-te-form"
+      ],
+      "before": "朝起きて、シャワーを",
+      "after": "、朝ごはんを食べます。",
+      "answers": [
+        "あびて"
+      ],
+      "options": [
+        "あびて",
+        "あびます",
+        "あびって"
+      ],
+      "vi": "Buổi sáng tôi dậy, tắm rồi ăn sáng.",
+      "explainVi": "あびます là nhóm II: bỏ ます thêm て. Chỉ động từ cuối câu mới chia ます."
+    },
+    {
+      "id": "n5-18-e13",
+      "type": "order",
+      "grammar": [
+        "te"
+      ],
+      "vi": "Tôi ra khỏi nhà rồi đi bộ đến ga.",
+      "tiles": [
+        "駅まで",
+        "出て",
+        "歩きます",
+        "家を"
+      ],
+      "answers": [
+        "家を出て駅まで歩きます"
+      ]
+    },
+    {
+      "id": "n5-18-e14",
+      "type": "choice",
+      "grammar": [
+        "te"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "デパートに行って、靴を買いました。",
+      "options": [
+        "Tôi đã đến cửa hàng bách hóa và mua giày.",
+        "Tôi sẽ đến cửa hàng bách hóa và mua giày.",
+        "Tôi mua giày rồi mới đến cửa hàng bách hóa."
+      ],
+      "answer": 0,
+      "explainVi": "Thì của cả câu nằm ở động từ cuối (買いました): cả hai việc đã xảy ra, theo đúng thứ tự."
+    },
+    {
+      "id": "n5-18-e15",
+      "type": "fill",
+      "grammar": [
+        "te-kara"
+      ],
+      "before": "手を",
+      "after": "から、ご飯を食べます。",
+      "answers": [
+        "洗って"
+      ],
+      "options": [
+        "洗います",
+        "洗いて",
+        "洗って"
+      ],
+      "vi": "Tôi rửa tay xong rồi mới ăn cơm.",
+      "explainVi": "Trước から (sau khi) là thể て: 洗って. 洗いますから nghĩa là \"vì rửa tay\"."
+    },
+    {
+      "id": "n5-18-e16",
+      "type": "order",
+      "grammar": [
+        "te-kara"
+      ],
+      "vi": "Làm bài tập xong tôi mới xem tivi.",
+      "tiles": [
+        "から",
+        "テレビを",
+        "宿題を",
+        "見ます",
+        "して"
+      ],
+      "answers": [
+        "宿題をしてからテレビを見ます"
+      ]
+    },
+    {
+      "id": "n5-18-e17",
+      "type": "choice",
+      "grammar": [
+        "te-kara"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Đến ga rồi thì anh chị gọi điện cho tôi\"?",
+      "options": [
+        "電話してから、駅に着いてください。",
+        "駅に着きますから、電話してください。",
+        "駅に着いてから、電話してください。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-18-e18",
+      "type": "choice",
+      "grammar": [
+        "te",
+        "te-kudasai"
+      ],
+      "promptVi": "Người nghe phải làm gì?",
+      "ja": "橋を渡って、まっすぐ行ってください。",
+      "options": [
+        "Qua cầu rồi đi thẳng.",
+        "Đi thẳng rồi rẽ ở cầu.",
+        "Dừng lại trước cầu."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-18-e19",
+      "type": "fill",
+      "before": "",
+      "after": "に郵便局がありますか。",
+      "answers": [
+        "この辺"
+      ],
+      "options": [
+        "もう一度",
+        "この辺",
+        "それから"
+      ],
+      "vi": "Quanh đây có bưu điện không ạ?"
+    },
+    {
+      "id": "n5-18-e20",
+      "type": "choice",
+      "promptVi": "Bạn nghe không rõ. Nói câu nào?",
+      "options": [
+        "もう一度お願いします。",
+        "それから、お願いします。",
+        "まっすぐお願いします。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-18-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "交差点",
+          "ngã tư"
+        ],
+        [
+          "角",
+          "góc phố"
+        ],
+        [
+          "橋",
+          "cây cầu"
+        ],
+        [
+          "地図",
+          "bản đồ"
+        ],
+        [
+          "向こう",
+          "phía bên kia"
+        ]
+      ]
+    },
+    {
+      "id": "n5-18-e22",
+      "type": "match",
+      "promptVi": "Ghép động từ với nghĩa",
+      "pairs": [
+        [
+          "曲がります",
+          "rẽ"
+        ],
+        [
+          "渡ります",
+          "băng qua"
+        ],
+        [
+          "止まります",
+          "dừng lại"
+        ],
+        [
+          "着きます",
+          "đến nơi"
+        ],
+        [
+          "渡します",
+          "đưa, trao"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "この道をまっすぐ行ってください。": "この{道|みち}をまっすぐ{行|い}ってください。",
+    "今日はまっすぐ家に帰ります。": "{今日|きょう}はまっすぐ{家|いえ}に{帰|かえ}ります。",
+    "次の角を右に曲がってください。": "{次|つぎ}の{角|かど}を{右|みぎ}に{曲|ま}がってください。",
+    "あの交差点を左に曲がります。": "あの{交|こう}{差|さ}{点|てん}を{左|ひだり}に{曲|ま}がります。",
+    "橋を渡って、まっすぐ行ってください。": "{橋|はし}を{渡|わた}って、まっすぐ{行|い}ってください。",
+    "ここで道を渡りましょう。": "ここで{道|みち}を{渡|わた}りましょう。",
+    "次の交差点を左に曲がってください。": "{次|つぎ}の{交|こう}{差|さ}{点|てん}を{左|ひだり}に{曲|ま}がってください。",
+    "あの角に郵便局があります。": "あの{角|かど}に{郵|ゆう}{便|びん}{局|きょく}があります。",
+    "橋の向こうに大きい公園があります。": "{橋|はし}の{向|む}こうに{大|おお}きい{公|こう}{園|えん}があります。",
+    "この道は車が多いです。": "この{道|みち}は{車|くるま}が{多|おお}いです。",
+    "駅までの道を教えてください。": "{駅|えき}までの{道|みち}を{教|おし}えてください。",
+    "バスが止まってから、降りてください。": "バスが{止|と}まってから、{降|お}りてください。",
+    "車が家の前で止まりました。": "{車|くるま}が{家|いえ}の{前|まえ}で{止|と}まりました。",
+    "次の駅で降りてください。": "{次|つぎ}の{駅|えき}で{降|お}りてください。",
+    "電車を降りて、右に曲がってください。": "{電|でん}{車|しゃ}を{降|お}りて、{右|みぎ}に{曲|ま}がってください。",
+    "駅に着いてから、電話してください。": "{駅|えき}に{着|つ}いてから、{電|でん}{話|わ}してください。",
+    "何時に東京に着きますか。": "{何時|なんじ}に{東京|とうきょう}に{着|つ}きますか。",
+    "地図を書いてください。": "{地|ち}{図|ず}を{書|か}いてください。",
+    "すみません、地図を見せてください。": "すみません、{地|ち}{図|ず}を{見|み}せてください。",
+    "ゆっくりと話してください。": "ゆっくりと{話|はな}してください。",
+    "ゆっくりと歩きましょう。": "ゆっくりと{歩|ある}きましょう。",
+    "すみません、もう一度言ってください。": "すみません、もう{一|いち}{度|ど}{言|い}ってください。",
+    "もう一度お願いします。": "もう{一|いち}{度|ど}お{願|ねが}いします。",
+    "これは日本語で何と言いますか。": "これは{日本|にほん}{語|ご}で{何|なん}と{言|い}いますか。",
+    "田中さんは「ありがとう」と言いました。": "{田中|たなか}さんは「ありがとう」と{言|い}いました。",
+    "朝、シャワーをあびます。それから、朝ごはんを食べます。": "{朝|あさ}、シャワーをあびます。それから、{朝|あさ}ごはんを{食|た}べます。",
+    "コーヒーを二つ、それからパンをください。": "コーヒーを{二|ふた}つ、それからパンをください。",
+    "毎朝8時に家を出ます。": "{毎|まい}{朝|あさ}8{時|じ}に{家|いえ}を{出|で}ます。",
+    "家を出て、駅まで歩きます。": "{家|いえ}を{出|で}て、{駅|えき}まで{歩|ある}きます。",
+    "田中さんに仕事を頼みました。": "{田中|たなか}さんに{仕|し}{事|ごと}を{頼|たの}みました。",
+    "喫茶店でコーヒーを頼みました。": "{喫|きっ}{茶|さ}{店|てん}でコーヒーを{頼|たの}みました。",
+    "この手紙を田中さんに渡してください。": "この{手|て}{紙|がみ}を{田中|たなか}さんに{渡|わた}してください。",
+    "駅のそばに銀行があります。": "{駅|えき}のそばに{銀|ぎん}{行|こう}があります。",
+    "道の向こうにレストランがあります。": "{道|みち}の{向|む}こうにレストランがあります。",
+    "この辺に郵便局がありますか。": "この{辺|へん}に{郵|ゆう}{便|びん}{局|きょく}がありますか。",
+    "手を洗ってから、ご飯を食べます。": "{手|て}を{洗|あら}ってから、ご{飯|はん}を{食|た}べます。",
+    "手を洗ってください。": "{手|て}を{洗|あら}ってください。",
+    "昨日、車を洗いました。": "{昨日|きのう}、{車|くるま}を{洗|あら}いました。",
+    "ここに名前を書いてください。": "ここに{名|な}{前|まえ}を{書|か}いてください。",
+    "ちょっと待ってください。": "ちょっと{待|ま}ってください。",
+    "コーヒーを飲んで、新聞を読みます。": "コーヒーを{飲|の}んで、{新|しん}{聞|ぶん}を{読|よ}みます。",
+    "明日、また来てください。": "{明日|あした}、また{来|き}てください。",
+    "ここに名前を書きてください。": "ここに{名|な}{前|まえ}を{書|か}きてください。",
+    "駅に行ってください。": "{駅|えき}に{行|い}ってください。",
+    "駅に行きてください。": "{駅|えき}に{行|い}きてください。",
+    "家に帰って、寝ます。": "{家|いえ}に{帰|かえ}って、{寝|ね}ます。",
+    "家に帰て、寝ます。": "{家|いえ}に{帰|かえ}て、{寝|ね}ます。",
+    "あの交差点を右に曲がってください。": "あの{交|こう}{差|さ}{点|てん}を{右|みぎ}に{曲|ま}がってください。",
+    "どうぞ、入ってください。": "どうぞ、{入|はい}ってください。",
+    "待ってください。": "{待|ま}ってください。",
+    "待ちますください。": "{待|ま}ちますください。",
+    "ください、ゆっくりと話して。": "ください、ゆっくりと{話|はな}して。",
+    "朝起きて、シャワーをあびて、朝ごはんを食べます。": "{朝|あさ}{起|お}きて、シャワーをあびて、{朝|あさ}ごはんを{食|た}べます。",
+    "昨日は図書館に行って、本を借りました。": "{昨日|きのう}は{図|と}{書|しょ}{館|かん}に{行|い}って、{本|ほん}を{借|か}りました。",
+    "デパートに行って、靴を買いました。": "デパートに{行|い}って、{靴|くつ}を{買|か}いました。",
+    "昨日は図書館に行きました、本を借りました。": "{昨日|きのう}は{図|と}{書|しょ}{館|かん}に{行|い}きました、{本|ほん}を{借|か}りました。",
+    "パンを食べて、コーヒーを飲みます。": "パンを{食|た}べて、コーヒーを{飲|の}みます。",
+    "パンを食べますとコーヒーを飲みます。": "パンを{食|た}べますとコーヒーを{飲|の}みます。",
+    "仕事が終わってから、友達に会います。": "{仕|し}{事|ごと}が{終|お}わってから、{友|とも}{達|だち}に{会|あ}います。",
+    "宿題をしてから、テレビを見ます。": "{宿|しゅく}{題|だい}をしてから、テレビを{見|み}ます。",
+    "晩ご飯を食べてから、お風呂に入ります。": "{晩|ばん}ご{飯|はん}を{食|た}べてから、お{風|ふ}{呂|ろ}に{入|はい}ります。",
+    "シャワーをあびてから、晩ご飯を食べます。": "シャワーをあびてから、{晩|ばん}ご{飯|はん}を{食|た}べます。",
+    "シャワーをあびますから、晩ご飯を食べます。": "シャワーをあびますから、{晩|ばん}ご{飯|はん}を{食|た}べます。",
+    "晩ご飯を食べてから、シャワーをあびます。": "{晩|ばん}ご{飯|はん}を{食|た}べてから、シャワーをあびます。",
+    "書きて": "{書|か}きて",
+    "書いて": "{書|か}いて",
+    "書きって": "{書|か}きって",
+    "飲みて": "{飲|の}みて",
+    "飲みって": "{飲|の}みって",
+    "飲んで": "{飲|の}んで",
+    "行きて": "{行|い}きて",
+    "行って": "{行|い}って",
+    "行きって": "{行|い}きって",
+    "来って": "{来|き}って",
+    "来ますて": "{来|き}ますて",
+    "来て": "{来|き}て",
+    "待って": "{待|ま}って",
+    "待ちて": "{待|ま}ちて",
+    "待ちって": "{待|ま}ちって",
+    "食べます": "{食|た}べます",
+    "食べて": "{食|た}べて",
+    "帰ります": "{帰|かえ}ります",
+    "帰って": "{帰|かえ}って",
+    "泳ぎます": "{泳|およ}ぎます",
+    "泳いで": "{泳|およ}いで",
+    "話します": "{話|はな}します",
+    "話して": "{話|はな}して",
+    "言って": "{言|い}って",
+    "言いて": "{言|い}いて",
+    "言います": "{言|い}います",
+    "ゆっくりと話しました。": "ゆっくりと{話|はな}しました。",
+    "ゆっくりと話しますください。": "ゆっくりと{話|はな}しますください。",
+    "左に": "{左|ひだり}に",
+    "ください": "ください",
+    "次の": "{次|つぎ}の",
+    "曲がって": "{曲|ま}がって",
+    "交差点を": "{交|こう}{差|さ}{点|てん}を",
+    "次の交差点を左に曲がってください": "{次|つぎ}の{交|こう}{差|さ}{点|てん}を{左|ひだり}に{曲|ま}がってください",
+    "渡して": "{渡|わた}して",
+    "この": "この",
+    "田中さんに": "{田中|たなか}さんに",
+    "手紙を": "{手|て}{紙|がみ}を",
+    "この手紙を田中さんに渡してください": "この{手|て}{紙|がみ}を{田中|たなか}さんに{渡|わた}してください",
+    "田中さんにこの手紙を渡してください": "{田中|たなか}さんにこの{手|て}{紙|がみ}を{渡|わた}してください",
+    "昨日は本を借りて、図書館に行きました。": "{昨日|きのう}は{本|ほん}を{借|か}りて、{図|と}{書|しょ}{館|かん}に{行|い}きました。",
+    "明日は図書館に行って、本を借ります。": "{明日|あした}は{図|と}{書|しょ}{館|かん}に{行|い}って、{本|ほん}を{借|か}ります。",
+    "あびて": "あびて",
+    "あびます": "あびます",
+    "あびって": "あびって",
+    "駅まで": "{駅|えき}まで",
+    "出て": "{出|で}て",
+    "歩きます": "{歩|ある}きます",
+    "家を": "{家|いえ}を",
+    "家を出て駅まで歩きます": "{家|いえ}を{出|で}て{駅|えき}まで{歩|ある}きます",
+    "洗って": "{洗|あら}って",
+    "洗います": "{洗|あら}います",
+    "洗いて": "{洗|あら}いて",
+    "から": "から",
+    "テレビを": "テレビを",
+    "宿題を": "{宿|しゅく}{題|だい}を",
+    "見ます": "{見|み}ます",
+    "して": "して",
+    "宿題をしてからテレビを見ます": "{宿|しゅく}{題|だい}をしてからテレビを{見|み}ます",
+    "電話してから、駅に着いてください。": "{電|でん}{話|わ}してから、{駅|えき}に{着|つ}いてください。",
+    "駅に着きますから、電話してください。": "{駅|えき}に{着|つ}きますから、{電|でん}{話|わ}してください。",
+    "この辺": "この{辺|へん}",
+    "もう一度": "もう{一|いち}{度|ど}",
+    "それから": "それから",
+    "それから、お願いします。": "それから、お{願|ねが}いします。",
+    "まっすぐお願いします。": "まっすぐお{願|ねが}いします。",
+    "交差点": "{交|こう}{差|さ}{点|てん}",
+    "角": "{角|かど}",
+    "橋": "{橋|はし}",
+    "地図": "{地|ち}{図|ず}",
+    "向こう": "{向|む}こう",
+    "曲がります": "{曲|ま}がります",
+    "渡ります": "{渡|わた}ります",
+    "止まります": "{止|と}まります",
+    "着きます": "{着|つ}きます",
+    "渡します": "{渡|わた}します"
+  }
+}

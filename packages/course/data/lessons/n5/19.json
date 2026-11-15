@@ -1,0 +1,1081 @@
+{
+  "id": "n5-19",
+  "goalsVi": [
+    "Nói việc đang làm với 〜ています: 今、テレビを見ています",
+    "Nói về nơi ở, công việc, gia đình, trang phục: ハノイに住んでいます、銀行に勤めています、結婚しています、めがねをかけています",
+    "Hỏi và trả lời \"đã … chưa?\": もう〜ましたか、はい、もう〜ました／いいえ、まだ〜ていません"
+  ],
+  "words": [
+    {
+      "no": 198,
+      "word": "着る",
+      "meaningsVi": [
+        "mặc (áo, đồ mặc thân trên hoặc cả người)"
+      ],
+      "noteVi": "Tiếng Việt chỉ có một chữ \"mặc\", tiếng Nhật chia theo phần cơ thể: 着ます cho áo, bộ vest, quần áo nói chung (シャツ, 背広, 服); はきます cho quần, váy, giày, tất; 締めます cho cà vạt. Nhóm II: 着ます → 着て. Cùng chữ 着 với 着く (つく: đến nơi).",
+      "examples": [
+        {
+          "ja": "田中さんは白いシャツを着ています。",
+          "vi": "Anh Tanaka đang mặc áo sơ mi trắng."
+        },
+        {
+          "ja": "毎日背広を着て、会社に行きます。",
+          "vi": "Ngày nào tôi cũng mặc vest đi làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 487,
+      "word": "はく",
+      "meaningsVi": [
+        "mặc (quần, váy)",
+        "đi, mang (giày, tất)"
+      ],
+      "noteVi": "Dùng cho đồ mặc từ thắt lưng trở xuống: ズボン, スカート, 靴, 靴下. Nhóm I: はきます → はいて. Chữ Hán: 履く.",
+      "examples": [
+        {
+          "ja": "妹は赤いスカートをはいています。",
+          "vi": "Em gái tôi đang mặc váy đỏ."
+        },
+        {
+          "ja": "新しい靴をはいて、出かけます。",
+          "vi": "Tôi đi đôi giày mới rồi ra ngoài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 290,
+      "word": "締める",
+      "meaningsVi": [
+        "thắt (cà vạt, thắt lưng)",
+        "buộc chặt"
+      ],
+      "noteVi": "ネクタイを締めます: thắt cà vạt. Đọc giống 閉める (しめる: đóng, bài 20) nhưng khác chữ, khác nghĩa. Nhóm II: 締めます → 締めて.",
+      "examples": [
+        {
+          "ja": "父は毎日ネクタイを締めて、会社に行きます。",
+          "vi": "Ngày nào bố tôi cũng thắt cà vạt đi làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 473,
+      "word": "ネクタイ",
+      "meaningsVi": [
+        "cà vạt"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは青いネクタイを締めています。",
+          "vi": "Anh Tanaka đang thắt cà vạt xanh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 294,
+      "word": "シャツ",
+      "meaningsVi": [
+        "áo sơ mi, áo (mặc thân trên)"
+      ],
+      "noteVi": "シャツ là áo mặc thân trên nói chung (áo phông: Tシャツ). Áo sơ mi trắng mặc với vest gọi là ワイシャツ.",
+      "examples": [
+        {
+          "ja": "このシャツは少し大きいです。",
+          "vi": "Cái áo này hơi rộng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 309,
+      "word": "スカート",
+      "meaningsVi": [
+        "váy, chân váy"
+      ],
+      "noteVi": "Mặc váy dùng はきます, không dùng 着ます.",
+      "examples": [
+        {
+          "ja": "このスカートは短いですね。",
+          "vi": "Cái váy này ngắn nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 319,
+      "word": "ズボン",
+      "meaningsVi": [
+        "quần dài"
+      ],
+      "noteVi": "Mặc quần dùng はきます, không dùng 着ます.",
+      "examples": [
+        {
+          "ja": "兄は黒いズボンをはいています。",
+          "vi": "Anh trai tôi đang mặc quần đen."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 208,
+      "word": "靴下",
+      "meaningsVi": [
+        "tất, vớ"
+      ],
+      "noteVi": "Âm Hán Việt \"ngoa hạ\": thứ mang dưới giày (靴: giày). Đi tất dùng はきます; đếm đôi tất, đôi giày dùng 足 (そく).",
+      "examples": [
+        {
+          "ja": "デパートで靴下を3足買いました。",
+          "vi": "Tôi đã mua ba đôi tất ở cửa hàng bách hóa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 329,
+      "word": "背広",
+      "meaningsVi": [
+        "bộ com-lê, bộ vest (nam)"
+      ],
+      "noteVi": "Âm Hán Việt \"bối quảng\" không giúp đoán nghĩa. Ngày nay người Nhật cũng hay nói スーツ.",
+      "examples": [
+        {
+          "ja": "父は背広を着て、会社に行きます。",
+          "vi": "Bố tôi mặc vest đi làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 667,
+      "word": "ワイシャツ",
+      "meaningsVi": [
+        "áo sơ mi (mặc với vest, thường màu trắng)"
+      ],
+      "noteVi": "Từ tiếng Anh \"white shirt\" đọc theo kiểu Nhật: áo sơ mi có cổ, mặc đi làm.",
+      "examples": [
+        {
+          "ja": "白いワイシャツを着て、ネクタイを締めます。",
+          "vi": "Tôi mặc áo sơ mi trắng rồi thắt cà vạt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 614,
+      "word": "めがね",
+      "meaningsVi": [
+        "kính (đeo mắt)"
+      ],
+      "noteVi": "Đeo kính dùng かけます: めがねをかけます (không dùng 着ます). Chữ Hán: 眼鏡.",
+      "examples": [
+        {
+          "ja": "兄はめがねをかけています。",
+          "vi": "Anh trai tôi đeo kính."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 321,
+      "word": "住む",
+      "meaningsVi": [
+        "sống, ở (nơi nào)"
+      ],
+      "noteVi": "Nơi ở dùng に, không dùng で: ハノイに住んでいます. Nói nơi mình đang sống thì dùng 住んでいます (trạng thái), không dùng 住みます.",
+      "examples": [
+        {
+          "ja": "私はハノイに住んでいます。",
+          "vi": "Tôi sống ở Hà Nội."
+        },
+        {
+          "ja": "どこに住んでいますか。",
+          "vi": "Anh chị sống ở đâu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 31,
+      "word": "アパート",
+      "meaningsVi": [
+        "căn hộ (cho thuê), nhà tập thể nhỏ"
+      ],
+      "noteVi": "アパート thường là nhà cho thuê nhỏ, hai ba tầng, giá rẻ; chung cư cao tầng thường gọi là マンション.",
+      "examples": [
+        {
+          "ja": "駅の近くのアパートに住んでいます。",
+          "vi": "Tôi sống ở một căn hộ gần ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 303,
+      "word": "知る",
+      "meaningsVi": [
+        "biết"
+      ],
+      "noteVi": "\"Biết\" nói là 知っています; \"không biết\" nói là 知りません (không nói 知っていません). Khác わかります (hiểu).",
+      "examples": [
+        {
+          "ja": "田中さんの電話番号を知っていますか。",
+          "vi": "Anh chị có biết số điện thoại của anh Tanaka không?"
+        },
+        {
+          "ja": "いいえ、知りません。",
+          "vi": "Không, tôi không biết."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 223,
+      "word": "結婚",
+      "meaningsVi": [
+        "kết hôn, cưới"
+      ],
+      "noteVi": "Dùng với します. 結婚しました: đã cưới (sự việc lúc nào đó); 結婚しています: đã có gia đình (tình trạng hiện nay). Cưới ai dùng と: 田中さんと結婚します.",
+      "examples": [
+        {
+          "ja": "姉は結婚しています。",
+          "vi": "Chị tôi đã có gia đình."
+        },
+        {
+          "ja": "兄は去年結婚しました。",
+          "vi": "Anh trai tôi cưới vợ năm ngoái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 392,
+      "word": "勤める",
+      "meaningsVi": [
+        "làm việc (cho công ty, cơ quan)"
+      ],
+      "noteVi": "Nơi làm việc dùng に: 銀行に勤めています. So với 働きます (銀行で働きます), 勤めます nói mình là nhân viên của nơi đó; thường dùng ở dạng 勤めています.",
+      "examples": [
+        {
+          "ja": "父は銀行に勤めています。",
+          "vi": "Bố tôi làm ở ngân hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 113,
+      "word": "お父さん",
+      "meaningsVi": [
+        "bố (của người khác)",
+        "bố ơi (gọi bố mình)"
+      ],
+      "noteVi": "Nói về bố người khác, hoặc gọi bố mình trong nhà: お父さん. Khi kể với người ngoài về bố mình thì dùng 父 (ちち).",
+      "examples": [
+        {
+          "ja": "お父さんはどこに勤めていますか。",
+          "vi": "Bố bạn làm ở đâu?"
+        },
+        {
+          "ja": "お父さん、おはよう。",
+          "vi": "Con chào bố ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 99,
+      "word": "お母さん",
+      "meaningsVi": [
+        "mẹ (của người khác)",
+        "mẹ ơi (gọi mẹ mình)"
+      ],
+      "noteVi": "Kể với người ngoài về mẹ mình thì dùng 母 (はは).",
+      "examples": [
+        {
+          "ja": "マイさんのお母さんは先生ですか。",
+          "vi": "Mẹ của Mai là giáo viên à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 122,
+      "word": "お兄さん",
+      "meaningsVi": [
+        "anh trai (của người khác)",
+        "anh ơi (gọi anh mình)"
+      ],
+      "noteVi": "Kể với người ngoài về anh mình thì dùng 兄 (あに).",
+      "examples": [
+        {
+          "ja": "お兄さんは結婚していますか。",
+          "vi": "Anh trai bạn có gia đình chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 123,
+      "word": "お姉さん",
+      "meaningsVi": [
+        "chị gái (của người khác)",
+        "chị ơi (gọi chị mình)"
+      ],
+      "noteVi": "Kể với người ngoài về chị mình thì dùng 姉 (あね). お姉さん cũng dùng để gọi một cô gái trẻ không quen.",
+      "examples": [
+        {
+          "ja": "ランさんのお姉さんは東京に住んでいます。",
+          "vi": "Chị gái của Lan sống ở Tokyo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 104,
+      "word": "奥さん",
+      "meaningsVi": [
+        "vợ (của người khác)"
+      ],
+      "noteVi": "Chỉ dùng cho vợ người khác; không dùng để nói về vợ mình (khi đó dùng 妻 つま).",
+      "examples": [
+        {
+          "ja": "田中さんの奥さんは料理が上手です。",
+          "vi": "Vợ anh Tanaka nấu ăn giỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 615,
+      "word": "もう",
+      "meaningsVi": [
+        "đã, rồi",
+        "(trong câu hỏi) … chưa?"
+      ],
+      "noteVi": "もう〜ました: đã … rồi; もう〜ましたか: đã … chưa? Trong もう一度 (một lần nữa), もう nghĩa là \"thêm\".",
+      "examples": [
+        {
+          "ja": "もう昼ご飯を食べましたか。",
+          "vi": "Bạn ăn trưa chưa?"
+        },
+        {
+          "ja": "はい、もう食べました。",
+          "vi": "Rồi, tôi ăn rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 583,
+      "word": "まだ",
+      "meaningsVi": [
+        "chưa",
+        "vẫn còn"
+      ],
+      "noteVi": "Với câu phủ định là \"chưa\" (まだ〜ていません); với câu khẳng định là \"vẫn còn\". Trả lời ngắn \"chưa\": いいえ、まだです.",
+      "examples": [
+        {
+          "ja": "いいえ、まだです。",
+          "vi": "Chưa."
+        },
+        {
+          "ja": "まだ雨が降っています。",
+          "vi": "Trời vẫn còn mưa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "父",
+      "meaningVi": "cha, bố",
+      "noteVi": "Một mình đọc ちち (bố mình, khi kể với người ngoài). お父さん đọc là おとうさん (cách đọc đặc biệt).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "母",
+      "meaningVi": "mẹ",
+      "noteVi": "Một mình đọc はは; お母さん đọc là おかあさん. Hai chấm bên trong như bầu sữa mẹ. Đừng nhầm với 毎 (mỗi, trong 毎日): 毎 có thêm nét ở trên.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "te-iru",
+      "titleVi": "〜ています: đang…, trạng thái hiện nay",
+      "summaryVi": "V ています: hành động đang diễn ra (đang ăn), trạng thái còn lại sau một thay đổi (đã kết hôn, đang sống ở…), hoặc việc làm thường xuyên.",
+      "explanationVi": [
+        "**V て + います** có ba cách dùng chính. (1) **Hành động đang diễn ra**, giống \"đang\": 「今、テレビを見ています」 (bây giờ tôi đang xem tivi). Thiếu ています thì câu không còn nghĩa \"đang\": 「今、勉強します」 là \"bây giờ (tôi sẽ) học\".",
+        "(2) **Trạng thái hiện nay**, là kết quả của một việc đã xảy ra: 「結婚しています」 (đã có gia đình), 「ハノイに住んでいます」 (đang sống ở Hà Nội), 「田中さんを知っています」 (biết anh Tanaka), 「めがねをかけています」 (đang đeo kính), 「赤いスカートをはいています」 (đang mặc váy đỏ). Tiếng Việt hay nói \"đã…\" nên người Việt dễ dùng nhầm 〜ました: 「結婚しました」 chỉ kể việc cưới (lúc nào đó), còn nói tình trạng hiện nay thì dùng 「結婚しています」.",
+        "(3) **Việc làm thường xuyên, nghề nghiệp**: 「父は銀行に勤めています」 (bố tôi làm ở ngân hàng), 「毎朝、公園を散歩しています」.",
+        "Phủ định là **〜ていません**, quá khứ là **〜ていました**. Riêng \"không biết\" nói là 「知りません」, không nói 「知っていません」."
+      ],
+      "patterns": [
+        "V て います",
+        "V て いません",
+        "N に 住んで います／勤めて います"
+      ],
+      "examples": [
+        {
+          "ja": "今、テレビを見ています。",
+          "vi": "Bây giờ tôi đang xem tivi."
+        },
+        {
+          "ja": "田中さんは結婚しています。",
+          "vi": "Anh Tanaka đã có gia đình."
+        },
+        {
+          "ja": "姉は大阪の会社に勤めています。",
+          "vi": "Chị tôi làm ở một công ty ở Osaka."
+        },
+        {
+          "ja": "グエンさんは白いシャツを着ています。",
+          "vi": "Anh Nguyễn đang mặc áo sơ mi trắng."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "東京で住んでいます。",
+          "right": "東京に住んでいます。",
+          "noteVi": "\"Sống ở\" là に住んでいます. で chỉ nơi diễn ra một hành động (東京で働いています), không dùng với 住みます."
+        },
+        {
+          "wrong": "私は田中さんを知っていません。",
+          "right": "私は田中さんを知りません。",
+          "noteVi": "Phủ định của 知っています là 知りません."
+        },
+        {
+          "wrong": "兄はズボンを着ています。",
+          "right": "兄はズボンをはいています。",
+          "noteVi": "Tiếng Việt đều nói \"mặc\", nhưng mặc quần, váy, đi giày, tất dùng はきます; 着ます chỉ dùng cho áo, đồ mặc thân trên."
+        },
+        {
+          "wrong": "マイさんは今、勉強します。",
+          "right": "マイさんは今、勉強しています。",
+          "noteVi": "Câu bên trái không sai ngữ pháp nhưng nghĩa là \"bây giờ Mai (sẽ) học\". Muốn nói \"Mai đang học\" phải dùng 〜ています."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mou-ta",
+      "titleVi": "もう〜ました: đã … rồi",
+      "summaryVi": "もう + V ました: đã làm rồi; もう〜ましたか: đã … chưa?",
+      "explanationVi": [
+        "**もう** + V **ました** nghĩa là \"đã … rồi\": 「もう宿題をしました」 (em làm bài tập rồi). もう thường đứng trước cụm động từ hoặc ngay sau chủ đề: 「授業はもう始まりました」.",
+        "Câu hỏi **もう〜ましたか** tương đương \"đã … chưa?\": 「もう昼ご飯を食べましたか」 (ăn trưa chưa?). Trả lời \"rồi\": 「はい、もう食べました」; trả lời \"chưa\": 「いいえ、まだです」 hoặc 「いいえ、まだ食べていません」 (mẫu tiếp theo).",
+        "Mẫu này vốn là もう〜た (thể た, thân mật, học ở bài 23); trong câu lịch sự ta dùng もう〜ました."
+      ],
+      "patterns": [
+        "もう V ました",
+        "もう V ましたか"
+      ],
+      "examples": [
+        {
+          "ja": "もう宿題をしましたか。",
+          "vi": "Em làm bài tập chưa?"
+        },
+        {
+          "ja": "はい、もう宿題をしました。",
+          "vi": "Rồi, em làm bài tập rồi."
+        },
+        {
+          "ja": "授業はもう始まりました。",
+          "vi": "Giờ học bắt đầu rồi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "はい、まだ食べました。",
+          "right": "はい、もう食べました。",
+          "noteVi": "\"Rồi\" là もう. まだ chỉ đi với câu phủ định (chưa) hoặc mang nghĩa \"vẫn còn\"."
+        },
+        {
+          "wrong": "もう宿題をします。",
+          "right": "もう宿題をしました。",
+          "noteVi": "Câu bên trái nghĩa là \"giờ tôi làm bài tập đây\". Muốn nói \"đã làm rồi\" thì động từ phải ở quá khứ 〜ました."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mada-te-inai",
+      "titleVi": "まだ〜ていません: vẫn chưa…",
+      "summaryVi": "まだ + V ていません: (đến giờ) vẫn chưa làm; trả lời ngắn: いいえ、まだです.",
+      "explanationVi": [
+        "\"Chưa làm\" nói là **まだ + V ていません**: 「まだ昼ご飯を食べていません」 (tôi chưa ăn trưa). Dùng 〜ていません vì đây là tình trạng tính đến bây giờ; việc đó có thể sẽ làm sau.",
+        "Người Việt hay nói 「まだ食べませんでした」 vì \"chưa\" nghe như phủ định của quá khứ. Câu đó sai: 〜ませんでした chỉ dùng cho việc đã không làm trong một lúc đã qua (「昨日は朝ごはんを食べませんでした」: hôm qua tôi đã không ăn sáng).",
+        "Trả lời ngắn cho câu hỏi もう〜ましたか: 「いいえ、まだです」. Thể thân mật 〜ていない sẽ học ở bài 21."
+      ],
+      "patterns": [
+        "まだ V て いません",
+        "いいえ、まだです"
+      ],
+      "examples": [
+        {
+          "ja": "まだ昼ご飯を食べていません。",
+          "vi": "Tôi vẫn chưa ăn trưa."
+        },
+        {
+          "ja": "電車はまだ来ていません。",
+          "vi": "Tàu vẫn chưa đến."
+        },
+        {
+          "ja": "いいえ、まだしていません。",
+          "vi": "Chưa, em vẫn chưa làm."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "いいえ、まだ食べませんでした。",
+          "right": "いいえ、まだ食べていません。",
+          "noteVi": "\"Chưa ăn\" là まだ食べていません. 〜ませんでした là \"đã không ăn\" (trong một lúc đã qua), không đi với まだ."
+        },
+        {
+          "wrong": "いいえ、もう食べていません。",
+          "right": "いいえ、まだ食べていません。",
+          "noteVi": "\"Chưa\" là まだ. もう + phủ định nghĩa là \"không … nữa\": câu bên trái thành \"giờ tôi không ăn nữa\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-19-e01",
+      "type": "choice",
+      "grammar": [
+        "te-iru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Anh Tanaka đang đọc sách\"?",
+      "options": [
+        "田中さんは本を読んでいます。",
+        "田中さんは本を読みます。",
+        "田中さんは本を読みました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-19-e02",
+      "type": "fill",
+      "grammar": [
+        "te-iru"
+      ],
+      "before": "今、晩ご飯を",
+      "after": "います。",
+      "answers": [
+        "食べて"
+      ],
+      "options": [
+        "食べ",
+        "食べて",
+        "食べって"
+      ],
+      "vi": "Bây giờ tôi đang ăn tối.",
+      "explainVi": "ています ghép sau thể て: 食べます → 食べて → 食べています."
+    },
+    {
+      "id": "n5-19-e03",
+      "type": "choice",
+      "grammar": [
+        "te-iru"
+      ],
+      "promptVi": "Anh trai tôi đang mặc quần đen. Chọn động từ đúng.",
+      "ja": "兄は黒いズボンを＿います。",
+      "options": [
+        "着て",
+        "はいて",
+        "締めて"
+      ],
+      "answer": 1,
+      "explainVi": "Quần, váy, giày, tất dùng はきます."
+    },
+    {
+      "id": "n5-19-e04",
+      "type": "choice",
+      "grammar": [
+        "te-iru"
+      ],
+      "promptVi": "Anh Tanaka đeo kính. Chọn động từ đúng.",
+      "ja": "田中さんはめがねを＿います。",
+      "options": [
+        "かけて",
+        "着て",
+        "はいて"
+      ],
+      "answer": 0,
+      "explainVi": "Đeo kính: めがねをかけます."
+    },
+    {
+      "id": "n5-19-e05",
+      "type": "match",
+      "promptVi": "Ghép đồ dùng với động từ \"mặc, đeo\" đúng",
+      "pairs": [
+        [
+          "シャツ",
+          "着ます"
+        ],
+        [
+          "ズボン",
+          "はきます"
+        ],
+        [
+          "ネクタイ",
+          "締めます"
+        ],
+        [
+          "めがね",
+          "かけます"
+        ]
+      ]
+    },
+    {
+      "id": "n5-19-e06",
+      "type": "order",
+      "grammar": [
+        "te-iru"
+      ],
+      "vi": "Tôi sống ở một căn hộ gần ga.",
+      "tiles": [
+        "住んで",
+        "アパートに",
+        "います",
+        "駅の",
+        "近くの"
+      ],
+      "answers": [
+        "駅の近くのアパートに住んでいます"
+      ]
+    },
+    {
+      "id": "n5-19-e07",
+      "type": "choice",
+      "grammar": [
+        "te-iru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Chị tôi đã có gia đình\" (tình trạng hiện nay)?",
+      "options": [
+        "姉は結婚します。",
+        "姉は結婚しています。",
+        "姉は結婚しませんでした。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-19-e08",
+      "type": "choice",
+      "grammar": [
+        "te-iru"
+      ],
+      "promptVi": "Trả lời \"Không\" cho câu hỏi này:",
+      "ja": "田中さんを知っていますか。",
+      "options": [
+        "いいえ、知っていません。",
+        "いいえ、知りませんでした。",
+        "いいえ、知りません。"
+      ],
+      "answer": 2,
+      "explainVi": "Phủ định của 知っています là 知りません."
+    },
+    {
+      "id": "n5-19-e09",
+      "type": "order",
+      "grammar": [
+        "te-iru"
+      ],
+      "vi": "Bố tôi làm ở ngân hàng.",
+      "tiles": [
+        "勤めて",
+        "父は",
+        "います",
+        "銀行に"
+      ],
+      "answers": [
+        "父は銀行に勤めています"
+      ]
+    },
+    {
+      "id": "n5-19-e10",
+      "type": "choice",
+      "grammar": [
+        "mou-ta"
+      ],
+      "promptVi": "Hỏi bạn: \"Bạn ăn trưa chưa?\"",
+      "options": [
+        "まだ昼ご飯を食べましたか。",
+        "もう昼ご飯を食べましたか。",
+        "もう昼ご飯を食べますか。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-19-e11",
+      "type": "fill",
+      "grammar": [
+        "mou-ta"
+      ],
+      "before": "はい、",
+      "after": "食べました。",
+      "answers": [
+        "もう"
+      ],
+      "options": [
+        "まだ",
+        "また",
+        "もう"
+      ],
+      "vi": "Rồi, tôi ăn rồi."
+    },
+    {
+      "id": "n5-19-e12",
+      "type": "order",
+      "grammar": [
+        "mou-ta"
+      ],
+      "vi": "Giờ học bắt đầu rồi.",
+      "tiles": [
+        "始まりました",
+        "授業は",
+        "もう"
+      ],
+      "answers": [
+        "授業はもう始まりました",
+        "もう授業は始まりました"
+      ]
+    },
+    {
+      "id": "n5-19-e13",
+      "type": "choice",
+      "grammar": [
+        "mou-ta",
+        "mada-te-inai"
+      ],
+      "promptVi": "Trả lời \"Chưa\" cho câu hỏi này:",
+      "ja": "もう手紙を書きましたか。",
+      "options": [
+        "はい、もう書きました。",
+        "いいえ、まだです。",
+        "いいえ、もう書きません。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-19-e14",
+      "type": "fill",
+      "grammar": [
+        "mada-te-inai"
+      ],
+      "before": "いいえ、まだ",
+      "after": "。",
+      "answers": [
+        "食べていません"
+      ],
+      "options": [
+        "食べませんでした",
+        "食べていません",
+        "食べません"
+      ],
+      "vi": "Chưa, tôi vẫn chưa ăn.",
+      "explainVi": "\"Chưa làm\": まだ + V ていません, không dùng 〜ませんでした."
+    },
+    {
+      "id": "n5-19-e15",
+      "type": "choice",
+      "grammar": [
+        "mada-te-inai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tàu vẫn chưa đến\"?",
+      "options": [
+        "電車はもう来ました。",
+        "電車はまだ来ませんでした。",
+        "電車はまだ来ていません。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-19-e16",
+      "type": "order",
+      "grammar": [
+        "mada-te-inai"
+      ],
+      "vi": "Tôi vẫn chưa làm bài tập.",
+      "tiles": [
+        "して",
+        "宿題を",
+        "いません",
+        "まだ"
+      ],
+      "answers": [
+        "まだ宿題をしていません",
+        "宿題をまだしていません"
+      ]
+    },
+    {
+      "id": "n5-19-e17",
+      "type": "choice",
+      "promptVi": "Trời vẫn còn mưa. Chọn từ đúng.",
+      "ja": "＿雨が降っています。",
+      "options": [
+        "まだ",
+        "もう",
+        "また"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-19-e18",
+      "type": "choice",
+      "promptVi": "Bạn nói với thầy giáo về bố của mình. Câu nào đúng?",
+      "options": [
+        "お父さんは銀行に勤めています。",
+        "父は銀行に勤めています。",
+        "奥さんは銀行に勤めています。"
+      ],
+      "answer": 1,
+      "explainVi": "Kể với người ngoài về bố mình dùng 父; お父さん dùng cho bố của người khác."
+    },
+    {
+      "id": "n5-19-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "お父さん",
+          "bố (của người khác)"
+        ],
+        [
+          "お母さん",
+          "mẹ (của người khác)"
+        ],
+        [
+          "お兄さん",
+          "anh trai (của người khác)"
+        ],
+        [
+          "お姉さん",
+          "chị gái (của người khác)"
+        ],
+        [
+          "奥さん",
+          "vợ (của người khác)"
+        ]
+      ]
+    },
+    {
+      "id": "n5-19-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "背広",
+          "bộ vest"
+        ],
+        [
+          "靴下",
+          "tất, vớ"
+        ],
+        [
+          "スカート",
+          "váy"
+        ],
+        [
+          "ワイシャツ",
+          "áo sơ mi"
+        ],
+        [
+          "めがね",
+          "kính"
+        ]
+      ]
+    }
+  ],
+  "ruby": {
+    "田中さんは白いシャツを着ています。": "{田中|たなか}さんは{白|しろ}いシャツを{着|き}ています。",
+    "毎日背広を着て、会社に行きます。": "{毎|まい}{日|にち}{背|せ}{広|びろ}を{着|き}て、{会|かい}{社|しゃ}に{行|い}きます。",
+    "妹は赤いスカートをはいています。": "{妹|いもうと}は{赤|あか}いスカートをはいています。",
+    "新しい靴をはいて、出かけます。": "{新|あたら}しい{靴|くつ}をはいて、{出|で}かけます。",
+    "父は毎日ネクタイを締めて、会社に行きます。": "{父|ちち}は{毎|まい}{日|にち}ネクタイを{締|し}めて、{会|かい}{社|しゃ}に{行|い}きます。",
+    "田中さんは青いネクタイを締めています。": "{田中|たなか}さんは{青|あお}いネクタイを{締|し}めています。",
+    "このシャツは少し大きいです。": "このシャツは{少|すこ}し{大|おお}きいです。",
+    "このスカートは短いですね。": "このスカートは{短|みじか}いですね。",
+    "兄は黒いズボンをはいています。": "{兄|あに}は{黒|くろ}いズボンをはいています。",
+    "デパートで靴下を3足買いました。": "デパートで{靴|くつ}{下|した}を3{足|ぞく}{買|か}いました。",
+    "父は背広を着て、会社に行きます。": "{父|ちち}は{背|せ}{広|びろ}を{着|き}て、{会|かい}{社|しゃ}に{行|い}きます。",
+    "白いワイシャツを着て、ネクタイを締めます。": "{白|しろ}いワイシャツを{着|き}て、ネクタイを{締|し}めます。",
+    "兄はめがねをかけています。": "{兄|あに}はめがねをかけています。",
+    "私はハノイに住んでいます。": "{私|わたし}はハノイに{住|す}んでいます。",
+    "どこに住んでいますか。": "どこに{住|す}んでいますか。",
+    "駅の近くのアパートに住んでいます。": "{駅|えき}の{近|ちか}くのアパートに{住|す}んでいます。",
+    "田中さんの電話番号を知っていますか。": "{田中|たなか}さんの{電|でん}{話|わ}{番|ばん}{号|ごう}を{知|し}っていますか。",
+    "いいえ、知りません。": "いいえ、{知|し}りません。",
+    "姉は結婚しています。": "{姉|あね}は{結|けっ}{婚|こん}しています。",
+    "兄は去年結婚しました。": "{兄|あに}は{去|きょ}{年|ねん}{結|けっ}{婚|こん}しました。",
+    "父は銀行に勤めています。": "{父|ちち}は{銀|ぎん}{行|こう}に{勤|つと}めています。",
+    "お父さんはどこに勤めていますか。": "お{父|とう}さんはどこに{勤|つと}めていますか。",
+    "お父さん、おはよう。": "お{父|とう}さん、おはよう。",
+    "マイさんのお母さんは先生ですか。": "マイさんのお{母|かあ}さんは{先|せん}{生|せい}ですか。",
+    "お兄さんは結婚していますか。": "お{兄|にい}さんは{結|けっ}{婚|こん}していますか。",
+    "ランさんのお姉さんは東京に住んでいます。": "ランさんのお{姉|ねえ}さんは{東京|とうきょう}に{住|す}んでいます。",
+    "田中さんの奥さんは料理が上手です。": "{田中|たなか}さんの{奥|おく}さんは{料|りょう}{理|り}が{上手|じょうず}です。",
+    "もう昼ご飯を食べましたか。": "もう{昼|ひる}ご{飯|はん}を{食|た}べましたか。",
+    "はい、もう食べました。": "はい、もう{食|た}べました。",
+    "いいえ、まだです。": "いいえ、まだです。",
+    "まだ雨が降っています。": "まだ{雨|あめ}が{降|ふ}っています。",
+    "今、テレビを見ています。": "{今|いま}、テレビを{見|み}ています。",
+    "田中さんは結婚しています。": "{田中|たなか}さんは{結|けっ}{婚|こん}しています。",
+    "姉は大阪の会社に勤めています。": "{姉|あね}は{大阪|おおさか}の{会|かい}{社|しゃ}に{勤|つと}めています。",
+    "グエンさんは白いシャツを着ています。": "グエンさんは{白|しろ}いシャツを{着|き}ています。",
+    "東京に住んでいます。": "{東京|とうきょう}に{住|す}んでいます。",
+    "東京で住んでいます。": "{東京|とうきょう}で{住|す}んでいます。",
+    "私は田中さんを知りません。": "{私|わたし}は{田中|たなか}さんを{知|し}りません。",
+    "私は田中さんを知っていません。": "{私|わたし}は{田中|たなか}さんを{知|し}っていません。",
+    "兄はズボンをはいています。": "{兄|あに}はズボンをはいています。",
+    "兄はズボンを着ています。": "{兄|あに}はズボンを{着|き}ています。",
+    "マイさんは今、勉強しています。": "マイさんは{今|いま}、{勉|べん}{強|きょう}しています。",
+    "マイさんは今、勉強します。": "マイさんは{今|いま}、{勉|べん}{強|きょう}します。",
+    "もう宿題をしましたか。": "もう{宿|しゅく}{題|だい}をしましたか。",
+    "はい、もう宿題をしました。": "はい、もう{宿|しゅく}{題|だい}をしました。",
+    "授業はもう始まりました。": "{授|じゅ}{業|ぎょう}はもう{始|はじ}まりました。",
+    "はい、まだ食べました。": "はい、まだ{食|た}べました。",
+    "もう宿題をしました。": "もう{宿|しゅく}{題|だい}をしました。",
+    "もう宿題をします。": "もう{宿|しゅく}{題|だい}をします。",
+    "まだ昼ご飯を食べていません。": "まだ{昼|ひる}ご{飯|はん}を{食|た}べていません。",
+    "電車はまだ来ていません。": "{電|でん}{車|しゃ}はまだ{来|き}ていません。",
+    "いいえ、まだしていません。": "いいえ、まだしていません。",
+    "いいえ、まだ食べていません。": "いいえ、まだ{食|た}べていません。",
+    "いいえ、まだ食べませんでした。": "いいえ、まだ{食|た}べませんでした。",
+    "いいえ、もう食べていません。": "いいえ、もう{食|た}べていません。",
+    "田中さんは本を読んでいます。": "{田中|たなか}さんは{本|ほん}を{読|よ}んでいます。",
+    "田中さんは本を読みます。": "{田中|たなか}さんは{本|ほん}を{読|よ}みます。",
+    "田中さんは本を読みました。": "{田中|たなか}さんは{本|ほん}を{読|よ}みました。",
+    "今、晩ご飯を食べています。": "{今|いま}、{晩|ばん}ご{飯|はん}を{食|た}べています。",
+    "食べて": "{食|た}べて",
+    "食べ": "{食|た}べ",
+    "食べって": "{食|た}べって",
+    "兄は黒いズボンを＿います。": "{兄|あに}は{黒|くろ}いズボンを＿います。",
+    "着て": "{着|き}て",
+    "はいて": "はいて",
+    "締めて": "{締|し}めて",
+    "田中さんはめがねを＿います。": "{田中|たなか}さんはめがねを＿います。",
+    "かけて": "かけて",
+    "シャツ": "シャツ",
+    "着ます": "{着|き}ます",
+    "ズボン": "ズボン",
+    "はきます": "はきます",
+    "ネクタイ": "ネクタイ",
+    "締めます": "{締|し}めます",
+    "めがね": "めがね",
+    "かけます": "かけます",
+    "住んで": "{住|す}んで",
+    "アパートに": "アパートに",
+    "います": "います",
+    "駅の": "{駅|えき}の",
+    "近くの": "{近|ちか}くの",
+    "駅の近くのアパートに住んでいます": "{駅|えき}の{近|ちか}くのアパートに{住|す}んでいます",
+    "姉は結婚します。": "{姉|あね}は{結|けっ}{婚|こん}します。",
+    "姉は結婚しませんでした。": "{姉|あね}は{結|けっ}{婚|こん}しませんでした。",
+    "田中さんを知っていますか。": "{田中|たなか}さんを{知|し}っていますか。",
+    "いいえ、知っていません。": "いいえ、{知|し}っていません。",
+    "いいえ、知りませんでした。": "いいえ、{知|し}りませんでした。",
+    "勤めて": "{勤|つと}めて",
+    "父は": "{父|ちち}は",
+    "銀行に": "{銀|ぎん}{行|こう}に",
+    "父は銀行に勤めています": "{父|ちち}は{銀|ぎん}{行|こう}に{勤|つと}めています",
+    "まだ昼ご飯を食べましたか。": "まだ{昼|ひる}ご{飯|はん}を{食|た}べましたか。",
+    "もう昼ご飯を食べますか。": "もう{昼|ひる}ご{飯|はん}を{食|た}べますか。",
+    "もう": "もう",
+    "まだ": "まだ",
+    "また": "また",
+    "始まりました": "{始|はじ}まりました",
+    "授業は": "{授|じゅ}{業|ぎょう}は",
+    "授業はもう始まりました": "{授|じゅ}{業|ぎょう}はもう{始|はじ}まりました",
+    "もう授業は始まりました": "もう{授|じゅ}{業|ぎょう}は{始|はじ}まりました",
+    "もう手紙を書きましたか。": "もう{手|て}{紙|がみ}を{書|か}きましたか。",
+    "はい、もう書きました。": "はい、もう{書|か}きました。",
+    "いいえ、もう書きません。": "いいえ、もう{書|か}きません。",
+    "食べていません": "{食|た}べていません",
+    "食べませんでした": "{食|た}べませんでした",
+    "食べません": "{食|た}べません",
+    "電車はもう来ました。": "{電|でん}{車|しゃ}はもう{来|き}ました。",
+    "電車はまだ来ませんでした。": "{電|でん}{車|しゃ}はまだ{来|き}ませんでした。",
+    "して": "して",
+    "宿題を": "{宿|しゅく}{題|だい}を",
+    "いません": "いません",
+    "まだ宿題をしていません": "まだ{宿|しゅく}{題|だい}をしていません",
+    "宿題をまだしていません": "{宿|しゅく}{題|だい}をまだしていません",
+    "＿雨が降っています。": "＿{雨|あめ}が{降|ふ}っています。",
+    "お父さんは銀行に勤めています。": "お{父|とう}さんは{銀|ぎん}{行|こう}に{勤|つと}めています。",
+    "奥さんは銀行に勤めています。": "{奥|おく}さんは{銀|ぎん}{行|こう}に{勤|つと}めています。",
+    "お父さん": "お{父|とう}さん",
+    "お母さん": "お{母|かあ}さん",
+    "お兄さん": "お{兄|にい}さん",
+    "お姉さん": "お{姉|ねえ}さん",
+    "奥さん": "{奥|おく}さん",
+    "背広": "{背|せ}{広|びろ}",
+    "靴下": "{靴|くつ}{下|した}",
+    "スカート": "スカート",
+    "ワイシャツ": "ワイシャツ"
+  }
+}
