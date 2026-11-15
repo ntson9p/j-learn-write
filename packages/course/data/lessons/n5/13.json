@@ -1,0 +1,1132 @@
+{
+  "id": "n5-13",
+  "goalsVi": [
+    "Nói về sở thích: 音楽が好きです, 肉が嫌いです",
+    "Nói ai giỏi, ai kém việc gì: マイさんは歌が上手です",
+    "Nối hai ý trái ngược với が và でも; hỏi và nêu lý do với どうして, なぜ, から"
+  ],
+  "words": [
+    {
+      "no": 310,
+      "word": "好き",
+      "meaningsVi": [
+        "thích"
+      ],
+      "noteVi": "Là tính từ đuôi な, không phải động từ: 音楽が好きです (thích âm nhạc), 好きな歌 (bài hát yêu thích). Thứ được thích đi với が.",
+      "examples": [
+        {
+          "ja": "私は日本の音楽が好きです。",
+          "vi": "Tôi thích nhạc Nhật."
+        },
+        {
+          "ja": "好きな食べ物は何ですか。",
+          "vi": "Món ăn bạn thích là gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 196,
+      "word": "嫌い",
+      "meaningsVi": [
+        "ghét, không thích"
+      ],
+      "noteVi": "Cũng là tính từ đuôi な: 嫌いな食べ物 (món ăn mình ghét). 嫌いです nghe khá mạnh; muốn nói nhẹ nhàng thì dùng あまり好きではありません. Âm Hán Việt \"hiềm\" (hiềm khích).",
+      "examples": [
+        {
+          "ja": "ナムさんは魚が嫌いです。",
+          "vi": "Anh Nam ghét cá."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 353,
+      "word": "大好き",
+      "meaningsVi": [
+        "rất thích"
+      ],
+      "noteVi": "大好き đã có nghĩa \"rất\", không cần thêm とても.",
+      "examples": [
+        {
+          "ja": "私は果物が大好きです。",
+          "vi": "Tôi rất thích hoa quả."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 299,
+      "word": "上手",
+      "meaningsVi": [
+        "giỏi, khéo"
+      ],
+      "noteVi": "Đọc じょうず. Dùng để khen người khác; nói về mình mà dùng 上手 nghe như tự khen.",
+      "examples": [
+        {
+          "ja": "アンさんは料理が上手です。",
+          "vi": "Chị An nấu ăn giỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 553,
+      "word": "下手",
+      "meaningsVi": [
+        "kém, dở"
+      ],
+      "noteVi": "Đọc へた. Âm Hán Việt \"hạ thủ\" nhưng nghĩa là kém, dở, không phải \"ra tay\" như trong tiếng Việt.",
+      "examples": [
+        {
+          "ja": "私は歌が下手です。",
+          "vi": "Tôi hát dở."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 318,
+      "word": "スポーツ",
+      "meaningsVi": [
+        "thể thao"
+      ],
+      "examples": [
+        {
+          "ja": "好きなスポーツは何ですか。",
+          "vi": "Bạn thích môn thể thao nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 137,
+      "word": "音楽",
+      "meaningsVi": [
+        "âm nhạc"
+      ],
+      "noteVi": "Âm Hán Việt \"âm nhạc\" (楽 ở đây đọc là \"nhạc\").",
+      "examples": [
+        {
+          "ja": "毎晩、音楽を聞きます。",
+          "vi": "Tối nào tôi cũng nghe nhạc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 79,
+      "word": "歌",
+      "meaningsVi": [
+        "bài hát",
+        "tiếng hát, việc hát"
+      ],
+      "noteVi": "Hát một bài hát: 歌を歌います.",
+      "examples": [
+        {
+          "ja": "マイさんは歌が上手です。",
+          "vi": "Mai hát hay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 80,
+      "word": "歌う",
+      "meaningsVi": [
+        "hát"
+      ],
+      "examples": [
+        {
+          "ja": "パーティーで日本の歌を歌いました。",
+          "vi": "Tôi đã hát một bài hát Nhật ở bữa tiệc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 183,
+      "word": "ギター",
+      "meaningsVi": [
+        "đàn ghi-ta"
+      ],
+      "noteVi": "Chơi ghi-ta: ギターを弾きます.",
+      "examples": [
+        {
+          "ja": "田中さんはギターが上手です。",
+          "vi": "Anh Tanaka chơi ghi-ta giỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 521,
+      "word": "弾く",
+      "meaningsVi": [
+        "chơi, đánh (đàn)"
+      ],
+      "noteVi": "Dùng cho nhạc cụ có dây hoặc có phím: ギター, ピアノ. Tiếng Việt nói \"chơi đàn\", nhưng tiếng Nhật không dùng する ở đây. Kanji 弾 còn có âm Hán Việt \"đàn\" (đánh đàn).",
+      "examples": [
+        {
+          "ja": "毎日ギターを弾きます。",
+          "vi": "Ngày nào tôi cũng chơi ghi-ta."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 86,
+      "word": "絵",
+      "meaningsVi": [
+        "tranh, bức vẽ"
+      ],
+      "noteVi": "Âm Hán Việt \"hội\" (hội họa). Vẽ tranh: 絵をかきます (thường viết 描きます).",
+      "examples": [
+        {
+          "ja": "グエンさんは絵が上手です。",
+          "vi": "Anh Nguyễn vẽ giỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 646,
+      "word": "読む",
+      "meaningsVi": [
+        "đọc"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝、新聞を読みます。",
+          "vi": "Sáng nào tôi cũng đọc báo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 181,
+      "word": "聞く",
+      "meaningsVi": [
+        "nghe",
+        "hỏi"
+      ],
+      "noteVi": "Hai nghĩa: nghe (音楽を聞きます) và hỏi (先生に聞きます; người được hỏi đi với に).",
+      "examples": [
+        {
+          "ja": "日本の歌をよく聞きます。",
+          "vi": "Tôi hay nghe các bài hát Nhật."
+        },
+        {
+          "ja": "わかりませんから、先生に聞きます。",
+          "vi": "Vì không hiểu nên tôi hỏi thầy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 505,
+      "word": "話す",
+      "meaningsVi": [
+        "nói, nói chuyện"
+      ],
+      "noteVi": "Nói một thứ tiếng: 日本語を話します. Nói chuyện với ai: 友達と話します.",
+      "examples": [
+        {
+          "ja": "マイさんは英語と日本語を話します。",
+          "vi": "Mai nói được tiếng Anh và tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 669,
+      "word": "わかる",
+      "meaningsVi": [
+        "hiểu",
+        "biết"
+      ],
+      "noteVi": "Thứ được hiểu đi với が, không dùng を: 日本語がわかります. Kanji: 分かる (thường viết bằng hiragana).",
+      "examples": [
+        {
+          "ja": "英語が少しわかります。",
+          "vi": "Tôi hiểu một chút tiếng Anh."
+        },
+        {
+          "ja": "すみません、わかりません。",
+          "vi": "Xin lỗi, tôi không hiểu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 658,
+      "word": "料理",
+      "meaningsVi": [
+        "món ăn",
+        "việc nấu ăn"
+      ],
+      "noteVi": "Âm Hán Việt \"liệu lý\". Vừa là món ăn (ベトナム料理 = món Việt), vừa là việc nấu ăn: 料理が上手です (nấu ăn giỏi), 料理します (nấu ăn).",
+      "examples": [
+        {
+          "ja": "ベトナム料理が好きです。",
+          "vi": "Tôi thích món ăn Việt Nam."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 176,
+      "word": "漢字",
+      "meaningsVi": [
+        "chữ Hán, kanji"
+      ],
+      "noteVi": "Âm Hán Việt \"hán tự\". Người Việt biết âm Hán Việt dễ đoán nghĩa của nhiều kanji, nhưng cách đọc tiếng Nhật phải học riêng.",
+      "examples": [
+        {
+          "ja": "漢字は難しいですが、おもしろいです。",
+          "vi": "Chữ Hán khó nhưng thú vị."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 418,
+      "word": "どうして",
+      "meaningsVi": [
+        "tại sao, vì sao"
+      ],
+      "noteVi": "Hay dùng khi nói chuyện. Trả lời bằng 「…から」 hoặc 「…からです」.",
+      "examples": [
+        {
+          "ja": "どうして昨日学校を休みましたか。",
+          "vi": "Tại sao hôm qua bạn nghỉ học?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 451,
+      "word": "なぜ",
+      "meaningsVi": [
+        "tại sao"
+      ],
+      "noteVi": "Cùng nghĩa với どうして nhưng trang trọng hơn, hay dùng trong văn viết.",
+      "examples": [
+        {
+          "ja": "なぜ日本へ来ましたか。",
+          "vi": "Tại sao bạn đến Nhật?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 407,
+      "word": "でも",
+      "meaningsVi": [
+        "nhưng, nhưng mà"
+      ],
+      "noteVi": "Đứng đầu câu thứ hai: 「…です。でも、…」. Muốn nối trong cùng một câu thì dùng が: 「…ですが、…」.",
+      "examples": [
+        {
+          "ja": "漢字は難しいです。でも、おもしろいです。",
+          "vi": "Chữ Hán khó. Nhưng mà thú vị."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 314,
+      "word": "少し",
+      "meaningsVi": [
+        "một chút, một ít"
+      ],
+      "noteVi": "Lịch sự hơn ちょっと. Âm Hán Việt \"thiểu\" (ít). Đừng nhầm kanji 少 (ít) với 小 (nhỏ).",
+      "examples": [
+        {
+          "ja": "日本語が少しわかります。",
+          "vi": "Tôi hiểu một chút tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 358,
+      "word": "たくさん",
+      "meaningsVi": [
+        "nhiều"
+      ],
+      "noteVi": "Thường đứng ngay trước động từ: たくさん食べます (ăn nhiều). Kanji 沢山 ít dùng.",
+      "examples": [
+        {
+          "ja": "昨日は本をたくさん読みました。",
+          "vi": "Hôm qua tôi đã đọc nhiều sách."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 421,
+      "word": "動物",
+      "meaningsVi": [
+        "động vật, con vật"
+      ],
+      "noteVi": "Âm Hán Việt \"động vật\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "私は動物が大好きです。",
+          "vi": "Tôi rất thích động vật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 555,
+      "word": "ペット",
+      "meaningsVi": [
+        "thú cưng, vật nuôi"
+      ],
+      "examples": [
+        {
+          "ja": "かわいいペットですね。",
+          "vi": "Thú cưng dễ thương nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "読",
+      "meaningVi": "đọc",
+      "noteVi": "言 (lời nói) + 売 (bán): rao bán bằng lời, đọc to lên. Có trong 読む.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "聞",
+      "meaningVi": "nghe; hỏi",
+      "noteVi": "Tai (耳) đặt ở cổng (門) để nghe. Có trong 聞く và 新聞 (báo). Dễ nhầm với 間 và 門.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "話",
+      "meaningVi": "nói chuyện; câu chuyện",
+      "noteVi": "言 (lời nói) + 舌 (lưỡi). Có trong 話す và 電話 (điện thoại).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ga-suki-ga-kirai",
+      "titleVi": "〜が好きです / 〜が嫌いです: thích, ghét",
+      "summaryVi": "N1 は N2 が好きです: N1 thích N2. Thứ được thích, bị ghét đi với が, không đi với を.",
+      "explanationVi": [
+        "**好き** (thích) và **嫌い** (ghét, không thích) là **tính từ đuôi な**, không phải động từ. Thứ được thích đánh dấu bằng **が**: 「私は音楽**が**好きです」 = Tôi thích âm nhạc.",
+        "Tiếng Việt \"thích\" là động từ, đi thẳng với tân ngữ (\"thích âm nhạc\"), nên người Việt hay nói nhầm 音楽**を**好きです. Hãy nhớ: **が**好き, **が**嫌い.",
+        "Mức độ: 大好きです (rất thích) > 好きです > あまり好きではありません (không thích lắm) > 嫌いです. 嫌いです nghe khá mạnh; 「あまり好きではありません」 nhẹ nhàng hơn.",
+        "Trước danh từ dùng な: 「好きな食べ物は何ですか」 = Món ăn bạn thích là gì?"
+      ],
+      "patterns": [
+        "N1 は N2 が 好きです／嫌いです",
+        "好きな N"
+      ],
+      "examples": [
+        {
+          "ja": "私は音楽が好きです。",
+          "vi": "Tôi thích âm nhạc."
+        },
+        {
+          "ja": "マイさんは肉が嫌いです。",
+          "vi": "Mai không thích thịt."
+        },
+        {
+          "ja": "好きなスポーツは何ですか。",
+          "vi": "Bạn thích môn thể thao nào?"
+        },
+        {
+          "ja": "私は魚があまり好きではありません。",
+          "vi": "Tôi không thích cá lắm."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は音楽を好きです。",
+          "right": "私は音楽が好きです。",
+          "noteVi": "好き là tính từ, không phải động từ như \"thích\" trong tiếng Việt; thứ được thích đi với が, không đi với を."
+        },
+        {
+          "wrong": "私は魚が好きくないです。",
+          "right": "私は魚が好きではありません。",
+          "noteVi": "好き là tính từ đuôi な: phủ định là 好きではありません (好きじゃありません), không chia như tính từ đuôi い."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ga-jouzu-ga-heta",
+      "titleVi": "〜が上手です / 〜が下手です: giỏi, kém",
+      "summaryVi": "N1 は N2 が上手です: N1 giỏi N2. Việc mình giỏi hay kém đi với が.",
+      "explanationVi": [
+        "**上手** (giỏi) và **下手** (kém, dở) cũng là **tính từ đuôi な**. Việc mình giỏi hay kém đi với **が**: 「マイさんは歌**が**上手です」 = Mai hát hay.",
+        "Tiếng Việt nói \"hát hay\", \"nấu ăn giỏi\" (động từ + giỏi); tiếng Nhật dùng danh từ + が + 上手: 歌が上手, 料理が上手, 日本語が上手.",
+        "上手 dùng để **khen người khác**. Nói về mình mà dùng 上手 nghe như tự khen; người Nhật thường khiêm tốn: 「私は料理が下手です」, 「日本語が少しわかります」. Khi được khen 「日本語が上手ですね」, người Nhật thường đáp 「いいえ」 rồi nói nhún nhường.",
+        "Hán Việt dễ nhầm: 下手 đọc **へた**, nghĩa là \"kém\", không phải \"hạ thủ\" (ra tay); 上手 đọc **じょうず**."
+      ],
+      "patterns": [
+        "N1 は N2 が 上手です／下手です"
+      ],
+      "examples": [
+        {
+          "ja": "マイさんは歌が上手です。",
+          "vi": "Mai hát hay."
+        },
+        {
+          "ja": "私は料理が下手です。",
+          "vi": "Tôi nấu ăn dở."
+        },
+        {
+          "ja": "田中さんはギターがとても上手です。",
+          "vi": "Anh Tanaka chơi ghi-ta rất giỏi."
+        },
+        {
+          "ja": "グエンさんは日本語が上手ですね。",
+          "vi": "Anh Nguyễn giỏi tiếng Nhật nhỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "マイさんは歌を上手です。",
+          "right": "マイさんは歌が上手です。",
+          "noteVi": "Việc mình giỏi đi với が, không đi với を."
+        },
+        {
+          "wrong": "私は日本語が上手です。",
+          "right": "私は日本語が少しわかります。",
+          "noteVi": "Câu bên trái không sai ngữ pháp nhưng nghe như tự khen. Nói về mình, người Nhật thường khiêm tốn hơn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ga-but",
+      "titleVi": "〜が: nhưng (nối hai vế câu)",
+      "summaryVi": "Câu 1 が、câu 2: nối hai ý trái ngược, \"…, nhưng …\": 日本語は難しいですが、おもしろいです.",
+      "explanationVi": [
+        "**が** đặt ở **cuối vế thứ nhất** (sau です hoặc ます) để nối với vế sau có ý **trái ngược**: 「日本語は難しいですが、おもしろいです」 = Tiếng Nhật khó nhưng thú vị.",
+        "Khác tiếng Việt: chữ \"nhưng\" đứng **đầu** vế sau, còn が dính vào **cuối** vế trước, rồi mới đến dấu 「、」.",
+        "**でも** cũng là \"nhưng\", nhưng đứng **đầu câu thứ hai** khi tách thành hai câu: 「日本語は難しいです。でも、おもしろいです」.",
+        "Đừng nhầm が \"nhưng\" (cuối vế câu, sau です／ます) với trợ từ が sau danh từ (音楽が好きです). Khi đối chiếu hai thứ, hay dùng は ở cả hai vế: 「肉は好きですが、魚は嫌いです」."
+      ],
+      "patterns": [
+        "Câu 1 (〜です／〜ます) が、Câu 2"
+      ],
+      "examples": [
+        {
+          "ja": "日本語は難しいですが、おもしろいです。",
+          "vi": "Tiếng Nhật khó nhưng thú vị."
+        },
+        {
+          "ja": "肉は好きですが、魚は嫌いです。",
+          "vi": "Tôi thích thịt nhưng ghét cá."
+        },
+        {
+          "ja": "このレストランは高いですが、おいしいです。",
+          "vi": "Nhà hàng này đắt nhưng ngon."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日本語は難しいです、がおもしろいです。",
+          "right": "日本語は難しいですが、おもしろいです。",
+          "noteVi": "が dính vào cuối vế trước; dấu 「、」 đặt sau が, không đặt trước như chữ \"nhưng\"."
+        },
+        {
+          "wrong": "日本語は難しいですから、おもしろいです。",
+          "right": "日本語は難しいですが、おもしろいです。",
+          "noteVi": "から nêu lý do (vì … nên …). Nối hai ý trái ngược thì dùng が."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kara-reason",
+      "titleVi": "〜から: vì … nên …",
+      "summaryVi": "Câu 1 から、câu 2: vì câu 1 nên câu 2. から đứng ở cuối vế nêu lý do.",
+      "explanationVi": [
+        "**から** đặt ở **cuối vế nêu lý do** (sau です hoặc ます): 「忙しいですから、パーティーへ行きません」 = Vì bận nên tôi không đi dự tiệc. Thứ tự lý do → kết quả giống \"vì … nên …\", nhưng から đứng **sau** lý do, không đứng đầu như chữ \"vì\".",
+        "Hỏi lý do bằng **どうして** hoặc **なぜ** (trang trọng hơn): 「どうして日本語を勉強しますか」. Trả lời: lý do + **から**: 「日本の歌が好きですから」, hoặc 「…からです」.",
+        "Bài 5 đã học から \"từ\" sau danh từ (9時から). から \"vì\" đứng sau **cả một vế câu**.",
+        "Khi từ chối, người Nhật hay chỉ nêu lý do rồi bỏ lửng: 「明日は仕事ですから…」 (Mai tôi phải đi làm…)."
+      ],
+      "patterns": [
+        "Câu 1 (lý do) から、Câu 2 (kết quả)",
+        "どうして／なぜ 〜か。 ― 〜から(です)。"
+      ],
+      "examples": [
+        {
+          "ja": "忙しいですから、パーティーへ行きません。",
+          "vi": "Vì bận nên tôi không đi dự tiệc."
+        },
+        {
+          "ja": "このレストランは安いですから、よく来ます。",
+          "vi": "Nhà hàng này rẻ nên tôi hay đến."
+        },
+        {
+          "ja": "どうして日本語を勉強しますか。",
+          "vi": "Tại sao bạn học tiếng Nhật?"
+        },
+        {
+          "ja": "日本の歌が好きですから。",
+          "vi": "Vì tôi thích các bài hát Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "から忙しいです、パーティーへ行きません。",
+          "right": "忙しいですから、パーティーへ行きません。",
+          "noteVi": "から đứng sau lý do, không đứng đầu câu như chữ \"vì\"."
+        },
+        {
+          "wrong": "パーティーへ行きませんから、忙しいです。",
+          "right": "忙しいですから、パーティーへ行きません。",
+          "noteVi": "Vế có から là lý do. Câu bên trái nghĩa là \"Vì không đi tiệc nên tôi bận\", ngược nhân quả."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-13-e01",
+      "type": "fill",
+      "grammar": [
+        "ga-suki-ga-kirai"
+      ],
+      "before": "私は音楽",
+      "after": "好きです。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "を",
+        "で"
+      ],
+      "vi": "Tôi thích âm nhạc.",
+      "explainVi": "すき là tính từ, không phải động từ: thứ được thích đi với が."
+    },
+    {
+      "id": "n5-13-e02",
+      "type": "choice",
+      "grammar": [
+        "ga-suki-ga-kirai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi không thích cá lắm\"?",
+      "options": [
+        "私は魚があまり好きではありません。",
+        "私は魚をあまり好きです。",
+        "私は魚があまり好きです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e03",
+      "type": "order",
+      "grammar": [
+        "ga-suki-ga-kirai"
+      ],
+      "vi": "Bạn thích môn thể thao nào?",
+      "tiles": [
+        "何",
+        "好きな",
+        "ですか",
+        "スポーツは"
+      ],
+      "answers": [
+        "好きなスポーツは何ですか"
+      ]
+    },
+    {
+      "id": "n5-13-e04",
+      "type": "choice",
+      "grammar": [
+        "ga-suki-ga-kirai"
+      ],
+      "promptVi": "Câu nào đúng: \"Tôi rất thích động vật.\"",
+      "options": [
+        "私は動物が大好きです。",
+        "私は動物を大好きです。",
+        "私の動物は大好きです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e05",
+      "type": "fill",
+      "grammar": [
+        "ga-jouzu-ga-heta"
+      ],
+      "before": "マイさんは歌",
+      "after": "上手です。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "を",
+        "に"
+      ],
+      "vi": "Mai hát hay."
+    },
+    {
+      "id": "n5-13-e06",
+      "type": "choice",
+      "grammar": [
+        "ga-jouzu-ga-heta"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Anh Tanaka chơi ghi-ta rất giỏi\"?",
+      "options": [
+        "田中さんはギターがとても上手です。",
+        "田中さんはギターがとても下手です。",
+        "田中さんはギターをとても上手です。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e07",
+      "type": "order",
+      "grammar": [
+        "ga-jouzu-ga-heta"
+      ],
+      "vi": "Tôi nấu ăn dở.",
+      "tiles": [
+        "下手です",
+        "私は",
+        "料理が"
+      ],
+      "answers": [
+        "私は料理が下手です"
+      ]
+    },
+    {
+      "id": "n5-13-e08",
+      "type": "choice",
+      "grammar": [
+        "ga-jouzu-ga-heta"
+      ],
+      "promptVi": "Nói về bản thân, câu nào khiêm tốn, tự nhiên nhất?",
+      "options": [
+        "日本語が少しわかります。",
+        "私は日本語が上手です。",
+        "私は日本語がとても上手です。"
+      ],
+      "answer": 0,
+      "explainVi": "じょうず dùng để khen người khác; nói về mình mà dùng じょうず nghe như tự khen."
+    },
+    {
+      "id": "n5-13-e09",
+      "type": "fill",
+      "grammar": [
+        "ga-but"
+      ],
+      "before": "日本語は難しいです",
+      "after": "、おもしろいです。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "から",
+        "と"
+      ],
+      "vi": "Tiếng Nhật khó nhưng thú vị."
+    },
+    {
+      "id": "n5-13-e10",
+      "type": "choice",
+      "grammar": [
+        "ga-but"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Cà phê này đắt nhưng ngon\"?",
+      "options": [
+        "このコーヒーは高いですが、おいしいです。",
+        "このコーヒーは高いですから、おいしいです。",
+        "このコーヒーは高くないですが、おいしいです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e11",
+      "type": "order",
+      "grammar": [
+        "ga-but"
+      ],
+      "vi": "Tôi thích thịt nhưng không thích cá.",
+      "tiles": [
+        "魚は",
+        "好きですが",
+        "嫌いです",
+        "肉は"
+      ],
+      "answers": [
+        "肉は好きですが魚は嫌いです"
+      ]
+    },
+    {
+      "id": "n5-13-e12",
+      "type": "choice",
+      "promptVi": "Chọn từ nối đúng điền vào chỗ trống.",
+      "ja": "漢字は難しいです。＿、おもしろいです。",
+      "options": [
+        "でも",
+        "から",
+        "と"
+      ],
+      "answer": 0,
+      "explainVi": "でも (nhưng) đứng đầu câu thứ hai."
+    },
+    {
+      "id": "n5-13-e13",
+      "type": "fill",
+      "grammar": [
+        "kara-reason"
+      ],
+      "before": "忙しいです",
+      "after": "、パーティーへ行きません。",
+      "answers": [
+        "から"
+      ],
+      "options": [
+        "から",
+        "が",
+        "まで"
+      ],
+      "vi": "Vì bận nên tôi không đi dự tiệc."
+    },
+    {
+      "id": "n5-13-e14",
+      "type": "choice",
+      "grammar": [
+        "kara-reason"
+      ],
+      "promptVi": "Câu trả lời nào phù hợp?",
+      "ja": "どうして日本語を勉強しますか。",
+      "options": [
+        "日本の映画が好きですから。",
+        "はい、勉強します。",
+        "日本の映画が好きですが。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e15",
+      "type": "order",
+      "grammar": [
+        "kara-reason"
+      ],
+      "vi": "Nhà hàng này rẻ nên tôi hay đến.",
+      "tiles": [
+        "よく",
+        "安いですから",
+        "来ます",
+        "このレストランは"
+      ],
+      "answers": [
+        "このレストランは安いですからよく来ます"
+      ]
+    },
+    {
+      "id": "n5-13-e16",
+      "type": "choice",
+      "grammar": [
+        "kara-reason"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Vì không hiểu nên tôi hỏi thầy\"?",
+      "options": [
+        "わかりませんから、先生に聞きます。",
+        "先生に聞きますから、わかりません。",
+        "わかりませんが、先生に聞きません。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e17",
+      "type": "choice",
+      "grammar": [
+        "kara-reason"
+      ],
+      "promptVi": "Bạn muốn hỏi lý do. Chọn từ điền vào chỗ trống.",
+      "ja": "＿昨日学校を休みましたか。",
+      "options": [
+        "どうして",
+        "どう",
+        "どこ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-13-e18",
+      "type": "match",
+      "promptVi": "Ghép động từ với nghĩa",
+      "pairs": [
+        [
+          "読みます",
+          "đọc"
+        ],
+        [
+          "聞きます",
+          "nghe; hỏi"
+        ],
+        [
+          "話します",
+          "nói"
+        ],
+        [
+          "歌います",
+          "hát"
+        ],
+        [
+          "弾きます",
+          "chơi (đàn)"
+        ]
+      ]
+    },
+    {
+      "id": "n5-13-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "音楽",
+          "âm nhạc"
+        ],
+        [
+          "絵",
+          "tranh"
+        ],
+        [
+          "料理",
+          "món ăn; nấu ăn"
+        ],
+        [
+          "漢字",
+          "chữ Hán"
+        ],
+        [
+          "動物",
+          "động vật"
+        ],
+        [
+          "ペット",
+          "thú cưng"
+        ]
+      ]
+    },
+    {
+      "id": "n5-13-e20",
+      "type": "fill",
+      "before": "日本語",
+      "after": "少しわかります。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "を",
+        "で"
+      ],
+      "vi": "Tôi hiểu một chút tiếng Nhật.",
+      "explainVi": "わかります đi với が, không đi với を."
+    },
+    {
+      "id": "n5-13-e21",
+      "type": "choice",
+      "grammar": [
+        "ga-but"
+      ],
+      "promptVi": "Chọn từ đúng: \"Nhà hàng này đắt nhưng không ngon lắm.\"",
+      "ja": "このレストランは高いです＿、あまりおいしくありません。",
+      "options": [
+        "が",
+        "から",
+        "と"
+      ],
+      "answer": 0
+    }
+  ],
+  "ruby": {
+    "私は日本の音楽が好きです。": "{私|わたし}は{日本|にほん}の{音|おん}{楽|がく}が{好|す}きです。",
+    "好きな食べ物は何ですか。": "{好|す}きな{食|た}べ{物|もの}は{何|なん}ですか。",
+    "ナムさんは魚が嫌いです。": "ナムさんは{魚|さかな}が{嫌|きら}いです。",
+    "私は果物が大好きです。": "{私|わたし}は{果物|くだもの}が{大|だい}{好|す}きです。",
+    "アンさんは料理が上手です。": "アンさんは{料|りょう}{理|り}が{上手|じょうず}です。",
+    "私は歌が下手です。": "{私|わたし}は{歌|うた}が{下手|へた}です。",
+    "好きなスポーツは何ですか。": "{好|す}きなスポーツは{何|なん}ですか。",
+    "毎晩、音楽を聞きます。": "{毎|まい}{晩|ばん}、{音|おん}{楽|がく}を{聞|き}きます。",
+    "マイさんは歌が上手です。": "マイさんは{歌|うた}が{上手|じょうず}です。",
+    "パーティーで日本の歌を歌いました。": "パーティーで{日本|にほん}の{歌|うた}を{歌|うた}いました。",
+    "田中さんはギターが上手です。": "{田中|たなか}さんはギターが{上手|じょうず}です。",
+    "毎日ギターを弾きます。": "{毎|まい}{日|にち}ギターを{弾|ひ}きます。",
+    "グエンさんは絵が上手です。": "グエンさんは{絵|え}が{上手|じょうず}です。",
+    "毎朝、新聞を読みます。": "{毎|まい}{朝|あさ}、{新|しん}{聞|ぶん}を{読|よ}みます。",
+    "日本の歌をよく聞きます。": "{日本|にほん}の{歌|うた}をよく{聞|き}きます。",
+    "わかりませんから、先生に聞きます。": "わかりませんから、{先|せん}{生|せい}に{聞|き}きます。",
+    "マイさんは英語と日本語を話します。": "マイさんは{英|えい}{語|ご}と{日本|にほん}{語|ご}を{話|はな}します。",
+    "英語が少しわかります。": "{英|えい}{語|ご}が{少|すこ}しわかります。",
+    "すみません、わかりません。": "すみません、わかりません。",
+    "ベトナム料理が好きです。": "ベトナム{料|りょう}{理|り}が{好|す}きです。",
+    "漢字は難しいですが、おもしろいです。": "{漢|かん}{字|じ}は{難|むずか}しいですが、おもしろいです。",
+    "どうして昨日学校を休みましたか。": "どうして{昨日|きのう}{学|がっ}{校|こう}を{休|やす}みましたか。",
+    "なぜ日本へ来ましたか。": "なぜ{日本|にほん}へ{来|き}ましたか。",
+    "漢字は難しいです。でも、おもしろいです。": "{漢|かん}{字|じ}は{難|むずか}しいです。でも、おもしろいです。",
+    "日本語が少しわかります。": "{日本|にほん}{語|ご}が{少|すこ}しわかります。",
+    "昨日は本をたくさん読みました。": "{昨日|きのう}は{本|ほん}をたくさん{読|よ}みました。",
+    "私は動物が大好きです。": "{私|わたし}は{動|どう}{物|ぶつ}が{大|だい}{好|す}きです。",
+    "かわいいペットですね。": "かわいいペットですね。",
+    "私は音楽が好きです。": "{私|わたし}は{音|おん}{楽|がく}が{好|す}きです。",
+    "マイさんは肉が嫌いです。": "マイさんは{肉|にく}が{嫌|きら}いです。",
+    "私は魚があまり好きではありません。": "{私|わたし}は{魚|さかな}があまり{好|す}きではありません。",
+    "私は音楽を好きです。": "{私|わたし}は{音|おん}{楽|がく}を{好|す}きです。",
+    "私は魚が好きではありません。": "{私|わたし}は{魚|さかな}が{好|す}きではありません。",
+    "私は魚が好きくないです。": "{私|わたし}は{魚|さかな}が{好|す}きくないです。",
+    "私は料理が下手です。": "{私|わたし}は{料|りょう}{理|り}が{下手|へた}です。",
+    "田中さんはギターがとても上手です。": "{田中|たなか}さんはギターがとても{上手|じょうず}です。",
+    "グエンさんは日本語が上手ですね。": "グエンさんは{日本|にほん}{語|ご}が{上手|じょうず}ですね。",
+    "マイさんは歌を上手です。": "マイさんは{歌|うた}を{上手|じょうず}です。",
+    "私は日本語が少しわかります。": "{私|わたし}は{日本|にほん}{語|ご}が{少|すこ}しわかります。",
+    "私は日本語が上手です。": "{私|わたし}は{日本|にほん}{語|ご}が{上手|じょうず}です。",
+    "日本語は難しいですが、おもしろいです。": "{日本|にほん}{語|ご}は{難|むずか}しいですが、おもしろいです。",
+    "肉は好きですが、魚は嫌いです。": "{肉|にく}は{好|す}きですが、{魚|さかな}は{嫌|きら}いです。",
+    "このレストランは高いですが、おいしいです。": "このレストランは{高|たか}いですが、おいしいです。",
+    "日本語は難しいです、がおもしろいです。": "{日本|にほん}{語|ご}は{難|むずか}しいです、がおもしろいです。",
+    "日本語は難しいですから、おもしろいです。": "{日本|にほん}{語|ご}は{難|むずか}しいですから、おもしろいです。",
+    "忙しいですから、パーティーへ行きません。": "{忙|いそが}しいですから、パーティーへ{行|い}きません。",
+    "このレストランは安いですから、よく来ます。": "このレストランは{安|やす}いですから、よく{来|き}ます。",
+    "どうして日本語を勉強しますか。": "どうして{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しますか。",
+    "日本の歌が好きですから。": "{日本|にほん}の{歌|うた}が{好|す}きですから。",
+    "から忙しいです、パーティーへ行きません。": "から{忙|いそが}しいです、パーティーへ{行|い}きません。",
+    "パーティーへ行きませんから、忙しいです。": "パーティーへ{行|い}きませんから、{忙|いそが}しいです。",
+    "が": "が",
+    "を": "を",
+    "で": "で",
+    "私は魚をあまり好きです。": "{私|わたし}は{魚|さかな}をあまり{好|す}きです。",
+    "私は魚があまり好きです。": "{私|わたし}は{魚|さかな}があまり{好|す}きです。",
+    "何": "{何|なん}",
+    "好きな": "{好|す}きな",
+    "ですか": "ですか",
+    "スポーツは": "スポーツは",
+    "好きなスポーツは何ですか": "{好|す}きなスポーツは{何|なん}ですか",
+    "私は動物を大好きです。": "{私|わたし}は{動|どう}{物|ぶつ}を{大|だい}{好|す}きです。",
+    "私の動物は大好きです。": "{私|わたし}の{動|どう}{物|ぶつ}は{大|だい}{好|す}きです。",
+    "に": "に",
+    "田中さんはギターがとても下手です。": "{田中|たなか}さんはギターがとても{下手|へた}です。",
+    "田中さんはギターをとても上手です。": "{田中|たなか}さんはギターをとても{上手|じょうず}です。",
+    "下手です": "{下手|へた}です",
+    "私は": "{私|わたし}は",
+    "料理が": "{料|りょう}{理|り}が",
+    "私は料理が下手です": "{私|わたし}は{料|りょう}{理|り}が{下手|へた}です",
+    "私は日本語がとても上手です。": "{私|わたし}は{日本|にほん}{語|ご}がとても{上手|じょうず}です。",
+    "から": "から",
+    "と": "と",
+    "このコーヒーは高いですが、おいしいです。": "このコーヒーは{高|たか}いですが、おいしいです。",
+    "このコーヒーは高いですから、おいしいです。": "このコーヒーは{高|たか}いですから、おいしいです。",
+    "このコーヒーは高くないですが、おいしいです。": "このコーヒーは{高|たか}くないですが、おいしいです。",
+    "魚は": "{魚|さかな}は",
+    "好きですが": "{好|す}きですが",
+    "嫌いです": "{嫌|きら}いです",
+    "肉は": "{肉|にく}は",
+    "肉は好きですが魚は嫌いです": "{肉|にく}は{好|す}きですが{魚|さかな}は{嫌|きら}いです",
+    "漢字は難しいです。＿、おもしろいです。": "{漢|かん}{字|じ}は{難|むずか}しいです。＿、おもしろいです。",
+    "でも": "でも",
+    "まで": "まで",
+    "日本の映画が好きですから。": "{日本|にほん}の{映|えい}{画|が}が{好|す}きですから。",
+    "はい、勉強します。": "はい、{勉|べん}{強|きょう}します。",
+    "日本の映画が好きですが。": "{日本|にほん}の{映|えい}{画|が}が{好|す}きですが。",
+    "よく": "よく",
+    "安いですから": "{安|やす}いですから",
+    "来ます": "{来|き}ます",
+    "このレストランは": "このレストランは",
+    "このレストランは安いですからよく来ます": "このレストランは{安|やす}いですからよく{来|き}ます",
+    "先生に聞きますから、わかりません。": "{先|せん}{生|せい}に{聞|き}きますから、わかりません。",
+    "わかりませんが、先生に聞きません。": "わかりませんが、{先|せん}{生|せい}に{聞|き}きません。",
+    "＿昨日学校を休みましたか。": "＿{昨日|きのう}{学|がっ}{校|こう}を{休|やす}みましたか。",
+    "どうして": "どうして",
+    "どう": "どう",
+    "どこ": "どこ",
+    "読みます": "{読|よ}みます",
+    "聞きます": "{聞|き}きます",
+    "話します": "{話|はな}します",
+    "歌います": "{歌|うた}います",
+    "弾きます": "{弾|ひ}きます",
+    "音楽": "{音|おん}{楽|がく}",
+    "絵": "{絵|え}",
+    "料理": "{料|りょう}{理|り}",
+    "漢字": "{漢|かん}{字|じ}",
+    "動物": "{動|どう}{物|ぶつ}",
+    "ペット": "ペット",
+    "このレストランは高いです＿、あまりおいしくありません。": "このレストランは{高|たか}いです＿、あまりおいしくありません。"
+  }
+}
