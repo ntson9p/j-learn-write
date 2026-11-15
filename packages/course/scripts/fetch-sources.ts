@@ -391,19 +391,24 @@ const kanaChars = kanaText
   .filter(Boolean)
   .map((l) => (JSON.parse(l) as { character: string }).character);
 const counts: Record<string, number> = {};
+const kanaPaths: Record<string, string[]> = {};
 for (const ch of [...kanaChars, ...learnKanji]) {
   const file = `kanji/${ch.codePointAt(0)!.toString(16).padStart(5, '0')}.svg`;
   const svg = (await gitFile(KANJIVG.repo, KANJIVG.commit, file)).toString('utf8');
-  counts[ch] = (svg.match(/<path /g) ?? []).length;
+  const paths = [...svg.matchAll(/<path [^>]*\bd="([^"]+)"/g)].map((m) => m[1]!);
+  counts[ch] = paths.length;
+  if (kanaChars.includes(ch)) kanaPaths[ch] = paths;
 }
 write(join(kvgDir, 'stroke-counts.json'), `${JSON.stringify(counts, null, 0).replace(/,/g, ',\n')}\n`);
+write(join(kvgDir, 'kana-paths.json'), `{\n${Object.entries(kanaPaths).map(([k, v]) => `${JSON.stringify(k)}:${JSON.stringify(v)}`).join(',\n')}\n}\n`);
 write(join(kvgDir, 'COPYING'), (await gitFile(KANJIVG.repo, KANJIVG.commit, 'COPYING')).toString('utf8'));
 write(
   join(kvgDir, 'SOURCE.md'),
   `# Nguồn: KanjiVG (số nét)
 
 - <https://github.com/${KANJIVG.repo}> tại commit \`${KANJIVG.commit}\`, giấy phép CC BY-SA 3.0, tác giả Ulrich Apel (file \`COPYING\`).
-- Chỉ giữ **số nét** (số thẻ \`<path>\` trong file SVG) của 177 kana và các kanji cần học, để kiểm tra dữ liệu nét của AnimCJK sau khi ghép. Không đóng gói vào app.
+- \`stroke-counts.json\`: **số nét** (số thẻ \`<path>\` trong file SVG) của 177 kana và các kanji cần học, để kiểm tra dữ liệu nét của AnimCJK.
+- \`kana-paths.json\`: **đường trục từng nét** (thuộc tính \`d\` của các \`<path>\`) của 177 kana. App dùng chúng (đổi sang hệ tọa độ của hanzi-writer) làm đường trục để chấm nét khi luyện viết kana, vì đường trục của các đoạn tách trong AnimCJK chỉ dành cho hoạt hình. Đây là dữ liệu phái sinh của KanjiVG: ghi công và theo giấy phép CC BY-SA 3.0.
 `,
 );
 
