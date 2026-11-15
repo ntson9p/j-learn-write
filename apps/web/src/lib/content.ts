@@ -3,6 +3,7 @@
  * kanji and kana can be looked up by their key.
  */
 import {
+  effectiveStatus,
   loadKana,
   loadKanjiList,
   loadLevel,
@@ -11,6 +12,7 @@ import {
   LEVELS,
   type KanaEntry,
   type Lesson,
+  type LessonContent,
   type LevelId,
   type ListKanji,
   type ListWord,
@@ -72,4 +74,10 @@ export async function kanaTaughtUpTo(lessonId: string): Promise<string[]> {
   const lessons = await lessonsOf('kana');
   const index = lessons.findIndex((l) => l.meta.id === lessonId);
   return lessons.slice(0, index + 1).flatMap((l) => l.meta.kana ?? []);
+}
+
+/** True when a teacher has approved every reviewable item of the lesson (practice words, words, kanji, grammar, exercises). */
+export function lessonApproved(content: LessonContent): boolean {
+  const items = [...(content.practice ?? []), ...(content.words ?? []), ...(content.kanji ?? []), ...(content.grammar ?? []), ...content.exercises];
+  return items.every((it) => effectiveStatus(it) === 'approved');
 }

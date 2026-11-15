@@ -34,6 +34,17 @@ function roundTrip(content: LessonContent, edit: (rows: string[][]) => void): Re
 const col = (name: (typeof REVIEW_HEADER)[number]) => REVIEW_HEADER.indexOf(name);
 
 describe('review spreadsheet', () => {
+  it('exports and reviews the practice words of a kana lesson', () => {
+    const kana: LessonContent = { id: 'kana-01', goalsVi: ['g'], practice: [{ ja: 'あき', vi: 'mùa thu' }], exercises: [] };
+    const kanaSrc = { ...src, curriculum: [{ id: 'kana-01', level: 'kana' as const, order: 1, titleVi: 'Hàng あ', topicVi: 't', kana: ['あ'] }] };
+    const rows = buildReviewRows([kana], kanaSrc);
+    expect(rows[1]!.slice(0, 4)).toEqual(['kana-01/luyen-doc/あき', 'kana-01 Hàng あ', 'Từ luyện đọc', 'あき']);
+    expect(rows[1]![col('Nội dung')]).toBe('mùa thu');
+    rows[1]![col('Kết quả duyệt')] = 'đạt';
+    expect(applyReviewRows([kana], parseCsvObjects(toCsv(rows, true)), '2026-12-01').updated).toBe(1);
+    expect(effectiveStatus(kana.practice![0]!)).toBe('approved');
+  });
+
   it('exports one row per word, kanji, grammar point and exercise', () => {
     const c = fresh();
     const rows = buildReviewRows([c], src);

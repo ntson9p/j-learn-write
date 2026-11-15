@@ -1,6 +1,7 @@
 /**
  * Teacher review through a spreadsheet: lesson content is exported as CSV
- * rows (one per word, grammar point and exercise); the teacher fills the
+ * rows (one per kana practice word, word, kanji, grammar point and
+ * exercise); the teacher fills the
  * "Kết quả duyệt" (đạt / cần sửa), "Người duyệt" and "Góp ý" columns; the
  * import writes the review records back into the lesson files.
  *
@@ -9,7 +10,7 @@
  */
 import { rubyReading } from './furigana.ts';
 import { contentHash } from './hash.ts';
-import type { CurriculumLesson, Exercise, GrammarContent, KanjiContent, LessonContent, ListGrammar, ListKanji, ListWord, Review, Sentence, WordContent } from './types.ts';
+import type { CurriculumLesson, Exercise, GrammarContent, KanaPractice, KanjiContent, LessonContent, ListGrammar, ListKanji, ListWord, Review, Sentence, WordContent } from './types.ts';
 
 export const REVIEW_HEADER = [
   'Mã',
@@ -34,6 +35,7 @@ const STATUS_VI: Record<Review['status'], string> = {
 };
 
 type Item =
+  | { kind: 'practice'; item: KanaPractice }
   | { kind: 'word'; item: WordContent }
   | { kind: 'kanji'; item: KanjiContent }
   | { kind: 'grammar'; item: GrammarContent }
@@ -41,6 +43,7 @@ type Item =
 
 function itemsOf(content: LessonContent): Item[] {
   return [
+    ...(content.practice ?? []).map((item) => ({ kind: 'practice' as const, item })),
     ...(content.words ?? []).map((item) => ({ kind: 'word' as const, item })),
     ...(content.kanji ?? []).map((item) => ({ kind: 'kanji' as const, item })),
     ...(content.grammar ?? []).map((item) => ({ kind: 'grammar' as const, item })),
@@ -49,6 +52,7 @@ function itemsOf(content: LessonContent): Item[] {
 }
 
 function keyOf(lessonId: string, it: Item): string {
+  if (it.kind === 'practice') return `${lessonId}/luyen-doc/${it.item.ja}`;
   if (it.kind === 'word') return `${lessonId}/tu/${it.item.no}`;
   if (it.kind === 'kanji') return `${lessonId}/kanji/${it.item.char}`;
   if (it.kind === 'grammar') return `${lessonId}/ngu-phap/${it.item.id}`;
@@ -98,7 +102,9 @@ export function buildReviewRows(contents: readonly LessonContent[], src: ReviewS
     for (const it of itemsOf(content)) {
       const status = STATUS_VI[it.item.review?.status ?? 'draft'];
       const hash = contentHash(it.item);
-      if (it.kind === 'word') {
+      if (it.kind === 'practice') {
+        rows.push([keyOf(content.id, it), lessonName, 'Từ luyện đọc', it.item.ja, '', '', it.item.vi, '', status, '', '', '', hash]);
+      } else if (it.kind === 'word') {
         const w = it.item;
         const listed = wordByNo.get(w.no);
         rows.push([

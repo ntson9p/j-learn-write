@@ -156,6 +156,7 @@ export interface GrammarContent {
 export interface KanaPractice {
   ja: string;
   vi: string;
+  review?: Review;
 }
 
 interface ExerciseBase {

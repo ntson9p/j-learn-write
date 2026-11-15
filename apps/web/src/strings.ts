@@ -62,6 +62,7 @@ export const T = {
     notFound: 'Không tìm thấy bài học này.',
     writing: 'Bài này đang được soạn, bạn quay lại sau nhé.',
     goals: 'Sau bài này bạn có thể',
+    draftNote: 'Nội dung bài này là bản nháp, đang chờ giáo viên duyệt.',
     kana: (n: number) => `Chữ mới (${n})`,
     kanaHint: 'Bấm vào một chữ để nghe, xem thứ tự nét và tập viết.',
     practiceWords: (n: number) => `Từ luyện đọc (${n})`,

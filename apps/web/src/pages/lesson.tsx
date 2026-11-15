@@ -4,7 +4,7 @@ import { useAsync } from '../components/hooks';
 import type { PageProps } from '../components/lazy';
 import { SpeakButton } from '../components/speak';
 import { JaText, MixedText, RubyContext } from '../components/text';
-import { findLesson, kanaList } from '../lib/content';
+import { findLesson, kanaList, lessonApproved } from '../lib/content';
 import { startLesson } from '../lib/progress';
 import { romajiTable, romanize } from '../lib/romaji';
 import { href } from '../router';
@@ -52,6 +52,11 @@ export default function LessonPage({ params }: PageProps) {
       <p class="lead">
         <MixedText text={meta.topicVi} />
       </p>
+      {content && !lessonApproved(content) && (
+        <p class="draft-note">
+          <span class="badge draft">{T.draftBadge}</span> {T.lesson.draftNote}
+        </p>
+      )}
       {!content ? (
         <p class="card">{T.lesson.writing}</p>
       ) : (
