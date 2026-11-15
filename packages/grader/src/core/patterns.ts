@@ -10,14 +10,16 @@
  * Only ASCII brackets are syntax; every other character is literal text.
  */
 
+// Written without parameter properties so that Node can run this file with type stripping.
 export class PatternError extends Error {
-  constructor(
-    message: string,
-    readonly pattern: string,
-    readonly index: number,
-  ) {
+  readonly pattern: string;
+  readonly index: number;
+
+  constructor(message: string, pattern: string, index: number) {
     super(`${message} (at position ${index} in "${pattern}")`);
     this.name = 'PatternError';
+    this.pattern = pattern;
+    this.index = index;
   }
 }
 
@@ -31,8 +33,11 @@ export const MAX_EXPANSIONS = 500;
 
 class Parser {
   private pos = 0;
+  private readonly src: string;
 
-  constructor(private readonly src: string) {}
+  constructor(src: string) {
+    this.src = src;
+  }
 
   parse(): PatternNode[] {
     const nodes = this.sequence();

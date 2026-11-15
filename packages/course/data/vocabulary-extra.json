@@ -1,0 +1,12 @@
+{
+  "_doc": "Words the course adds to the N5-N4 lists (OpenJLPT / Waller) because learners need them from the first lessons and the lists lack them (2026-11-15: 私 is listed only as わたくし, 何 only as なん). They are marked extra in data/jlpt/vocabulary.json. DRAFT: to be reviewed by a Japanese teacher.",
+  "words": [
+    { "word": "私", "reading": "わたし", "jmdictId": 1311110, "level": "n5" },
+    { "word": "何", "reading": "なに", "jmdictId": 1577100, "level": "n5" },
+    { "word": "父", "reading": "ちち", "jmdictId": 1497610, "level": "n5" },
+    { "word": "母", "reading": "はは", "jmdictId": 1514990, "level": "n5" },
+    { "word": "日本", "reading": "にほん", "jmdictId": 1582710, "level": "n5" },
+    { "word": "日本語", "reading": "にほんご", "jmdictId": 1464530, "level": "n5" },
+    { "word": "日本人", "reading": "にほんじん", "jmdictId": 1464700, "level": "n5" }
+  ]
+}

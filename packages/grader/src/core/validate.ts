@@ -1,4 +1,4 @@
-import { expandPattern, PatternError } from './patterns';
+import { expandPattern, PatternError } from './patterns.ts';
 
 const LANGS = new Set(['ja']);
 const TYPES = new Set(['count', 'model', 'location']);

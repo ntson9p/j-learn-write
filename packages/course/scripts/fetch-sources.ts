@@ -109,6 +109,8 @@ interface OjGrammar {
 
 const LEVELS = ['n5', 'n4'] as const;
 const words: OjWord[] = [];
+/** Words the course adds (data/vocabulary-extra.json): their JMdict entries, furigana and kanji are kept too. */
+const extraWords = (JSON.parse(readFileSync(join(PKG, 'data', 'vocabulary-extra.json'), 'utf8')) as { words: { word: string; reading: string; jmdictId: number }[] }).words;
 const kanjiList: { char: string; level: string; supplementary: boolean }[] = [];
 const grammar: { id: string; level: string; pattern: string; meaning: string }[] = [];
 const ojHashes: string[] = [];
@@ -167,7 +169,7 @@ const entity = (s: string) => s.replace(/^&(.*);$/, '$1');
 const jmGz = await cached('JMdict_e.gz', JMDICT_URL);
 const jmText = gunzipSync(jmGz).toString('utf8');
 const jmCreated = /<!-- JMdict created: (\d{4}-\d{2}-\d{2}) -->/.exec(jmText)?.[1] ?? '?';
-const wantedSeq = new Set(words.map((w) => w.jmdict_id));
+const wantedSeq = new Set([...words.map((w) => w.jmdict_id), ...extraWords.map((w) => w.jmdictId)]);
 const jmEntries: JmEntry[] = [];
 for (const m of jmText.matchAll(/<entry>([\s\S]*?)<\/entry>/g)) {
   const block = m[1]!;
@@ -206,7 +208,7 @@ write(join(jmDir, 'entries.json'), jsonLines(jmEntries));
 // ---------------------------------------------------------------- characters needed
 const wordKanji = new Set<string>();
 for (const e of jmEntries) for (const k of e.kanji) for (const c of kanjiOf(k.text)) wordKanji.add(c);
-for (const w of words) for (const c of kanjiOf(w.word)) wordKanji.add(c);
+for (const w of [...words, ...extraWords]) for (const c of kanjiOf(w.word)) wordKanji.add(c);
 const learnKanji = kanjiList.filter((k) => !k.supplementary || (k.level === 'n5' && EXTRA_N5_KANJI.includes(k.char))).map((k) => k.char);
 for (const c of EXTRA_N5_KANJI) if (!learnKanji.includes(c)) learnKanji.push(c);
 for (const c of learnKanji) wordKanji.add(c);
@@ -301,7 +303,7 @@ for (const e of jmEntries) {
     for (const r of e.readings) if (!r.nokanji && (r.restr.length === 0 || r.restr.includes(k.text))) wantedPairs.add(`${k.text}|${r.text}`);
   }
 }
-for (const w of words) wantedPairs.add(`${w.word}|${w.reading}`);
+for (const w of [...words, ...extraWords]) wantedPairs.add(`${w.word}|${w.reading}`);
 const furi = furiAll.filter((f) => wantedPairs.has(`${f.text}|${f.reading}`)).sort((a, b) => (a.text + a.reading < b.text + b.reading ? -1 : 1));
 const furiDir = join(SOURCES, 'jmdict-furigana');
 reportChanges(join(furiDir, 'furigana.json'), furi, (x) => `${x.text}|${x.reading}`);

@@ -8,9 +8,9 @@
  * character 25, punctuation 1. Fewer, longer known tokens win; an unknown
  * stretch is kept as one "unknown" token so that rules around it stay silent.
  */
-import { isKana, isKanji } from './kana';
-import type { Analysis, JaLexicon } from './lexicon';
-import { COUNTERS, counterReadings, numberReading, numberValue } from './numbers';
+import { isKana, isKanji } from './kana.ts';
+import type { Analysis, JaLexicon } from './lexicon.ts';
+import { COUNTERS, counterReadings, numberReading, numberValue } from './numbers.ts';
 
 export type TokenAnalysis =
   | Analysis

@@ -37,7 +37,9 @@ describe('JLPT lists (data/jlpt)', () => {
   });
 
   it('have the planned sizes', () => {
-    expect([count(vocabulary, (w) => w.level === 'n5'), count(vocabulary, (w) => w.level === 'n4')]).toEqual([674, 630]);
+    const listed = vocabulary.filter((w) => !w.extra);
+    expect([count(listed, (w) => w.level === 'n5'), count(listed, (w) => w.level === 'n4')]).toEqual([674, 630]);
+    expect(vocabulary.filter((w) => w.extra).map((w) => `${w.word}:${w.reading}`)).toEqual(['私:わたし', '何:なに', '父:ちち', '母:はは', '日本:にほん', '日本語:にほんご', '日本人:にほんじん']);
     expect([count(kanji, (k) => k.level === 'n5'), count(kanji, (k) => k.level === 'n4')]).toEqual([80, 166]);
     expect([count(grammar, (g) => g.level === 'n5'), count(grammar, (g) => g.level === 'n4')]).toEqual([81, 98]);
     expect(kanji.find((k) => k.char === '分')?.level).toBe('n5');
@@ -66,6 +68,8 @@ describe('JLPT lists (data/jlpt)', () => {
     expect(byReading('わかる')[0]?.forms).toContain('分かる');
     expect(byReading('すごい')[0]?.word).toBe('すごい');
     expect(byReading('がくせい')[0]?.word).toBe('学生');
+    // 今日は is today + topic particle, not a spelling of the greeting こんにちは.
+    expect(byReading('こんにちは')[0]?.forms).toEqual(['こんにちは']);
   });
 
   it('gives a Hán Việt reading to every word written with kanji', () => {

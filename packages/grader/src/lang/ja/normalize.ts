@@ -1,4 +1,4 @@
-import { CHOON, isKana } from './kana';
+import { CHOON, isKana } from './kana.ts';
 
 export interface JaNormalized {
   /** The cleaned answer; every issue span refers to this text. */

@@ -82,8 +82,11 @@ export async function importBackup(input: unknown): Promise<void> {
 }
 
 export class BackupError extends Error {
-  constructor(readonly problems: string[]) {
+  readonly problems: string[];
+
+  constructor(problems: string[]) {
     super(problems.join('\n'));
+    this.problems = problems;
     this.name = 'BackupError';
   }
 }

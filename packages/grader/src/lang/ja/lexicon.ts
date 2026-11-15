@@ -4,9 +4,9 @@
  * surface. One surface can have several analyses (降ります: 降る or 降りる);
  * the tokenizer keeps them all and callers decide.
  */
-import { conjClassOf, conjugate } from './conjugate';
-import functionFile from './data/function-words.json';
-import { isKana, toHiragana } from './kana';
+import { conjClassOf, conjugate } from './conjugate.ts';
+import functionFile from './data/function-words.json' with { type: 'json' };
+import { isKana, toHiragana } from './kana.ts';
 
 /** A course word (generated from packages/course data/jlpt/vocabulary.json). */
 export interface WordEntry {

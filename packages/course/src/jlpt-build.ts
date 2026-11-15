@@ -3,6 +3,7 @@
  * subsets in sources/. Pure functions: scripts/build-data.ts writes the files,
  * and a test checks that the committed files equal a fresh build.
  */
+import { JaLexicon, tokenize } from '@j-learn-write/grader';
 import { chooseHanViet, isKnownReading, type HanVietSources } from './hanviet.ts';
 import type { JlptLevel, KanaEntry, KanaKind, ListGrammar, ListKanji, ListWord } from './types.ts';
 
@@ -51,8 +52,17 @@ export interface IdsLock {
   words: Record<string, number>;
 }
 
+export interface ExtraWord {
+  word: string;
+  reading: string;
+  jmdictId: number;
+  level: string;
+}
+
 export interface BuildSources {
   vocabulary: OjWord[];
+  /** Words the course adds (data/vocabulary-extra.json). */
+  extraWords: ExtraWord[];
   kanji: OjKanji[];
   grammar: OjGrammar[];
   jmdict: JmEntry[];
@@ -132,7 +142,19 @@ export function buildJlptData(src: BuildSources): BuildResult {
   const lock: IdsLock = { words: { ...src.lock.words } };
   let next = Math.max(0, ...Object.values(lock.words)) + 1;
   const vocabulary: ListWord[] = [];
-  for (const w of src.vocabulary) {
+  /** Other kanji spellings, checked below before they are accepted. */
+  const candidates = new Map<number, string[]>();
+  const extras: OjWord[] = src.extraWords.map((x) => ({
+    id: `extra-${x.jmdictId}-${x.reading}`,
+    level: x.level,
+    word: x.word,
+    reading: x.reading,
+    pos: [],
+    jmdictId: x.jmdictId,
+    meaningsEn: [],
+  }));
+  const extraIds = new Set(extras.map((x) => x.id));
+  for (const w of [...src.vocabulary, ...extras]) {
     const entry = jm.get(w.jmdictId);
     if (!entry) throw new Error(`JMdict has no entry ${w.jmdictId} (${w.word})`);
     const no = (lock.words[w.id] ??= next++);
@@ -154,7 +176,8 @@ export function buildJlptData(src: BuildSources): BuildResult {
       .filter((k) => k.pri.length > 0 && !k.inf.some((x) => BAD_FORM.has(x)) && !/\p{Nd}/u.test(k.text))
       .filter((k) => entry.readings.some((r) => r.text === w.reading && !r.nokanji && (r.restr.length === 0 || r.restr.includes(k.text))))
       .map((k) => k.text);
-    const forms = unique([display, w.word, w.reading, ...otherForms]);
+    const forms = unique([display, w.word, w.reading]);
+    candidates.set(no, otherForms.filter((f) => !forms.includes(f)));
 
     const item: ListWord = {
       no,
@@ -167,6 +190,7 @@ export function buildJlptData(src: BuildSources): BuildResult {
       forms,
       pos: unique(entry.senses.flatMap((s) => s.pos)),
     };
+    if (extraIds.has(w.id)) item.extra = true;
     const chars = kanjiOf(display).filter((c) => c !== ITERATION);
     if (chars.length > 0) {
       const choices = chars.map((c) => chooseHanViet(c, hv));
@@ -187,6 +211,16 @@ export function buildJlptData(src: BuildSources): BuildResult {
     vocabulary.push(item);
   }
   vocabulary.sort((a, b) => a.no - b.no);
+
+  // An extra spelling that splits into course words is a phrase, not a spelling (今日は = 今日 + は, not こんにちは).
+  const base = new JaLexicon(vocabulary.map((w) => ({ no: w.no, word: w.word, reading: w.reading, forms: w.forms.filter((f) => f !== w.word), pos: w.pos })));
+  for (const w of vocabulary) {
+    for (const form of candidates.get(w.no) ?? []) {
+      const tokens = tokenize(form, base);
+      const phrase = tokens.length > 1 && tokens.every((t) => t.analyses.every((a) => a.kind !== 'unknown'));
+      if (!phrase) w.forms.push(form);
+    }
+  }
 
   const grammar: ListGrammar[] = src.grammar.map((g, i) => ({ id: g.id, no: i + 1, level: level(g.level), pattern: g.pattern }));
 

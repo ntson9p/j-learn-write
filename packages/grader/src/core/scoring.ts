@@ -1,4 +1,4 @@
-import type { Issue } from './types';
+import type { Issue } from './types.ts';
 
 /** Rounds and clamps a score to 0-100. */
 export function clampScore(score: number): number {

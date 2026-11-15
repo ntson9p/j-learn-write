@@ -1,4 +1,4 @@
-import type { Fix } from './types';
+import type { Fix } from './types.ts';
 
 export interface FixResult {
   text: string;

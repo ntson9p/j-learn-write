@@ -156,7 +156,7 @@ export function counterReadings(n: number | null, c: Counter): string[] {
   return joinLast(last, c).map((r) => prefix + r);
 }
 
-import countersFile from './data/counters.json';
+import countersFile from './data/counters.json' with { type: 'json' };
 
 /** The counters of the course (data/counters.json). */
 export const COUNTERS: readonly Counter[] = countersFile.counters as Counter[];

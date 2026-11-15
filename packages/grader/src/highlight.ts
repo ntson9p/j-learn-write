@@ -1,4 +1,4 @@
-import type { Issue, Severity } from './core/types';
+import type { Issue, Severity } from './core/types.ts';
 
 export type Segment =
   | { kind: 'text'; text: string }

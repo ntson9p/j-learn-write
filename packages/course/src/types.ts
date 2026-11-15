@@ -43,8 +43,10 @@ export interface ListWord {
   /** Stable number (1-…), kept in data/jlpt/ids.lock.json. */
   no: number;
   level: JlptLevel;
-  /** Entry id in OpenJLPT. */
+  /** Entry id in OpenJLPT, or "extra-<JMdict id>-<reading>" for a word the course adds. */
   openjlptId: string;
+  /** True for a word the course adds to the lists (data/vocabulary-extra.json). */
+  extra?: boolean;
   /** Entry id in JMdict, when linked. */
   jmdictId?: number;
   /** Display form: kanji when usual, otherwise kana. */
