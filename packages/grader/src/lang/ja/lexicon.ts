@@ -6,7 +6,7 @@
  */
 import { conjClassOf, conjugate } from './conjugate.ts';
 import functionFile from './data/function-words.json' with { type: 'json' };
-import { isKana, toHiragana } from './kana.ts';
+import { isKana, isKanji, toHiragana } from './kana.ts';
 
 /** A course word (generated from packages/course data/jlpt/vocabulary.json). */
 export interface WordEntry {
@@ -65,7 +65,11 @@ export class JaLexicon {
       const forms = fw.conj ? conjugate(fw.text, fw.reading, fw.conj) : [{ surface: fw.text, reading: fw.reading, tags: [] }];
       for (const f of forms) this.add(f.surface, { kind: 'function', id: fw.id, role: fw.role, reading: f.reading, tags: f.tags });
     }
-    for (const n of options.names ?? []) this.add(n.ja, { kind: 'name', reading: n.reading });
+    for (const n of options.names ?? []) {
+      this.add(n.ja, { kind: 'name', reading: n.reading });
+      // Names in kanji typed in kana (たなか for 田中) are the same name.
+      if ([...n.ja].some(isKanji)) this.add(toHiragana(n.reading), { kind: 'name', reading: n.reading });
+    }
     this.maxLength = Math.max(1, ...[...this.bySurface.keys()].map((k) => k.length));
   }
 

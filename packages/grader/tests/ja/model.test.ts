@@ -15,6 +15,10 @@ describe('model answers', () => {
     expect(grade('学生です', '(私は)学生です。').score).toBe(100);
   });
 
+  it('accepts names written in kana', () => {
+    expect(grade('たなかさんはせんせいです', '田中さんは先生です。').score).toBe(100);
+  });
+
   it('does not grade romaji, and says why', () => {
     const r = gradeJaModel(q('私は学生です。'), 'watashi wa gakusei desu');
     expect(r.content.status).toBe('no_answer');

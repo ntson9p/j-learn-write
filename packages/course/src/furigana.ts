@@ -115,11 +115,16 @@ export function tokenReadings(t: Token): string[] {
  * Readings chosen by context when a token has several (only clear cases;
  * anything else stays ambiguous for the author):
  * - 私: わたし (わたくし is the formal reading, written by hand when meant);
+ * - 明日: あした (あす is formal); 人 after a modifier or particle: ひと;
  * - 何: なん before で, です, だ, の, と; なに before を, が, も, か and in 何語.
  */
-export function contextReading(surface: string, readings: readonly string[], next: string): string | undefined {
+export function contextReading(surface: string, readings: readonly string[], next: string, previous = ''): string | undefined {
   const pick = (r: string) => (readings.includes(r) ? r : undefined);
   if (surface === '私') return pick('わたし');
+  // あす is the formal reading (news, forecasts): written by hand when meant.
+  if (surface === '明日') return pick('あした');
+  // 人 alone after a modifier (あの人, 男の人, いい人) or at the start is ひと; じん follows country names.
+  if (surface === '人' && (previous === '' || /[なのいたこそあどがはもをにで、。]$/.test(previous))) return pick('ひと');
   if (surface === '何') {
     if (/^(です|で|だ|の|と)/.test(next)) return pick('なん');
     if (/^[をがもか]/.test(next) || next.startsWith('語')) return pick('なに');
@@ -177,7 +182,7 @@ export function buildRuby(
     }
     if (readings.length > 1) {
       const chosen = previousReading(t.start, t.end);
-      const byContext = contextReading(t.surface, readings, text.slice(t.end));
+      const byContext = contextReading(t.surface, readings, text.slice(t.end), text.slice(0, t.start));
       if (chosen && readings.includes(chosen)) readings = [chosen];
       else if (byContext) readings = [byContext];
       else {

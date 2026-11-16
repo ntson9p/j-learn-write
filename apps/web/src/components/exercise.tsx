@@ -132,8 +132,14 @@ function FillBody({ ex, locked, onAnswer }: Body<Extract<AnyExercise, { type: 'f
   const accepted = ex.answers.flatMap((a) => acceptedForms(a, { ruby }));
   return (
     <>
-      <p class="ex-prompt">{ex.promptVi ?? T.exercise.fill}</p>
-      {ex.vi && <p class="muted">{ex.vi}</p>}
+      <p class="ex-prompt">
+        <MixedText text={ex.promptVi ?? T.exercise.fill} />
+      </p>
+      {ex.vi && (
+        <p class="muted">
+          <MixedText text={ex.vi} />
+        </p>
+      )}
       <p class="ex-ja fill-line" lang="ja">
         {ex.before}
         <span class="blank">{text || '＿＿'}</span>
@@ -160,7 +166,9 @@ function OrderBody({ ex, locked, onAnswer }: Body<Extract<AnyExercise, { type: '
   const left = pool.map((t, i) => ({ t, i })).filter(({ i }) => !chosen.includes(i));
   return (
     <>
-      <p class="ex-prompt">{ex.vi}</p>
+      <p class="ex-prompt">
+        <MixedText text={ex.vi} />
+      </p>
       <p class="muted">{T.exercise.tapTiles}</p>
       <div class="order-line" lang="ja" aria-label={T.exercise.yourOrder}>
         {chosen.map((i) => (
@@ -199,7 +207,9 @@ function TextBody({ ex, locked, onAnswer }: Body<Extract<AnyExercise, { type: 't
       {ex.type === 'translate' ? (
         <>
           <p class="ex-prompt">{T.exercise.translate}</p>
-          <p class="ex-vi">{ex.vi}</p>
+          <p class="ex-vi">
+            <MixedText text={ex.vi} />
+          </p>
         </>
       ) : (
         <>
@@ -212,7 +222,11 @@ function TextBody({ ex, locked, onAnswer }: Body<Extract<AnyExercise, { type: 't
             <JaText text={q!.prompt} class="ex-ja" />
             <SpeakButton text={readingOf(q!.prompt, ruby)} label={T.speak(q!.prompt)} />
           </div>
-          {q?.promptVi && <p class="muted">{q.promptVi}</p>}
+          {q?.promptVi && (
+            <p class="muted">
+              <MixedText text={q.promptVi} />
+            </p>
+          )}
         </>
       )}
       <TextAnswer locked={locked} value={text} accepted={[]} onInput={setText} onSubmit={() => onAnswer({ type: 'text', text })} />

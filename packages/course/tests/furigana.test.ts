@@ -68,6 +68,11 @@ describe('buildRuby', () => {
     expect(fill('犬が吠えます。').problems.map((p) => p.surface)).toEqual(['吠']);
   });
 
+  it('reads 明日 あした and a lone 人 ひと by default', () => {
+    expect(fill('明日は休みです。').markup).toBe('{明日|あした}は{休|やす}みです。');
+    expect(fill('あの人は先生です。').markup).toBe('あの{人|ひと}は{先|せん}{生|せい}です。');
+  });
+
   it('reads 私 and 何 by context, only in clear cases', () => {
     expect(fill('私は何を食べますか。').markup).toBe('{私|わたし}は{何|なに}を{食|た}べますか。');
     expect(fill('これは何ですか。').markup).toBe('これは{何|なん}ですか。');
