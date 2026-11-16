@@ -23,6 +23,8 @@ describe('count questions', () => {
   it('grades the content: wrong number, negation, several numbers, nothing', () => {
     expect(count('2本あります。')).toMatchObject({ status: 'wrong', score: 20 });
     expect(count('3本ありません。')).toMatchObject({ status: 'wrong' });
+    expect(count('3本じゃありません。')).toMatchObject({ status: 'wrong' });
+    expect(count('3本ない。')).toMatchObject({ status: 'wrong' });
     expect(count('2本か3本あります。')).toMatchObject({ status: 'wrong' });
     expect(count('鉛筆があります。')).toMatchObject({ status: 'no_answer', score: 0 });
     expect(count('本が3冊あります。')).toMatchObject({ status: 'wrong' });
@@ -69,5 +71,14 @@ describe('location questions', () => {
     const lunch: LocationQuestion = { id: 'p', lang: 'ja', type: 'location', prompt: 'どこで昼ご飯を食べますか。', expected: {} };
     expect(where('食堂で食べます。', lunch)).toMatchObject({ status: 'correct', score: 100 });
     expect(where('東京です。', lunch)).toMatchObject({ status: 'correct' });
+    expect(where('レストランで食べませんでした。', lunch)).toMatchObject({ status: 'wrong' });
+  });
+
+  it('takes points off for で where something is, and for で with 住む', () => {
+    const dict: LocationQuestion = { id: 'd', lang: 'ja', type: 'location', prompt: '辞書はどこにありますか。', expected: { places: ['机'], position: '上' } };
+    expect(where('机の上であります。', dict)).toMatchObject({ status: 'correct', score: 80, codes: ['ni_de'] });
+    const home: LocationQuestion = { id: 'h', lang: 'ja', type: 'location', prompt: 'どこに住んでいますか。', expected: { places: ['ハノイ'] } };
+    expect(where('ハノイで住んでいます。', home)).toMatchObject({ status: 'correct', score: 80, codes: ['ni_de'] });
+    expect(where('ハノイに住んでいます。', home)).toMatchObject({ status: 'correct', score: 100 });
   });
 });

@@ -19,6 +19,29 @@ describe('model answers', () => {
     expect(grade('たなかさんはせんせいです', '田中さんは先生です。').score).toBe(100);
   });
 
+  it('accepts the model answer written in kana even where the tokenizer would cut it wrongly', () => {
+    for (const [a, m] of [
+      ['わたしはいしゃです', '私は医者です。'],
+      ['きのう、デパートでにくやさかななどをかいました。', '昨日、デパートで肉や魚などを買いました。'],
+      ['しろいくつがほしいです', '白い靴が欲しいです。'],
+      ['はこのなかにあります', '箱の中にあります。'],
+      ['学校の食堂で昼ごはんを食べます。', '学校の食堂で昼ご飯を食べます。'],
+      ['わたしはベトナムじんです', '私はベトナム人です。'],
+      ['この時計は8,600円です。', 'この時計は8600円です。'],
+    ]) expect(grade(a!, m!), a).toMatchObject({ score: 100 });
+  });
+
+  it('finds particles written as they sound and katakana words in hiragana, also in mixed answers', () => {
+    expect(grade('京都わきれいな町です。', '京都はきれいな町です。')).toMatchObject({ score: 90, codes: ['particle_kana'] });
+    expect(grade('来週、飛行機でハノイえ帰ります。', '来週、飛行機でハノイへ帰ります。')).toMatchObject({ score: 90, codes: ['particle_kana'] });
+    expect(grade('ミンさんはせんせいでわありません', 'ミンさんは先生ではありません。')).toMatchObject({ score: 90, codes: ['particle_kana'] });
+    expect(grade('しゅくだいおします', '宿題をします。')).toMatchObject({ score: 90, codes: ['particle_kana'] });
+    expect(grade('ぱんとたまごをたべました', 'パンと卵を食べました。')).toMatchObject({ score: 95, codes: ['kana_script'] });
+    expect(grade('てれびをみます', 'テレビを見ます。')).toMatchObject({ score: 95, codes: ['kana_script'] });
+    // A decimal point is not a thousands separator.
+    expect(grade('この時計は8.600円です。', 'この時計は8600円です。').score).toBe(0);
+  });
+
   it('does not grade romaji, and says why', () => {
     const r = gradeJaModel(q('私は学生です。'), 'watashi wa gakusei desu');
     expect(r.content.status).toBe('no_answer');
@@ -43,9 +66,49 @@ describe('model answers', () => {
     expect(grade('私が学生です。', '私は学生です。')).toMatchObject({ score: 80, codes: ['wrong_particle'], review: true });
   });
 
+  it('never accepts a swap of から, まで, より, nor dropping だけ or a final の', () => {
+    expect(grade('英語は日本語より難しいです。', '英語より日本語が難しいです。').score).toBe(0);
+    expect(grade('郵便局は9時まで5時からです。', '郵便局は9時から5時までです。').score).toBe(0);
+    expect(grade('このかばんは小さいですから、便利です。', 'このかばんは小さいですが、便利です。').score).toBe(0);
+    expect(grade('切手を2枚買いました。', '切手を2枚だけ買いました。').score).toBe(0);
+    expect(grade('この傘はナムさんです。', 'この傘はナムさんのです。').score).toBe(0);
+    // Forgetting まで is a light slip.
+    expect(grade('郵便局は9時から5時です。', '郵便局は9時から5時までです。')).toMatchObject({ score: 85, codes: ['missing_word'] });
+  });
+
+  it('accepts から and ので for a reason', () => {
+    expect(grade('雨が降ったので、行きません。', '雨が降ったから、行きません。').score).toBe(100);
+  });
+
+  it('never accepts a question for a statement', () => {
+    expect(grade('ここで食べてはいけませんか。', 'ここで食べてはいけません。').score).toBe(0);
+    expect(grade('飲まなければなりませんか。', '飲まなければなりません。').score).toBe(0);
+  });
+
+  it('accepts the polite and plain forms of the same predicate', () => {
+    expect(grade('今日の宿題はあまり難しくないです。', '今日の宿題はあまり難しくありません。').score).toBe(100);
+    expect(grade('ここは静かじゃないです。', 'ここは静かではありません。').score).toBe(100);
+    expect(grade('行かないです。', '行きません。').score).toBe(100);
+    expect(grade('いいえ、ないです。', 'いいえ、ありません。').score).toBe(100);
+    expect(grade('昨日は寒くなかったです。', '昨日は寒くありませんでした。').score).toBe(100);
+    // Plain style: a remark, no penalty.
+    for (const [a, m] of [['とても寒い。', 'とても寒いです。'], ['高かった。', '高かったです。'], ['ここは静かじゃない。', 'ここは静かではありません。'], ['先生じゃなかった。', '先生ではありませんでした。']]) {
+      expect(grade(a!, m!), a).toMatchObject({ score: 100, codes: ['politeness_mix'] });
+    }
+    expect(grade('とても寒いでした。', 'とても寒かったです。').score).toBeLessThan(100);
+  });
+
+  it('ignores a final ね or よ unless the model answer ends with one', () => {
+    expect(grade('食堂はあそこですよ。', '食堂はあそこです。').score).toBe(100);
+    expect(grade('窓を開けないでくださいね。', '窓を開けないでください。').score).toBe(100);
+    expect(grade('いい天気ですよ。', 'いい天気ですね。').score).toBeLessThan(100);
+  });
+
   it('accepts に for へ before a verb of movement', () => {
     expect(grade('学校に行きます。', '学校へ行きます。').score).toBe(100);
     expect(grade('学校へ行きます。', '学校に行きます。').score).toBe(100);
+    // Purpose after a verb stem takes に only.
+    expect(grade('郵便局へ切手を買いへ行きます。', '郵便局へ切手を買いに行きます。').score).toBeLessThan(100);
   });
 
   it("grades through the rules' fixes", () => {

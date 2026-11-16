@@ -18,6 +18,14 @@ describe('normalizeJa', () => {
     expect(normalizeJa(`これは何ですか${FULL_WIDTH_QUESTION}`).text).toBe(`これは何ですか${FULL_WIDTH_QUESTION}`);
   });
 
+  it('drops a thousands separator but keeps a decimal point', () => {
+    expect(normalizeJa('8,600円です').text).toBe('8600円です');
+    expect(normalizeJa('1,234,567円').text).toBe('1234567円');
+    expect(normalizeJa('3.5キロ').text).toBe('3.5キロ');
+    expect(normalizeJa('はい,そうです').text).toBe('はい、そうです');
+    expect(normalizeJa('1,2個').text).toBe('1、2個');
+  });
+
   it('removes spaces, including the ideographic space', () => {
     expect(normalizeJa(` 私は ${IDEOGRAPHIC_SPACE}学生です `).text).toBe('私は学生です');
   });

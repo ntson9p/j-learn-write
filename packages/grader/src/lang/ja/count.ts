@@ -56,9 +56,11 @@ export function gradeJaCount(q: CountQuestion, answer: string, lexicon: JaLexico
     if (counted && counted.kind === 'counted') quantities.push({ value: counted.value!, counter: counted.counter, start: at(t.start), end: at(t.end), surface: t.surface });
     else if (number && number.kind === 'number' && !t.analyses.some((a) => a.kind === 'counted')) quantities.push({ value: number.value, counter: null, start: at(t.start), end: at(t.end), surface: t.surface });
     for (const a of t.analyses) {
+      // 150円じゃありません, ではない: a negated copula.
+      if (a.kind === 'function' && (a.id === 'dewa-arimasen' || a.id === 'dewa-arimasen-deshita')) negated = true;
       if (a.kind !== 'word') continue;
       if (!nouns.has(a.no) && lists.counters.has(a.no) && !otherNoun) otherNoun = t.surface;
-      if ((a.no === lists.aru || a.no === lists.iru) && a.tags.includes('neg')) negated = true;
+      if ((a.no === lists.aru || a.no === lists.iru) && (a.tags.includes('neg') || a.tags.includes('nai'))) negated = true;
     }
   }
 

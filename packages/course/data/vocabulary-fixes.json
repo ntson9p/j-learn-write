@@ -9,7 +9,8 @@
     "b48d0c99d4": {
       "word": "せっけん",
       "jmdictId": 1382590,
-      "why": "OpenJLPT links せっけん to 節倹 (thrift); the N5 lists mean 石鹸 (soap)."
+      "forms": ["石けん"],
+      "why": "OpenJLPT links せっけん to 節倹 (thrift); the N5 lists mean 石鹸 (soap). 石けん (JMdict, common in everyday writing) is accepted too."
     },
     "d7960dc78d": {
       "word": "終わる",
@@ -30,6 +31,10 @@
     "a2694d259e": {
       "word": "ご飯",
       "why": "ご飯 is the usual spelling (JMdict lists it first)."
+    },
+    "98bc6f72ae": {
+      "forms": ["朝ご飯", "朝御飯"],
+      "why": "朝ご飯 and 朝御飯 (JMdict) are accepted like 昼ご飯 and 晩ご飯."
     },
     "0b492c3209": {
       "word": "昼ご飯",

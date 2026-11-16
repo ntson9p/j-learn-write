@@ -19,6 +19,8 @@ import { tokenize, type Token } from './tokenize.ts';
 import { graderLexicon } from './words.ts';
 
 const DEFAULT_WRONG_CONTENT_SCORE = 20;
+/** Negated forms of a predicate (not ないで, なくて, なければ: those are clauses). */
+const NEGATED = /(^|\+)(?:masu\+neg(?:\+past)?|nai(?:\+past)?|neg(?:\+past)?)$/u;
 /** Position words of the course (机の上, 駅の前…). */
 const POSITIONS = ['上', '下', '中', '前', '後ろ', '隣', '横', '近く', '外', '右', '左', '間', '向こう'];
 
@@ -49,8 +51,15 @@ export function gradeJaLocation(q: LocationQuestion, answer: string, lexicon: Ja
 
   const places: Place[] = [];
   let negated = false;
+  const asksExistence = /に(?:あり|い)ますか|に(?:ある|いる)[の？]/u.test(q.prompt);
   tokens.forEach((t, i) => {
-    if (wordsOf(t).some((a) => (a.no === lists.aru || a.no === lists.iru) && a.tags.includes('neg'))) negated = true;
+    // A negated predicate: 机の上にありません, レストランで食べませんでした, 学校ではありません.
+    if (wordsOf(t).some((a) => NEGATED.test(a.tags.join('+'))) || fn(t, 'dewa-arimasen', 'dewa-arimasen-deshita')) negated = true;
+    // Where a thing or a person is: に, not で (机の上であります).
+    if (asksExistence && fn(t, 'de') && i > 0 && (isNoun(tokens[i - 1]) || isPosition(tokens[i - 1])) && wordsOf(tokens[i + 1]).some((a) => a.no === lists.aru || a.no === lists.iru)) {
+      const fix = { start: t.start, end: t.end, replacement: 'に' };
+      if (!issues.some((x) => x.code === 'ni_de' && x.start <= t.start && t.end <= x.end)) issues.push(jaIssue(penalties, 'ni_de', tokens[i - 1]!.start, t.end, vi.niDeExist(tokens[i - 1]!.surface, tokens[i + 1]!.surface), fix));
+    }
     const next = tokens[i + 1];
     const after = tokens[i + 2];
     if (isPosition(t)) return;

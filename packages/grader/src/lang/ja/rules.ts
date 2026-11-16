@@ -154,6 +154,9 @@ const teForm: Rule = (tokens, lists, p, out, text, lexicon) => {
  * conjugated like い-adjectives (きれいくない), な-adjectives with の (有名の人),
  * い-adjectives with な (高いな本).
  */
+/** Words after which 高いだ is surely wrong: end of sentence, よ, ね, から, けど, し, が, と(思う), ので. */
+const AFTER_DA = ['yo', 'ne', 'kara', 'kedo', 'keredo', 'keredomo', 'shi', 'ga', 'to', 'node'];
+
 const adjectiveForm: Rule = (tokens, lists, p, out) => {
   tokens.forEach((t, i) => {
     const next = tokens[i + 1];
@@ -162,18 +165,31 @@ const adjectiveForm: Rule = (tokens, lists, p, out) => {
       const adjI = a.pos.includes('adj-i') || a.pos.includes('adj-ix');
       const adjNa = a.pos.includes('adj-na') && !adjI;
       const kana = kanaOnly(t.surface);
+      if (adjI && next && ['past', 'neg', 'neg+past'].includes(tagsOf(a)) && fn(next, 'da') && (!after || isPunct(after) || fn(after, ...AFTER_DA))) {
+        const fix: Fix = { start: next.start, end: next.end, replacement: '' };
+        out.push(jaIssue(p, 'adjective_form', t.start, next.end, vi.adjectiveDa(t.surface + next.surface, t.surface), fix));
+        return;
+      }
       if (adjI && tagsOf(a) === '' && next) {
         let right: string | undefined;
         let end = next.end;
         if (fn(next, 'dewa-arimasen')) right = `${formOf(lists, a.no, 'ku', kana)}ありません`;
         else if (fn(next, 'dewa-arimasen-deshita')) right = `${formOf(lists, a.no, 'ku', kana)}ありませんでした`;
         else if (fn(next, 'dewa', 'ja') && fn(after, 'nai')) {
-          right = formOf(lists, a.no, 'neg', kana);
+          // おもしろいじゃなかった(です) → おもしろくなかった(です)
+          const past = after!.analyses.some((x) => x.kind === 'function' && x.id === 'nai' && x.tags.includes('past'));
+          right = formOf(lists, a.no, past ? 'neg+past' : 'neg', kana);
           end = after!.end;
         } else if (fn(next, 'deshita')) right = `${formOf(lists, a.no, 'past', kana)}です`;
         if (right && !right.startsWith('undefined')) {
           const fix: Fix = { start: t.start, end, replacement: right };
           out.push(jaIssue(p, 'adjective_form', fix.start, fix.end, vi.adjectiveI(t.surface + tokensText(tokens, i + 1, end), right), fix));
+          return;
+        }
+        // 高いだ。→ 高い (だ only follows nouns and な-adjectives).
+        if (fn(next, 'da') && (!after || isPunct(after) || fn(after, ...AFTER_DA))) {
+          const fix: Fix = { start: next.start, end: next.end, replacement: '' };
+          out.push(jaIssue(p, 'adjective_form', t.start, next.end, vi.adjectiveDa(t.surface + next.surface, t.surface), fix));
           return;
         }
         if (fn(next, 'na') && isNoun(after) && !isPunct(after)) {
@@ -261,41 +277,68 @@ const particleKana: Rule = (tokens, lists, p, out) => {
 };
 
 /** 猫があります → います, 本がいます → あります. */
+const isQuantity = (t: Token | undefined) => !!t && t.analyses.some((a) => a.kind === 'number' || (a.kind === 'counted' && a.value !== null));
+/** Counters of people and animals: 3人あります is wrong (います). */
+const ANIMATE_COUNTERS = new Set(['人', '匹']);
+
 const aruIru: Rule = (tokens, lists, p, out) => {
+  const report = (subject: Token, verb: Token | undefined, animate: boolean, inanimate: boolean, name: string) => {
+    for (const a of words(verb)) {
+      const target = animate && a.no === lists.aru ? lists.iru : inanimate && a.no === lists.iru ? lists.aru : undefined;
+      if (target === undefined) continue;
+      const right = formOf(lists, target, tagsOf(a), kanaOnly(verb!.surface));
+      if (!right) continue;
+      const fix: Fix = { start: verb!.start, end: verb!.end, replacement: right };
+      out.push(jaIssue(p, 'aru_iru', subject.start, verb!.end, vi.aruIru(name, target === lists.iru ? 'います' : 'あります'), fix));
+      return true;
+    }
+    return false;
+  };
   tokens.forEach((t, i) => {
-    const particle = tokens[i + 1];
-    if (!fn(particle, 'ga', 'wa', 'mo')) return;
-    // The verb follows, possibly after a place phrase (猫は机の下にいます): nouns, の, and a final に.
-    let k = i + 2;
-    while (tokens[k] && (isNoun(tokens[k]) || fn(tokens[k], 'no')) && !words(tokens[k]).some((a) => a.no === lists.aru || a.no === lists.iru)) k++;
-    if (k > i + 2 && fn(tokens[k], 'ni')) k++;
-    else if (k > i + 2) return;
+    // 3人あります with no subject: the counter says it is people or animals.
+    if (countedOf(t).some((c) => c.value !== null && ANIMATE_COUNTERS.has(c.counter)) && !isQuantity(tokens[i - 1])) {
+      const k = fn(tokens[i + 1], 'mo') ? i + 2 : i + 1;
+      if (report(t, tokens[k], true, false, t.surface)) return;
+    }
+    // 誰かありますか, 誰もありません: the question word with か/も.
+    let pi = i + 1;
+    if (hasWord(t, lists.wh) && fn(tokens[pi], 'ka') && !fn(tokens[pi + 1], 'ga', 'wa', 'mo')) pi--;
+    else if (hasWord(t, lists.wh) && fn(tokens[pi], 'ka')) pi++;
+    const particle = tokens[pi];
+    const viaWh = pi === i;
+    if (!viaWh && !fn(particle, 'ga', 'wa', 'mo')) return;
+    // The verb follows, possibly after a quantity (子供が3人います, 本が2冊もあります) or a
+    // place phrase (猫は机の下にいます: nouns, の, and a final に).
+    let k = viaWh ? i + 2 : pi + 1;
+    if (isQuantity(tokens[k])) {
+      k++;
+      if (fn(tokens[k], 'mo')) k++;
+    } else {
+      const from = k;
+      while (tokens[k] && (isNoun(tokens[k]) || fn(tokens[k], 'no')) && !words(tokens[k]).some((a) => a.no === lists.aru || a.no === lists.iru)) k++;
+      if (k > from && fn(tokens[k], 'ni')) k++;
+      else if (k > from) return;
+    }
     const verb = tokens[k];
     if (!verb) return;
     // People: listed words and anything with さん, くん, さま, たち (names alone may be places: 大阪, ハノイ).
     const animate = hasWord(t, lists.animate) || fn(t, 'san', 'kun', 'sama', 'tachi');
     const inanimate = !animate && hasWord(t, lists.inanimate);
-    for (const a of words(verb)) {
-      const target = animate && a.no === lists.aru ? lists.iru : inanimate && a.no === lists.iru ? lists.aru : undefined;
-      if (target === undefined) continue;
-      const right = formOf(lists, target, tagsOf(a), kanaOnly(verb.surface));
-      if (!right) continue;
-      const fix: Fix = { start: verb.start, end: verb.end, replacement: right };
-      out.push(jaIssue(p, 'aru_iru', t.start, verb.end, vi.aruIru(t.surface, target === lists.iru ? 'います' : 'あります'), fix));
-      return;
-    }
+    report(t, verb, animate, inanimate, t.surface);
   });
 };
 
-/**
- * 図書館に勉強します → で (place of an action); 部屋でいます, 東京で住んでいます → に
- * (place where someone is or lives).
- */
 const niDe: Rule = (tokens, lists, p, out) => {
   tokens.forEach((t, i) => {
-    if (!hasWord(t, lists.places)) return;
     const particle = tokens[i + 1];
     if (!particle) return;
+    // ハノイで住んでいます: a named place where one lives takes に.
+    if (isName(t) && fn(particle, 'de') && words(tokens[i + 2]).some((a) => a.no === lists.sumu)) {
+      const fix: Fix = { start: particle.start, end: particle.end, replacement: 'に' };
+      out.push(jaIssue(p, 'ni_de', t.start, particle.end, vi.niDeExist(t.surface, tokens[i + 2]!.surface), fix));
+      return;
+    }
+    if (!hasWord(t, lists.places)) return;
     if (fn(particle, 'ni')) {
       // The action verb comes right after (or after one object with を), as the predicate (not 遊びに行く).
       let k = i + 2;
@@ -397,7 +440,46 @@ const counterReading: Rule = (tokens, lists, p, out) => {
   }
 };
 
-const RULES: readonly Rule[] = [teForm, adjectiveForm, naAdjectiveForm, whWa, particleKana, aruIru, niDe, counters, counterReading];
+/** Nouns a plain-form clause modifies: 出る前に, 行ったことがある, 来る時, 行くつもり… */
+const CLAUSE_NOUNS = new Set(['前', '後', 'こと', '時', 'とき', 'つもり', '予定', 'ため', 'はず', 'ところ', '人']);
+const PLAIN_OF_POLITE: [RegExp, string][] = [
+  [/(^|\+)masu\+neg\+past$/, '$1nai+past'],
+  [/(^|\+)masu\+neg$/, '$1nai'],
+  [/(^|\+)masu\+past$/, '$1ta'],
+  [/(^|\+)masu$/, ''],
+];
+
+/**
+ * Polite ます/です inside a clause: before a noun it modifies (出ます前に →
+ * 出る前に, 行きましたことがあります → 行ったことがあります) and before でしょう
+ * (晴れますでしょう → 晴れるでしょう; でしょうか is left alone: very polite speech uses it).
+ */
+const politeInClause: Rule = (tokens, lists, p, out) => {
+  tokens.forEach((t, i) => {
+    const next = tokens[i + 1];
+    if (!next) return;
+    const beforeNoun = fn(next, 'koto') || words(next).some((a) => CLAUSE_NOUNS.has(a.word) && !a.pos.some((x) => x.startsWith('v')));
+    const beforeDeshou = fn(next, 'deshou', 'darou') && !fn(tokens[i + 2], 'ka');
+    if (!beforeNoun && !beforeDeshou) return;
+    if (beforeDeshou && fn(t, 'desu')) {
+      const fix: Fix = { start: t.start, end: t.end, replacement: '' };
+      out.push(jaIssue(p, 'polite_in_clause', t.start, next.end, vi.politeInClause(t.surface + next.surface, next.surface, next.surface), fix));
+      return;
+    }
+    for (const a of words(t)) {
+      const rule = PLAIN_OF_POLITE.find(([re]) => re.test(tagsOf(a)));
+      if (!rule || !tagsOf(a).includes('masu')) continue;
+      const plainTags = tagsOf(a).replace(rule[0], rule[1]).replace(/^\+/, '');
+      const right = formOf(lists, a.no, plainTags, kanaOnly(t.surface));
+      if (!right) continue;
+      const fix: Fix = { start: t.start, end: t.end, replacement: right };
+      out.push(jaIssue(p, 'polite_in_clause', t.start, t.end, vi.politeInClause(t.surface, right, next.surface), fix));
+      return;
+    }
+  });
+};
+
+const RULES: readonly Rule[] = [teForm, adjectiveForm, naAdjectiveForm, whWa, particleKana, aruIru, niDe, counters, counterReading, politeInClause];
 
 /** Runs every rule on a normalized text; issues are in text positions. */
 export function runJaRules(text: string, lexicon: JaLexicon, penalties: Penalties): Issue[] {

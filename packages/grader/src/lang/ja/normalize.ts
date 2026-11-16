@@ -29,7 +29,8 @@ const COMMA = String.fromCharCode(0x3001); // 、
  * - invisible format characters removed
  * - line breaks inside the answer become 、 so that clauses stay apart
  * - all other whitespace removed (Japanese does not separate words with spaces)
- * - ASCII , . ! ? become 、 。 ！ ？ (a dot between digits is kept: 3.5)
+ * - ASCII , . ! ? become 、 。 ！ ？ (a dot between digits is kept: 3.5; a comma
+ *   between digits that separates thousands is dropped: 8,600 → 8600)
  * - a dash right after kana becomes ー (コ-ヒ- → コーヒー)
  */
 export function normalizeJa(input: string): JaNormalized {
@@ -44,6 +45,8 @@ export function normalizeJa(input: string): JaNormalized {
     const prev = chars[i - 1];
     if (DASHES.has(ch) && isKana(prev)) out += CHOON;
     else if (ch === '.') out += /\d/.test(prev ?? '') && /\d/.test(chars[i + 1] ?? '') ? '.' : FULL_STOP;
+    // A thousands separator (8,600) is dropped: 8600.
+    else if (ch === ',' && /\d/.test(prev ?? '') && /^\d{3}(?!\d)/.test(chars.slice(i + 1, i + 5).join(''))) continue;
     else out += PUNCTUATION[ch] ?? ch;
   }
   return { text: out, hasLatin: /[A-Za-z]/.test(out) };

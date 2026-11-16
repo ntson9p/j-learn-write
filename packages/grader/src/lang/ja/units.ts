@@ -3,6 +3,7 @@
  * carrying every analysis the tokenizer found, so that 私 and わたし, 食べます
  * and たべます compare equal, while 雨 and 飴 (same reading, other words) do not.
  */
+import { conjClassOf } from './conjugate.ts';
 import { isKana, isKanji, toHiragana } from './kana.ts';
 import type { JaLexicon } from './lexicon.ts';
 import { tokenize, type Token } from './tokenize.ts';
@@ -30,14 +31,29 @@ export interface Unit {
   copula: boolean;
   /** Not recognised at all. */
   unknown: boolean;
-  /** Numbers, counted quantities and particles whose change alters the meaning (か, も). */
+  /** Numbers, counted quantities and particles whose change alters the meaning (か, も, だけ, しか). */
   critical: boolean;
+  /** A particle that may be missing but not replaced by another one (から, まで, より). */
+  noSwap: boolean;
+  /** Inflecting class of each word lemma: adjective (高い), verb, or ある itself. */
+  kinds: Map<string, 'adj' | 'verb' | 'aru'>;
 }
 
 /** Function words that are the same unit in two spellings. */
-const SAME_FUNCTION: Record<string, string> = { ja: 'dewa' };
-/** Particles whose omission or change alters the meaning: never a light edit. */
-const CRITICAL_PARTICLES = new Set(['ka', 'mo']);
+const SAME_FUNCTION: Record<string, string> = { ja: 'dewa', n: 'no' };
+/**
+ * Particles whose omission or change alters the meaning: never a light edit.
+ * から/まで (from/until, or because), より (comparison: 英語は日本語より / 英語より日本語が),
+ * だけ, しか (only).
+ */
+const CRITICAL_PARTICLES = new Set(['ka', 'mo', 'dake', 'shika']);
+/**
+ * Particles that may be forgotten (a light edit) but never swapped for
+ * another particle: から/まで (from/until), より (英語は日本語より / 英語より日本語が).
+ */
+const NO_SWAP_PARTICLES = new Set(['kara', 'made', 'yori']);
+/** Polite question endings of auxiliaries (いけませんか): another sentence than the statement. */
+const POLITE_QUESTION = /ま(?:す|せん)か$/u;
 
 export function unitsOf(text: string, lexicon: JaLexicon): Unit[] {
   return tokenize(text, lexicon)
@@ -61,6 +77,8 @@ export function unitOf(t: Token): Unit {
     copula: false,
     unknown: false,
     critical: false,
+    noSwap: false,
+    kinds: new Map(),
   };
   const add = (lemma: string, tags: readonly string[]) => {
     u.lemmas.add(lemma);
@@ -72,16 +90,20 @@ export function unitOf(t: Token): Unit {
   for (const a of t.analyses) {
     if ('reading' in a) u.readings.add(toHiragana(a.reading));
     switch (a.kind) {
-      case 'word':
+      case 'word': {
         u.isWord = true;
         add(`w${a.no}`, a.tags);
+        const cls = conjClassOf(a.word, a.pos);
+        if (cls) u.kinds.set(`w${a.no}`, a.word === 'ある' ? 'aru' : cls.startsWith('adj') ? 'adj' : 'verb');
         break;
+      }
       case 'function': {
         const id = SAME_FUNCTION[a.id] ?? a.id;
-        add(`f:${id}`, a.tags);
+        add(`f:${id}`, a.id !== 'ka' && POLITE_QUESTION.test(t.surface) ? [...a.tags, 'q'] : a.tags);
         if (a.role === 'particle') u.particle = true;
         if (a.role === 'copula') u.copula = true;
         if (CRITICAL_PARTICLES.has(a.id)) u.critical = true;
+        if (NO_SWAP_PARTICLES.has(a.id)) u.noSwap = true;
         break;
       }
       case 'number':
@@ -123,7 +145,7 @@ const PLAIN_OF: Record<string, string> = {
 const PLAIN_COPULA: Record<string, string> = { 'f:desu': 'f:da', 'f:deshita': 'f:datta', 'f:deshou': 'f:darou' };
 
 const plainTags = (tags: readonly string[]) => {
-  const key = tags.join('+');
+  const key = tags.filter((t) => t !== 'pol' && t !== 'plain').join('+');
   return PLAIN_OF[key] ?? key;
 };
 
@@ -169,4 +191,121 @@ export function spellingSlip(x: string, y: string): boolean {
     if (long.slice(0, i).join('') + long.slice(i + 1).join('') === short.join('')) return SLIP_KANA.has(long[i]!);
   }
   return false;
+}
+
+// ---------------------------------------------------------------- predicates in several tokens
+
+/** Plain forms of an adjective that take です to become polite (高い, 高かった, 高くない, 高くなかった). */
+const ADJ_PLAIN = new Set(['', 'past', 'neg', 'neg+past']);
+
+
+type Form = { lemma: string; tags: string[] };
+
+/** Lemmas and tags of the words in `u` of one of `kinds` whose tags pass `test` (あつい: 暑い, 熱い, 厚い). */
+function wordForms(u: Unit, kinds: readonly string[], test: (tags: string) => boolean): Form[] {
+  const out: Form[] = [];
+  for (const [lemma, kind] of u.kinds) {
+    if (!kinds.includes(kind)) continue;
+    const tags = u.forms.get(lemma)?.find((t) => test(t.join('+')));
+    if (tags) out.push({ lemma, tags });
+  }
+  return out;
+}
+
+/** Polite form of a plain verb form in ない: 行かない → 行きません (masu+neg). */
+function politeNai(tags: readonly string[]): string[] {
+  const key = tags.join('+');
+  const polite = key.endsWith('nai+past') ? `${key.slice(0, -'nai+past'.length)}masu+neg+past` : `${key.slice(0, -'nai'.length)}masu+neg`;
+  return polite.split('+');
+}
+
+/**
+ * The polite forms of plain adjective-like forms followed by です: 高い+です,
+ * 高くない+です, 行かない+です (= 行きません), 食べたい+です.
+ */
+function politeWithDesu(u: Unit): Form[] {
+  return [
+    ...wordForms(u, ['adj'], (t) => ADJ_PLAIN.has(t)).map((f) => ({ lemma: f.lemma, tags: [...f.tags, 'pol'] })),
+    ...wordForms(u, ['verb', 'aru'], (t) => /(^|\+)nai(\+past)?$/.test(t)).map((f) => ({ lemma: f.lemma, tags: politeNai(f.tags) })),
+    ...wordForms(u, ['verb', 'aru'], (t) => /(^|\+)tai(\+neg)?(\+past)?$/.test(t) || /^(yasui|nikui)(\+neg)?(\+past)?$/.test(t)).map((f) => ({ lemma: f.lemma, tags: [...f.tags, 'pol'] })),
+  ];
+}
+
+function mergedUnit(parts: readonly Unit[], forms: readonly Form[]): Unit {
+  let readings = [''];
+  for (const p of parts) readings = readings.flatMap((r) => [...p.readings].map((x) => r + x)).slice(0, 16);
+  const kinds = new Map<string, 'adj' | 'verb' | 'aru'>();
+  const formMap = new Map<string, string[][]>();
+  for (const f of forms) {
+    const kind = parts.map((p) => p.kinds.get(f.lemma)).find((k) => k !== undefined);
+    if (kind) kinds.set(f.lemma, kind);
+    formMap.set(f.lemma, [...(formMap.get(f.lemma) ?? []), [...f.tags]]);
+  }
+  return {
+    surface: parts.map((p) => p.surface).join(''),
+    start: parts[0]!.start,
+    end: parts[parts.length - 1]!.end,
+    keys: new Set(forms.map((f) => `${f.lemma}:${f.tags.join('+')}`)),
+    lemmas: new Set(forms.map((f) => f.lemma)),
+    forms: formMap,
+    readings: new Set(readings),
+    kana: parts.every((p) => p.kana),
+    hasKanji: parts.some((p) => p.hasKanji),
+    isWord: forms.some((f) => f.lemma.startsWith('w')),
+    particle: false,
+    copula: forms.every((f) => f.lemma.startsWith('f:')),
+    unknown: false,
+    critical: false,
+    noSwap: false,
+    kinds,
+  };
+}
+
+const isDesu = (u: Unit | undefined) => !!u && u.lemmas.has('f:desu');
+/** でしょう/だろう after です (高いですでしょう) is a mistake: です is then not joined. */
+const isCopulaAfter = (u: Unit | undefined) => !!u && (u.lemmas.has('f:deshou') || u.lemmas.has('f:darou'));
+const naiOf = (u: Unit | undefined) => (u ? wordForms(u, ['aru'], (t) => t === 'nai' || t === 'nai+past')[0] : undefined);
+
+/**
+ * Joins the tokens of one predicate so that equivalent polite and plain forms
+ * compare as one unit:
+ * - 高くありません = 高くないです (polite), 高くない (plain);
+ * - 行きません = 行かないです; 高いです (polite) ~ 高い (plain);
+ * - ではありません = じゃないです (polite), じゃない (plain), and the past forms.
+ */
+export function joinPredicates(units: readonly Unit[]): Unit[] {
+  const out: Unit[] = [];
+  for (let i = 0; i < units.length; i++) {
+    const u = units[i]!;
+    const next = units[i + 1];
+    // じゃ/では + ない (+ です)
+    const nai = u.lemmas.has('f:dewa') ? naiOf(next) : undefined;
+    if (nai) {
+      const past = nai.tags.includes('past');
+      const lemma = past ? 'f:dewa-arimasen-deshita' : 'f:dewa-arimasen';
+      const polite = isDesu(units[i + 2]);
+      const parts = units.slice(i, i + (polite ? 3 : 2));
+      out.push(mergedUnit(parts, [{ lemma, tags: polite ? [] : ['plain'] }]));
+      i += parts.length - 1;
+      continue;
+    }
+    // 高く + ありません(でした)
+    const ku = wordForms(u, ['adj'], (t) => t === 'ku');
+    const arimasen = ku.length > 0 && next ? wordForms(next, ['aru'], (t) => t === 'masu+neg' || t === 'masu+neg+past')[0] : undefined;
+    if (arimasen) {
+      const tags = arimasen.tags.includes('past') ? ['neg', 'past', 'pol'] : ['neg', 'pol'];
+      out.push(mergedUnit([u, next!], ku.map((f) => ({ lemma: f.lemma, tags }))));
+      i++;
+      continue;
+    }
+    // 高い + です, 行かない + です
+    const polite = isDesu(next) && !isCopulaAfter(units[i + 2]) ? politeWithDesu(u) : [];
+    if (polite.length > 0) {
+      out.push(mergedUnit([u, next!], polite));
+      i++;
+      continue;
+    }
+    out.push(u);
+  }
+  return out;
 }

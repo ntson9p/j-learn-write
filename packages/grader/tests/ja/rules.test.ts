@@ -33,6 +33,23 @@ describe('rules', () => {
     for (const ok of ['高くありません。', '寒かったです。', '静かな部屋です。', '高いな。', '病気の人です。', '元気じゃありません。', 'きれいじゃない。', 'きれいでした。', '静かではありません。']) expect(codes(ok), ok).toEqual([]);
   });
 
+  it('adjective_form: い-adjective + だ, and the past of じゃなかった', () => {
+    expect(fixed('このカレーはおいしいだ。')).toBe('このカレーはおいしい。');
+    expect(fixed('電車はバスより速いだよ。')).toBe('電車はバスより速いよ。');
+    expect(fixed('高いだと思います。')).toBe('高いと思います。');
+    expect(fixed('あまりおもしろいじゃなかったです。')).toBe('あまりおもしろくなかったです。');
+    for (const ok of ['おいしいだろう。', '高いだけです。', '静かだ。', '学生だ。', '高いです。', 'きれいだから、好きです。']) expect(codes(ok), ok).toEqual([]);
+  });
+
+  it('polite_in_clause: ます/です inside a clause', () => {
+    expect(fixed('家を出ます前に、朝ご飯を食べます。')).toBe('家を出る前に、朝ご飯を食べます。');
+    expect(fixed('日本へ行きましたことがあります。')).toBe('日本へ行ったことがあります。');
+    expect(fixed('宿題をしました後で、遊びます。')).toBe('宿題をした後で、遊びます。');
+    expect(fixed('明日は晴れますでしょう。')).toBe('明日は晴れるでしょう。');
+    expect(fixed('この辞書は高いですでしょう。')).toBe('この辞書は高いでしょう。');
+    for (const ok of ['行きますから、待ってください。', '寒いですが、行きます。', '雨が降りますね。', 'ありますでしょうか。', '家を出る前に、食べます。', '前に行きます。', '食べます。前に、何をしましたか。']) expect(codes(ok), ok).toEqual([]);
+  });
+
   it('wh_wa: a question word as subject takes が', () => {
     expect(fixed('誰は来ましたか。')).toBe('誰が来ましたか。');
     expect(fixed('何は好きですか。')).toBe('何が好きですか。');
@@ -51,6 +68,16 @@ describe('rules', () => {
     expect(fixed('机の上に本がいます。')).toBe('机の上に本があります。');
     expect(fixed('猫は机の下にあります。')).toBe('猫は机の下にいます。');
     for (const ok of ['猫がいます。', '本があります。', '時間があります。', 'パーティーがあります。', 'お金がいります。', '猫は机の下にいます。', '私は日本に友達がいます。', 'ハノイはベトナムの北にあります。']) expect(codes(ok), ok).toEqual([]);
+  });
+
+  it('aru_iru: with a quantity before the verb, 誰, and no subject', () => {
+    expect(fixed('子供が3人あります。')).toBe('子供が3人います。');
+    expect(fixed('本は4冊います。')).toBe('本は4冊あります。');
+    expect(fixed('3人あります。')).toBe('3人います。');
+    expect(fixed('庭に誰がありますか。')).toBe('庭に誰がいますか。');
+    expect(fixed('部屋に誰かありますか。')).toBe('部屋に誰かいますか。');
+    expect(fixed('塩はテーブルの上にいます。')).toBe('塩はテーブルの上にあります。');
+    for (const ok of ['子供が3人います。', '本が2冊あります。', '紙が3枚いります。', '塩がいります。', '誰もいません。', '3人います。', '時間が3時間あります。']) expect(codes(ok), ok).toEqual([]);
   });
 
   it('ni_de: place of an action で, place of being に', () => {

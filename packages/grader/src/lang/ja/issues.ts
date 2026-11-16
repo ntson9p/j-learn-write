@@ -9,6 +9,7 @@ export type JaIssueCode =
   | 'kana_spelling'
   | 'kana_script'
   | 'politeness_mix'
+  | 'polite_in_clause'
   | 'te_form'
   | 'adjective_form'
   | 'wh_wa'
@@ -30,6 +31,7 @@ export const JA_DEFAULT_PENALTIES: Readonly<Record<JaIssueCode, number>> = {
   kana_spelling: 10,
   kana_script: 5,
   politeness_mix: 0,
+  polite_in_clause: 15,
   te_form: 20,
   adjective_form: 20,
   wh_wa: 20,
@@ -51,6 +53,7 @@ export const JA_SEVERITY: Readonly<Record<JaIssueCode, Severity>> = {
   kana_spelling: 'typo',
   kana_script: 'typo',
   politeness_mix: 'info',
+  polite_in_clause: 'error',
   te_form: 'error',
   adjective_form: 'error',
   wh_wa: 'error',
@@ -73,6 +76,7 @@ export const JA_ISSUE_LABELS_VI: Readonly<Record<JaIssueCode, string>> = {
   kana_spelling: 'Viết sai kana',
   kana_script: 'Hiragana/katakana',
   politeness_mix: 'Lịch sự/thân mật',
+  polite_in_clause: 'Thể ます trong mệnh đề',
   te_form: 'Thể て',
   adjective_form: 'Chia tính từ',
   wh_wa: 'Từ để hỏi + は',

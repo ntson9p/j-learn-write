@@ -1289,7 +1289,7 @@
           "answer": "この辞書は高いですでしょう。",
           "score": 85,
           "issues": [
-            "extra_word"
+            "polite_in_clause"
           ]
         },
         {

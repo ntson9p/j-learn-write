@@ -26,23 +26,52 @@ import { hasJapanese, isKanji, toHiragana, toKatakana } from './kana.ts';
 import type { JaLexicon } from './lexicon.ts';
 import { vi } from './messages.ts';
 import { normalizeJa } from './normalize.ts';
+import { renderedMatch } from './render.ts';
 import { runJaRules } from './rules.ts';
 import { tokenize } from './tokenize.ts';
-import { politenessPair, shareKey, shareLemma, shareReading, spellingSlip, unitsOf, type Unit } from './units.ts';
+import { joinPredicates, politenessPair, shareKey, shareLemma, shareReading, spellingSlip, unitsOf, type Unit } from './units.ts';
 import { graderLexicon } from './words.ts';
 
 type Penalties = Readonly<Record<string, number>>;
 
 const LEADING_INTERJECTIONS = new Set(['f:etto', 'f:anou']);
-const TRAILING_PARTICLES = new Set(['f:ne', 'f:yo']);
+/** Sentence-final particles: ignored at the end of an answer unless the model answer ends with one. */
+const FINAL_PARTICLES = new Set(['ね', 'よ', 'よね']);
+const COPULAS = new Set(['f:desu', 'f:deshita', 'f:deshou', 'f:da', 'f:datta', 'f:darou']);
 
-/** Units without leading interjections and trailing ね/よ (they do not change the answer). */
-function core(units: readonly Unit[]): Unit[] {
+/**
+ * Units ready to compare: predicates joined (高くないです = 高くありません), leading
+ * interjections dropped, and の before a copula or at the end made critical
+ * (この傘はナムさんのです: without の it says "is Nam").
+ */
+function prepare(units: readonly Unit[]): Unit[] {
+  const out = joinPredicates(units);
+  while (out.length > 1 && out[0]!.lemmas.size > 0 && [...out[0]!.lemmas].every((l) => LEADING_INTERJECTIONS.has(l))) out.shift();
+  return out.map((u, i) => {
+    if (!u.lemmas.has('f:no') || !u.particle) return u;
+    const next = out[i + 1];
+    const nominal = !next || [...next.lemmas].some((l) => COPULAS.has(l) || l === 'f:ka') || FINAL_PARTICLES.has(next.surface);
+    return nominal ? { ...u, critical: true } : u;
+  });
+}
+
+/** Without trailing ね/よ (they do not change the answer). */
+function stripFinal(units: readonly Unit[]): Unit[] {
   const out = [...units];
-  while (out.length > 1 && [...out[0]!.lemmas].every((l) => LEADING_INTERJECTIONS.has(l)) && out[0]!.lemmas.size > 0) out.shift();
-  while (out.length > 1 && [...out[out.length - 1]!.lemmas].some((l) => TRAILING_PARTICLES.has(l)) && !out[out.length - 1]!.isWord) out.pop();
+  while (out.length > 1 && FINAL_PARTICLES.has(out[out.length - 1]!.surface)) out.pop();
   return out;
 }
+
+/** An answer's units, with and without its trailing ね/よ. */
+interface AnswerUnits {
+  full: Unit[];
+  stripped: Unit[];
+}
+
+const answerUnits = (units: readonly Unit[]): AnswerUnits => {
+  const full = prepare(units);
+  return { full, stripped: stripFinal(full) };
+};
 
 /** Particles and copulas may be missing or extra (at a cost); は counts as a particle although it is also 歯 in kana. */
 const isLight = (u: Unit) => (u.particle || (u.copula && !u.isWord)) && !u.critical;
@@ -50,7 +79,7 @@ const isLight = (u: Unit) => (u.particle || (u.copula && !u.isWord)) && !u.criti
 type EditType = 'particle' | 'politeness' | 'homophone' | 'spelling' | 'script';
 
 function substitution(a: Unit, b: Unit): EditType | null {
-  if (a.particle && b.particle && !a.critical && !b.critical) return 'particle';
+  if (a.particle && b.particle && !a.critical && !b.critical && !a.noSwap && !b.noSwap) return 'particle';
   if (politenessPair(a, b)) return 'politeness';
   if (shareLemma(a, b)) return null; // the same word in another form: tense, negation… changes the meaning
   if (shareReading(a, b)) {
@@ -75,14 +104,26 @@ const COSTS: AlignCosts<Unit, Unit> = {
 
 const MOVEMENT = ['行く', '来る', '帰る'];
 
-/** に and へ mean the same before a verb of movement (学校に行きます = 学校へ行きます): either is accepted. */
+const isVerbStem = (u: Unit) => [...u.kinds].some(([lemma, kind]) => kind !== 'adj' && u.forms.get(lemma)?.some((t) => t.join('+') === 'stem'));
+const isPredicate = (u: Unit) => u.copula || [...u.kinds].some(([lemma]) => u.forms.get(lemma)?.some((t) => !t.includes('stem') && !t.includes('te') && !t.includes('ku')));
+const withKeys = (u: Unit, ...lemmas: string[]): Unit => ({ ...u, keys: new Set([...u.keys, ...lemmas.map((l) => `${l}:`)]), lemmas: new Set([...u.lemmas, ...lemmas]) });
+
+/**
+ * Particles that mean the same here, either accepted:
+ * - に and へ after a place before a verb of movement (学校に行きます = 学校へ行きます),
+ *   not after a verb stem (買いに行きます: purpose, へ is wrong);
+ * - から and ので after a predicate (reason: 雨が降ったから = 雨が降ったので).
+ */
 function withEquivalentParticles(units: Unit[], lexicon: JaLexicon): Unit[] {
   const movement = new Set(lexicon.words.filter((w) => MOVEMENT.includes(w.word)).map((w) => `w${w.no}`));
   return units.map((u, i) => {
+    const prev = units[i - 1];
     const next = units[i + 1];
+    if ((u.lemmas.has('f:kara') || u.lemmas.has('f:node')) && prev && isPredicate(prev)) return withKeys(u, 'f:kara', 'f:node');
     if (!next || ![...next.lemmas].some((l) => movement.has(l))) return u;
     if (!u.lemmas.has('f:ni') && !u.lemmas.has('f:e')) return u;
-    return { ...u, keys: new Set([...u.keys, 'f:ni:', 'f:e:']), lemmas: new Set([...u.lemmas, 'f:ni', 'f:e']) };
+    if (prev && isVerbStem(prev)) return u;
+    return withKeys(u, 'f:ni', 'f:e');
   });
 }
 
@@ -122,6 +163,8 @@ interface ModelEntry {
   text: string;
   units: Unit[];
   score: number;
+  /** Ends with ね/よ: compared with the answer's own ending. */
+  final: boolean;
 }
 
 type Edit =
@@ -149,10 +192,11 @@ function modelsOf(q: ModelQuestion, lexicon: JaLexicon): ModelEntry[] {
     const score = spec.score ?? 100;
     for (const display of expandPattern(spec.text)) {
       const text = normalizeJa(display).text;
-      const units = withEquivalentParticles(core(unitsOf(text, lexicon)), lexicon);
+      const units = withEquivalentParticles(prepare(unitsOf(text, lexicon)), lexicon);
       if (units.length === 0) continue;
+      const final = units.length > 1 && FINAL_PARTICLES.has(units[units.length - 1]!.surface);
       const previous = byText.get(text);
-      if (!previous || previous.score < score) byText.set(text, { display, text, units, score });
+      if (!previous || previous.score < score) byText.set(text, { display, text, units, score, final });
     }
   }
   const entries = [...byText.values()];
@@ -254,8 +298,8 @@ function editIssues(edits: readonly Edit[], penalties: Penalties, pos: (i: numbe
   return issues;
 }
 
-function compare(answer: readonly Unit[], models: readonly ModelEntry[], q: ModelQuestion, penalties: Penalties) {
-  const candidates = models.map((m) => evaluate(answer, m, q.options?.maxLightEdits));
+function compare(answer: AnswerUnits, models: readonly ModelEntry[], q: ModelQuestion, penalties: Penalties) {
+  const candidates = models.map((m) => evaluate(m.final ? answer.full : answer.stripped, m, q.options?.maxLightEdits));
   const value = (c: Candidate) => c.model.score - editIssues(c.edits, penalties, (i) => i).reduce((s, i) => s + i.penalty, 0);
   const best = candidates.filter((c) => c.acceptable).sort((x, y) => value(y) - value(x) || x.cost - y.cost)[0];
   const closest = [...candidates].sort((x, y) => x.cost - y.cost || y.model.score - x.model.score)[0];
@@ -329,7 +373,9 @@ function bySound(text: string, model: ModelEntry, lexicon: JaLexicon, penalties:
 
 // ---------------------------------------------------------------- matching
 
-type MatchKind = 'exact' | 'fixed' | 'plain' | 'sound';
+const shiftIssue = (i: Issue, by: number): Issue => ({ ...i, start: i.start + by, end: i.end + by, ...(i.fix ? { fix: { ...i.fix, start: i.fix.start + by, end: i.fix.end + by } } : {}) });
+
+type MatchKind = 'exact' | 'rendered' | 'fixed' | 'plain' | 'sound';
 
 interface Match {
   kind: MatchKind;
@@ -350,20 +396,29 @@ function attempt(
   lexicon: JaLexicon,
 ): { match?: Match; closest?: Candidate } {
   const sub = text.slice(start, end);
-  const units = core(unitsOf(sub, lexicon));
-  if (units.length === 0) return {};
   const shift = (u: Unit): Unit => ({ ...u, start: u.start + start, end: u.end + start });
-  const shifted = units.map(shift);
+  const shifted = answerUnits(unitsOf(sub, lexicon).map(shift));
+  if (shifted.full.length === 0) return {};
 
   const plain = compare(shifted, models, q, penalties);
   if (plain.best && plain.best.edits.length === 0) return { match: { kind: 'exact', model: plain.best.model, edits: [], start, end } };
+
+  // The model answer written partly or wholly in kana (whatever the tokenizer makes of it).
+  let rendered: Match | undefined;
+  for (const m of models) {
+    const issues = renderedMatch(sub, m.text, lexicon, penalties);
+    if (!issues) continue;
+    const found: Match = { kind: 'rendered', model: m, edits: issues.map((i) => shiftIssue(i, start)), start, end };
+    if (!rendered || matchValue(found) > matchValue(rendered)) rendered = found;
+  }
+  if (rendered) return { match: rendered };
 
   const localFixes: Fix[] = ruleIssues.flatMap((i) =>
     i.fix && i.fix.start >= start && i.fix.end <= end ? [{ ...i.fix, start: i.fix.start - start, end: i.fix.end - start }] : [],
   );
   if (localFixes.length > 0) {
     const fixed = applyFixes(sub, localFixes);
-    const viaFixes = compare(core(unitsOf(fixed.text, lexicon)), models, q, penalties);
+    const viaFixes = compare(answerUnits(unitsOf(fixed.text, lexicon)), models, q, penalties);
     if (viaFixes.best) {
       const map = fixed.toOriginal;
       const edits = editIssues(viaFixes.best.edits, penalties, (i) => (map[i] ?? i) + start);
@@ -375,7 +430,7 @@ function attempt(
   }
   for (const m of models) {
     const sound = bySound(sub, m, lexicon, penalties);
-    if (sound) return { match: { kind: 'sound', model: m, edits: sound.map((i) => ({ ...i, start: i.start + start, end: i.end + start, ...(i.fix ? { fix: { ...i.fix, start: i.fix.start + start, end: i.fix.end + start } } : {}) })), start, end } };
+    if (sound) return { match: { kind: 'sound', model: m, edits: sound.map((i) => shiftIssue(i, start)), start, end } };
   }
   return plain.closest ? { closest: plain.closest } : {};
 }
@@ -385,8 +440,9 @@ const overlaps = (a: Issue, b: Issue) => a.start <= b.end && b.start <= a.end;
 function matchIssues(match: Match, ruleIssues: readonly Issue[]): Issue[] {
   switch (match.kind) {
     case 'exact':
+    case 'rendered':
       // The matched part is a model answer: rule findings inside it are not mistakes.
-      return ruleIssues.filter((r) => r.end <= match.start || r.start >= match.end);
+      return [...ruleIssues.filter((r) => r.end <= match.start || r.start >= match.end), ...match.edits];
     case 'fixed':
       return [...ruleIssues, ...match.edits];
     case 'plain':

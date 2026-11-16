@@ -27,6 +27,9 @@ export const vi = {
     `Trợ từ đọc là "${sound}" nhưng viết là ${q(right)}, không viết ${q(written)}.`,
   teForm: (written: string, right: string) => `Thể て/た chia sai: ${q(written)} → ${q(right)}.`,
   adjectiveI: (written: string, right: string) => `Tính từ đuôi い chia sai: ${q(written)} → ${q(right)}.`,
+  adjectiveDa: (written: string, right: string) => `Tính từ đuôi い không đi với だ: ${q(written)} → ${q(right)} (lịch sự: thêm です).`,
+  politeInClause: (written: string, right: string, next: string) =>
+    `Trước ${q(next)} dùng thể thông thường, không dùng thể lịch sự ます/です: ${q(written)} → ${q(right)}. Mức lịch sự chỉ thể hiện ở cuối câu.`,
   adjectiveNa: (written: string, right: string) => `Tính từ đuôi な: ${q(written)} → ${q(right)}.`,
   whWa: (wh: string) => `Từ để hỏi ${q(wh)} làm chủ ngữ thì đi với が, không đi với は: ${q(`${wh}が`)}.`,
   aruIru: (noun: string, right: string) =>
