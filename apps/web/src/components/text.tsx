@@ -4,6 +4,7 @@
  */
 import { effectiveStatus, parseRuby, rubyReading, rubyText, type ListWord, type Review, type RubySegment } from '@j-learn-write/course';
 import { graderLexicon, isKanji, normalizeJa, tokenize } from '@j-learn-write/grader';
+import { wordsWithKanji } from '../lib/grading';
 import { createContext } from 'preact';
 import { useContext } from 'preact/hooks';
 import { listWords } from '../lib/content';
@@ -114,21 +115,27 @@ export function JaText({ text, class: className }: { text: string; class?: strin
 
 /** The course words of a sentence that have a Hán Việt reading, in dictionary form, without repeats. */
 export function hanVietOf(text: string, listed: ReadonlyMap<number, ListWord>): { word: string; hanViet: string }[] {
+  const tokens = tokenize(normalizeJa(text).text, graderLexicon())
+    .filter((t) => [...t.surface].some(isKanji))
+    .map((t) => t.analyses.flatMap((a) => (a.kind === 'word' ? [a.no] : [])));
+  return hanVietOfTokens(tokens, listed);
+}
+
+/** Hán Việt of the words found in `tokens` (word numbers per token, from the grader's tokenizer). */
+export function hanVietOfTokens(tokens: readonly number[][], listed: ReadonlyMap<number, ListWord>): { word: string; hanViet: string }[] {
   const out: { word: string; hanViet: string }[] = [];
-  for (const t of tokenize(normalizeJa(text).text, graderLexicon())) {
-    for (const a of t.analyses) {
-      const w = a.kind === 'word' ? listed.get(a.no) : undefined;
-      if (w?.hanViet && [...t.surface].some(isKanji) && !out.some((x) => x.word === w.word)) out.push({ word: w.word, hanViet: w.hanViet });
-      if (w?.hanViet) break;
-    }
+  for (const nos of tokens) {
+    const w = nos.map((no) => listed.get(no)).find((x) => x?.hanViet);
+    if (w?.hanViet && !out.some((x) => x.word === w.word)) out.push({ word: w.word, hanViet: w.hanViet });
   }
   return out;
 }
 
 function HanVietLine({ text }: { text: string }) {
-  const listed = useAsync(listWords, []);
-  if (!listed.data) return null;
-  const items = hanVietOf(text, listed.data);
+  // The words are found in the grading worker: building the word list must not block the page.
+  const found = useAsync(async () => ({ listed: await listWords(), tokens: await wordsWithKanji(text) }), [text]);
+  if (!found.data) return null;
+  const items = hanVietOfTokens(found.data.tokens, found.data.listed);
   if (items.length === 0) return null;
   return (
     <span class="hanviet-line">

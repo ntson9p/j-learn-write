@@ -249,6 +249,21 @@ describe('app (production build)', () => {
     await context.close();
   });
 
+  it('shows the Hán Việt of example sentences when turned on (words found in the grading worker)', async () => {
+    const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const page = await context.newPage();
+    const errors: string[] = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.goto(`${base}#/settings`);
+    await page.getByLabel('Hiện âm Hán Việt trong câu ví dụ').check();
+    // Example sentences are on the grammar and word pages.
+    await page.goto(`${base}#/grammar/wa`);
+    await page.locator('.hanviet-line').first().waitFor();
+    await expect(page.locator('.hanviet-line').first().textContent()).resolves.toMatch(/[a-zàáảãạăâđêôơưý]/u);
+    expect(errors).toEqual([]);
+    await context.close();
+  });
+
   it('serves the license notices', async () => {
     const res = await fetch(`${base}licenses.txt`);
     expect(res.ok).toBe(true);

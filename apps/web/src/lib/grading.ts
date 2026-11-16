@@ -8,9 +8,10 @@ import type { GradeResult, Question, SentenceCheck } from '@j-learn-write/grader
 export type GradingRequest =
   | { id: number; kind: 'grade'; question: Question; answer: string }
   | { id: number; kind: 'sentence'; text: string }
+  | { id: number; kind: 'words'; text: string }
   | { id: number; kind: 'warm' };
 
-export type GradingResponse = { id: number; result: GradeResult | SentenceCheck | null } | { id: number; error: string };
+export type GradingResponse = { id: number; result: GradeResult | SentenceCheck | number[][] | null } | { id: number; error: string };
 
 type Pending = { resolve: (value: unknown) => void; reject: (error: Error) => void };
 
@@ -44,12 +45,21 @@ function getWorker(): Worker | null {
   return worker;
 }
 
-type Payload = { kind: 'grade'; question: Question; answer: string } | { kind: 'sentence'; text: string } | { kind: 'warm' };
+type Payload = { kind: 'grade'; question: Question; answer: string } | { kind: 'sentence'; text: string } | { kind: 'words'; text: string } | { kind: 'warm' };
+
+/** Course word numbers of each token written with kanji (every analysis, usual first). */
+export function kanjiWords(g: typeof import('@j-learn-write/grader'), text: string): number[][] {
+  return g
+    .tokenize(g.normalizeJa(text).text, g.graderLexicon())
+    .filter((t) => [...t.surface].some(g.isKanji))
+    .map((t) => t.analyses.flatMap((a) => (a.kind === 'word' ? [a.no] : [])));
+}
 
 async function inline(payload: Payload): Promise<unknown> {
   const g = await import('@j-learn-write/grader');
   if (payload.kind === 'grade') return g.grade(payload.question, payload.answer);
   if (payload.kind === 'sentence') return g.checkJaSentence(payload.text);
+  if (payload.kind === 'words') return kanjiWords(g, payload.text);
   g.graderLexicon();
   g.checkJaSentence('私は学生です。');
   return null;
@@ -71,6 +81,9 @@ async function call(payload: Payload): Promise<unknown> {
 
 /** Grades a free answer. */
 export const gradeAnswer = (question: Question, answer: string) => call({ kind: 'grade', question, answer }) as Promise<GradeResult>;
+
+/** Course words written with kanji in a text, for the Hán Việt line under example sentences. */
+export const wordsWithKanji = (text: string) => call({ kind: 'words', text }) as Promise<number[][]>;
 
 /** Runs the grammar rules on one sentence. */
 export const checkSentence = (text: string) => call({ kind: 'sentence', text }) as Promise<SentenceCheck>;
