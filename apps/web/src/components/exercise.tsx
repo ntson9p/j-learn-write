@@ -3,13 +3,16 @@
  * with the expected answer and explanations. Calls `onChecked` once.
  */
 import type { Exercise } from '@j-learn-write/course';
+import { JA_ISSUE_LABELS_VI } from '@j-learn-write/grader';
 import { useContext, useMemo, useRef, useState } from 'preact/hooks';
 import { acceptedForms, check, needsJapaneseKeyboard, shuffle, shuffledTiles, type Answer, type Drill, type Outcome } from '../lib/exercises';
 import { settings } from '../lib/settings';
 import { speak, voices } from '../lib/speech';
 import { href } from '../router';
 import { T } from '../strings';
-import { JaText, MixedText, RubyContext } from './text';
+import { GradeResultView } from './grade-result';
+import { SpeakButton } from './speak';
+import { JaText, MixedText, readingOf, RubyContext } from './text';
 
 export type AnyExercise = Exercise | Drill;
 
@@ -24,8 +27,24 @@ function Feedback({ outcome, exercise }: { outcome: Outcome; exercise: AnyExerci
     <div class={`feedback ${outcome.correct ? 'good' : 'bad'}`} role="status" aria-live="polite">
       <p class="verdict-line">
         <strong>{outcome.correct ? T.exercise.correct : T.exercise.wrong}</strong>
-        {!outcome.correct && outcome.score > 0 && ` ${T.exercise.partly(outcome.score)}`}
+        {(outcome.result || !outcome.correct) && outcome.score > 0 && ` ${T.exercise.partly(outcome.score)}`}
       </p>
+      {outcome.result && <GradeResultView result={outcome.result} compact />}
+      {outcome.issues && outcome.issues.length > 0 && (
+        <>
+          <p>{T.exercise.orderIssues}</p>
+          <ul class="issues">
+            {outcome.issues.map((i, k) => (
+              <li key={k} class="issue error">
+                <span class="issue-label">{JA_ISSUE_LABELS_VI[i.code as keyof typeof JA_ISSUE_LABELS_VI] ?? i.code}</span>
+                <span class="issue-message">
+                  <MixedText text={i.message} />
+                </span>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
       {!outcome.correct && outcome.expected && (
         <p>
           {T.exercise.expected} <MixedText text={outcome.expected} />
@@ -60,6 +79,7 @@ export function ExerciseView({ exercise, onChecked }: Props) {
       {exercise.type === 'fill' && <FillBody ex={exercise} locked={locked} onAnswer={submit} />}
       {exercise.type === 'order' && <OrderBody ex={exercise} locked={locked} onAnswer={submit} />}
       {exercise.type === 'match' && <MatchBody ex={exercise} locked={locked} onAnswer={submit} />}
+      {(exercise.type === 'translate' || exercise.type === 'question') && <TextBody ex={exercise} locked={locked} onAnswer={submit} />}
       {outcome && <Feedback outcome={outcome} exercise={exercise} />}
     </div>
   );
@@ -166,6 +186,36 @@ function OrderBody({ ex, locked, onAnswer }: Body<Extract<AnyExercise, { type: '
           </button>
         </div>
       )}
+    </>
+  );
+}
+
+function TextBody({ ex, locked, onAnswer }: Body<Extract<AnyExercise, { type: 'translate' | 'question' }>>) {
+  const { ruby } = useContext(RubyContext);
+  const [text, setText] = useState('');
+  const q = ex.type === 'question' ? ex.question : null;
+  return (
+    <>
+      {ex.type === 'translate' ? (
+        <>
+          <p class="ex-prompt">{T.exercise.translate}</p>
+          <p class="ex-vi">{ex.vi}</p>
+        </>
+      ) : (
+        <>
+          {q?.picture && (
+            <div class="picture" aria-hidden="true">
+              {q.picture}
+            </div>
+          )}
+          <div class="ex-ja-row">
+            <JaText text={q!.prompt} class="ex-ja" />
+            <SpeakButton text={readingOf(q!.prompt, ruby)} label={T.speak(q!.prompt)} />
+          </div>
+          {q?.promptVi && <p class="muted">{q.promptVi}</p>}
+        </>
+      )}
+      <TextAnswer locked={locked} value={text} accepted={[]} onInput={setText} onSubmit={() => onAnswer({ type: 'text', text })} />
     </>
   );
 }

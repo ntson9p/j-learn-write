@@ -38,9 +38,22 @@ describe('checking answers', () => {
     expect(needsJapaneseKeyboard('Ｔシャツ', ['Tシャツ'])).toBe(false);
   });
 
-  it('does not grade free answers before the Japanese grader exists', () => {
-    const translate: Exercise = { id: 't-t', type: 'translate', vi: 'Tôi là học sinh.', answers: ['わたしはがくせいです。'] };
-    expect(() => check(translate, { type: 'text', text: 'わたしはがくせいです。' })).toThrow(/not graded yet/);
+  it('grades free answers with the Japanese grader', () => {
+    const translate: Exercise = { id: 't-t', type: 'translate', vi: 'Tôi là học sinh.', answers: ['(私は)学生です。'] };
+    expect(check(translate, { type: 'text', text: 'わたしはがくせいです' })).toMatchObject({ correct: true, score: 100 });
+    expect(check(translate, { type: 'text', text: '学生です' })).toMatchObject({ correct: true, score: 100 });
+    const wrong = check(translate, { type: 'text', text: '先生です' });
+    expect(wrong).toMatchObject({ correct: false, score: 0 });
+    expect(wrong.result?.suggestion).toBe('学生です。'); // the closest model answer
+    const question: Exercise = { id: 't-q', type: 'question', question: { type: 'count', prompt: '鉛筆は何本ありますか。', expected: { number: 3, noun: '鉛筆' } } };
+    expect(check(question, { type: 'text', text: 'さんぼんあります' })).toMatchObject({ correct: true, score: 100 });
+  });
+
+  it('explains a wrong word order when a rule knows the mistake', () => {
+    const ex: Exercise = { id: 't-o2', type: 'order', vi: 'Con mèo ở dưới bàn.', tiles: ['猫は', '机の下に', 'います', 'あります'], answers: ['猫は机の下にいます'] };
+    const out = check(ex, { type: 'order', tiles: ['猫は', '机の下に', 'あります'] });
+    expect(out.correct).toBe(false);
+    expect(out.issues?.map((i) => i.code)).toEqual(['aru_iru']);
   });
 
   it('shuffles with a seed and never offers tiles already in order', () => {

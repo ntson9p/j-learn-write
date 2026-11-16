@@ -181,7 +181,24 @@ export const T = {
     listen: 'Nghe',
     noVoice: 'Máy chưa có giọng đọc tiếng Nhật nên không nghe được câu này.',
     matchHint: 'Bấm một mục bên trái, rồi mục tương ứng bên phải.',
+    translate: 'Dịch sang tiếng Nhật:',
+    orderIssues: 'Gợi ý:',
     progress: (i: number, n: number) => `Câu ${i}/${n}`,
+  },
+
+  result: {
+    status: {
+      correct: 'Đúng nội dung',
+      wrong: 'Sai nội dung',
+      no_answer: 'Chưa trả lời',
+      unmatched: 'Chưa khớp đáp án',
+    },
+    needsReview: 'Bộ chấm chưa chắc chắn: kết quả này cần giáo viên xem lại.',
+    yourAnswer: 'Câu trả lời',
+    feedback: 'Nhận xét',
+    corrected: 'Câu đã sửa:',
+    suggestion: 'Đáp án tham khảo:',
+    scoreLabel: (score: number) => `${score} trên 100 điểm`,
   },
 
   practice: {

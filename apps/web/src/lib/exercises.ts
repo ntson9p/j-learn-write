@@ -3,8 +3,8 @@
  * drills from a kana lesson's characters, reading drills from its practice
  * words. Free answers (translate, question) go through the Japanese grader.
  */
-import { hashString, rubyReading, type Exercise, type KanaEntry, type KanaPractice } from '@j-learn-write/course';
-import { normalizeJa } from '@j-learn-write/grader';
+import { exerciseQuestion, hashString, rubyReading, translateQuestion, type Exercise, type KanaEntry, type KanaPractice } from '@j-learn-write/course';
+import { checkJaSentence, grade, normalizeJa, type GradeResult, type Issue } from '@j-learn-write/grader';
 import { romanize, type RomajiTable } from './romaji';
 
 /** A free answer counts as right from this score. */
@@ -21,6 +21,10 @@ export interface Outcome {
   correct: boolean;
   /** 0-100. */
   score: number;
+  /** Grader result for free answers. */
+  result?: GradeResult;
+  /** Rule findings that explain a wrong word order. */
+  issues?: Issue[];
   /** The expected answer to show after a mistake. */
   expected?: string;
 }
@@ -96,13 +100,21 @@ export function check(ex: Exercise, answer: Answer, ctx: CheckContext = {}): Out
     case 'order': {
       const built = answer.type === 'order' ? answer.tiles.join('') : '';
       const ok = ex.answers.some((a) => plainText(a) === plainText(built));
-      return { correct: ok, score: ok ? 100 : 0, expected: ex.answers[0] };
+      const out: Outcome = { correct: ok, score: ok ? 100 : 0, expected: ex.answers[0] };
+      // A wrong order the rules can explain (上の机, 書きて…).
+      if (!ok && built) {
+        const issues = checkJaSentence(built).issues;
+        if (issues.length > 0) out.issues = issues;
+      }
+      return out;
     }
     case 'translate':
-    case 'question':
-      // Free answers need the Japanese grader (docs/plan.md, phase 6); the
-      // course validator rejects these exercises until it exists.
-      throw new Error(`exercise ${ex.id}: free answers are not graded yet`);
+    case 'question': {
+      const text = answer.type === 'text' ? answer.text : '';
+      const q = ex.type === 'translate' ? translateQuestion(ex) : exerciseQuestion(ex);
+      const result = grade(q, text);
+      return { correct: result.score >= PASS_SCORE, score: result.score, result };
+    }
     case 'match': {
       const mistakes = answer.type === 'match' ? answer.mistakes : ex.pairs.length;
       const score = Math.round((100 * ex.pairs.length) / (ex.pairs.length + mistakes));

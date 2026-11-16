@@ -13,6 +13,27 @@ import { untaggedJapanese } from './untagged';
 
 afterEach(cleanup);
 
+describe('free-answer exercises on screen', () => {
+  it('shows the grader result with Japanese tagged', () => {
+    const ex: AnyExercise = { id: 'x-t', type: 'translate', vi: 'Tôi là học sinh.', answers: ['私は学生です。'] };
+    const { container, getByRole } = render(<ExerciseView exercise={ex} onChecked={() => {}} />);
+    fireEvent.input(getByRole('textbox'), { target: { value: '私わ学生です' } });
+    fireEvent.submit(container.querySelector('form')!);
+    expect(container.querySelector('.grade-result')).not.toBeNull();
+    expect(container.textContent).toContain('90');
+    expect(untaggedJapanese(container)).toEqual([]);
+  });
+
+  it('asks for the Japanese keyboard instead of grading romaji', () => {
+    const ex: AnyExercise = { id: 'x-r', type: 'translate', vi: 'Tôi là học sinh.', answers: ['私は学生です。'] };
+    const { container, getByRole } = render(<ExerciseView exercise={ex} onChecked={() => {}} />);
+    fireEvent.input(getByRole('textbox'), { target: { value: 'watashi wa gakusei desu' } });
+    fireEvent.submit(container.querySelector('form')!);
+    expect(container.querySelector('.grade-result')).toBeNull();
+    expect(getByRole('alert').textContent).toContain('bộ gõ tiếng Nhật');
+  });
+});
+
 describe('exercises on screen', async () => {
   const kana = await loadKana();
   const lessons = (await Promise.all(LEVELS.map(loadLevel))).flat().filter((l) => l.content);

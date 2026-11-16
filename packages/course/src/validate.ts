@@ -4,8 +4,9 @@
  * vocabulary and form control (a sentence only uses words and conjugated
  * forms taught so far), exercise consistency.
  */
-import { conjClassOf, expandPattern, FUNCTION_WORDS, hasJapanese, isKana, isKanji, toHiragana, tokenize, validateQuestion, type JaLexicon, type Token } from '@j-learn-write/grader';
+import { conjClassOf, expandPattern, FUNCTION_WORDS, grade, type Question, hasJapanese, isKana, isKanji, toHiragana, tokenize, validateQuestion, type JaLexicon, type Token } from '@j-learn-write/grader';
 import { parseRuby, rubyText, runReadingOk } from './furigana.ts';
+import { exerciseQuestion, translateQuestion } from './questions.ts';
 import type {
   CurriculumLesson,
   Exercise,
@@ -426,8 +427,15 @@ function isCountedRun(text: string, rt: string, tools: CheckTools): boolean {
   return tokenize(text, tools.lexicon).length === 1 && tokenize(text, tools.lexicon)[0]!.analyses.some((a) => a.kind === 'counted' && toHiragana(a.reading) === toHiragana(rt));
 }
 
-/** Until the Japanese grader exists (docs/plan.md, phase 6), the app cannot grade free answers. */
-const FREE_ANSWERS_NOT_READY = 'translate and question exercises need the Japanese grader (docs/plan.md, phase 6)';
+/** Each example answer of a question must get its expected score and issues (they are regression tests). */
+function checkExamples(q: Question, where: string, err: (where: string, msg: string) => void): void {
+  for (const sample of q.examples ?? []) {
+    const r = grade(q, sample.answer);
+    if (r.score !== sample.score) err(where, `example 「${sample.answer}」 scores ${r.score}, expected ${sample.score}`);
+    const codes = r.issues.map((i) => i.code);
+    for (const code of sample.issues ?? []) if (!codes.includes(code)) err(where, `example 「${sample.answer}」 should report ${code} (got ${codes.join(', ') || 'none'})`);
+  }
+}
 
 function checkExercise(ex: Exercise, where: string, err: (where: string, msg: string) => void): void {
   switch (ex.type) {
@@ -452,15 +460,27 @@ function checkExercise(ex: Exercise, where: string, err: (where: string, msg: st
       if (new Set(ex.answers).size !== (ex.answers ?? []).length) err(where, 'answers must differ');
       if (ex.answers?.some((a) => /[。！？、]/.test(a))) err(where, 'answers have no punctuation');
       break;
-    case 'translate':
-      err(where, FREE_ANSWERS_NOT_READY);
+    case 'translate': {
       if (!nonEmpty(ex.vi)) err(where, 'vi is required');
-      for (const e of validateQuestion({ id: ex.id, lang: 'ja', type: 'model', prompt: ex.vi, answers: ex.answers, examples: ex.examples })) err(where, e);
+      const q = translateQuestion(ex);
+      const problems = validateQuestion(q);
+      for (const e of problems) err(where, e);
+      if (problems.length > 0) break;
+      checkExamples(q, where, err);
+      const first = ex.answers[0];
+      const best = first === undefined ? undefined : expandPattern(typeof first === 'string' ? first : first.text)[0];
+      if (best && grade(q, best).score !== (typeof first === 'string' ? 100 : (first?.score ?? 100))) err(where, 'the first answer must score full marks');
       break;
-    case 'question':
-      err(where, FREE_ANSWERS_NOT_READY);
-      for (const e of validateQuestion({ ...ex.question, id: ex.id, lang: 'ja' })) err(where, e);
+    }
+    case 'question': {
+      const q = exerciseQuestion(ex);
+      const problems = validateQuestion(q);
+      for (const e of problems) err(where, e);
+      if (problems.length > 0) break;
+      checkExamples(q, where, err);
+      if ((q.type === 'count' || q.type === 'location') && q.expected.sentence && grade(q, q.expected.sentence).score !== 100) err(where, 'the model sentence must score 100');
       break;
+    }
     case 'match':
       if (!nonEmpty(ex.promptVi)) err(where, 'promptVi is required');
       if (!Array.isArray(ex.pairs) || ex.pairs.length < 2) err(where, 'needs at least 2 pairs');
