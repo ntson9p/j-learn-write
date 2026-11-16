@@ -88,6 +88,7 @@
     { "text": "かもしれなかった", "reading": "かもしれなかった", "role": "aux", "id": "kamoshirenai" },
     { "text": "かも知れない", "reading": "かもしれない", "role": "aux", "id": "kamoshirenai" },
     { "text": "かも知れません", "reading": "かもしれません", "role": "aux", "id": "kamoshirenai" },
-    { "text": "おきに", "reading": "おきに", "role": "suffix", "id": "okini" }
+    { "text": "おきに", "reading": "おきに", "role": "suffix", "id": "okini" },
+    { "text": "なさい", "reading": "なさい", "role": "aux", "id": "nasai" }
   ]
 }
