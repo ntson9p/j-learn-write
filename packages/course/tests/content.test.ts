@@ -16,7 +16,8 @@ describe('course content', () => {
   const readings = kanjiReadingsMap();
   const tools = { lexicon: courseLexicon(data.names), kanjiReadings: (c: string) => readings.get(c) };
 
-  it('passes every check', () => {
+  // Checks every sentence and grades every example of the whole course: several seconds.
+  it('passes every check', { timeout: 60_000 }, () => {
     expect(validateCourse(data, tools)).toEqual([]);
   });
 
@@ -31,7 +32,7 @@ describe('course content', () => {
     expect(missing).toEqual([]);
   });
 
-  it('raises no grader issue on any correct sentence of the course', () => {
+  it('raises no grader issue on any correct sentence of the course', { timeout: 60_000 }, () => {
     const lexicon = graderLexicon();
     const flagged = data.lessons.flatMap((l) =>
       correctTexts(l).flatMap(({ text, where }) => {
