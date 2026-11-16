@@ -414,7 +414,7 @@ function naiveCounterReadings(): Map<string, string> {
   const map = new Map<string, string>();
   for (const c of COUNTERS) {
     if (!c.reading || !kanaOnly(c.reading)) continue;
-    for (let n = 1; n <= 10; n++) {
+    for (let n = 1; n <= 100; n++) {
       const valid = counterReadings(n, c);
       const naive = numberReading(n) + c.reading;
       if (!valid.includes(naive) && valid[0]) map.set(naive, valid[0]);

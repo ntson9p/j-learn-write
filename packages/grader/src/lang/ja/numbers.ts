@@ -120,6 +120,18 @@ const H_TO_B: Record<string, string> = { は: 'ば', ひ: 'び', ふ: 'ぶ', へ
 const K_TO_G: Record<string, string> = { か: 'が', き: 'ぎ', く: 'ぐ', け: 'げ', こ: 'ご' };
 const S_TO_Z: Record<string, string> = { さ: 'ざ', し: 'じ', す: 'ず', せ: 'ぜ', そ: 'ぞ' };
 
+/**
+ * Kana a counter may be written with after digits (3ぼん, 10ぷん, 4じ): its
+ * reading with or without the sound change of its first kana.
+ */
+export function counterKanaAfterDigits(c: Counter): string[] {
+  if (![...c.reading].every((ch) => /[ぁ-ゖ]/u.test(ch))) return [];
+  const first = c.reading[0]!;
+  const tail = c.reading.slice(1);
+  const changed = [H_TO_P[first], H_TO_B[first], K_TO_G[first], S_TO_Z[first]].filter((x): x is string => !!x).map((x) => x + tail);
+  return [...new Set([c.reading, ...changed])];
+}
+
 /** Readings of the last number word + counter, the first being the usual one. */
 function joinLast(last: string, c: Counter): string[] {
   const first = c.reading[0]!;

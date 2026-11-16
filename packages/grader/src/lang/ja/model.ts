@@ -441,8 +441,9 @@ function matchIssues(match: Match, ruleIssues: readonly Issue[]): Issue[] {
   switch (match.kind) {
     case 'exact':
     case 'rendered':
-      // The matched part is a model answer: rule findings inside it are not mistakes.
-      return [...ruleIssues.filter((r) => r.end <= match.start || r.start >= match.end), ...match.edits];
+      // The matched part is a model answer: rule findings inside it are not mistakes,
+      // except a counter read without its sound change (きゅうじ for 9時: same quantity).
+      return [...ruleIssues.filter((r) => r.end <= match.start || r.start >= match.end || r.code === 'counter_reading'), ...match.edits];
     case 'fixed':
       return [...ruleIssues, ...match.edits];
     case 'plain':

@@ -38,6 +38,9 @@ describe('model answers', () => {
     expect(grade('しゅくだいおします', '宿題をします。')).toMatchObject({ score: 90, codes: ['particle_kana'] });
     expect(grade('ぱんとたまごをたべました', 'パンと卵を食べました。')).toMatchObject({ score: 95, codes: ['kana_script'] });
     expect(grade('てれびをみます', 'テレビを見ます。')).toMatchObject({ score: 95, codes: ['kana_script'] });
+    // A counter read without its sound change: same quantity, reading corrected.
+    expect(grade('きゅうがつよっかです', '9月4日です。')).toMatchObject({ score: 90, codes: ['counter_reading'] });
+    expect(grade('じゅういちじにねました', '11時に寝ました。').score).toBe(100);
     // A decimal point is not a thousands separator.
     expect(grade('この時計は8.600円です。', 'この時計は8600円です。').score).toBe(0);
   });

@@ -47,6 +47,18 @@ describe('tokenize', () => {
     expect(tokenize('2026年', lex)[0]).toMatchObject({ surface: '2026年' });
   });
 
+  it('reads numbers above 10 in kana, and digits with a counter in kana', () => {
+    const counted = (text: string) => tokenize(text, lex).find((t) => t.analyses.some((a) => a.kind === 'counted'))?.analyses.find((a) => a.kind === 'counted');
+    expect(counted('じゅういちじにねました')).toMatchObject({ value: 11, counter: '時' });
+    expect(counted('さんじゅうごさいです')).toMatchObject({ value: 35, counter: '歳' });
+    expect(counted('はっせんろっぴゃくえんです')).toMatchObject({ value: 8600, counter: '円' });
+    expect(counted('はつかです')).toMatchObject({ value: 20, counter: '日' });
+    expect(counted('35さいです')).toMatchObject({ value: 35, counter: '歳' });
+    expect(counted('10ぷんです')).toMatchObject({ value: 10, counter: '分' });
+    // さん + は stays さん + は (not 3杯).
+    expect(surfaces('田中さんの妹さんはいくつですか')).toContain('いくつ');
+  });
+
   it('reads numbers with digit groups and kanji units', () => {
     expect(tokenize('30,000円です', lex)[0]).toMatchObject({ surface: '30,000円', analyses: [{ kind: 'counted', value: 30000, counter: '円' }] });
     expect(tokenize('3万円です', lex)[0]).toMatchObject({ surface: '3万円', analyses: [{ kind: 'counted', value: 30000, counter: '円', reading: 'さんまんえん' }] });

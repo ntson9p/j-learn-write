@@ -10,7 +10,7 @@
  */
 import { isKana, isKanji } from './kana.ts';
 import type { Analysis, JaLexicon } from './lexicon.ts';
-import { COUNTERS, counterReadings, numberReading, numberValue } from './numbers.ts';
+import { COUNTERS, counterKanaAfterDigits, counterReadings, numberReading, numberValue } from './numbers.ts';
 
 export type TokenAnalysis =
   | Analysis
@@ -33,23 +33,40 @@ const UNKNOWN_COST = 25;
 const PUNCT_COST = 1;
 const PUNCT = /[\p{P}\p{S}\s]/u;
 const NUMBER_CHAR = /[0-9〇零一二三四五六七八九十百千万]/;
-/** Readings of counted kana forms (さんぼん…) are generated for these numbers. */
-const KANA_COUNT_NUMBERS: (number | null)[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, null];
+/** Readings of counted kana forms (さんぼん, じゅういちじ…) are generated for 1-100 and 何. */
+const KANA_COUNT_NUMBERS: (number | null)[] = [...Array.from({ length: 100 }, (_, i) => i + 1), null];
+/** Prices in kana (はっせんろっぴゃくえん) are read up to 9999 yen, then in thousands up to 100,000. */
+const KANA_PRICE_NUMBERS: number[] = [
+  ...Array.from({ length: 9999 - 100 }, (_, i) => i + 101),
+  ...Array.from({ length: 91 }, (_, i) => (i + 10) * 1000),
+];
 
-let kanaCounted: Map<string, { value: number | null; counter: string }[]> | undefined;
+let kanaCounted: { forms: Map<string, { value: number | null; counter: string }[]>; maxLength: number } | undefined;
 
-/** Kana spellings of number + counter (ひとつ, さんぼん, なんにん…), built once. */
-function kanaCountedForms(): Map<string, { value: number | null; counter: string }[]> {
+/** Kana spellings of number + counter (ひとつ, さんぼん, なんにん, はつか…), built once. */
+function kanaCountedForms(): { forms: Map<string, { value: number | null; counter: string }[]>; maxLength: number } {
   if (kanaCounted) return kanaCounted;
-  const map = new Map<string, { value: number | null; counter: string }[]>();
+  const forms = new Map<string, { value: number | null; counter: string }[]>();
+  let maxLength = 0;
   for (const c of COUNTERS) {
     if (!c.reading || ![...c.reading].every(isKana)) continue;
-    for (const n of KANA_COUNT_NUMBERS) {
-      for (const r of counterReadings(n, c)) map.set(r, [...(map.get(r) ?? []), { value: n, counter: c.counter }]);
+    const numbers = c.counter === '円' ? [...KANA_COUNT_NUMBERS, ...KANA_PRICE_NUMBERS] : KANA_COUNT_NUMBERS;
+    for (const n of numbers) {
+      const valid = counterReadings(n, c);
+      // Also the reading without its sound change (さんほん, きゅうがつ): read as the
+      // same quantity, so that the counter_reading rule can point at it.
+      // Not when it would swallow さん + は (田中さんはいくつ is not 3杯 + くつ).
+      const naive = n !== null && n <= 100 && !/さん[はひふへほ]/u.test(numberReading(n) + c.reading) ? numberReading(n) + c.reading : '';
+      for (const r of naive && !valid.includes(naive) ? [...valid, naive] : valid) {
+        const list = forms.get(r);
+        if (list) list.push({ value: n, counter: c.counter });
+        else forms.set(r, [{ value: n, counter: c.counter }]);
+        if (r.length > maxLength) maxLength = r.length;
+      }
     }
   }
-  kanaCounted = map;
-  return map;
+  kanaCounted = { forms, maxLength };
+  return kanaCounted;
 }
 
 interface Edge {
@@ -74,7 +91,9 @@ function numberEdges(text: string, start: number): Edge[] {
   for (const { len, value } of runs) {
     const after = start + len;
     for (const c of COUNTERS) {
-      for (const form of [c.counter, ...(c.forms ?? [])]) {
+      // After digits the counter may be in kana (35さい, 10ぷん): the digits do not show the sound change.
+      const kana = value !== null && /^\d/.test(text.slice(start, after)) ? counterKanaAfterDigits(c) : [];
+      for (const form of [c.counter, ...(c.forms ?? []), ...kana]) {
         if (!text.startsWith(form, after)) continue;
         out.push({
           end: after + form.length,
@@ -91,10 +110,13 @@ function numberEdges(text: string, start: number): Edge[] {
 function kanaCountedEdges(text: string, start: number): Edge[] {
   if (!isKana(text[start])) return [];
   const out: Edge[] = [];
-  for (const [kana, hits] of kanaCountedForms()) {
-    if (!text.startsWith(kana, start)) continue;
+  const { forms, maxLength } = kanaCountedForms();
+  for (let len = Math.min(maxLength, text.length - start); len >= 1; len--) {
+    const kana = text.slice(start, start + len);
+    const hits = forms.get(kana);
+    if (!hits) continue;
     out.push({
-      end: start + kana.length,
+      end: start + len,
       analyses: hits.map((h) => ({ kind: 'counted', value: h.value, counter: h.counter, reading: kana })),
       cost: KNOWN_COST,
     });
