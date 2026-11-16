@@ -224,6 +224,31 @@ describe('app (production build)', () => {
     await context.close();
   });
 
+  it('grades free answers in the production build as the course examples expect', async () => {
+    const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+    const page = await context.newPage();
+    const errors: string[] = [];
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.goto(`${base}#/grader`);
+    await page.locator('#grader-question').waitFor();
+    // Every example of the first questions gets the score written in the course.
+    const ids = await page.locator('#grader-question option').evaluateAll((os) => os.slice(0, 3).map((o) => (o as HTMLOptionElement).value));
+    for (const id of ids) {
+      await page.locator('#grader-question').selectOption(id);
+      const chips = page.locator('.chip.example');
+      const n = await chips.count();
+      expect(n, id).toBeGreaterThan(0);
+      for (let i = 0; i < n; i++) {
+        await chips.nth(i).click();
+        await page.getByTestId('grade-result').locator('.expected').waitFor();
+        await expect(page.getByTestId('grade-result').locator('.expected').getAttribute('class'), `${id} #${i}`).resolves.toContain('same');
+      }
+    }
+    await shot(page, 'grader');
+    expect(errors).toEqual([]);
+    await context.close();
+  });
+
   it('serves the license notices', async () => {
     const res = await fetch(`${base}licenses.txt`);
     expect(res.ok).toBe(true);

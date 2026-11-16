@@ -4,6 +4,7 @@
   "private": true,
   "description": "Rule-based grader for Japanese learners' free-text answers (no LLM).",
   "type": "module",
+  "sideEffects": false,
   "license": "MIT",
   "exports": {
     ".": "./src/index.ts"

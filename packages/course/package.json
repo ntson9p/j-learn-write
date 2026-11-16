@@ -4,6 +4,7 @@
   "private": true,
   "description": "Japanese course content (kana, JLPT N5-N4: words, kanji, grammar, lessons, exercises) for Vietnamese learners, with validators and tools.",
   "type": "module",
+  "sideEffects": false,
   "license": "SEE LICENSE IN LICENSE",
   "exports": {
     ".": "./src/index.ts"
