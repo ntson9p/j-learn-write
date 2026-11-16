@@ -188,7 +188,10 @@ export function spellingSlip(x: string, y: string): boolean {
   }
   const [long, short] = a.length > b.length ? [a, b] : [b, a];
   for (let i = 0; i < long.length; i++) {
-    if (long.slice(0, i).join('') + long.slice(i + 1).join('') === short.join('')) return SLIP_KANA.has(long[i]!);
+    if (long.slice(0, i).join('') + long.slice(i + 1).join('') !== short.join('')) continue;
+    // おいしいそう (hearsay) is not a slip for おいしそう (looks tasty).
+    if (long[i] === 'い' && long.slice(i + 1, i + 3).join('') === 'そう') return false;
+    return SLIP_KANA.has(long[i]!);
   }
   return false;
 }

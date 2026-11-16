@@ -32,6 +32,10 @@
       "word": "ご飯",
       "why": "ご飯 is the usual spelling (JMdict lists it first)."
     },
+    "8fb005254a": {
+      "forms": ["けが"],
+      "why": "The noun けが is used on its own (けがをしました, 足のけが), not only as けがする."
+    },
     "98bc6f72ae": {
       "forms": ["朝ご飯", "朝御飯"],
       "why": "朝ご飯 and 朝御飯 (JMdict) are accepted like 昼ご飯 and 晩ご飯."

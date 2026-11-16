@@ -189,6 +189,8 @@ function verbForms(p: VerbParts, dict: string, withDerived: boolean): [string, s
     [`${p.nai}で`, ['naide']],
     [`${p.nai.slice(0, -1)}ければ`, ['nai', 'ba']],
     [`${p.nai.slice(0, -1)}くちゃ`, ['nai', 'kucha']],
+    // 食べなく(なる): stopped doing.
+    [`${p.nai.slice(0, -1)}く`, ['nai', 'ku']],
     [`${p.e}ば`, ['ba']],
     [p.vol, ['vol']],
     [p.imp, ['imperative']],
@@ -243,40 +245,47 @@ function adjectiveForms(stem: string, dict: string): [string, string[]][] {
 }
 
 /** Forms of a dictionary form written in kana or kanji (the stem logic only looks at the ending). */
-function formsOfText(dict: string, cls: ConjClass): [string, string[]][] {
+function formsOfText(dict: string, cls: ConjClass, derived = true): [string, string[]][] {
   switch (cls) {
     case 'v1':
     case 'v1-s':
-      return verbForms(ichidanParts(dict.slice(0, -1), cls), dict, true);
+      return verbForms(ichidanParts(dict.slice(0, -1), cls), dict, derived);
     case 'vk':
-      return verbForms(kuruParts(dict.slice(0, -2)), dict, true);
+      return verbForms(kuruParts(dict.slice(0, -2)), dict, derived);
     case 'vs-i':
-      return verbForms(suruParts(''), dict, true);
+      return verbForms(suruParts(''), dict, derived);
     case 'vs-c':
-      return verbForms(suruParts(dict.slice(0, -2)), dict, true);
+      return verbForms(suruParts(dict.slice(0, -2)), dict, derived);
     case 'adj-i':
-      return adjectiveForms(dict.slice(0, -1), dict);
-    case 'adj-ix':
-      // いい / 良い: the inflected forms use よ (よくない, よかった).
-      return [[dict, []], ...adjectiveForms(dict.endsWith('いい') ? `${dict.slice(0, -2)}よ` : dict.slice(0, -1), dict).slice(1).filter(([, tags]) => tags[0] !== 'garu')];
+      // ない: なさそう.
+      return adjectiveForms(dict.slice(0, -1), dict).map(([s, tags]): [string, string[]] => (dict === 'ない' && tags.join('+') === 'sou' ? ['なさそう', tags] : [s, tags]));
+    case 'adj-ix': {
+      // いい / 良い: the inflected forms use よ (よくない, よかった), and よさそう.
+      const inflected = adjectiveForms(dict.endsWith('いい') ? `${dict.slice(0, -2)}よ` : dict.slice(0, -1), dict)
+        .slice(1)
+        .filter(([, tags]) => tags[0] !== 'garu')
+        .map(([s, tags]): [string, string[]] => (tags.join('+') === 'sou' ? [`${s.slice(0, -2)}さそう`, tags] : [s, tags]));
+      return [[dict, []], ...inflected];
+    }
     default:
-      return verbForms(godanParts(dict.slice(0, -1), cls), dict, true);
+      return verbForms(godanParts(dict.slice(0, -1), cls), dict, derived);
   }
 }
 
 /**
  * All forms of a word. `surface` is the written dictionary form (kanji or
  * kana), `reading` its reading. For 来る the kanji form keeps 来 and the
- * reading follows the form (来ます = きます).
+ * reading follows the form (来ます = きます). `derived` false leaves out the
+ * verbs and adjectives built on this one (potential, passive, やすい…).
  */
-export function conjugate(surface: string, reading: string, cls: ConjClass): ConjForm[] {
+export function conjugate(surface: string, reading: string, cls: ConjClass, derived = true): ConjForm[] {
   if (cls === 'vk') {
     // 来る: the forms differ in the first mora (くる, きます, こない); the kanji 来 replaces it.
-    const kana = formsOfText(reading, cls);
+    const kana = formsOfText(reading, cls, derived);
     const kanji = surface !== reading && surface.endsWith('る') ? surface.slice(0, -2) + surface.at(-2)! : '';
     return kana.map(([k, tags]) => ({ surface: kanji ? kanji + k.slice(1) : k, reading: k, tags }));
   }
-  const written = formsOfText(surface, cls);
-  const spoken = formsOfText(reading, cls);
+  const written = formsOfText(surface, cls, derived);
+  const spoken = formsOfText(reading, cls, derived);
   return written.map(([s, tags], i) => ({ surface: s, reading: spoken[i]![0], tags }));
 }

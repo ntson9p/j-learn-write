@@ -34,6 +34,14 @@ describe('tokenize', () => {
     expect(tokenize('忘れないように', lex).find((t) => t.surface === 'よう')!.analyses).toContainEqual(expect.objectContaining({ kind: 'function', id: 'you' }));
   });
 
+  it('reads けが, よさそう, なさそう, だそう, によると, 〜なくなる', () => {
+    expect(surfaces('足にけがをしました')).toEqual(['足', 'に', 'けが', 'を', 'しました']);
+    expect(surfaces('この映画はよさそうです')).toContain('よさそう');
+    expect(surfaces('時間がなさそうです')).toContain('なさそう');
+    expect(surfaces('天気予報によると、雨だそうです')).toEqual(['天気予報', 'によると', '、', '雨', 'だそう', 'です']);
+    expect(surfaces('テレビを見なくなりました')).toEqual(['テレビ', 'を', '見なく', 'なりました']);
+  });
+
   it('reads しに as する + に, not as 死ぬ', () => {
     expect(surfaces('何をしに行きますか')).toEqual(['何', 'を', 'し', 'に', '行きます', 'か']);
   });

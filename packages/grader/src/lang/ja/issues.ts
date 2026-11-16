@@ -11,6 +11,7 @@ export type JaIssueCode =
   | 'politeness_mix'
   | 'polite_in_clause'
   | 'te_form'
+  | 'verb_form'
   | 'adjective_form'
   | 'wh_wa'
   | 'aru_iru'
@@ -33,6 +34,7 @@ export const JA_DEFAULT_PENALTIES: Readonly<Record<JaIssueCode, number>> = {
   politeness_mix: 0,
   polite_in_clause: 15,
   te_form: 20,
+  verb_form: 20,
   adjective_form: 20,
   wh_wa: 20,
   aru_iru: 20,
@@ -55,6 +57,7 @@ export const JA_SEVERITY: Readonly<Record<JaIssueCode, Severity>> = {
   politeness_mix: 'info',
   polite_in_clause: 'error',
   te_form: 'error',
+  verb_form: 'error',
   adjective_form: 'error',
   wh_wa: 'error',
   aru_iru: 'error',
@@ -78,6 +81,7 @@ export const JA_ISSUE_LABELS_VI: Readonly<Record<JaIssueCode, string>> = {
   politeness_mix: 'Lịch sự/thân mật',
   polite_in_clause: 'Thể ます trong mệnh đề',
   te_form: 'Thể て',
+  verb_form: 'Chia động từ',
   adjective_form: 'Chia tính từ',
   wh_wa: 'Từ để hỏi + は',
   aru_iru: 'あります/います',

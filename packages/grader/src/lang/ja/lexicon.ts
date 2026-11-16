@@ -63,7 +63,9 @@ export class JaLexicon {
       for (const spelling of new Set([w.word, ...w.forms])) {
         // A spelling written only in kana is read as it is written (a katakana word keeps its katakana).
         const reading = [...spelling].every(isKana) ? spelling : w.reading;
-        const forms = cls ? conjugate(spelling, reading, cls) : [{ surface: spelling, reading, tags: [] }];
+        // The noun of a noun + する word (けが of けがする) does not conjugate.
+        const noun = cls === 'vs-c' && !spelling.endsWith('する');
+        const forms = cls && !noun ? conjugate(spelling, reading, cls) : [{ surface: spelling, reading: noun ? reading.replace(/する$/u, '') : reading, tags: [] }];
         for (const f of forms) {
           if (SHADOWED_KANA_STEMS.has(f.surface) && f.tags.join('+') === 'stem') continue;
           this.add(f.surface, { kind: 'word', no: w.no, word: w.word, reading: f.reading, tags: f.tags, pos: w.pos });

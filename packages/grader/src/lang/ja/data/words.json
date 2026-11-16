@@ -864,7 +864,7 @@
 {"no":863,"word":"経済","reading":"けいざい","forms":["けいざい"],"pos":["n"]},
 {"no":864,"word":"警察","reading":"けいさつ","forms":["けいさつ"],"pos":["n","n-suf"]},
 {"no":865,"word":"ケーキ","reading":"ケーキ","forms":[],"pos":["n"]},
-{"no":866,"word":"けがする","reading":"けがする","forms":[],"pos":["n","vs","vt","vi"]},
+{"no":866,"word":"けがする","reading":"けがする","forms":["けが"],"pos":["n","vs","vt","vi"]},
 {"no":867,"word":"景色","reading":"けしき","forms":["けしき"],"pos":["n"]},
 {"no":868,"word":"消しゴム","reading":"けしゴム","forms":["けしゴム"],"pos":["n"]},
 {"no":869,"word":"下宿","reading":"げしゅく","forms":["げしゅく"],"pos":["n","vs","vi"]},

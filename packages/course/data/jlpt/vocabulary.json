@@ -864,7 +864,7 @@
 {"no":863,"level":"n4","openjlptId":"5079fc5daf","jmdictId":1251320,"word":"経済","reading":"けいざい","ruby":"{経|けい}{済|ざい}","forms":["経済","けいざい"],"pos":["n"],"hanViet":"kinh tế"},
 {"no":864,"level":"n4","openjlptId":"25550955b0","jmdictId":1252390,"word":"警察","reading":"けいさつ","ruby":"{警|けい}{察|さつ}","forms":["警察","けいさつ"],"pos":["n","n-suf"],"hanViet":"cảnh sát"},
 {"no":865,"level":"n4","openjlptId":"8426193f36","jmdictId":1047860,"word":"ケーキ","reading":"ケーキ","ruby":"ケーキ","forms":["ケーキ"],"pos":["n"]},
-{"no":866,"level":"n4","openjlptId":"8fb005254a","jmdictId":1200220,"word":"けがする","reading":"けがする","ruby":"けがする","forms":["けがする"],"pos":["n","vs","vt","vi"]},
+{"no":866,"level":"n4","openjlptId":"8fb005254a","jmdictId":1200220,"word":"けがする","reading":"けがする","ruby":"けがする","forms":["けがする","けが"],"pos":["n","vs","vt","vi"]},
 {"no":867,"level":"n4","openjlptId":"a200494cec","jmdictId":1250870,"word":"景色","reading":"けしき","ruby":"{景色|けしき}","forms":["景色","けしき"],"pos":["n"],"hanViet":"cảnh sắc"},
 {"no":868,"level":"n4","openjlptId":"ba1b3c0d13","jmdictId":1350080,"word":"消しゴム","reading":"けしゴム","ruby":"{消|け}しゴム","forms":["消しゴム","けしゴム"],"pos":["n"],"hanViet":"tiêu"},
 {"no":869,"level":"n4","openjlptId":"c3da539389","jmdictId":1185290,"word":"下宿","reading":"げしゅく","ruby":"{下|げ}{宿|しゅく}","forms":["下宿","げしゅく"],"pos":["n","vs","vi"],"hanViet":"hạ túc","hanVietAmbiguous":true},

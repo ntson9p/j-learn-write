@@ -10,7 +10,7 @@
  */
 import { isKana, isKanji } from './kana.ts';
 import type { Analysis, JaLexicon } from './lexicon.ts';
-import { COUNTERS, counterKanaAfterDigits, counterReadings, numberReading, numberValue } from './numbers.ts';
+import { COUNTERS, counterKanaAfterDigits, counterReadings, naiveCounterReading, numberReading, numberValue } from './numbers.ts';
 
 export type TokenAnalysis =
   | Analysis
@@ -56,8 +56,8 @@ function kanaCountedForms(): { forms: Map<string, { value: number | null; counte
       // Also the reading without its sound change (さんほん, きゅうがつ): read as the
       // same quantity, so that the counter_reading rule can point at it.
       // Not when it would swallow さん + は (田中さんはいくつ is not 3杯 + くつ).
-      const naive = n !== null && n <= 100 && !/さん[はひふへほ]/u.test(numberReading(n) + c.reading) ? numberReading(n) + c.reading : '';
-      for (const r of naive && !valid.includes(naive) ? [...valid, naive] : valid) {
+      const naive = n !== null && n <= 100 ? naiveCounterReading(n, c) : '';
+      for (const r of naive ? [...valid, naive] : valid) {
         const list = forms.get(r);
         if (list) list.push({ value: n, counter: c.counter });
         else forms.set(r, [{ value: n, counter: c.counter }]);

@@ -27,7 +27,8 @@
     "nai+kucha": ["nai-to-ikenai-nakucha"],
     "ba": ["ba"],
     "vol": ["ou-you"],
-    "imperative": ["e-ro"]
+    "imperative": ["e-ro"],
+    "nai+ku": ["nai"]
   },
   "derived": {
     "potential": ["eru-rareru-potential"],
@@ -199,6 +200,9 @@
     "dattara": ["tara"],
     "kamoshirenai": ["kamo-shirenai"],
     "okini": ["oki-ni"],
-    "nasai": ["nasai"]
+    "nasai": ["nasai"],
+    "dasou": ["sou-da-hearsay"],
+    "niyoruto": ["sou-da-hearsay", "rashii"],
+    "itadakemasenka": ["te-kuremasen-ka-te-itadakemasen-ka"]
   }
 }

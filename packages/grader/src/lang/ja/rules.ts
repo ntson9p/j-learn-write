@@ -11,7 +11,7 @@ import { jaIssue } from './issues.ts';
 import { isKana, toHiragana } from './kana.ts';
 import type { Analysis, JaLexicon, WordEntry } from './lexicon.ts';
 import { vi } from './messages.ts';
-import { COUNTERS, counterReadings, numberReading } from './numbers.ts';
+import { COUNTERS, counterReadings, naiveCounterReading, numberReading } from './numbers.ts';
 import { tokenize, type Token, type TokenAnalysis } from './tokenize.ts';
 
 type Penalties = Readonly<Record<string, number>>;
@@ -112,7 +112,7 @@ function wrongTeForms(lexicon: JaLexicon): Map<string, string> {
     const cls = conjClassOf(w.word, w.pos);
     if (!cls || !cls.startsWith('v5')) continue;
     for (const spelling of new Set([w.word, w.reading])) {
-      const forms = conjugate(spelling, w.reading, cls);
+      const forms = conjugate(spelling, w.reading, cls, false);
       const form = (tags: string) => forms.find((f) => f.tags.join('+') === tags)?.surface;
       const stem = form('stem');
       const te = form('te');
@@ -130,6 +130,139 @@ function wrongTeForms(lexicon: JaLexicon): Map<string, string> {
   wrongTeCache.set(lexicon, map);
   return map;
 }
+
+type WrongForm = { right: string; code: 'te_form' | 'verb_form' | 'adjective_form'; why: string };
+const wrongVerbCache = new WeakMap<JaLexicon, Map<string, WrongForm>>();
+const wrongMaxLength = new WeakMap<Map<string, WrongForm>, number>();
+
+const WHY = {
+  masu: 'ます nối với thể ます (bỏ る/う đổi sang cột i), không nối với thể từ điển',
+  nagara: 'ながら nối với thể ます bỏ ます',
+  nai: 'thể ない của động từ nhóm 1: đổi đuôi sang cột a + ない',
+  naiDict: 'ない nối với thể ない, không nối với thể từ điển',
+  ichidanTe: 'động từ nhóm 2 chỉ bỏ る rồi thêm て/た',
+  sokuon: 'động từ đuôi う, つ, る nhóm 1: って/った',
+  voicing: 'đuôi む, ぶ, ぬ: んで/んだ; đuôi く: いて/いた; đuôi ぐ: いで/いだ',
+  tari: 'たり nối với thể た',
+  potential: 'thể khả năng của động từ nhóm 1: đổi đuôi sang cột e + る',
+  adjective: 'tính từ đuôi い bỏ い rồi mới thêm くて, くない, かった',
+  adjectiveNaru: 'tính từ đuôi い + なる: bỏ い thêm く',
+};
+
+/**
+ * Other wrong verb forms learners make, generated from the conjugation of each
+ * course verb (never typed by hand), mapped to the right form: dictionary form
+ * + ます (起きるます), + ながら (聞くながら); ます-stem + ない (話しない); て-form
+ * slips (寝った, 行て, 読んて, 書いで); ます-stem + たり (読みたり). Spellings that
+ * are a real word or form are left out.
+ */
+function wrongVerbForms(lexicon: JaLexicon): Map<string, WrongForm> {
+  const cached = wrongVerbCache.get(lexicon);
+  if (cached) return cached;
+  const map = new Map<string, WrongForm>();
+  const add = (wrong: string, right: string | undefined, code: WrongForm['code'], why: string) => {
+    if (right && wrong !== right && !map.has(wrong)) map.set(wrong, { right, code, why });
+  };
+  for (const w of lexicon.words) {
+    const cls = conjClassOf(w.word, w.pos);
+    if (cls === 'adj-i') {
+      // 安いくて → 安くて, 寒いになりました → 寒くなりました.
+      for (const spelling of new Set([w.word, w.reading])) {
+        const stem = spelling.slice(0, -1);
+        for (const suffix of ['くて', 'くない', 'くなかった', 'かった', 'かったら', 'ければ']) add(spelling + suffix, stem + suffix, 'adjective_form', WHY.adjective);
+        for (const naru of ['なる', 'なります', 'なりました', 'なって', 'なった']) add(`${spelling}に${naru}`, `${stem}く${naru}`, 'adjective_form', WHY.adjectiveNaru);
+      }
+      continue;
+    }
+    if (!cls || cls.startsWith('adj')) continue;
+    const godan = cls.startsWith('v5');
+    for (const spelling of new Set([w.word, w.reading])) {
+      const forms = conjugate(spelling, w.reading, cls, false);
+      const form = (tags: string) => forms.find((f) => f.tags.join('+') === tags)?.surface;
+      const dict = form('');
+      const stem = form('stem');
+      const te = form('te');
+      const ta = form('ta');
+      if (!dict || !stem || !te || !ta) continue;
+      for (const tags of ['masu', 'masu+neg', 'masu+past', 'masu+neg+past']) {
+        const right = form(tags);
+        if (right) add(dict + right.slice(stem.length), right, 'verb_form', WHY.masu);
+      }
+      add(`${dict}ながら`, form('nagara'), 'verb_form', WHY.nagara);
+      add(`${te.slice(0, -1)}ながら`, form('nagara'), 'verb_form', WHY.nagara);
+      for (const [suffix, tags] of [['ない', 'nai'], ['ないで', 'naide'], ['なかった', 'nai+past'], ['なくて', 'nai+te']] as const) {
+        if (godan) add(stem + suffix, form(tags), 'verb_form', WHY.nai);
+        add(dict + suffix, form(tags), 'verb_form', WHY.naiDict);
+      }
+      if (godan) {
+        add(`${stem}たり`, form('tari'), 'te_form', WHY.tari);
+        add(`${stem}だり`, form('tari'), 'te_form', WHY.tari);
+        // 行て, 買た: っ forgotten.
+        if (te.endsWith('って')) {
+          add(`${te.slice(0, -2)}て`, te, 'te_form', WHY.sokuon);
+          add(`${ta.slice(0, -2)}た`, ta, 'te_form', WHY.sokuon);
+          add(`${ta.slice(0, -2)}たら`, form('tara'), 'te_form', WHY.sokuon);
+        }
+        // 話しれます → 話せます: the potential of a group I verb is the え-row + る.
+        for (const [suffix, tags] of [['れる', 'potential'], ['れます', 'potential+masu'], ['れません', 'potential+masu+neg']] as const) {
+          const right = forms.find((f) => f.tags.join('+') === tags)?.surface ?? conjugate(spelling, w.reading, cls).find((f) => f.tags.join('+') === tags)?.surface;
+          add(stem + suffix, right, 'verb_form', WHY.potential);
+        }
+        // 読んて, 書いで: voicing of て/た.
+        const flip: Record<string, string> = { て: 'で', で: 'て', た: 'だ', だ: 'た' };
+        if (/[んい][てで]$/u.test(te)) add(te.slice(0, -1) + flip[te.at(-1)!]!, te, 'te_form', WHY.voicing);
+        if (/[んい][ただ]$/u.test(ta)) add(ta.slice(0, -1) + flip[ta.at(-1)!]!, ta, 'te_form', WHY.voicing);
+      } else if (cls === 'v1') {
+        // 寝って, 見った: a group 2 verb conjugated like 帰る.
+        add(`${stem}って`, te, 'te_form', WHY.ichidanTe);
+        add(`${stem}った`, ta, 'te_form', WHY.ichidanTe);
+      }
+    }
+  }
+  for (const wrong of [...map.keys()]) if (lexicon.analyses(wrong).length > 0) map.delete(wrong);
+  wrongVerbCache.set(lexicon, map);
+  return map;
+}
+
+/** What may follow a wrong verb form written in kana: an ending, a particle or punctuation. */
+const AFTER_VERB = /^(ください|います|いる|いました|いません|します|しました|です|でした|も|は|が|を|に|から|ね|よ|か|[、。！？]|$)/u;
+
+/** 起きるます → 起きます, 寝った → 寝た, 読みたり → 読んだり… */
+const verbForm: Rule = (tokens, lists, p, out, text, lexicon) => {
+  const wrongForms = wrongVerbForms(lexicon);
+  let maxLength = wrongMaxLength.get(wrongForms);
+  if (maxLength === undefined) {
+    maxLength = Math.max(0, ...[...wrongForms.keys()].map((k) => k.length));
+    wrongMaxLength.set(wrongForms, maxLength);
+  }
+  let covered = -1;
+  tokens.forEach((t, ti) => {
+    const at = t.start;
+    if (at < covered) return;
+    // A kana-only wrong form must start a word: after punctuation or a particle (きれいくない is not きれ + いくない).
+    const prev = tokens[ti - 1];
+    const startsWord = !prev || isPunct(prev) || prev.analyses.some((a) => a.kind === 'function') || !kanaOnly(prev.surface) || !kanaOnly(t.surface);
+    // The longest wrong form starting at this token.
+    for (let len = Math.min(maxLength, text.length - at); len >= 2; len--) {
+      const wrong = text.slice(at, at + len);
+      const found = wrongForms.get(wrong);
+      if (!found || (kanaOnly(wrong) && !startsWord)) continue;
+      const end = at + len;
+      // Another rule already explains this part (きれいくない: adjective_form).
+      if (out.some((x) => x.start < end && at < x.end)) continue;
+      // Not inside a real word (とても is not とて + も), and what follows must not continue a word.
+      if (tokens.some((x) => x.start < end && x.end > end && !isUnknown(x))) continue;
+      const rest = text.slice(end);
+      // A wrong form written with kanji is specific enough (安いくておいしい, 切てもらいました);
+      // one in kana only must be followed by an ending, a particle or punctuation.
+      if (kanaOnly(wrong) && !AFTER_VERB.test(rest)) continue;
+      const fix: Fix = { start: at, end, replacement: found.right };
+      out.push(jaIssue(p, found.code, at, end, found.code === 'te_form' ? vi.teForm(wrong, found.right) : found.code === 'adjective_form' ? vi.adjectiveI(wrong, found.right) : vi.verbForm(wrong, found.right, found.why), fix));
+      covered = end;
+      break;
+    }
+  });
+};
 
 /** What may follow a て/た-form written in kana (so that かきて is not read in 書き手). */
 const AFTER_TE = /^(ください|います|いる|いました|いません|も|は|から|[、。！？]|$)/u;
@@ -220,9 +353,19 @@ const naAdjectiveForm: Rule = (tokens, lists, p, out, text, lexicon) => {
   // Longest first: かったです → でした (not でしたです).
   const RIGHT: [string, string][] = [
     ['くありません', 'じゃありません'],
+    ['くなりました', 'になりました'],
+    ['くしました', 'にしました'],
+    ['くします', 'にします'],
+    ['くして', 'にして'],
+    ['くする', 'にする'],
+    ['くなります', 'になります'],
     ['かったです', 'でした'],
+    ['くなって', 'になって'],
+    ['くなった', 'になった'],
+    ['くなる', 'になる'],
     ['くない', 'じゃない'],
     ['かった', 'でした'],
+    ['くて', 'で'],
   ];
   const done = new Set<number>();
   for (const w of lexicon.words) {
@@ -339,6 +482,8 @@ const niDe: Rule = (tokens, lists, p, out) => {
       return;
     }
     if (!hasWord(t, lists.places)) return;
+    // 前に, 後に after a clause or an event are times (寝る前に本を読みます), not places.
+    if (words(t).some((a) => a.word === '前' || a.word === '後')) return;
     if (fn(particle, 'ni')) {
       // The action verb comes right after (or after one object with を), as the predicate (not 遊びに行く).
       let k = i + 2;
@@ -415,9 +560,9 @@ function naiveCounterReadings(): Map<string, string> {
   for (const c of COUNTERS) {
     if (!c.reading || !kanaOnly(c.reading)) continue;
     for (let n = 1; n <= 100; n++) {
-      const valid = counterReadings(n, c);
-      const naive = numberReading(n) + c.reading;
-      if (!valid.includes(naive) && valid[0]) map.set(naive, valid[0]);
+      const naive = naiveCounterReading(n, c, true);
+      const right = counterReadings(n, c)[0];
+      if (naive && right) map.set(naive, right);
     }
   }
   naiveReadings = map;
@@ -435,6 +580,11 @@ const counterReading: Rule = (tokens, lists, p, out) => {
       const start = base + at;
       const end = start + naive.length;
       if (!starts.has(start) || !ends.has(end)) continue;
+      // さん after a name or noun is the suffix (田中さんはくに), not the number 3.
+      if (naive.startsWith('さん')) {
+        const prev = tokens.filter((t) => t.end <= start).at(-1);
+        if (prev && !isPunct(prev) && (isNoun(prev) || isName(prev) || isUnknown(prev))) continue;
+      }
       out.push(jaIssue(p, 'counter_reading', start, end, vi.counterReading(naive, right), { start, end, replacement: right }));
     }
   }
@@ -458,7 +608,13 @@ const politeInClause: Rule = (tokens, lists, p, out) => {
   tokens.forEach((t, i) => {
     const next = tokens[i + 1];
     if (!next) return;
-    const beforeNoun = fn(next, 'koto') || words(next).some((a) => CLAUSE_NOUNS.has(a.word) && !a.pos.some((x) => x.startsWith('v')));
+    const beforeNoun =
+      fn(next, 'koto') ||
+      words(next).some((a) => CLAUSE_NOUNS.has(a.word) && !conjClassOf(a.word, a.pos)) ||
+      // そうです (hearsay), らしい, みたい, かもしれない, までに, ように (not a wish: 合格しますように。)
+      fn(next, 'sou', 'rashii', 'mitai', 'kamoshirenai', 'made') ||
+      // ように at the end is a wish (合格しますように。): right.
+      (fn(next, 'you') && !(fn(tokens[i + 2], 'ni') && (!tokens[i + 3] || isPunct(tokens[i + 3]))));
     const beforeDeshou = fn(next, 'deshou', 'darou') && !fn(tokens[i + 2], 'ka');
     if (!beforeNoun && !beforeDeshou) return;
     if (beforeDeshou && fn(t, 'desu')) {
@@ -479,7 +635,7 @@ const politeInClause: Rule = (tokens, lists, p, out) => {
   });
 };
 
-const RULES: readonly Rule[] = [teForm, adjectiveForm, naAdjectiveForm, whWa, particleKana, aruIru, niDe, counters, counterReading, politeInClause];
+const RULES: readonly Rule[] = [teForm, adjectiveForm, naAdjectiveForm, verbForm, whWa, particleKana, aruIru, niDe, counters, counterReading, politeInClause];
 
 /** Runs every rule on a normalized text; issues are in text positions. */
 export function runJaRules(text: string, lexicon: JaLexicon, penalties: Penalties): Issue[] {

@@ -132,6 +132,19 @@ export function counterKanaAfterDigits(c: Counter): string[] {
   return [...new Set([c.reading, ...changed])];
 }
 
+/**
+ * The reading of a number + counter without its sound change (さんほん for
+ * 3本, きゅうがつ for 9月), when it is not a right reading; empty when it is,
+ * and for spellings that are mostly something else: つ (につ = に + 着く),
+ * short ones, さん + は… (田中さんはくに: さん + は, not 三泊) unless `withSan`
+ * (the caller then checks that さん is not a suffix).
+ */
+export function naiveCounterReading(n: number, c: Counter, withSan = false): string {
+  const naive = numberReading(n) + c.reading;
+  if (c.counter === 'つ' || naive.length < 3 || (!withSan && /さん[はひふへほ]/u.test(naive))) return '';
+  return counterReadings(n, c).includes(naive) ? '' : naive;
+}
+
 /** Readings of the last number word + counter, the first being the usual one. */
 function joinLast(last: string, c: Counter): string[] {
   const first = c.reading[0]!;

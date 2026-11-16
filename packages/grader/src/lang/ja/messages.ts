@@ -26,6 +26,7 @@ export const vi = {
   particleKana: (written: string, right: string, sound: string) =>
     `Trợ từ đọc là "${sound}" nhưng viết là ${q(right)}, không viết ${q(written)}.`,
   teForm: (written: string, right: string) => `Thể て/た chia sai: ${q(written)} → ${q(right)}.`,
+  verbForm: (written: string, right: string, why: string) => `Động từ chia sai: ${q(written)} → ${q(right)} (${why}).`,
   adjectiveI: (written: string, right: string) => `Tính từ đuôi い chia sai: ${q(written)} → ${q(right)}.`,
   adjectiveDa: (written: string, right: string) => `Tính từ đuôi い không đi với だ: ${q(written)} → ${q(right)} (lịch sự: thêm です).`,
   politeInClause: (written: string, right: string, next: string) =>
