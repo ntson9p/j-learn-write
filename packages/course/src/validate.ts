@@ -104,6 +104,31 @@ export function kanaAnswerTexts(ex: Exercise): string[] {
   return exerciseTexts(ex);
 }
 
+/**
+ * Sentences the course presents as correct: examples, corrected mistakes,
+ * practice words, exercise answers (not the wrong options of an exercise).
+ * The grader's rules must not flag any of them.
+ */
+export function correctTexts(lesson: LessonContent): { text: string; where: string }[] {
+  const out: { text: string; where: string }[] = [];
+  const add = (text: string | undefined, where: string) => text && hasJapanese(text) && !text.includes('＿') && out.push({ text, where });
+  for (const p of lesson.practice ?? []) add(p.ja, `practice ${p.ja}`);
+  for (const w of lesson.words ?? []) w.examples.forEach((s, i) => add(s.ja, `word ${w.no} example ${i + 1}`));
+  for (const g of lesson.grammar ?? []) {
+    g.examples.forEach((s, i) => add(s.ja, `grammar ${g.id} example ${i + 1}`));
+    (g.mistakes ?? []).forEach((m, i) => add(m.right, `grammar ${g.id} mistake ${i + 1}`));
+  }
+  for (const ex of lesson.exercises) {
+    if (ex.type === 'choice') {
+      add(ex.ja, ex.id);
+      add(ex.options[ex.answer], ex.id);
+    } else if (ex.type === 'fill') for (const a of ex.answers) add(ex.before + a + ex.after, ex.id);
+    else if (ex.type === 'order') for (const a of ex.answers) add(a, ex.id);
+    else if (ex.type === 'translate') for (const a of modelAnswers(ex.answers)) add(a, ex.id);
+  }
+  return out;
+}
+
 /** Every Japanese text of a lesson. */
 export function lessonTexts(lesson: LessonContent): LessonText[] {
   const out: LessonText[] = [];

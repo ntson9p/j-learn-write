@@ -376,6 +376,11 @@ export function graderWords(vocabulary: readonly ListWord[]): { no: number; word
   return vocabulary.map((w) => ({ no: w.no, word: w.word, reading: w.reading, forms: w.forms.filter((f) => f !== w.word), pos: w.pos }));
 }
 
+/** The proper nouns the grader knows (data/names.json without the Vietnamese gloss). */
+export function graderNames(names: readonly { ja: string; reading: string }[]): { ja: string; reading: string }[] {
+  return names.map((n) => ({ ja: n.ja, reading: n.reading }));
+}
+
 /** One array item per line: readable diffs. */
 export function jsonLines(items: readonly unknown[]): string {
   return `[\n${items.map((x) => JSON.stringify(x)).join(',\n')}\n]\n`;

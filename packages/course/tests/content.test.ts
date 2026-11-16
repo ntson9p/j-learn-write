@@ -3,11 +3,11 @@
  * lesson files read (to check one lesson while writing it); the curriculum
  * is always checked whole.
  */
-import { courseLexicon } from '@j-learn-write/grader';
+import { checkJaSentence, courseLexicon, graderLexicon } from '@j-learn-write/grader';
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import { formatLesson, kanjiReadingsMap, lessonFiles, loadCourseData } from '../scripts/lib/course-files';
-import { validateCourse } from '../src/validate';
+import { correctTexts, validateCourse } from '../src/validate';
 
 const FILTER = (process.env.CONTENT_FILTER ?? '').split(',').filter(Boolean);
 
@@ -29,6 +29,17 @@ describe('course content', () => {
     const written = new Set(data.lessons.map((l) => l.id));
     const missing = data.curriculum.filter((l) => data.levels[l.level] === 'complete' && !written.has(l.id)).map((l) => l.id);
     expect(missing).toEqual([]);
+  });
+
+  it('raises no grader issue on any correct sentence of the course', () => {
+    const lexicon = graderLexicon();
+    const flagged = data.lessons.flatMap((l) =>
+      correctTexts(l).flatMap(({ text, where }) => {
+        const issues = checkJaSentence(text, lexicon).issues;
+        return issues.length > 0 ? [`${l.id} ${where}: 「${text}」 ${issues.map((i) => i.code).join(', ')}`] : [];
+      }),
+    );
+    expect(flagged).toEqual([]);
   });
 
   it('names each file after its lesson and keeps the canonical format (npm run content:fill)', () => {

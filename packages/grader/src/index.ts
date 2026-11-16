@@ -9,3 +9,6 @@ export { COUNTERS, counterReadings, findCounter, numberReading, numberValue, typ
 export { FUNCTION_WORDS, JaLexicon, type Analysis, type FunctionRole, type FunctionWord, type NameEntry as JaName, type WordEntry } from './lang/ja/lexicon.ts';
 export { hasKanjiToken, isUnknown, tokenize, type Token, type TokenAnalysis } from './lang/ja/tokenize.ts';
 export { COURSE_WORDS, courseLexicon } from './lang/ja/words.ts';
+export { grade } from './grade.ts';
+export { checkJaSentence, gradeJa, gradeJaModel, JA_DEFAULT_PENALTIES, JA_ISSUE_LABELS_VI, type JaIssueCode, type SentenceCheck } from './lang/ja/index.ts';
+export { COURSE_NAMES, graderLexicon } from './lang/ja/words.ts';
