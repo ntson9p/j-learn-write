@@ -13,7 +13,7 @@ describe('lang="ja"', () => {
   });
 
   /** Every route without parameters, and samples of the others. */
-  const paths = [...ROUTES.filter((r) => !r.pattern.includes(':')).map((r) => r.pattern), '/lesson/kana-01', '/practice/kana-01', '/quiz/kana-01', '/kana/あ', '/write/あ', '/lesson/n5-01', '/practice/n5-01', '/word/1305', '/kanji/日', '/grammar/wa', '/test/kana', '/test/n5'];
+  const paths = [...ROUTES.filter((r) => !r.pattern.includes(':')).map((r) => r.pattern), '/lesson/kana-01', '/practice/kana-01', '/quiz/kana-01', '/kana/あ', '/write/あ', '/lesson/n5-01', '/practice/n5-01', '/word/1305', '/kanji/日', '/grammar/wa', '/test/kana', '/test/n5', '/grader'];
   for (const path of paths) {
     it(`marks every Japanese text on ${path}`, async () => {
       navigate(path);

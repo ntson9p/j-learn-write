@@ -185,6 +185,22 @@ export const T = {
     progress: (i: number, n: number) => `Câu ${i}/${n}`,
   },
 
+  grader: {
+    title: 'Chấm thử câu trả lời',
+    intro: 'Chọn một bài dịch hoặc câu hỏi của khóa học, gõ câu trả lời bằng tiếng Nhật rồi bấm "Chấm điểm". Bộ chấm dùng luật, không dùng AI: cùng một câu trả lời luôn được cùng một điểm.',
+    none: 'Khóa học chưa có bài dịch hay câu hỏi tự luận nào.',
+    questions: 'Bài tập',
+    question: (id: string) => `Câu hỏi ${id}`,
+    answerLabel: 'Câu trả lời',
+    submit: 'Chấm điểm',
+    tryExamples: 'Thử nhanh (ví dụ của người soạn)',
+    expected: (score: number, same: boolean, got: number) => `Điểm mong đợi trong bộ ví dụ: ${score} ${same ? '✓' : `≠ ${got}`}`,
+    sentenceTitle: 'Kiểm tra một câu bất kỳ',
+    sentenceIntro: 'Các luật của bộ chấm chỉ bắt một số lỗi hay gặp (trợ từ viết theo cách đọc, thể て, chia tính từ, あります/います, に/で, trợ số từ…). Không thấy lỗi không có nghĩa là câu chắc chắn đúng.',
+    check: 'Kiểm tra',
+    noIssue: 'Không thấy lỗi nào trong các lỗi bộ chấm biết.',
+  },
+
   result: {
     status: {
       correct: 'Đúng nội dung',
@@ -371,6 +387,7 @@ export const T = {
     cleared: 'Đã xóa toàn bộ dữ liệu.',
     tools: 'Công cụ và thông tin',
     aboutLink: 'Giới thiệu và giấy phép',
+    graderLink: 'Chấm thử câu trả lời',
   },
 
   about: {

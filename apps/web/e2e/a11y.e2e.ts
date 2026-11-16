@@ -53,6 +53,7 @@ const PAGES: [string, string][] = [
   ['#/grammar/wa', ''],
   ['#/dict', 'Từ điển'],
   ['#/progress', 'Tiến độ'],
+  ['#/grader', 'Chấm thử câu trả lời'],
   ['#/test/n5', 'Kiểm tra N5'],
   ['#/write', 'Luyện viết'],
   ['#/about', 'Giới thiệu và giấy phép'],

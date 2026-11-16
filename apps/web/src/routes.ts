@@ -28,6 +28,7 @@ export const ROUTES: readonly RouteDef[] = [
   { pattern: '/test/:level', tab: 'progress', load: () => import('./pages/level-test') },
   { pattern: '/settings', tab: 'settings', load: () => import('./pages/settings') },
   { pattern: '/about', tab: 'settings', load: () => import('./pages/about') },
+  { pattern: '/grader', tab: 'settings', load: () => import('./pages/grader') },
 ];
 
 export function resolveRoute(path: string): { route: RouteDef; params: Params } | null {

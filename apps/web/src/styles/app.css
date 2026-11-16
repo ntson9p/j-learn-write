@@ -913,6 +913,24 @@ input[type='search'] {
   font-size: 1.15rem;
 }
 
+.hanviet-line {
+  display: block;
+  margin-top: 2px;
+  color: var(--accent);
+  font-size: 0.85rem;
+}
+.grader-page select {
+  width: 100%;
+  min-height: 44px;
+  margin: 4px 0 12px;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
 /* Kana lessons */
 .lesson-kana {
   margin-top: 8px;

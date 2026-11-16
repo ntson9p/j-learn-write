@@ -2,13 +2,15 @@
  * Text helpers. Japanese inside Vietnamese text must carry lang="ja" so that
  * browsers pick a Japanese font (Chinese glyph shapes differ for 直, 今, 骨…).
  */
-import { effectiveStatus, parseRuby, rubyReading, rubyText, type Review, type RubySegment } from '@j-learn-write/course';
-import { isKanji } from '@j-learn-write/grader';
+import { effectiveStatus, parseRuby, rubyReading, rubyText, type ListWord, type Review, type RubySegment } from '@j-learn-write/course';
+import { graderLexicon, isKanji, normalizeJa, tokenize } from '@j-learn-write/grader';
 import { createContext } from 'preact';
 import { useContext } from 'preact/hooks';
+import { listWords } from '../lib/content';
 import { learnedKanji } from '../lib/learned';
 import { settings, type FuriganaMode } from '../lib/settings';
 import { T } from '../strings';
+import { useAsync } from './hooks';
 import { SpeakButton } from './speak';
 
 /** Runs of Japanese script: kana, kanji, ー, 々 and Japanese punctuation. */
@@ -110,14 +112,47 @@ export function JaText({ text, class: className }: { text: string; class?: strin
   return <RubyMarkup markup={markup} class={className} />;
 }
 
-/** A Japanese sentence with furigana and a speaker button that reads its kana reading. */
+/** The course words of a sentence that have a Hán Việt reading, in dictionary form, without repeats. */
+export function hanVietOf(text: string, listed: ReadonlyMap<number, ListWord>): { word: string; hanViet: string }[] {
+  const out: { word: string; hanViet: string }[] = [];
+  for (const t of tokenize(normalizeJa(text).text, graderLexicon())) {
+    for (const a of t.analyses) {
+      const w = a.kind === 'word' ? listed.get(a.no) : undefined;
+      if (w?.hanViet && [...t.surface].some(isKanji) && !out.some((x) => x.word === w.word)) out.push({ word: w.word, hanViet: w.hanViet });
+      if (w?.hanViet) break;
+    }
+  }
+  return out;
+}
+
+function HanVietLine({ text }: { text: string }) {
+  const listed = useAsync(listWords, []);
+  if (!listed.data) return null;
+  const items = hanVietOf(text, listed.data);
+  if (items.length === 0) return null;
+  return (
+    <span class="hanviet-line">
+      {items.map((x, i) => (
+        <span key={x.word}>
+          {i > 0 && ' · '}
+          <span lang="ja">{x.word}</span> {x.hanViet}
+        </span>
+      ))}
+    </span>
+  );
+}
+
+/** A Japanese sentence with furigana, a speaker button that reads its kana reading, and (by setting) the Hán Việt of its words. */
 export function JaSentence({ text, class: className }: { text: string; class?: string }) {
   const { ruby } = useContext(RubyContext);
   return (
-    <span class="ja-sentence">
-      <JaText text={text} class={className} />
-      <SpeakButton text={readingOf(text, ruby)} label={T.speak(text)} />
-    </span>
+    <>
+      <span class="ja-sentence">
+        <JaText text={text} class={className} />
+        <SpeakButton text={readingOf(text, ruby)} label={T.speak(text)} />
+      </span>
+      {settings.value.showHanViet && <HanVietLine text={text} />}
+    </>
   );
 }
 

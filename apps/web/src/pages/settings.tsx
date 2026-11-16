@@ -199,6 +199,9 @@ export default function SettingsPage(_props: PageProps) {
         <h2>{T.settings.tools}</h2>
         <ul class="link-list">
           <li>
+            <a href={href('/grader')}>{T.settings.graderLink}</a>
+          </li>
+          <li>
             <a href={href('/about')}>{T.settings.aboutLink}</a>
           </li>
         </ul>
