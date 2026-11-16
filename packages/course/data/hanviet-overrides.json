@@ -32,12 +32,14 @@
     "机": "kỷ",
     "込": "",
     "狭": "hiệp",
-    "画": "họa"
+    "画": "họa",
+    "冷": "lãnh"
   },
   "_words": "Draft Hán Việt reading of whole words (display form), one syllable per kanji ( - for a kokuji), chosen for the meaning in the word. Checked: each syllable must be a known reading of its kanji.",
   "words": {
     "勉強": "miễn cưỡng",
     "音楽": "âm nhạc",
-    "弾く": "đàn"
+    "弾く": "đàn",
+    "冷蔵庫": "lãnh tàng khố"
   }
 }
