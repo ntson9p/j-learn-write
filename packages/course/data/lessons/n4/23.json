@@ -1,0 +1,1106 @@
+{
+  "id": "n4-23",
+  "goalsVi": [
+    "Hiểu thể mệnh lệnh trên biển báo, khi cổ vũ, trong lời nói mạnh: 止まれ、走れ、早く逃げろ",
+    "Hiểu lời cấm mạnh 〜な: 触るな、ここで騒ぐな",
+    "Thuật lại lời người khác bảo, cấm mình: 医者にお酒を飲むなと言われました",
+    "Biết chọn cách nói lịch sự (〜てください、〜ないでください) thay cho mệnh lệnh khi nói với người khác"
+  ],
+  "words": [
+    {
+      "no": 699,
+      "word": "安全",
+      "meaningsVi": [
+        "an toàn"
+      ],
+      "noteVi": "Âm Hán Việt \"an toàn\", nghĩa giống tiếng Việt. Tính từ đuôi な: 安全な場所.",
+      "examples": [
+        {
+          "ja": "この町は夜も安全です。",
+          "vi": "Thị trấn này ban đêm cũng an toàn."
+        },
+        {
+          "ja": "安全な場所に逃げてください。",
+          "vi": "Hãy chạy đến chỗ an toàn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 827,
+      "word": "危険",
+      "meaningsVi": [
+        "nguy hiểm",
+        "sự nguy hiểm"
+      ],
+      "noteVi": "Âm Hán Việt \"nguy hiểm\". Trang trọng, hay gặp trên biển báo, thông báo; khi nói chuyện thường dùng 危ない.",
+      "examples": [
+        {
+          "ja": "この川で泳ぐのは危険です。",
+          "vi": "Bơi ở con sông này rất nguy hiểm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1065,
+      "word": "注意",
+      "meaningsVi": [
+        "chú ý, cẩn thận",
+        "nhắc nhở, khiển trách"
+      ],
+      "noteVi": "Cẩn thận với cái gì: N に注意する. Người trên 注意する người dưới là nhắc nhở, khiển trách: 先生に注意された (bị thầy nhắc).",
+      "examples": [
+        {
+          "ja": "車に注意してください。",
+          "vi": "Hãy chú ý xe cộ."
+        },
+        {
+          "ja": "授業で友達と話して、先生に注意されました。",
+          "vi": "Tôi nói chuyện với bạn trong giờ học nên bị thầy nhắc nhở."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 870,
+      "word": "決して",
+      "meaningsVi": [
+        "tuyệt đối (không), nhất định (không)"
+      ],
+      "noteVi": "Luôn đi với phủ định: 決して〜ない, 決して〜ないでください, 決して〜な. Mạnh hơn ぜんぜん.",
+      "examples": [
+        {
+          "ja": "このことは決して忘れません。",
+          "vi": "Tôi tuyệt đối không quên chuyện này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 928,
+      "word": "騒ぐ",
+      "meaningsVi": [
+        "làm ồn, ồn ào",
+        "náo loạn, xôn xao"
+      ],
+      "noteVi": "Chỉ hành động ồn ào của người (la hét, đùa nghịch). Nói nơi nào đó ồn thì dùng tính từ うるさい, にぎやか.",
+      "examples": [
+        {
+          "ja": "夜はアパートで騒がないでください。",
+          "vi": "Buổi tối xin đừng làm ồn trong chung cư."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 929,
+      "word": "触る",
+      "meaningsVi": [
+        "sờ, chạm vào"
+      ],
+      "noteVi": "Vật được chạm đi với に: 絵に触る. Biển báo trong bảo tàng hay ghi 「触らないでください」.",
+      "examples": [
+        {
+          "ja": "この絵に触らないでください。",
+          "vi": "Xin đừng chạm vào bức tranh này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 955,
+      "word": "じゃま",
+      "meaningsVi": [
+        "sự cản trở, vướng víu",
+        "làm phiền"
+      ],
+      "noteVi": "Kanji: 邪魔. Tính từ đuôi な và danh từ: じゃまな箱, じゃまをする. Khi vào nhà người khác, người Nhật nói 「おじゃまします」 (xin phép làm phiền).",
+      "examples": [
+        {
+          "ja": "勉強のじゃまをするな。",
+          "vi": "Đừng làm phiền tao học."
+        },
+        {
+          "ja": "この箱はじゃまですね。",
+          "vi": "Cái hộp này vướng quá nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1121,
+      "word": "投げる",
+      "meaningsVi": [
+        "ném, quăng"
+      ],
+      "noteVi": "Âm Hán Việt \"đầu\" (đầu cơ, đầu tư). Ném vào đâu: N に投げる.",
+      "examples": [
+        {
+          "ja": "ごみを川に投げないでください。",
+          "vi": "Xin đừng ném rác xuống sông."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 728,
+      "word": "打つ",
+      "meaningsVi": [
+        "đánh, đập",
+        "đập phải, va",
+        "gõ (bàn phím)"
+      ],
+      "noteVi": "Âm Hán Việt \"đả\" (đả kích). Dùng nhiều trong thể thao: ボールを打つ (đánh bóng).",
+      "examples": [
+        {
+          "ja": "ドアに頭を打ちました。",
+          "vi": "Tôi bị va đầu vào cửa."
+        },
+        {
+          "ja": "パソコンで手紙を打ちました。",
+          "vi": "Tôi đã gõ lá thư trên máy tính."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 804,
+      "word": "勝つ",
+      "meaningsVi": [
+        "thắng"
+      ],
+      "noteVi": "Thắng trận, thắng ai đều dùng **に**: 試合に勝つ, 田中さんに勝つ (không dùng を).",
+      "examples": [
+        {
+          "ja": "私たちのクラスが試合に勝ちました。",
+          "vi": "Lớp chúng tôi đã thắng trận đấu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1223,
+      "word": "負ける",
+      "meaningsVi": [
+        "thua"
+      ],
+      "noteVi": "Thua ai, thua trận dùng **に**: 試合に負ける, 兄に負ける. Ngược nghĩa với 勝つ.",
+      "examples": [
+        {
+          "ja": "昨日の試合は負けました。",
+          "vi": "Trận hôm qua chúng tôi thua."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 936,
+      "word": "試合",
+      "meaningsVi": [
+        "trận đấu"
+      ],
+      "noteVi": "Trận đấu thể thao giữa hai người hoặc hai đội. Cuộc thi nói chung (thi hát, thi viết) là コンクール, không dùng 試合.",
+      "examples": [
+        {
+          "ja": "日曜日にテニスの試合があります。",
+          "vi": "Chủ nhật có trận đấu tennis."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 847,
+      "word": "競争",
+      "meaningsVi": [
+        "cạnh tranh",
+        "thi đua, chạy thi"
+      ],
+      "noteVi": "Âm Hán Việt \"cạnh tranh\". Ngoài nghĩa cạnh tranh, còn dùng khi trẻ con thi chạy, thi làm gì nhanh hơn.",
+      "examples": [
+        {
+          "ja": "駅まで競争しよう。",
+          "vi": "Thi xem ai đến ga trước nào."
+        },
+        {
+          "ja": "この仕事は競争が厳しいです。",
+          "vi": "Ngành này cạnh tranh gay gắt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1062,
+      "word": "力",
+      "meaningsVi": [
+        "sức, sức lực",
+        "năng lực"
+      ],
+      "noteVi": "Âm Hán Việt \"lực\". Khỏe: 力が強い; năng lực tiếng Nhật: 日本語の力.",
+      "examples": [
+        {
+          "ja": "父は力が強いです。",
+          "vi": "Bố tôi khỏe (sức lực mạnh)."
+        },
+        {
+          "ja": "日本語の力をつけたいです。",
+          "vi": "Tôi muốn nâng cao năng lực tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1130,
+      "word": "逃げる",
+      "meaningsVi": [
+        "chạy trốn, bỏ chạy"
+      ],
+      "noteVi": "Tự động từ: 泥棒が逃げる. Chạy trốn khỏi đâu: N から逃げる.",
+      "examples": [
+        {
+          "ja": "火事だ！早く逃げろ！",
+          "vi": "Cháy! Chạy mau!"
+        },
+        {
+          "ja": "泥棒は窓から逃げました。",
+          "vi": "Tên trộm đã chạy trốn qua cửa sổ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1169,
+      "word": "火",
+      "meaningsVi": [
+        "lửa"
+      ],
+      "noteVi": "Đọc ひ (một mình). Đám cháy là 火事 (かじ); 火曜日 đọc か.",
+      "examples": [
+        {
+          "ja": "寝る前に、火を消してください。",
+          "vi": "Trước khi ngủ hãy tắt lửa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 707,
+      "word": "石",
+      "meaningsVi": [
+        "đá, hòn đá"
+      ],
+      "noteVi": "Âm Hán Việt \"thạch\".",
+      "examples": [
+        {
+          "ja": "子供が川に石を投げています。",
+          "vi": "Bọn trẻ đang ném đá xuống sông."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 873,
+      "word": "けんかする",
+      "meaningsVi": [
+        "cãi nhau",
+        "đánh nhau"
+      ],
+      "noteVi": "Dùng cho cả cãi nhau lẫn đánh nhau. Cãi nhau với ai: N とけんかする. Kanji: 喧嘩.",
+      "examples": [
+        {
+          "ja": "昨日、弟とけんかしました。",
+          "vi": "Hôm qua tôi cãi nhau với em trai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1068,
+      "word": "駐車場",
+      "meaningsVi": [
+        "bãi đỗ xe"
+      ],
+      "noteVi": "Âm Hán Việt \"trú xa trường\" (chỗ cho xe dừng). Đỗ xe: 車を止める. Bãi để xe đạp: 駐輪場 (ちゅうりんじょう).",
+      "examples": [
+        {
+          "ja": "店の前に止めないで、駐車場に車を止めてください。",
+          "vi": "Đừng đỗ trước cửa hàng, hãy đỗ xe ở bãi đỗ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "力",
+      "meaningVi": "sức, lực",
+      "noteVi": "Gặp trong 力 (ちから). Hình cánh tay gồng sức. Cũng là bộ của 男 (田 + 力).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "止",
+      "meaningVi": "dừng",
+      "noteVi": "Gặp trong 止まる, 止める (dừng), 止む (tạnh), và biển báo 止まれ.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "青",
+      "meaningVi": "xanh (dương, lá)",
+      "noteVi": "Gặp trong 青い, 青. Đèn xanh giao thông người Nhật cũng gọi là 青.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "走",
+      "meaningVi": "chạy",
+      "noteVi": "Gặp trong 走る (はしる). Phía dưới giống chân đang bước.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "立",
+      "meaningVi": "đứng",
+      "noteVi": "Gặp trong 立つ (たつ), 役に立つ. Hình người đứng trên mặt đất.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "注",
+      "meaningVi": "rót; chú ý",
+      "noteVi": "Bộ 氵 (nước) + 主: rót nước. Gặp trong 注意 (chú ý).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "e-ro",
+      "titleVi": "Thể mệnh lệnh 〜え / 〜ろ: làm đi! (ra lệnh mạnh)",
+      "summaryVi": "Thể mệnh lệnh ra lệnh trực tiếp và rất mạnh: 止まれ (dừng lại), 早く起きろ (dậy mau); gặp trên biển báo, khi cổ vũ, khi thuật lại lời.",
+      "explanationVi": [
+        "**Thể mệnh lệnh** ra lệnh **trực tiếp, mạnh**: 「早く起きろ！」 (Dậy mau!). Nói với người khác thì rất thô, nên người học **gần như không dùng khi nói chuyện**. Nhưng cần hiểu vì gặp nhiều: trên **biển báo** (「止まれ」 Dừng lại), khi **cổ vũ** (「走れ！」 Chạy đi!), lúc **khẩn cấp** (「逃げろ！」 Chạy mau!), lời bố, huấn luyện viên (nam) nói với người dưới, trong truyện tranh, phim.",
+        "Cách chia: **Nhóm 1** đổi đuôi sang hàng え: 書く → 書**け**, 行く → 行**け**, 待つ → 待**て**, 止まる → 止ま**れ**, 言う → 言**え**. **Nhóm 2** bỏ る + **ろ**: 食べる → 食べ**ろ**, 起きる → 起き**ろ**, 見る → 見**ろ**. **Nhóm 3**: する → **しろ**, 来る → **来い** (こい). Các động từ kính ngữ くださる, なさる có mệnh lệnh đuôi い: ください, なさい, chính là những dạng đã học.",
+        "Khi **thuật lại** lời người khác bảo mình làm gì, dùng thể mệnh lệnh + **と言われました**, dù người nói lúc đó có thể đã nói lịch sự: 「部長に、明日は早く来いと言われました」 (Tôi bị trưởng phòng bảo mai đến sớm). Đây là cách dùng lịch sự, người học nên dùng.",
+        "Mức độ ra lệnh từ nhẹ đến mạnh: 〜てください (lịch sự) → 〜て (bạn bè: 「ちょっと待って」) → 〜なさい (cha mẹ, thầy cô) → **thể mệnh lệnh** (mạnh nhất). Tiếng Việt chỉ đổi giọng, thêm \"đi\", \"mau\"; tiếng Nhật đổi hẳn dạng động từ, nên chọn sai dạng là thất lễ."
+      ],
+      "patterns": [
+        "Nhóm 1: V (đuôi hàng う → hàng え): 行く → 行け",
+        "Nhóm 2: V bỏ る + ろ: 食べる → 食べろ",
+        "する → しろ; 来る → 来い",
+        "V (mệnh lệnh) + と言われました (thuật lại)"
+      ],
+      "examples": [
+        {
+          "ja": "早く起きろ！もう8時だよ。",
+          "vi": "Dậy mau! 8 giờ rồi đấy."
+        },
+        {
+          "ja": "止まれ。",
+          "vi": "Dừng lại. (biển báo)"
+        },
+        {
+          "ja": "走れ！もう少しだ！",
+          "vi": "Chạy đi! Sắp tới rồi!"
+        },
+        {
+          "ja": "部長に、明日は早く来いと言われました。",
+          "vi": "Tôi bị trưởng phòng bảo mai phải đến sớm."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "早く起きれ！",
+          "right": "早く起きろ！",
+          "noteVi": "起きる là nhóm 2: bỏ る + ろ. Đuôi れ chỉ có ở nhóm 1 đuôi る: 止まる → 止まれ."
+        },
+        {
+          "wrong": "早く来ろ！",
+          "right": "早く来い！",
+          "noteVi": "来る bất quy tắc: 来い (こい)."
+        },
+        {
+          "wrong": "先生、ちょっと待て。",
+          "right": "先生、ちょっと待ってください。",
+          "noteVi": "Đúng ngữ pháp nhưng rất thất lễ: thể mệnh lệnh không dùng với người trên, người lạ. Hãy dùng 〜てください."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "na-prohibition",
+      "titleVi": "〜な: không được …! (cấm mạnh)",
+      "summaryVi": "Thể từ điển + な: cấm mạnh, \"Không được …!\": 触るな, ここで騒ぐな; gặp trên biển báo và khi thuật lại lời cấm.",
+      "explanationVi": [
+        "**Thể từ điển + な** là **mệnh lệnh phủ định**, nghĩa là \"**Không được …!**\", \"Cấm …!\": 「触るな！」 (Không được sờ!), 「ここで騒ぐな」 (Không được làm ồn ở đây). Mạnh và thô như thể mệnh lệnh: gặp trên biển báo, trong lời bố, huấn luyện viên, lúc khẩn cấp.",
+        "Cách ghép rất đơn giản, giống nhau cho mọi nhóm: **thể từ điển + な**: 行く → 行く**な**, 食べる → 食べる**な**, する → する**な**, 来る → 来る**な** (くるな). Thuật lại lời cấm: 「医者にお酒を飲む**な**と言われました」 (Tôi bị bác sĩ cấm uống rượu).",
+        "Mức độ cấm từ nhẹ đến mạnh: 〜ないでください (lịch sự) → 〜ないで (thân mật: 「触らないで」) → 〜てはいけません (quy định) → **〜な** (mạnh nhất). Nhấn mạnh thêm bằng 決して: 「決して触るな」 (Tuyệt đối không được sờ). Với người lạ, người trên luôn dùng 〜ないでください.",
+        "Chú ý: な cấm đứng sau **thể từ điển** (食べるな: Không được ăn!). Không nhầm với 「食べな」 (dạng ます bỏ ます + な): đó là cách nói tắt thân mật của 食べなさい, nghĩa ngược lại (Ăn đi!)."
+      ],
+      "patterns": [
+        "V (thể từ điển) + な",
+        "決して V (thể từ điển) + な",
+        "V (thể từ điển) + な + と言われました (thuật lại)"
+      ],
+      "examples": [
+        {
+          "ja": "危ないから、触るな！",
+          "vi": "Nguy hiểm, không được sờ!"
+        },
+        {
+          "ja": "教室で騒ぐな。",
+          "vi": "Không được làm ồn trong lớp."
+        },
+        {
+          "ja": "石を投げるな！",
+          "vi": "Không được ném đá!"
+        },
+        {
+          "ja": "医者にお酒を飲むなと言われました。",
+          "vi": "Tôi bị bác sĩ cấm uống rượu."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "触らないな！",
+          "right": "触るな！",
+          "noteVi": "な (cấm) gắn sau thể từ điển, không gắn sau thể ない. 触らないな là \"(nó) không sờ nhỉ\", không phải lời cấm."
+        },
+        {
+          "wrong": "触りな！",
+          "right": "触るな！",
+          "noteVi": "触りな (bỏ ます + な) là cách nói tắt của 触りなさい, nghĩa là \"Sờ đi!\", ngược hẳn."
+        },
+        {
+          "wrong": "すみません、ここでたばこを吸うな。",
+          "right": "すみません、ここでたばこを吸わないでください。",
+          "noteVi": "Đúng ngữ pháp nhưng rất thô. Nhắc người lạ thì dùng 〜ないでください."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-23-e01",
+      "type": "match",
+      "grammar": [
+        "e-ro"
+      ],
+      "promptVi": "Ghép động từ với thể mệnh lệnh của nó",
+      "pairs": [
+        [
+          "書く",
+          "書け"
+        ],
+        [
+          "起きる",
+          "起きろ"
+        ],
+        [
+          "する",
+          "しろ"
+        ],
+        [
+          "来る",
+          "来い"
+        ],
+        [
+          "止まる",
+          "止まれ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-23-e02",
+      "type": "choice",
+      "grammar": [
+        "e-ro"
+      ],
+      "promptVi": "Thể mệnh lệnh của 行く là gì?",
+      "options": [
+        "行け",
+        "行こう",
+        "行ける"
+      ],
+      "answer": 0,
+      "explainVi": "Nhóm 1: đổi đuôi sang hàng え. 行こう là thể ý chí, 行ける là thể khả năng."
+    },
+    {
+      "id": "n4-23-e03",
+      "type": "choice",
+      "grammar": [
+        "e-ro"
+      ],
+      "promptVi": "Thể mệnh lệnh của 食べる là gì?",
+      "options": [
+        "食べろ",
+        "食べよう",
+        "食べられる"
+      ],
+      "answer": 0,
+      "explainVi": "Nhóm 2: bỏ る + ろ."
+    },
+    {
+      "id": "n4-23-e04",
+      "type": "fill",
+      "grammar": [
+        "e-ro"
+      ],
+      "before": "火事だ！早く",
+      "after": "！",
+      "answers": [
+        "逃げろ"
+      ],
+      "options": [
+        "逃げろ",
+        "逃げるな",
+        "逃げた"
+      ],
+      "vi": "Cháy! Chạy mau!"
+    },
+    {
+      "id": "n4-23-e05",
+      "type": "choice",
+      "grammar": [
+        "e-ro"
+      ],
+      "promptVi": "Biển báo này nghĩa là gì?",
+      "ja": "止まれ",
+      "options": [
+        "Dừng lại",
+        "Cấm dừng",
+        "Được phép dừng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-23-e06",
+      "type": "choice",
+      "grammar": [
+        "e-ro"
+      ],
+      "promptVi": "Bạn muốn nhờ thầy giáo chờ một chút. Bạn nói câu nào?",
+      "options": [
+        "先生、少し待ってください。",
+        "先生、少し待て。",
+        "先生、少し待つな。"
+      ],
+      "answer": 0,
+      "explainVi": "Thể mệnh lệnh rất thô; với người trên dùng 〜てください."
+    },
+    {
+      "id": "n4-23-e07",
+      "type": "order",
+      "grammar": [
+        "e-ro"
+      ],
+      "vi": "Tôi bị trưởng phòng bảo mai phải đến sớm.",
+      "tiles": [
+        "部長に",
+        "明日は",
+        "早く来いと",
+        "言われました"
+      ],
+      "answers": [
+        "部長に明日は早く来いと言われました",
+        "明日は部長に早く来いと言われました"
+      ]
+    },
+    {
+      "id": "n4-23-e08",
+      "type": "fill",
+      "grammar": [
+        "e-ro"
+      ],
+      "before": "父に「早く",
+      "after": "」と言われました。",
+      "answers": [
+        "寝ろ"
+      ],
+      "options": [
+        "寝ろ",
+        "寝るな",
+        "寝た"
+      ],
+      "vi": "Tôi bị bố bảo: \"Đi ngủ sớm đi!\""
+    },
+    {
+      "id": "n4-23-e09",
+      "type": "choice",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "触るな！",
+      "options": [
+        "Không được sờ!",
+        "Hãy sờ đi!",
+        "Sờ được không?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-23-e10",
+      "type": "fill",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "before": "ここで",
+      "after": "！",
+      "answers": [
+        "騒ぐな"
+      ],
+      "options": [
+        "騒ぐな",
+        "騒げ",
+        "騒いで"
+      ],
+      "vi": "Không được làm ồn ở đây!"
+    },
+    {
+      "id": "n4-23-e11",
+      "type": "choice",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "promptVi": "\"Không được ném đá!\" Câu nào đúng?",
+      "options": [
+        "石を投げるな！",
+        "石を投げろ！",
+        "石を投げたい！"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-23-e12",
+      "type": "order",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "vi": "Tôi bị bác sĩ cấm uống rượu.",
+      "tiles": [
+        "医者に",
+        "お酒を",
+        "飲むなと",
+        "言われました"
+      ],
+      "answers": [
+        "医者にお酒を飲むなと言われました",
+        "お酒を医者に飲むなと言われました"
+      ]
+    },
+    {
+      "id": "n4-23-e13",
+      "type": "choice",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "先生に教室で騒ぐなと言われました。",
+      "options": [
+        "Thầy bảo chúng tôi không được làm ồn trong lớp.",
+        "Thầy bảo chúng tôi làm ồn trong lớp đi.",
+        "Thầy hỏi chúng tôi có làm ồn trong lớp không."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-23-e14",
+      "type": "choice",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "promptVi": "Ở nhà hàng, bạn muốn nhắc một người khách lạ đừng hút thuốc. Bạn nói câu nào?",
+      "options": [
+        "すみません、ここではたばこを吸わないでください。",
+        "ここでたばこを吸うな。",
+        "ここでたばこを吸え。"
+      ],
+      "answer": 0,
+      "explainVi": "〜な rất thô; với người lạ dùng 〜ないでください."
+    },
+    {
+      "id": "n4-23-e15",
+      "type": "choice",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "promptVi": "Trên biển báo ở bể bơi có ghi câu này. Nghĩa là gì?",
+      "ja": "プールの周りを走るな。",
+      "options": [
+        "Không được chạy quanh bể bơi.",
+        "Hãy chạy quanh bể bơi.",
+        "Có thể chạy quanh bể bơi."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-23-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "勝つ",
+          "thắng"
+        ],
+        [
+          "負ける",
+          "thua"
+        ],
+        [
+          "逃げる",
+          "bỏ chạy"
+        ],
+        [
+          "投げる",
+          "ném"
+        ],
+        [
+          "触る",
+          "sờ, chạm"
+        ]
+      ]
+    },
+    {
+      "id": "n4-23-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "安全",
+          "an toàn"
+        ],
+        [
+          "危険",
+          "nguy hiểm"
+        ],
+        [
+          "試合",
+          "trận đấu"
+        ],
+        [
+          "駐車場",
+          "bãi đỗ xe"
+        ],
+        [
+          "力",
+          "sức lực"
+        ]
+      ]
+    },
+    {
+      "id": "n4-23-e18",
+      "type": "fill",
+      "before": "私たちのクラスが試合",
+      "after": "勝ちました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "vi": "Lớp chúng tôi đã thắng trận đấu.",
+      "explainVi": "Thắng trận: 試合に勝つ."
+    },
+    {
+      "id": "n4-23-e19",
+      "type": "choice",
+      "promptVi": "\"Tôi tuyệt đối không quên chuyện này.\" Chọn từ đúng.",
+      "ja": "このことは決して＿。",
+      "options": [
+        "忘れません",
+        "忘れます",
+        "忘れました"
+      ],
+      "answer": 0,
+      "explainVi": "決して luôn đi với phủ định."
+    },
+    {
+      "id": "n4-23-e20",
+      "type": "translate",
+      "grammar": [
+        "e-ro"
+      ],
+      "vi": "Cháy rồi! Chạy mau! (hét lên, dùng thể mệnh lệnh)",
+      "answers": [
+        "火事だ！早く逃げろ！",
+        "火事だ！(早く)逃げろ！"
+      ],
+      "examples": [
+        {
+          "answer": "かじだ！はやくにげろ！",
+          "score": 100
+        },
+        {
+          "answer": "火事だ！早く逃げるな！",
+          "score": 0
+        },
+        {
+          "answer": "火事だ！早く逃げれ！",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-23-e21",
+      "type": "translate",
+      "grammar": [
+        "e-ro"
+      ],
+      "vi": "Tôi bị bố bảo: \"Học đi!\" (thuật lại bằng thể mệnh lệnh + と言われました)",
+      "answers": [
+        "父に勉強しろと言われました。",
+        "(私は)父[に|から][勉強しろ|「勉強しろ」|勉強しなさい]と言われました。"
+      ],
+      "examples": [
+        {
+          "answer": "ちちにべんきょうしろといわれました",
+          "score": 100
+        },
+        {
+          "answer": "父を勉強しろと言われました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "父に勉強するなと言われました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-23-e22",
+      "type": "translate",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "vi": "Không được ném đá! (cấm mạnh, dùng 〜な)",
+      "answers": [
+        "石を投げるな！",
+        "石を投げるな(よ)！"
+      ],
+      "examples": [
+        {
+          "answer": "いしをなげるな！",
+          "score": 100
+        },
+        {
+          "answer": "石に投げるな！",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "石を投げろ！",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-23-e23",
+      "type": "translate",
+      "grammar": [
+        "na-prohibition"
+      ],
+      "vi": "Tôi bị bác sĩ cấm uống rượu.",
+      "answers": [
+        "医者にお酒を飲むなと言われました。",
+        "(私は)医者[に|から](お)酒を[飲むな|飲まないで|飲まないでください]と言われました。",
+        "(私は)医者[に|から](お)酒を飲まないように言われました。"
+      ],
+      "examples": [
+        {
+          "answer": "いしゃにおさけをのむなといわれました",
+          "score": 100
+        },
+        {
+          "answer": "医者でお酒を飲むなと言われました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "医者にお酒を飲まないなと言われました。",
+          "score": 0
+        },
+        {
+          "answer": "医者にお酒を飲めと言われました。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "この町は夜も安全です。": "この{町|まち}は{夜|よる}も{安|あん}{全|ぜん}です。",
+    "安全な場所に逃げてください。": "{安|あん}{全|ぜん}な{場|ば}{所|しょ}に{逃|に}げてください。",
+    "この川で泳ぐのは危険です。": "この{川|かわ}で{泳|およ}ぐのは{危|き}{険|けん}です。",
+    "車に注意してください。": "{車|くるま}に{注|ちゅう}{意|い}してください。",
+    "授業で友達と話して、先生に注意されました。": "{授|じゅ}{業|ぎょう}で{友|とも}{達|だち}と{話|はな}して、{先|せん}{生|せい}に{注|ちゅう}{意|い}されました。",
+    "このことは決して忘れません。": "このことは{決|けっ}して{忘|わす}れません。",
+    "夜はアパートで騒がないでください。": "{夜|よる}はアパートで{騒|さわ}がないでください。",
+    "この絵に触らないでください。": "この{絵|え}に{触|さわ}らないでください。",
+    "勉強のじゃまをするな。": "{勉|べん}{強|きょう}のじゃまをするな。",
+    "この箱はじゃまですね。": "この{箱|はこ}はじゃまですね。",
+    "ごみを川に投げないでください。": "ごみを{川|かわ}に{投|な}げないでください。",
+    "ドアに頭を打ちました。": "ドアに{頭|あたま}を{打|う}ちました。",
+    "パソコンで手紙を打ちました。": "パソコンで{手|て}{紙|がみ}を{打|う}ちました。",
+    "私たちのクラスが試合に勝ちました。": "{私|わたし}たちのクラスが{試|し}{合|あい}に{勝|か}ちました。",
+    "昨日の試合は負けました。": "{昨日|きのう}の{試|し}{合|あい}は{負|ま}けました。",
+    "日曜日にテニスの試合があります。": "{日|にち}{曜|よう}{日|び}にテニスの{試|し}{合|あい}があります。",
+    "駅まで競争しよう。": "{駅|えき}まで{競|きょう}{争|そう}しよう。",
+    "この仕事は競争が厳しいです。": "この{仕|し}{事|ごと}は{競|きょう}{争|そう}が{厳|きび}しいです。",
+    "父は力が強いです。": "{父|ちち}は{力|ちから}が{強|つよ}いです。",
+    "日本語の力をつけたいです。": "{日本|にほん}{語|ご}の{力|ちから}をつけたいです。",
+    "火事だ！早く逃げろ！": "{火|か}{事|じ}だ！{早|はや}く{逃|に}げろ！",
+    "泥棒は窓から逃げました。": "{泥|どろ}{棒|ぼう}は{窓|まど}から{逃|に}げました。",
+    "寝る前に、火を消してください。": "{寝|ね}る{前|まえ}に、{火|ひ}を{消|け}してください。",
+    "子供が川に石を投げています。": "{子|こ}{供|ども}が{川|かわ}に{石|いし}を{投|な}げています。",
+    "昨日、弟とけんかしました。": "{昨日|きのう}、{弟|おとうと}とけんかしました。",
+    "店の前に止めないで、駐車場に車を止めてください。": "{店|みせ}の{前|まえ}に{止|と}めないで、{駐|ちゅう}{車|しゃ}{場|じょう}に{車|くるま}を{止|と}めてください。",
+    "早く起きろ！もう8時だよ。": "{早|はや}く{起|お}きろ！もう8{時|じ}だよ。",
+    "止まれ。": "{止|と}まれ。",
+    "走れ！もう少しだ！": "{走|はし}れ！もう{少|すこ}しだ！",
+    "部長に、明日は早く来いと言われました。": "{部|ぶ}{長|ちょう}に、{明日|あした}は{早|はや}く{来|こ}いと{言|い}われました。",
+    "早く起きろ！": "{早|はや}く{起|お}きろ！",
+    "早く起きれ！": "{早|はや}く{起|お}きれ！",
+    "早く来い！": "{早|はや}く{来|こ}い！",
+    "早く来ろ！": "{早|はや}く{来|こ}ろ！",
+    "先生、ちょっと待ってください。": "{先|せん}{生|せい}、ちょっと{待|ま}ってください。",
+    "先生、ちょっと待て。": "{先|せん}{生|せい}、ちょっと{待|ま}て。",
+    "危ないから、触るな！": "{危|あぶ}ないから、{触|さわ}るな！",
+    "教室で騒ぐな。": "{教|きょう}{室|しつ}で{騒|さわ}ぐな。",
+    "石を投げるな！": "{石|いし}を{投|な}げるな！",
+    "医者にお酒を飲むなと言われました。": "{医|い}{者|しゃ}にお{酒|さけ}を{飲|の}むなと{言|い}われました。",
+    "触るな！": "{触|さわ}るな！",
+    "触らないな！": "{触|さわ}らないな！",
+    "触りな！": "{触|さわ}りな！",
+    "すみません、ここでたばこを吸わないでください。": "すみません、ここでたばこを{吸|す}わないでください。",
+    "すみません、ここでたばこを吸うな。": "すみません、ここでたばこを{吸|す}うな。",
+    "書く": "{書|か}く",
+    "書け": "{書|か}け",
+    "起きる": "{起|お}きる",
+    "起きろ": "{起|お}きろ",
+    "する": "する",
+    "しろ": "しろ",
+    "来る": "{来|く}る",
+    "来い": "{来|こ}い",
+    "止まる": "{止|と}まる",
+    "止まれ": "{止|と}まれ",
+    "行け": "{行|い}け",
+    "行こう": "{行|い}こう",
+    "行ける": "{行|い}ける",
+    "食べろ": "{食|た}べろ",
+    "食べよう": "{食|た}べよう",
+    "食べられる": "{食|た}べられる",
+    "逃げろ": "{逃|に}げろ",
+    "逃げるな": "{逃|に}げるな",
+    "逃げた": "{逃|に}げた",
+    "先生、少し待ってください。": "{先|せん}{生|せい}、{少|すこ}し{待|ま}ってください。",
+    "先生、少し待て。": "{先|せん}{生|せい}、{少|すこ}し{待|ま}て。",
+    "先生、少し待つな。": "{先|せん}{生|せい}、{少|すこ}し{待|ま}つな。",
+    "部長に": "{部|ぶ}{長|ちょう}に",
+    "明日は": "{明日|あした}は",
+    "早く来いと": "{早|はや}く{来|こ}いと",
+    "言われました": "{言|い}われました",
+    "部長に明日は早く来いと言われました": "{部|ぶ}{長|ちょう}に{明日|あした}は{早|はや}く{来|こ}いと{言|い}われました",
+    "明日は部長に早く来いと言われました": "{明日|あした}は{部|ぶ}{長|ちょう}に{早|はや}く{来|こ}いと{言|い}われました",
+    "父に「早く寝ろ」と言われました。": "{父|ちち}に「{早|はや}く{寝|ね}ろ」と{言|い}われました。",
+    "寝ろ": "{寝|ね}ろ",
+    "寝るな": "{寝|ね}るな",
+    "寝た": "{寝|ね}た",
+    "ここで騒ぐな！": "ここで{騒|さわ}ぐな！",
+    "騒ぐな": "{騒|さわ}ぐな",
+    "騒げ": "{騒|さわ}げ",
+    "騒いで": "{騒|さわ}いで",
+    "石を投げろ！": "{石|いし}を{投|な}げろ！",
+    "石を投げたい！": "{石|いし}を{投|な}げたい！",
+    "医者に": "{医|い}{者|しゃ}に",
+    "お酒を": "お{酒|さけ}を",
+    "飲むなと": "{飲|の}むなと",
+    "医者にお酒を飲むなと言われました": "{医|い}{者|しゃ}にお{酒|さけ}を{飲|の}むなと{言|い}われました",
+    "お酒を医者に飲むなと言われました": "お{酒|さけ}を{医|い}{者|しゃ}に{飲|の}むなと{言|い}われました",
+    "先生に教室で騒ぐなと言われました。": "{先|せん}{生|せい}に{教|きょう}{室|しつ}で{騒|さわ}ぐなと{言|い}われました。",
+    "すみません、ここではたばこを吸わないでください。": "すみません、ここではたばこを{吸|す}わないでください。",
+    "ここでたばこを吸うな。": "ここでたばこを{吸|す}うな。",
+    "ここでたばこを吸え。": "ここでたばこを{吸|す}え。",
+    "プールの周りを走るな。": "プールの{周|まわ}りを{走|はし}るな。",
+    "勝つ": "{勝|か}つ",
+    "負ける": "{負|ま}ける",
+    "逃げる": "{逃|に}げる",
+    "投げる": "{投|な}げる",
+    "触る": "{触|さわ}る",
+    "安全": "{安|あん}{全|ぜん}",
+    "危険": "{危|き}{険|けん}",
+    "試合": "{試|し}{合|あい}",
+    "駐車場": "{駐|ちゅう}{車|しゃ}{場|じょう}",
+    "力": "{力|ちから}",
+    "に": "に",
+    "を": "を",
+    "で": "で",
+    "このことは決して＿。": "このことは{決|けっ}して＿。",
+    "忘れません": "{忘|わす}れません",
+    "忘れます": "{忘|わす}れます",
+    "忘れました": "{忘|わす}れました",
+    "父に勉強しろと言われました。": "{父|ちち}に{勉|べん}{強|きょう}しろと{言|い}われました。",
+    "私は父に勉強しろと言われました。": "{私|わたし}は{父|ちち}に{勉|べん}{強|きょう}しろと{言|い}われました。",
+    "石を投げるなよ！": "{石|いし}を{投|な}げるなよ！",
+    "私は医者にお酒を飲むなと言われました。": "{私|わたし}は{医|い}{者|しゃ}にお{酒|さけ}を{飲|の}むなと{言|い}われました。",
+    "私は医者にお酒を飲まないように言われました。": "{私|わたし}は{医|い}{者|しゃ}にお{酒|さけ}を{飲|の}まないように{言|い}われました。"
+  }
+}

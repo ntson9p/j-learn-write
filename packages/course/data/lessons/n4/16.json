@@ -1,0 +1,1323 @@
+{
+  "id": "n4-16",
+  "goalsVi": [
+    "Nói lý do một cách lịch sự: 用事があるので、早く帰ります",
+    "Nói kết quả trái với mong đợi: 一生懸命勉強したのに、試験に落ちました",
+    "Nói lý do của cảm xúc, trạng thái: 家族に会えて、うれしいです",
+    "Nói mục đích: 日本で働くために…、忘れないように…、漢字を調べるのに便利です",
+    "Nói về việc học và thi cử: 試験、復習、予習、テキスト、答え"
+  ],
+  "words": [
+    {
+      "no": 748,
+      "word": "おかげ",
+      "meaningsVi": [
+        "nhờ (có)"
+      ],
+      "noteVi": "N のおかげで: nhờ N (kết quả tốt). Câu đáp lễ quen thuộc: おかげさまで (nhờ trời, nhờ anh chị mà …). Kết quả xấu dùng せいで (chưa học).",
+      "examples": [
+        {
+          "ja": "田中さんのおかげで、仕事が早く終わりました。",
+          "vi": "Nhờ anh Tanaka mà công việc xong sớm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 872,
+      "word": "原因",
+      "meaningsVi": [
+        "nguyên nhân"
+      ],
+      "noteVi": "Âm Hán Việt \"nguyên nhân\", nghĩa như tiếng Việt. Thường nói về nguyên nhân của sự việc (tai nạn, bệnh, hỏa hoạn).",
+      "examples": [
+        {
+          "ja": "事故の原因はまだわかりません。",
+          "vi": "Nguyên nhân vụ tai nạn vẫn chưa rõ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1286,
+      "word": "理由",
+      "meaningsVi": [
+        "lý do"
+      ],
+      "noteVi": "Âm Hán Việt \"lý do\", nghĩa như tiếng Việt. Thường nói về lý do của một hành động, quyết định.",
+      "examples": [
+        {
+          "ja": "遅れた理由を説明してください。",
+          "vi": "Hãy giải thích lý do anh đến muộn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1300,
+      "word": "訳",
+      "meaningsVi": [
+        "lý do, nguyên cớ",
+        "ý nghĩa"
+      ],
+      "noteVi": "Thường viết bằng hiragana わけ. そういう訳で: vì lý do như vậy. Cùng chữ với 翻訳 (dịch, âm Hán Việt \"dịch\"), nhưng 訳 (わけ) không có nghĩa là dịch.",
+      "examples": [
+        {
+          "ja": "そういう訳で、明日は休みます。",
+          "vi": "Vì lý do như vậy nên ngày mai tôi nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1055,
+      "word": "ため",
+      "meaningsVi": [
+        "để, vì (mục đích)",
+        "vì, do (nguyên nhân)",
+        "vì lợi ích của"
+      ],
+      "noteVi": "Thường viết bằng hiragana. Xem ngữ pháp 〜ために của bài này: 家族のために (vì gia đình).",
+      "examples": [
+        {
+          "ja": "家族のために、毎日働いています。",
+          "vi": "Tôi làm việc mỗi ngày vì gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1026,
+      "word": "それで",
+      "meaningsVi": [
+        "vì thế, do đó",
+        "rồi sao nữa (hỏi tiếp)"
+      ],
+      "noteVi": "Đứng đầu câu sau, nối nguyên nhân với kết quả. Không dùng trước câu nhờ vả, rủ rê (dùng だから). Trong hội thoại, それで？ là \"Rồi sao nữa?\".",
+      "examples": [
+        {
+          "ja": "昨日は熱がありました。それで、学校を休みました。",
+          "vi": "Hôm qua tôi bị sốt. Vì thế tôi đã nghỉ học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 714,
+      "word": "一生懸命",
+      "meaningsVi": [
+        "hết sức, chăm chỉ hết mình"
+      ],
+      "noteVi": "Âm Hán Việt \"nhất sinh huyền mệnh\" (dốc cả mạng sống). Phó từ: 一生懸命勉強する; tính từ đuôi な: 一生懸命な人.",
+      "examples": [
+        {
+          "ja": "試験のために、一生懸命勉強しました。",
+          "vi": "Tôi đã học hết sức để chuẩn bị cho kỳ thi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 939,
+      "word": "試験",
+      "meaningsVi": [
+        "kỳ thi, bài thi"
+      ],
+      "noteVi": "Âm Hán Việt \"thí nghiệm\" nhưng nghĩa là kỳ thi; \"thí nghiệm\" khoa học tiếng Nhật là 実験. Dự thi: 試験を受ける; thi trượt: 試験に落ちる.",
+      "examples": [
+        {
+          "ja": "来週、日本語の試験があります。",
+          "vi": "Tuần sau có kỳ thi tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 724,
+      "word": "受ける",
+      "meaningsVi": [
+        "dự (thi), tham gia (lớp học)",
+        "nhận, chịu"
+      ],
+      "noteVi": "試験を受ける: dự thi; 授業を受ける: tham gia giờ học.",
+      "examples": [
+        {
+          "ja": "12月に日本語の試験を受けます。",
+          "vi": "Tháng 12 tôi sẽ dự thi tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1195,
+      "word": "復習",
+      "meaningsVi": [
+        "ôn tập (bài đã học)"
+      ],
+      "noteVi": "Âm Hán Việt \"phục tập\". 復習する. Ngược lại: 予習 (chuẩn bị bài trước).",
+      "examples": [
+        {
+          "ja": "家に帰ってから、今日の授業を復習します。",
+          "vi": "Về nhà rồi tôi ôn lại bài hôm nay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1280,
+      "word": "予習",
+      "meaningsVi": [
+        "chuẩn bị bài trước (khi lên lớp)"
+      ],
+      "noteVi": "Âm Hán Việt \"dự tập\". 予習する.",
+      "examples": [
+        {
+          "ja": "明日の授業の予習をしましたか。",
+          "vi": "Bạn đã chuẩn bị bài cho buổi học ngày mai chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1084,
+      "word": "テキスト",
+      "meaningsVi": [
+        "giáo trình, sách giáo khoa"
+      ],
+      "noteVi": "Từ tiếng Anh text. Sách dùng trong lớp học; gần nghĩa 教科書.",
+      "examples": [
+        {
+          "ja": "テキストの20ページを開いてください。",
+          "vi": "Hãy mở giáo trình trang 20."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1261,
+      "word": "役に立つ",
+      "meaningsVi": [
+        "có ích, giúp ích"
+      ],
+      "noteVi": "Có ích cho ai, việc gì: 〜の役に立つ / 〜に役に立つ. Chia như 立つ: 役に立ちます, 役に立った.",
+      "examples": [
+        {
+          "ja": "この辞書はとても役に立ちます。",
+          "vi": "Cuốn từ điển này rất có ích."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1278,
+      "word": "用事",
+      "meaningsVi": [
+        "việc bận, việc riêng (cần làm)"
+      ],
+      "noteVi": "Âm Hán Việt \"dụng sự\". 用事がある: có việc bận; hay dùng để từ chối lời mời một cách nhẹ nhàng.",
+      "examples": [
+        {
+          "ja": "すみません、今日は用事があるので、早く帰ります。",
+          "vi": "Xin lỗi, hôm nay tôi có việc nên về sớm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1260,
+      "word": "約束",
+      "meaningsVi": [
+        "lời hứa",
+        "cuộc hẹn"
+      ],
+      "noteVi": "Âm Hán Việt \"ước thúc\". Hứa: 約束する. Có hẹn với ai: 〜と約束がある.",
+      "examples": [
+        {
+          "ja": "6時に駅で友達と会う約束があります。",
+          "vi": "Tôi có hẹn gặp bạn ở nhà ga lúc 6 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 755,
+      "word": "遅れる",
+      "meaningsVi": [
+        "muộn, trễ (so với giờ đã định)"
+      ],
+      "noteVi": "Trễ giờ học, giờ hẹn: 〜に遅れる (授業に遅れる). Khác 遅い (chậm, muộn: tính từ).",
+      "examples": [
+        {
+          "ja": "電車が遅れて、授業に遅れました。",
+          "vi": "Tàu điện bị trễ nên tôi đến lớp muộn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1005,
+      "word": "生活",
+      "meaningsVi": [
+        "cuộc sống, sinh hoạt"
+      ],
+      "noteVi": "Âm Hán Việt \"sinh hoạt\" nhưng nghĩa rộng hơn: cuộc sống hằng ngày. 日本の生活: cuộc sống ở Nhật.",
+      "examples": [
+        {
+          "ja": "日本の生活にもう慣れました。",
+          "vi": "Tôi đã quen với cuộc sống ở Nhật rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 886,
+      "word": "交通",
+      "meaningsVi": [
+        "giao thông"
+      ],
+      "noteVi": "Âm Hán Việt \"giao thông\". 交通が便利: đi lại thuận tiện. Tai nạn giao thông: 交通事故.",
+      "examples": [
+        {
+          "ja": "この町は交通が便利です。",
+          "vi": "Thị trấn này đi lại thuận tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1184,
+      "word": "必要",
+      "meaningsVi": [
+        "cần, cần thiết"
+      ],
+      "noteVi": "Tính từ đuôi な: 必要なもの (thứ cần thiết). 〜が必要です: cần …. Âm Hán Việt \"tất yếu\".",
+      "examples": [
+        {
+          "ja": "この仕事には日本語が必要です。",
+          "vi": "Công việc này cần tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1264,
+      "word": "痩せる",
+      "meaningsVi": [
+        "gầy đi, giảm cân"
+      ],
+      "noteVi": "Gầy đi: 痩せる; đang gầy (trạng thái): 痩せている. Ngược nghĩa: 太る (béo lên).",
+      "examples": [
+        {
+          "ja": "痩せるために、毎朝走っています。",
+          "vi": "Tôi chạy mỗi sáng để giảm cân."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 895,
+      "word": "答え",
+      "meaningsVi": [
+        "câu trả lời, đáp án"
+      ],
+      "noteVi": "Danh từ của 答える (trả lời).",
+      "examples": [
+        {
+          "ja": "答えを紙に書いてください。",
+          "vi": "Hãy viết câu trả lời vào giấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1046,
+      "word": "正しい",
+      "meaningsVi": [
+        "đúng, chính xác"
+      ],
+      "noteVi": "Âm Hán Việt \"chính\". Ngược nghĩa: 間違っている (sai).",
+      "examples": [
+        {
+          "ja": "正しい答えを選んでください。",
+          "vi": "Hãy chọn câu trả lời đúng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "理",
+      "meaningVi": "lý, lẽ",
+      "noteVi": "Gặp trong 理由 (りゆう), 料理 (りょうり). Bộ 王 (ngọc) + 里.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "試",
+      "meaningVi": "thử, thi",
+      "noteVi": "Gặp trong 試験 (しけん). Bộ 言 (lời nói).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "験",
+      "meaningVi": "nghiệm, kiểm chứng",
+      "noteVi": "Gặp trong 試験. Bộ 馬 (ngựa) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "正",
+      "meaningVi": "đúng, chính",
+      "noteVi": "Gặp trong 正しい (ただしい), お正月 (おしょうがつ, Tết).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "答",
+      "meaningVi": "đáp, trả lời",
+      "noteVi": "Gặp trong 答える (こたえる), 答え. Trên là bộ 竹 (tre), dưới là 合.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "勉",
+      "meaningVi": "gắng sức",
+      "noteVi": "Gặp trong 勉強 (べんきょう). Bên phải là 力 (sức).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "強",
+      "meaningVi": "mạnh",
+      "noteVi": "Gặp trong 強い (つよい), 勉強. Bộ 弓 (cung) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "node",
+      "titleVi": "〜ので: vì, do (lý do, nhẹ nhàng)",
+      "summaryVi": "Nêu lý do một cách khách quan, lịch sự: 用事があるので、早く帰ります (Vì có việc nên tôi về sớm).",
+      "explanationVi": [
+        "**〜ので** nghĩa là \"vì … nên …\", giống から (bài N5) nhưng **nhẹ nhàng, lịch sự hơn**: ので nói lý do như một sự việc khách quan, nên hợp khi xin phép, xin lỗi, giải thích với người trên: 「頭が痛いので、早く帰ってもいいですか」.",
+        "Cách ghép: động từ, tính từ đuôi い ở thể thông thường + ので (行くので, 行かないので, 高いので). **Tính từ đuôi な và danh từ thêm な**: 静かなので, 雨なので (không nói 雨だので). Khi rất lịch sự có thể dùng thể ます trước ので: 行きますので.",
+        "から nghe chủ quan, mạnh hơn, hợp với ý kiến riêng và câu thân mật; ので mềm hơn. Khi nói chuyện thân mật, ので thường thành んで."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + ので",
+        "N / Aな + な + ので"
+      ],
+      "examples": [
+        {
+          "ja": "頭が痛いので、早く帰ってもいいですか。",
+          "vi": "Vì tôi đau đầu nên cho tôi về sớm được không ạ?"
+        },
+        {
+          "ja": "雨なので、今日は出かけません。",
+          "vi": "Vì trời mưa nên hôm nay tôi không ra ngoài."
+        },
+        {
+          "ja": "道が込んでいたので、遅れました。",
+          "vi": "Vì đường đông nên tôi đến muộn."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "雨だので、出かけません。",
+          "right": "雨なので、出かけません。",
+          "noteVi": "Danh từ và tính từ đuôi な dùng な trước ので, không dùng だ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "noni-although",
+      "titleVi": "〜のに: vậy mà, thế mà (trái với mong đợi)",
+      "summaryVi": "Kết quả trái với điều mong đợi, kèm cảm giác bất ngờ, tiếc, bực: 一生懸命勉強したのに、試験に落ちました.",
+      "explanationVi": [
+        "**〜のに** nối hai vế trái ngược nhau, giống \"vậy mà\", \"thế mà\", \"đã … mà vẫn …\". Khác けど, が, のに mang **cảm xúc** của người nói: ngạc nhiên, tiếc nuối, bực bội: 「一生懸命勉強したのに、試験に落ちました」 (Đã học hết sức vậy mà vẫn trượt).",
+        "Cách ghép giống ので: động từ, tính từ đuôi い ở thể thông thường + のに (来たのに, 高いのに); **tính từ đuôi な và danh từ thêm な**: 静かなのに, 日曜日なのに.",
+        "Vế sau のに là sự thật đã xảy ra hoặc đang xảy ra, **không dùng** ý định, nhờ vả, rủ rê của người nói: không nói 高いのに、買いましょう; khi đó dùng けど, が: 「高いけど、買いましょう」. Đặt ở cuối câu, のに là lời tiếc nuối: 「来ればよかったのに」 (Giá mà đến thì tốt)."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + のに",
+        "N / Aな + な + のに"
+      ],
+      "examples": [
+        {
+          "ja": "一生懸命勉強したのに、試験に落ちました。",
+          "vi": "Đã học hết sức vậy mà vẫn thi trượt."
+        },
+        {
+          "ja": "日曜日なのに、会社へ行きました。",
+          "vi": "Chủ nhật vậy mà tôi vẫn phải đi làm."
+        },
+        {
+          "ja": "約束したのに、田中さんは来ませんでした。",
+          "vi": "Đã hẹn rồi vậy mà anh Tanaka không đến."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日曜日だのに、会社へ行きました。",
+          "right": "日曜日なのに、会社へ行きました。",
+          "noteVi": "Danh từ và tính từ đuôi な dùng な trước のに."
+        },
+        {
+          "wrong": "高いのに、買いましょう。",
+          "right": "高いけど、買いましょう。",
+          "noteVi": "Sau のに không dùng lời rủ rê, nhờ vả, ý định; dùng けど hoặc が."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "noni-purpose",
+      "titleVi": "〜のに: để (dùng vào việc …)",
+      "summaryVi": "V (thể từ điển) + のに + 使う / 便利だ / 必要だ / かかる: この辞書は漢字を調べるのに便利です.",
+      "explanationVi": [
+        "**V (thể từ điển) + のに** nghĩa là \"để (làm việc gì)\", nhưng chỉ đi với một số từ nói về **công dụng, sự cần thiết, chi phí**: 使う (dùng để), 便利だ (tiện để), 役に立つ (có ích để), 必要だ (cần để), いい (tốt để), (時間・お金が) かかる (tốn để).",
+        "Ví dụ: 「この辞書は漢字を調べるのに便利です」 (Từ điển này tiện để tra kanji), 「駅まで行くのに30分かかります」 (Đi đến ga mất 30 phút). Với danh từ, dùng **N + に**: 「このかばんは旅行に便利です」.",
+        "Đừng nhầm với のに (vậy mà): のに (mục đích) đứng sau động từ thể từ điển và vế sau nói về công dụng, thời gian, tiền bạc."
+      ],
+      "patterns": [
+        "V (thể từ điển) + のに + 使う / 便利だ / 役に立つ / 必要だ / かかる",
+        "N + に + 便利だ / 必要だ"
+      ],
+      "examples": [
+        {
+          "ja": "この辞書は漢字を調べるのに便利です。",
+          "vi": "Cuốn từ điển này tiện để tra kanji."
+        },
+        {
+          "ja": "駅まで行くのに30分かかります。",
+          "vi": "Đi đến ga mất 30 phút."
+        },
+        {
+          "ja": "旅行に行くのに、お金が必要です。",
+          "vi": "Để đi du lịch thì cần tiền."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この辞書は漢字を調べるに便利です。",
+          "right": "この辞書は漢字を調べるのに便利です。",
+          "noteVi": "Sau động từ phải có の rồi mới đến に: 調べるのに. Chỉ danh từ mới đi thẳng với に (旅行に便利)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-reason",
+      "titleVi": "〜て (lý do): vì … nên (cảm xúc, trạng thái)",
+      "summaryVi": "Thể て nêu nguyên nhân của cảm xúc, trạng thái: 家族に会えて、うれしいです (Gặp được gia đình nên tôi vui).",
+      "explanationVi": [
+        "Thể て ngoài nghĩa nối các hành động còn nêu **nguyên nhân**: vế trước là lý do, vế sau là **cảm xúc** (うれしい, 寂しい, 困った, 安心した), **trạng thái** hoặc **việc không làm được**: 「家族に会えて、うれしいです」, 「問題が難しくて、わかりませんでした」.",
+        "Cách ghép: động từ thể て (会えて, 遅れて); thể ない → **なくて** (会えなくて); tính từ đuôi い → **くて** (難しくて); tính từ đuôi な, danh từ → **で** (心配で, 事故で).",
+        "Vế sau không dùng ý định, nhờ vả, rủ rê của người nói: không nói 暑くて、窓を開けてください; khi đó dùng ので hoặc から: 「暑いので、窓を開けてください」."
+      ],
+      "patterns": [
+        "V-て / V-なくて, 〜 (cảm xúc, trạng thái)",
+        "Aい → くて; Aな / N → で"
+      ],
+      "examples": [
+        {
+          "ja": "家族に会えて、うれしいです。",
+          "vi": "Gặp được gia đình nên tôi rất vui."
+        },
+        {
+          "ja": "問題が難しくて、わかりませんでした。",
+          "vi": "Câu hỏi khó quá nên tôi không hiểu."
+        },
+        {
+          "ja": "事故で電車が遅れました。",
+          "vi": "Tàu điện bị trễ vì tai nạn."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "暑くて、窓を開けてください。",
+          "right": "暑いので、窓を開けてください。",
+          "noteVi": "Thể て (lý do) không dùng trước lời nhờ vả, rủ rê; dùng ので hoặc から."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "tame-ni",
+      "titleVi": "〜ために: để (mục đích); vì (lợi ích, nguyên nhân)",
+      "summaryVi": "V (thể từ điển) / N の + ために: 日本で働くために、日本語を勉強しています; 家族のために働きます.",
+      "explanationVi": [
+        "**V (thể từ điển) + ために** nói **mục đích** \"để …\": 「日本で働くために、日本語を勉強しています」. Hai vế cùng một chủ ngữ, và động từ trước ために là **hành động có chủ ý** (働く, 買う, 行く…).",
+        "**N + の + ために**: \"vì N, cho N\" (lợi ích): 「家族のために働きます」 (Làm việc vì gia đình), 「試験のために勉強します」.",
+        "ために còn chỉ **nguyên nhân** (hay gặp trong văn viết, thông báo): 「事故のために、電車が遅れました」 (Do tai nạn, tàu bị trễ). Với động từ không có chủ ý (なる, できる, わかる, thể khả năng) hoặc thể ない, mục đích thường dùng 〜ように (xem điểm ngữ pháp sau)."
+      ],
+      "patterns": [
+        "V (thể từ điển) + ために",
+        "N + の + ために"
+      ],
+      "examples": [
+        {
+          "ja": "日本で働くために、日本語を勉強しています。",
+          "vi": "Tôi đang học tiếng Nhật để làm việc ở Nhật."
+        },
+        {
+          "ja": "家族のために、毎日働いています。",
+          "vi": "Tôi làm việc mỗi ngày vì gia đình."
+        },
+        {
+          "ja": "事故のために、電車が遅れました。",
+          "vi": "Do tai nạn, tàu điện bị trễ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "家族ために働きます。",
+          "right": "家族のために働きます。",
+          "noteVi": "Danh từ cần の trước ために."
+        },
+        {
+          "wrong": "日本語が話せるために、毎日練習しています。",
+          "right": "日本語が話せるように、毎日練習しています。",
+          "noteVi": "Trước ために dùng động từ có chủ ý; thể khả năng (話せる) đi với ように."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "you-ni",
+      "titleVi": "〜ように (mục đích): để (có thể), để không",
+      "summaryVi": "V (thể từ điển, thể khả năng, thể ない) + ように: 忘れないように、ノートに書きます (Ghi vào vở để không quên).",
+      "explanationVi": [
+        "**〜ように** nói mục đích \"để (cho) …\", khi vế trước là **trạng thái mong muốn** mà người nói không trực tiếp quyết định được: động từ **thể khả năng** (話せる, 読める), động từ **không chủ ý** (見える, 聞こえる, わかる, なる) và **thể ない** (忘れない, 遅れない).",
+        "Ví dụ: 「忘れないように、ノートに書きます」 (Ghi vào vở để không quên), 「よく聞こえるように、前に座ります」 (Ngồi phía trước để nghe rõ), 「日本語が話せるように、毎日練習しています」.",
+        "So với ために: 「日本で**働く**ために」 (hành động có chủ ý) nhưng 「日本語が**話せる**ように」 (khả năng). Khi chủ ngữ hai vế khác nhau cũng dùng ように: 「子供が読めるように、字を大きく書きます」."
+      ],
+      "patterns": [
+        "V (thể khả năng / không chủ ý) + ように",
+        "V-ない + ように"
+      ],
+      "examples": [
+        {
+          "ja": "忘れないように、ノートに書きます。",
+          "vi": "Tôi ghi vào vở để không quên."
+        },
+        {
+          "ja": "よく聞こえるように、前に座ります。",
+          "vi": "Tôi ngồi phía trước để nghe cho rõ."
+        },
+        {
+          "ja": "日本語が話せるように、毎日練習しています。",
+          "vi": "Tôi luyện tập mỗi ngày để có thể nói được tiếng Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "忘れないのように、ノートに書きます。",
+          "right": "忘れないように、ノートに書きます。",
+          "noteVi": "Động từ ghép thẳng với ように, không có の."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-16-e01",
+      "type": "fill",
+      "grammar": [
+        "node"
+      ],
+      "before": "雨",
+      "after": "ので、出かけません。",
+      "answers": [
+        "な"
+      ],
+      "options": [
+        "な",
+        "だ",
+        "の"
+      ],
+      "vi": "Vì trời mưa nên tôi không ra ngoài.",
+      "explainVi": "Danh từ + な + ので."
+    },
+    {
+      "id": "n4-16-e02",
+      "type": "choice",
+      "grammar": [
+        "node"
+      ],
+      "promptVi": "Xin phép lịch sự: \"Vì tôi có việc bận, tôi về sớm có được không ạ?\" Chọn câu đúng.",
+      "options": [
+        "用事があるので、早く帰ってもいいですか。",
+        "用事があるのに、早く帰ってもいいですか。",
+        "用事があって、早く帰ってもいいですか。"
+      ],
+      "answer": 0,
+      "explainVi": "Xin phép lịch sự: ので. のに là \"vậy mà\"; て (lý do) không dùng trước lời xin phép."
+    },
+    {
+      "id": "n4-16-e03",
+      "type": "order",
+      "grammar": [
+        "node"
+      ],
+      "vi": "Vì đường đông nên tôi đến muộn.",
+      "tiles": [
+        "道が",
+        "込んでいた",
+        "ので",
+        "遅れました"
+      ],
+      "answers": [
+        "道が込んでいたので遅れました"
+      ]
+    },
+    {
+      "id": "n4-16-e04",
+      "type": "choice",
+      "grammar": [
+        "noni-although"
+      ],
+      "promptVi": "\"Đã học hết sức vậy mà vẫn thi trượt.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "一生懸命勉強した＿、試験に落ちました。",
+      "options": [
+        "のに",
+        "ので",
+        "ために"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-16-e05",
+      "type": "fill",
+      "grammar": [
+        "noni-although"
+      ],
+      "before": "日曜日",
+      "after": "のに、会社へ行きました。",
+      "answers": [
+        "な"
+      ],
+      "options": [
+        "な",
+        "だ",
+        "の"
+      ],
+      "vi": "Chủ nhật vậy mà tôi vẫn phải đi làm.",
+      "explainVi": "Danh từ + な + のに."
+    },
+    {
+      "id": "n4-16-e06",
+      "type": "choice",
+      "grammar": [
+        "noni-although",
+        "te-reason"
+      ],
+      "promptVi": "\"Đắt nhưng mình mua đi.\" Chọn câu đúng.",
+      "options": [
+        "高いけど、買いましょう。",
+        "高いのに、買いましょう。",
+        "高くて、買いましょう。"
+      ],
+      "answer": 0,
+      "explainVi": "Sau のに và sau て (lý do) không dùng lời rủ rê; dùng けど."
+    },
+    {
+      "id": "n4-16-e07",
+      "type": "fill",
+      "grammar": [
+        "noni-purpose"
+      ],
+      "before": "この辞書は漢字を調べる",
+      "after": "便利です。",
+      "answers": [
+        "のに"
+      ],
+      "options": [
+        "のに",
+        "ので",
+        "ように"
+      ],
+      "vi": "Cuốn từ điển này tiện để tra kanji."
+    },
+    {
+      "id": "n4-16-e08",
+      "type": "choice",
+      "grammar": [
+        "noni-purpose"
+      ],
+      "promptVi": "\"Đi đến ga mất 30 phút.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "駅まで行く＿30分かかります。",
+      "options": [
+        "のに",
+        "ので",
+        "ように"
+      ],
+      "answer": 0,
+      "explainVi": "Thời gian, tiền bạc tốn để làm việc gì: V + のに + かかる."
+    },
+    {
+      "id": "n4-16-e09",
+      "type": "order",
+      "grammar": [
+        "noni-purpose"
+      ],
+      "vi": "Để đi du lịch thì cần tiền.",
+      "tiles": [
+        "旅行に",
+        "行くのに",
+        "お金が",
+        "必要です"
+      ],
+      "answers": [
+        "旅行に行くのにお金が必要です"
+      ]
+    },
+    {
+      "id": "n4-16-e10",
+      "type": "choice",
+      "grammar": [
+        "te-reason"
+      ],
+      "promptVi": "\"Tôi thi trượt nên rất buồn.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "試験に＿、悲しかったです。",
+      "options": [
+        "落ちて",
+        "落ちたら",
+        "落ちるのに"
+      ],
+      "answer": 0,
+      "explainVi": "Lý do của cảm xúc: thể て."
+    },
+    {
+      "id": "n4-16-e11",
+      "type": "choice",
+      "grammar": [
+        "te-reason"
+      ],
+      "promptVi": "\"Vì bị sốt nên tôi nghỉ học.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "熱が＿、学校を休みました。",
+      "options": [
+        "あって",
+        "あるのに",
+        "あっても"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-16-e12",
+      "type": "choice",
+      "grammar": [
+        "te-reason",
+        "node"
+      ],
+      "promptVi": "\"Trời nóng, anh mở cửa sổ giúp tôi.\" Chọn câu đúng.",
+      "options": [
+        "暑いので、窓を開けてください。",
+        "暑くて、窓を開けてください。",
+        "暑いのに、窓を開けてください。"
+      ],
+      "answer": 0,
+      "explainVi": "Trước lời nhờ vả không dùng て (lý do) hay のに; dùng ので hoặc から."
+    },
+    {
+      "id": "n4-16-e13",
+      "type": "fill",
+      "grammar": [
+        "tame-ni"
+      ],
+      "before": "家族",
+      "after": "ために、毎日働いています。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "な",
+        "に"
+      ],
+      "vi": "Tôi làm việc mỗi ngày vì gia đình.",
+      "explainVi": "Danh từ + の + ために."
+    },
+    {
+      "id": "n4-16-e14",
+      "type": "choice",
+      "grammar": [
+        "tame-ni"
+      ],
+      "promptVi": "\"Để làm việc ở công ty Nhật, tôi đang học tiếng Nhật.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "日本の会社で働く＿、日本語を勉強しています。",
+      "options": [
+        "ために",
+        "ように",
+        "のに"
+      ],
+      "answer": 0,
+      "explainVi": "Mục đích là hành động có chủ ý (働く): ために."
+    },
+    {
+      "id": "n4-16-e15",
+      "type": "order",
+      "grammar": [
+        "tame-ni"
+      ],
+      "vi": "Tôi chạy mỗi sáng để giảm cân.",
+      "tiles": [
+        "痩せる",
+        "ために",
+        "毎朝",
+        "走っています"
+      ],
+      "answers": [
+        "痩せるために毎朝走っています",
+        "毎朝痩せるために走っています"
+      ]
+    },
+    {
+      "id": "n4-16-e16",
+      "type": "choice",
+      "grammar": [
+        "you-ni"
+      ],
+      "promptVi": "\"Tôi luyện tập mỗi ngày để có thể nói được tiếng Nhật.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "日本語が話せる＿、毎日練習しています。",
+      "options": [
+        "ように",
+        "ために",
+        "のに"
+      ],
+      "answer": 0,
+      "explainVi": "Thể khả năng (話せる) + ように."
+    },
+    {
+      "id": "n4-16-e17",
+      "type": "fill",
+      "grammar": [
+        "you-ni"
+      ],
+      "before": "風邪をひかない",
+      "after": "、気をつけてください。",
+      "answers": [
+        "ように"
+      ],
+      "options": [
+        "ように",
+        "のに",
+        "ので"
+      ],
+      "vi": "Hãy cẩn thận để không bị cảm."
+    },
+    {
+      "id": "n4-16-e18",
+      "type": "order",
+      "grammar": [
+        "you-ni"
+      ],
+      "vi": "Tôi ngồi phía trước để nghe cho rõ.",
+      "tiles": [
+        "よく",
+        "聞こえるように",
+        "前に",
+        "座ります"
+      ],
+      "answers": [
+        "よく聞こえるように前に座ります"
+      ]
+    },
+    {
+      "id": "n4-16-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "試験",
+          "kỳ thi"
+        ],
+        [
+          "復習",
+          "ôn tập"
+        ],
+        [
+          "予習",
+          "chuẩn bị bài trước"
+        ],
+        [
+          "テキスト",
+          "giáo trình"
+        ],
+        [
+          "答え",
+          "câu trả lời"
+        ]
+      ]
+    },
+    {
+      "id": "n4-16-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "原因",
+          "nguyên nhân"
+        ],
+        [
+          "理由",
+          "lý do"
+        ],
+        [
+          "約束",
+          "lời hứa, cuộc hẹn"
+        ],
+        [
+          "用事",
+          "việc bận"
+        ],
+        [
+          "交通",
+          "giao thông"
+        ]
+      ]
+    },
+    {
+      "id": "n4-16-e21",
+      "type": "choice",
+      "promptVi": "\"Cuốn từ điển này rất có ích.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "この辞書はとても＿。",
+      "options": [
+        "役に立ちます",
+        "遅れます",
+        "痩せます"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-16-e22",
+      "type": "translate",
+      "grammar": [
+        "node"
+      ],
+      "vi": "Vì hôm nay có việc bận nên tôi về sớm. (dùng ので)",
+      "answers": [
+        "(私は)今日は用事があるので、早く帰ります。",
+        "(私は)今日(は)用事があ[る|ります]ので、早く帰ります。"
+      ],
+      "examples": [
+        {
+          "answer": "きょうはようじがあるので、はやくかえります",
+          "score": 100
+        },
+        {
+          "answer": "今日は用事をあるので、早く帰ります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "今日は用事がないので、早く帰ります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-16-e23",
+      "type": "translate",
+      "grammar": [
+        "noni-although"
+      ],
+      "vi": "Đã học hết sức vậy mà tôi vẫn thi trượt.",
+      "answers": [
+        "(私は)一生懸命勉強したのに、試験に落ちました。",
+        "(私は)一生懸命勉強したのに、試験に落ちてしまいました。"
+      ],
+      "examples": [
+        {
+          "answer": "いっしょうけんめいべんきょうしたのに、しけんにおちました",
+          "score": 100
+        },
+        {
+          "answer": "一生懸命勉強したのに、試験を落ちました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "一生懸命勉強したのに、試験に落ちませんでした。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-16-e24",
+      "type": "translate",
+      "grammar": [
+        "te-reason"
+      ],
+      "vi": "Gặp được gia đình nên tôi rất vui. (dùng thể て)",
+      "answers": [
+        "(私は)家族に会えて、とてもうれしいです。",
+        "(私は)家族に会えて、(とても)うれしいです。",
+        "(私は)家族に会って、(とても)うれしいです。"
+      ],
+      "examples": [
+        {
+          "answer": "かぞくにあえて、とてもうれしいです",
+          "score": 100
+        },
+        {
+          "answer": "家族を会えて、とてもうれしいです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "家族に会えなくて、とても寂しいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-16-e25",
+      "type": "translate",
+      "grammar": [
+        "tame-ni"
+      ],
+      "vi": "Tôi đang học tiếng Nhật để làm việc ở Nhật. (dùng ために)",
+      "answers": [
+        "(私は)日本で働くために、日本語を勉強しています。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんではたらくために、にほんごをべんきょうしています",
+          "score": 100
+        },
+        {
+          "answer": "日本で働くのために、日本語を勉強しています。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "日本で働くために、英語を勉強しています。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-16-e26",
+      "type": "translate",
+      "grammar": [
+        "you-ni"
+      ],
+      "vi": "Hãy cẩn thận để không bị cảm. (dùng ように)",
+      "answers": [
+        "風邪をひかないように、気をつけてください。"
+      ],
+      "examples": [
+        {
+          "answer": "かぜをひかないように、きをつけてください",
+          "score": 100
+        },
+        {
+          "answer": "風邪をひかないのように、気をつけてください。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "風邪をひくように、気をつけてください。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "田中さんのおかげで、仕事が早く終わりました。": "{田中|たなか}さんのおかげで、{仕|し}{事|ごと}が{早|はや}く{終|お}わりました。",
+    "事故の原因はまだわかりません。": "{事|じ}{故|こ}の{原|げん}{因|いん}はまだわかりません。",
+    "遅れた理由を説明してください。": "{遅|おく}れた{理|り}{由|ゆう}を{説|せつ}{明|めい}してください。",
+    "そういう訳で、明日は休みます。": "そういう{訳|わけ}で、{明日|あした}は{休|やす}みます。",
+    "家族のために、毎日働いています。": "{家|か}{族|ぞく}のために、{毎|まい}{日|にち}{働|はたら}いています。",
+    "昨日は熱がありました。それで、学校を休みました。": "{昨日|きのう}は{熱|ねつ}がありました。それで、{学|がっ}{校|こう}を{休|やす}みました。",
+    "試験のために、一生懸命勉強しました。": "{試|し}{験|けん}のために、{一|いっ}{生|しょう}{懸|けん}{命|めい}{勉|べん}{強|きょう}しました。",
+    "来週、日本語の試験があります。": "{来|らい}{週|しゅう}、{日本|にほん}{語|ご}の{試|し}{験|けん}があります。",
+    "12月に日本語の試験を受けます。": "12{月|がつ}に{日本|にほん}{語|ご}の{試|し}{験|けん}を{受|う}けます。",
+    "家に帰ってから、今日の授業を復習します。": "{家|いえ}に{帰|かえ}ってから、{今日|きょう}の{授|じゅ}{業|ぎょう}を{復|ふく}{習|しゅう}します。",
+    "明日の授業の予習をしましたか。": "{明日|あした}の{授|じゅ}{業|ぎょう}の{予|よ}{習|しゅう}をしましたか。",
+    "テキストの20ページを開いてください。": "テキストの20ページを{開|ひら}いてください。",
+    "この辞書はとても役に立ちます。": "この{辞|じ}{書|しょ}はとても{役|やく}に{立|た}ちます。",
+    "すみません、今日は用事があるので、早く帰ります。": "すみません、{今日|きょう}は{用|よう}{事|じ}があるので、{早|はや}く{帰|かえ}ります。",
+    "6時に駅で友達と会う約束があります。": "6{時|じ}に{駅|えき}で{友|とも}{達|だち}と{会|あ}う{約|やく}{束|そく}があります。",
+    "電車が遅れて、授業に遅れました。": "{電|でん}{車|しゃ}が{遅|おく}れて、{授|じゅ}{業|ぎょう}に{遅|おく}れました。",
+    "日本の生活にもう慣れました。": "{日本|にほん}の{生|せい}{活|かつ}にもう{慣|な}れました。",
+    "この町は交通が便利です。": "この{町|まち}は{交|こう}{通|つう}が{便|べん}{利|り}です。",
+    "この仕事には日本語が必要です。": "この{仕|し}{事|ごと}には{日本|にほん}{語|ご}が{必|ひつ}{要|よう}です。",
+    "痩せるために、毎朝走っています。": "{痩|や}せるために、{毎|まい}{朝|あさ}{走|はし}っています。",
+    "答えを紙に書いてください。": "{答|こた}えを{紙|かみ}に{書|か}いてください。",
+    "正しい答えを選んでください。": "{正|ただ}しい{答|こた}えを{選|えら}んでください。",
+    "頭が痛いので、早く帰ってもいいですか。": "{頭|あたま}が{痛|いた}いので、{早|はや}く{帰|かえ}ってもいいですか。",
+    "雨なので、今日は出かけません。": "{雨|あめ}なので、{今日|きょう}は{出|で}かけません。",
+    "道が込んでいたので、遅れました。": "{道|みち}が{込|こ}んでいたので、{遅|おく}れました。",
+    "雨なので、出かけません。": "{雨|あめ}なので、{出|で}かけません。",
+    "雨だので、出かけません。": "{雨|あめ}だので、{出|で}かけません。",
+    "一生懸命勉強したのに、試験に落ちました。": "{一|いっ}{生|しょう}{懸|けん}{命|めい}{勉|べん}{強|きょう}したのに、{試|し}{験|けん}に{落|お}ちました。",
+    "日曜日なのに、会社へ行きました。": "{日|にち}{曜|よう}{日|び}なのに、{会|かい}{社|しゃ}へ{行|い}きました。",
+    "約束したのに、田中さんは来ませんでした。": "{約|やく}{束|そく}したのに、{田中|たなか}さんは{来|き}ませんでした。",
+    "日曜日だのに、会社へ行きました。": "{日|にち}{曜|よう}{日|び}だのに、{会|かい}{社|しゃ}へ{行|い}きました。",
+    "高いけど、買いましょう。": "{高|たか}いけど、{買|か}いましょう。",
+    "高いのに、買いましょう。": "{高|たか}いのに、{買|か}いましょう。",
+    "この辞書は漢字を調べるのに便利です。": "この{辞|じ}{書|しょ}は{漢|かん}{字|じ}を{調|しら}べるのに{便|べん}{利|り}です。",
+    "駅まで行くのに30分かかります。": "{駅|えき}まで{行|い}くのに30{分|ぷん}かかります。",
+    "旅行に行くのに、お金が必要です。": "{旅|りょ}{行|こう}に{行|い}くのに、お{金|かね}が{必|ひつ}{要|よう}です。",
+    "この辞書は漢字を調べるに便利です。": "この{辞|じ}{書|しょ}は{漢|かん}{字|じ}を{調|しら}べるに{便|べん}{利|り}です。",
+    "家族に会えて、うれしいです。": "{家|か}{族|ぞく}に{会|あ}えて、うれしいです。",
+    "問題が難しくて、わかりませんでした。": "{問|もん}{題|だい}が{難|むずか}しくて、わかりませんでした。",
+    "事故で電車が遅れました。": "{事|じ}{故|こ}で{電|でん}{車|しゃ}が{遅|おく}れました。",
+    "暑いので、窓を開けてください。": "{暑|あつ}いので、{窓|まど}を{開|あ}けてください。",
+    "暑くて、窓を開けてください。": "{暑|あつ}くて、{窓|まど}を{開|あ}けてください。",
+    "日本で働くために、日本語を勉強しています。": "{日本|にほん}で{働|はたら}くために、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しています。",
+    "事故のために、電車が遅れました。": "{事|じ}{故|こ}のために、{電|でん}{車|しゃ}が{遅|おく}れました。",
+    "家族のために働きます。": "{家|か}{族|ぞく}のために{働|はたら}きます。",
+    "家族ために働きます。": "{家|か}{族|ぞく}ために{働|はたら}きます。",
+    "日本語が話せるように、毎日練習しています。": "{日本|にほん}{語|ご}が{話|はな}せるように、{毎|まい}{日|にち}{練|れん}{習|しゅう}しています。",
+    "日本語が話せるために、毎日練習しています。": "{日本|にほん}{語|ご}が{話|はな}せるために、{毎|まい}{日|にち}{練|れん}{習|しゅう}しています。",
+    "忘れないように、ノートに書きます。": "{忘|わす}れないように、ノートに{書|か}きます。",
+    "よく聞こえるように、前に座ります。": "よく{聞|き}こえるように、{前|まえ}に{座|すわ}ります。",
+    "忘れないのように、ノートに書きます。": "{忘|わす}れないのように、ノートに{書|か}きます。",
+    "な": "な",
+    "だ": "だ",
+    "の": "の",
+    "用事があるので、早く帰ってもいいですか。": "{用|よう}{事|じ}があるので、{早|はや}く{帰|かえ}ってもいいですか。",
+    "用事があるのに、早く帰ってもいいですか。": "{用|よう}{事|じ}があるのに、{早|はや}く{帰|かえ}ってもいいですか。",
+    "用事があって、早く帰ってもいいですか。": "{用|よう}{事|じ}があって、{早|はや}く{帰|かえ}ってもいいですか。",
+    "道が": "{道|みち}が",
+    "込んでいた": "{込|こ}んでいた",
+    "ので": "ので",
+    "遅れました": "{遅|おく}れました",
+    "道が込んでいたので遅れました": "{道|みち}が{込|こ}んでいたので{遅|おく}れました",
+    "一生懸命勉強した＿、試験に落ちました。": "{一|いっ}{生|しょう}{懸|けん}{命|めい}{勉|べん}{強|きょう}した＿、{試|し}{験|けん}に{落|お}ちました。",
+    "のに": "のに",
+    "ために": "ために",
+    "高くて、買いましょう。": "{高|たか}くて、{買|か}いましょう。",
+    "ように": "ように",
+    "駅まで行く＿30分かかります。": "{駅|えき}まで{行|い}く＿30{分|ぷん}かかります。",
+    "旅行に": "{旅|りょ}{行|こう}に",
+    "行くのに": "{行|い}くのに",
+    "お金が": "お{金|かね}が",
+    "必要です": "{必|ひつ}{要|よう}です",
+    "旅行に行くのにお金が必要です": "{旅|りょ}{行|こう}に{行|い}くのにお{金|かね}が{必|ひつ}{要|よう}です",
+    "試験に＿、悲しかったです。": "{試|し}{験|けん}に＿、{悲|かな}しかったです。",
+    "落ちて": "{落|お}ちて",
+    "落ちたら": "{落|お}ちたら",
+    "落ちるのに": "{落|お}ちるのに",
+    "熱が＿、学校を休みました。": "{熱|ねつ}が＿、{学|がっ}{校|こう}を{休|やす}みました。",
+    "あって": "あって",
+    "あるのに": "あるのに",
+    "あっても": "あっても",
+    "暑いのに、窓を開けてください。": "{暑|あつ}いのに、{窓|まど}を{開|あ}けてください。",
+    "に": "に",
+    "日本の会社で働く＿、日本語を勉強しています。": "{日本|にほん}の{会|かい}{社|しゃ}で{働|はたら}く＿、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しています。",
+    "痩せる": "{痩|や}せる",
+    "毎朝": "{毎|まい}{朝|あさ}",
+    "走っています": "{走|はし}っています",
+    "痩せるために毎朝走っています": "{痩|や}せるために{毎|まい}{朝|あさ}{走|はし}っています",
+    "毎朝痩せるために走っています": "{毎|まい}{朝|あさ}{痩|や}せるために{走|はし}っています",
+    "日本語が話せる＿、毎日練習しています。": "{日本|にほん}{語|ご}が{話|はな}せる＿、{毎|まい}{日|にち}{練|れん}{習|しゅう}しています。",
+    "風邪をひかないように、気をつけてください。": "{風邪|かぜ}をひかないように、{気|き}をつけてください。",
+    "よく": "よく",
+    "聞こえるように": "{聞|き}こえるように",
+    "前に": "{前|まえ}に",
+    "座ります": "{座|すわ}ります",
+    "よく聞こえるように前に座ります": "よく{聞|き}こえるように{前|まえ}に{座|すわ}ります",
+    "試験": "{試|し}{験|けん}",
+    "復習": "{復|ふく}{習|しゅう}",
+    "予習": "{予|よ}{習|しゅう}",
+    "テキスト": "テキスト",
+    "答え": "{答|こた}え",
+    "原因": "{原|げん}{因|いん}",
+    "理由": "{理|り}{由|ゆう}",
+    "約束": "{約|やく}{束|そく}",
+    "用事": "{用|よう}{事|じ}",
+    "交通": "{交|こう}{通|つう}",
+    "この辞書はとても＿。": "この{辞|じ}{書|しょ}はとても＿。",
+    "役に立ちます": "{役|やく}に{立|た}ちます",
+    "遅れます": "{遅|おく}れます",
+    "痩せます": "{痩|や}せます",
+    "私は今日は用事があるので、早く帰ります。": "{私|わたし}は{今日|きょう}は{用|よう}{事|じ}があるので、{早|はや}く{帰|かえ}ります。",
+    "私は一生懸命勉強したのに、試験に落ちました。": "{私|わたし}は{一|いっ}{生|しょう}{懸|けん}{命|めい}{勉|べん}{強|きょう}したのに、{試|し}{験|けん}に{落|お}ちました。",
+    "私は一生懸命勉強したのに、試験に落ちてしまいました。": "{私|わたし}は{一|いっ}{生|しょう}{懸|けん}{命|めい}{勉|べん}{強|きょう}したのに、{試|し}{験|けん}に{落|お}ちてしまいました。",
+    "私は家族に会えて、とてもうれしいです。": "{私|わたし}は{家|か}{族|ぞく}に{会|あ}えて、とてもうれしいです。",
+    "私は家族に会って、とてもうれしいです。": "{私|わたし}は{家|か}{族|ぞく}に{会|あ}って、とてもうれしいです。",
+    "私は日本で働くために、日本語を勉強しています。": "{私|わたし}は{日本|にほん}で{働|はたら}くために、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しています。"
+  }
+}

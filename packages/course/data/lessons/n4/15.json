@@ -1,0 +1,1332 @@
+{
+  "id": "n4-15",
+  "goalsVi": [
+    "Nói ý kiến của mình và hỏi ý kiến người khác: 〜と思います、どう思いますか",
+    "Thuật lại lời người khác nói: 田中さんは明日来ると言いました、〜と言っていました",
+    "Kết luận chắc chắn dựa vào căn cứ: 荷物は明日着くはずです",
+    "Phủ định mạnh: うそを言うはずがありません",
+    "Nói về xã hội, chính trị, kinh tế, lịch sử: 政治、経済、社会、歴史、世界"
+  ],
+  "words": [
+    {
+      "no": 706,
+      "word": "意見",
+      "meaningsVi": [
+        "ý kiến"
+      ],
+      "noteVi": "Âm Hán Việt \"ý kiến\", nghĩa như tiếng Việt. Nêu ý kiến: 意見を言う. Đồng ý với ai: 〜と同じ意見です.",
+      "examples": [
+        {
+          "ja": "皆さんの意見を聞きたいです。",
+          "vi": "Tôi muốn nghe ý kiến của mọi người."
+        },
+        {
+          "ja": "私も田中さんと同じ意見です。",
+          "vi": "Tôi cũng cùng ý kiến với anh Tanaka."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 833,
+      "word": "きっと",
+      "meaningsVi": [
+        "chắc chắn, nhất định"
+      ],
+      "noteVi": "Thể hiện niềm tin mạnh của người nói, hay đi với でしょう, と思います: きっと来るでしょう. Khi hứa: きっと行きます (nhất định tôi sẽ đi).",
+      "examples": [
+        {
+          "ja": "明日はきっと晴れるでしょう。",
+          "vi": "Ngày mai nhất định trời sẽ nắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1042,
+      "word": "確か",
+      "meaningsVi": [
+        "chắc chắn, đáng tin (tính từ đuôi な)",
+        "nếu tôi nhớ không nhầm thì (phó từ)"
+      ],
+      "noteVi": "Tính từ: 確かな話 (chuyện chắc chắn), それは確かですか (Có chắc không?). Phó từ 確か đứng đầu câu: nhớ không chắc lắm, \"hình như là\".",
+      "examples": [
+        {
+          "ja": "それは確かですか。",
+          "vi": "Chuyện đó có chắc không?"
+        },
+        {
+          "ja": "田中さんの誕生日は、確か来週だと思います。",
+          "vi": "Nếu tôi nhớ không nhầm thì sinh nhật anh Tanaka là tuần sau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1158,
+      "word": "はず",
+      "meaningsVi": [
+        "chắc chắn là, lẽ ra (theo căn cứ)"
+      ],
+      "noteVi": "Danh từ hình thức, thường viết bằng hiragana (kanji: 筈). Xem ngữ pháp 〜はずです, 〜はずがありません của bài này.",
+      "examples": [
+        {
+          "ja": "荷物は明日着くはずです。",
+          "vi": "Hàng chắc chắn ngày mai sẽ đến."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1007,
+      "word": "政治",
+      "meaningsVi": [
+        "chính trị"
+      ],
+      "noteVi": "Âm Hán Việt \"chính trị\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "大学で政治を勉強しています。",
+          "vi": "Tôi đang học chính trị ở trường đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1167,
+      "word": "反対",
+      "meaningsVi": [
+        "phản đối",
+        "ngược lại, trái"
+      ],
+      "noteVi": "Phản đối điều gì: 〜に反対する / 〜に反対です. Ngược nghĩa: 賛成 (tán thành). Nghĩa \"ngược\": 反対の方 (phía ngược lại).",
+      "examples": [
+        {
+          "ja": "私はその計画に反対です。",
+          "vi": "Tôi phản đối kế hoạch đó."
+        },
+        {
+          "ja": "駅は反対の方ですよ。",
+          "vi": "Nhà ga ở phía ngược lại đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 975,
+      "word": "知らせる",
+      "meaningsVi": [
+        "báo cho biết, thông báo"
+      ],
+      "noteVi": "Báo cho ai: 〜に知らせる. Danh từ: お知らせ (thông báo). Gốc từ 知る (biết): làm cho người khác biết.",
+      "examples": [
+        {
+          "ja": "時間が決まったら、知らせてください。",
+          "vi": "Khi nào quyết định giờ thì báo cho tôi nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1125,
+      "word": "なるほど",
+      "meaningsVi": [
+        "ra là vậy, hóa ra thế"
+      ],
+      "noteVi": "Dùng khi hiểu ra hoặc thấy lời người khác có lý. Nói với người trên nhiều lần nghe như đang đánh giá họ; lịch sự hơn: そうなんですか.",
+      "examples": [
+        {
+          "ja": "なるほど、そういう意味ですか。",
+          "vi": "À, ra là nghĩa như thế."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1266,
+      "word": "やはり",
+      "meaningsVi": [
+        "quả nhiên, đúng như đã nghĩ",
+        "rốt cuộc vẫn, vẫn là"
+      ],
+      "noteVi": "Thân mật: やっぱり. Kết quả đúng như mình nghĩ, hoặc sau khi suy nghĩ lại vẫn quyết định như cũ.",
+      "examples": [
+        {
+          "ja": "やはり田中さんは来ませんでした。",
+          "vi": "Quả nhiên anh Tanaka đã không đến."
+        },
+        {
+          "ja": "いろいろ考えましたが、やはり行きません。",
+          "vi": "Tôi đã nghĩ nhiều rồi, nhưng rốt cuộc vẫn không đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 863,
+      "word": "経済",
+      "meaningsVi": [
+        "kinh tế"
+      ],
+      "noteVi": "Âm Hán Việt \"kinh tế\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "兄は大学で経済を研究しています。",
+          "vi": "Anh tôi đang nghiên cứu kinh tế ở trường đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 953,
+      "word": "社会",
+      "meaningsVi": [
+        "xã hội",
+        "môn xã hội (ở trường)"
+      ],
+      "noteVi": "Âm Hán Việt \"xã hội\". Ở trường phổ thông Nhật, 社会 còn là tên môn học (địa lý, lịch sử, công dân).",
+      "examples": [
+        {
+          "ja": "小学校で社会を教えています。",
+          "vi": "Tôi dạy môn xã hội ở trường tiểu học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 890,
+      "word": "国際",
+      "meaningsVi": [
+        "quốc tế"
+      ],
+      "noteVi": "Thường đứng trước danh từ khác: 国際電話 (điện thoại quốc tế), 国際空港 (sân bay quốc tế). Không nói 国際な.",
+      "examples": [
+        {
+          "ja": "ここから国際電話をかけることができます。",
+          "vi": "Có thể gọi điện thoại quốc tế từ đây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 822,
+      "word": "関係",
+      "meaningsVi": [
+        "quan hệ",
+        "liên quan"
+      ],
+      "noteVi": "Âm Hán Việt \"quan hệ\". 〜と関係がある: có liên quan đến …; 関係ない: không liên quan.",
+      "examples": [
+        {
+          "ja": "二つの国の関係はとてもいいです。",
+          "vi": "Quan hệ giữa hai nước rất tốt."
+        },
+        {
+          "ja": "それは私と関係がありません。",
+          "vi": "Chuyện đó không liên quan đến tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1017,
+      "word": "戦争",
+      "meaningsVi": [
+        "chiến tranh"
+      ],
+      "noteVi": "Âm Hán Việt \"chiến tranh\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "おじいさんは戦争の話をしてくれました。",
+          "vi": "Ông đã kể cho tôi nghe chuyện chiến tranh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 821,
+      "word": "考える",
+      "meaningsVi": [
+        "suy nghĩ, cân nhắc",
+        "nghĩ ra"
+      ],
+      "noteVi": "考える: dùng đầu óc suy nghĩ, cân nhắc kỹ; 思う: cảm thấy, cho rằng (ý kiến, cảm xúc). \"Hãy suy nghĩ kỹ\": よく考えてください (không dùng 思って).",
+      "examples": [
+        {
+          "ja": "よく考えてから、答えてください。",
+          "vi": "Hãy suy nghĩ kỹ rồi trả lời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1215,
+      "word": "法律",
+      "meaningsVi": [
+        "pháp luật, luật"
+      ],
+      "noteVi": "Âm Hán Việt \"pháp luật\". Ở Nhật, theo luật phải đủ 20 tuổi mới được uống rượu.",
+      "examples": [
+        {
+          "ja": "日本の法律では、20歳からお酒を飲むことができます。",
+          "vi": "Theo luật Nhật Bản, từ 20 tuổi mới được uống rượu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1292,
+      "word": "歴史",
+      "meaningsVi": [
+        "lịch sử"
+      ],
+      "noteVi": "Âm Hán Việt \"lịch sử\". 歴史がある / 歴史が古い: có lịch sử lâu đời.",
+      "examples": [
+        {
+          "ja": "京都は歴史の古い町です。",
+          "vi": "Kyoto là thành phố có lịch sử lâu đời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1207,
+      "word": "文学",
+      "meaningsVi": [
+        "văn học"
+      ],
+      "noteVi": "Âm Hán Việt \"văn học\". Khoa văn: 文学部.",
+      "examples": [
+        {
+          "ja": "大学で日本の文学を勉強したいです。",
+          "vi": "Tôi muốn học văn học Nhật Bản ở trường đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1213,
+      "word": "貿易",
+      "meaningsVi": [
+        "thương mại, buôn bán với nước ngoài"
+      ],
+      "noteVi": "Âm Hán Việt \"mậu dịch\": xuất nhập khẩu giữa các nước. Công ty thương mại: 貿易会社.",
+      "examples": [
+        {
+          "ja": "兄は貿易の会社で働いています。",
+          "vi": "Anh tôi làm việc ở công ty thương mại."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 881,
+      "word": "工業",
+      "meaningsVi": [
+        "công nghiệp"
+      ],
+      "noteVi": "Âm Hán Việt \"công nghiệp\". Khác 工場 (nhà máy).",
+      "examples": [
+        {
+          "ja": "この町は工業が盛んです。",
+          "vi": "Công nghiệp ở thị trấn này phát triển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1009,
+      "word": "世界",
+      "meaningsVi": [
+        "thế giới"
+      ],
+      "noteVi": "Âm Hán Việt \"thế giới\", nghĩa như tiếng Việt. Cao nhất thế giới: 世界で一番高い.",
+      "examples": [
+        {
+          "ja": "いつか世界を旅行したいです。",
+          "vi": "Một ngày nào đó tôi muốn đi du lịch khắp thế giới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1008,
+      "word": "西洋",
+      "meaningsVi": [
+        "phương Tây (Âu, Mỹ)"
+      ],
+      "noteVi": "Âm Hán Việt \"tây dương\". 西洋料理: món Âu; ngược lại: 東洋 (phương Đông).",
+      "examples": [
+        {
+          "ja": "この建物は西洋の建物みたいですね。",
+          "vi": "Tòa nhà này trông giống nhà kiểu phương Tây nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 692,
+      "word": "アナウンサー",
+      "meaningsVi": [
+        "phát thanh viên, người dẫn chương trình (truyền hình, phát thanh)"
+      ],
+      "noteVi": "Từ tiếng Anh announcer. Người đọc tin, dẫn chương trình trên tivi, radio.",
+      "examples": [
+        {
+          "ja": "アナウンサーは明日は雨が降ると言いました。",
+          "vi": "Phát thanh viên nói là ngày mai trời mưa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 981,
+      "word": "新聞社",
+      "meaningsVi": [
+        "tòa soạn báo, công ty báo"
+      ],
+      "noteVi": "Âm Hán Việt \"tân văn xã\": 新聞 (báo) + 社 (công ty).",
+      "examples": [
+        {
+          "ja": "姉は新聞社に勤めています。",
+          "vi": "Chị tôi làm việc ở một tòa soạn báo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "考",
+      "meaningVi": "nghĩ, suy xét",
+      "noteVi": "Gặp trong 考える (かんがえる). Khác 老 (già) ở phần dưới.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "世",
+      "meaningVi": "đời, thế gian",
+      "noteVi": "Gặp trong 世界 (せかい). Cũng đọc よ: 世の中 (cuộc đời).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "界",
+      "meaningVi": "giới, ranh giới, cõi",
+      "noteVi": "Gặp trong 世界. Trên là 田 (ruộng), dưới là 介.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "洋",
+      "meaningVi": "đại dương; phương Tây",
+      "noteVi": "Gặp trong 西洋 (せいよう), 洋服 (ようふく, quần áo kiểu Âu). Bộ 氵 (nước) + 羊 (dê).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "研",
+      "meaningVi": "mài; nghiên cứu",
+      "noteVi": "Gặp trong 研究 (けんきゅう). Bộ 石 (đá): mài trên đá.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "究",
+      "meaningVi": "tìm tòi, đến cùng",
+      "noteVi": "Gặp trong 研究. Trên là 穴 (hang), dưới là 九.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "hazu-da",
+      "titleVi": "〜はずだ: chắc chắn là, lẽ ra (theo căn cứ)",
+      "summaryVi": "Kết luận chắc chắn dựa vào căn cứ, lý lẽ: 荷物は明日着くはずです (Hàng chắc chắn mai sẽ đến).",
+      "explanationVi": [
+        "**〜はずです** nói điều người nói **tin là chắc chắn** vì có **căn cứ, lý lẽ** (lịch trình, lời ai đó đã nói, hiểu biết chung): 「田中さんは今日来るはずです。昨日そう言っていましたから」 (Anh Tanaka chắc chắn hôm nay đến. Hôm qua anh ấy nói vậy mà).",
+        "Cách ghép giống khi bổ nghĩa cho danh từ (はず là danh từ): **động từ, tính từ đuôi い** ở thể thông thường + はずです (来るはず, 来ないはず, 来たはず, 寒いはず); **tính từ đuôi な + な** (静かなはず); **danh từ + の** (休みのはず).",
+        "So sánh: 「きっと〜でしょう」 là đoán theo cảm nhận; 「〜はずです」 có căn cứ rõ ràng, giống \"theo lý thì chắc chắn …\". はず không dùng để nói ý định của chính mình: \"tôi nhất định sẽ đi\" là 「必ず行きます」, không phải 行くはずです."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + はずです",
+        "Aな + な + はずです",
+        "N + の + はずです"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは今日来るはずです。昨日そう言っていましたから。",
+          "vi": "Anh Tanaka chắc chắn hôm nay đến. Hôm qua anh ấy nói vậy mà."
+        },
+        {
+          "ja": "あの店は日曜日も開いているはずです。",
+          "vi": "Cửa hàng đó chắc chắn chủ nhật cũng mở cửa."
+        },
+        {
+          "ja": "田中さんは今日休みのはずです。",
+          "vi": "Hôm nay chắc chắn anh Tanaka nghỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は休みはずです。",
+          "right": "明日は休みのはずです。",
+          "noteVi": "Danh từ cần の trước はず, như trước một danh từ khác (休みの日)."
+        },
+        {
+          "wrong": "この辺は夜、静かはずです。",
+          "right": "この辺は夜、静かなはずです。",
+          "noteVi": "Tính từ đuôi な giữ な trước はず."
+        },
+        {
+          "wrong": "田中さんは今日来ますはずです。",
+          "right": "田中さんは今日来るはずです。",
+          "noteVi": "Trước はず dùng thể thông thường (来る), không dùng thể ます.",
+          "issue": "polite_in_clause"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "hazu-ga-nai",
+      "titleVi": "〜はずがない: không thể nào, làm gì có chuyện",
+      "summaryVi": "Phủ định mạnh vì tin chắc là không thể: 田中さんがうそを言うはずがありません (Anh Tanaka không thể nào nói dối).",
+      "explanationVi": [
+        "**〜はずがありません** (thân mật: はずがない) nghĩa là \"**không thể nào** …\", \"làm gì có chuyện …\": người nói tin chắc điều đó không xảy ra, dựa vào lý lẽ: 「田中さんはまじめな人ですから、うそを言うはずがありません」.",
+        "Cách ghép như はずです: 来るはずがない, 高いはずがない, 静かなはずがない, 休みのはずがない. Trong hội thoại, が có thể thành は: はずはない.",
+        "Phân biệt: **〜ないはずです** = \"chắc là không\" (kết luận bình thường): 「田中さんは今日来ないはずです」. **〜はずがありません** = \"không thể nào\" (phủ định mạnh, thường khi phản bác hoặc ngạc nhiên): 「田中さんが来ないはずがありません」 (Không lẽ nào anh Tanaka lại không đến)."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + はずがありません",
+        "Aな + な / N + の + はずがありません",
+        "(thân mật) 〜はずがない"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんはまじめな人ですから、うそを言うはずがありません。",
+          "vi": "Anh Tanaka là người nghiêm túc, không thể nào nói dối."
+        },
+        {
+          "ja": "あんなに有名な店のカレーがまずいはずがありません。",
+          "vi": "Cà ri của quán nổi tiếng như thế thì không thể nào dở."
+        },
+        {
+          "ja": "日曜日だから、会社にいるはずがないよ。",
+          "vi": "Hôm nay chủ nhật, không thể nào anh ấy ở công ty đâu."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "あの人が泥棒はずがありません。",
+          "right": "あの人が泥棒のはずがありません。",
+          "noteVi": "Danh từ cần の trước はず: 泥棒のはず."
+        },
+        {
+          "wrong": "あの店のカレーがまずいのはずがありません。",
+          "right": "あの店のカレーがまずいはずがありません。",
+          "noteVi": "Động từ, tính từ đuôi い ghép thẳng với はず, không thêm の; chỉ danh từ mới cần の."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to-omou",
+      "titleVi": "〜と思う: tôi nghĩ là, tôi cho rằng",
+      "summaryVi": "Nói ý kiến, phỏng đoán của mình: 明日は雨が降ると思います (Tôi nghĩ mai trời mưa).",
+      "explanationVi": [
+        "**〜と思います** dùng để nói **ý kiến, phỏng đoán** của mình, giống \"tôi nghĩ (là)\", \"tôi cho rằng\": 「日本語はおもしろいと思います」. Người Nhật dùng rất nhiều để câu nói mềm hơn, không khẳng định quá mạnh.",
+        "Cách ghép: phần trước と ở **thể thông thường**: 行くと思います, 行かないと思います, 行ったと思います, 高いと思います. **Danh từ và tính từ đuôi な thêm だ**: 雨だと思います, 便利だと思います (không nói 雨と思います).",
+        "Hỏi ý kiến: 「N をどう思いますか」 (Bạn nghĩ sao về N?). Tiếng Việt hay nói \"tôi **không** nghĩ là anh ấy đến\", còn tiếng Nhật thường phủ định ở phần trước と: 「田中さんは来**ない**と思います」.",
+        "Nói về suy nghĩ của **người khác** (hoặc ý nghĩ mình đã có từ lâu) thì dùng **〜と思っています**: 「田中さんは日本で働きたいと思っています」."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + と思います",
+        "N / Aな + だ + と思います",
+        "N をどう思いますか",
+        "(người khác) 〜と思っています"
+      ],
+      "examples": [
+        {
+          "ja": "明日はきっと晴れると思います。",
+          "vi": "Tôi nghĩ ngày mai nhất định trời sẽ nắng."
+        },
+        {
+          "ja": "この計画をどう思いますか。",
+          "vi": "Anh nghĩ sao về kế hoạch này?"
+        },
+        {
+          "ja": "田中さんは来ないと思います。",
+          "vi": "Tôi không nghĩ là anh Tanaka sẽ đến."
+        },
+        {
+          "ja": "田中さんは日本で働きたいと思っています。",
+          "vi": "Anh Tanaka đang nghĩ là muốn làm việc ở Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は雨と思います。",
+          "right": "明日は雨だと思います。",
+          "noteVi": "Danh từ (và tính từ đuôi な) cần だ trước と思います."
+        },
+        {
+          "wrong": "田中さんは来ますと思います。",
+          "right": "田中さんは来ると思います。",
+          "noteVi": "Trước と思います dùng thể thông thường. Lịch sự nằm ở 思います."
+        },
+        {
+          "wrong": "田中さんは来ると思いません。",
+          "right": "田中さんは来ないと思います。",
+          "noteVi": "Câu bên trái không sai ngữ pháp nhưng kém tự nhiên: người Nhật thường phủ định phần trước と."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to-iu-say",
+      "titleVi": "〜と言う: nói rằng (trích dẫn lời nói)",
+      "summaryVi": "Thuật lại lời ai đó nói: 田中さんは明日来ると言いました; trích nguyên văn: 「ありがとう」と言いました.",
+      "explanationVi": [
+        "**〜と言います** dùng để **trích dẫn lời nói**. Trích **nguyên văn**: đặt lời nói trong 「」 rồi thêm と言いました: 「田中さんは『ありがとう』と言いました」.",
+        "Thuật lại **gián tiếp** (không có 「」): phần trước と ở **thể thông thường**: 「田中さんは明日来ると言いました」 (Anh Tanaka nói là mai sẽ đến). Danh từ, tính từ đuôi な thêm だ: 休みだと言いました. Người nghe đi với に: 先生**に**言いました.",
+        "Nhắn lại lời người khác: **〜と言っていました** (anh ấy có nói là …): 「田中さんは今日は来られないと言っていました」. Hỏi cách nói: 「これは日本語で何と言いますか」.",
+        "Chú ý: nội dung lời nói đi với **と**, không dùng を: 「何と言いましたか」, 「明日テストがあると言いました」. を chỉ dùng với danh từ: 意見を言う, うそを言う."
+      ],
+      "patterns": [
+        "「lời nguyên văn」 + と言います",
+        "(thể thông thường) + と言いました",
+        "N / Aな + だ + と言いました",
+        "〜と言っていました (nhắn lại)"
+      ],
+      "examples": [
+        {
+          "ja": "アナウンサーは明日は雨が降ると言いました。",
+          "vi": "Phát thanh viên nói là ngày mai trời mưa."
+        },
+        {
+          "ja": "田中さんは今日は来られないと言っていました。",
+          "vi": "Anh Tanaka có nói là hôm nay không đến được."
+        },
+        {
+          "ja": "日本では食べる前に「いただきます」と言います。",
+          "vi": "Ở Nhật, trước khi ăn người ta nói \"itadakimasu\"."
+        },
+        {
+          "ja": "これは日本語で何と言いますか。",
+          "vi": "Cái này tiếng Nhật gọi là gì?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生は明日テストがあるを言いました。",
+          "right": "先生は明日テストがあると言いました。",
+          "noteVi": "Nội dung lời nói đi với と, không dùng を."
+        },
+        {
+          "wrong": "田中さんは明日は休みと言いました。",
+          "right": "田中さんは明日は休みだと言いました。",
+          "noteVi": "Thuật lại gián tiếp: danh từ thêm だ trước と言いました."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-15-e01",
+      "type": "choice",
+      "grammar": [
+        "hazu-da"
+      ],
+      "promptVi": "Theo lịch giao hàng, hàng sẽ đến vào ngày mai. Bạn nói: \"Hàng chắc chắn mai sẽ đến.\" Chọn câu đúng.",
+      "options": [
+        "荷物は明日着くはずです。",
+        "荷物は明日着くかもしれません。",
+        "荷物は明日着くつもりです。"
+      ],
+      "answer": 0,
+      "explainVi": "Có căn cứ (lịch giao hàng): はずです. かもしれません chỉ là \"có thể\"; つもり là ý định của người."
+    },
+    {
+      "id": "n4-15-e02",
+      "type": "fill",
+      "grammar": [
+        "hazu-da"
+      ],
+      "before": "田中さんは今日休み",
+      "after": "はずです。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "な",
+        "だ"
+      ],
+      "vi": "Hôm nay chắc chắn anh Tanaka nghỉ.",
+      "explainVi": "Danh từ + の + はず."
+    },
+    {
+      "id": "n4-15-e03",
+      "type": "fill",
+      "grammar": [
+        "hazu-da"
+      ],
+      "before": "この辺は夜、静か",
+      "after": "はずです。",
+      "answers": [
+        "な"
+      ],
+      "options": [
+        "な",
+        "の",
+        "だ"
+      ],
+      "vi": "Khu này buổi tối chắc chắn yên tĩnh.",
+      "explainVi": "Tính từ đuôi な + な + はず."
+    },
+    {
+      "id": "n4-15-e04",
+      "type": "order",
+      "grammar": [
+        "hazu-da"
+      ],
+      "vi": "Cửa hàng đó chắc chắn chủ nhật cũng mở cửa.",
+      "tiles": [
+        "あの店は",
+        "日曜日も",
+        "開いている",
+        "はずです"
+      ],
+      "answers": [
+        "あの店は日曜日も開いているはずです"
+      ]
+    },
+    {
+      "id": "n4-15-e05",
+      "type": "choice",
+      "grammar": [
+        "hazu-ga-nai"
+      ],
+      "promptVi": "\"Anh Tanaka là người nghiêm túc, không thể nào nói dối.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "田中さんはまじめな人ですから、うそを言う＿。",
+      "options": [
+        "はずがありません",
+        "はずです",
+        "かもしれません"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-15-e06",
+      "type": "fill",
+      "grammar": [
+        "hazu-ga-nai"
+      ],
+      "before": "あの人が泥棒",
+      "after": "はずがありません。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "な",
+        "だ"
+      ],
+      "vi": "Người đó không thể nào là kẻ trộm.",
+      "explainVi": "Danh từ + の + はず."
+    },
+    {
+      "id": "n4-15-e07",
+      "type": "choice",
+      "grammar": [
+        "hazu-ga-nai",
+        "hazu-da"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Không lẽ nào anh Tanaka lại không đến\"?",
+      "options": [
+        "田中さんが来ないはずがありません。",
+        "田中さんは来ないはずです。",
+        "田中さんが来るはずがありません。"
+      ],
+      "answer": 0,
+      "explainVi": "来ないはずです: chắc là không đến. 来るはずがありません: không thể nào đến."
+    },
+    {
+      "id": "n4-15-e08",
+      "type": "order",
+      "grammar": [
+        "hazu-ga-nai"
+      ],
+      "vi": "Hôm nay chủ nhật, không thể nào anh ấy ở công ty.",
+      "tiles": [
+        "日曜日だから",
+        "会社に",
+        "いる",
+        "はずが",
+        "ない"
+      ],
+      "answers": [
+        "日曜日だから会社にいるはずがない"
+      ]
+    },
+    {
+      "id": "n4-15-e09",
+      "type": "fill",
+      "grammar": [
+        "to-omou"
+      ],
+      "before": "明日は雨",
+      "after": "と思います。",
+      "answers": [
+        "だ"
+      ],
+      "options": [
+        "だ",
+        "の",
+        "な"
+      ],
+      "vi": "Tôi nghĩ mai trời mưa.",
+      "explainVi": "Danh từ + だ + と思います."
+    },
+    {
+      "id": "n4-15-e10",
+      "type": "choice",
+      "grammar": [
+        "to-omou"
+      ],
+      "promptVi": "Cách nói tự nhiên nhất cho câu \"Tôi không nghĩ là anh Tanaka sẽ đến\" là câu nào?",
+      "options": [
+        "田中さんは来ないと思います。",
+        "田中さんは来ると思います。",
+        "田中さんは来ないと言いました。"
+      ],
+      "answer": 0,
+      "explainVi": "Tiếng Nhật thường phủ định ở phần trước と: 来ないと思います."
+    },
+    {
+      "id": "n4-15-e11",
+      "type": "choice",
+      "grammar": [
+        "to-omou"
+      ],
+      "promptVi": "Hỏi ý kiến: \"Anh nghĩ sao về kế hoạch này?\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "この計画を＿思いますか。",
+      "options": [
+        "どう",
+        "どれ",
+        "どこ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-15-e12",
+      "type": "order",
+      "grammar": [
+        "to-omou"
+      ],
+      "vi": "Anh Tanaka đang nghĩ là muốn làm việc ở Nhật.",
+      "tiles": [
+        "田中さんは",
+        "日本で",
+        "働きたいと",
+        "思って",
+        "います"
+      ],
+      "answers": [
+        "田中さんは日本で働きたいと思っています"
+      ]
+    },
+    {
+      "id": "n4-15-e13",
+      "type": "fill",
+      "grammar": [
+        "to-iu-say"
+      ],
+      "before": "先生は明日テストがある",
+      "after": "言いました。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "を",
+        "が"
+      ],
+      "vi": "Thầy giáo nói là ngày mai có bài kiểm tra.",
+      "explainVi": "Nội dung lời nói đi với と."
+    },
+    {
+      "id": "n4-15-e14",
+      "type": "choice",
+      "grammar": [
+        "to-iu-say"
+      ],
+      "promptVi": "Bạn nhắn lại: \"Anh Tanaka có nói là hôm nay không đến được.\" Chọn câu đúng.",
+      "options": [
+        "田中さんは今日は来られないと言っていました。",
+        "田中さんは今日は来られないと思っていました。",
+        "田中さんは今日は来られないはずです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-15-e15",
+      "type": "order",
+      "grammar": [
+        "to-iu-say"
+      ],
+      "vi": "Cái này tiếng Nhật gọi là gì?",
+      "tiles": [
+        "これは",
+        "日本語で",
+        "何と",
+        "言いますか"
+      ],
+      "answers": [
+        "これは日本語で何と言いますか"
+      ]
+    },
+    {
+      "id": "n4-15-e16",
+      "type": "choice",
+      "grammar": [
+        "to-iu-say"
+      ],
+      "promptVi": "\"Ở Nhật, trước khi ăn người ta nói いただきます.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "日本では食べる前に「いただきます」＿言います。",
+      "options": [
+        "と",
+        "を",
+        "に"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-15-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "政治",
+          "chính trị"
+        ],
+        [
+          "経済",
+          "kinh tế"
+        ],
+        [
+          "歴史",
+          "lịch sử"
+        ],
+        [
+          "文学",
+          "văn học"
+        ],
+        [
+          "法律",
+          "pháp luật"
+        ]
+      ]
+    },
+    {
+      "id": "n4-15-e18",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "世界",
+          "thế giới"
+        ],
+        [
+          "西洋",
+          "phương Tây"
+        ],
+        [
+          "国際",
+          "quốc tế"
+        ],
+        [
+          "戦争",
+          "chiến tranh"
+        ],
+        [
+          "貿易",
+          "thương mại với nước ngoài"
+        ]
+      ]
+    },
+    {
+      "id": "n4-15-e19",
+      "type": "choice",
+      "promptVi": "\"Hãy suy nghĩ kỹ rồi trả lời.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "よく＿から、答えてください。",
+      "options": [
+        "考えて",
+        "知らせて",
+        "反対して"
+      ],
+      "answer": 0,
+      "explainVi": "Suy nghĩ kỹ, cân nhắc: 考える."
+    },
+    {
+      "id": "n4-15-e20",
+      "type": "choice",
+      "promptVi": "\"Quả nhiên (đúng như tôi nghĩ) anh Tanaka đã không đến.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "＿田中さんは来ませんでした。",
+      "options": [
+        "やはり",
+        "なるほど",
+        "きっと"
+      ],
+      "answer": 0,
+      "explainVi": "やはり: quả nhiên, đúng như đã nghĩ. なるほど: à ra vậy. きっと: chắc chắn (đoán điều chưa xảy ra)."
+    },
+    {
+      "id": "n4-15-e21",
+      "type": "translate",
+      "grammar": [
+        "hazu-da"
+      ],
+      "vi": "Anh Tanaka chắc chắn hôm nay sẽ đến (vì hôm qua anh ấy đã nói vậy). (dùng はず)",
+      "answers": [
+        "田中さんは今日来るはずです。",
+        "田中さんは今日(は)来るはずです。",
+        "今日(は)(、)田中さんは来るはずです。"
+      ],
+      "examples": [
+        {
+          "answer": "たなかさんはきょうくるはずです",
+          "score": 100
+        },
+        {
+          "answer": "田中さんは今日来ますはずです。",
+          "score": 85,
+          "issues": [
+            "polite_in_clause"
+          ]
+        },
+        {
+          "answer": "田中さんは今日来ないはずです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-15-e22",
+      "type": "translate",
+      "grammar": [
+        "hazu-ga-nai"
+      ],
+      "vi": "Người đó không thể nào là kẻ trộm.",
+      "answers": [
+        "あの人が泥棒のはずがありません。",
+        "あの人[が|は]泥棒のはず[が|は]ありません。"
+      ],
+      "examples": [
+        {
+          "answer": "あのひとがどろぼうのはずがありません",
+          "score": 100
+        },
+        {
+          "answer": "あの人が泥棒はずがありません。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "あの人は泥棒のはずです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-15-e23",
+      "type": "translate",
+      "grammar": [
+        "to-omou"
+      ],
+      "vi": "Tôi nghĩ lịch sử Nhật Bản rất thú vị.",
+      "answers": [
+        "(私は)日本の歴史はとてもおもしろいと思います。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんのれきしはとてもおもしろいとおもいます",
+          "score": 100
+        },
+        {
+          "answer": "日本の歴史はとてもおもしろいだと思います。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "日本の歴史はとてもつまらないと思います。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-15-e24",
+      "type": "translate",
+      "grammar": [
+        "to-iu-say"
+      ],
+      "vi": "Phát thanh viên đã nói là ngày mai bão sẽ đến.",
+      "answers": [
+        "アナウンサーは明日台風が来ると言いました。",
+        "アナウンサーは明日(は)台風が来ると言[いました|っていました]。"
+      ],
+      "examples": [
+        {
+          "answer": "アナウンサーはあしたたいふうがくるといいました",
+          "score": 100
+        },
+        {
+          "answer": "アナウンサーは明日台風が来るを言いました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "アナウンサーは明日台風が来ないと言いました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-15-e25",
+      "type": "question",
+      "grammar": [
+        "to-omou"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "この町をどう思いますか。",
+        "promptVi": "\"Bạn nghĩ sao về thị trấn này?\" Hãy trả lời: tôi nghĩ là (thị trấn này) yên tĩnh.",
+        "answers": [
+          "静かだと思います。",
+          "(この町は)(とても)静かだと思います。"
+        ],
+        "examples": [
+          {
+            "answer": "しずかだとおもいます",
+            "score": 100
+          },
+          {
+            "answer": "静かと思います。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ]
+          },
+          {
+            "answer": "うるさいと思います。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "皆さんの意見を聞きたいです。": "{皆|みな}さんの{意|い}{見|けん}を{聞|き}きたいです。",
+    "私も田中さんと同じ意見です。": "{私|わたし}も{田中|たなか}さんと{同|おな}じ{意|い}{見|けん}です。",
+    "明日はきっと晴れるでしょう。": "{明日|あした}はきっと{晴|は}れるでしょう。",
+    "それは確かですか。": "それは{確|たし}かですか。",
+    "田中さんの誕生日は、確か来週だと思います。": "{田中|たなか}さんの{誕|たん}{生|じょう}{日|び}は、{確|たし}か{来|らい}{週|しゅう}だと{思|おも}います。",
+    "荷物は明日着くはずです。": "{荷|に}{物|もつ}は{明日|あした}{着|つ}くはずです。",
+    "大学で政治を勉強しています。": "{大|だい}{学|がく}で{政|せい}{治|じ}を{勉|べん}{強|きょう}しています。",
+    "私はその計画に反対です。": "{私|わたし}はその{計|けい}{画|かく}に{反|はん}{対|たい}です。",
+    "駅は反対の方ですよ。": "{駅|えき}は{反|はん}{対|たい}の{方|ほう}ですよ。",
+    "時間が決まったら、知らせてください。": "{時|じ}{間|かん}が{決|き}まったら、{知|し}らせてください。",
+    "なるほど、そういう意味ですか。": "なるほど、そういう{意|い}{味|み}ですか。",
+    "やはり田中さんは来ませんでした。": "やはり{田中|たなか}さんは{来|き}ませんでした。",
+    "いろいろ考えましたが、やはり行きません。": "いろいろ{考|かんが}えましたが、やはり{行|い}きません。",
+    "兄は大学で経済を研究しています。": "{兄|あに}は{大|だい}{学|がく}で{経|けい}{済|ざい}を{研|けん}{究|きゅう}しています。",
+    "小学校で社会を教えています。": "{小|しょう}{学|がっ}{校|こう}で{社|しゃ}{会|かい}を{教|おし}えています。",
+    "ここから国際電話をかけることができます。": "ここから{国|こく}{際|さい}{電|でん}{話|わ}をかけることができます。",
+    "二つの国の関係はとてもいいです。": "{二|ふた}つの{国|くに}の{関|かん}{係|けい}はとてもいいです。",
+    "それは私と関係がありません。": "それは{私|わたし}と{関|かん}{係|けい}がありません。",
+    "おじいさんは戦争の話をしてくれました。": "おじいさんは{戦|せん}{争|そう}の{話|はなし}をしてくれました。",
+    "よく考えてから、答えてください。": "よく{考|かんが}えてから、{答|こた}えてください。",
+    "日本の法律では、20歳からお酒を飲むことができます。": "{日本|にほん}の{法|ほう}{律|りつ}では、20{歳|さい}からお{酒|さけ}を{飲|の}むことができます。",
+    "京都は歴史の古い町です。": "{京都|きょうと}は{歴|れき}{史|し}の{古|ふる}い{町|まち}です。",
+    "大学で日本の文学を勉強したいです。": "{大|だい}{学|がく}で{日本|にほん}の{文|ぶん}{学|がく}を{勉|べん}{強|きょう}したいです。",
+    "兄は貿易の会社で働いています。": "{兄|あに}は{貿|ぼう}{易|えき}の{会|かい}{社|しゃ}で{働|はたら}いています。",
+    "この町は工業が盛んです。": "この{町|まち}は{工|こう}{業|ぎょう}が{盛|さか}んです。",
+    "いつか世界を旅行したいです。": "いつか{世|せ}{界|かい}を{旅|りょ}{行|こう}したいです。",
+    "この建物は西洋の建物みたいですね。": "この{建|たて}{物|もの}は{西|せい}{洋|よう}の{建|たて}{物|もの}みたいですね。",
+    "アナウンサーは明日は雨が降ると言いました。": "アナウンサーは{明日|あした}は{雨|あめ}が{降|ふ}ると{言|い}いました。",
+    "姉は新聞社に勤めています。": "{姉|あね}は{新|しん}{聞|ぶん}{社|しゃ}に{勤|つと}めています。",
+    "田中さんは今日来るはずです。昨日そう言っていましたから。": "{田中|たなか}さんは{今日|きょう}{来|く}るはずです。{昨日|きのう}そう{言|い}っていましたから。",
+    "あの店は日曜日も開いているはずです。": "あの{店|みせ}は{日|にち}{曜|よう}{日|び}も{開|あ}いているはずです。",
+    "田中さんは今日休みのはずです。": "{田中|たなか}さんは{今日|きょう}{休|やす}みのはずです。",
+    "明日は休みのはずです。": "{明日|あした}は{休|やす}みのはずです。",
+    "明日は休みはずです。": "{明日|あした}は{休|やす}みはずです。",
+    "この辺は夜、静かなはずです。": "この{辺|へん}は{夜|よる}、{静|しず}かなはずです。",
+    "この辺は夜、静かはずです。": "この{辺|へん}は{夜|よる}、{静|しず}かはずです。",
+    "田中さんは今日来るはずです。": "{田中|たなか}さんは{今日|きょう}{来|く}るはずです。",
+    "田中さんは今日来ますはずです。": "{田中|たなか}さんは{今日|きょう}{来|き}ますはずです。",
+    "田中さんはまじめな人ですから、うそを言うはずがありません。": "{田中|たなか}さんはまじめな{人|ひと}ですから、うそを{言|い}うはずがありません。",
+    "あんなに有名な店のカレーがまずいはずがありません。": "あんなに{有|ゆう}{名|めい}な{店|みせ}のカレーがまずいはずがありません。",
+    "日曜日だから、会社にいるはずがないよ。": "{日|にち}{曜|よう}{日|び}だから、{会|かい}{社|しゃ}にいるはずがないよ。",
+    "あの人が泥棒のはずがありません。": "あの{人|ひと}が{泥|どろ}{棒|ぼう}のはずがありません。",
+    "あの人が泥棒はずがありません。": "あの{人|ひと}が{泥|どろ}{棒|ぼう}はずがありません。",
+    "あの店のカレーがまずいはずがありません。": "あの{店|みせ}のカレーがまずいはずがありません。",
+    "あの店のカレーがまずいのはずがありません。": "あの{店|みせ}のカレーがまずいのはずがありません。",
+    "明日はきっと晴れると思います。": "{明日|あした}はきっと{晴|は}れると{思|おも}います。",
+    "この計画をどう思いますか。": "この{計|けい}{画|かく}をどう{思|おも}いますか。",
+    "田中さんは来ないと思います。": "{田中|たなか}さんは{来|こ}ないと{思|おも}います。",
+    "田中さんは日本で働きたいと思っています。": "{田中|たなか}さんは{日本|にほん}で{働|はたら}きたいと{思|おも}っています。",
+    "明日は雨だと思います。": "{明日|あした}は{雨|あめ}だと{思|おも}います。",
+    "明日は雨と思います。": "{明日|あした}は{雨|あめ}と{思|おも}います。",
+    "田中さんは来ると思います。": "{田中|たなか}さんは{来|く}ると{思|おも}います。",
+    "田中さんは来ますと思います。": "{田中|たなか}さんは{来|き}ますと{思|おも}います。",
+    "田中さんは来ると思いません。": "{田中|たなか}さんは{来|く}ると{思|おも}いません。",
+    "田中さんは今日は来られないと言っていました。": "{田中|たなか}さんは{今日|きょう}は{来|こ}られないと{言|い}っていました。",
+    "日本では食べる前に「いただきます」と言います。": "{日本|にほん}では{食|た}べる{前|まえ}に「いただきます」と{言|い}います。",
+    "これは日本語で何と言いますか。": "これは{日本|にほん}{語|ご}で{何|なん}と{言|い}いますか。",
+    "先生は明日テストがあると言いました。": "{先|せん}{生|せい}は{明日|あした}テストがあると{言|い}いました。",
+    "先生は明日テストがあるを言いました。": "{先|せん}{生|せい}は{明日|あした}テストがあるを{言|い}いました。",
+    "田中さんは明日は休みだと言いました。": "{田中|たなか}さんは{明日|あした}は{休|やす}みだと{言|い}いました。",
+    "田中さんは明日は休みと言いました。": "{田中|たなか}さんは{明日|あした}は{休|やす}みと{言|い}いました。",
+    "荷物は明日着くかもしれません。": "{荷|に}{物|もつ}は{明日|あした}{着|つ}くかもしれません。",
+    "荷物は明日着くつもりです。": "{荷|に}{物|もつ}は{明日|あした}{着|つ}くつもりです。",
+    "の": "の",
+    "な": "な",
+    "だ": "だ",
+    "あの店は": "あの{店|みせ}は",
+    "日曜日も": "{日|にち}{曜|よう}{日|び}も",
+    "開いている": "{開|あ}いている",
+    "はずです": "はずです",
+    "あの店は日曜日も開いているはずです": "あの{店|みせ}は{日|にち}{曜|よう}{日|び}も{開|あ}いているはずです",
+    "田中さんはまじめな人ですから、うそを言う＿。": "{田中|たなか}さんはまじめな{人|ひと}ですから、うそを{言|い}う＿。",
+    "はずがありません": "はずがありません",
+    "かもしれません": "かもしれません",
+    "田中さんが来ないはずがありません。": "{田中|たなか}さんが{来|こ}ないはずがありません。",
+    "田中さんは来ないはずです。": "{田中|たなか}さんは{来|こ}ないはずです。",
+    "田中さんが来るはずがありません。": "{田中|たなか}さんが{来|く}るはずがありません。",
+    "日曜日だから": "{日|にち}{曜|よう}{日|び}だから",
+    "会社に": "{会|かい}{社|しゃ}に",
+    "いる": "いる",
+    "はずが": "はずが",
+    "ない": "ない",
+    "日曜日だから会社にいるはずがない": "{日|にち}{曜|よう}{日|び}だから{会|かい}{社|しゃ}にいるはずがない",
+    "田中さんは来ないと言いました。": "{田中|たなか}さんは{来|こ}ないと{言|い}いました。",
+    "この計画を＿思いますか。": "この{計|けい}{画|かく}を＿{思|おも}いますか。",
+    "どう": "どう",
+    "どれ": "どれ",
+    "どこ": "どこ",
+    "田中さんは": "{田中|たなか}さんは",
+    "日本で": "{日本|にほん}で",
+    "働きたいと": "{働|はたら}きたいと",
+    "思って": "{思|おも}って",
+    "います": "います",
+    "田中さんは日本で働きたいと思っています": "{田中|たなか}さんは{日本|にほん}で{働|はたら}きたいと{思|おも}っています",
+    "と": "と",
+    "を": "を",
+    "が": "が",
+    "田中さんは今日は来られないと思っていました。": "{田中|たなか}さんは{今日|きょう}は{来|こ}られないと{思|おも}っていました。",
+    "田中さんは今日は来られないはずです。": "{田中|たなか}さんは{今日|きょう}は{来|こ}られないはずです。",
+    "これは": "これは",
+    "日本語で": "{日本|にほん}{語|ご}で",
+    "何と": "{何|なん}と",
+    "言いますか": "{言|い}いますか",
+    "これは日本語で何と言いますか": "これは{日本|にほん}{語|ご}で{何|なん}と{言|い}いますか",
+    "日本では食べる前に「いただきます」＿言います。": "{日本|にほん}では{食|た}べる{前|まえ}に「いただきます」＿{言|い}います。",
+    "に": "に",
+    "政治": "{政|せい}{治|じ}",
+    "経済": "{経|けい}{済|ざい}",
+    "歴史": "{歴|れき}{史|し}",
+    "文学": "{文|ぶん}{学|がく}",
+    "法律": "{法|ほう}{律|りつ}",
+    "世界": "{世|せ}{界|かい}",
+    "西洋": "{西|せい}{洋|よう}",
+    "国際": "{国|こく}{際|さい}",
+    "戦争": "{戦|せん}{争|そう}",
+    "貿易": "{貿|ぼう}{易|えき}",
+    "よく＿から、答えてください。": "よく＿から、{答|こた}えてください。",
+    "考えて": "{考|かんが}えて",
+    "知らせて": "{知|し}らせて",
+    "反対して": "{反|はん}{対|たい}して",
+    "＿田中さんは来ませんでした。": "＿{田中|たなか}さんは{来|き}ませんでした。",
+    "やはり": "やはり",
+    "なるほど": "なるほど",
+    "きっと": "きっと",
+    "田中さんは今日は来るはずです。": "{田中|たなか}さんは{今日|きょう}は{来|く}るはずです。",
+    "今日は、田中さんは来るはずです。": "{今日|きょう}は、{田中|たなか}さんは{来|く}るはずです。",
+    "私は日本の歴史はとてもおもしろいと思います。": "{私|わたし}は{日本|にほん}の{歴|れき}{史|し}はとてもおもしろいと{思|おも}います。",
+    "アナウンサーは明日台風が来ると言いました。": "アナウンサーは{明日|あした}{台|たい}{風|ふう}が{来|く}ると{言|い}いました。",
+    "アナウンサーは明日は台風が来ると言いました。": "アナウンサーは{明日|あした}は{台|たい}{風|ふう}が{来|く}ると{言|い}いました。",
+    "この町をどう思いますか。": "この{町|まち}をどう{思|おも}いますか。",
+    "静かだと思います。": "{静|しず}かだと{思|おも}います。",
+    "この町はとても静かだと思います。": "この{町|まち}はとても{静|しず}かだと{思|おも}います。"
+  }
+}

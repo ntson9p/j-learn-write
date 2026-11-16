@@ -1,0 +1,1244 @@
+{
+  "id": "n4-17",
+  "goalsVi": [
+    "Nói mong muốn người khác làm gì: 母に早く元気になってほしいです",
+    "Nói mong muốn, cảm xúc của người khác: 弟は日本へ行きたがっています、妹は犬を怖がっています",
+    "Nói việc gì dễ làm, khó làm: このペンは書きやすいです、字が細かくて読みにくいです",
+    "Nói về cảm xúc, quần áo và đồ dùng: 安心、残念、びっくりする、着物、スーツ、道具"
+  ],
+  "words": [
+    {
+      "no": 698,
+      "word": "安心",
+      "meaningsVi": [
+        "yên tâm"
+      ],
+      "noteVi": "Âm Hán Việt \"an tâm\". 安心する: yên tâm; ngược nghĩa: 心配する (lo lắng). Còn là tính từ đuôi な: 安心な場所 (nơi an toàn, yên tâm).",
+      "examples": [
+        {
+          "ja": "母から電話があって、安心しました。",
+          "vi": "Mẹ gọi điện đến nên tôi đã yên tâm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 770,
+      "word": "驚く",
+      "meaningsVi": [
+        "ngạc nhiên, giật mình"
+      ],
+      "noteVi": "Hay dùng trong văn viết, lời kể. Nói chuyện hằng ngày thường dùng びっくりする. Ngạc nhiên vì điều gì: 〜に驚く hoặc 〜て、驚く.",
+      "examples": [
+        {
+          "ja": "そのニュースを聞いて、とても驚きました。",
+          "vi": "Nghe tin đó, tôi rất ngạc nhiên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 933,
+      "word": "残念",
+      "meaningsVi": [
+        "tiếc, đáng tiếc"
+      ],
+      "noteVi": "Âm Hán Việt \"tàn niệm\". Tính từ đuôi な. 残念ですね: tiếc quá nhỉ (khi an ủi, chia sẻ với người khác).",
+      "examples": [
+        {
+          "ja": "パーティーに行けなくて、残念です。",
+          "vi": "Tôi không đi dự tiệc được, tiếc quá."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1182,
+      "word": "びっくりする",
+      "meaningsVi": [
+        "giật mình, ngạc nhiên"
+      ],
+      "noteVi": "Cách nói hằng ngày, thân mật hơn 驚く.",
+      "examples": [
+        {
+          "ja": "急に大きな音がして、びっくりしました。",
+          "vi": "Đột nhiên có tiếng động lớn, tôi giật cả mình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 840,
+      "word": "気持ち",
+      "meaningsVi": [
+        "cảm giác, tâm trạng",
+        "tấm lòng"
+      ],
+      "noteVi": "気持ちがいい: dễ chịu; 気持ちが悪い: khó chịu, buồn nôn. Khi tặng quà: ほんの気持ちです (chút lòng thành).",
+      "examples": [
+        {
+          "ja": "朝の散歩は気持ちがいいです。",
+          "vi": "Đi dạo buổi sáng thật dễ chịu."
+        },
+        {
+          "ja": "彼女の気持ちがよくわかります。",
+          "vi": "Tôi rất hiểu tâm trạng của cô ấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 891,
+      "word": "心",
+      "meaningsVi": [
+        "trái tim, tấm lòng, tâm hồn"
+      ],
+      "noteVi": "Âm Hán Việt \"tâm\". Trái tim theo nghĩa cơ thể là 心臓; 心 là tấm lòng, tình cảm: 心の優しい人 (người tốt bụng).",
+      "examples": [
+        {
+          "ja": "田中さんは心の優しい人です。",
+          "vi": "Anh Tanaka là người có tấm lòng tốt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1013,
+      "word": "ぜひ",
+      "meaningsVi": [
+        "nhất định, rất mong"
+      ],
+      "noteVi": "Đi với mong muốn, lời mời, lời nhờ: ぜひ来てください, ぜひ行きたいです, ぜひ〜てほしい. Không dùng với câu phủ định hay phỏng đoán (khác きっと).",
+      "examples": [
+        {
+          "ja": "ぜひ私の国へ遊びに来てください。",
+          "vi": "Nhất định hãy đến nước tôi chơi nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 800,
+      "word": "堅い",
+      "meaningsVi": [
+        "cứng, chắc (gỗ, đá)",
+        "nghiêm, cứng nhắc"
+      ],
+      "noteVi": "Cùng cách đọc かたい còn có 硬い, 固い (thịt dai, bánh cứng). Nói về người: 堅い人 (người nghiêm túc, cứng nhắc). Ngược nghĩa: 柔らかい.",
+      "examples": [
+        {
+          "ja": "この木は堅いので、切りにくいです。",
+          "vi": "Gỗ này cứng nên khó cắt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1268,
+      "word": "柔らかい",
+      "meaningsVi": [
+        "mềm"
+      ],
+      "noteVi": "Âm Hán Việt \"nhu\" (nhu mì). Ngược nghĩa: 堅い, 硬い.",
+      "examples": [
+        {
+          "ja": "このパンは柔らかくて、おいしいです。",
+          "vi": "Bánh mì này mềm và ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 901,
+      "word": "細かい",
+      "meaningsVi": [
+        "nhỏ, vụn, li ti",
+        "chi tiết, tỉ mỉ"
+      ],
+      "noteVi": "細かいお金: tiền lẻ; 細かい字: chữ nhỏ li ti; 細かい説明: giải thích chi tiết. Nói về người: tỉ mỉ, chi li.",
+      "examples": [
+        {
+          "ja": "細かいお金がありますか。",
+          "vi": "Bạn có tiền lẻ không?"
+        },
+        {
+          "ja": "字が細かくて、読みにくいです。",
+          "vi": "Chữ nhỏ quá nên khó đọc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1194,
+      "word": "複雑",
+      "meaningsVi": [
+        "phức tạp"
+      ],
+      "noteVi": "Âm Hán Việt \"phức tạp\", nghĩa như tiếng Việt. Tính từ đuôi な. Ngược nghĩa: 簡単.",
+      "examples": [
+        {
+          "ja": "この問題は複雑で、よくわかりません。",
+          "vi": "Vấn đề này phức tạp, tôi không hiểu lắm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1098,
+      "word": "道具",
+      "meaningsVi": [
+        "dụng cụ, đồ nghề"
+      ],
+      "noteVi": "Âm Hán Việt \"đạo cụ\", nhưng nghĩa thường gặp là dụng cụ, đồ dùng để làm việc gì (料理の道具: dụng cụ nấu ăn).",
+      "examples": [
+        {
+          "ja": "料理の道具を買いに行きます。",
+          "vi": "Tôi đi mua dụng cụ nấu ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1128,
+      "word": "苦い",
+      "meaningsVi": [
+        "đắng"
+      ],
+      "noteVi": "Âm Hán Việt \"khổ\" (khổ qua: mướp đắng). Phân biệt: 甘い (ngọt), 辛い (cay), 苦い (đắng).",
+      "examples": [
+        {
+          "ja": "この薬は苦くて、飲みにくいです。",
+          "vi": "Thuốc này đắng nên khó uống."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1000,
+      "word": "滑る",
+      "meaningsVi": [
+        "trượt, trơn"
+      ],
+      "noteVi": "Tự động từ: 道が滑る (đường trơn). Ngã vì trượt: 滑って転ぶ.",
+      "examples": [
+        {
+          "ja": "雪の日は道が滑りやすいです。",
+          "vi": "Ngày có tuyết, đường dễ trơn trượt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 695,
+      "word": "謝る",
+      "meaningsVi": [
+        "xin lỗi (ai)"
+      ],
+      "noteVi": "Xin lỗi ai: 〜に謝る. 謝る là hành động xin lỗi; câu nói xin lỗi là すみません, ごめんなさい.",
+      "examples": [
+        {
+          "ja": "遅れたので、先生に謝りました。",
+          "vi": "Tôi đến muộn nên đã xin lỗi thầy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1298,
+      "word": "別れる",
+      "meaningsVi": [
+        "chia tay, chia tay nhau"
+      ],
+      "noteVi": "Chia tay với ai: 〜と別れる (cả nghĩa chia tay người yêu).",
+      "examples": [
+        {
+          "ja": "駅で友達と別れました。",
+          "vi": "Tôi chia tay bạn ở nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 841,
+      "word": "着物",
+      "meaningsVi": [
+        "kimono (áo truyền thống Nhật)"
+      ],
+      "noteVi": "Âm Hán Việt \"trước vật\": 着 (mặc) + 物 (đồ). Ngày nay chỉ trang phục truyền thống của Nhật; quần áo nói chung là 服.",
+      "examples": [
+        {
+          "ja": "京都で初めて着物を着ました。",
+          "vi": "Ở Kyoto tôi lần đầu mặc kimono."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 943,
+      "word": "下着",
+      "meaningsVi": [
+        "đồ lót"
+      ],
+      "noteVi": "Âm Hán Việt \"hạ trước\": đồ mặc bên dưới. Đếm bằng 枚.",
+      "examples": [
+        {
+          "ja": "旅行のかばんに下着を3枚入れました。",
+          "vi": "Tôi cho 3 bộ đồ lót vào túi du lịch."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 986,
+      "word": "スーツ",
+      "meaningsVi": [
+        "bộ vest, com-lê (nam và nữ)"
+      ],
+      "noteVi": "Từ tiếng Anh suit. Gần nghĩa 背広 (com-lê nam, nghe hơi cũ).",
+      "examples": [
+        {
+          "ja": "会社へはスーツを着て行きます。",
+          "vi": "Tôi mặc vest đi làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 931,
+      "word": "サンダル",
+      "meaningsVi": [
+        "dép xăng-đan"
+      ],
+      "noteVi": "Mang (đi) dép: サンダルをはく (như 靴をはく).",
+      "examples": [
+        {
+          "ja": "このサンダルは軽くて、歩きやすいです。",
+          "vi": "Đôi xăng-đan này nhẹ và dễ đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 679,
+      "word": "合う",
+      "meaningsVi": [
+        "hợp, vừa",
+        "khớp, đúng"
+      ],
+      "noteVi": "Hợp với cái gì, vừa với cái gì: 〜に合う (足に合う靴: giày vừa chân). Quần áo hợp với người mặc thường nói 似合う. Cùng cách đọc với 会う (gặp).",
+      "examples": [
+        {
+          "ja": "このネクタイはそのシャツによく合いますね。",
+          "vi": "Cái cà vạt này rất hợp với chiếc áo sơ mi đó nhỉ."
+        },
+        {
+          "ja": "この靴は私の足に合いません。",
+          "vi": "Đôi giày này không vừa chân tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "安",
+      "meaningVi": "yên, an; rẻ",
+      "noteVi": "Gặp trong 安い (やすい), 安心 (あんしん). Mái nhà 宀 + 女: người phụ nữ trong nhà thì yên ổn.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "着",
+      "meaningVi": "mặc; đến nơi",
+      "noteVi": "Gặp trong 着る (きる), 着く (つく), 着物 (きもの), 下着 (したぎ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "服",
+      "meaningVi": "quần áo",
+      "noteVi": "Gặp trong 服 (ふく), 洋服 (ようふく). Bộ 月 bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "使",
+      "meaningVi": "dùng, sai khiến",
+      "noteVi": "Gặp trong 使う (つかう), 大使館 (たいしかん). Bộ 亻 (người) + 吏.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "道",
+      "meaningVi": "đường; đạo",
+      "noteVi": "Gặp trong 道 (みち), 道具 (どうぐ), 柔道 (じゅうどう). Bộ 辶 (bước đi) + 首.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "楽",
+      "meaningVi": "vui; nhạc",
+      "noteVi": "Gặp trong 楽しい (たのしい), 音楽 (おんがく). Âm Hán Việt \"lạc\" (vui) và \"nhạc\".",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "te-hoshii",
+      "titleVi": "〜てほしい: muốn (người khác) làm gì",
+      "summaryVi": "N に + V-て + ほしい: mong người khác làm gì: 母に早く元気になってほしいです.",
+      "explanationVi": [
+        "**〜たい** là mình muốn làm; **〜てほしい** là muốn **người khác** làm gì (hoặc mong một việc xảy ra): 「母に早く元気になってほしいです」 (Tôi muốn mẹ mau khỏe lại). Người làm việc đó đi với **に**; với việc không do ý muốn của ai (khỏi bệnh, mưa tạnh) cũng có thể dùng が: 「早く雨が止んでほしい」. Tiếng Việt dùng \"muốn\" cho cả hai trường hợp, nên người Việt hay dùng nhầm 〜たい.",
+        "Cách ghép: V-て + ほしい (来てほしい, 手伝ってほしい). Muốn người khác **đừng** làm: **V-ないで + ほしい** (吸わないでほしい). ほしい chia như tính từ đuôi い: ほしかった, ほしくない.",
+        "Nói thẳng 〜てほしいです với người trên nghe như đòi hỏi. Khi nhờ, dùng 〜てくださいませんか, 〜ていただけませんか (đã học). ぜひ hay đi kèm: 「ぜひ来てほしいです」."
+      ],
+      "patterns": [
+        "N に + V-て + ほしいです",
+        "N に + V-ないで + ほしいです"
+      ],
+      "examples": [
+        {
+          "ja": "母に早く元気になってほしいです。",
+          "vi": "Tôi muốn mẹ mau khỏe lại."
+        },
+        {
+          "ja": "ここでたばこを吸わないでほしいです。",
+          "vi": "Tôi mong anh đừng hút thuốc ở đây."
+        },
+        {
+          "ja": "ぜひ私の家に遊びに来てほしいです。",
+          "vi": "Tôi rất mong bạn đến nhà tôi chơi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は母が早く元気になりたいです。",
+          "right": "私は母に早く元気になってほしいです。",
+          "noteVi": "〜たい chỉ dùng cho việc chính mình muốn làm. Muốn người khác làm gì: N に + V-て + ほしい."
+        },
+        {
+          "wrong": "ここでたばこを吸わなくてほしいです。",
+          "right": "ここでたばこを吸わないでほしいです。",
+          "noteVi": "Muốn ai đừng làm: thể ない + で + ほしい (không dùng なくて)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "tagaru",
+      "titleVi": "〜たがる: (người khác) muốn",
+      "summaryVi": "V (bỏ ます) + たがる: nói mong muốn của người khác: 弟は日本へ行きたがっています.",
+      "explanationVi": [
+        "Tiếng Nhật không nói thẳng mong muốn bên trong của người khác bằng 〜たい: 「弟は日本へ行きたいです」 nghe như mình biết rõ lòng em trai. Thay vào đó dùng **〜たがる** (thường ở dạng **たがっている**): 「弟は日本へ行きたがっています」 (Em trai tôi muốn đi Nhật; nhìn lời nói, thái độ thì thấy vậy).",
+        "Cách ghép: V-ます bỏ ます + たがる: 行きます → 行きたがる, 食べます → 食べたがる. たがる chia như động từ nhóm 1: たがります, たがっています, たがらない. Tân ngữ đi với **を** (không dùng が như với たい): 「おもちゃを買いたがっています」.",
+        "Dạng **たがる** (không có ている) nói thói quen, xu hướng chung: 「子供はいつも外で遊びたがります」. Ngoài たがる còn có thể nói 〜たいと言っています (nói là muốn), 〜たいそうです (nghe nói muốn)."
+      ],
+      "patterns": [
+        "V (bỏ ます) + たがっています",
+        "V (bỏ ます) + たがります (thói quen)",
+        "N を + V-たがる"
+      ],
+      "examples": [
+        {
+          "ja": "弟は日本へ行きたがっています。",
+          "vi": "Em trai tôi muốn đi Nhật."
+        },
+        {
+          "ja": "子供はいつも外で遊びたがります。",
+          "vi": "Trẻ con lúc nào cũng muốn ra ngoài chơi."
+        },
+        {
+          "ja": "息子は新しいおもちゃを買いたがっています。",
+          "vi": "Con trai tôi muốn mua đồ chơi mới."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "弟は日本へ行きたいです。",
+          "right": "弟は日本へ行きたがっています。",
+          "noteVi": "Mong muốn của người khác không nói bằng 〜たいです; dùng たがっている (hoặc 行きたいと言っています)."
+        },
+        {
+          "wrong": "息子は新しいおもちゃが買いたがっています。",
+          "right": "息子は新しいおもちゃを買いたがっています。",
+          "noteVi": "Với たがる, tân ngữ đi với を, không dùng が."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "garu",
+      "titleVi": "〜がる: (người khác) tỏ ra, cảm thấy",
+      "summaryVi": "Tính từ cảm xúc + がる: nói cảm xúc người khác thể hiện ra ngoài: 妹は犬を怖がっています (Em gái tôi sợ chó).",
+      "explanationVi": [
+        "Tính từ chỉ cảm giác (怖い, 寒い, 痛い, 欲しい, 残念…) dùng cho **chính người nói**: 「犬が怖いです」 (Tôi sợ chó). Nói về **người khác**, ta chỉ thấy được biểu hiện bên ngoài, nên thêm **がる** (thường ở dạng がっている): 「妹は犬を怖がっています」.",
+        "Cách ghép: **tính từ đuôi い bỏ い** + がる: 怖い → 怖がる, 寒い → 寒がる, 欲しい → 欲しがる; **tính từ đuôi な** + がる: 残念 → 残念がる, 嫌 → 嫌がる. がる chia như động từ nhóm 1: がります, がっています.",
+        "Đối tượng của cảm xúc đổi từ が sang **を**: 「犬が怖い」 → 「犬を怖がる」, 「車が欲しい」 → 「車を欲しがる」."
+      ],
+      "patterns": [
+        "Aい (bỏ い) + がっています",
+        "Aな + がっています",
+        "N を + 〜がる"
+      ],
+      "examples": [
+        {
+          "ja": "妹は犬を怖がっています。",
+          "vi": "Em gái tôi sợ chó."
+        },
+        {
+          "ja": "田中さんは新しい車を欲しがっています。",
+          "vi": "Anh Tanaka muốn có một chiếc xe hơi mới."
+        },
+        {
+          "ja": "息子はいつも寒がっています。",
+          "vi": "Con trai tôi lúc nào cũng kêu lạnh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "妹は犬が怖がっています。",
+          "right": "妹は犬を怖がっています。",
+          "noteVi": "Với 〜がる, đối tượng đi với を: 犬を怖がる (nhưng 犬が怖い)."
+        },
+        {
+          "wrong": "妹は犬が怖いです。",
+          "right": "妹は犬を怖がっています。",
+          "noteVi": "Nói cảm xúc của người khác thì dùng 〜がっている; 犬が怖いです là cảm xúc của chính người nói."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "yasui-nikui",
+      "titleVi": "〜やすい / 〜にくい: dễ / khó (làm gì)",
+      "summaryVi": "V (bỏ ます) + やすい / にくい: このペンは書きやすいです (Bút này dễ viết), 字が細かくて読みにくいです.",
+      "explanationVi": [
+        "**V-ます bỏ ます + やすい** nghĩa là \"**dễ** (làm gì)\", **+ にくい** là \"**khó** (làm gì)\": 書きます → 書きやすい (dễ viết), 読みます → 読みにくい (khó đọc), 使います → 使いやすい (dễ dùng). Chủ ngữ thường là đồ vật, nơi chốn có tính chất làm cho việc đó dễ hay khó.",
+        "〜やすい, 〜にくい chia như **tính từ đuôi い**: 読みやすかった, 読みにくくない, 読みやすくて. 〜やすい còn nói **dễ xảy ra** (thường là chuyện không tốt): 「雪の日は道が滑りやすいです」, 「このコップは割れやすいです」.",
+        "Tiếng Việt dùng \"khó\" cho mọi trường hợp, tiếng Nhật thì phân biệt: **難しい** nói nội dung khó (この問題は難しい); **〜にくい** nói **hành động** khó làm vì tính chất của vật (この字は小さくて読みにくい)."
+      ],
+      "patterns": [
+        "V (bỏ ます) + やすいです",
+        "V (bỏ ます) + にくいです"
+      ],
+      "examples": [
+        {
+          "ja": "このペンは書きやすいです。",
+          "vi": "Cây bút này dễ viết."
+        },
+        {
+          "ja": "字が細かくて、読みにくいです。",
+          "vi": "Chữ nhỏ quá nên khó đọc."
+        },
+        {
+          "ja": "雪の日は道が滑りやすいです。",
+          "vi": "Ngày có tuyết, đường dễ trơn trượt."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この本は読むやすいです。",
+          "right": "この本は読みやすいです。",
+          "noteVi": "Dùng dạng ます bỏ ます (読み), không dùng thể từ điển (読む)."
+        },
+        {
+          "wrong": "昨日の道は歩きにくいでした。",
+          "right": "昨日の道は歩きにくかったです。",
+          "noteVi": "〜にくい chia như tính từ đuôi い: quá khứ là にくかったです."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-17-e01",
+      "type": "choice",
+      "grammar": [
+        "te-hoshii"
+      ],
+      "promptVi": "\"Tôi muốn mẹ mau khỏe lại.\" Chọn câu đúng.",
+      "options": [
+        "母に早く元気になってほしいです。",
+        "母は早く元気になりたいです。",
+        "母に早く元気になりたいです。"
+      ],
+      "answer": 0,
+      "explainVi": "Muốn người khác làm gì, thành ra sao: N に + V-て + ほしい. 〜たい chỉ cho việc của chính mình."
+    },
+    {
+      "id": "n4-17-e02",
+      "type": "fill",
+      "grammar": [
+        "te-hoshii"
+      ],
+      "before": "ここでたばこを吸わ",
+      "after": "ほしいです。",
+      "answers": [
+        "ないで"
+      ],
+      "options": [
+        "ないで",
+        "なくて",
+        "なかった"
+      ],
+      "vi": "Tôi mong anh đừng hút thuốc ở đây.",
+      "explainVi": "Muốn ai đừng làm: V-ないで + ほしい."
+    },
+    {
+      "id": "n4-17-e03",
+      "type": "choice",
+      "grammar": [
+        "te-hoshii"
+      ],
+      "promptVi": "\"Tôi muốn anh Tanaka giúp tôi.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "田中さん＿手伝ってほしいです。",
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 0,
+      "explainVi": "Người mà mình muốn làm việc đó đi với に."
+    },
+    {
+      "id": "n4-17-e04",
+      "type": "order",
+      "grammar": [
+        "te-hoshii"
+      ],
+      "vi": "Tôi rất mong bạn đến nhà tôi chơi.",
+      "tiles": [
+        "ぜひ",
+        "私の家に",
+        "遊びに",
+        "来て",
+        "ほしいです"
+      ],
+      "answers": [
+        "ぜひ私の家に遊びに来てほしいです"
+      ]
+    },
+    {
+      "id": "n4-17-e05",
+      "type": "choice",
+      "grammar": [
+        "tagaru"
+      ],
+      "promptVi": "\"Con trai tôi muốn mua đồ chơi mới.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "息子は新しいおもちゃを買い＿。",
+      "options": [
+        "たがっています",
+        "たいです",
+        "たがりません"
+      ],
+      "answer": 0,
+      "explainVi": "Mong muốn của người khác: たがっている. たがりません là \"không muốn\"."
+    },
+    {
+      "id": "n4-17-e06",
+      "type": "fill",
+      "grammar": [
+        "tagaru"
+      ],
+      "before": "子供はいつも外で遊び",
+      "after": "。",
+      "answers": [
+        "たがります"
+      ],
+      "options": [
+        "たがります",
+        "たいです",
+        "たくないです"
+      ],
+      "vi": "Trẻ con lúc nào cũng muốn ra ngoài chơi.",
+      "explainVi": "Nói về xu hướng của người khác: たがります."
+    },
+    {
+      "id": "n4-17-e07",
+      "type": "choice",
+      "grammar": [
+        "tagaru"
+      ],
+      "promptVi": "\"Anh Tanaka muốn ăn món Nhật.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "田中さんは日本の料理＿食べたがっています。",
+      "options": [
+        "を",
+        "が",
+        "に"
+      ],
+      "answer": 0,
+      "explainVi": "Với たがる, tân ngữ đi với を."
+    },
+    {
+      "id": "n4-17-e08",
+      "type": "order",
+      "grammar": [
+        "tagaru"
+      ],
+      "vi": "Con gái tôi muốn đi Nhật.",
+      "tiles": [
+        "娘は",
+        "日本へ",
+        "行き",
+        "たがって",
+        "います"
+      ],
+      "answers": [
+        "娘は日本へ行きたがっています"
+      ]
+    },
+    {
+      "id": "n4-17-e09",
+      "type": "choice",
+      "grammar": [
+        "garu"
+      ],
+      "promptVi": "Nói về em gái mình: \"Em gái tôi sợ chó.\" Chọn câu đúng.",
+      "options": [
+        "妹は犬を怖がっています。",
+        "妹は犬が怖がっています。",
+        "妹は犬を怖くなっています。"
+      ],
+      "answer": 0,
+      "explainVi": "Cảm xúc của người khác: 〜がっている, đối tượng đi với を."
+    },
+    {
+      "id": "n4-17-e10",
+      "type": "fill",
+      "grammar": [
+        "garu"
+      ],
+      "before": "田中さんは新しい車を",
+      "after": "います。",
+      "answers": [
+        "欲しがって"
+      ],
+      "options": [
+        "欲しがって",
+        "欲しくて",
+        "欲しくなって"
+      ],
+      "vi": "Anh Tanaka muốn có một chiếc xe hơi mới.",
+      "explainVi": "欲しい (người khác) → 欲しがっている."
+    },
+    {
+      "id": "n4-17-e11",
+      "type": "choice",
+      "grammar": [
+        "garu"
+      ],
+      "promptVi": "\"Anh Tanaka không đi được nên rất tiếc.\" (nói về anh Tanaka) Chọn từ đúng điền vào chỗ trống.",
+      "ja": "田中さんは行けなくて、とても＿います。",
+      "options": [
+        "残念がって",
+        "残念で",
+        "残念に"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đuôi な + がる: 残念がる."
+    },
+    {
+      "id": "n4-17-e12",
+      "type": "order",
+      "grammar": [
+        "garu"
+      ],
+      "vi": "Con trai tôi lúc nào cũng kêu lạnh.",
+      "tiles": [
+        "息子は",
+        "いつも",
+        "寒がって",
+        "います"
+      ],
+      "answers": [
+        "息子はいつも寒がっています"
+      ]
+    },
+    {
+      "id": "n4-17-e13",
+      "type": "fill",
+      "grammar": [
+        "yasui-nikui"
+      ],
+      "before": "このペンは書き",
+      "after": "です。",
+      "answers": [
+        "やすい"
+      ],
+      "options": [
+        "やすい",
+        "にくい",
+        "たい"
+      ],
+      "vi": "Cây bút này dễ viết."
+    },
+    {
+      "id": "n4-17-e14",
+      "type": "choice",
+      "grammar": [
+        "yasui-nikui"
+      ],
+      "promptVi": "\"Chữ nhỏ quá nên khó đọc.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "字が細かくて、＿です。",
+      "options": [
+        "読みにくい",
+        "読みやすい",
+        "読みたい"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-17-e15",
+      "type": "choice",
+      "grammar": [
+        "yasui-nikui"
+      ],
+      "promptVi": "\"Con đường hôm qua khó đi.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "昨日の道は＿。",
+      "options": [
+        "歩きにくかったです",
+        "歩きやすかったです",
+        "歩きにくくないです"
+      ],
+      "answer": 0,
+      "explainVi": "〜にくい chia như tính từ đuôi い: quá khứ にくかった."
+    },
+    {
+      "id": "n4-17-e16",
+      "type": "order",
+      "grammar": [
+        "yasui-nikui"
+      ],
+      "vi": "Ngày có tuyết, đường dễ trơn trượt.",
+      "tiles": [
+        "雪の日は",
+        "道が",
+        "滑り",
+        "やすいです"
+      ],
+      "answers": [
+        "雪の日は道が滑りやすいです"
+      ]
+    },
+    {
+      "id": "n4-17-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "堅い",
+          "cứng"
+        ],
+        [
+          "柔らかい",
+          "mềm"
+        ],
+        [
+          "細かい",
+          "nhỏ, chi tiết"
+        ],
+        [
+          "苦い",
+          "đắng"
+        ],
+        [
+          "複雑",
+          "phức tạp"
+        ]
+      ]
+    },
+    {
+      "id": "n4-17-e18",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "着物",
+          "kimono"
+        ],
+        [
+          "下着",
+          "đồ lót"
+        ],
+        [
+          "スーツ",
+          "bộ vest"
+        ],
+        [
+          "サンダル",
+          "dép xăng-đan"
+        ],
+        [
+          "道具",
+          "dụng cụ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-17-e19",
+      "type": "choice",
+      "promptVi": "\"Mẹ gọi điện đến nên tôi đã yên tâm.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "母から電話があって、＿しました。",
+      "options": [
+        "安心",
+        "心配",
+        "残念"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-17-e20",
+      "type": "choice",
+      "promptVi": "\"Cái cà vạt này rất hợp với chiếc áo sơ mi đó nhỉ.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "このネクタイはそのシャツによく＿ね。",
+      "options": [
+        "合います",
+        "会います",
+        "着ます"
+      ],
+      "answer": 0,
+      "explainVi": "Hợp, vừa: 合う. 会う (cùng cách đọc) là gặp."
+    },
+    {
+      "id": "n4-17-e21",
+      "type": "translate",
+      "grammar": [
+        "te-hoshii"
+      ],
+      "vi": "Tôi muốn mẹ mau khỏe lại.",
+      "answers": [
+        "(私は)母に早く元気になってほしいです。",
+        "(私は)母[に|が]早く元気になってほしいです。"
+      ],
+      "examples": [
+        {
+          "answer": "ははにはやくげんきになってほしいです",
+          "score": 100
+        },
+        {
+          "answer": "母を早く元気になってほしいです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "母に早く元気になりたいです。",
+          "score": 0
+        },
+        {
+          "answer": "母に早く元気になってほしくないです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-17-e22",
+      "type": "translate",
+      "grammar": [
+        "tagaru"
+      ],
+      "vi": "Em trai tôi muốn đi Nhật. (dùng 〜たがる)",
+      "answers": [
+        "弟は日本へ行きたがっています。",
+        "弟は日本[へ|に]行きたがっています。"
+      ],
+      "examples": [
+        {
+          "answer": "おとうとはにほんへいきたがっています",
+          "score": 100
+        },
+        {
+          "answer": "弟は日本で行きたがっています。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "弟は日本へ行きたいです。",
+          "score": 0
+        },
+        {
+          "answer": "弟は日本へ行きたがっていません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-17-e23",
+      "type": "translate",
+      "grammar": [
+        "garu"
+      ],
+      "vi": "Em gái tôi sợ chó. (dùng 〜がる)",
+      "answers": [
+        "妹は犬を怖がっています。"
+      ],
+      "examples": [
+        {
+          "answer": "いもうとはいぬをこわがっています",
+          "score": 100
+        },
+        {
+          "answer": "妹は犬が怖がっています。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "妹は犬を怖がっていません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-17-e24",
+      "type": "translate",
+      "grammar": [
+        "yasui-nikui"
+      ],
+      "vi": "Chữ nhỏ quá nên khó đọc.",
+      "answers": [
+        "字が細かくて、読みにくいです。",
+        "字が[細かくて|小さくて]、読みにくいです。",
+        "字が[細かい|小さい][ので|から]、読みにくいです。"
+      ],
+      "examples": [
+        {
+          "answer": "じがこまかくて、よみにくいです",
+          "score": 100
+        },
+        {
+          "answer": "字が細かいくて、読みにくいです。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "字が細かくて、読みやすいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-17-e25",
+      "type": "question",
+      "grammar": [
+        "yasui-nikui"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "そのサンダルはどうですか。",
+        "promptVi": "\"Đôi xăng-đan đó thế nào?\" Hãy trả lời: nhẹ và dễ đi.",
+        "answers": [
+          "軽くて、歩きやすいです。",
+          "(このサンダルは)(とても)軽くて、歩きやすいです。"
+        ],
+        "examples": [
+          {
+            "answer": "かるくて、あるきやすいです",
+            "score": 100
+          },
+          {
+            "answer": "軽いくて、歩きやすいです。",
+            "score": 80,
+            "issues": [
+              "adjective_form"
+            ]
+          },
+          {
+            "answer": "重くて、歩きにくいです。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "母から電話があって、安心しました。": "{母|はは}から{電|でん}{話|わ}があって、{安|あん}{心|しん}しました。",
+    "そのニュースを聞いて、とても驚きました。": "そのニュースを{聞|き}いて、とても{驚|おどろ}きました。",
+    "パーティーに行けなくて、残念です。": "パーティーに{行|い}けなくて、{残|ざん}{念|ねん}です。",
+    "急に大きな音がして、びっくりしました。": "{急|きゅう}に{大|おお}きな{音|おと}がして、びっくりしました。",
+    "朝の散歩は気持ちがいいです。": "{朝|あさ}の{散|さん}{歩|ぽ}は{気|き}{持|も}ちがいいです。",
+    "彼女の気持ちがよくわかります。": "{彼|かの}{女|じょ}の{気|き}{持|も}ちがよくわかります。",
+    "田中さんは心の優しい人です。": "{田中|たなか}さんは{心|こころ}の{優|やさ}しい{人|ひと}です。",
+    "ぜひ私の国へ遊びに来てください。": "ぜひ{私|わたし}の{国|くに}へ{遊|あそ}びに{来|き}てください。",
+    "この木は堅いので、切りにくいです。": "この{木|き}は{堅|かた}いので、{切|き}りにくいです。",
+    "このパンは柔らかくて、おいしいです。": "このパンは{柔|やわ}らかくて、おいしいです。",
+    "細かいお金がありますか。": "{細|こま}かいお{金|かね}がありますか。",
+    "字が細かくて、読みにくいです。": "{字|じ}が{細|こま}かくて、{読|よ}みにくいです。",
+    "この問題は複雑で、よくわかりません。": "この{問|もん}{題|だい}は{複|ふく}{雑|ざつ}で、よくわかりません。",
+    "料理の道具を買いに行きます。": "{料|りょう}{理|り}の{道|どう}{具|ぐ}を{買|か}いに{行|い}きます。",
+    "この薬は苦くて、飲みにくいです。": "この{薬|くすり}は{苦|にが}くて、{飲|の}みにくいです。",
+    "雪の日は道が滑りやすいです。": "{雪|ゆき}の{日|ひ}は{道|みち}が{滑|すべ}りやすいです。",
+    "遅れたので、先生に謝りました。": "{遅|おく}れたので、{先|せん}{生|せい}に{謝|あやま}りました。",
+    "駅で友達と別れました。": "{駅|えき}で{友|とも}{達|だち}と{別|わか}れました。",
+    "京都で初めて着物を着ました。": "{京都|きょうと}で{初|はじ}めて{着|き}{物|もの}を{着|き}ました。",
+    "旅行のかばんに下着を3枚入れました。": "{旅|りょ}{行|こう}のかばんに{下|した}{着|ぎ}を3{枚|まい}{入|い}れました。",
+    "会社へはスーツを着て行きます。": "{会|かい}{社|しゃ}へはスーツを{着|き}て{行|い}きます。",
+    "このサンダルは軽くて、歩きやすいです。": "このサンダルは{軽|かる}くて、{歩|ある}きやすいです。",
+    "このネクタイはそのシャツによく合いますね。": "このネクタイはそのシャツによく{合|あ}いますね。",
+    "この靴は私の足に合いません。": "この{靴|くつ}は{私|わたし}の{足|あし}に{合|あ}いません。",
+    "母に早く元気になってほしいです。": "{母|はは}に{早|はや}く{元|げん}{気|き}になってほしいです。",
+    "ここでたばこを吸わないでほしいです。": "ここでたばこを{吸|す}わないでほしいです。",
+    "ぜひ私の家に遊びに来てほしいです。": "ぜひ{私|わたし}の{家|いえ}に{遊|あそ}びに{来|き}てほしいです。",
+    "私は母に早く元気になってほしいです。": "{私|わたし}は{母|はは}に{早|はや}く{元|げん}{気|き}になってほしいです。",
+    "私は母が早く元気になりたいです。": "{私|わたし}は{母|はは}が{早|はや}く{元|げん}{気|き}になりたいです。",
+    "ここでたばこを吸わなくてほしいです。": "ここでたばこを{吸|す}わなくてほしいです。",
+    "弟は日本へ行きたがっています。": "{弟|おとうと}は{日本|にほん}へ{行|い}きたがっています。",
+    "子供はいつも外で遊びたがります。": "{子|こ}{供|ども}はいつも{外|そと}で{遊|あそ}びたがります。",
+    "息子は新しいおもちゃを買いたがっています。": "{息子|むすこ}は{新|あたら}しいおもちゃを{買|か}いたがっています。",
+    "弟は日本へ行きたいです。": "{弟|おとうと}は{日本|にほん}へ{行|い}きたいです。",
+    "息子は新しいおもちゃが買いたがっています。": "{息子|むすこ}は{新|あたら}しいおもちゃが{買|か}いたがっています。",
+    "妹は犬を怖がっています。": "{妹|いもうと}は{犬|いぬ}を{怖|こわ}がっています。",
+    "田中さんは新しい車を欲しがっています。": "{田中|たなか}さんは{新|あたら}しい{車|くるま}を{欲|ほ}しがっています。",
+    "息子はいつも寒がっています。": "{息子|むすこ}はいつも{寒|さむ}がっています。",
+    "妹は犬が怖がっています。": "{妹|いもうと}は{犬|いぬ}が{怖|こわ}がっています。",
+    "妹は犬が怖いです。": "{妹|いもうと}は{犬|いぬ}が{怖|こわ}いです。",
+    "このペンは書きやすいです。": "このペンは{書|か}きやすいです。",
+    "この本は読みやすいです。": "この{本|ほん}は{読|よ}みやすいです。",
+    "この本は読むやすいです。": "この{本|ほん}は{読|よ}むやすいです。",
+    "昨日の道は歩きにくかったです。": "{昨日|きのう}の{道|みち}は{歩|ある}きにくかったです。",
+    "昨日の道は歩きにくいでした。": "{昨日|きのう}の{道|みち}は{歩|ある}きにくいでした。",
+    "母は早く元気になりたいです。": "{母|はは}は{早|はや}く{元|げん}{気|き}になりたいです。",
+    "母に早く元気になりたいです。": "{母|はは}に{早|はや}く{元|げん}{気|き}になりたいです。",
+    "ないで": "ないで",
+    "なくて": "なくて",
+    "なかった": "なかった",
+    "田中さん＿手伝ってほしいです。": "{田中|たなか}さん＿{手伝|てつだ}ってほしいです。",
+    "に": "に",
+    "を": "を",
+    "で": "で",
+    "ぜひ": "ぜひ",
+    "私の家に": "{私|わたし}の{家|いえ}に",
+    "遊びに": "{遊|あそ}びに",
+    "来て": "{来|き}て",
+    "ほしいです": "ほしいです",
+    "ぜひ私の家に遊びに来てほしいです": "ぜひ{私|わたし}の{家|いえ}に{遊|あそ}びに{来|き}てほしいです",
+    "息子は新しいおもちゃを買い＿。": "{息子|むすこ}は{新|あたら}しいおもちゃを{買|か}い＿。",
+    "たがっています": "たがっています",
+    "たいです": "たいです",
+    "たがりません": "たがりません",
+    "たがります": "たがります",
+    "たくないです": "たくないです",
+    "田中さんは日本の料理＿食べたがっています。": "{田中|たなか}さんは{日本|にほん}の{料|りょう}{理|り}＿{食|た}べたがっています。",
+    "が": "が",
+    "娘は": "{娘|むすめ}は",
+    "日本へ": "{日本|にほん}へ",
+    "行き": "{行|い}き",
+    "たがって": "たがって",
+    "います": "います",
+    "娘は日本へ行きたがっています": "{娘|むすめ}は{日本|にほん}へ{行|い}きたがっています",
+    "妹は犬を怖くなっています。": "{妹|いもうと}は{犬|いぬ}を{怖|こわ}くなっています。",
+    "欲しがって": "{欲|ほ}しがって",
+    "欲しくて": "{欲|ほ}しくて",
+    "欲しくなって": "{欲|ほ}しくなって",
+    "田中さんは行けなくて、とても＿います。": "{田中|たなか}さんは{行|い}けなくて、とても＿います。",
+    "残念がって": "{残|ざん}{念|ねん}がって",
+    "残念で": "{残|ざん}{念|ねん}で",
+    "残念に": "{残|ざん}{念|ねん}に",
+    "息子は": "{息子|むすこ}は",
+    "いつも": "いつも",
+    "寒がって": "{寒|さむ}がって",
+    "息子はいつも寒がっています": "{息子|むすこ}はいつも{寒|さむ}がっています",
+    "やすい": "やすい",
+    "にくい": "にくい",
+    "たい": "たい",
+    "字が細かくて、＿です。": "{字|じ}が{細|こま}かくて、＿です。",
+    "読みにくい": "{読|よ}みにくい",
+    "読みやすい": "{読|よ}みやすい",
+    "読みたい": "{読|よ}みたい",
+    "昨日の道は＿。": "{昨日|きのう}の{道|みち}は＿。",
+    "歩きにくかったです": "{歩|ある}きにくかったです",
+    "歩きやすかったです": "{歩|ある}きやすかったです",
+    "歩きにくくないです": "{歩|ある}きにくくないです",
+    "雪の日は": "{雪|ゆき}の{日|ひ}は",
+    "道が": "{道|みち}が",
+    "滑り": "{滑|すべ}り",
+    "やすいです": "やすいです",
+    "雪の日は道が滑りやすいです": "{雪|ゆき}の{日|ひ}は{道|みち}が{滑|すべ}りやすいです",
+    "堅い": "{堅|かた}い",
+    "柔らかい": "{柔|やわ}らかい",
+    "細かい": "{細|こま}かい",
+    "苦い": "{苦|にが}い",
+    "複雑": "{複|ふく}{雑|ざつ}",
+    "着物": "{着|き}{物|もの}",
+    "下着": "{下|した}{着|ぎ}",
+    "スーツ": "スーツ",
+    "サンダル": "サンダル",
+    "道具": "{道|どう}{具|ぐ}",
+    "母から電話があって、＿しました。": "{母|はは}から{電|でん}{話|わ}があって、＿しました。",
+    "安心": "{安|あん}{心|しん}",
+    "心配": "{心|しん}{配|ぱい}",
+    "残念": "{残|ざん}{念|ねん}",
+    "このネクタイはそのシャツによく＿ね。": "このネクタイはそのシャツによく＿ね。",
+    "合います": "{合|あ}います",
+    "会います": "{会|あ}います",
+    "着ます": "{着|き}ます",
+    "字が細かいので、読みにくいです。": "{字|じ}が{細|こま}かいので、{読|よ}みにくいです。",
+    "そのサンダルはどうですか。": "そのサンダルはどうですか。",
+    "軽くて、歩きやすいです。": "{軽|かる}くて、{歩|ある}きやすいです。",
+    "このサンダルはとても軽くて、歩きやすいです。": "このサンダルはとても{軽|かる}くて、{歩|ある}きやすいです。"
+  }
+}
