@@ -24,8 +24,8 @@ export const ROUTES: readonly RouteDef[] = [
   { pattern: '/grammar/:id', tab: 'learn', load: () => import('./pages/grammar') },
   { pattern: '/review', tab: 'review', load: () => import('./pages/review') },
   { pattern: '/dict', tab: 'dict', load: () => import('./pages/dictionary') },
-  // Sections built in later phases of docs/plan.md show a placeholder until then.
-  { pattern: '/progress', tab: 'progress', load: () => import('./pages/soon') },
+  { pattern: '/progress', tab: 'progress', load: () => import('./pages/progress') },
+  { pattern: '/test/:level', tab: 'progress', load: () => import('./pages/level-test') },
   { pattern: '/settings', tab: 'settings', load: () => import('./pages/settings') },
   { pattern: '/about', tab: 'settings', load: () => import('./pages/about') },
 ];

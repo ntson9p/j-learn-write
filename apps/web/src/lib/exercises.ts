@@ -3,7 +3,7 @@
  * drills from a kana lesson's characters, reading drills from its practice
  * words. Free answers (translate, question) go through the Japanese grader.
  */
-import { exerciseQuestion, hashString, rubyReading, translateQuestion, type Exercise, type KanaEntry, type KanaPractice } from '@j-learn-write/course';
+import { exerciseQuestion, hashString, rubyReading, translateQuestion, type Exercise, type KanaEntry, type KanaPractice, type ListWord, type WordContent } from '@j-learn-write/course';
 import { checkJaSentence, grade, normalizeJa, type GradeResult, type Issue } from '@j-learn-write/grader';
 import { romanize, type RomajiTable } from './romaji';
 
@@ -179,6 +179,39 @@ export function practiceDrills(lessonId: string, practice: readonly KanaPractice
     if (kind === 0) out.push(makeDrill(id, `「${p.ja}」nghĩa là gì?`, p.vi, others.map((x) => x.vi)));
     else if (kind === 1) out.push(makeDrill(id, `「${p.ja}」đọc là gì?`, romaji, others.map((x) => romanize(x.ja, table))));
     else out.push(makeDrill(id, 'Nghe và chọn từ đúng.', p.ja, others.map((x) => x.ja), { listen: p.ja }));
+  });
+  return out;
+}
+
+/**
+ * Drills on the words of a lesson (or level), with a fixed seed: meaning of
+ * a word, word for a meaning, kana reading of a word written in kanji, and
+ * (with a voice) the word for a sound. Wrong options never share the right
+ * option's meaning, spelling or reading.
+ */
+export function wordDrills(seed: string, words: readonly WordContent[], listed: ReadonlyMap<number, ListWord>, opts: { count: number; listening: boolean }): Drill[] {
+  const usable = words.filter((w) => listed.has(w.no) && w.meaningsVi[0]);
+  if (usable.length < 4) return [];
+  const picked = shuffle(usable, `${seed}#words`).slice(0, opts.count);
+  const out: Drill[] = [];
+  picked.forEach((w, i) => {
+    const lw = listed.get(w.no)!;
+    const hasKanji = lw.word !== lw.reading;
+    const kinds = ['meaning', 'word', ...(hasKanji ? ['reading'] : []), ...(opts.listening ? ['listen'] : [])];
+    const kind = kinds[i % kinds.length]!;
+    const others = shuffle(
+      usable.filter((x) => {
+        const lx = listed.get(x.no)!;
+        return x.no !== w.no && lx.word !== lw.word && lx.reading !== lw.reading && x.meaningsVi[0] !== w.meaningsVi[0];
+      }),
+      `${seed}#${w.no}#others`,
+    ).slice(0, 3);
+    if (others.length < 3) return;
+    const id = `${seed}-w${String(i + 1).padStart(2, '0')}`;
+    if (kind === 'meaning') out.push(makeDrill(id, `「${lw.word}」nghĩa là gì?`, w.meaningsVi[0]!, others.map((x) => x.meaningsVi[0]!)));
+    else if (kind === 'word') out.push(makeDrill(id, `Từ nào nghĩa là "${w.meaningsVi[0]}"?`, lw.word, others.map((x) => listed.get(x.no)!.word)));
+    else if (kind === 'reading') out.push(makeDrill(id, `「${lw.word}」đọc là gì?`, lw.reading, others.map((x) => listed.get(x.no)!.reading)));
+    else out.push(makeDrill(id, 'Nghe và chọn từ đúng.', lw.word, others.map((x) => listed.get(x.no)!.word), { listen: lw.reading }));
   });
   return out;
 }

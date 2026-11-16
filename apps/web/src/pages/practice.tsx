@@ -1,12 +1,12 @@
-import type { KanaEntry, Lesson } from '@j-learn-write/course';
+import type { KanaEntry, Lesson, ListWord } from '@j-learn-write/course';
 import { useState } from 'preact/hooks';
 import type { AnyExercise } from '../components/exercise';
 import { useAsync } from '../components/hooks';
 import type { PageProps } from '../components/lazy';
 import { ExerciseRun, type Answered } from '../components/run';
 import { MixedText, RubyContext } from '../components/text';
-import { findLesson, kanaList, kanaTaughtUpTo } from '../lib/content';
-import { kanaDrills, practiceDrills, type Drill } from '../lib/exercises';
+import { findLesson, kanaList, kanaTaughtUpTo, listWords } from '../lib/content';
+import { kanaDrills, practiceDrills, wordDrills, type Drill } from '../lib/exercises';
 import { recordExercise } from '../lib/progress';
 import { romajiTable } from '../lib/romaji';
 import { voices } from '../lib/speech';
@@ -14,7 +14,13 @@ import { href } from '../router';
 import { T } from '../strings';
 
 /** Generated drills of a lesson (kana stage: its kana and practice words). */
-export function lessonDrills(lesson: Lesson, kana: readonly KanaEntry[], taughtSoFar: readonly string[], listening: boolean): Drill[] {
+export function lessonDrills(
+  lesson: Lesson,
+  kana: readonly KanaEntry[],
+  taughtSoFar: readonly string[],
+  listening: boolean,
+  listed: ReadonlyMap<number, ListWord> = new Map(),
+): Drill[] {
   const content = lesson.content;
   if (!content) return [];
   const byChar = new Map(kana.map((k) => [k.kana, k]));
@@ -23,6 +29,7 @@ export function lessonDrills(lesson: Lesson, kana: readonly KanaEntry[], taughtS
   return [
     ...kanaDrills(id, entries(lesson.meta.kana ?? []), entries(taughtSoFar), { count: 6, listening }),
     ...practiceDrills(id, content.practice ?? [], romajiTable(kana), { count: 4, listening }),
+    ...wordDrills(id, content.words ?? [], listed, { count: 8, listening }),
   ];
 }
 
@@ -31,7 +38,7 @@ export default function PracticePage({ params }: PageProps) {
   const data = useAsync(async () => {
     const lesson = await findLesson(id);
     const taught = lesson?.meta.level === 'kana' ? await kanaTaughtUpTo(id) : [];
-    return { lesson, kana: await kanaList(), taught };
+    return { lesson, kana: await kanaList(), taught, listed: await listWords() };
   }, [id]);
   const [run, setRun] = useState(0);
   const [result, setResult] = useState<Answered[] | null>(null);
@@ -40,7 +47,7 @@ export default function PracticePage({ params }: PageProps) {
   const lesson = data.data?.lesson;
   if (!lesson?.content) return <p class="card">{T.lesson.notFound}</p>;
   const content = lesson.content;
-  const drills = lessonDrills(lesson, data.data!.kana, data.data!.taught, voices.value.length > 0);
+  const drills = lessonDrills(lesson, data.data!.kana, data.data!.taught, voices.value.length > 0, data.data!.listed);
   const list: AnyExercise[] = [...drills, ...content.exercises];
   const authored = new Set(content.exercises.map((e) => e.id));
 

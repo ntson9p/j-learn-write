@@ -15,7 +15,6 @@ export const T = {
   retry: 'Thử lại',
   notFound: 'Không tìm thấy trang này.',
   backHome: 'Về trang chính',
-  soon: 'Phần này đang được xây dựng.',
   back: 'Quay lại',
   draftBadge: 'Chưa duyệt',
   draftHint: 'Nội dung này là bản nháp, chưa được giáo viên duyệt.',
@@ -199,6 +198,37 @@ export const T = {
     corrected: 'Câu đã sửa:',
     suggestion: 'Đáp án tham khảo:',
     scoreLabel: (score: number) => `${score} trên 100 điểm`,
+  },
+
+  progress: {
+    title: 'Tiến độ',
+    streak: (n: number) => (n > 0 ? `Bạn đã học ${n} ngày liên tiếp` : 'Hãy học một chút mỗi ngày'),
+    cards: 'Thẻ ôn tập (từ và kanji)',
+    inReview: 'Thẻ trong ôn tập',
+    mature: 'Đã nhớ chắc',
+    learning: 'Đang học',
+    fresh: 'Chưa ôn lần nào',
+    due: 'Cần ôn bây giờ',
+    reviewsToday: 'Lượt ôn hôm nay',
+    lessons: 'Bài học đã hoàn thành',
+    levelLessons: (level: string, done: number, total: number) => `${level}: ${done}/${total} bài`,
+    results: 'Kết quả gần đây',
+    noResults: 'Chưa có bài kiểm tra nào.',
+    resultLine: (kind: 'lesson' | 'level', label: string, score: number) => `${kind === 'level' ? 'Kiểm tra cấp' : 'Kiểm tra bài'} ${label}: ${score}/100`,
+    weak: 'Điểm ngữ pháp nên ôn lại',
+  },
+
+  levelTest: {
+    title: (level: string) => `Kiểm tra ${level}`,
+    intro: (n: number, lessons: number) =>
+      `${n} câu lấy từ ${lessons} bài đã có nội dung: từ vựng, nghe, ngữ pháp, sắp xếp câu và viết câu ngắn. Đây là bài tự soạn để luyện tập, không phải đề thi JLPT thật.`,
+    partial: 'Một số bài của cấp này đang được soạn nên chưa có trong bài kiểm tra.',
+    none: 'Cấp này chưa có bài nào để kiểm tra.',
+    start: 'Bắt đầu',
+    result: (score: number) => `Điểm của bạn: ${score}/100`,
+    good: 'Rất tốt! Bạn đã nắm chắc nội dung của cấp này.',
+    fair: 'Khá! Hãy ôn lại các điểm ngữ pháp bên dưới.',
+    poor: 'Bạn nên ôn lại các bài học rồi làm lại.',
   },
 
   practice: {

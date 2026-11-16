@@ -52,6 +52,8 @@ const PAGES: [string, string][] = [
   ['#/kanji/%E6%97%A5', ''],
   ['#/grammar/wa', ''],
   ['#/dict', 'Từ điển'],
+  ['#/progress', 'Tiến độ'],
+  ['#/test/n5', 'Kiểm tra N5'],
   ['#/write', 'Luyện viết'],
   ['#/about', 'Giới thiệu và giấy phép'],
 ];

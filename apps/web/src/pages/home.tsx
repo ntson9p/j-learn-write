@@ -57,6 +57,11 @@ export default function HomePage(_props: PageProps) {
         <a class="button" href={href('/write')}>
           {T.writing.homeLink}
         </a>
+        {lessons.some((l) => hasContent(l)) && (
+          <a class="button" href={href(`/test/${level}`)}>
+            {T.levelTest.title(T.levelName(level))}
+          </a>
+        )}
       </p>
       {lessons.length === 0 && <p class="card">{T.home.comingSoon}</p>}
       <ol class="lesson-list">
