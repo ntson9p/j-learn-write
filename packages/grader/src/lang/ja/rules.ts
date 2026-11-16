@@ -17,7 +17,7 @@ import { tokenize, type Token, type TokenAnalysis } from './tokenize.ts';
 type Penalties = Readonly<Record<string, number>>;
 type WordAnalysis = Extract<Analysis, { kind: 'word' }>;
 
-interface RuleLists {
+export interface RuleLists {
   animate: Set<number>;
   inanimate: Set<number>;
   places: Set<number>;
@@ -34,6 +34,11 @@ interface RuleLists {
 }
 
 const listsCache = new WeakMap<JaLexicon, RuleLists>();
+
+/** The word lists of data/rules.json, resolved to course word numbers. */
+export function ruleLists(lexicon: JaLexicon): RuleLists {
+  return listsOf(lexicon);
+}
 
 function listsOf(lexicon: JaLexicon): RuleLists {
   const cached = listsCache.get(lexicon);
@@ -236,10 +241,16 @@ const particleKana: Rule = (tokens, lists, p, out) => {
 const aruIru: Rule = (tokens, lists, p, out) => {
   tokens.forEach((t, i) => {
     const particle = tokens[i + 1];
-    const verb = tokens[i + 2];
-    if (!fn(particle, 'ga', 'wa', 'mo') || !verb) return;
-    // People: listed words, names, and anything with さん, くん, さま, たち.
-    const animate = hasWord(t, lists.animate) || isName(t) || fn(t, 'san', 'kun', 'sama', 'tachi');
+    if (!fn(particle, 'ga', 'wa', 'mo')) return;
+    // The verb follows, possibly after a place phrase (猫は机の下にいます): nouns, の, and a final に.
+    let k = i + 2;
+    while (tokens[k] && (isNoun(tokens[k]) || fn(tokens[k], 'no')) && !words(tokens[k]).some((a) => a.no === lists.aru || a.no === lists.iru)) k++;
+    if (k > i + 2 && fn(tokens[k], 'ni')) k++;
+    else if (k > i + 2) return;
+    const verb = tokens[k];
+    if (!verb) return;
+    // People: listed words and anything with さん, くん, さま, たち (names alone may be places: 大阪, ハノイ).
+    const animate = hasWord(t, lists.animate) || fn(t, 'san', 'kun', 'sama', 'tachi');
     const inanimate = !animate && hasWord(t, lists.inanimate);
     for (const a of words(verb)) {
       const target = animate && a.no === lists.aru ? lists.iru : inanimate && a.no === lists.iru ? lists.aru : undefined;

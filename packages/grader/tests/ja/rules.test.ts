@@ -47,7 +47,8 @@ describe('rules', () => {
     expect(fixed('猫があります。')).toBe('猫がいます。');
     expect(fixed('部屋に田中さんがありません。')).toBe('部屋に田中さんがいません。');
     expect(fixed('机の上に本がいます。')).toBe('机の上に本があります。');
-    for (const ok of ['猫がいます。', '本があります。', '時間があります。', 'パーティーがあります。', 'お金がいります。']) expect(codes(ok), ok).toEqual([]);
+    expect(fixed('猫は机の下にあります。')).toBe('猫は机の下にいます。');
+    for (const ok of ['猫がいます。', '本があります。', '時間があります。', 'パーティーがあります。', 'お金がいります。', '猫は机の下にいます。', '私は日本に友達がいます。', 'ハノイはベトナムの北にあります。']) expect(codes(ok), ok).toEqual([]);
   });
 
   it('ni_de: place of an action で, place of being に', () => {

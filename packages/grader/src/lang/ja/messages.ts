@@ -38,4 +38,21 @@ export const vi = {
   wrongCounter: (noun: string, right: string, wrong: string) => `Trợ số từ: ${q(noun)} đếm bằng ${q(right)}, không đếm bằng ${q(wrong)}.`,
   missingCounter: (num: string) => `Thiếu trợ số từ sau ${q(num)}: tiếng Nhật không đặt số ngay trước danh từ (ví dụ 「りんごを三つ」, 「三人の学生」).`,
   counterReading: (written: string, right: string) => `Cách đọc số đếm có biến âm: ${q(written)} → ${q(right)}.`,
+
+  countCorrect: 'Đúng số lượng.',
+  countWrong: (claim: number) => `Số lượng chưa đúng: bạn trả lời ${claim}. Hãy đếm lại nhé.`,
+  countAmbiguous: (values: readonly number[]) => `Bạn đưa ra nhiều con số khác nhau (${values.join(', ')}). Hãy chọn một con số.`,
+  countNegated: 'Câu trả lời đang ở dạng phủ định (ありません/いません), nhưng câu hỏi muốn biết có bao nhiêu.',
+  countNoNumber: (noun: string) => `Câu trả lời chưa nêu số lượng ${q(noun)}.`,
+  countOther: (said: string, asked: string) => `Câu trả lời nói về ${q(said)}, nhưng câu hỏi hỏi về ${q(asked)}.`,
+  missingCounterBare: (num: string, counter: string) => `Thiếu trợ số từ: nói ${q(num + counter)}, không nói ${q(num)} trống không.`,
+
+  locationCorrect: 'Đúng vị trí.',
+  locationWrong: (said: string) => `Vị trí chưa đúng: bạn trả lời ${q(said)}. Hãy nhìn lại hình nhé.`,
+  locationAmbiguous: (said: readonly string[]) => `Bạn nêu nhiều nơi khác nhau (${said.map(q).join(', ')}). Hãy chọn một.`,
+  locationNegated: 'Câu trả lời đang ở dạng phủ định, nhưng câu hỏi muốn biết ở đâu.',
+  locationNone: 'Câu trả lời chưa nêu nơi chốn.',
+  missingPosition: (place: string, position: string) => `Thiếu từ chỉ vị trí: nói ${q(`${place}の${position}`)} (ở ${position} của ${place}), không nói ${q(place)} trống không.`,
+  positionOrder: (wrong: string, right: string) =>
+    `Vị trí đứng sau danh từ, nối bằng の: ${q(right)}, không nói ${q(wrong)} như thứ tự tiếng Việt "trên bàn".`,
 };

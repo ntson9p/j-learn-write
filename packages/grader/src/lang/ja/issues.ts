@@ -16,7 +16,9 @@ export type JaIssueCode =
   | 'ni_de'
   | 'wrong_counter'
   | 'missing_counter'
-  | 'counter_reading';
+  | 'counter_reading'
+  | 'missing_position'
+  | 'position_order';
 
 /** Default points removed per issue; questions can override them. */
 export const JA_DEFAULT_PENALTIES: Readonly<Record<JaIssueCode, number>> = {
@@ -36,6 +38,8 @@ export const JA_DEFAULT_PENALTIES: Readonly<Record<JaIssueCode, number>> = {
   wrong_counter: 20,
   missing_counter: 20,
   counter_reading: 10,
+  missing_position: 20,
+  position_order: 20,
 };
 
 export const JA_SEVERITY: Readonly<Record<JaIssueCode, Severity>> = {
@@ -55,6 +59,8 @@ export const JA_SEVERITY: Readonly<Record<JaIssueCode, Severity>> = {
   wrong_counter: 'error',
   missing_counter: 'error',
   counter_reading: 'error',
+  missing_position: 'error',
+  position_order: 'error',
 };
 
 /** Short Vietnamese labels, e.g. for badges in a user interface. */
@@ -75,6 +81,8 @@ export const JA_ISSUE_LABELS_VI: Readonly<Record<JaIssueCode, string>> = {
   wrong_counter: 'Sai trợ số từ',
   missing_counter: 'Thiếu trợ số từ',
   counter_reading: 'Cách đọc số đếm',
+  missing_position: 'Thiếu từ chỉ vị trí',
+  position_order: 'Vị trí của 上/下/中…',
 };
 
 /** Builds an issue with the severity of its code and the question's penalty. */
