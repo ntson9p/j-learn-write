@@ -51,20 +51,28 @@ Gặp từ không có trong khóa học, test báo "not a course word": đổi c
 
 **Ngữ pháp (`grammar`).** `titleVi`, `summaryVi` (một câu), `explanationVi` (2–4 đoạn ngắn, viết cho người mới học, so sánh với tiếng Việt khi có ích), `patterns` (ví dụ "N1 は N2 です"), `examples` (2–4 câu), `mistakes` (lỗi hay gặp, **ưu tiên lỗi do thói quen tiếng Việt**: trật tự S-V-O, định ngữ đặt sau danh từ, あります/います, に/で…). Trong giải thích, chữ Nhật đặt trong 「」, chỗ nhấn mạnh viết `**…**`. Câu `mistakes.right` phải đúng và qua kiểm soát từ vựng; `wrong` phải thật sự sai (nếu chỉ sai ý định hoặc kém tự nhiên, ghi rõ trong `noteVi`). `issue` ghi mã lỗi của bộ chấm nếu bộ chấm bắt được lỗi đó.
 
-**Bài tập (`exercises`).** Mã `n5-05-e01`, `e02`… Mỗi điểm ngữ pháp của bài cần **ít nhất 3 bài tập** ghi `grammar: ["id"]`. Nên có 15–25 bài tập mỗi bài, đủ các dạng (hiện chỉ dùng `choice`, `fill`, `order`, `match`: `translate` và `question` bị test từ chối cho tới khi có bộ chấm tiếng Nhật):
+**Bài tập (`exercises`).** Mã `n5-05-e01`, `e02`… Mỗi điểm ngữ pháp của bài cần **ít nhất 3 bài tập** ghi `grammar: ["id"]`. Nên có 15–25 bài tập mỗi bài, đủ các dạng, trong đó **3–6 bài tự luận** (`translate`, `question`):
 
 | Dạng | Trường | Chấm |
 |---|---|---|
 | `choice` | `promptVi`, `ja` (tùy chọn, dùng ＿ cho chỗ trống), `options`, `answer` (chỉ số), `explainVi` | So đáp án |
 | `fill` | `before`, `after` (kết thúc bằng 。！？), `answers`, `options` (tùy chọn), `vi` | So đáp án sau khi chuẩn hóa |
 | `order` | `vi`, `tiles`, `answers` (các thứ tự được chấp nhận, không có dấu câu) | So thứ tự; sai thì bộ chấm giải thích nếu có luật |
-| `translate` | `vi`, `answers` (cú pháp `[a\|b](x)` của bộ chấm), `examples` | Bộ chấm loại `model` |
+| `translate` | `vi`, `answers` (cú pháp `[a\|b](x)` của bộ chấm), `examples` | Bộ chấm loại `model` (kèm các luật bắt lỗi) |
 | `question` | `question`: câu hỏi của bộ chấm (`count`, `location`, `model`) không có `id`, `lang` | Bộ chấm |
 | `match` | `promptVi`, `pairs` (tiếng Nhật ↔ nghĩa) | So cặp |
 
 **Chỉ một đáp án đúng.** Trong `choice` và `fill` có `options`, đúng **một** lựa chọn là đúng (cẩn thận với は/も, が/は: thêm `vi` hoặc `promptVi` để chỉ rõ ý). `fill` không có `options` phải liệt kê **mọi** cách điền đúng trong `answers`. Phương án sai cũng phải qua kiểm soát từ vựng (chỉ dùng từ, hư từ đã học). Câu tiếng Nhật có kanji đặt ở `ja` (để có furigana), không đặt trong `promptVi`.
 
-Với `translate` và `question`: liệt kê đủ các cách nói đúng phổ biến trong `answers` (viết cả dạng kanji; bộ chấm tự chấp nhận câu viết toàn kana), và thêm `examples` gồm vài câu đúng, vài câu sai kèm điểm mong đợi: mỗi ví dụ là một test.
+**Bài tự luận (`translate`, `question`).** Bộ chấm (`packages/grader`) so câu trả lời với đáp án theo từng từ, nên:
+- `answers`: liệt kê **mọi cách nói đúng phổ biến** bằng cú pháp `[a|b]` (chọn một) và `(x)` (có thể bỏ): `(私は)[学生|大学生]です。`, `[パン|ご飯]を食べます。`. Chủ ngữ hiển nhiên (私は, あなたは) nên để trong `( )`. Viết bằng kanji như câu ví dụ; bộ chấm tự chấp nhận câu viết toàn kana, に thay へ trước 行く/来る/帰る, và thể thông thường thay です/ます (không trừ điểm). Đáp án đầu tiên phải là câu chuẩn nhất (test kiểm tra nó được 100). Có thể thêm đáp án điểm thấp: `{ "text": "…", "score": 80 }`.
+- Bộ chấm **không bao giờ** chấp nhận khác biệt về từ, thì, phủ định, con số, か, も: nếu hai cách nói khác nhau đều đúng, phải liệt kê cả hai.
+- `examples`: 3–5 câu trả lời kèm `score` mong đợi (và `issues` nếu muốn kiểm tra mã lỗi): một câu viết toàn kana (100), một lỗi điển hình của người Việt (ví dụ trợ từ viết わ, sai trợ số từ: điểm bị trừ), một câu sai nội dung (0). Mỗi ví dụ là một test: chạy `CONTENT_FILTER=n5-05 npx vitest run --project course` để xem điểm thật.
+- `question`: câu hỏi của bộ chấm, không có `id`, `lang`. Ba loại:
+  - `count`: `{ "type": "count", "prompt": "鉛筆は何本ありますか。", "promptVi": "…", "picture": "✏️✏️✏️", "expected": { "number": 3, "noun": "鉛筆", "counter": "本", "sentence": "鉛筆は3本あります。" } }`;
+  - `location`: `{ "type": "location", "prompt": "猫はどこにいますか。", "expected": { "places": ["机"], "position": "下", "sentence": "猫は机の下にいます。" } }` (bỏ `places` khi nơi nào cũng đúng, ví dụ どこで昼ご飯を食べますか);
+  - `model`: `{ "type": "model", "prompt": "お名前は何ですか。", "answers": ["(私は)グエンです。"] }`. Câu hỏi về bản thân người học (tên, quê) chỉ dùng khi đáp án cố định được (ví dụ theo một nhân vật trong `promptVi`: "Bạn là Nguyễn").
+  `count`/`location` cần `sentence` (test kiểm tra nó được 100) và nên có `examples`.
 
 **Bài kana (`kana-NN`).** Không có từ, kanji, ngữ pháp. Có `practice` (từ hoặc cụm viết **chỉ bằng kana đã học tới bài đó**, kèm nghĩa tiếng Việt) và bài tập `choice`/`match`/`order` để nhận mặt chữ, ghép kana với romaji, ghép thẻ kana thành từ. Không dùng kanji.
 
