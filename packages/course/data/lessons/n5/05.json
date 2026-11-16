@@ -1039,6 +1039,215 @@
           "bưu điện"
         ]
       ]
+    },
+    {
+      "id": "n5-05-e21",
+      "type": "translate",
+      "grammar": [
+        "kara-from",
+        "made"
+      ],
+      "vi": "Bưu điện mở cửa từ 9 giờ đến 5 giờ.",
+      "answers": [
+        "郵便局は9時から5時までです。",
+        "郵便局は(午前)9時から(午後)5時までです。"
+      ],
+      "examples": [
+        {
+          "answer": "ゆうびんきょくはくじからごじまでです",
+          "score": 100
+        },
+        {
+          "answer": "郵便局はきゅうじからごじまでです",
+          "score": 90,
+          "issues": [
+            "counter_reading"
+          ],
+          "note": "9時 đọc là くじ."
+        },
+        {
+          "answer": "郵便局は9時から5時です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu まで (đến)."
+        },
+        {
+          "answer": "郵便局は9時から6時までです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-05-e22",
+      "type": "translate",
+      "grammar": [
+        "goro",
+        "made"
+      ],
+      "vi": "Công việc kéo dài đến khoảng 6 giờ chiều.",
+      "answers": [
+        "仕事は(午後)6時ごろまでです。"
+      ],
+      "examples": [
+        {
+          "answer": "しごとはごごろくじごろまでです",
+          "score": 100
+        },
+        {
+          "answer": "しごとわろくじごろまでです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "仕事はごろ午後6時までです。",
+          "score": 70,
+          "issues": [
+            "extra_word",
+            "missing_word"
+          ],
+          "note": "Trật tự kiểu tiếng Việt (khoảng 6 giờ): ごろ đứng sau giờ, 6時ごろ."
+        },
+        {
+          "answer": "仕事は午後6時までです。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu ごろ (khoảng)."
+        },
+        {
+          "answer": "仕事は午前6時ごろまでです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-05-e23",
+      "type": "translate",
+      "grammar": [
+        "x-time",
+        "kara-from",
+        "made"
+      ],
+      "vi": "Từ Hà Nội đến Tokyo mất 6 tiếng.",
+      "answers": [
+        "ハノイから東京まで6時間です。"
+      ],
+      "examples": [
+        {
+          "answer": "ハノイからとうきょうまでろくじかんです",
+          "score": 100
+        },
+        {
+          "answer": "ハノイ東京まで6時間です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu から (từ)."
+        },
+        {
+          "answer": "ハノイから東京まで6時です。",
+          "score": 0,
+          "note": "6時 là 6 giờ (thời điểm); 6 tiếng (khoảng thời gian) là 6時間."
+        },
+        {
+          "answer": "ハノイから東京まで5時間です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-05-e24",
+      "type": "question",
+      "grammar": [
+        "x-time"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "今、何時ですか。",
+        "promptVi": "Bây giờ là 4 giờ 10 phút chiều. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(今、)(午後)4時10分です。",
+          "今は(午後)4時10分です。"
+        ],
+        "examples": [
+          {
+            "answer": "よじじゅっぷんです",
+            "score": 100
+          },
+          {
+            "answer": "ごごよじじっぷんです",
+            "score": 100
+          },
+          {
+            "answer": "よんじじゅっぷんです",
+            "score": 90,
+            "issues": [
+              "counter_reading"
+            ],
+            "note": "4時 đọc là よじ."
+          },
+          {
+            "answer": "4時10分。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu です."
+          },
+          {
+            "answer": "4時半です。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-05-e25",
+      "type": "question",
+      "grammar": [
+        "kara-from",
+        "made"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "銀行は何時から何時までですか。",
+        "promptVi": "Ngân hàng mở cửa từ 9 giờ sáng đến 3 giờ chiều. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(銀行は)(午前)9時から(午後)3時までです。"
+        ],
+        "examples": [
+          {
+            "answer": "くじからさんじまでです",
+            "score": 100
+          },
+          {
+            "answer": "きゅうじからさんじまでです",
+            "score": 90,
+            "issues": [
+              "counter_reading"
+            ],
+            "note": "9時 đọc là くじ."
+          },
+          {
+            "answer": "9時から3時です。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu まで (đến)."
+          },
+          {
+            "answer": "9時から4時までです。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1138,6 +1347,14 @@
     "授業": "{授|じゅ}{業|ぎょう}",
     "休み": "{休|やす}み",
     "銀行": "{銀|ぎん}{行|こう}",
-    "郵便局": "{郵|ゆう}{便|びん}{局|きょく}"
+    "郵便局": "{郵|ゆう}{便|びん}{局|きょく}",
+    "郵便局は9時から5時までです。": "{郵|ゆう}{便|びん}{局|きょく}は{9時|くじ}から5{時|じ}までです。",
+    "郵便局は午前9時から午後5時までです。": "{郵|ゆう}{便|びん}{局|きょく}は{午|ご}{前|ぜん}{9時|くじ}から{午|ご}{後|ご}5{時|じ}までです。",
+    "仕事は午後6時ごろまでです。": "{仕|し}{事|ごと}は{午|ご}{後|ご}6{時|じ}ごろまでです。",
+    "ハノイから東京まで6時間です。": "ハノイから{東京|とうきょう}まで6{時間|じかん}です。",
+    "今、午後4時10分です。": "{今|いま}、{午|ご}{後|ご}{4時|よじ}10{分|ぷん}です。",
+    "今は午後4時10分です。": "{今|いま}は{午|ご}{後|ご}{4時|よじ}10{分|ぷん}です。",
+    "銀行は何時から何時までですか。": "{銀|ぎん}{行|こう}は{何時|なんじ}から{何時|なんじ}までですか。",
+    "銀行は午前9時から午後3時までです。": "{銀|ぎん}{行|こう}は{午|ご}{前|ぜん}{9時|くじ}から{午|ご}{後|ご}3{時|じ}までです。"
   }
 }

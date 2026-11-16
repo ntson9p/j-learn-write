@@ -885,6 +885,239 @@
           "nhà vệ sinh"
         ]
       ]
+    },
+    {
+      "id": "n5-03-e21",
+      "type": "translate",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "vi": "Xin lỗi, nhà vệ sinh ở đâu ạ?",
+      "answers": [
+        "(すみません、)[トイレ|お手洗い]は[どこ|どちら]ですか。"
+      ],
+      "examples": [
+        {
+          "answer": "すみません、トイレはどこですか",
+          "score": 100
+        },
+        {
+          "answer": "すみません、おてあらいはどちらですか",
+          "score": 100
+        },
+        {
+          "answer": "トイレわどこですか",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "トイレどこですか",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "すみません、駅はどこですか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-03-e22",
+      "type": "translate",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "vi": "Nhà ăn ở đằng kia.",
+      "answers": [
+        "食堂は[あそこ|あちら]です。",
+        "[あそこ|あちら]は食堂です。"
+      ],
+      "examples": [
+        {
+          "answer": "しょくどうはあそこです",
+          "score": 100
+        },
+        {
+          "answer": "しょくどうわあそこです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "しょくどはあそこです",
+          "score": 90,
+          "issues": [
+            "kana_spelling"
+          ],
+          "note": "Thiếu trường âm: しょくどう."
+        },
+        {
+          "answer": "食堂はそこです。",
+          "score": 0,
+          "note": "そこ là chỗ đó (gần người nghe); đằng kia là あそこ."
+        }
+      ]
+    },
+    {
+      "id": "n5-03-e23",
+      "type": "translate",
+      "grammar": [
+        "yo"
+      ],
+      "vi": "Nhà ga ở đằng kia đấy.",
+      "answers": [
+        "駅は[あそこ|あちら]ですよ。"
+      ],
+      "examples": [
+        {
+          "answer": "えきはあそこですよ",
+          "score": 100
+        },
+        {
+          "answer": "駅はあそこですね。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Báo cho người nghe điều họ chưa biết thì dùng よ, không dùng ね."
+        },
+        {
+          "answer": "駅はあそこです。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu よ (đấy)."
+        },
+        {
+          "answer": "駅はここですよ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-03-e24",
+      "type": "translate",
+      "grammar": [
+        "ne"
+      ],
+      "vi": "Trường của anh Minh ở Đà Nẵng nhỉ.",
+      "answers": [
+        "ミンさんの学校はダナンですね。"
+      ],
+      "examples": [
+        {
+          "answer": "ミンさんのがっこうはダナンですね",
+          "score": 100
+        },
+        {
+          "answer": "ミンさんの学校はダナンですよ。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Xác nhận điều cả hai cùng biết (nhỉ) thì dùng ね."
+        },
+        {
+          "answer": "ミンさん学校はダナンですね。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu の: ミンさんの学校."
+        },
+        {
+          "answer": "ミンさんの学校はハノイですね。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-03-e25",
+      "type": "question",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "グエンさんの会社はどこですか。",
+        "promptVi": "Công ty của anh Nguyễn ở Hà Nội. Hãy trả lời câu hỏi.",
+        "answers": [
+          "((グエンさんの)会社は)ハノイです。"
+        ],
+        "examples": [
+          {
+            "answer": "ハノイです",
+            "score": 100
+          },
+          {
+            "answer": "グエンさんのかいしゃわハノイです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "グエンさん会社はハノイです。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu の: グエンさんの会社."
+          },
+          {
+            "answer": "東京です。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-03-e26",
+      "type": "question",
+      "grammar": [
+        "koko-soko-asoko-doko"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "お国はどちらですか。",
+        "promptVi": "Bạn là người Việt Nam. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(私の国は)ベトナムです。",
+          "(私は)ベトナム人です。"
+        ],
+        "examples": [
+          {
+            "answer": "ベトナムです",
+            "score": 100
+          },
+          {
+            "answer": "わたしのくにわベトナムです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "私の国ベトナムです。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu trợ từ は."
+          },
+          {
+            "answer": "中国です。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -978,6 +1211,11 @@
     "駅": "{駅|えき}",
     "デパート": "デパート",
     "国": "{国|くに}",
-    "お手洗い": "お{手|て}{洗|あら}い"
+    "お手洗い": "お{手|て}{洗|あら}い",
+    "あそこは食堂です。": "あそこは{食|しょく}{堂|どう}です。",
+    "ミンさんの学校はダナンですね。": "ミンさんの{学|がっ}{校|こう}はダナンですね。",
+    "グエンさんの会社はどこですか。": "グエンさんの{会|かい}{社|しゃ}はどこですか。",
+    "グエンさんの会社はハノイです。": "グエンさんの{会|かい}{社|しゃ}はハノイです。",
+    "私はベトナム人です。": "{私|わたし}はベトナム{人|じん}です。"
   }
 }

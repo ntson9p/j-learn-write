@@ -1081,6 +1081,257 @@
         "隣"
       ],
       "answer": 0
+    },
+    {
+      "id": "n5-14-e23",
+      "type": "question",
+      "grammar": [
+        "x-position",
+        "ni-location",
+        "ga-aru-ga-iru"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "犬はどこにいますか。",
+        "promptVi": "Con chó ở đâu? Trả lời: ở dưới gốc cây.",
+        "expected": {
+          "places": [
+            "木"
+          ],
+          "position": "下",
+          "sentence": "犬は木の下にいます。"
+        },
+        "examples": [
+          {
+            "answer": "きのしたにいます。",
+            "score": 100
+          },
+          {
+            "answer": "犬は木の下にあります。",
+            "score": 80,
+            "issues": [
+              "aru_iru"
+            ]
+          },
+          {
+            "answer": "下の木にいます。",
+            "score": 80,
+            "issues": [
+              "position_order"
+            ]
+          },
+          {
+            "answer": "木の上にいます。",
+            "score": 20
+          },
+          {
+            "answer": "犬がいます。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-14-e24",
+      "type": "question",
+      "grammar": [
+        "x-position",
+        "ni-location"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "辞書はどこにありますか。",
+        "promptVi": "Quyển từ điển ở đâu? Trả lời: ở trên bàn.",
+        "expected": {
+          "places": [
+            "机"
+          ],
+          "position": "上",
+          "sentence": "辞書は机の上にあります。"
+        },
+        "examples": [
+          {
+            "answer": "つくえのうえにあります。",
+            "score": 100
+          },
+          {
+            "answer": "辞書は机の上にいます。",
+            "score": 80,
+            "issues": [
+              "aru_iru"
+            ]
+          },
+          {
+            "answer": "机にあります。",
+            "score": 80,
+            "issues": [
+              "missing_position"
+            ]
+          },
+          {
+            "answer": "机の下にあります。",
+            "score": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-14-e25",
+      "type": "question",
+      "grammar": [
+        "ga-aru-ga-iru"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "庭に子供が何人いますか。",
+        "promptVi": "Trong vườn có mấy đứa trẻ? Trả lời: ba đứa.",
+        "picture": "🧒🧒🧒",
+        "expected": {
+          "number": 3,
+          "noun": "子供",
+          "counter": "人",
+          "sentence": "庭に子供が3人います。"
+        },
+        "examples": [
+          {
+            "answer": "さんにんいます。",
+            "score": 100
+          },
+          {
+            "answer": "3つです。",
+            "score": 80,
+            "issues": [
+              "wrong_counter"
+            ]
+          },
+          {
+            "answer": "3です。",
+            "score": 80,
+            "issues": [
+              "missing_counter"
+            ]
+          },
+          {
+            "answer": "2人います。",
+            "score": 20
+          },
+          {
+            "answer": "子供がいます。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-14-e26",
+      "type": "translate",
+      "grammar": [
+        "ga-aru-ga-iru",
+        "ni-location"
+      ],
+      "vi": "Trong phòng tôi có giường và bàn.",
+      "answers": [
+        "私の部屋にベッドと机があります。",
+        "私の部屋に(は)[ベッドと机|机とベッド]があります。"
+      ],
+      "examples": [
+        {
+          "answer": "わたしのへやにベッドとつくえがあります。",
+          "score": 100
+        },
+        {
+          "answer": "私の部屋でベッドと机があります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "私の部屋にベッドと机がいます。",
+          "score": 80,
+          "issues": [
+            "aru_iru"
+          ]
+        },
+        {
+          "answer": "私の部屋にベッドといすがあります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-14-e27",
+      "type": "translate",
+      "grammar": [
+        "ga-subject",
+        "ga-aru-ga-iru"
+      ],
+      "vi": "Trong vườn có ai?",
+      "answers": [
+        "[庭に誰が|誰が庭に]いますか。"
+      ],
+      "examples": [
+        {
+          "answer": "にわにだれがいますか。",
+          "score": 100
+        },
+        {
+          "answer": "庭に誰はいますか。",
+          "score": 80,
+          "issues": [
+            "wh_wa"
+          ]
+        },
+        {
+          "answer": "庭で誰がいますか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "庭に何がいますか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-14-e28",
+      "type": "translate",
+      "grammar": [
+        "x-position",
+        "ni-location",
+        "ga-aru-ga-iru"
+      ],
+      "vi": "Bên cạnh ngân hàng có bưu điện.",
+      "answers": [
+        "銀行の[隣|横]に郵便局があります。",
+        "郵便局は銀行の[隣|横]にあります。"
+      ],
+      "examples": [
+        {
+          "answer": "ぎんこうのとなりにゆうびんきょくがあります。",
+          "score": 100
+        },
+        {
+          "answer": "銀行の隣で郵便局があります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "銀行の隣に郵便局がいます。",
+          "score": 80,
+          "issues": [
+            "aru_iru"
+          ]
+        },
+        {
+          "answer": "郵便局の隣に銀行があります。",
+          "score": 0
+        }
+      ]
     }
   ],
   "ruby": {
@@ -1206,6 +1457,16 @@
     "右": "{右|みぎ}",
     "左": "{左|ひだり}",
     "横": "{横|よこ}",
-    "隣": "{隣|となり}"
+    "隣": "{隣|となり}",
+    "犬はどこにいますか。": "{犬|いぬ}はどこにいますか。",
+    "犬は木の下にいます。": "{犬|いぬ}は{木|き}の{下|した}にいます。",
+    "辞書はどこにありますか。": "{辞|じ}{書|しょ}はどこにありますか。",
+    "辞書は机の上にあります。": "{辞|じ}{書|しょ}は{机|つくえ}の{上|うえ}にあります。",
+    "庭に子供が何人いますか。": "{庭|にわ}に{子|こ}{供|ども}が{何人|なんにん}いますか。",
+    "庭に子供が3人います。": "{庭|にわ}に{子|こ}{供|ども}が3{人|にん}います。",
+    "私の部屋にベッドと机があります。": "{私|わたし}の{部屋|へや}にベッドと{机|つくえ}があります。",
+    "私の部屋にはベッドと机があります。": "{私|わたし}の{部屋|へや}にはベッドと{机|つくえ}があります。",
+    "庭に誰がいますか。": "{庭|にわ}に{誰|だれ}がいますか。",
+    "郵便局は銀行の隣にあります。": "{郵|ゆう}{便|びん}{局|きょく}は{銀|ぎん}{行|こう}の{隣|となり}にあります。"
   }
 }

@@ -957,6 +957,188 @@
         "まだ"
       ],
       "answer": 0
+    },
+    {
+      "id": "n5-24-e21",
+      "type": "translate",
+      "grammar": [
+        "ku-naru-ni-naru"
+      ],
+      "vi": "Trời đã ấm lên rồi.",
+      "answers": [
+        "(もう)暖かくなりました。",
+        "天気が(もう)暖かくなりました。"
+      ],
+      "examples": [
+        {
+          "answer": "あたたかくなりました",
+          "score": 100
+        },
+        {
+          "answer": "暖かくになりました。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "寒くなりました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e22",
+      "type": "translate",
+      "grammar": [
+        "ku-naru-ni-naru",
+        "tai"
+      ],
+      "vi": "Tôi muốn trở thành giáo viên tiếng Nhật.",
+      "answers": [
+        "(私は)日本語の先生になりたい(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんごのせんせいになりたいです",
+          "score": 100
+        },
+        {
+          "answer": "日本語の先生がなりたいです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "日本語の先生になりました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e23",
+      "type": "translate",
+      "grammar": [
+        "ni-suru"
+      ],
+      "vi": "(Ở cửa hàng) Tôi chọn cái áo khoác màu đen.",
+      "answers": [
+        "(私は)黒[い|の][コート|上着]にします。"
+      ],
+      "examples": [
+        {
+          "answer": "くろいコートにします",
+          "score": 100
+        },
+        {
+          "answer": "黒いコートをします。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "白いコートにします。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e24",
+      "type": "translate",
+      "grammar": [
+        "kute-de"
+      ],
+      "vi": "Chiếc áo len này rẻ và ấm.",
+      "answers": [
+        "このセーターは安くて暖かい(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "このセーターはやすくてあたたかいです",
+          "score": 100
+        },
+        {
+          "answer": "このせーたーはやすくてあたたかいです",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ]
+        },
+        {
+          "answer": "このセーターは高くて暖かいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e25",
+      "type": "translate",
+      "grammar": [
+        "kute-de"
+      ],
+      "vi": "Công viên này yên tĩnh và rộng.",
+      "answers": [
+        "この公園は静かで広い(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "このこうえんはしずかでひろいです",
+          "score": 100
+        },
+        {
+          "answer": "この公園は静かと広いです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "この公園は静かなで広いです。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "この公園はにぎやかで広いです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e26",
+      "type": "question",
+      "grammar": [
+        "ni-suru"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "何にしますか。",
+        "promptVi": "Ở quán cà phê, nhân viên hỏi: “Anh/chị dùng gì ạ?” Hãy trả lời: tôi chọn cà phê.",
+        "answers": [
+          "(私は)コーヒーにします。",
+          "コーヒー(を)[ください|お願いします]。"
+        ],
+        "examples": [
+          {
+            "answer": "コーヒーにします",
+            "score": 100
+          },
+          {
+            "answer": "コーヒーをします。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "紅茶にします。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1075,6 +1257,13 @@
     "すみません、＿大きい声で話してください。": "すみません、＿{大|おお}きい{声|こえ}で{話|はな}してください。",
     "もっと": "もっと",
     "だんだん": "だんだん",
-    "まだ": "まだ"
+    "まだ": "まだ",
+    "もう暖かくなりました。": "もう{暖|あたた}かくなりました。",
+    "天気がもう暖かくなりました。": "{天|てん}{気|き}がもう{暖|あたた}かくなりました。",
+    "私は日本語の先生になりたいです。": "{私|わたし}は{日本|にほん}{語|ご}の{先|せん}{生|せい}になりたいです。",
+    "私は黒いコートにします。": "{私|わたし}は{黒|くろ}いコートにします。",
+    "このセーターは安くて暖かいです。": "このセーターは{安|やす}くて{暖|あたた}かいです。",
+    "この公園は静かで広いです。": "この{公|こう}{園|えん}は{静|しず}かで{広|ひろ}いです。",
+    "コーヒーをください。": "コーヒーをください。"
   }
 }

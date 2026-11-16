@@ -1099,6 +1099,229 @@
           "cảm ơn"
         ]
       ]
+    },
+    {
+      "id": "n5-04-e22",
+      "type": "translate",
+      "grammar": [
+        "o-kudasai",
+        "x-counters-basic"
+      ],
+      "vi": "Cho tôi hai cái này.",
+      "answers": [
+        "これを二つください。",
+        "(すみません、)これを二つください。"
+      ],
+      "examples": [
+        {
+          "answer": "これをふたつください",
+          "score": 100
+        },
+        {
+          "answer": "すみません、これを2つください。",
+          "score": 100
+        },
+        {
+          "answer": "これ二つください。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ を."
+        },
+        {
+          "answer": "これを三つください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-04-e23",
+      "type": "translate",
+      "grammar": [
+        "x-numbers",
+        "x-counters-basic"
+      ],
+      "vi": "Cái đồng hồ này giá 8.600 yên.",
+      "answers": [
+        "この時計は8600円です。"
+      ],
+      "examples": [
+        {
+          "answer": "この時計は八千六百円です。",
+          "score": 100
+        },
+        {
+          "answer": "この時計は8600円。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu です."
+        },
+        {
+          "answer": "この時計は8.600円です。",
+          "score": 0,
+          "note": "Tiếng Nhật không dùng dấu chấm để tách hàng nghìn: 8.600 đọc là 8,6. Viết 8600 hoặc 8,600."
+        },
+        {
+          "answer": "この時計は6800円です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-04-e24",
+      "type": "translate",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "vi": "Cái ô này bao nhiêu tiền?",
+      "answers": [
+        "この傘は[いくら|何円]ですか。"
+      ],
+      "examples": [
+        {
+          "answer": "このかさはいくらですか",
+          "score": 100
+        },
+        {
+          "answer": "このかさわいくらですか",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "この傘いくらですか。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "この傘は何ですか。",
+          "score": 0,
+          "note": "何ですか hỏi \"là cái gì\"; hỏi giá dùng いくら."
+        }
+      ]
+    },
+    {
+      "id": "n5-04-e25",
+      "type": "translate",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "vi": "Anh Tanaka 35 tuổi.",
+      "answers": [
+        "田中さんは35歳です。"
+      ],
+      "examples": [
+        {
+          "answer": "田中さんは三十五歳です。",
+          "score": 100
+        },
+        {
+          "answer": "田中さん35歳です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "田中さんは53歳です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-04-e26",
+      "type": "question",
+      "grammar": [
+        "x-counters-basic"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "学生は何人ですか。",
+        "promptVi": "Có bao nhiêu học sinh?",
+        "picture": "🧑🧑🧑🧑",
+        "expected": {
+          "number": 4,
+          "noun": "学生",
+          "counter": "人",
+          "sentence": "学生は4人です。"
+        },
+        "examples": [
+          {
+            "answer": "よにんです",
+            "score": 100
+          },
+          {
+            "answer": "よんにんです",
+            "score": 90,
+            "issues": [
+              "counter_reading"
+            ],
+            "note": "4人 đọc là よにん."
+          },
+          {
+            "answer": "4つです。",
+            "score": 80,
+            "issues": [
+              "wrong_counter"
+            ],
+            "note": "Đếm người dùng 人, không dùng つ."
+          },
+          {
+            "answer": "3人です。",
+            "score": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-04-e27",
+      "type": "question",
+      "grammar": [
+        "x-numbers",
+        "x-counters-basic"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "このノートはいくらですか。",
+        "promptVi": "Quyển vở này bao nhiêu tiền?",
+        "picture": "📓 ¥150",
+        "expected": {
+          "number": 150,
+          "noun": "ノート",
+          "counter": "円",
+          "sentence": "150円です。"
+        },
+        "examples": [
+          {
+            "answer": "百五十円です。",
+            "score": 100
+          },
+          {
+            "answer": "このノートは150円です。",
+            "score": 100
+          },
+          {
+            "answer": "150です。",
+            "score": 80,
+            "issues": [
+              "missing_counter"
+            ],
+            "note": "Thiếu 円."
+          },
+          {
+            "answer": "105円です。",
+            "score": 20
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1197,6 +1420,14 @@
     "ここのつ": "ここのつ",
     "店": "{店|みせ}",
     "いくら": "いくら",
-    "ありがとう": "ありがとう"
+    "ありがとう": "ありがとう",
+    "これを二つください。": "これを{二|ふた}つください。",
+    "すみません、これを二つください。": "すみません、これを{二|ふた}つください。",
+    "この時計は8600円です。": "この{時計|とけい}は8600{円|えん}です。",
+    "田中さんは35歳です。": "{田中|たなか}さんは35{歳|さい}です。",
+    "学生は何人ですか。": "{学|がく}{生|せい}は{何人|なんにん}ですか。",
+    "学生は4人です。": "{学|がく}{生|せい}は{4人|よにん}です。",
+    "このノートはいくらですか。": "このノートはいくらですか。",
+    "150円です。": "150{円|えん}です。"
   }
 }

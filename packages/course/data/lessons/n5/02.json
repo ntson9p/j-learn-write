@@ -947,6 +947,237 @@
           "tiếng Anh"
         ]
       ]
+    },
+    {
+      "id": "n5-02-e22",
+      "type": "translate",
+      "grammar": [
+        "kore-sore-are-dore",
+        "no"
+      ],
+      "vi": "Đây là từ điển của tôi.",
+      "answers": [
+        "これは私の辞書です。"
+      ],
+      "examples": [
+        {
+          "answer": "これはわたしのじしょです",
+          "score": 100
+        },
+        {
+          "answer": "これわわたしのじしょです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "これは私辞書です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu の giữa 私 và 辞書."
+        },
+        {
+          "answer": "これは辞書の私です。",
+          "score": 0,
+          "note": "Trật tự kiểu tiếng Việt: người sở hữu đứng trước の (私の辞書)."
+        },
+        {
+          "answer": "これは私の本です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-02-e23",
+      "type": "translate",
+      "grammar": [
+        "kono-sono-ano-dono",
+        "no"
+      ],
+      "vi": "Cái ô này là của anh Nam.",
+      "answers": [
+        "この傘はナムさんのです。",
+        "この傘はナムさんの傘です。"
+      ],
+      "examples": [
+        {
+          "answer": "このかさはナムさんのです",
+          "score": 100
+        },
+        {
+          "answer": "このかさわナムさんのです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "この傘ナムさんのです。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "この傘は私のです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-02-e24",
+      "type": "translate",
+      "grammar": [
+        "kore-sore-are-dore"
+      ],
+      "vi": "Cái kia là cái gì?",
+      "answers": [
+        "あれは何ですか。"
+      ],
+      "examples": [
+        {
+          "answer": "あれはなんですか",
+          "score": 100
+        },
+        {
+          "answer": "あれわなんですか",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "あれ何ですか。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "それは何ですか。",
+          "score": 0,
+          "note": "それ là cái đó (gần người nghe); cái kia (xa cả hai người) là あれ."
+        }
+      ]
+    },
+    {
+      "id": "n5-02-e25",
+      "type": "question",
+      "grammar": [
+        "kore-sore-are-dore",
+        "no"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "これは何の本ですか。",
+        "promptVi": "Quyển sách đó là sách tiếng Nhật. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(それは)日本語の本です。"
+        ],
+        "examples": [
+          {
+            "answer": "それはにほんごのほんです",
+            "score": 100
+          },
+          {
+            "answer": "それは日本語本です。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu の: 日本語の本."
+          },
+          {
+            "answer": "それは本の日本語です。",
+            "score": 0,
+            "note": "Trật tự kiểu tiếng Việt (sách tiếng Nhật): từ bổ nghĩa đứng trước の."
+          },
+          {
+            "answer": "それは英語の本です。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-02-e26",
+      "type": "question",
+      "grammar": [
+        "no",
+        "kono-sono-ano-dono"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "このかばんは誰のですか。",
+        "promptVi": "Cái cặp đó là của chị Mai. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(それは)マイさんのです。",
+          "(そのかばんは)マイさんのです。",
+          "(それは)マイさんのかばんです。"
+        ],
+        "examples": [
+          {
+            "answer": "マイさんのです",
+            "score": 100
+          },
+          {
+            "answer": "それわマイさんのです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "マイさんのかばん",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu です."
+          },
+          {
+            "answer": "私のです。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-02-e27",
+      "type": "question",
+      "grammar": [
+        "kono-sono-ano-dono"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "田中さんはどの人ですか。",
+        "promptVi": "Anh Tanaka là người ở đằng kia (xa cả hai người). Hãy trả lời câu hỏi.",
+        "answers": [
+          "(田中さんは)あの人です。"
+        ],
+        "examples": [
+          {
+            "answer": "あのひとです",
+            "score": 100
+          },
+          {
+            "answer": "あのひと",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu です."
+          },
+          {
+            "answer": "この人です。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1038,6 +1269,13 @@
     "雑誌": "{雑|ざっ}{誌|し}",
     "かばん": "かばん",
     "ノート": "ノート",
-    "ボールペン": "ボールペン"
+    "ボールペン": "ボールペン",
+    "この傘はナムさんのです。": "この{傘|かさ}はナムさんのです。",
+    "この傘はナムさんの傘です。": "この{傘|かさ}はナムさんの{傘|かさ}です。",
+    "それは日本語の本です。": "それは{日本|にほん}{語|ご}の{本|ほん}です。",
+    "それはマイさんのです。": "それはマイさんのです。",
+    "そのかばんはマイさんのです。": "そのかばんはマイさんのです。",
+    "それはマイさんのかばんです。": "それはマイさんのかばんです。",
+    "田中さんはあの人です。": "{田中|たなか}さんはあの{人|ひと}です。"
   }
 }

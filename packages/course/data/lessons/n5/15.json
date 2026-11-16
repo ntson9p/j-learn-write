@@ -1055,6 +1055,188 @@
           "giấy"
         ]
       ]
+    },
+    {
+      "id": "n5-15-e24",
+      "type": "question",
+      "grammar": [
+        "x-counters"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "本は何冊ありますか。",
+        "promptVi": "Có mấy quyển sách?",
+        "picture": "📕📕📕📕",
+        "expected": {
+          "number": 4,
+          "noun": "本",
+          "counter": "冊",
+          "sentence": "本は4冊あります。"
+        },
+        "examples": [
+          {
+            "answer": "ほんはよんさつあります",
+            "score": 100
+          },
+          {
+            "answer": "4本あります。",
+            "score": 80,
+            "issues": [
+              "wrong_counter"
+            ],
+            "note": "Sách đếm bằng 冊, không dùng 本."
+          },
+          {
+            "answer": "5冊あります。",
+            "score": 20,
+            "note": "Sai số lượng."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-15-e25",
+      "type": "question",
+      "grammar": [
+        "x-counters"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "犬は何匹いますか。",
+        "promptVi": "Có mấy con chó?",
+        "picture": "🐕🐕🐕",
+        "expected": {
+          "number": 3,
+          "noun": "犬",
+          "counter": "匹",
+          "sentence": "犬は3匹います。"
+        },
+        "examples": [
+          {
+            "answer": "いぬはさんびきいます",
+            "score": 100
+          },
+          {
+            "answer": "さんひきいます",
+            "score": 90,
+            "issues": [
+              "counter_reading"
+            ],
+            "note": "3匹 đọc là さんびき."
+          },
+          {
+            "answer": "3人います。",
+            "score": 80,
+            "issues": [
+              "wrong_counter"
+            ],
+            "note": "Con vật nhỏ đếm bằng 匹, 人 chỉ dùng cho người."
+          },
+          {
+            "answer": "2匹います。",
+            "score": 20,
+            "note": "Sai số lượng."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-15-e26",
+      "type": "translate",
+      "grammar": [
+        "ni-frequency"
+      ],
+      "vi": "Một năm tôi về Việt Nam hai lần.",
+      "answers": [
+        "(私は)1年に2回ベトナムへ帰ります。",
+        "(私は)ベトナムへ1年に2回帰ります。"
+      ],
+      "examples": [
+        {
+          "answer": "いちねんににかいベトナムへかえります",
+          "score": 100
+        },
+        {
+          "answer": "いちねんににかいベトナムえかえります",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ],
+          "note": "Trợ từ へ đọc là e nhưng viết là へ."
+        },
+        {
+          "answer": "2回に1年ベトナムへ帰ります。",
+          "score": 0,
+          "note": "Sai trật tự: khoảng thời gian に đứng trước số lần."
+        },
+        {
+          "answer": "1年に3回ベトナムへ帰ります。",
+          "score": 0,
+          "note": "Sai số lần."
+        }
+      ]
+    },
+    {
+      "id": "n5-15-e27",
+      "type": "translate",
+      "grammar": [
+        "dake",
+        "x-counters"
+      ],
+      "vi": "Hôm qua tôi chỉ mua 2 con tem.",
+      "answers": [
+        "昨日(は)切手を2枚だけ買いました。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはきってをにまいだけかいました",
+          "score": 100
+        },
+        {
+          "answer": "昨日は切手を2本だけ買いました。",
+          "score": 80,
+          "issues": [
+            "wrong_counter"
+          ],
+          "note": "Tem là vật mỏng, phẳng: đếm bằng 枚."
+        },
+        {
+          "answer": "昨日は切手を3枚だけ買いました。",
+          "score": 0,
+          "note": "Sai số lượng."
+        }
+      ]
+    },
+    {
+      "id": "n5-15-e28",
+      "type": "translate",
+      "grammar": [
+        "kurai-gurai"
+      ],
+      "vi": "Từ Hà Nội đến Đà Nẵng đi máy bay mất khoảng 1 tiếng.",
+      "answers": [
+        "ハノイからダナンまで飛行機で1時間[ぐらい|くらい]かかります。",
+        "飛行機でハノイからダナンまで1時間[ぐらい|くらい]かかります。"
+      ],
+      "examples": [
+        {
+          "answer": "ハノイからダナンまでひこうきでいちじかんぐらいかかります",
+          "score": 100
+        },
+        {
+          "answer": "ハノイからダナンまで飛行機で1時間ごろかかります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "ごろ chỉ dùng với thời điểm; với độ dài thời gian dùng ぐらい."
+        },
+        {
+          "answer": "ハノイからダナンまで飛行機で2時間ぐらいかかります。",
+          "score": 0,
+          "note": "Sai thời gian."
+        }
+      ]
     }
   ],
   "ruby": {
@@ -1185,6 +1367,14 @@
     "きって": "きって",
     "封筒": "{封|ふう}{筒|とう}",
     "ポスト": "ポスト",
-    "紙": "{紙|かみ}"
+    "紙": "{紙|かみ}",
+    "本は何冊ありますか。": "{本|ほん}は{何冊|なんさつ}ありますか。",
+    "本は4冊あります。": "{本|ほん}は4{冊|さつ}あります。",
+    "犬は3匹います。": "{犬|いぬ}は3{匹|びき}います。",
+    "私は1年に2回ベトナムへ帰ります。": "{私|わたし}は1{年|ねん}に2{回|かい}ベトナムへ{帰|かえ}ります。",
+    "私はベトナムへ1年に2回帰ります。": "{私|わたし}はベトナムへ1{年|ねん}に2{回|かい}{帰|かえ}ります。",
+    "昨日は切手を2枚だけ買いました。": "{昨日|きのう}は{切|きっ}{手|て}を2{枚|まい}だけ{買|か}いました。",
+    "ハノイからダナンまで飛行機で1時間ぐらいかかります。": "ハノイからダナンまで{飛|ひ}{行|こう}{機|き}で1{時間|じかん}ぐらいかかります。",
+    "飛行機でハノイからダナンまで1時間ぐらいかかります。": "{飛|ひ}{行|こう}{機|き}でハノイからダナンまで1{時間|じかん}ぐらいかかります。"
   }
 }

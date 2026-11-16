@@ -1094,6 +1094,167 @@
         "そっち"
       ],
       "answer": 0
+    },
+    {
+      "id": "n5-22-e26",
+      "type": "translate",
+      "grammar": [
+        "mae-ni",
+        "x-dictionary-form"
+      ],
+      "vi": "Trước khi ra khỏi nhà, tôi đánh răng.",
+      "answers": [
+        "(私は)[家を出る|出かける]前(に)、歯を磨きます。",
+        "[家を出る|出かける]前(に)、私は歯を磨きます。"
+      ],
+      "examples": [
+        {
+          "answer": "いえをでるまえに、はをみがきます",
+          "score": 100
+        },
+        {
+          "answer": "家を出る前に、歯お磨きます。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "寝る前に、歯を磨きます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-22-e27",
+      "type": "translate",
+      "grammar": [
+        "da"
+      ],
+      "vi": "Thị trấn này không nhộn nhịp. (nói thân mật)",
+      "answers": [
+        "この町はにぎやか[じゃない|ではない]。",
+        "この町はにぎやか[じゃありません|ではありません|じゃないです|ではないです]。"
+      ],
+      "examples": [
+        {
+          "answer": "このまちはにぎやかじゃない",
+          "score": 100
+        },
+        {
+          "answer": "この町はにぎやかくない。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "この町はにぎやかだ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-22-e28",
+      "type": "translate",
+      "grammar": [
+        "da"
+      ],
+      "vi": "Hôm qua là sinh nhật tớ. (nói thân mật)",
+      "answers": [
+        "昨日は(私の)誕生日だった。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはわたしのたんじょうびだった",
+          "score": 100
+        },
+        {
+          "answer": "きのうわわたしのたんじょうびだった",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "昨日は私の誕生日だ。",
+          "score": 0
+        },
+        {
+          "answer": "明日は私の誕生日だ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-22-e29",
+      "type": "question",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "毎朝何時に起きる？",
+        "promptVi": "Bạn thân hỏi: “Sáng nào cậu cũng dậy lúc mấy giờ?” Hãy trả lời thân mật: tớ dậy lúc 6 giờ.",
+        "answers": [
+          "[(毎朝)6時に起きる|6時(だ)]。"
+        ],
+        "examples": [
+          {
+            "answer": "ろくじにおきる",
+            "score": 100
+          },
+          {
+            "answer": "6時起きる。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ]
+          },
+          {
+            "answer": "7時に起きる。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-22-e30",
+      "type": "question",
+      "grammar": [
+        "x-position"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "塩はどこにありますか。",
+        "promptVi": "Muối ở đâu? Hãy trả lời: ở trên bàn.",
+        "picture": "🧂",
+        "expected": {
+          "places": [
+            "テーブル",
+            "机"
+          ],
+          "position": "上",
+          "sentence": "塩はテーブルの上にあります。"
+        },
+        "examples": [
+          {
+            "answer": "テーブルのうえにあります",
+            "score": 100
+          },
+          {
+            "answer": "上のテーブルにあります。",
+            "score": 80,
+            "issues": [
+              "position_order"
+            ]
+          },
+          {
+            "answer": "冷蔵庫の中にあります。",
+            "score": 20
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1242,6 +1403,14 @@
     "いいえ、違いません。": "いいえ、{違|ちが}いません。",
     "あっち": "あっち",
     "こっち": "こっち",
-    "そっち": "そっち"
+    "そっち": "そっち",
+    "私は家を出る前に、歯を磨きます。": "{私|わたし}は{家|いえ}を{出|で}る{前|まえ}に、{歯|は}を{磨|みが}きます。",
+    "家を出る前に、私は歯を磨きます。": "{家|いえ}を{出|で}る{前|まえ}に、{私|わたし}は{歯|は}を{磨|みが}きます。",
+    "この町はにぎやかじゃない。": "この{町|まち}はにぎやかじゃない。",
+    "この町はにぎやかじゃありません。": "この{町|まち}はにぎやかじゃありません。",
+    "昨日は私の誕生日だった。": "{昨日|きのう}は{私|わたし}の{誕|たん}{生|じょう}{日|び}だった。",
+    "毎朝何時に起きる？": "{毎|まい}{朝|あさ}{何時|なんじ}に{起|お}きる？",
+    "塩はどこにありますか。": "{塩|しお}はどこにありますか。",
+    "塩はテーブルの上にあります。": "{塩|しお}はテーブルの{上|うえ}にあります。"
   }
 }

@@ -1063,6 +1063,248 @@
           "bồn tắm"
         ]
       ]
+    },
+    {
+      "id": "n5-07-e23",
+      "type": "translate",
+      "grammar": [
+        "masu"
+      ],
+      "vi": "Tối nào tôi cũng đi ngủ lúc 10 giờ.",
+      "answers": [
+        "(私は)毎晩10時に寝ます。"
+      ],
+      "examples": [
+        {
+          "answer": "まいばんじゅうじにねます",
+          "score": 100
+        },
+        {
+          "answer": "毎晩10時寝ます。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu に sau giờ."
+        },
+        {
+          "answer": "毎晩10時を寝ます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Giờ làm việc gì dùng に, không dùng を."
+        },
+        {
+          "answer": "毎晩10時に寝ました。",
+          "score": 0,
+          "note": "Việc lặp lại hằng ngày dùng thể ます, không dùng ました."
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e24",
+      "type": "translate",
+      "grammar": [
+        "masen"
+      ],
+      "vi": "Chủ nhật tôi không làm việc.",
+      "answers": [
+        "(私は)日曜日は働きません。",
+        "(私は)日曜日(に)は[働きません|仕事(を)しません]。"
+      ],
+      "examples": [
+        {
+          "answer": "にちようびははたらきません",
+          "score": 100
+        },
+        {
+          "answer": "にちようびわはたらきません",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "日曜日働きません。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "日曜日は働きます。",
+          "score": 0,
+          "note": "Phủ định của 働きます là 働きません."
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e25",
+      "type": "translate",
+      "grammar": [
+        "mashita"
+      ],
+      "vi": "Sáng nay tôi đã tắm vòi sen.",
+      "answers": [
+        "(私は)今朝シャワーをあびました。"
+      ],
+      "examples": [
+        {
+          "answer": "けさシャワーをあびました",
+          "score": 100
+        },
+        {
+          "answer": "けさシャワーおあびました",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ],
+          "note": "Trợ từ tân ngữ đọc là o nhưng viết を."
+        },
+        {
+          "answer": "けさしゃわーをあびました",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ],
+          "note": "Từ mượn viết bằng katakana: シャワー."
+        },
+        {
+          "answer": "今朝シャワーにあびました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "今朝シャワーをあびます。",
+          "score": 0,
+          "note": "Việc đã làm sáng nay dùng thể quá khứ あびました."
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e26",
+      "type": "translate",
+      "grammar": [
+        "masen-deshita"
+      ],
+      "vi": "Hôm qua tôi đã không làm bài tập.",
+      "answers": [
+        "(私は)昨日宿題をしませんでした。",
+        "(私は)昨日は宿題をしませんでした。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうしゅくだいをしませんでした",
+          "score": 100
+        },
+        {
+          "answer": "きのうしゅくだいおしませんでした",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "昨日宿題がしませんでした。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "昨日宿題をしません。",
+          "score": 0,
+          "note": "Nói về hôm qua thì dùng thể quá khứ phủ định しませんでした."
+        },
+        {
+          "answer": "昨日宿題をしました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e27",
+      "type": "question",
+      "grammar": [
+        "masu"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "毎朝、何時に起きますか。",
+        "promptVi": "Sáng nào bạn cũng dậy lúc 6 giờ rưỡi. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(私は)(毎朝)6時[半|30分]に起きます。",
+          "6時[半|30分]です。"
+        ],
+        "examples": [
+          {
+            "answer": "まいあさろくじはんにおきます",
+            "score": 100
+          },
+          {
+            "answer": "6時半起きます。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu に sau giờ."
+          },
+          {
+            "answer": "6時半を起きます。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "6時半に起きました。",
+            "score": 0,
+            "note": "Câu hỏi về thói quen (毎朝): trả lời bằng thể ます."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-07-e28",
+      "type": "question",
+      "grammar": [
+        "masen"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "明日、授業はありますか。",
+        "promptVi": "Ngày mai là Chủ nhật, không có giờ học. Hãy trả lời câu hỏi.",
+        "answers": [
+          "いいえ、(授業は)ありません。",
+          "(いいえ、)(明日は)(授業は)[ありません|ないです]。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、ありません",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、授業わありません",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "いいえ、ありませんでした。",
+            "score": 0,
+            "note": "Hỏi về ngày mai: trả lời bằng ありません, không dùng quá khứ."
+          },
+          {
+            "answer": "はい、あります。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1174,6 +1416,16 @@
     "いつも": "いつも",
     "よく": "よく",
     "ときどき": "ときどき",
-    "洗濯": "{洗|せん}{濯|たく}"
+    "洗濯": "{洗|せん}{濯|たく}",
+    "私は毎晩10時に寝ます。": "{私|わたし}は{毎|まい}{晩|ばん}10{時|じ}に{寝|ね}ます。",
+    "私は日曜日は働きません。": "{私|わたし}は{日|にち}{曜|よう}{日|び}は{働|はたら}きません。",
+    "私は日曜日には働きません。": "{私|わたし}は{日|にち}{曜|よう}{日|び}には{働|はたら}きません。",
+    "私は今朝シャワーをあびました。": "{私|わたし}は{今朝|けさ}シャワーをあびました。",
+    "私は昨日宿題をしませんでした。": "{私|わたし}は{昨日|きのう}{宿|しゅく}{題|だい}をしませんでした。",
+    "私は昨日は宿題をしませんでした。": "{私|わたし}は{昨日|きのう}は{宿|しゅく}{題|だい}をしませんでした。",
+    "毎朝、何時に起きますか。": "{毎|まい}{朝|あさ}、{何時|なんじ}に{起|お}きますか。",
+    "私は毎朝6時半に起きます。": "{私|わたし}は{毎|まい}{朝|あさ}6{時|じ}{半|はん}に{起|お}きます。",
+    "6時半です。": "6{時|じ}{半|はん}です。",
+    "いいえ、授業はありません。": "いいえ、{授|じゅ}{業|ぎょう}はありません。"
   }
 }

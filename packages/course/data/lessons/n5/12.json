@@ -958,6 +958,194 @@
         "にぎやか"
       ],
       "vi": "Ở đây là một nơi nhộn nhịp nhỉ."
+    },
+    {
+      "id": "n5-12-e23",
+      "type": "translate",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "vi": "Kyoto là một thành phố đẹp.",
+      "answers": [
+        "京都はきれいな町です。"
+      ],
+      "examples": [
+        {
+          "answer": "京都はきれいなまちです。",
+          "score": 100
+        },
+        {
+          "answer": "京都は綺麗な町です。",
+          "score": 100
+        },
+        {
+          "answer": "京都はきれい町です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "京都はきれいの町です。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "京都はにぎやかな町です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12-e24",
+      "type": "translate",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "vi": "Kỳ nghỉ tuần trước rất vui.",
+      "answers": [
+        "先週の休みはとても楽しかったです。"
+      ],
+      "examples": [
+        {
+          "answer": "せんしゅうのやすみはとてもたのしかったです。",
+          "score": 100
+        },
+        {
+          "answer": "先週の休みはとても楽しいでした。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "先週の休みはとても楽しいです。",
+          "score": 0
+        },
+        {
+          "answer": "先週の休みはあまり楽しくなかったです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12-e25",
+      "type": "translate",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "vi": "Thị trấn này không yên tĩnh.",
+      "answers": [
+        "この町は静か[ではありません|じゃありません|ではないです|じゃないです]。"
+      ],
+      "examples": [
+        {
+          "answer": "このまちはしずかではありません。",
+          "score": 100
+        },
+        {
+          "answer": "このまちはしずかじゃないです。",
+          "score": 100
+        },
+        {
+          "answer": "この町は静かくないです。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "この町は静かなではありません。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "この町はにぎやかではありません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12-e26",
+      "type": "question",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "昨日の映画はどうでしたか。",
+        "promptVi": "Bộ phim hôm qua thế nào? Trả lời: không hay lắm.",
+        "answers": [
+          "あまりおもしろくなかったです。",
+          "(昨日の映画は)あまりおもしろく[なかったです|ありませんでした]。"
+        ],
+        "examples": [
+          {
+            "answer": "あまりおもしろくなかったです。",
+            "score": 100
+          },
+          {
+            "answer": "あまり面白くありませんでした。",
+            "score": 100
+          },
+          {
+            "answer": "あまりおもしろいではありませんでした。",
+            "score": 80,
+            "issues": [
+              "adjective_form"
+            ]
+          },
+          {
+            "answer": "あまりおもしろくないです。",
+            "score": 0
+          },
+          {
+            "answer": "とてもおもしろかったです。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-12-e27",
+      "type": "question",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "ハノイはにぎやかですか。",
+        "promptVi": "Hà Nội có nhộn nhịp không? Trả lời: \"Vâng, rất nhộn nhịp.\"",
+        "answers": [
+          "はい、とてもにぎやかです。",
+          "([はい|ええ]、)(ハノイは)とてもにぎやかです。"
+        ],
+        "examples": [
+          {
+            "answer": "はい、とてもにぎやかです。",
+            "score": 100
+          },
+          {
+            "answer": "ええ、とても賑やかです。",
+            "score": 100
+          },
+          {
+            "answer": "はい、とてもにぎやかなです。",
+            "score": 85,
+            "issues": [
+              "extra_word"
+            ]
+          },
+          {
+            "answer": "はい、とても静かです。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -1090,6 +1278,14 @@
     "いいじゃないです。": "いいじゃないです。",
     "ここはにぎやかな所ですね。": "ここはにぎやかな{所|ところ}ですね。",
     "にぎやかな": "にぎやかな",
-    "にぎやかの": "にぎやかの"
+    "にぎやかの": "にぎやかの",
+    "京都はきれいな町です。": "{京都|きょうと}はきれいな{町|まち}です。",
+    "先週の休みはとても楽しかったです。": "{先|せん}{週|しゅう}の{休|やす}みはとても{楽|たの}しかったです。",
+    "この町は静かではありません。": "この{町|まち}は{静|しず}かではありません。",
+    "昨日の映画はどうでしたか。": "{昨日|きのう}の{映|えい}{画|が}はどうでしたか。",
+    "あまりおもしろくなかったです。": "あまりおもしろくなかったです。",
+    "ハノイはにぎやかですか。": "ハノイはにぎやかですか。",
+    "はい、とてもにぎやかです。": "はい、とてもにぎやかです。",
+    "はい、ハノイはとてもにぎやかです。": "はい、ハノイはとてもにぎやかです。"
   }
 }

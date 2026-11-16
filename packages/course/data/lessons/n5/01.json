@@ -789,6 +789,236 @@
         "Tôi không phải là người Nhật."
       ],
       "answer": 2
+    },
+    {
+      "id": "n5-01-e16",
+      "type": "translate",
+      "grammar": [
+        "wa",
+        "desu"
+      ],
+      "vi": "Tôi là du học sinh.",
+      "answers": [
+        "(私は)留学生です。"
+      ],
+      "examples": [
+        {
+          "answer": "わたしはりゅうがくせいです",
+          "score": 100
+        },
+        {
+          "answer": "わたしわりゅうがくせいです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ],
+          "note": "Trợ từ chủ đề đọc là wa nhưng viết は."
+        },
+        {
+          "answer": "私留学生です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は (tiếng Việt không có trợ từ chủ đề)."
+        },
+        {
+          "answer": "りゅがくせいです",
+          "score": 90,
+          "issues": [
+            "kana_spelling"
+          ],
+          "note": "Thiếu trường âm: りゅうがくせい."
+        },
+        {
+          "answer": "私は学生です。",
+          "score": 0,
+          "note": "学生 là học sinh, không phải du học sinh."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e17",
+      "type": "translate",
+      "grammar": [
+        "de-wa-arimasen-ja-nai"
+      ],
+      "vi": "Anh Minh không phải là giáo viên. (lịch sự)",
+      "answers": [
+        "ミンさんは先生[ではありません|じゃありません|ではないです|じゃないです]。"
+      ],
+      "examples": [
+        {
+          "answer": "ミンさんはせんせいではありません",
+          "score": 100
+        },
+        {
+          "answer": "ミンさんはせんせいじゃないです",
+          "score": 100
+        },
+        {
+          "answer": "ミンさん先生ではありません。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "ミンさんは先生です。",
+          "score": 0,
+          "note": "Câu khẳng định, không phải phủ định."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e18",
+      "type": "translate",
+      "grammar": [
+        "mo"
+      ],
+      "vi": "Chị Mai cũng là học sinh.",
+      "answers": [
+        "マイさんも学生です。"
+      ],
+      "examples": [
+        {
+          "answer": "マイさんもがくせいです",
+          "score": 100
+        },
+        {
+          "answer": "マイさんはもがくせいです",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ],
+          "note": "も thay cho は, không viết はも."
+        },
+        {
+          "answer": "マイさんはがくせいです",
+          "score": 0,
+          "note": "Thiếu も: mất nghĩa \"cũng\"."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e19",
+      "type": "translate",
+      "grammar": [
+        "ka-question"
+      ],
+      "vi": "Bạn có phải là người Nhật không?",
+      "answers": [
+        "(あなたは)日本人ですか。"
+      ],
+      "examples": [
+        {
+          "answer": "あなたはにほんじんですか",
+          "score": 100
+        },
+        {
+          "answer": "あなたわにほんじんですか",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "あなたは日本人か。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu です trước か."
+        },
+        {
+          "answer": "あなたは日本人です。",
+          "score": 0,
+          "note": "Thiếu か: không còn là câu hỏi."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e20",
+      "type": "question",
+      "grammar": [
+        "ka-question",
+        "de-wa-arimasen-ja-nai"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "あなたは先生ですか。",
+        "promptVi": "Bạn là học sinh, không phải giáo viên. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(いいえ、)(私は)先生[ではありません|じゃありません|ではないです|じゃないです]。",
+          "(いいえ、)(私は)学生です。",
+          "(いいえ、)(私は)先生[ではありません|じゃありません|ではないです|じゃないです]。(私は)学生です。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、せんせいではありません",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、わたしわがくせいです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "はい、先生ではありません。",
+            "score": 0,
+            "note": "Câu hỏi khẳng định: trả lời \"không phải\" thì dùng いいえ."
+          },
+          {
+            "answer": "はい、先生です。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-01-e21",
+      "type": "question",
+      "grammar": [
+        "wa",
+        "desu"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "お名前は何ですか。",
+        "promptVi": "Bạn tên là Nguyễn. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(私は)グエンです。",
+          "名前はグエンです。"
+        ],
+        "examples": [
+          {
+            "answer": "わたしはグエンです",
+            "score": 100
+          },
+          {
+            "answer": "わたしわグエンです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "グエン。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu です."
+          },
+          {
+            "answer": "私は田中です。",
+            "score": 0
+          }
+        ]
+      }
     }
   ],
   "ruby": {
@@ -862,6 +1092,15 @@
     "何": "{何|なん}",
     "どなた": "どなた",
     "はい": "はい",
-    "私は日本人ではありません。": "{私|わたし}は{日本|にほん}{人|じん}ではありません。"
+    "私は日本人ではありません。": "{私|わたし}は{日本|にほん}{人|じん}ではありません。",
+    "私は留学生です。": "{私|わたし}は{留|りゅう}{学|がく}{生|せい}です。",
+    "ミンさんは先生ではありません。": "ミンさんは{先|せん}{生|せい}ではありません。",
+    "マイさんも学生です。": "マイさんも{学|がく}{生|せい}です。",
+    "あなたは日本人ですか。": "あなたは{日本|にほん}{人|じん}ですか。",
+    "あなたは先生ですか。": "あなたは{先|せん}{生|せい}ですか。",
+    "いいえ、私は先生ではありません。": "いいえ、{私|わたし}は{先|せん}{生|せい}ではありません。",
+    "いいえ、私は学生です。": "いいえ、{私|わたし}は{学|がく}{生|せい}です。",
+    "いいえ、私は先生ではありません。私は学生です。": "いいえ、{私|わたし}は{先|せん}{生|せい}ではありません。{私|わたし}は{学|がく}{生|せい}です。",
+    "名前はグエンです。": "{名|な}{前|まえ}はグエンです。"
   }
 }
