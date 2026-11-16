@@ -2,7 +2,7 @@
 
 Web app giúp **người Việt** học tiếng Nhật từ con số 0: bảng chữ **kana**, rồi **từ vựng, kanji (kèm âm Hán Việt) và ngữ pháp** sơ cấp, tương đương **JLPT N5 và N4**. Bài tự luận được chấm bằng **luật ngôn ngữ, không dùng AI**: cùng một câu trả lời luôn cho cùng một kết quả, kèm nhận xét tiếng Việt.
 
-> **Trạng thái:** đang xây dựng theo [docs/plan.md](docs/plan.md) (đã được chủ dự án duyệt). Tiến độ chi tiết ở [docs/handoff.md](docs/handoff.md).
+> **Trạng thái (2026-11-16):** đủ nội dung chặng kana, N5 (28 bài) và N4 (26 bài), **bản nháp chờ giáo viên duyệt** (app ghi "Chưa duyệt"); chưa triển khai công khai. Tiến độ chi tiết ở [docs/handoff.md](docs/handoff.md), điểm cần giáo viên xem ở [docs/review-notes.md](docs/review-notes.md).
 
 Dự án dựa trên app tiếng Trung [c-learn-write](https://github.com/ntson9p/c-learn-write) của cùng tác giả: dùng lại kiến trúc, bộ máy chấm bài, công cụ duyệt nội dung và khung app.
 

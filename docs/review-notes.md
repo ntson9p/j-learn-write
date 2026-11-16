@@ -86,6 +86,17 @@ Bộ điền furigana tự động (`content:fill`) chọn cách đọc theo t�
 - Từ vựng xếp vào bài khác với gợi ý của người soạn: いくつ (n5-15, có thể đưa về n5-04), 昼休み (n4-07, có thể đưa về n5-05).
 - Các bài N4 tránh dùng ngữ pháp dạy sau (と思う, ので, だろう… trước bài của chúng); 一度 chỉ dùng từ n4-20.
 
-## 6. Giới hạn của bộ chấm
+## 6. Bài N4 (n4-01…26)
+
+- **Cách đọc chọn tay:** 明日 あす (từ N4 riêng, n4-05); 30歳 さい; 熱 ねつ; 開く ひら/あ theo nghĩa; 止める/止まれ と; 来ろ こ (câu sai); 空いて あ; 方 かた/ほう; 中 ちゅう/じゅう/なか; 一日 いちにち; 1日おき いちにち (không phải ついたち: bộ chấm hiện chấp nhận cả ついたちおき); 十分 じゅうぶん; 20歳 さい (cũng nói はたち); 降り ふ/お.
+- **Hán Việt ghi chú trong bài:** 首 thủ, 無理 vô lý, 用意 dụng ý, 大事 đại sự, 人口 nhân khẩu, 冷房 lãnh phòng, 運転手 vận chuyển thủ, 食事 thực sự, 湯 thang, 招待 chiêu đãi, 生産 sinh sản, 女性/男性, 汽車, 普通, 十分 thập phần (đã sửa trong dữ liệu).
+- **Quy tắc dạy cứng cần cân nhắc:** 弟は日本へ行きたいです / 妹は犬が怖いです bị coi là sai (ngôi thứ ba phải dùng たがる/がる; trong văn kể chuyện vẫn gặp); 痩せるために (sách chặt sẽ đòi 痩せるように); はず không dùng cho ý định của mình; 帰るつもりではありません; 行くと思います cho ý định của mình; 田中様でございますか (nên dùng でいらっしゃいます, nhưng hay gặp trong dịch vụ); 電車がまいります (thông báo nhà ga, rất lịch sự chứ không hẳn khiêm nhường).
+- **Kính ngữ (n4-24, n4-25):** giải thích trong/ngoài nhóm (田中は今いません khi nói với khách), bảng động từ đặc biệt ở mục `patterns` (app chưa có bảng). Từ khiêm nhường おる thêm vào danh sách (`vocabulary-extra.json`) và bài n4-25.
+- **Bài chọn cần chắc một đáp án:** だろうか/かな (n4-14-e13); 治りました/直りました (n4-10); 止みました/止まりました (n4-13); 〜てきました/〜ていきました (n4-12-e06); 間/間に, まで/までに (n4-07); 3日2泊 / 2泊3日 (n4-19).
+- **Ý nghĩa, sắc thái:** 4時間おき / 10分おき "cứ mỗi" nhưng 1日おき "cách ngày" (n4-19); 以上/以下 tính cả số đó; áo sơ mi đếm 枚, com-lê/áo khoác đếm 着; 中学校の2年生 = "lớp 8"; 食べな nghĩa "ăn đi" (rút gọn của 食べなさい, n4-23); 適当 hai nghĩa "thích hợp" và "qua loa"; なかなか khi khen người trên; 産業/工業; 〜てもらう thay vì bị động khi biết ơn (n4-21); 堅い/硬い/固い; 看護婦 (từ cũ, nay 看護師).
+- **Lời nhắc chỉ rõ mẫu câu** (vì cách nói khác cũng đúng): 〜しか (n4-18-e25), 〜ところ (n4-19-e21), thể bị động (n4-21-e19), ために/ように (n4-16), 〜てしまう, 〜ていく, 〜おわる, 〜だす, 〜らしい (n4-11…13).
+- **Đáp án chấp nhận thêm:** は tương phản (日本語は少し話せます…), を với thể khả năng, 国/田舎 cho "quê", 母に/母が với てほしい, 駅はどこにあるか (câu hỏi lồng), 会って/会えて (n4-16).
+
+## 7. Giới hạn của bộ chấm
 
 Xem [design.md](design.md) mục 3 (mỗi luật: bắt gì, bỏ qua gì) và cuối mục 3 (những gì chưa hỗ trợ). Bộ chấm cho 0 điểm khi câu trả lời dùng từ khác đáp án, kể cả từ đồng nghĩa không có trong danh sách đáp án: giáo viên nên bổ sung đáp án khi gặp.
