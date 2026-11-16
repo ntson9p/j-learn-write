@@ -871,7 +871,7 @@
 {"no":870,"level":"n4","openjlptId":"511cbf9eee","jmdictId":1254130,"word":"決して","reading":"けっして","ruby":"{決|けっ}して","forms":["決して","けっして"],"pos":["adv"],"hanViet":"quyết"},
 {"no":871,"level":"n4","openjlptId":"0435dab637","jmdictId":2853889,"word":"けれど","reading":"けれど","ruby":"けれど","forms":["けれど"],"pos":["conj","prt"]},
 {"no":872,"level":"n4","openjlptId":"43f91bcf9d","jmdictId":1261190,"word":"原因","reading":"げんいん","ruby":"{原|げん}{因|いん}","forms":["原因","げんいん"],"pos":["n","vs","vi"],"hanViet":"nguyên nhân"},
-{"no":873,"level":"n4","openjlptId":"063c94089d","jmdictId":1257040,"word":"けんかする","reading":"けんかする","ruby":"けんかする","forms":["けんかする"],"pos":["n","vs","vi"]},
+{"no":873,"level":"n4","openjlptId":"063c94089d","jmdictId":1257040,"word":"けんかする","reading":"けんかする","ruby":"けんかする","forms":["けんかする","けんか"],"pos":["n","vs","vi"]},
 {"no":874,"level":"n4","openjlptId":"607f3c4430","jmdictId":1258520,"word":"研究","reading":"けんきゅう","ruby":"{研|けん}{究|きゅう}","forms":["研究","けんきゅう"],"pos":["n","vs","vt"],"hanViet":"nghiên cứu"},
 {"no":875,"level":"n4","openjlptId":"912c269668","jmdictId":1258570,"word":"研究室","reading":"けんきゅうしつ","ruby":"{研|けん}{究|きゅう}{室|しつ}","forms":["研究室","けんきゅうしつ"],"pos":["n"],"hanViet":"nghiên cứu thất"},
 {"no":876,"level":"n4","openjlptId":"a9a71878f0","jmdictId":1260000,"word":"見物","reading":"けんぶつ","ruby":"{見|けん}{物|ぶつ}","forms":["見物","けんぶつ"],"pos":["n","vs","vt"],"hanViet":"kiến vật","hanVietAmbiguous":true},
@@ -959,7 +959,7 @@
 {"no":958,"level":"n4","openjlptId":"eacd8a5221","jmdictId":1333090,"word":"習慣","reading":"しゅうかん","ruby":"{習|しゅう}{慣|かん}","forms":["習慣","しゅうかん"],"pos":["n"],"hanViet":"tập quán"},
 {"no":959,"level":"n4","openjlptId":"47593d1123","jmdictId":1334080,"word":"住所","reading":"じゅうしょ","ruby":"{住|じゅう}{所|しょ}","forms":["住所","じゅうしょ"],"pos":["n"],"hanViet":"trụ sở"},
 {"no":960,"level":"n4","openjlptId":"dcfb33317b","jmdictId":1335440,"word":"柔道","reading":"じゅうどう","ruby":"{柔|じゅう}{道|どう}","forms":["柔道","じゅうどう"],"pos":["n"],"hanViet":"nhu đạo"},
-{"no":961,"level":"n4","openjlptId":"ab6fd5bdbb","jmdictId":1335080,"word":"十分","reading":"じゅうぶん","ruby":"{十|じゅう}{分|ぶん}","forms":["十分","じゅうぶん"],"pos":["adj-na","adv","n","vs","vt"],"hanViet":"thập phân","hanVietAmbiguous":true},
+{"no":961,"level":"n4","openjlptId":"ab6fd5bdbb","jmdictId":1335080,"word":"十分","reading":"じゅうぶん","ruby":"{十|じゅう}{分|ぶん}","forms":["十分","じゅうぶん"],"pos":["adj-na","adv","n","vs","vt"],"hanViet":"thập phần"},
 {"no":962,"level":"n4","openjlptId":"93f910e281","jmdictId":1339460,"word":"出席","reading":"しゅっせき","ruby":"{出|しゅっ}{席|せき}","forms":["出席","しゅっせき"],"pos":["n","vs","vi"],"hanViet":"xuất tịch"},
 {"no":963,"level":"n4","openjlptId":"c614552d23","jmdictId":1340000,"word":"出発","reading":"しゅっぱつ","ruby":"{出|しゅっ}{発|ぱつ}","forms":["出発","しゅっぱつ"],"pos":["n","vs","vi"],"hanViet":"xuất phát"},
 {"no":964,"level":"n4","openjlptId":"7c6d792073","jmdictId":1329000,"word":"趣味","reading":"しゅみ","ruby":"{趣|しゅ}{味|み}","forms":["趣味","しゅみ"],"pos":["n"],"hanViet":"thú vị"},
@@ -1317,5 +1317,6 @@
 {"no":1316,"level":"n5","openjlptId":"extra-1189400-なんようび","jmdictId":1189400,"word":"何曜日","reading":"なんようび","ruby":"{何|なん}{曜|よう}{日|び}","forms":["何曜日","なんようび"],"pos":["n"],"extra":true,"hanViet":"hà diệu nhật"},
 {"no":1317,"level":"n5","openjlptId":"extra-1516930-ほう","jmdictId":1516930,"word":"方","reading":"ほう","ruby":"{方|ほう}","forms":["方","ほう"],"pos":["n"],"extra":true,"hanViet":"phương"},
 {"no":1318,"level":"n4","openjlptId":"extra-1315840-とき","jmdictId":1315840,"word":"時","reading":"とき","ruby":"{時|とき}","forms":["時","とき"],"pos":["n","adv"],"extra":true,"hanViet":"thời"},
-{"no":1319,"level":"n4","openjlptId":"extra-1305380-しまう","jmdictId":1305380,"word":"しまう","reading":"しまう","ruby":"しまう","forms":["しまう"],"pos":["v5u","vt","aux-v"],"extra":true}
+{"no":1319,"level":"n4","openjlptId":"extra-1305380-しまう","jmdictId":1305380,"word":"しまう","reading":"しまう","ruby":"しまう","forms":["しまう"],"pos":["v5u","vt","aux-v"],"extra":true},
+{"no":1320,"level":"n4","openjlptId":"extra-1577985-おる","jmdictId":1577985,"word":"おる","reading":"おる","ruby":"おる","forms":["おる","居る"],"pos":["v5r","vi","aux-v","suf"],"extra":true,"formsRuby":["{居|お}る"]}
 ]

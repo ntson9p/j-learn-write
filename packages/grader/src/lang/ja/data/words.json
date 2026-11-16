@@ -871,7 +871,7 @@
 {"no":870,"word":"決して","reading":"けっして","forms":["けっして"],"pos":["adv"]},
 {"no":871,"word":"けれど","reading":"けれど","forms":[],"pos":["conj","prt"]},
 {"no":872,"word":"原因","reading":"げんいん","forms":["げんいん"],"pos":["n","vs","vi"]},
-{"no":873,"word":"けんかする","reading":"けんかする","forms":[],"pos":["n","vs","vi"]},
+{"no":873,"word":"けんかする","reading":"けんかする","forms":["けんか"],"pos":["n","vs","vi"]},
 {"no":874,"word":"研究","reading":"けんきゅう","forms":["けんきゅう"],"pos":["n","vs","vt"]},
 {"no":875,"word":"研究室","reading":"けんきゅうしつ","forms":["けんきゅうしつ"],"pos":["n"]},
 {"no":876,"word":"見物","reading":"けんぶつ","forms":["けんぶつ"],"pos":["n","vs","vt"]},
@@ -1317,5 +1317,6 @@
 {"no":1316,"word":"何曜日","reading":"なんようび","forms":["なんようび"],"pos":["n"]},
 {"no":1317,"word":"方","reading":"ほう","forms":["ほう"],"pos":["n"]},
 {"no":1318,"word":"時","reading":"とき","forms":["とき"],"pos":["n","adv"]},
-{"no":1319,"word":"しまう","reading":"しまう","forms":[],"pos":["v5u","vt","aux-v"]}
+{"no":1319,"word":"しまう","reading":"しまう","forms":[],"pos":["v5u","vt","aux-v"]},
+{"no":1320,"word":"おる","reading":"おる","forms":["居る"],"pos":["v5r","vi","aux-v","suf"]}
 ]

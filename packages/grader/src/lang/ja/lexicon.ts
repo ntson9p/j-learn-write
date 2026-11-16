@@ -70,6 +70,8 @@ export class JaLexicon {
           if (SHADOWED_KANA_STEMS.has(f.surface) && f.tags.join('+') === 'stem') continue;
           this.add(f.surface, { kind: 'word', no: w.no, word: w.word, reading: f.reading, tags: f.tags, pos: w.pos });
         }
+        // な-adjective + さ: 静かさ, 便利さ (the degree of…).
+        if (!cls && w.pos.includes('adj-na')) this.add(`${spelling}さ`, { kind: 'word', no: w.no, word: w.word, reading: `${reading}さ`, tags: ['sa'], pos: w.pos });
       }
     }
     for (const fw of FUNCTION_WORDS) {

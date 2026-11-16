@@ -1153,9 +1153,9 @@
         },
         {
           "answer": "この時計は8600円。",
-          "score": 85,
+          "score": 100,
           "issues": [
-            "missing_word"
+            "politeness_mix"
           ],
           "note": "Thiếu です."
         },

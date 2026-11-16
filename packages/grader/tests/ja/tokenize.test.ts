@@ -42,6 +42,13 @@ describe('tokenize', () => {
     expect(surfaces('テレビを見なくなりました')).toEqual(['テレビ', 'を', '見なく', 'なりました']);
   });
 
+  it('reads keigo and the N4 additions: おります, ございます, けんか, 静かさ', () => {
+    expect(tokenize('父は家におります', lex).at(-1)!.analyses).toContainEqual(expect.objectContaining({ kind: 'word', word: 'おる', tags: ['masu'] }));
+    expect(tokenize('こちらにございます', lex).at(-1)!.analyses).toContainEqual(expect.objectContaining({ kind: 'function', id: 'gozaimasu' }));
+    expect(surfaces('兄とけんかをしました')).toEqual(['兄', 'と', 'けんか', 'を', 'しました']);
+    expect(surfaces('この部屋の静かさが好きです')).toContain('静かさ');
+  });
+
   it('reads しに as する + に, not as 死ぬ', () => {
     expect(surfaces('何をしに行きますか')).toEqual(['何', 'を', 'し', 'に', '行きます', 'か']);
   });

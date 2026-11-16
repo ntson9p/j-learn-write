@@ -214,6 +214,8 @@ function verbForms(p: VerbParts, dict: string, withDerived: boolean): [string, s
       if (!base) continue;
       const parts = cls === 'v1' ? ichidanParts(base.slice(0, -1), 'v1') : godanParts(base.slice(0, -1), cls);
       for (const [s, tags] of verbForms(parts, base, false)) out.push([s, [tag, ...tags]]);
+      // 行きたがってる: ている said quickly, for feelings of others.
+      if (tag === 'tagaru') out.push(...teiruForms(parts).map(([s, tags]): [string, string[]] => [s, [tag, ...tags]]));
     }
     // Adjectives built on the stem: 書きやすい, 覚えにくい. Their bare stem (出にく) is
     // left out: it never stands alone and would hide words in kana text (でにくやさかな).
@@ -225,6 +227,14 @@ function verbForms(p: VerbParts, dict: string, withDerived: boolean): [string, s
     }
   }
   return out;
+}
+
+/** ている said quickly (怖がってる, 怖がってます, 怖がってた) of a verb's parts. */
+function teiruForms(p: VerbParts): [string, string[]][] {
+  const base = `${p.te}る`;
+  return verbForms(ichidanParts(base.slice(0, -1), 'v1'), base, false)
+    .filter(([, tags]) => ['', 'masu', 'masu+neg', 'masu+past', 'ta', 'nai'].includes(tags.join('+')))
+    .map(([s, tags]) => [s, ['teiru', ...tags]]);
 }
 
 function adjectiveForms(stem: string, dict: string): [string, string[]][] {
@@ -243,6 +253,7 @@ function adjectiveForms(stem: string, dict: string): [string, string[]][] {
     [`${stem}さ`, ['sa']],
     // 寒がる: a verb built on the stem (about how someone else feels).
     ...verbForms(godanParts(`${stem}が`, 'v5r'), `${stem}がる`, false).map(([s, tags]): [string, string[]] => [s, ['garu', ...tags]]),
+    ...teiruForms(godanParts(`${stem}が`, 'v5r')).map(([s, tags]): [string, string[]] => [s, ['garu', ...tags]]),
   ];
 }
 

@@ -891,6 +891,7 @@
 {"text":"尤も","reading":"もとも","furigana":[{"ruby":"尤","rt":"もと"},{"ruby":"も"}]},
 {"text":"居らっしゃる","reading":"いらっしゃる","furigana":[{"ruby":"居","rt":"い"},{"ruby":"らっしゃる"}]},
 {"text":"居る","reading":"いる","furigana":[{"ruby":"居","rt":"い"},{"ruby":"る"}]},
+{"text":"居る","reading":"おる","furigana":[{"ruby":"居","rt":"お"},{"ruby":"る"}]},
 {"text":"屆ける","reading":"とどける","furigana":[{"ruby":"屆","rt":"とど"},{"ruby":"ける"}]},
 {"text":"届ける","reading":"とどける","furigana":[{"ruby":"届","rt":"とど"},{"ruby":"ける"}]},
 {"text":"屋上","reading":"おくじょう","furigana":[{"ruby":"屋","rt":"おく"},{"ruby":"上","rt":"じょう"}]},

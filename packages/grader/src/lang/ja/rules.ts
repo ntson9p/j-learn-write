@@ -131,7 +131,7 @@ function wrongTeForms(lexicon: JaLexicon): Map<string, string> {
   return map;
 }
 
-type WrongForm = { right: string; code: 'te_form' | 'verb_form' | 'adjective_form'; why: string };
+type WrongForm = { right: string; code: 'te_form' | 'verb_form' | 'adjective_form'; why: string; notAfter?: string };
 const wrongVerbCache = new WeakMap<JaLexicon, Map<string, WrongForm>>();
 const wrongMaxLength = new WeakMap<Map<string, WrongForm>, number>();
 
@@ -145,6 +145,12 @@ const WHY = {
   voicing: 'đuôi む, ぶ, ぬ: んで/んだ; đuôi く: いて/いた; đuôi ぐ: いで/いだ',
   tari: 'たり nối với thể た',
   potential: 'thể khả năng của động từ nhóm 1: đổi đuôi sang cột e + る',
+  stemBefore: 'すぎる, にくい, やすい nối với thể ます bỏ ます',
+  teKudasai: 'ください đi sau thể て',
+  aru: 'động từ này chia ます thành 〜います',
+  imperative: 'mệnh lệnh của động từ nhóm 2: bỏ る thêm ろ',
+  causative: 'thể sai khiến của động từ nhóm 1: cột a + せる',
+  adjectiveSugi: 'tính từ đuôi い bỏ い rồi mới thêm すぎる',
   adjective: 'tính từ đuôi い bỏ い rồi mới thêm くて, くない, かった',
   adjectiveNaru: 'tính từ đuôi い + なる: bỏ い thêm く',
 };
@@ -160,8 +166,8 @@ function wrongVerbForms(lexicon: JaLexicon): Map<string, WrongForm> {
   const cached = wrongVerbCache.get(lexicon);
   if (cached) return cached;
   const map = new Map<string, WrongForm>();
-  const add = (wrong: string, right: string | undefined, code: WrongForm['code'], why: string) => {
-    if (right && wrong !== right && !map.has(wrong)) map.set(wrong, { right, code, why });
+  const add = (wrong: string, right: string | undefined, code: WrongForm['code'], why: string, notAfter?: string) => {
+    if (right && wrong !== right && !map.has(wrong)) map.set(wrong, { right, code, why, ...(notAfter ? { notAfter } : {}) });
   };
   for (const w of lexicon.words) {
     const cls = conjClassOf(w.word, w.pos);
@@ -171,6 +177,8 @@ function wrongVerbForms(lexicon: JaLexicon): Map<string, WrongForm> {
         const stem = spelling.slice(0, -1);
         for (const suffix of ['くて', 'くない', 'くなかった', 'かった', 'かったら', 'ければ']) add(spelling + suffix, stem + suffix, 'adjective_form', WHY.adjective);
         for (const naru of ['なる', 'なります', 'なりました', 'なって', 'なった']) add(`${spelling}に${naru}`, `${stem}く${naru}`, 'adjective_form', WHY.adjectiveNaru);
+        // 高いすぎます → 高すぎます
+        for (const sugi of ['すぎる', 'すぎます', 'すぎました', 'すぎて']) add(spelling + sugi, stem + sugi, 'adjective_form', WHY.adjectiveSugi);
       }
       continue;
     }
@@ -189,6 +197,12 @@ function wrongVerbForms(lexicon: JaLexicon): Map<string, WrongForm> {
         if (right) add(dict + right.slice(stem.length), right, 'verb_form', WHY.masu);
       }
       add(`${dict}ながら`, form('nagara'), 'verb_form', WHY.nagara);
+      // 食べるすぎました, 読むにくい, 歩くやすい: the ます-stem goes before すぎる, にくい, やすい.
+      for (const suffix of ['すぎる', 'すぎます', 'すぎました', 'すぎて', 'にくい', 'にくいです', 'やすい', 'やすいです']) add(dict + suffix, stem + suffix, 'verb_form', WHY.stemBefore);
+      // 待ちください → 待ってください (but お待ちください is right: お + stem is left alone by the token check).
+      add(`${stem}ください`, `${te}ください`, 'te_form', WHY.teKudasai, 'おご');
+      // いらっしゃります → いらっしゃいます
+      if (cls === 'v5aru') add(`${dict.slice(0, -1)}ります`, form('masu'), 'verb_form', WHY.aru);
       add(`${te.slice(0, -1)}ながら`, form('nagara'), 'verb_form', WHY.nagara);
       for (const [suffix, tags] of [['ない', 'nai'], ['ないで', 'naide'], ['なかった', 'nai+past'], ['なくて', 'nai+te']] as const) {
         if (godan) add(stem + suffix, form(tags), 'verb_form', WHY.nai);
@@ -216,6 +230,15 @@ function wrongVerbForms(lexicon: JaLexicon): Map<string, WrongForm> {
         // 寝って, 見った: a group 2 verb conjugated like 帰る.
         add(`${stem}って`, te, 'te_form', WHY.ichidanTe);
         add(`${stem}った`, ta, 'te_form', WHY.ichidanTe);
+        // 逃げれ → 逃げろ
+        add(`${stem}れ`, form('imperative'), 'verb_form', WHY.imperative);
+      }
+      if (godan) {
+        // 休まさせて → 休ませて: the causative of a group 1 verb is the あ-row + せる.
+        const full = conjugate(spelling, w.reading, cls);
+        const causative = (tags: string) => full.find((f) => f.tags.join('+') === tags)?.surface;
+        const a = causative('causative')?.slice(0, -2);
+        if (a) for (const [suffix, tags] of [['させる', 'causative'], ['させて', 'causative+te'], ['させます', 'causative+masu'], ['させました', 'causative+masu+past']] as const) add(a + suffix, causative(tags), 'verb_form', WHY.causative);
       }
     }
   }
@@ -246,7 +269,7 @@ const verbForm: Rule = (tokens, lists, p, out, text, lexicon) => {
     for (let len = Math.min(maxLength, text.length - at); len >= 2; len--) {
       const wrong = text.slice(at, at + len);
       const found = wrongForms.get(wrong);
-      if (!found || (kanaOnly(wrong) && !startsWord)) continue;
+      if (!found || (kanaOnly(wrong) && !startsWord) || (found.notAfter && at > 0 && found.notAfter.includes(text[at - 1]!))) continue;
       const end = at + len;
       // Another rule already explains this part (きれいくない: adjective_form).
       if (out.some((x) => x.start < end && at < x.end)) continue;
@@ -302,6 +325,15 @@ const adjectiveForm: Rule = (tokens, lists, p, out) => {
         const fix: Fix = { start: next.start, end: next.end, replacement: '' };
         out.push(jaIssue(p, 'adjective_form', t.start, next.end, vi.adjectiveDa(t.surface + next.surface, t.surface), fix));
         return;
+      }
+      // 食べたいでした, 歩きにくいでした → 食べたかったです, 歩きにくかったです (forms that conjugate like い-adjectives).
+      if (!adjI && ['tai', 'yasui', 'nikui'].includes(tagsOf(a)) && fn(next, 'deshita')) {
+        const past = formOf(lists, a.no, `${tagsOf(a)}+past`, kanaOnly(t.surface));
+        if (past) {
+          const fix: Fix = { start: t.start, end: next!.end, replacement: `${past}です` };
+          out.push(jaIssue(p, 'adjective_form', t.start, next!.end, vi.adjectiveI(t.surface + next!.surface, `${past}です`), fix));
+          return;
+        }
       }
       if (adjI && tagsOf(a) === '' && next) {
         let right: string | undefined;
@@ -482,8 +514,10 @@ const niDe: Rule = (tokens, lists, p, out) => {
       return;
     }
     if (!hasWord(t, lists.places)) return;
-    // 前に, 後に after a clause or an event are times (寝る前に本を読みます), not places.
+    // 前に, 後に after a clause or an event are times (寝る前に本を読みます), not places;
+    // 中 right after a noun is the suffix ちゅう/じゅう (授業中に寝てはいけません).
     if (words(t).some((a) => a.word === '前' || a.word === '後')) return;
+    if (fn(t, 'chuu', 'juu') && i > 0 && isNoun(tokens[i - 1])) return;
     if (fn(particle, 'ni')) {
       // The action verb comes right after (or after one object with を), as the predicate (not 遊びに行く).
       let k = i + 2;
@@ -590,6 +624,10 @@ const counterReading: Rule = (tokens, lists, p, out) => {
   }
 };
 
+/** Verbs that quote a plain-form clause with と (来ると思います). */
+const QUOTE_VERBS = new Set(['思う', '言う', '考える']);
+/** Verbs that take an embedded question in plain form (どこにあるか知っていますか). */
+const EMBEDDING_VERBS = new Set(['知る', 'わかる', '分かる', '教える', '覚える', '忘れる', '聞く', '調べる', '考える']);
 /** Nouns a plain-form clause modifies: 出る前に, 行ったことがある, 来る時, 行くつもり… */
 const CLAUSE_NOUNS = new Set(['前', '後', 'こと', '時', 'とき', 'つもり', '予定', 'ため', 'はず', 'ところ', '人']);
 const PLAIN_OF_POLITE: [RegExp, string][] = [
@@ -614,7 +652,11 @@ const politeInClause: Rule = (tokens, lists, p, out) => {
       // そうです (hearsay), らしい, みたい, かもしれない, までに, ように (not a wish: 合格しますように。)
       fn(next, 'sou', 'rashii', 'mitai', 'kamoshirenai', 'made') ||
       // ように at the end is a wish (合格しますように。): right.
-      (fn(next, 'you') && !(fn(tokens[i + 2], 'ni') && (!tokens[i + 3] || isPunct(tokens[i + 3]))));
+      (fn(next, 'you') && !(fn(tokens[i + 2], 'ni') && (!tokens[i + 3] || isPunct(tokens[i + 3])))) ||
+      // 来ますと思います, 食べましたばかり, 降りますかどうか, ありますか知っていますか
+      (fn(next, 'to') && words(tokens[i + 2]).some((a) => QUOTE_VERBS.has(a.word))) ||
+      fn(next, 'bakari') ||
+      (fn(next, 'ka') && (words(tokens[i + 2]).some((a) => a.word === 'どう') || words(tokens[i + 2]).some((a) => EMBEDDING_VERBS.has(a.word))));
     const beforeDeshou = fn(next, 'deshou', 'darou') && !fn(tokens[i + 2], 'ka');
     if (!beforeNoun && !beforeDeshou) return;
     if (beforeDeshou && fn(t, 'desu')) {

@@ -62,6 +62,12 @@ function prepare(units: readonly Unit[]): Unit[] {
 function withQuestionMark(units: Unit[], text: string): Unit[] {
   const last = units[units.length - 1];
   if (!last || !/[？?]\s*$/u.test(text) || last.lemmas.has('f:ka')) return units;
+  // 飲まない？ = 飲みませんか (an invitation): one unit, like the ませんか form.
+  const nai = [...last.forms].filter(([lemma, forms]) => last.kinds.get(lemma) && last.kinds.get(lemma) !== 'adj' && forms.some((t) => t.join('+') === 'nai'));
+  if (nai.length > 0) {
+    const forms = new Map(nai.map(([lemma]) => [lemma, [['nai', 'ka']]]));
+    return [...units.slice(0, -1), { ...last, keys: new Set(nai.map(([lemma]) => `${lemma}:nai+ka`)), lemmas: new Set(forms.keys()), forms, particle: false, critical: true }];
+  }
   const end = text.length;
   const ka: Unit = {
     surface: '？', start: end - 1, end, keys: new Set(['f:ka:']), lemmas: new Set(['f:ka']), forms: new Map([['f:ka', [[]]]]), readings: new Set(['か']),
@@ -250,6 +256,12 @@ function evaluate(answer: readonly Unit[], model: ModelEntry, maxLight: number |
       // 何？ for 何ですか: a plain question drops です (a politeness remark, no penalty).
       if (op.b.lemmas.has('f:desu') && nextOp && 'a' in nextOp && nextOp.a.surface === '？') {
         edits.push({ type: 'politeness', unit: nextOp.a, expected: op.b });
+        return;
+      }
+      // 好き。 for 好きです。: casual speech drops です at the end of a sentence (a remark).
+      const prevA = [...ops.slice(0, index)].reverse().find((o) => 'a' in o);
+      if (op.b.lemmas.has('f:desu') && !nextOp && prevA && 'a' in prevA && !prevA.a.particle) {
+        edits.push({ type: 'politeness', unit: prevA.a, expected: op.b });
         return;
       }
       if (isLight(op.b)) {
@@ -468,8 +480,12 @@ function matchIssues(match: Match, ruleIssues: readonly Issue[]): Issue[] {
     case 'fixed':
       return [...ruleIssues, ...match.edits];
     case 'plain':
-    case 'sound':
-      return [...ruleIssues.filter((r) => !match.edits.some((e) => overlaps(r, e))), ...match.edits];
+    case 'sound': {
+      // A polite form inside a clause (降りますかもしれません) is a mistake, not a mere politeness remark.
+      const clause = ruleIssues.filter((r) => r.code === 'polite_in_clause');
+      const edits = match.edits.filter((e) => !(e.code === 'politeness_mix' && clause.some((r) => overlaps(r, e))));
+      return [...ruleIssues.filter((r) => r.code === 'polite_in_clause' || !edits.some((e) => overlaps(r, e))), ...edits];
+    }
   }
 }
 

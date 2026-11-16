@@ -35,7 +35,7 @@
     { "counter": "度", "reading": "ど", "group": "plain", "vi": "lần; độ (nhiệt độ)" },
     { "counter": "足", "reading": "そく", "group": "sz", "vi": "đôi (giày, tất)" },
     { "counter": "泊", "reading": "はく", "group": "hp", "vi": "đêm (ở trọ)" },
-    { "counter": "軒", "reading": "けん", "group": "k", "vi": "ngôi nhà, cửa hàng" },
+    { "counter": "軒", "reading": "けん", "group": "kg", "vi": "ngôi nhà, cửa hàng" },
     { "counter": "着", "reading": "ちゃく", "group": "s", "vi": "bộ (quần áo)" },
     { "counter": "番目", "reading": "ばんめ", "group": "plain", "vi": "thứ … (thứ tự)" }
   ]

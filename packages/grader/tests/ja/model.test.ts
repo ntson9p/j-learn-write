@@ -111,6 +111,16 @@ describe('model answers', () => {
     expect(grade('ある。', 'ありますか。').score).toBe(0);
   });
 
+  it('N4: ので/のに are not swapped; てる after たがる/がる; plain invitations; casual endings', () => {
+    expect(grade('一生懸命勉強したので、試験に落ちました。', '一生懸命勉強したのに、試験に落ちました。').score).toBe(0);
+    expect(grade('弟は日本へ行きたがってる。', '弟は日本へ行きたがっています。').score).toBe(100);
+    expect(grade('妹は犬を怖がってる。', '妹は犬を怖がっています。').score).toBe(100);
+    expect(grade('お茶でも飲まない？', 'お茶でも飲みませんか。')).toMatchObject({ score: 100, codes: ['politeness_mix'] });
+    expect(grade('お茶でも飲まない。', 'お茶でも飲みませんか。').score).toBe(0);
+    expect(grade('踊るのが好き。', '踊るのが好きです。')).toMatchObject({ score: 100, codes: ['politeness_mix'] });
+    expect(grade('明日は雪が降りますかもしれません。', '明日は雪が降るかもしれません。')).toMatchObject({ score: 85, codes: ['polite_in_clause'] });
+  });
+
   it('ignores a final ね or よ unless the model answer ends with one', () => {
     expect(grade('食堂はあそこですよ。', '食堂はあそこです。').score).toBe(100);
     expect(grade('窓を開けないでくださいね。', '窓を開けないでください。').score).toBe(100);

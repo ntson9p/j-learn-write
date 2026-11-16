@@ -51,9 +51,10 @@ const SAME_FUNCTION: Record<string, string> = { ja: 'dewa', n: 'no' };
 const CRITICAL_PARTICLES = new Set(['ka', 'mo', 'dake', 'shika']);
 /**
  * Particles that may be forgotten (a light edit) but never swapped for
- * another particle: から/まで (from/until), より (英語は日本語より / 英語より日本語が).
+ * another particle: から/まで (from/until), より (英語は日本語より / 英語より日本語が),
+ * ので/のに (because / although).
  */
-const NO_SWAP_PARTICLES = new Set(['kara', 'made', 'yori']);
+const NO_SWAP_PARTICLES = new Set(['kara', 'made', 'yori', 'node', 'noni']);
 /** Polite question endings of auxiliaries (いけませんか): another sentence than the statement. */
 const POLITE_QUESTION = /ま(?:す|せん)か$/u;
 
@@ -137,6 +138,7 @@ export const shareReading = (a: Unit, b: Unit) => [...a.readings].some((r) => b.
 
 /** Plain-style equivalent of a polite verb ending (食べます ~ 食べる, 食べられませんでした ~ 食べられなかった). */
 const PLAIN_OF: [RegExp, string][] = [
+  [/(^|\+)masu\+neg\+ka$/, '$1nai+ka'],
   [/(^|\+)masu\+neg\+past$/, '$1nai+past'],
   [/(^|\+)masu\+neg$/, '$1nai'],
   [/(^|\+)masu\+past$/, '$1ta'],
@@ -296,7 +298,7 @@ export function joinPredicates(units: readonly Unit[]): Unit[] {
       continue;
     }
     // 食べて + いる/います/いた… = 食べてる (ている said quickly)
-    const te = wordForms(u, ['verb', 'aru', 'iru'], (t) => /^(?:(?:potential|passive|causative|causative-passive)\+)?te$/.test(t));
+    const te = wordForms(u, ['verb', 'aru', 'iru', 'adj'], (t) => /^(?:(?:potential|passive|causative|causative-passive|tagaru|garu)\+)?te$/.test(t) && !(t === 'te' && u.kinds.size > 0 && [...u.kinds.values()].every((k) => k === 'adj')));
     const iru = te.length > 0 && next ? wordForms(next, ['iru'], () => true)[0] : undefined;
     if (iru) {
       out.push(mergedUnit([u, next!], te.map((f) => ({ lemma: f.lemma, tags: [...f.tags.slice(0, -1), 'teiru', ...iru.tags] }))));

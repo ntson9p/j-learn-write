@@ -1012,7 +1012,10 @@
         },
         {
           "answer": "少し休まさせてください。",
-          "score": 0
+          "score": 80,
+          "issues": [
+            "verb_form"
+          ]
         },
         {
           "answer": "少し休んでください。",

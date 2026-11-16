@@ -94,6 +94,9 @@
     { "text": "によると", "reading": "によると", "role": "particle", "id": "niyoruto" },
     { "text": "によれば", "reading": "によれば", "role": "particle", "id": "niyoruto" },
     { "text": "いただけませんか", "reading": "いただけませんか", "role": "aux", "id": "itadakemasenka" },
-    { "text": "いただけますか", "reading": "いただけますか", "role": "aux", "id": "itadakemasenka" }
+    { "text": "いただけますか", "reading": "いただけますか", "role": "aux", "id": "itadakemasenka" },
+    { "text": "ございます", "reading": "ございます", "role": "aux", "id": "gozaimasu" },
+    { "text": "ございません", "reading": "ございません", "role": "aux", "id": "gozaimasu" },
+    { "text": "ございました", "reading": "ございました", "role": "aux", "id": "gozaimasu" }
   ]
 }

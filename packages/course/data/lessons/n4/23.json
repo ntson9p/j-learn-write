@@ -889,7 +889,10 @@
         },
         {
           "answer": "火事だ！早く逃げれ！",
-          "score": 0
+          "score": 80,
+          "issues": [
+            "verb_form"
+          ]
         }
       ]
     },
