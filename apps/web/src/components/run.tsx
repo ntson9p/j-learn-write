@@ -1,6 +1,7 @@
 /** Runs a list of exercises one by one and reports every outcome. */
-import { useRef, useState } from 'preact/hooks';
+import { useEffect, useRef, useState } from 'preact/hooks';
 import type { Outcome } from '../lib/exercises';
+import { warmGrader } from '../lib/warm';
 import { T } from '../strings';
 import { ExerciseView, type AnyExercise } from './exercise';
 
@@ -15,6 +16,10 @@ export function ExerciseRun({ exercises, onFinish, onAnswer }: { exercises: AnyE
   // Set when the last "Tiếp tục" is pressed: onFinish may save asynchronously and must run once.
   const [finished, setFinished] = useState(false);
   const finishing = useRef(false);
+  const freeAnswers = exercises.some((e) => e.type === 'translate' || e.type === 'question');
+  useEffect(() => {
+    if (freeAnswers) warmGrader();
+  }, [freeAnswers]);
   const ex = exercises[index];
   if (!ex) return null;
   const checked = answers.length > index;

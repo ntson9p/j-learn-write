@@ -8,6 +8,8 @@ import { isKana, isKanji, toHiragana } from './kana.ts';
 import type { JaLexicon } from './lexicon.ts';
 import { tokenize, type Token } from './tokenize.ts';
 
+type Kind = 'adj' | 'verb' | 'aru' | 'iru';
+
 export interface Unit {
   surface: string;
   start: number;
@@ -35,8 +37,8 @@ export interface Unit {
   critical: boolean;
   /** A particle that may be missing but not replaced by another one (から, まで, より). */
   noSwap: boolean;
-  /** Inflecting class of each word lemma: adjective (高い), verb, or ある itself. */
-  kinds: Map<string, 'adj' | 'verb' | 'aru'>;
+  /** Inflecting class of each word lemma: adjective (高い), verb, or ある / いる themselves. */
+  kinds: Map<string, Kind>;
 }
 
 /** Function words that are the same unit in two spellings. */
@@ -94,7 +96,7 @@ export function unitOf(t: Token): Unit {
         u.isWord = true;
         add(`w${a.no}`, a.tags);
         const cls = conjClassOf(a.word, a.pos);
-        if (cls) u.kinds.set(`w${a.no}`, a.word === 'ある' ? 'aru' : cls.startsWith('adj') ? 'adj' : 'verb');
+        if (cls) u.kinds.set(`w${a.no}`, a.word === 'ある' ? 'aru' : a.word === 'いる' && cls === 'v1' ? 'iru' : cls.startsWith('adj') ? 'adj' : 'verb');
         break;
       }
       case 'function': {
@@ -133,20 +135,21 @@ export const shareKey = (a: Unit, b: Unit) => [...a.keys].some((k) => b.keys.has
 export const shareLemma = (a: Unit, b: Unit) => [...a.lemmas].some((k) => b.lemmas.has(k));
 export const shareReading = (a: Unit, b: Unit) => [...a.readings].some((r) => b.readings.has(r));
 
-/** Plain-style equivalent of a polite verb form (食べます ~ 食べる, 食べませんでした ~ 食べなかった). */
-const PLAIN_OF: Record<string, string> = {
-  masu: '',
-  'masu+neg': 'nai',
-  'masu+past': 'ta',
-  'masu+neg+past': 'nai+past',
-  'masu+vol': 'vol',
-};
+/** Plain-style equivalent of a polite verb ending (食べます ~ 食べる, 食べられませんでした ~ 食べられなかった). */
+const PLAIN_OF: [RegExp, string][] = [
+  [/(^|\+)masu\+neg\+past$/, '$1nai+past'],
+  [/(^|\+)masu\+neg$/, '$1nai'],
+  [/(^|\+)masu\+past$/, '$1ta'],
+  [/(^|\+)masu\+vol$/, '$1vol'],
+  [/(^|\+)masu$/, ''],
+];
 /** Copulas that differ only in politeness. */
 const PLAIN_COPULA: Record<string, string> = { 'f:desu': 'f:da', 'f:deshita': 'f:datta', 'f:deshou': 'f:darou' };
 
 const plainTags = (tags: readonly string[]) => {
   const key = tags.filter((t) => t !== 'pol' && t !== 'plain').join('+');
-  return PLAIN_OF[key] ?? key;
+  const rule = PLAIN_OF.find(([re]) => re.test(key));
+  return rule ? key.replace(rule[0], rule[1]).replace(/^\+|\+$/g, '') : key;
 };
 
 /**
@@ -229,15 +232,15 @@ function politeNai(tags: readonly string[]): string[] {
 function politeWithDesu(u: Unit): Form[] {
   return [
     ...wordForms(u, ['adj'], (t) => ADJ_PLAIN.has(t)).map((f) => ({ lemma: f.lemma, tags: [...f.tags, 'pol'] })),
-    ...wordForms(u, ['verb', 'aru'], (t) => /(^|\+)nai(\+past)?$/.test(t)).map((f) => ({ lemma: f.lemma, tags: politeNai(f.tags) })),
-    ...wordForms(u, ['verb', 'aru'], (t) => /(^|\+)tai(\+neg)?(\+past)?$/.test(t) || /^(yasui|nikui)(\+neg)?(\+past)?$/.test(t)).map((f) => ({ lemma: f.lemma, tags: [...f.tags, 'pol'] })),
+    ...wordForms(u, ['verb', 'aru', 'iru'], (t) => /(^|\+)nai(\+past)?$/.test(t)).map((f) => ({ lemma: f.lemma, tags: politeNai(f.tags) })),
+    ...wordForms(u, ['verb', 'aru', 'iru'], (t) => /(^|\+)tai(\+neg)?(\+past)?$/.test(t) || /^(yasui|nikui)(\+neg)?(\+past)?$/.test(t)).map((f) => ({ lemma: f.lemma, tags: [...f.tags, 'pol'] })),
   ];
 }
 
 function mergedUnit(parts: readonly Unit[], forms: readonly Form[]): Unit {
   let readings = [''];
   for (const p of parts) readings = readings.flatMap((r) => [...p.readings].map((x) => r + x)).slice(0, 16);
-  const kinds = new Map<string, 'adj' | 'verb' | 'aru'>();
+  const kinds = new Map<string, Kind>();
   const formMap = new Map<string, string[][]>();
   for (const f of forms) {
     const kind = parts.map((p) => p.kinds.get(f.lemma)).find((k) => k !== undefined);
@@ -290,6 +293,14 @@ export function joinPredicates(units: readonly Unit[]): Unit[] {
       const parts = units.slice(i, i + (polite ? 3 : 2));
       out.push(mergedUnit(parts, [{ lemma, tags: polite ? [] : ['plain'] }]));
       i += parts.length - 1;
+      continue;
+    }
+    // 食べて + いる/います/いた… = 食べてる (ている said quickly)
+    const te = wordForms(u, ['verb', 'aru', 'iru'], (t) => /^(?:(?:potential|passive|causative|causative-passive)\+)?te$/.test(t));
+    const iru = te.length > 0 && next ? wordForms(next, ['iru'], () => true)[0] : undefined;
+    if (iru) {
+      out.push(mergedUnit([u, next!], te.map((f) => ({ lemma: f.lemma, tags: [...f.tags.slice(0, -1), 'teiru', ...iru.tags] }))));
+      i++;
       continue;
     }
     // 高く + ありません(でした)

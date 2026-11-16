@@ -101,6 +101,16 @@ describe('model answers', () => {
     expect(grade('とても寒いでした。', 'とても寒かったです。').score).toBeLessThan(100);
   });
 
+  it('accepts ている said quickly and plain questions ending in ？', () => {
+    expect(grade('今、テレビを見てる。', '今、テレビを見ています。')).toMatchObject({ score: 100, codes: ['politeness_mix'] });
+    expect(grade('本を読んでる。', '本を読んでいる。').score).toBe(100);
+    expect(grade('まだ食べてない。', 'まだ食べていません。').score).toBe(100);
+    expect(grade('行く？', '行きますか。')).toMatchObject({ score: 100, codes: ['politeness_mix'] });
+    expect(grade('あれは何？', 'あれは何ですか。')).toMatchObject({ score: 100, codes: ['politeness_mix'] });
+    // A statement is not the question.
+    expect(grade('ある。', 'ありますか。').score).toBe(0);
+  });
+
   it('ignores a final ね or よ unless the model answer ends with one', () => {
     expect(grade('食堂はあそこですよ。', '食堂はあそこです。').score).toBe(100);
     expect(grade('窓を開けないでくださいね。', '窓を開けないでください。').score).toBe(100);

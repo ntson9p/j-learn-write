@@ -55,6 +55,21 @@ function prepare(units: readonly Unit[]): Unit[] {
   });
 }
 
+/**
+ * A plain question ends with ？ instead of か (行く？ = 行きますか): the question
+ * mark counts as か, so that the statement 行く。 is not taken for the question.
+ */
+function withQuestionMark(units: Unit[], text: string): Unit[] {
+  const last = units[units.length - 1];
+  if (!last || !/[？?]\s*$/u.test(text) || last.lemmas.has('f:ka')) return units;
+  const end = text.length;
+  const ka: Unit = {
+    surface: '？', start: end - 1, end, keys: new Set(['f:ka:']), lemmas: new Set(['f:ka']), forms: new Map([['f:ka', [[]]]]), readings: new Set(['か']),
+    kana: false, hasKanji: false, isWord: false, particle: true, copula: false, unknown: false, critical: true, noSwap: false, kinds: new Map(),
+  };
+  return [...units, ka];
+}
+
 /** Without trailing ね/よ (they do not change the answer). */
 function stripFinal(units: readonly Unit[]): Unit[] {
   const out = [...units];
@@ -68,8 +83,8 @@ interface AnswerUnits {
   stripped: Unit[];
 }
 
-const answerUnits = (units: readonly Unit[]): AnswerUnits => {
-  const full = prepare(units);
+const answerUnits = (units: readonly Unit[], text: string): AnswerUnits => {
+  const full = withQuestionMark(prepare(units), text);
   return { full, stripped: stripFinal(full) };
 };
 
@@ -192,7 +207,7 @@ function modelsOf(q: ModelQuestion, lexicon: JaLexicon): ModelEntry[] {
     const score = spec.score ?? 100;
     for (const display of expandPattern(spec.text)) {
       const text = normalizeJa(display).text;
-      const units = withEquivalentParticles(prepare(unitsOf(text, lexicon)), lexicon);
+      const units = withEquivalentParticles(withQuestionMark(prepare(unitsOf(text, lexicon)), text), lexicon);
       if (units.length === 0) continue;
       const final = units.length > 1 && FINAL_PARTICLES.has(units[units.length - 1]!.surface);
       const previous = byText.get(text);
@@ -231,6 +246,12 @@ function evaluate(answer: readonly Unit[], model: ModelEntry, maxLight: number |
         if (op.a.critical) badCritical++;
       }
     } else if (op.kind === 'missing') {
+      const nextOp = ops.slice(index + 1).find((o) => o.kind !== 'missing');
+      // 何？ for 何ですか: a plain question drops です (a politeness remark, no penalty).
+      if (op.b.lemmas.has('f:desu') && nextOp && 'a' in nextOp && nextOp.a.surface === '？') {
+        edits.push({ type: 'politeness', unit: nextOp.a, expected: op.b });
+        return;
+      }
       if (isLight(op.b)) {
         light++;
         const next = ops.slice(index + 1).find((o) => o.kind !== 'missing');
@@ -397,7 +418,7 @@ function attempt(
 ): { match?: Match; closest?: Candidate } {
   const sub = text.slice(start, end);
   const shift = (u: Unit): Unit => ({ ...u, start: u.start + start, end: u.end + start });
-  const shifted = answerUnits(unitsOf(sub, lexicon).map(shift));
+  const shifted = answerUnits(unitsOf(sub, lexicon).map(shift), text.slice(0, end));
   if (shifted.full.length === 0) return {};
 
   const plain = compare(shifted, models, q, penalties);
@@ -418,7 +439,7 @@ function attempt(
   );
   if (localFixes.length > 0) {
     const fixed = applyFixes(sub, localFixes);
-    const viaFixes = compare(answerUnits(unitsOf(fixed.text, lexicon)), models, q, penalties);
+    const viaFixes = compare(answerUnits(unitsOf(fixed.text, lexicon), fixed.text), models, q, penalties);
     if (viaFixes.best) {
       const map = fixed.toOriginal;
       const edits = editIssues(viaFixes.best.edits, penalties, (i) => (map[i] ?? i) + start);

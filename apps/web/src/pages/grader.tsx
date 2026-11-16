@@ -4,12 +4,13 @@
  */
 import { exerciseQuestion, LEVELS, translateQuestion, type Exercise } from '@j-learn-write/course';
 import { checkJaSentence, grade, JA_ISSUE_LABELS_VI, type GradeResult, type Question } from '@j-learn-write/grader';
-import { useMemo, useState } from 'preact/hooks';
+import { useEffect, useMemo, useState } from 'preact/hooks';
 import { GradeResultView, scoreBand } from '../components/grade-result';
 import { useAsync } from '../components/hooks';
 import type { PageProps } from '../components/lazy';
 import { MixedText } from '../components/text';
 import { lessonsOf } from '../lib/content';
+import { warmGrader } from '../lib/warm';
 import { T } from '../strings';
 
 type FreeExercise = Extract<Exercise, { type: 'translate' | 'question' }>;
@@ -27,6 +28,7 @@ async function freeExercises(): Promise<{ lesson: string; ex: FreeExercise }[]> 
 const questionOf = (ex: FreeExercise): Question => (ex.type === 'translate' ? translateQuestion(ex) : exerciseQuestion(ex));
 
 export default function GraderPage(_props: PageProps) {
+  useEffect(() => warmGrader(), []);
   const list = useAsync(freeExercises, []);
   const [id, setId] = useState<string | null>(null);
   const [answer, setAnswer] = useState('');

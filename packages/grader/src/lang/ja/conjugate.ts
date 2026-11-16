@@ -206,6 +206,8 @@ function verbForms(p: VerbParts, dict: string, withDerived: boolean): [string, s
       [p.shortCausativePassive, 'causative-passive', 'v1'],
       // 〜てしまう said quickly: 食べちゃう, 読んじゃう.
       [`${p.te.slice(0, -1)}${p.te.endsWith('で') ? 'じゃう' : 'ちゃう'}`, 'chau', 'v5u'],
+      // 〜ている said quickly: 食べてる, 読んでた.
+      [`${p.te}る`, 'teiru', 'v1'],
       [`${p.i}たがる`, 'tagaru', 'v5r'],
     ];
     for (const [base, tag, cls] of derived) {
