@@ -35,7 +35,7 @@ afterAll(async () => {
 describe('app (production build)', () => {
   // Device emulation runs on Chromium (only Chromium is installed): it checks
   // viewport, pixel ratio, touch and user agent, not the WebKit engine itself.
-  const SCREENS = ['#/', '#/kana', '#/kana/%E3%81%82', '#/lesson/kana-01', '#/practice/kana-01', '#/quiz/kana-01', '#/lesson/n5-01', '#/word/1305', '#/kanji/%E6%97%A5', '#/grammar/wa', '#/test/n5', '#/write', '#/write/%E5%AD%A6', '#/review', '#/dict', '#/progress', '#/settings', '#/guide', '#/about', '#/grader'];
+  const SCREENS = ['#/', '#/kana', '#/kana/%E3%81%82', '#/lesson/kana-01', '#/practice/kana-01', '#/quiz/kana-01', '#/lesson/n5-01', '#/word/1305', '#/kanji/%E6%97%A5', '#/grammar/wa', '#/test/n5', '#/lesson/n4-24', '#/practice/n4-24', '#/grammar/sonkeigo', '#/test/n4', '#/write', '#/write/%E5%AD%A6', '#/review', '#/dict', '#/progress', '#/settings', '#/guide', '#/about', '#/grader'];
   for (const device of ['Pixel 7', 'iPhone 13'] as const) {
     it(`fits a phone screen without horizontal scrolling (${device})`, async () => {
       const { defaultBrowserType: _engine, ...descriptor } = devices[device];
