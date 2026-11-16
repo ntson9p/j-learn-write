@@ -23,8 +23,13 @@ import type {
 
 export interface FormGrammar {
   verb: Record<string, string[]>;
+  /** Verbs built on a verb (potential, passive, causative, ちゃう, たがる): first tag → grammar points. */
   derived: Record<string, string[]>;
+  /** Adjectives built on a verb stem (やすい, にくい). */
+  verbToAdjective: Record<string, string[]>;
   adjective: Record<string, string[]>;
+  /** Verbs built on an adjective stem (がる). */
+  adjectiveToVerb: Record<string, string[]>;
   /** Function-word id (grader function-words.json) → grammar points, any of which allows it. */
   function: Record<string, string[]>;
 }
@@ -242,10 +247,19 @@ export function validateCourse(data: CourseData, tools: CheckTools): string[] {
 
   const formAllowed = (cls: string, tags: readonly string[], grammar: ReadonlySet<string>): string | null => {
     const adjective = cls === 'adj-i' || cls === 'adj-ix';
+    const fg = data.formGrammar;
     const rest = [...tags];
     const need: string[][] = [];
-    if (!adjective && rest[0] && data.formGrammar.derived[rest[0]]) need.push(data.formGrammar.derived[rest.shift()!]!);
-    const table = adjective ? data.formGrammar.adjective : data.formGrammar.verb;
+    let table = adjective ? fg.adjective : fg.verb;
+    // A word built on this one (書かれる, 書きやすい, 寒がる): its grammar point, then the forms of its own class.
+    const first = rest[0] ?? '';
+    const hop = adjective ? fg.adjectiveToVerb[first] : (fg.derived[first] ?? fg.verbToAdjective[first]);
+    if (hop) {
+      need.push(hop);
+      rest.shift();
+      if (adjective) table = fg.verb;
+      else if (fg.verbToAdjective[first]) table = fg.adjective;
+    }
     const key = rest.join('+');
     const req = table[key];
     if (req === undefined) return `form ${tags.join('+') || 'dictionary'} has no grammar mapping`;

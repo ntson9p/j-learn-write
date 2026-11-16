@@ -56,6 +56,21 @@ describe('conjugate', () => {
     expect(form(conjugate('くる', 'くる', 'vk'), 'masu')?.surface).toBe('きます');
   });
 
+  it('builds the N4 derived verbs and adjectives', () => {
+    const kaku = conjugate('書く', 'かく', 'v5k');
+    expect(surfaces(kaku, ['causative-passive', 'masu', 'past'], ['chau'], ['chau', 'ta'], ['tagaru', 'masu'], ['yasui'], ['nikui', 'past'])).toEqual([
+      '書かせられました', '書いちゃう', '書いちゃった', '書きたがります', '書きやすい', '書きにくかった',
+    ]);
+    expect(kaku.filter((f) => f.tags[0] === 'causative-passive' && f.tags.length === 1).map((f) => f.surface)).toEqual(['書かせられる', '書かされる']);
+    // No short causative passive for verbs in す (話さされる is wrong).
+    expect(conjugate('話す', 'はなす', 'v5s').filter((f) => f.tags.join('+') === 'causative-passive').map((f) => f.surface)).toEqual(['話させられる']);
+    expect(form(conjugate('読む', 'よむ', 'v5m'), 'chau', 'masu', 'past')?.surface).toBe('読んじゃいました');
+    expect(form(conjugate('食べる', 'たべる', 'v1'), 'causative-passive', 'te')?.reading).toBe('たべさせられて');
+    expect(form(conjugate('来る', 'くる', 'vk'), 'chau', 'ta')?.surface).toBe('来ちゃった');
+    expect(surfaces(conjugate('寒い', 'さむい', 'adj-i'), ['garu'], ['garu', 'te'])).toEqual(['寒がる', '寒がって']);
+    expect(conjugate('いい', 'いい', 'adj-ix').some((f) => f.tags[0] === 'garu')).toBe(false);
+  });
+
   it('conjugates adjectives', () => {
     const f = conjugate('高い', 'たかい', 'adj-i');
     expect(surfaces(f, ['ku'], ['neg'], ['past'], ['neg', 'past'], ['te'], ['ba'], ['sou'])).toEqual([

@@ -25,6 +25,19 @@ describe('tokenize', () => {
     expect(t.analyses.map((a) => (a.kind === 'word' ? `${a.word}:${a.reading}` : a.kind)).sort()).toEqual(['降りる:おります', '降る:ふります']);
   });
 
+  it('reads the N4 auxiliaries and contractions as one token', () => {
+    expect(surfaces('雨が降るかもしれません。')).toEqual(['雨', 'が', '降る', 'かもしれません', '。']);
+    expect(surfaces('暇だったら、来てください。')).toEqual(['暇', 'だったら', '、', '来て', 'ください', '。']);
+    expect(surfaces('一日おきに運動します。')).toEqual(['一日', 'おきに', '運動', 'します', '。']);
+    expect(surfaces('財布を忘れちゃった。')).toEqual(['財布', 'を', '忘れちゃった', '。']);
+    expect(surfaces('このペンは書きやすいです。')).toEqual(['この', 'ペン', 'は', '書きやすい', 'です', '。']);
+    expect(tokenize('忘れないように', lex).find((t) => t.surface === 'よう')!.analyses).toContainEqual(expect.objectContaining({ kind: 'function', id: 'you' }));
+  });
+
+  it('reads しに as する + に, not as 死ぬ', () => {
+    expect(surfaces('何をしに行きますか')).toEqual(['何', 'を', 'し', 'に', '行きます', 'か']);
+  });
+
   it('reads numbers and counters', () => {
     const t = tokenize('鉛筆が三本あります。', lex);
     expect(t.map((x) => x.surface)).toEqual(['鉛筆', 'が', '三本', 'あります', '。']);

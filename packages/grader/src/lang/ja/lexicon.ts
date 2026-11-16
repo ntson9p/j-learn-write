@@ -42,6 +42,12 @@ export type Analysis =
   | { kind: 'function'; id: string; role: FunctionRole; reading: string; tags: string[] }
   | { kind: 'name'; reading: string };
 
+/**
+ * Bare verb stems written in kana that are not indexed: しに (死ぬ) is almost
+ * always する's stem + purpose に (何をしに行きますか).
+ */
+const SHADOWED_KANA_STEMS = new Set(['しに']);
+
 export const FUNCTION_WORDS: readonly FunctionWord[] = functionFile.words as FunctionWord[];
 
 export class JaLexicon {
@@ -58,7 +64,10 @@ export class JaLexicon {
         // A spelling written only in kana is read as it is written (a katakana word keeps its katakana).
         const reading = [...spelling].every(isKana) ? spelling : w.reading;
         const forms = cls ? conjugate(spelling, reading, cls) : [{ surface: spelling, reading, tags: [] }];
-        for (const f of forms) this.add(f.surface, { kind: 'word', no: w.no, word: w.word, reading: f.reading, tags: f.tags, pos: w.pos });
+        for (const f of forms) {
+          if (SHADOWED_KANA_STEMS.has(f.surface) && f.tags.join('+') === 'stem') continue;
+          this.add(f.surface, { kind: 'word', no: w.no, word: w.word, reading: f.reading, tags: f.tags, pos: w.pos });
+        }
       }
     }
     for (const fw of FUNCTION_WORDS) {
@@ -70,7 +79,9 @@ export class JaLexicon {
       // Names in kanji typed in kana (たなか for 田中) are the same name.
       if ([...n.ja].some(isKanji)) this.add(toHiragana(n.reading), { kind: 'name', reading: n.reading });
     }
-    this.maxLength = Math.max(1, ...[...this.bySurface.keys()].map((k) => k.length));
+    let max = 1;
+    for (const k of this.bySurface.keys()) if (k.length > max) max = k.length;
+    this.maxLength = max;
   }
 
   private add(surface: string, a: Analysis): void {

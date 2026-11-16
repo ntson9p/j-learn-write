@@ -1315,5 +1315,7 @@
 {"no":1314,"level":"n5","openjlptId":"extra-1541040-ありがとうございます","jmdictId":1541040,"word":"ありがとうございます","reading":"ありがとうございます","ruby":"ありがとうございます","forms":["ありがとうございます","有難うございます","有り難うございます"],"pos":["exp"],"extra":true,"formsRuby":["{有|あ}り{難|がと}うございます"]},
 {"no":1315,"level":"n5","openjlptId":"extra-1002340-おはようございます","jmdictId":1002340,"word":"おはようございます","reading":"おはようございます","ruby":"おはようございます","forms":["おはようございます"],"pos":["int"],"extra":true},
 {"no":1316,"level":"n5","openjlptId":"extra-1189400-なんようび","jmdictId":1189400,"word":"何曜日","reading":"なんようび","ruby":"{何|なん}{曜|よう}{日|び}","forms":["何曜日","なんようび"],"pos":["n"],"extra":true,"hanViet":"hà diệu nhật"},
-{"no":1317,"level":"n5","openjlptId":"extra-1516930-ほう","jmdictId":1516930,"word":"方","reading":"ほう","ruby":"{方|ほう}","forms":["方","ほう"],"pos":["n"],"extra":true,"hanViet":"phương"}
+{"no":1317,"level":"n5","openjlptId":"extra-1516930-ほう","jmdictId":1516930,"word":"方","reading":"ほう","ruby":"{方|ほう}","forms":["方","ほう"],"pos":["n"],"extra":true,"hanViet":"phương"},
+{"no":1318,"level":"n4","openjlptId":"extra-1315840-とき","jmdictId":1315840,"word":"時","reading":"とき","ruby":"{時|とき}","forms":["時","とき"],"pos":["n","adv"],"extra":true,"hanViet":"thời"},
+{"no":1319,"level":"n4","openjlptId":"extra-1305380-しまう","jmdictId":1305380,"word":"しまう","reading":"しまう","ruby":"しまう","forms":["しまう"],"pos":["v5u","vt","aux-v"],"extra":true}
 ]

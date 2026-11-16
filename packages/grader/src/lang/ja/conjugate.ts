@@ -85,6 +85,8 @@ interface VerbParts {
   potential: string | null;
   passive: string;
   causative: string;
+  /** Short causative passive of godan verbs (書かされる), null for the others. */
+  shortCausativePassive: string | null;
   /** Plain negative (ない; ある → ない). */
   nai: string;
 }
@@ -102,6 +104,7 @@ function godanParts(stem: string, cls: string): VerbParts {
     potential: cls === 'v5r-i' || cls === 'v5aru' ? null : `${stem + e}る`,
     passive: `${stem + a}れる`,
     causative: `${stem + a}せる`,
+    shortCausativePassive: cls === 'v5s' ? null : `${stem + a}される`,
     nai: cls === 'v5r-i' ? 'ない' : `${stem + a}ない`,
   };
 }
@@ -118,6 +121,7 @@ function ichidanParts(stem: string, cls: 'v1' | 'v1-s'): VerbParts {
     potential: `${stem}られる`,
     passive: `${stem}られる`,
     causative: `${stem}させる`,
+    shortCausativePassive: null,
     nai: `${stem}ない`,
   };
 }
@@ -135,6 +139,7 @@ function kuruParts(k: string): VerbParts {
     potential: `${k}こられる`,
     passive: `${k}こられる`,
     causative: `${k}こさせる`,
+    shortCausativePassive: null,
     nai: `${k}こない`,
   };
 }
@@ -152,6 +157,7 @@ function suruParts(prefix: string): VerbParts {
     potential: prefix === '' ? null : `${prefix}できる`,
     passive: `${prefix}される`,
     causative: `${prefix}させる`,
+    shortCausativePassive: null,
     nai: `${prefix}しない`,
   };
 }
@@ -188,14 +194,30 @@ function verbForms(p: VerbParts, dict: string, withDerived: boolean): [string, s
     [p.imp, ['imperative']],
   ];
   if (withDerived) {
-    const derived: [string | null, string][] = [
-      [p.potential, 'potential'],
-      [p.passive, 'passive'],
-      [p.causative, 'causative'],
+    // Verbs built on this verb, conjugated as ichidan (v1) or godan verbs.
+    const derived: [string | null, string, ConjClass][] = [
+      [p.potential, 'potential', 'v1'],
+      [p.passive, 'passive', 'v1'],
+      [p.causative, 'causative', 'v1'],
+      // 書かせられる, and the short form 書かされる of godan verbs not ending in す.
+      [`${p.causative.slice(0, -1)}られる`, 'causative-passive', 'v1'],
+      [p.shortCausativePassive, 'causative-passive', 'v1'],
+      // 〜てしまう said quickly: 食べちゃう, 読んじゃう.
+      [`${p.te.slice(0, -1)}${p.te.endsWith('で') ? 'じゃう' : 'ちゃう'}`, 'chau', 'v5u'],
+      [`${p.i}たがる`, 'tagaru', 'v5r'],
     ];
-    for (const [base, tag] of derived) {
+    for (const [base, tag, cls] of derived) {
       if (!base) continue;
-      for (const [s, tags] of verbForms(ichidanParts(base.slice(0, -1), 'v1'), base, false)) out.push([s, [tag, ...tags]]);
+      const parts = cls === 'v1' ? ichidanParts(base.slice(0, -1), 'v1') : godanParts(base.slice(0, -1), cls);
+      for (const [s, tags] of verbForms(parts, base, false)) out.push([s, [tag, ...tags]]);
+    }
+    // Adjectives built on the stem: 書きやすい, 覚えにくい. Their bare stem (出にく) is
+    // left out: it never stands alone and would hide words in kana text (でにくやさかな).
+    for (const [ending, tag] of [
+      ['やすい', 'yasui'],
+      ['にくい', 'nikui'],
+    ] as const) {
+      for (const [s, tags] of adjectiveForms(`${p.i}${ending.slice(0, -1)}`, p.i + ending)) if (tags.join('+') !== 'stem') out.push([s, [tag, ...tags]]);
     }
   }
   return out;
@@ -215,6 +237,8 @@ function adjectiveForms(stem: string, dict: string): [string, string[]][] {
     [`${stem}かったら`, ['tara']],
     [`${stem}そう`, ['sou']],
     [`${stem}さ`, ['sa']],
+    // 寒がる: a verb built on the stem (about how someone else feels).
+    ...verbForms(godanParts(`${stem}が`, 'v5r'), `${stem}がる`, false).map(([s, tags]): [string, string[]] => [s, ['garu', ...tags]]),
   ];
 }
 
@@ -234,7 +258,7 @@ function formsOfText(dict: string, cls: ConjClass): [string, string[]][] {
       return adjectiveForms(dict.slice(0, -1), dict);
     case 'adj-ix':
       // いい / 良い: the inflected forms use よ (よくない, よかった).
-      return [[dict, []], ...adjectiveForms(dict.endsWith('いい') ? `${dict.slice(0, -2)}よ` : dict.slice(0, -1), dict).slice(1)];
+      return [[dict, []], ...adjectiveForms(dict.endsWith('いい') ? `${dict.slice(0, -2)}よ` : dict.slice(0, -1), dict).slice(1).filter(([, tags]) => tags[0] !== 'garu')];
     default:
       return verbForms(godanParts(dict.slice(0, -1), cls), dict, true);
   }

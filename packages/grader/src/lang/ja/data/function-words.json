@@ -80,6 +80,14 @@
     { "text": "中", "reading": "ちゅう", "role": "suffix", "id": "chuu" },
     { "text": "屋", "reading": "や", "role": "suffix", "id": "ya-shop" },
     { "text": "えっと", "reading": "えっと", "role": "interjection", "id": "etto" },
-    { "text": "あのう", "reading": "あのう", "role": "interjection", "id": "anou" }
+    { "text": "あのう", "reading": "あのう", "role": "interjection", "id": "anou" },
+    { "text": "よう", "reading": "よう", "role": "aux", "id": "you" },
+    { "text": "だったら", "reading": "だったら", "role": "copula", "id": "dattara" },
+    { "text": "かもしれない", "reading": "かもしれない", "role": "aux", "id": "kamoshirenai" },
+    { "text": "かもしれません", "reading": "かもしれません", "role": "aux", "id": "kamoshirenai" },
+    { "text": "かもしれなかった", "reading": "かもしれなかった", "role": "aux", "id": "kamoshirenai" },
+    { "text": "かも知れない", "reading": "かもしれない", "role": "aux", "id": "kamoshirenai" },
+    { "text": "かも知れません", "reading": "かもしれません", "role": "aux", "id": "kamoshirenai" },
+    { "text": "おきに", "reading": "おきに", "role": "suffix", "id": "okini" }
   ]
 }

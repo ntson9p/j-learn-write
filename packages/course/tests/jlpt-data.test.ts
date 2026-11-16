@@ -42,7 +42,7 @@ describe('JLPT lists (data/jlpt)', () => {
     const listed = vocabulary.filter((w) => !w.extra);
     // 674 + 630 listed words; ぜんぜん moves to N5 (data/vocabulary-fixes.json).
     expect([count(listed, (w) => w.level === 'n5'), count(listed, (w) => w.level === 'n4')]).toEqual([675, 629]);
-    expect(vocabulary.filter((w) => w.extra).map((w) => `${w.word}:${w.reading}`)).toEqual(['私:わたし', '何:なに', '父:ちち', '母:はは', '日本:にほん', '日本語:にほんご', '日本人:にほんじん', 'そして:そして', 'そう:そう', 'ありがとうございます:ありがとうございます', 'おはようございます:おはようございます', '何曜日:なんようび', '方:ほう']);
+    expect(vocabulary.filter((w) => w.extra).map((w) => `${w.word}:${w.reading}`)).toEqual(['私:わたし', '何:なに', '父:ちち', '母:はは', '日本:にほん', '日本語:にほんご', '日本人:にほんじん', 'そして:そして', 'そう:そう', 'ありがとうございます:ありがとうございます', 'おはようございます:おはようございます', '何曜日:なんようび', '方:ほう', '時:とき', 'しまう:しまう']);
     expect([count(kanji, (k) => k.level === 'n5'), count(kanji, (k) => k.level === 'n4')]).toEqual([80, 166]);
     const listedGrammar = grammar.filter((g) => !g.extra);
     expect([count(listedGrammar, (g) => g.level === 'n5'), count(listedGrammar, (g) => g.level === 'n4')]).toEqual([81, 98]);

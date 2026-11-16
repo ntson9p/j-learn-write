@@ -1,5 +1,5 @@
 {
-  "_doc": "Words the course adds to the N5-N4 lists (OpenJLPT / Waller) because learners need them from the first lessons and the lists lack them (2026-11-15: 私 is listed only as わたくし, 何 only as なん; そして only as そうして, そう only as the auxiliary; set phrases ありがとうございます, おはようございます, 何曜日 and 方 ほう for comparisons are missing). They are marked extra in data/jlpt/vocabulary.json. DRAFT: to be reviewed by a Japanese teacher.",
+  "_doc": "Words the course adds to the N5-N4 lists (OpenJLPT / Waller) because learners need them from the first lessons and the lists lack them (2026-11-15: 私 is listed only as わたくし, 何 only as なん; そして only as そうして, そう only as the auxiliary; set phrases ありがとうございます, おはようございます, 何曜日 and 方 ほう for comparisons are missing; 2026-11-16: 時 とき for 〜とき and しまう for 〜てしまう, both N4 grammar points). They are marked extra in data/jlpt/vocabulary.json. DRAFT: to be reviewed by a Japanese teacher.",
   "words": [
     { "word": "私", "reading": "わたし", "jmdictId": 1311110, "level": "n5" },
     { "word": "何", "reading": "なに", "jmdictId": 1577100, "level": "n5" },
@@ -13,6 +13,8 @@
     { "word": "ありがとうございます", "reading": "ありがとうございます", "jmdictId": 1541040, "level": "n5" },
     { "word": "おはようございます", "reading": "おはようございます", "jmdictId": 1002340, "level": "n5" },
     { "word": "何曜日", "reading": "なんようび", "jmdictId": 1189400, "level": "n5" },
-    { "word": "方", "reading": "ほう", "jmdictId": 1516930, "level": "n5" }
+    { "word": "方", "reading": "ほう", "jmdictId": 1516930, "level": "n5" },
+    { "word": "時", "reading": "とき", "jmdictId": 1315840, "level": "n4" },
+    { "word": "しまう", "reading": "しまう", "jmdictId": 1305380, "level": "n4" }
   ]
 }

@@ -1315,5 +1315,7 @@
 {"no":1314,"word":"ありがとうございます","reading":"ありがとうございます","forms":["有難うございます","有り難うございます"],"pos":["exp"]},
 {"no":1315,"word":"おはようございます","reading":"おはようございます","forms":[],"pos":["int"]},
 {"no":1316,"word":"何曜日","reading":"なんようび","forms":["なんようび"],"pos":["n"]},
-{"no":1317,"word":"方","reading":"ほう","forms":["ほう"],"pos":["n"]}
+{"no":1317,"word":"方","reading":"ほう","forms":["ほう"],"pos":["n"]},
+{"no":1318,"word":"時","reading":"とき","forms":["とき"],"pos":["n","adv"]},
+{"no":1319,"word":"しまう","reading":"しまう","forms":[],"pos":["v5u","vt","aux-v"]}
 ]
