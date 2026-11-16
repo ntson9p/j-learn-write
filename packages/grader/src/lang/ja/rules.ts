@@ -183,14 +183,6 @@ const adjectiveForm: Rule = (tokens, lists, p, out) => {
         }
       }
       if (adjNa && next) {
-        const rest = tokensText(tokens, i + 1, Math.min(tokens.length, i + 4) < tokens.length ? tokens[Math.min(tokens.length - 1, i + 3)]!.end : tokens.at(-1)!.end);
-        const wrong = /^(くない|くありません|かった)/.exec(rest)?.[1];
-        if (wrong) {
-          const right = wrong === 'かった' ? 'でした' : wrong === 'くない' ? 'じゃない' : 'じゃありません';
-          const fix: Fix = { start: t.end, end: t.end + wrong.length, replacement: right };
-          out.push(jaIssue(p, 'adjective_form', t.start, fix.end, vi.adjectiveNa(t.surface + wrong, t.surface + right), fix));
-          return;
-        }
         const noun = !a.pos.includes('n') && !a.pos.includes('adj-no');
         if (noun && fn(next, 'no') && isNoun(after) && !fn(after, 'no')) {
           const fix: Fix = { start: next.start, end: next.end, replacement: 'な' };
@@ -200,6 +192,37 @@ const adjectiveForm: Rule = (tokens, lists, p, out) => {
       }
     }
   });
+};
+
+/**
+ * な-adjectives conjugated like い-adjectives (きれいくない → きれいじゃない,
+ * きれいかった → きれいでした). Found in the text: the tokenizer cannot read
+ * such wrong forms (きれ + いく + ない).
+ */
+const naAdjectiveForm: Rule = (tokens, lists, p, out, text, lexicon) => {
+  const starts = new Set(tokens.map((t) => t.start));
+  // Longest first: かったです → でした (not でしたです).
+  const RIGHT: [string, string][] = [
+    ['くありません', 'じゃありません'],
+    ['かったです', 'でした'],
+    ['くない', 'じゃない'],
+    ['かった', 'でした'],
+  ];
+  const done = new Set<number>();
+  for (const w of lexicon.words) {
+    if (!w.pos.includes('adj-na') || w.pos.includes('adj-i')) continue;
+    for (const spelling of new Set([w.word, w.reading])) {
+      for (const [wrong, right] of RIGHT) {
+        for (let at = text.indexOf(spelling + wrong); at >= 0; at = text.indexOf(spelling + wrong, at + 1)) {
+          if (!starts.has(at) || done.has(at)) continue;
+          done.add(at);
+          const start = at + spelling.length;
+          const fix: Fix = { start, end: start + wrong.length, replacement: right };
+          out.push(jaIssue(p, 'adjective_form', at, fix.end, vi.adjectiveNa(spelling + wrong, spelling + right), fix));
+        }
+      }
+    }
+  }
 };
 
 /** Text of tokens from index `from` up to character `end`. */
@@ -374,7 +397,7 @@ const counterReading: Rule = (tokens, lists, p, out) => {
   }
 };
 
-const RULES: readonly Rule[] = [teForm, adjectiveForm, whWa, particleKana, aruIru, niDe, counters, counterReading];
+const RULES: readonly Rule[] = [teForm, adjectiveForm, naAdjectiveForm, whWa, particleKana, aruIru, niDe, counters, counterReading];
 
 /** Runs every rule on a normalized text; issues are in text positions. */
 export function runJaRules(text: string, lexicon: JaLexicon, penalties: Penalties): Issue[] {

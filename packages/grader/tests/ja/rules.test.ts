@@ -28,7 +28,9 @@ describe('rules', () => {
     expect(fixed('いいじゃないです。')).toBe('よくないです。');
     expect(fixed('高いな本です。')).toBe('高い本です。');
     expect(fixed('有名の人です。')).toBe('有名な人です。');
-    for (const ok of ['高くありません。', '寒かったです。', '静かな部屋です。', '高いな。', '病気の人です。', '元気じゃありません。', 'きれいじゃない。']) expect(codes(ok), ok).toEqual([]);
+    expect(fixed('この部屋はきれいくないです。')).toBe('この部屋はきれいじゃないです。');
+    expect(fixed('昨日は静かかったです。')).toBe('昨日は静かでした。');
+    for (const ok of ['高くありません。', '寒かったです。', '静かな部屋です。', '高いな。', '病気の人です。', '元気じゃありません。', 'きれいじゃない。', 'きれいでした。', '静かではありません。']) expect(codes(ok), ok).toEqual([]);
   });
 
   it('wh_wa: a question word as subject takes が', () => {
