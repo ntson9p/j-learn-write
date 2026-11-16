@@ -1,0 +1,1134 @@
+{
+  "id": "n4-03",
+  "goalsVi": [
+    "Nói việc người trên làm giúp mình bằng kính ngữ: 〜てくださる, 〜ていただく",
+    "Nhờ người khác lịch sự: 〜てくれませんか, 〜てくださいませんか, 〜ていただけませんか",
+    "Từ vựng nơi làm việc: 社長, 部長, 課長, 先輩, 事務所, 連絡, 相談"
+  ],
+  "words": [
+    {
+      "no": 854,
+      "word": "くださる",
+      "meaningsVi": [
+        "cho (tôi) (kính ngữ của くれる)"
+      ],
+      "noteVi": "Người trên (thầy cô, cấp trên, khách) cho mình: 先生が本をくださいました. Thể ます bất quy tắc: くださいます, không phải くださります.",
+      "examples": [
+        {
+          "ja": "先生が辞書をくださいました。",
+          "vi": "Thầy giáo đã cho tôi cuốn từ điển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 712,
+      "word": "いただく",
+      "meaningsVi": [
+        "nhận (khiêm nhường của もらう)",
+        "ăn, uống (khiêm nhường)"
+      ],
+      "noteVi": "Nhận từ người trên: 部長にいただきました. Câu いただきます trước bữa ăn cũng từ động từ này.",
+      "examples": [
+        {
+          "ja": "社長にお土産をいただきました。",
+          "vi": "Tôi được giám đốc cho quà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 922,
+      "word": "差し上げる",
+      "meaningsVi": [
+        "biếu, tặng (khiêm nhường của あげる)"
+      ],
+      "noteVi": "Dùng khi kể việc mình tặng người trên. Khi đưa quà, người Nhật thường chỉ nói 「どうぞ」; nói thẳng 「差し上げます」 với người trên có thể nghe trịnh trọng quá.",
+      "examples": [
+        {
+          "ja": "先生に花を差し上げました。",
+          "vi": "Tôi đã tặng hoa cho cô giáo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 803,
+      "word": "課長",
+      "meaningsVi": [
+        "trưởng phòng"
+      ],
+      "noteVi": "Âm Hán Việt \"khoá trưởng\". Thứ bậc thường gặp trong công ty Nhật: 社長 (giám đốc) > 部長 (trưởng bộ phận) > 課長 (trưởng phòng). Gọi cấp trên bằng chức danh: 課長, 山田課長 (không thêm さん).",
+      "examples": [
+        {
+          "ja": "山田課長は今日休みです。",
+          "vi": "Trưởng phòng Yamada hôm nay nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1196,
+      "word": "部長",
+      "meaningsVi": [
+        "trưởng bộ phận, trưởng ban"
+      ],
+      "noteVi": "Cấp trên của 課長. Âm Hán Việt \"bộ trưởng\" nhưng không phải bộ trưởng của chính phủ.",
+      "examples": [
+        {
+          "ja": "部長に仕事を説明していただきました。",
+          "vi": "Tôi được trưởng bộ phận giải thích công việc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 954,
+      "word": "社長",
+      "meaningsVi": [
+        "giám đốc (công ty)"
+      ],
+      "noteVi": "Âm Hán Việt \"xã trưởng\": người đứng đầu công ty (会社).",
+      "examples": [
+        {
+          "ja": "この会社の社長は30歳です。",
+          "vi": "Giám đốc công ty này 30 tuổi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1018,
+      "word": "先輩",
+      "meaningsVi": [
+        "đàn anh, đàn chị (người vào trước mình)"
+      ],
+      "noteVi": "Người vào trường, vào công ty trước mình; không nhất thiết lớn tuổi hơn. Người vào sau: 後輩 (こうはい). Có thể gọi: 田中先輩.",
+      "examples": [
+        {
+          "ja": "先輩が仕事を教えてくれました。",
+          "vi": "Anh đàn anh đã chỉ việc cho tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 952,
+      "word": "事務所",
+      "meaningsVi": [
+        "văn phòng"
+      ],
+      "noteVi": "Âm Hán Việt \"sự vụ sở\": nơi làm việc giấy tờ của công ty, trường học.",
+      "examples": [
+        {
+          "ja": "事務所は駅の近くにあります。",
+          "vi": "Văn phòng ở gần ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 884,
+      "word": "工場",
+      "meaningsVi": [
+        "nhà máy, công xưởng"
+      ],
+      "noteVi": "Âm Hán Việt \"công trường\" nhưng nghĩa là nhà máy, không phải công trường xây dựng.",
+      "examples": [
+        {
+          "ja": "兄は車の工場で働いています。",
+          "vi": "Anh tôi làm việc ở nhà máy ô tô."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1011,
+      "word": "説明",
+      "meaningsVi": [
+        "giải thích, thuyết minh"
+      ],
+      "noteVi": "Âm Hán Việt \"thuyết minh\". 説明する: giải thích; giải thích cho ai: 人に説明する.",
+      "examples": [
+        {
+          "ja": "先生がもう一度説明してくださいました。",
+          "vi": "Thầy giáo đã giải thích lại một lần nữa cho tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1295,
+      "word": "連絡",
+      "meaningsVi": [
+        "liên lạc, báo tin"
+      ],
+      "noteVi": "連絡する: liên lạc, báo tin cho ai (人に連絡する), bằng điện thoại, email, tin nhắn...",
+      "examples": [
+        {
+          "ja": "駅に着いて、すぐ母に連絡しました。",
+          "vi": "Đến ga, tôi liền báo tin cho mẹ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1020,
+      "word": "相談",
+      "meaningsVi": [
+        "bàn bạc, hỏi ý kiến"
+      ],
+      "noteVi": "Âm Hán Việt \"tương đàm\". 相談する: hỏi ý kiến, bàn với ai (人に相談する) trước khi quyết định.",
+      "examples": [
+        {
+          "ja": "困って、先生に相談しました。",
+          "vi": "Gặp khó khăn, tôi đã hỏi ý kiến thầy giáo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1221,
+      "word": "翻訳",
+      "meaningsVi": [
+        "dịch (văn bản), bản dịch"
+      ],
+      "noteVi": "Âm Hán Việt \"phiên dịch\" nhưng 翻訳 là dịch viết (sách, tài liệu). Dịch nói (thông dịch) là 通訳 (つうやく).",
+      "examples": [
+        {
+          "ja": "この文章を英語に翻訳してくださいませんか。",
+          "vi": "Anh dịch giúp đoạn văn này sang tiếng Anh được không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1061,
+      "word": "チェックする",
+      "meaningsVi": [
+        "kiểm tra, xem lại"
+      ],
+      "examples": [
+        {
+          "ja": "先生に作文をチェックしていただきました。",
+          "vi": "Tôi được cô giáo kiểm tra bài văn cho."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1074,
+      "word": "都合",
+      "meaningsVi": [
+        "sự thuận tiện (thời gian, hoàn cảnh)"
+      ],
+      "noteVi": "Âm Hán Việt \"đô cáp\", khó đoán nghĩa. Hay dùng: 都合がいい (tiện, rảnh), 都合が悪い (không tiện, bận). Hỏi lịch lịch sự: ご都合はいかがですか.",
+      "examples": [
+        {
+          "ja": "明日の都合はどうですか。",
+          "vi": "Ngày mai anh có tiện không?"
+        },
+        {
+          "ja": "すみません、明日は都合が悪いです。",
+          "vi": "Xin lỗi, ngày mai tôi không tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1044,
+      "word": "尋ねる",
+      "meaningsVi": [
+        "hỏi (thông tin)"
+      ],
+      "noteVi": "Trang trọng hơn 聞く: 道を尋ねる (hỏi đường). Người được hỏi đi với に.",
+      "examples": [
+        {
+          "ja": "交番で道を尋ねました。",
+          "vi": "Tôi đã hỏi đường ở đồn cảnh sát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 912,
+      "word": "コンピュータ",
+      "meaningsVi": [
+        "máy tính"
+      ],
+      "noteVi": "Cũng viết コンピューター. Máy tính cá nhân thường gọi là パソコン.",
+      "examples": [
+        {
+          "ja": "会社のコンピュータは古くて、遅いです。",
+          "vi": "Máy tính ở công ty cũ và chậm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1191,
+      "word": "ファックス",
+      "meaningsVi": [
+        "fax, máy fax"
+      ],
+      "noteVi": "ファックスで送る: gửi bằng fax. Ở Nhật nhiều cơ quan, cửa hàng vẫn dùng fax.",
+      "examples": [
+        {
+          "ja": "地図をファックスで送ってくださいませんか。",
+          "vi": "Anh gửi giúp tôi bản đồ bằng fax được không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1075,
+      "word": "伝える",
+      "meaningsVi": [
+        "truyền đạt, nhắn lại"
+      ],
+      "noteVi": "Nhắn lời qua người khác: 田中さんに伝えてください (Nhờ anh nói lại với anh Tanaka).",
+      "examples": [
+        {
+          "ja": "この話を田中さんに伝えてくださいませんか。",
+          "vi": "Anh nhắn lại chuyện này với anh Tanaka giúp tôi được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 723,
+      "word": "受付",
+      "meaningsVi": [
+        "quầy lễ tân, bàn tiếp tân",
+        "sự tiếp nhận (hồ sơ, đăng ký)"
+      ],
+      "noteVi": "Đến công ty, bệnh viện, khách sạn thì trước tiên đến 受付.",
+      "examples": [
+        {
+          "ja": "受付で名前を書いてください。",
+          "vi": "Hãy viết tên ở quầy lễ tân."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 959,
+      "word": "住所",
+      "meaningsVi": [
+        "địa chỉ"
+      ],
+      "noteVi": "Âm Hán Việt \"trụ sở\" nhưng nghĩa là địa chỉ (nơi mình ở), không phải trụ sở cơ quan.",
+      "examples": [
+        {
+          "ja": "ここに住所と名前を書いてください。",
+          "vi": "Hãy viết địa chỉ và tên vào đây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 819,
+      "word": "代わり",
+      "meaningsVi": [
+        "sự thay thế, người (vật) thay thế"
+      ],
+      "noteVi": "N の代わりに: thay cho N. 代わりに đứng đầu câu: thay vào đó.",
+      "examples": [
+        {
+          "ja": "課長の代わりに私が行きます。",
+          "vi": "Tôi sẽ đi thay trưởng phòng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1276,
+      "word": "用",
+      "meaningsVi": [
+        "việc (cần làm)"
+      ],
+      "noteVi": "用がある: có việc. 何か用ですか: Có việc gì không? Chỉ việc riêng, việc vặt, không phải công việc làm ăn (仕事).",
+      "examples": [
+        {
+          "ja": "すみません、今日はちょっと用があります。",
+          "vi": "Xin lỗi, hôm nay tôi có chút việc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1014,
+      "word": "世話",
+      "meaningsVi": [
+        "sự chăm sóc, giúp đỡ"
+      ],
+      "noteVi": "世話をする: chăm sóc (trẻ em, người bệnh, con vật, cây). Câu cảm ơn khi được giúp đỡ lâu dài: いろいろお世話になりました.",
+      "examples": [
+        {
+          "ja": "隣の人が猫の世話をしてくださいました。",
+          "vi": "Người hàng xóm đã chăm sóc con mèo giúp tôi."
+        },
+        {
+          "ja": "いろいろお世話になりました。",
+          "vi": "Cảm ơn anh chị đã giúp đỡ tôi rất nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "社",
+      "meaningVi": "xã; công ty; đền thờ",
+      "noteVi": "Gặp trong 会社 (かいしゃ), 社長 (しゃちょう). Bên trái là bộ 礻 (thần linh), bên phải là 土 (đất).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "事",
+      "meaningVi": "việc, sự việc",
+      "noteVi": "Gặp trong 仕事 (しごと), 事務所 (じむしょ), 食事 (しょくじ). Đọc こと khi đứng một mình: 事 (việc).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "仕",
+      "meaningVi": "làm việc, phục vụ",
+      "noteVi": "Gặp trong 仕事 (しごと). Bộ 亻 (người) + 士 (kẻ sĩ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "工",
+      "meaningVi": "công, thợ, chế tạo",
+      "noteVi": "Gặp trong 工場 (こうじょう). Hình cái thước thợ. Phân biệt với 土 (đất) và 王 (vua).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "場",
+      "meaningVi": "nơi, chỗ",
+      "noteVi": "Gặp trong 工場 (こうじょう), 場所 (ばしょ, nơi chốn). Bộ 土 (đất) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "用",
+      "meaningVi": "dùng; việc",
+      "noteVi": "Gặp trong 用 (よう, việc), 用事 (ようじ), 使用 (しよう, sử dụng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "明",
+      "meaningVi": "sáng",
+      "noteVi": "Gặp trong 明るい (あかるい), 説明 (せつめい), 明日 (あした). 日 (mặt trời) + 月 (mặt trăng) = sáng.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "te-kudasaru-te-itadaku",
+      "titleVi": "〜てくださる / 〜ていただく: được người trên làm cho",
+      "summaryVi": "Kính ngữ của 〜てくれる và 〜てもらう, dùng khi người trên (thầy cô, cấp trên, khách) làm gì cho mình.",
+      "explanationVi": [
+        "Bài trước, 〜てくれる và 〜てもらう nói việc người khác làm giúp mình. Khi người làm là **người trên** (thầy cô, cấp trên, khách hàng, người lớn tuổi không thân), thay くれる bằng **くださる** và もらう bằng **いただく**: 「先生が教えてくださいました」, 「先生に教えていただきました」.",
+        "Cách dùng giống hệt bài trước: 〜てくださる có chủ ngữ là **người làm** (người trên + が); 〜ていただく có chủ ngữ là **mình**, người làm đi với **に**. Thể ます của くださる là **くださいます** (bất quy tắc); 〜てください mà ta đã học cũng từ động từ này.",
+        "Với đồ vật cũng vậy: 「部長がお土産をくださいました」 = 「部長にお土産をいただきました」. Mình tặng người trên thì dùng **差し上げる**: 「先生に花を差し上げました」.",
+        "Tiếng Việt thể hiện lễ phép chủ yếu bằng xưng hô (thầy, em, ạ); tiếng Nhật thể hiện bằng **động từ**. Kể về việc thầy cô giúp mình mà dùng くれる, もらう thì không sai ngữ pháp nhưng **thiếu lễ phép**."
+      ],
+      "patterns": [
+        "người trên が (私に) N を V-て くださる",
+        "(私は) người trên に N を V-て いただく",
+        "người trên が N を くださる ／ người trên に N を いただく"
+      ],
+      "examples": [
+        {
+          "ja": "先生が作文をチェックしてくださいました。",
+          "vi": "Cô giáo đã kiểm tra bài văn cho tôi."
+        },
+        {
+          "ja": "部長に仕事を説明していただきました。",
+          "vi": "Tôi được trưởng bộ phận giải thích công việc."
+        },
+        {
+          "ja": "課長が車で駅まで送ってくださいました。",
+          "vi": "Trưởng phòng đã đưa tôi ra ga bằng ô tô."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生が作文をチェックしてくださりました。",
+          "right": "先生が作文をチェックしてくださいました。",
+          "noteVi": "Thể ます của くださる là くださいます (bất quy tắc), không phải くださります."
+        },
+        {
+          "wrong": "先生が作文をチェックしていただきました。",
+          "right": "先生に作文をチェックしていただきました。",
+          "noteVi": "Với 〜ていただく, người làm đi với に (chủ ngữ là mình). Muốn dùng が thì dùng 〜てくださる: 先生がチェックしてくださいました."
+        },
+        {
+          "wrong": "部長、荷物を持って差し上げます。",
+          "right": "部長、荷物を持ちましょうか。",
+          "noteVi": "Không nói 〜て差し上げます thẳng với người trên: nghe như kể công. Đề nghị giúp thì dùng 〜ましょうか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-kuremasen-ka-te-itadakemasen-ka",
+      "titleVi": "〜てくれませんか / 〜ていただけませんか: nhờ lịch sự",
+      "summaryVi": "Nhờ người khác làm gì bằng câu hỏi phủ định: 窓を閉めてくれませんか (Anh đóng giúp cửa sổ được không?).",
+      "explanationVi": [
+        "〜てください (N5) nghe như **yêu cầu**. Khi **nhờ** ai, nhất là người trên hay người lạ, người Nhật hỏi bằng câu phủ định **〜てくれませんか**, giống tiếng Việt \"… giúp tôi được không ạ?\". Câu hỏi phủ định nghe mềm hơn câu khẳng định 〜てくれますか.",
+        "Mức lịch sự tăng dần: 「〜てくれる？」, 「〜てくれない？」 (bạn bè, người nhà) → 「〜てくれませんか」 → 「〜てくださいませんか」 → 「**〜ていただけませんか**」 (lịch sự nhất: cấp trên, khách, người lạ). いただけませんか là thể khả năng của いただく (bài sau), nghĩa đen \"tôi có thể được anh làm cho … không?\".",
+        "Ghép với thể て: 書く → 書いて**くれませんか**, 貸す → 貸して**くださいませんか**, 説明する → 説明して**いただけませんか**. Hay mở đầu bằng 「すみませんが、」 để lời nhờ nhẹ nhàng hơn.",
+        "Đồng ý: 「いいですよ」, 「ええ、どうぞ」. Từ chối lịch sự thường bỏ lửng: 「すみません、ちょっと…」."
+      ],
+      "patterns": [
+        "V-て くれませんか",
+        "V-て くださいませんか",
+        "V-て いただけませんか",
+        "V-て くれる？ ／ くれない？ (thân mật)"
+      ],
+      "examples": [
+        {
+          "ja": "すみませんが、窓を閉めてくれませんか。",
+          "vi": "Xin lỗi, anh đóng giúp cửa sổ được không?"
+        },
+        {
+          "ja": "すみません、写真を撮ってくださいませんか。",
+          "vi": "Xin lỗi, anh chụp giúp tôi tấm ảnh được không ạ?"
+        },
+        {
+          "ja": "ちょっとペンを貸してくれない？",
+          "vi": "Cho mình mượn cây bút chút được không?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生、もう一度説明してくれる？",
+          "right": "先生、もう一度説明してくださいませんか。",
+          "noteVi": "Câu sai không sai ngữ pháp nhưng **thất lễ**: 〜てくれる？ chỉ dùng với bạn bè, người nhà. Với thầy cô, cấp trên dùng 〜てくださいませんか hoặc 〜ていただけませんか."
+        },
+        {
+          "wrong": "ここに住所を書きてくださいませんか。",
+          "right": "ここに住所を書いてくださいませんか。",
+          "noteVi": "くださいませんか đi sau thể て: 書く → 書いて.",
+          "issue": "te_form"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-03-e01",
+      "type": "choice",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "promptVi": "Thầy giáo đã cho tôi cuốn từ điển. Chọn động từ đúng.",
+      "ja": "先生が辞書を＿。",
+      "options": [
+        "くださいました",
+        "いただきました",
+        "差し上げました"
+      ],
+      "answer": 0,
+      "explainVi": "Người trên cho mình, chủ ngữ là người cho (先生が): くださる."
+    },
+    {
+      "id": "n4-03-e02",
+      "type": "fill",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "before": "部長に仕事を説明して",
+      "after": "。",
+      "answers": [
+        "いただきました"
+      ],
+      "options": [
+        "いただきました",
+        "くださいました",
+        "差し上げました"
+      ],
+      "vi": "Tôi được trưởng bộ phận giải thích công việc."
+    },
+    {
+      "id": "n4-03-e03",
+      "type": "choice",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "promptVi": "Thể ます (quá khứ) của くださる là gì?",
+      "options": [
+        "くださいました",
+        "くださった",
+        "ください"
+      ],
+      "answer": 0,
+      "explainVi": "くださる → くださいます → くださいました (bất quy tắc)."
+    },
+    {
+      "id": "n4-03-e04",
+      "type": "choice",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "promptVi": "Câu nào cùng nghĩa với câu sau?",
+      "ja": "先生が作文をチェックしてくださいました。",
+      "options": [
+        "先生に作文をチェックしていただきました。",
+        "先生に作文をチェックして差し上げました。",
+        "先生が作文をチェックしていただきました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-03-e05",
+      "type": "order",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "vi": "Tôi được giám đốc cho quà.",
+      "tiles": [
+        "社長に",
+        "お土産を",
+        "いただきました"
+      ],
+      "answers": [
+        "社長にお土産をいただきました",
+        "お土産を社長にいただきました"
+      ]
+    },
+    {
+      "id": "n4-03-e06",
+      "type": "fill",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "before": "課長",
+      "after": "駅まで車で送っていただきました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "が",
+        "を"
+      ],
+      "vi": "Tôi được trưởng phòng đưa ra ga bằng ô tô."
+    },
+    {
+      "id": "n4-03-e07",
+      "type": "choice",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "promptVi": "Bạn nhờ một người lạ chụp ảnh giúp. Câu nào phù hợp nhất?",
+      "options": [
+        "すみません、写真を撮ってくださいませんか。",
+        "すみません、写真を撮ってくれる？",
+        "すみません、写真を撮ってあげませんか。"
+      ],
+      "answer": 0,
+      "explainVi": "Với người lạ dùng 〜てくださいませんか (hoặc 〜ていただけませんか); 〜てくれる？ chỉ dùng với bạn bè."
+    },
+    {
+      "id": "n4-03-e08",
+      "type": "fill",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "before": "ちょっとペンを貸して",
+      "after": "？",
+      "answers": [
+        "くれない"
+      ],
+      "options": [
+        "くれない",
+        "あげない",
+        "もらわない"
+      ],
+      "vi": "(Nói với bạn) Cho mình mượn cây bút chút được không?"
+    },
+    {
+      "id": "n4-03-e09",
+      "type": "fill",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "before": "すみませんが、窓を閉めて",
+      "after": "。",
+      "answers": [
+        "くださいませんか"
+      ],
+      "options": [
+        "くださいませんか",
+        "あげませんか",
+        "もらいませんか"
+      ],
+      "vi": "Xin lỗi, anh đóng giúp cửa sổ được không ạ?"
+    },
+    {
+      "id": "n4-03-e10",
+      "type": "order",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "vi": "Anh dịch giúp bức thư này sang tiếng Nhật được không ạ?",
+      "tiles": [
+        "この手紙を",
+        "日本語に",
+        "翻訳して",
+        "くださいませんか"
+      ],
+      "answers": [
+        "この手紙を日本語に翻訳してくださいませんか",
+        "日本語にこの手紙を翻訳してくださいませんか"
+      ]
+    },
+    {
+      "id": "n4-03-e11",
+      "type": "choice",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "promptVi": "Câu sau tự nhiên khi ai nói với ai?",
+      "ja": "ペン、貸してくれない？",
+      "options": [
+        "Sinh viên nói với bạn cùng lớp",
+        "Nhân viên nói với giám đốc",
+        "Khách nói với nhân viên khách sạn"
+      ],
+      "answer": 0,
+      "explainVi": "〜てくれない？ là cách nhờ thân mật, chỉ dùng với bạn bè, người nhà."
+    },
+    {
+      "id": "n4-03-e12",
+      "type": "choice",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "promptVi": "Chọn dạng đúng.",
+      "ja": "ここに住所を＿くださいませんか。",
+      "options": [
+        "書いて",
+        "書きて",
+        "書く"
+      ],
+      "answer": 0,
+      "explainVi": "くださいませんか đi sau thể て: 書く → 書いて."
+    },
+    {
+      "id": "n4-03-e13",
+      "type": "fill",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "before": "この話を田中さんに",
+      "after": "くださいませんか。",
+      "answers": [
+        "伝えて"
+      ],
+      "options": [
+        "伝えて",
+        "届けて",
+        "尋ねて"
+      ],
+      "vi": "Anh nhắn lại chuyện này với anh Tanaka giúp tôi được không?"
+    },
+    {
+      "id": "n4-03-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "社長",
+          "giám đốc"
+        ],
+        [
+          "部長",
+          "trưởng bộ phận"
+        ],
+        [
+          "課長",
+          "trưởng phòng"
+        ],
+        [
+          "先輩",
+          "đàn anh, đàn chị"
+        ]
+      ]
+    },
+    {
+      "id": "n4-03-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "事務所",
+          "văn phòng"
+        ],
+        [
+          "工場",
+          "nhà máy"
+        ],
+        [
+          "受付",
+          "quầy lễ tân"
+        ],
+        [
+          "住所",
+          "địa chỉ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-03-e16",
+      "type": "choice",
+      "promptVi": "都合が悪い trong câu này nghĩa là gì?",
+      "ja": "すみません、明日は都合が悪いです。",
+      "options": [
+        "không tiện, bận",
+        "không khỏe",
+        "thời tiết xấu"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-03-e17",
+      "type": "choice",
+      "promptVi": "Tôi sẽ đi thay trưởng phòng. Chọn từ đúng.",
+      "ja": "課長の＿に私が行きます。",
+      "options": [
+        "代わり",
+        "用",
+        "都合"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-03-e18",
+      "type": "choice",
+      "promptVi": "Rời công ty sau thời gian thực tập, bạn cảm ơn mọi người bằng câu nào?",
+      "options": [
+        "いろいろお世話になりました。",
+        "いただきます。",
+        "はじめまして。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-03-e19",
+      "type": "translate",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "vi": "Tôi được cô giáo kiểm tra bài văn cho.",
+      "answers": [
+        "(私は)先生に作文を[チェックして|見て]いただきました。",
+        "先生[が|は](私の)作文を[チェックして|見て]くださいました。",
+        {
+          "text": "(私は)先生に作文を[チェックして|見て]もらいました。",
+          "score": 70
+        },
+        {
+          "text": "先生[が|は](私の)作文を[チェックして|見て]くれました。",
+          "score": 70
+        }
+      ],
+      "examples": [
+        {
+          "answer": "せんせいにさくぶんをチェックしていただきました",
+          "score": 100
+        },
+        {
+          "answer": "先生が作文をチェックしていただきました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "先生に作文をチェックしてもらいました。",
+          "score": 70
+        },
+        {
+          "answer": "先生に作文を書いていただきました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-03-e20",
+      "type": "translate",
+      "grammar": [
+        "te-kudasaru-te-itadaku"
+      ],
+      "vi": "Trưởng phòng đã đưa tôi ra ga.",
+      "answers": [
+        "課長[が|は](私を)駅まで送ってくださいました。",
+        "(私は)課長に駅まで送っていただきました。",
+        {
+          "text": "課長[が|は](私を)駅まで送ってくれました。",
+          "score": 70
+        },
+        {
+          "text": "(私は)課長に駅まで送ってもらいました。",
+          "score": 70
+        }
+      ],
+      "examples": [
+        {
+          "answer": "かちょうがえきまでおくってくださいました",
+          "score": 100
+        },
+        {
+          "answer": "課長が駅まで送りてくださいました。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "課長が駅まで送ってくれました。",
+          "score": 70
+        },
+        {
+          "answer": "課長が家まで送ってくださいました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-03-e21",
+      "type": "translate",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "vi": "Xin lỗi, anh viết tên và địa chỉ vào đây giúp tôi được không ạ?",
+      "answers": [
+        "(すみません(が)、)ここに[名前と住所|住所と名前]を書いて[くださいませんか|いただけませんか|くれませんか]。"
+      ],
+      "examples": [
+        {
+          "answer": "すみません、ここになまえとじゅうしょをかいてくださいませんか",
+          "score": 100
+        },
+        {
+          "answer": "すみません、ここに名前と住所を書きてくださいませんか。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "すみません、ここで名前と住所を書いてくださいませんか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "すみません、ここに名前と電話番号を書いてくださいませんか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-03-e22",
+      "type": "translate",
+      "grammar": [
+        "te-kuremasen-ka-te-itadakemasen-ka"
+      ],
+      "vi": "Anh gửi giúp tôi bản đồ bằng fax được không ạ?",
+      "answers": [
+        "(すみません(が)、)地図をファックスで送って[くださいませんか|いただけませんか|くれませんか]。",
+        "(すみません(が)、)ファックスで地図を送って[くださいませんか|いただけませんか|くれませんか]。"
+      ],
+      "examples": [
+        {
+          "answer": "ちずをファックスでおくってくださいませんか",
+          "score": 100
+        },
+        {
+          "answer": "地図をファックスで送りてくださいませんか。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "地図を手紙で送ってくださいませんか。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "先生が辞書をくださいました。": "{先|せん}{生|せい}が{辞|じ}{書|しょ}をくださいました。",
+    "社長にお土産をいただきました。": "{社|しゃ}{長|ちょう}にお{土産|みやげ}をいただきました。",
+    "先生に花を差し上げました。": "{先|せん}{生|せい}に{花|はな}を{差|さ}し{上|あ}げました。",
+    "山田課長は今日休みです。": "{山田|やまだ}{課|か}{長|ちょう}は{今日|きょう}{休|やす}みです。",
+    "部長に仕事を説明していただきました。": "{部|ぶ}{長|ちょう}に{仕|し}{事|ごと}を{説|せつ}{明|めい}していただきました。",
+    "この会社の社長は30歳です。": "この{会|かい}{社|しゃ}の{社|しゃ}{長|ちょう}は30{歳|さい}です。",
+    "先輩が仕事を教えてくれました。": "{先|せん}{輩|ぱい}が{仕|し}{事|ごと}を{教|おし}えてくれました。",
+    "事務所は駅の近くにあります。": "{事|じ}{務|む}{所|しょ}は{駅|えき}の{近|ちか}くにあります。",
+    "兄は車の工場で働いています。": "{兄|あに}は{車|くるま}の{工|こう}{場|じょう}で{働|はたら}いています。",
+    "先生がもう一度説明してくださいました。": "{先|せん}{生|せい}がもう{一|いち}{度|ど}{説|せつ}{明|めい}してくださいました。",
+    "駅に着いて、すぐ母に連絡しました。": "{駅|えき}に{着|つ}いて、すぐ{母|はは}に{連|れん}{絡|らく}しました。",
+    "困って、先生に相談しました。": "{困|こま}って、{先|せん}{生|せい}に{相|そう}{談|だん}しました。",
+    "この文章を英語に翻訳してくださいませんか。": "この{文|ぶん}{章|しょう}を{英|えい}{語|ご}に{翻|ほん}{訳|やく}してくださいませんか。",
+    "先生に作文をチェックしていただきました。": "{先|せん}{生|せい}に{作|さく}{文|ぶん}をチェックしていただきました。",
+    "明日の都合はどうですか。": "{明日|あした}の{都|つ}{合|ごう}はどうですか。",
+    "すみません、明日は都合が悪いです。": "すみません、{明日|あした}は{都|つ}{合|ごう}が{悪|わる}いです。",
+    "交番で道を尋ねました。": "{交|こう}{番|ばん}で{道|みち}を{尋|たず}ねました。",
+    "会社のコンピュータは古くて、遅いです。": "{会|かい}{社|しゃ}のコンピュータは{古|ふる}くて、{遅|おそ}いです。",
+    "地図をファックスで送ってくださいませんか。": "{地|ち}{図|ず}をファックスで{送|おく}ってくださいませんか。",
+    "この話を田中さんに伝えてくださいませんか。": "この{話|はなし}を{田中|たなか}さんに{伝|つた}えてくださいませんか。",
+    "受付で名前を書いてください。": "{受|うけ}{付|つけ}で{名|な}{前|まえ}を{書|か}いてください。",
+    "ここに住所と名前を書いてください。": "ここに{住|じゅう}{所|しょ}と{名|な}{前|まえ}を{書|か}いてください。",
+    "課長の代わりに私が行きます。": "{課|か}{長|ちょう}の{代|か}わりに{私|わたし}が{行|い}きます。",
+    "すみません、今日はちょっと用があります。": "すみません、{今日|きょう}はちょっと{用|よう}があります。",
+    "隣の人が猫の世話をしてくださいました。": "{隣|となり}の{人|ひと}が{猫|ねこ}の{世|せ}{話|わ}をしてくださいました。",
+    "いろいろお世話になりました。": "いろいろお{世|せ}{話|わ}になりました。",
+    "先生が作文をチェックしてくださいました。": "{先|せん}{生|せい}が{作|さく}{文|ぶん}をチェックしてくださいました。",
+    "課長が車で駅まで送ってくださいました。": "{課|か}{長|ちょう}が{車|くるま}で{駅|えき}まで{送|おく}ってくださいました。",
+    "先生が作文をチェックしてくださりました。": "{先|せん}{生|せい}が{作|さく}{文|ぶん}をチェックしてくださりました。",
+    "先生が作文をチェックしていただきました。": "{先|せん}{生|せい}が{作|さく}{文|ぶん}をチェックしていただきました。",
+    "部長、荷物を持ちましょうか。": "{部|ぶ}{長|ちょう}、{荷|に}{物|もつ}を{持|も}ちましょうか。",
+    "部長、荷物を持って差し上げます。": "{部|ぶ}{長|ちょう}、{荷|に}{物|もつ}を{持|も}って{差|さ}し{上|あ}げます。",
+    "すみませんが、窓を閉めてくれませんか。": "すみませんが、{窓|まど}を{閉|し}めてくれませんか。",
+    "すみません、写真を撮ってくださいませんか。": "すみません、{写|しゃ}{真|しん}を{撮|と}ってくださいませんか。",
+    "ちょっとペンを貸してくれない？": "ちょっとペンを{貸|か}してくれない？",
+    "先生、もう一度説明してくださいませんか。": "{先|せん}{生|せい}、もう{一|いち}{度|ど}{説|せつ}{明|めい}してくださいませんか。",
+    "先生、もう一度説明してくれる？": "{先|せん}{生|せい}、もう{一|いち}{度|ど}{説|せつ}{明|めい}してくれる？",
+    "ここに住所を書いてくださいませんか。": "ここに{住|じゅう}{所|しょ}を{書|か}いてくださいませんか。",
+    "ここに住所を書きてくださいませんか。": "ここに{住|じゅう}{所|しょ}を{書|か}きてくださいませんか。",
+    "先生が辞書を＿。": "{先|せん}{生|せい}が{辞|じ}{書|しょ}を＿。",
+    "くださいました": "くださいました",
+    "いただきました": "いただきました",
+    "差し上げました": "{差|さ}し{上|あ}げました",
+    "くださった": "くださった",
+    "ください": "ください",
+    "先生に作文をチェックして差し上げました。": "{先|せん}{生|せい}に{作|さく}{文|ぶん}をチェックして{差|さ}し{上|あ}げました。",
+    "社長に": "{社|しゃ}{長|ちょう}に",
+    "お土産を": "お{土産|みやげ}を",
+    "社長にお土産をいただきました": "{社|しゃ}{長|ちょう}にお{土産|みやげ}をいただきました",
+    "お土産を社長にいただきました": "お{土産|みやげ}を{社|しゃ}{長|ちょう}にいただきました",
+    "課長に駅まで車で送っていただきました。": "{課|か}{長|ちょう}に{駅|えき}まで{車|くるま}で{送|おく}っていただきました。",
+    "に": "に",
+    "が": "が",
+    "を": "を",
+    "すみません、写真を撮ってくれる？": "すみません、{写|しゃ}{真|しん}を{撮|と}ってくれる？",
+    "すみません、写真を撮ってあげませんか。": "すみません、{写|しゃ}{真|しん}を{撮|と}ってあげませんか。",
+    "くれない": "くれない",
+    "あげない": "あげない",
+    "もらわない": "もらわない",
+    "すみませんが、窓を閉めてくださいませんか。": "すみませんが、{窓|まど}を{閉|し}めてくださいませんか。",
+    "くださいませんか": "くださいませんか",
+    "あげませんか": "あげませんか",
+    "もらいませんか": "もらいませんか",
+    "この手紙を": "この{手|て}{紙|がみ}を",
+    "日本語に": "{日本|にほん}{語|ご}に",
+    "翻訳して": "{翻|ほん}{訳|やく}して",
+    "この手紙を日本語に翻訳してくださいませんか": "この{手|て}{紙|がみ}を{日本|にほん}{語|ご}に{翻|ほん}{訳|やく}してくださいませんか",
+    "日本語にこの手紙を翻訳してくださいませんか": "{日本|にほん}{語|ご}にこの{手|て}{紙|がみ}を{翻|ほん}{訳|やく}してくださいませんか",
+    "ペン、貸してくれない？": "ペン、{貸|か}してくれない？",
+    "ここに住所を＿くださいませんか。": "ここに{住|じゅう}{所|しょ}を＿くださいませんか。",
+    "書いて": "{書|か}いて",
+    "書きて": "{書|か}きて",
+    "書く": "{書|か}く",
+    "伝えて": "{伝|つた}えて",
+    "届けて": "{届|とど}けて",
+    "尋ねて": "{尋|たず}ねて",
+    "社長": "{社|しゃ}{長|ちょう}",
+    "部長": "{部|ぶ}{長|ちょう}",
+    "課長": "{課|か}{長|ちょう}",
+    "先輩": "{先|せん}{輩|ぱい}",
+    "事務所": "{事|じ}{務|む}{所|しょ}",
+    "工場": "{工|こう}{場|じょう}",
+    "受付": "{受|うけ}{付|つけ}",
+    "住所": "{住|じゅう}{所|しょ}",
+    "課長の＿に私が行きます。": "{課|か}{長|ちょう}の＿に{私|わたし}が{行|い}きます。",
+    "代わり": "{代|か}わり",
+    "用": "{用|よう}",
+    "都合": "{都|つ}{合|ごう}",
+    "いただきます。": "いただきます。",
+    "はじめまして。": "はじめまして。",
+    "私は先生に作文をチェックしていただきました。": "{私|わたし}は{先|せん}{生|せい}に{作|さく}{文|ぶん}をチェックしていただきました。",
+    "先生が私の作文をチェックしてくださいました。": "{先|せん}{生|せい}が{私|わたし}の{作|さく}{文|ぶん}をチェックしてくださいました。",
+    "私は先生に作文をチェックしてもらいました。": "{私|わたし}は{先|せん}{生|せい}に{作|さく}{文|ぶん}をチェックしてもらいました。",
+    "先生が私の作文をチェックしてくれました。": "{先|せん}{生|せい}が{私|わたし}の{作|さく}{文|ぶん}をチェックしてくれました。",
+    "課長が私を駅まで送ってくださいました。": "{課|か}{長|ちょう}が{私|わたし}を{駅|えき}まで{送|おく}ってくださいました。",
+    "私は課長に駅まで送っていただきました。": "{私|わたし}は{課|か}{長|ちょう}に{駅|えき}まで{送|おく}っていただきました。",
+    "課長が私を駅まで送ってくれました。": "{課|か}{長|ちょう}が{私|わたし}を{駅|えき}まで{送|おく}ってくれました。",
+    "私は課長に駅まで送ってもらいました。": "{私|わたし}は{課|か}{長|ちょう}に{駅|えき}まで{送|おく}ってもらいました。",
+    "すみませんが、ここに名前と住所を書いてくださいませんか。": "すみませんが、ここに{名|な}{前|まえ}と{住|じゅう}{所|しょ}を{書|か}いてくださいませんか。",
+    "すみませんが、地図をファックスで送ってくださいませんか。": "すみませんが、{地|ち}{図|ず}をファックスで{送|おく}ってくださいませんか。",
+    "すみませんが、ファックスで地図を送ってくださいませんか。": "すみませんが、ファックスで{地|ち}{図|ず}を{送|おく}ってくださいませんか。"
+  }
+}

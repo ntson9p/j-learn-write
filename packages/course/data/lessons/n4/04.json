@@ -1,0 +1,1243 @@
+{
+  "id": "n4-04",
+  "goalsVi": [
+    "Nói mình làm được gì, không làm được gì bằng thể khả năng: 泳げます, 食べられません",
+    "Nói trang trọng hơn bằng 〜ことができる; nói về sự tiến bộ bằng 〜ようになる",
+    "Nói về sở thích, khả năng: 趣味, 興味, 運転, 水泳, ピアノ"
+  ],
+  "words": [
+    {
+      "no": 897,
+      "word": "こと",
+      "meaningsVi": [
+        "việc, điều, chuyện"
+      ],
+      "noteVi": "Biến động từ thành danh từ: V (thể từ điển) + こと = việc V (泳ぐこと: việc bơi). N のこと: chuyện về N (日本のこと). Thường viết bằng hiragana.",
+      "examples": [
+        {
+          "ja": "私の趣味は写真を撮ることです。",
+          "vi": "Sở thích của tôi là chụp ảnh."
+        },
+        {
+          "ja": "日本のことをもっと知りたいです。",
+          "vi": "Tôi muốn biết thêm về nước Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 830,
+      "word": "技術",
+      "meaningsVi": [
+        "kỹ thuật, công nghệ",
+        "kỹ năng, tay nghề"
+      ],
+      "examples": [
+        {
+          "ja": "私は日本の技術に興味があります。",
+          "vi": "Tôi quan tâm đến công nghệ của Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 738,
+      "word": "運転",
+      "meaningsVi": [
+        "lái (xe), vận hành (máy)"
+      ],
+      "noteVi": "Âm Hán Việt \"vận chuyển\" nhưng nghĩa là lái xe, vận hành máy, không phải chuyên chở hàng. 運転する: lái; 車の運転: việc lái ô tô.",
+      "examples": [
+        {
+          "ja": "車の運転ができますか。",
+          "vi": "Anh có biết lái ô tô không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 982,
+      "word": "水泳",
+      "meaningsVi": [
+        "bơi lội (môn thể thao)"
+      ],
+      "noteVi": "Âm Hán Việt \"thuỷ vịnh\". Động từ \"bơi\" là 泳ぐ.",
+      "examples": [
+        {
+          "ja": "水泳は体にいいです。",
+          "vi": "Bơi lội tốt cho cơ thể."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 960,
+      "word": "柔道",
+      "meaningsVi": [
+        "judo, nhu đạo"
+      ],
+      "noteVi": "Môn võ của Nhật. Tập judo: 柔道をする, 柔道を習う.",
+      "examples": [
+        {
+          "ja": "弟は毎週柔道を習っています。",
+          "vi": "Em trai tôi học judo mỗi tuần."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1088,
+      "word": "テニス",
+      "meaningsVi": [
+        "quần vợt, tennis"
+      ],
+      "noteVi": "Chơi tennis: テニスをする.",
+      "examples": [
+        {
+          "ja": "日曜日に友達とテニスをします。",
+          "vi": "Chủ nhật tôi chơi tennis với bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1171,
+      "word": "ピアノ",
+      "meaningsVi": [
+        "đàn piano, dương cầm"
+      ],
+      "noteVi": "Chơi đàn: ピアノを弾く (không dùng する).",
+      "examples": [
+        {
+          "ja": "娘はピアノが弾けます。",
+          "vi": "Con gái tôi chơi được piano."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1231,
+      "word": "漫画",
+      "meaningsVi": [
+        "truyện tranh, manga"
+      ],
+      "examples": [
+        {
+          "ja": "漫画で日本語を勉強しています。",
+          "vi": "Tôi học tiếng Nhật qua truyện tranh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 935,
+      "word": "字",
+      "meaningsVi": [
+        "chữ, chữ viết"
+      ],
+      "noteVi": "Chữ nói chung, cả nét chữ của một người: 字がきれい (chữ đẹp). 漢字 là chữ Hán.",
+      "examples": [
+        {
+          "ja": "マイさんは字がきれいですね。",
+          "vi": "Chữ của chị Mai đẹp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1161,
+      "word": "発音",
+      "meaningsVi": [
+        "phát âm"
+      ],
+      "noteVi": "Âm Hán Việt \"phát âm\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "グエンさんは日本語の発音がとてもきれいです。",
+          "vi": "Anh Nguyễn phát âm tiếng Nhật rất chuẩn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 790,
+      "word": "会話",
+      "meaningsVi": [
+        "hội thoại, nói chuyện"
+      ],
+      "examples": [
+        {
+          "ja": "毎日、会話の練習をしています。",
+          "vi": "Ngày nào tôi cũng luyện hội thoại."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1208,
+      "word": "文法",
+      "meaningsVi": [
+        "ngữ pháp"
+      ],
+      "noteVi": "Âm Hán Việt \"văn pháp\".",
+      "examples": [
+        {
+          "ja": "日本語の文法はベトナム語と違います。",
+          "vi": "Ngữ pháp tiếng Nhật khác tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 828,
+      "word": "聞こえる",
+      "meaningsVi": [
+        "nghe thấy, nghe được (âm thanh tự lọt vào tai)"
+      ],
+      "noteVi": "Thứ nghe thấy đi với が: 歌が聞こえる. Khác 聞ける (thể khả năng của 聞く): 聞ける là có điều kiện, cơ hội để nghe (ネットで音楽が聞ける).",
+      "examples": [
+        {
+          "ja": "隣の部屋から歌が聞こえます。",
+          "vi": "Tôi nghe thấy tiếng hát từ phòng bên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1233,
+      "word": "見える",
+      "meaningsVi": [
+        "nhìn thấy, trông thấy (tự hiện ra trước mắt)"
+      ],
+      "noteVi": "Thứ nhìn thấy đi với が: 海が見える. Khác 見られる (thể khả năng của 見る): có điều kiện, cơ hội để xem (この映画は家で見られる).",
+      "examples": [
+        {
+          "ja": "部屋の窓から海が見えます。",
+          "vi": "Từ cửa sổ phòng nhìn thấy biển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1126,
+      "word": "慣れる",
+      "meaningsVi": [
+        "quen (với)"
+      ],
+      "noteVi": "N に慣れる: quen với N. Hay gặp: 慣れました (đã quen), まだ慣れていません (chưa quen).",
+      "examples": [
+        {
+          "ja": "日本の食べ物にもう慣れました。",
+          "vi": "Tôi đã quen với đồ ăn Nhật rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 824,
+      "word": "簡単",
+      "meaningsVi": [
+        "đơn giản, dễ"
+      ],
+      "noteVi": "Tính từ đuôi な; dạng trạng từ: 簡単に (một cách dễ dàng). Âm Hán Việt \"giản đơn\".",
+      "examples": [
+        {
+          "ja": "この料理は簡単に作れます。",
+          "vi": "Món này làm rất đơn giản."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1101,
+      "word": "遠く",
+      "meaningsVi": [
+        "chỗ xa, nơi xa"
+      ],
+      "noteVi": "Danh từ từ 遠い: 遠くに住む (sống ở xa), 遠くから (từ xa). Ngược nghĩa: 近く.",
+      "examples": [
+        {
+          "ja": "遠くに山が見えます。",
+          "vi": "Ở đằng xa nhìn thấy núi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1162,
+      "word": "はっきり",
+      "meaningsVi": [
+        "rõ, rõ ràng"
+      ],
+      "noteVi": "はっきり見える (thấy rõ), はっきり言う (nói thẳng, nói rõ).",
+      "examples": [
+        {
+          "ja": "ここから字がはっきり見えます。",
+          "vi": "Từ đây nhìn thấy chữ rõ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 848,
+      "word": "興味",
+      "meaningsVi": [
+        "sự quan tâm, hứng thú"
+      ],
+      "noteVi": "Âm Hán Việt \"hứng vị\". N に興味がある: quan tâm, thích tìm hiểu N.",
+      "examples": [
+        {
+          "ja": "弟は車に興味があります。",
+          "vi": "Em trai tôi thích tìm hiểu về ô tô."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 964,
+      "word": "趣味",
+      "meaningsVi": [
+        "sở thích"
+      ],
+      "noteVi": "Âm Hán Việt \"thú vị\" nhưng nghĩa là sở thích (việc mình thích làm lúc rảnh). \"Thú vị\" của tiếng Việt là おもしろい.",
+      "examples": [
+        {
+          "ja": "私の趣味は切手を集めることです。",
+          "vi": "Sở thích của tôi là sưu tầm tem."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 691,
+      "word": "集める",
+      "meaningsVi": [
+        "sưu tầm, thu thập",
+        "tập hợp (người)"
+      ],
+      "noteVi": "Tha động từ: N を集める. Tự động từ tương ứng: 集まる.",
+      "examples": [
+        {
+          "ja": "父は古いカメラを集めています。",
+          "vi": "Bố tôi sưu tầm máy ảnh cũ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 690,
+      "word": "集まる",
+      "meaningsVi": [
+        "tập trung, tụ tập"
+      ],
+      "noteVi": "Tự động từ: N が集まる (người, vật tự tụ lại). Ai đó gom lại thì dùng 集める.",
+      "examples": [
+        {
+          "ja": "日曜日に駅の前に集まりましょう。",
+          "vi": "Chủ nhật mình tập trung trước ga nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1081,
+      "word": "釣る",
+      "meaningsVi": [
+        "câu (cá)"
+      ],
+      "noteVi": "Đi câu cá: 魚を釣りに行く.",
+      "examples": [
+        {
+          "ja": "川で魚を釣りました。",
+          "vi": "Tôi đã câu cá ở sông."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 968,
+      "word": "小説",
+      "meaningsVi": [
+        "tiểu thuyết, truyện"
+      ],
+      "noteVi": "Âm Hán Việt \"tiểu thuyết\". Chỉ cả truyện ngắn lẫn truyện dài.",
+      "examples": [
+        {
+          "ja": "日本語の小説が読めるようになりたいです。",
+          "vi": "Tôi muốn đọc được tiểu thuyết tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1160,
+      "word": "パソコン",
+      "meaningsVi": [
+        "máy tính cá nhân"
+      ],
+      "noteVi": "Viết tắt của パーソナルコンピュータ.",
+      "examples": [
+        {
+          "ja": "このパソコンで日本語が書けますか。",
+          "vi": "Máy tính này có gõ được tiếng Nhật không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "運",
+      "meaningVi": "vận chuyển; vận may",
+      "noteVi": "Gặp trong 運転 (うんてん). Bộ 辶 (bước đi) + 軍 (quân).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "転",
+      "meaningVi": "chuyển, quay, lăn",
+      "noteVi": "Gặp trong 運転 (うんてん), 自転車 (じてんしゃ). Bộ 車 (xe) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "発",
+      "meaningVi": "phát ra, xuất phát",
+      "noteVi": "Gặp trong 発音 (はつおん), 出発 (しゅっぱつ, khởi hành).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "字",
+      "meaningVi": "chữ",
+      "noteVi": "Gặp trong 字 (じ), 漢字 (かんじ). 宀 (mái nhà) + 子 (con).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "漢",
+      "meaningVi": "Hán (Trung Quốc)",
+      "noteVi": "Gặp trong 漢字 (かんじ). Bộ 氵 (nước) bên trái: vốn là tên sông Hán.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "英",
+      "meaningVi": "Anh (nước Anh); tinh hoa",
+      "noteVi": "Gặp trong 英語 (えいご). Bộ 艹 (cỏ) trên đầu.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "集",
+      "meaningVi": "tập hợp, tụ lại",
+      "noteVi": "Gặp trong 集める (あつめる), 集まる (あつまる). Hình chim (隹) đậu thành đàn trên cây (木).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "eru-rareru-potential",
+      "titleVi": "Thể khả năng: 〜える / 〜られる (làm được, có thể)",
+      "summaryVi": "Thể khả năng nói ai đó có khả năng, hoặc hoàn cảnh cho phép làm gì: 泳げます (bơi được), 食べられます (ăn được).",
+      "explanationVi": [
+        "**Thể khả năng** cho biết ai đó **có khả năng** làm gì (泳げます: biết bơi) hoặc **hoàn cảnh cho phép** làm gì (ここでたばこが吸えます: ở đây hút thuốc được). Tiếng Việt thêm \"được\", \"có thể\"; tiếng Nhật đổi đuôi động từ.",
+        "Cách chia: **nhóm 1** đổi âm cuối sang hàng え rồi thêm る: 書く → 書**ける**, 泳ぐ → 泳**げる**, 話す → 話**せる**, 待つ → 待**てる**, 読む → 読**める**, 買う → 買**える**. **Nhóm 2** bỏ る, thêm **られる**: 食べる → 食べ**られる**, 見る → 見**られる**. **Nhóm 3**: する → **できる**, 来る → **来られる** (こられる).",
+        "Động từ thể khả năng chia tiếp như động từ nhóm 2: 書けます, 書けません, 書けない, 書けた. Tân ngữ thường đổi **を thành が**: 「漢字を書きます」 → 「漢字**が**書けます」 (dùng を cũng gặp).",
+        "Trong hội thoại, người Nhật hay nói 見れる, 来れる thay cho 見られる, 来られる, nhưng khi viết nên dùng 見られる, 来られる. 見える, 聞こえる là động từ riêng: hình ảnh, âm thanh tự đến (海が見える), khác 見られる, 聞ける (có điều kiện để xem, nghe)."
+      ],
+      "patterns": [
+        "N が V (thể khả năng)",
+        "Nhóm 1: 書く → 書ける",
+        "Nhóm 2: 食べる → 食べられる",
+        "する → できる ／ 来る → 来られる"
+      ],
+      "examples": [
+        {
+          "ja": "マイさんは漢字がたくさん書けます。",
+          "vi": "Chị Mai viết được nhiều chữ Hán."
+        },
+        {
+          "ja": "私は辛い料理が食べられません。",
+          "vi": "Tôi không ăn được đồ cay."
+        },
+        {
+          "ja": "ここでたばこが吸えますか。",
+          "vi": "Ở đây có hút thuốc được không?"
+        },
+        {
+          "ja": "明日は用があって、来られません。",
+          "vi": "Ngày mai tôi có việc nên không đến được."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は日本語の新聞が読みれます。",
+          "right": "私は日本語の新聞が読めます。",
+          "noteVi": "読む là nhóm 1: đổi む → め rồi thêm る (読める). Không thêm れる vào gốc ます."
+        },
+        {
+          "wrong": "私は泳げられます。",
+          "right": "私は泳げます。",
+          "noteVi": "Nhóm 1 chỉ đổi đuôi (泳ぐ → 泳げる), không thêm られる. られる chỉ dành cho nhóm 2 và 来る."
+        },
+        {
+          "wrong": "私は日本語が話せることができます。",
+          "right": "私は日本語が話せます。",
+          "noteVi": "Không dùng thể khả năng và ことができる cùng lúc. Nói 日本語が話せます hoặc 日本語を話すことができます."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "koto-ga-dekiru",
+      "titleVi": "〜ことができる: có thể …",
+      "summaryVi": "V (thể từ điển) + ことができる: có thể làm …; nghĩa như thể khả năng nhưng trang trọng hơn.",
+      "explanationVi": [
+        "**V (thể từ điển) + ことができる** cùng nghĩa với thể khả năng: 「日本語を話すことができます」 = 「日本語が話せます」. Cách này không cần chia động từ nhưng câu dài hơn, nghe **trang trọng** hơn; hay gặp trong văn viết, thông báo, quy định.",
+        "**こと** biến động từ thành danh từ (\"việc bơi\", \"việc lái xe\"). Trợ từ của tân ngữ giữ nguyên là を: 「車を運転することができます」. Với danh từ chỉ hoạt động, năng lực thì chỉ cần **N ができる**: 「運転ができます」, 「テニスができます」, 「日本語ができます」.",
+        "Phủ định: 〜ことができません; quá khứ: 〜ことができました.",
+        "**Chú ý**: \"có thể\" trong tiếng Việt còn có nghĩa \"có lẽ\" (Mai có thể mưa). ことができる chỉ nói **khả năng làm việc gì**; muốn đoán thì dùng でしょう: 「明日はたぶん雨が降るでしょう」."
+      ],
+      "patterns": [
+        "V (thể từ điển) + ことが できる",
+        "N が できる"
+      ],
+      "examples": [
+        {
+          "ja": "この図書館では、本を5冊まで借りることができます。",
+          "vi": "Ở thư viện này có thể mượn tối đa 5 cuốn sách."
+        },
+        {
+          "ja": "兄は車を運転することができます。",
+          "vi": "Anh tôi có thể lái ô tô."
+        },
+        {
+          "ja": "私はテニスができません。",
+          "vi": "Tôi không biết chơi tennis."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は泳ぎことができます。",
+          "right": "私は泳ぐことができます。",
+          "noteVi": "ことができる đi sau thể từ điển (泳ぐ), không phải gốc ます (泳ぎ)."
+        },
+        {
+          "wrong": "兄は車を運転ことができます。",
+          "right": "兄は車を運転することができます。",
+          "noteVi": "Động từ dạng N + する phải giữ する trước こと. Hoặc nói gọn: 車の運転ができます."
+        },
+        {
+          "wrong": "明日は雨が降ることができます。",
+          "right": "明日はたぶん雨が降るでしょう。",
+          "noteVi": "\"Có thể\" với nghĩa \"có lẽ\" không dịch bằng ことができる (chỉ khả năng làm việc). Đoán thì dùng たぶん〜でしょう."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "you-ni-naru",
+      "titleVi": "〜ようになる: đã có thể …, bắt đầu (làm) …",
+      "summaryVi": "V (thể từ điển / thể khả năng) + ようになる: diễn tả sự thay đổi về khả năng hoặc thói quen.",
+      "explanationVi": [
+        "**V + ようになる** nói về một **sự thay đổi**: trước đây không làm được (hoặc không làm), bây giờ làm được (hoặc có làm). Hay đi với thể khả năng: 「日本語の新聞が読めるようになりました」 = (Sau một thời gian học) tôi đã đọc được báo tiếng Nhật.",
+        "Với động từ thường, nghĩa là **bắt đầu có thói quen mới**: 「日本に来て、魚をよく食べるようになりました」 (Từ khi sang Nhật tôi bắt đầu hay ăn cá).",
+        "So sánh: 「泳げます」 chỉ nói hiện tại biết bơi; 「泳げるようになりました」 nhấn mạnh **quá trình**: trước không biết, nay đã biết (tiếng Việt: \"đã … được rồi\"). Động từ trước ようになる để ở thể từ điển; thì quá khứ chỉ nằm ở なりました.",
+        "Danh từ và tính từ thay đổi thì dùng 〜になる, 〜くなる (đã học): 上手になりました, 寒くなりました. Không nói 上手ようになりました."
+      ],
+      "patterns": [
+        "V (thể khả năng) + ように なる",
+        "V (thể từ điển) + ように なる"
+      ],
+      "examples": [
+        {
+          "ja": "日本語の新聞が読めるようになりました。",
+          "vi": "Tôi đã đọc được báo tiếng Nhật rồi."
+        },
+        {
+          "ja": "毎日練習して、泳げるようになりました。",
+          "vi": "Luyện tập hằng ngày nên tôi đã biết bơi."
+        },
+        {
+          "ja": "日本に来て、魚をよく食べるようになりました。",
+          "vi": "Từ khi sang Nhật, tôi bắt đầu hay ăn cá."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日本語が話せるになりました。",
+          "right": "日本語が話せるようになりました。",
+          "noteVi": "Sau động từ phải dùng ようになる; になる đi sau danh từ, tính từ đuôi な."
+        },
+        {
+          "wrong": "日本語が上手ようになりました。",
+          "right": "日本語が上手になりました。",
+          "noteVi": "Tính từ đuôi な (上手) và danh từ đi với になる; ようになる chỉ đi sau động từ."
+        },
+        {
+          "wrong": "漢字が書けたようになりました。",
+          "right": "漢字が書けるようになりました。",
+          "noteVi": "Động từ trước ようになる để ở thể từ điển; quá khứ chỉ thể hiện ở なりました."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-04-e01",
+      "type": "match",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "promptVi": "Ghép động từ với thể khả năng của nó",
+      "pairs": [
+        [
+          "書く",
+          "書ける"
+        ],
+        [
+          "食べる",
+          "食べられる"
+        ],
+        [
+          "する",
+          "できる"
+        ],
+        [
+          "来る",
+          "来られる"
+        ]
+      ]
+    },
+    {
+      "id": "n4-04-e02",
+      "type": "choice",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi viết được chữ Hán\"?",
+      "options": [
+        "漢字が書けます。",
+        "漢字が書きます。",
+        "漢字が書いています。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-04-e03",
+      "type": "fill",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "before": "マイさんはピアノが",
+      "after": "。",
+      "answers": [
+        "弾けます"
+      ],
+      "options": [
+        "弾けます",
+        "弾きます",
+        "弾けません"
+      ],
+      "vi": "Chị Mai chơi được piano."
+    },
+    {
+      "id": "n4-04-e04",
+      "type": "fill",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "before": "明日は用があって、パーティーに",
+      "after": "。",
+      "answers": [
+        "来られません"
+      ],
+      "options": [
+        "来られません",
+        "来られます",
+        "来ます"
+      ],
+      "vi": "Ngày mai tôi có việc nên không đến bữa tiệc được."
+    },
+    {
+      "id": "n4-04-e05",
+      "type": "order",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "vi": "Ở đây có hút thuốc được không?",
+      "tiles": [
+        "ここで",
+        "たばこが",
+        "吸えますか"
+      ],
+      "answers": [
+        "ここでたばこが吸えますか",
+        "たばこがここで吸えますか"
+      ]
+    },
+    {
+      "id": "n4-04-e06",
+      "type": "choice",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi không ăn được đồ cay\"?",
+      "options": [
+        "辛い料理が食べられません。",
+        "辛い料理を食べません。",
+        "辛い料理を食べませんでした。"
+      ],
+      "answer": 0,
+      "explainVi": "食べません chỉ là \"không ăn\"; \"không ăn được\" là thể khả năng 食べられません."
+    },
+    {
+      "id": "n4-04-e07",
+      "type": "fill",
+      "grammar": [
+        "koto-ga-dekiru"
+      ],
+      "before": "兄は車を運転する",
+      "after": "ができます。",
+      "answers": [
+        "こと"
+      ],
+      "options": [
+        "こと",
+        "の",
+        "もの"
+      ],
+      "vi": "Anh tôi có thể lái ô tô."
+    },
+    {
+      "id": "n4-04-e08",
+      "type": "choice",
+      "grammar": [
+        "koto-ga-dekiru"
+      ],
+      "promptVi": "Câu nào cùng nghĩa với câu sau?",
+      "ja": "日本語が話せます。",
+      "options": [
+        "日本語を話すことができます。",
+        "日本語を話したことがあります。",
+        "日本語を話すことが好きです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-04-e09",
+      "type": "choice",
+      "grammar": [
+        "koto-ga-dekiru"
+      ],
+      "promptVi": "\"Ngày mai có thể trời sẽ mưa\" (có lẽ). Câu nào đúng?",
+      "options": [
+        "明日はたぶん雨が降るでしょう。",
+        "明日は雨が降ることができます。",
+        "明日は雨が降れます。"
+      ],
+      "answer": 0,
+      "explainVi": "\"Có thể\" với nghĩa \"có lẽ\" là đoán: dùng たぶん〜でしょう, không dùng ことができる hay thể khả năng."
+    },
+    {
+      "id": "n4-04-e10",
+      "type": "order",
+      "grammar": [
+        "koto-ga-dekiru"
+      ],
+      "vi": "Ở thư viện này có thể mượn tối đa 5 cuốn sách.",
+      "tiles": [
+        "この図書館では",
+        "本を",
+        "5冊まで",
+        "借りることが",
+        "できます"
+      ],
+      "answers": [
+        "この図書館では本を5冊まで借りることができます"
+      ]
+    },
+    {
+      "id": "n4-04-e11",
+      "type": "fill",
+      "grammar": [
+        "you-ni-naru"
+      ],
+      "before": "日本語の新聞が読める",
+      "after": "なりました。",
+      "answers": [
+        "ように"
+      ],
+      "options": [
+        "ように",
+        "に",
+        "が"
+      ],
+      "vi": "Tôi đã đọc được báo tiếng Nhật rồi."
+    },
+    {
+      "id": "n4-04-e12",
+      "type": "choice",
+      "grammar": [
+        "you-ni-naru"
+      ],
+      "promptVi": "Chọn câu đúng: \"Tiếng Nhật của tôi đã giỏi lên.\"",
+      "options": [
+        "日本語が上手になりました。",
+        "日本語が上手ようになりました。",
+        "日本語が上手なようになりました。"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đuôi な + になる; ようになる chỉ đi sau động từ."
+    },
+    {
+      "id": "n4-04-e13",
+      "type": "choice",
+      "grammar": [
+        "you-ni-naru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Từ khi sang Nhật, tôi bắt đầu hay ăn cá\"?",
+      "options": [
+        "日本に来て、魚をよく食べるようになりました。",
+        "日本に来て、魚をよく食べられました。",
+        "日本に来て、魚をよく食べていました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-04-e14",
+      "type": "order",
+      "grammar": [
+        "you-ni-naru"
+      ],
+      "vi": "Tôi đã bơi được 100 mét rồi.",
+      "tiles": [
+        "100メートル",
+        "泳げる",
+        "ように",
+        "なりました"
+      ],
+      "answers": [
+        "100メートル泳げるようになりました"
+      ]
+    },
+    {
+      "id": "n4-04-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "水泳",
+          "bơi lội"
+        ],
+        [
+          "柔道",
+          "judo"
+        ],
+        [
+          "漫画",
+          "truyện tranh"
+        ],
+        [
+          "小説",
+          "tiểu thuyết"
+        ]
+      ]
+    },
+    {
+      "id": "n4-04-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "発音",
+          "phát âm"
+        ],
+        [
+          "会話",
+          "hội thoại"
+        ],
+        [
+          "文法",
+          "ngữ pháp"
+        ],
+        [
+          "字",
+          "chữ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-04-e17",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tôi nghe thấy tiếng hát từ phòng bên.\"",
+      "ja": "隣の部屋から歌が＿。",
+      "options": [
+        "聞こえます",
+        "聞きます",
+        "聞いてください"
+      ],
+      "answer": 0,
+      "explainVi": "Âm thanh tự lọt vào tai: 聞こえる."
+    },
+    {
+      "id": "n4-04-e18",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Chủ nhật mình tập trung trước ga nhé.\"",
+      "ja": "日曜日に駅の前に＿。",
+      "options": [
+        "集まりましょう",
+        "集めましょう",
+        "集まりませんでした"
+      ],
+      "answer": 0,
+      "explainVi": "Người tự tụ lại: 集まる (tự động từ). 集める cần tân ngữ: 切手を集める."
+    },
+    {
+      "id": "n4-04-e19",
+      "type": "choice",
+      "promptVi": "趣味 trong câu này nghĩa là gì?",
+      "ja": "私の趣味は切手を集めることです。",
+      "options": [
+        "sở thích",
+        "thú vị",
+        "công việc"
+      ],
+      "answer": 0,
+      "explainVi": "趣味 (âm Hán Việt \"thú vị\") nghĩa là sở thích; \"thú vị\" là おもしろい."
+    },
+    {
+      "id": "n4-04-e20",
+      "type": "translate",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "vi": "Tôi nói được tiếng Nhật một chút.",
+      "answers": [
+        "(私は)日本語[が|は|を][少し|ちょっと]話せます。",
+        "(私は)[少し|ちょっと]日本語[が|を]話せます。",
+        "(私は)日本語を[少し|ちょっと]話すことができます。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんごがすこしはなせます",
+          "score": 100
+        },
+        {
+          "answer": "日本語が少し話すことができます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "日本語わ少し話せます。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "日本語が少し話せません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-04-e21",
+      "type": "translate",
+      "grammar": [
+        "eru-rareru-potential"
+      ],
+      "vi": "Tôi không ăn được đồ cay.",
+      "answers": [
+        "(私は)辛い[料理|物|食べ物][が|は|を]食べられません。",
+        "(私は)辛い[料理|物|食べ物][を|は]食べることができません。"
+      ],
+      "examples": [
+        {
+          "answer": "からいりょうりがたべられません",
+          "score": 100
+        },
+        {
+          "answer": "辛いの料理が食べられません。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "辛い料理が食べられます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-04-e22",
+      "type": "translate",
+      "grammar": [
+        "koto-ga-dekiru"
+      ],
+      "vi": "Anh trai tôi có thể lái ô tô.",
+      "answers": [
+        "兄は車を運転することができます。",
+        "兄は車の運転ができます。",
+        "兄は車[を|が]運転できます。"
+      ],
+      "examples": [
+        {
+          "answer": "あにはくるまをうんてんすることができます",
+          "score": 100
+        },
+        {
+          "answer": "兄は車が運転することができます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "兄は車を運転ができます。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "兄はバスを運転することができます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-04-e23",
+      "type": "translate",
+      "grammar": [
+        "you-ni-naru"
+      ],
+      "vi": "(Sau một năm học,) tôi đã đọc được báo tiếng Nhật rồi.",
+      "answers": [
+        "(私は)(もう)日本語の新聞[が|を|は]読めるようになりました。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんごのしんぶんがよめるようになりました",
+          "score": 100
+        },
+        {
+          "answer": "日本語新聞が読めるようになりました。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "日本語の新聞に読めるようになりました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "日本語の雑誌が読めるようになりました。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "私の趣味は写真を撮ることです。": "{私|わたし}の{趣|しゅ}{味|み}は{写|しゃ}{真|しん}を{撮|と}ることです。",
+    "日本のことをもっと知りたいです。": "{日本|にほん}のことをもっと{知|し}りたいです。",
+    "私は日本の技術に興味があります。": "{私|わたし}は{日本|にほん}の{技|ぎ}{術|じゅつ}に{興|きょう}{味|み}があります。",
+    "車の運転ができますか。": "{車|くるま}の{運|うん}{転|てん}ができますか。",
+    "水泳は体にいいです。": "{水|すい}{泳|えい}は{体|からだ}にいいです。",
+    "弟は毎週柔道を習っています。": "{弟|おとうと}は{毎|まい}{週|しゅう}{柔|じゅう}{道|どう}を{習|なら}っています。",
+    "日曜日に友達とテニスをします。": "{日|にち}{曜|よう}{日|び}に{友|とも}{達|だち}とテニスをします。",
+    "娘はピアノが弾けます。": "{娘|むすめ}はピアノが{弾|ひ}けます。",
+    "漫画で日本語を勉強しています。": "{漫|まん}{画|が}で{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しています。",
+    "マイさんは字がきれいですね。": "マイさんは{字|じ}がきれいですね。",
+    "グエンさんは日本語の発音がとてもきれいです。": "グエンさんは{日本|にほん}{語|ご}の{発|はつ}{音|おん}がとてもきれいです。",
+    "毎日、会話の練習をしています。": "{毎|まい}{日|にち}、{会|かい}{話|わ}の{練|れん}{習|しゅう}をしています。",
+    "日本語の文法はベトナム語と違います。": "{日本|にほん}{語|ご}の{文|ぶん}{法|ぽう}はベトナム{語|ご}と{違|ちが}います。",
+    "隣の部屋から歌が聞こえます。": "{隣|となり}の{部屋|へや}から{歌|うた}が{聞|き}こえます。",
+    "部屋の窓から海が見えます。": "{部屋|へや}の{窓|まど}から{海|うみ}が{見|み}えます。",
+    "日本の食べ物にもう慣れました。": "{日本|にほん}の{食|た}べ{物|もの}にもう{慣|な}れました。",
+    "この料理は簡単に作れます。": "この{料|りょう}{理|り}は{簡|かん}{単|たん}に{作|つく}れます。",
+    "遠くに山が見えます。": "{遠|とお}くに{山|やま}が{見|み}えます。",
+    "ここから字がはっきり見えます。": "ここから{字|じ}がはっきり{見|み}えます。",
+    "弟は車に興味があります。": "{弟|おとうと}は{車|くるま}に{興|きょう}{味|み}があります。",
+    "私の趣味は切手を集めることです。": "{私|わたし}の{趣|しゅ}{味|み}は{切|きっ}{手|て}を{集|あつ}めることです。",
+    "父は古いカメラを集めています。": "{父|ちち}は{古|ふる}いカメラを{集|あつ}めています。",
+    "日曜日に駅の前に集まりましょう。": "{日|にち}{曜|よう}{日|び}に{駅|えき}の{前|まえ}に{集|あつ}まりましょう。",
+    "川で魚を釣りました。": "{川|かわ}で{魚|さかな}を{釣|つ}りました。",
+    "日本語の小説が読めるようになりたいです。": "{日本|にほん}{語|ご}の{小|しょう}{説|せつ}が{読|よ}めるようになりたいです。",
+    "このパソコンで日本語が書けますか。": "このパソコンで{日本|にほん}{語|ご}が{書|か}けますか。",
+    "マイさんは漢字がたくさん書けます。": "マイさんは{漢|かん}{字|じ}がたくさん{書|か}けます。",
+    "私は辛い料理が食べられません。": "{私|わたし}は{辛|から}い{料|りょう}{理|り}が{食|た}べられません。",
+    "ここでたばこが吸えますか。": "ここでたばこが{吸|す}えますか。",
+    "明日は用があって、来られません。": "{明日|あした}は{用|よう}があって、{来|こ}られません。",
+    "私は日本語の新聞が読めます。": "{私|わたし}は{日本|にほん}{語|ご}の{新|しん}{聞|ぶん}が{読|よ}めます。",
+    "私は日本語の新聞が読みれます。": "{私|わたし}は{日本|にほん}{語|ご}の{新|しん}{聞|ぶん}が{読|よ}みれます。",
+    "私は泳げます。": "{私|わたし}は{泳|およ}げます。",
+    "私は泳げられます。": "{私|わたし}は{泳|およ}げられます。",
+    "私は日本語が話せます。": "{私|わたし}は{日本|にほん}{語|ご}が{話|はな}せます。",
+    "私は日本語が話せることができます。": "{私|わたし}は{日本|にほん}{語|ご}が{話|はな}せることができます。",
+    "この図書館では、本を5冊まで借りることができます。": "この{図|と}{書|しょ}{館|かん}では、{本|ほん}を5{冊|さつ}まで{借|か}りることができます。",
+    "兄は車を運転することができます。": "{兄|あに}は{車|くるま}を{運|うん}{転|てん}することができます。",
+    "私はテニスができません。": "{私|わたし}はテニスができません。",
+    "私は泳ぐことができます。": "{私|わたし}は{泳|およ}ぐことができます。",
+    "私は泳ぎことができます。": "{私|わたし}は{泳|およ}ぎことができます。",
+    "兄は車を運転ことができます。": "{兄|あに}は{車|くるま}を{運|うん}{転|てん}ことができます。",
+    "明日はたぶん雨が降るでしょう。": "{明日|あした}はたぶん{雨|あめ}が{降|ふ}るでしょう。",
+    "明日は雨が降ることができます。": "{明日|あした}は{雨|あめ}が{降|ふ}ることができます。",
+    "日本語の新聞が読めるようになりました。": "{日本|にほん}{語|ご}の{新|しん}{聞|ぶん}が{読|よ}めるようになりました。",
+    "毎日練習して、泳げるようになりました。": "{毎|まい}{日|にち}{練|れん}{習|しゅう}して、{泳|およ}げるようになりました。",
+    "日本に来て、魚をよく食べるようになりました。": "{日本|にほん}に{来|き}て、{魚|さかな}をよく{食|た}べるようになりました。",
+    "日本語が話せるようになりました。": "{日本|にほん}{語|ご}が{話|はな}せるようになりました。",
+    "日本語が話せるになりました。": "{日本|にほん}{語|ご}が{話|はな}せるになりました。",
+    "日本語が上手になりました。": "{日本|にほん}{語|ご}が{上手|じょうず}になりました。",
+    "日本語が上手ようになりました。": "{日本|にほん}{語|ご}が{上手|じょうず}ようになりました。",
+    "漢字が書けるようになりました。": "{漢|かん}{字|じ}が{書|か}けるようになりました。",
+    "漢字が書けたようになりました。": "{漢|かん}{字|じ}が{書|か}けたようになりました。",
+    "書く": "{書|か}く",
+    "書ける": "{書|か}ける",
+    "食べる": "{食|た}べる",
+    "食べられる": "{食|た}べられる",
+    "する": "する",
+    "できる": "できる",
+    "来る": "{来|く}る",
+    "来られる": "{来|こ}られる",
+    "漢字が書けます。": "{漢|かん}{字|じ}が{書|か}けます。",
+    "漢字が書きます。": "{漢|かん}{字|じ}が{書|か}きます。",
+    "漢字が書いています。": "{漢|かん}{字|じ}が{書|か}いています。",
+    "マイさんはピアノが弾けます。": "マイさんはピアノが{弾|ひ}けます。",
+    "弾けます": "{弾|ひ}けます",
+    "弾きます": "{弾|ひ}きます",
+    "弾けません": "{弾|ひ}けません",
+    "明日は用があって、パーティーに来られません。": "{明日|あした}は{用|よう}があって、パーティーに{来|こ}られません。",
+    "来られません": "{来|こ}られません",
+    "来られます": "{来|こ}られます",
+    "来ます": "{来|き}ます",
+    "ここで": "ここで",
+    "たばこが": "たばこが",
+    "吸えますか": "{吸|す}えますか",
+    "ここでたばこが吸えますか": "ここでたばこが{吸|す}えますか",
+    "たばこがここで吸えますか": "たばこがここで{吸|す}えますか",
+    "辛い料理が食べられません。": "{辛|から}い{料|りょう}{理|り}が{食|た}べられません。",
+    "辛い料理を食べません。": "{辛|から}い{料|りょう}{理|り}を{食|た}べません。",
+    "辛い料理を食べませんでした。": "{辛|から}い{料|りょう}{理|り}を{食|た}べませんでした。",
+    "こと": "こと",
+    "の": "の",
+    "もの": "もの",
+    "日本語が話せます。": "{日本|にほん}{語|ご}が{話|はな}せます。",
+    "日本語を話すことができます。": "{日本|にほん}{語|ご}を{話|はな}すことができます。",
+    "日本語を話したことがあります。": "{日本|にほん}{語|ご}を{話|はな}したことがあります。",
+    "日本語を話すことが好きです。": "{日本|にほん}{語|ご}を{話|はな}すことが{好|す}きです。",
+    "明日は雨が降れます。": "{明日|あした}は{雨|あめ}が{降|ふ}れます。",
+    "この図書館では": "この{図|と}{書|しょ}{館|かん}では",
+    "本を": "{本|ほん}を",
+    "5冊まで": "5{冊|さつ}まで",
+    "借りることが": "{借|か}りることが",
+    "できます": "できます",
+    "この図書館では本を5冊まで借りることができます": "この{図|と}{書|しょ}{館|かん}では{本|ほん}を5{冊|さつ}まで{借|か}りることができます",
+    "ように": "ように",
+    "に": "に",
+    "が": "が",
+    "日本語が上手なようになりました。": "{日本|にほん}{語|ご}が{上手|じょうず}なようになりました。",
+    "日本に来て、魚をよく食べられました。": "{日本|にほん}に{来|き}て、{魚|さかな}をよく{食|た}べられました。",
+    "日本に来て、魚をよく食べていました。": "{日本|にほん}に{来|き}て、{魚|さかな}をよく{食|た}べていました。",
+    "100メートル": "100メートル",
+    "泳げる": "{泳|およ}げる",
+    "なりました": "なりました",
+    "100メートル泳げるようになりました": "100メートル{泳|およ}げるようになりました",
+    "水泳": "{水|すい}{泳|えい}",
+    "柔道": "{柔|じゅう}{道|どう}",
+    "漫画": "{漫|まん}{画|が}",
+    "小説": "{小|しょう}{説|せつ}",
+    "発音": "{発|はつ}{音|おん}",
+    "会話": "{会|かい}{話|わ}",
+    "文法": "{文|ぶん}{法|ぽう}",
+    "字": "{字|じ}",
+    "隣の部屋から歌が＿。": "{隣|となり}の{部屋|へや}から{歌|うた}が＿。",
+    "聞こえます": "{聞|き}こえます",
+    "聞きます": "{聞|き}きます",
+    "聞いてください": "{聞|き}いてください",
+    "日曜日に駅の前に＿。": "{日|にち}{曜|よう}{日|び}に{駅|えき}の{前|まえ}に＿。",
+    "集まりましょう": "{集|あつ}まりましょう",
+    "集めましょう": "{集|あつ}めましょう",
+    "集まりませんでした": "{集|あつ}まりませんでした",
+    "私は日本語が少し話せます。": "{私|わたし}は{日本|にほん}{語|ご}が{少|すこ}し{話|はな}せます。",
+    "私は少し日本語が話せます。": "{私|わたし}は{少|すこ}し{日本|にほん}{語|ご}が{話|はな}せます。",
+    "私は日本語を少し話すことができます。": "{私|わたし}は{日本|にほん}{語|ご}を{少|すこ}し{話|はな}すことができます。",
+    "私は辛い料理を食べることができません。": "{私|わたし}は{辛|から}い{料|りょう}{理|り}を{食|た}べることができません。",
+    "兄は車の運転ができます。": "{兄|あに}は{車|くるま}の{運|うん}{転|てん}ができます。",
+    "兄は車を運転できます。": "{兄|あに}は{車|くるま}を{運|うん}{転|てん}できます。",
+    "私はもう日本語の新聞が読めるようになりました。": "{私|わたし}はもう{日本|にほん}{語|ご}の{新|しん}{聞|ぶん}が{読|よ}めるようになりました。"
+  }
+}

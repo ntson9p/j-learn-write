@@ -1,0 +1,1218 @@
+{
+  "id": "n4-07",
+  "goalsVi": [
+    "Nói \"khi …, lúc …\" bằng 〜時: 子供の時、日本へ行った時",
+    "Phân biệt 〜間 (trong suốt khoảng thời gian) và 〜間に (vào một lúc trong khoảng đó): 留守の間に友達が来ました",
+    "Nói hạn chót bằng 〜までに và phân biệt với まで: 金曜日までにレポートを出してください",
+    "Nói về đi lại hằng ngày, thời gian trong ngày và chuyện ngày xưa: 通う、寄る、戻る、間に合う、昼休み、昔"
+  ],
+  "words": [
+    {
+      "no": 678,
+      "word": "間",
+      "meaningsVi": [
+        "khoảng giữa (hai vật)",
+        "trong lúc, trong suốt (một khoảng thời gian)"
+      ],
+      "noteVi": "AとBの間: giữa A và B. Với thời gian: 夏休みの間 (trong suốt kỳ nghỉ hè); xem ngữ pháp 〜間 / 〜間に. Cùng chữ 間 đọc かん trong 時間.",
+      "examples": [
+        {
+          "ja": "銀行と郵便局の間に、喫茶店があります。",
+          "vi": "Giữa ngân hàng và bưu điện có một quán cà phê."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 717,
+      "word": "以内",
+      "meaningsVi": [
+        "trong vòng (không quá)"
+      ],
+      "noteVi": "Âm Hán Việt \"dĩ nội\". Đứng sau số lượng: 1時間以内 (trong vòng 1 tiếng), 1000円以内 (không quá 1000 yên).",
+      "examples": [
+        {
+          "ja": "1時間以内に戻ります。",
+          "vi": "Tôi sẽ quay lại trong vòng 1 tiếng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 727,
+      "word": "うち",
+      "meaningsVi": [
+        "trong số (một nhóm)",
+        "trong khoảng (thời gian)"
+      ],
+      "noteVi": "AとBとCのうち: trong số A, B, C. Đừng nhầm với うち nghĩa là \"nhà\" (cùng cách đọc). 〜うちに (trong lúc còn …) học sau.",
+      "examples": [
+        {
+          "ja": "この三つのうち、どれがいちばん好きですか。",
+          "vi": "Trong ba cái này, bạn thích cái nào nhất?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 774,
+      "word": "思い出す",
+      "meaningsVi": [
+        "nhớ ra, nhớ lại"
+      ],
+      "noteVi": "Nhớ lại điều đã quên hoặc chuyện cũ: 名前を思い出す. Khác 覚える (ghi nhớ, học thuộc).",
+      "examples": [
+        {
+          "ja": "この写真を見て、学生時代を思い出しました。",
+          "vi": "Xem bức ảnh này, tôi nhớ lại thời sinh viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 791,
+      "word": "帰り",
+      "meaningsVi": [
+        "lúc về, đường về"
+      ],
+      "noteVi": "Danh từ của 帰る. 会社の帰りに: trên đường đi làm về.",
+      "examples": [
+        {
+          "ja": "今日は帰りが遅くなります。",
+          "vi": "Hôm nay tôi về muộn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 756,
+      "word": "起こす",
+      "meaningsVi": [
+        "đánh thức",
+        "dựng dậy, gây ra"
+      ],
+      "noteVi": "Tha động từ của 起きる: 起きる (tự thức dậy) ↔ 人を起こす (đánh thức người khác). Nhóm I: 起こして.",
+      "examples": [
+        {
+          "ja": "明日の朝、6時に起こしてください。",
+          "vi": "Sáng mai hãy đánh thức tôi lúc 6 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 814,
+      "word": "通う",
+      "meaningsVi": [
+        "đi lại đều đặn (đi học, đi làm, đi khám…)"
+      ],
+      "noteVi": "Đi đi về về một nơi nhiều lần: 学校に通う, 病院に通う. Thường dùng 〜ています. Thể て: 通って.",
+      "examples": [
+        {
+          "ja": "毎日、自転車で大学に通っています。",
+          "vi": "Hằng ngày tôi đi xe đạp đến trường đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 880,
+      "word": "講義",
+      "meaningsVi": [
+        "bài giảng (ở đại học)"
+      ],
+      "noteVi": "Âm Hán Việt \"giảng nghĩa\". Giờ giảng ở đại học, giảng viên nói cho nhiều sinh viên nghe; ở trường phổ thông nói 授業.",
+      "examples": [
+        {
+          "ja": "月曜日の講義はとてもおもしろいです。",
+          "vi": "Bài giảng thứ Hai rất hay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 882,
+      "word": "高校",
+      "meaningsVi": [
+        "trường trung học phổ thông (cấp 3)"
+      ],
+      "noteVi": "Gọi tắt của 高等学校; âm Hán Việt \"cao hiệu\". Học sinh cấp 3: 高校生.",
+      "examples": [
+        {
+          "ja": "妹は来年、高校に入ります。",
+          "vi": "Sang năm em gái tôi vào cấp 3."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 942,
+      "word": "時代",
+      "meaningsVi": [
+        "thời, thời kỳ",
+        "thời đại"
+      ],
+      "noteVi": "Âm Hán Việt \"thời đại\". Ngoài thời đại lịch sử, còn chỉ một quãng đời: 学生時代 (thời sinh viên), 高校時代 (thời cấp 3).",
+      "examples": [
+        {
+          "ja": "学生時代に、よく京都へ旅行しました。",
+          "vi": "Thời sinh viên tôi hay đi du lịch Kyoto."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 963,
+      "word": "出発",
+      "meaningsVi": [
+        "xuất phát, khởi hành"
+      ],
+      "noteVi": "Âm Hán Việt \"xuất phát\", nghĩa như tiếng Việt. Nơi xuất phát dùng を: 駅を出発する.",
+      "examples": [
+        {
+          "ja": "バスは9時に出発します。",
+          "vi": "Xe buýt khởi hành lúc 9 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 967,
+      "word": "小学校",
+      "meaningsVi": [
+        "trường tiểu học"
+      ],
+      "noteVi": "Âm Hán Việt \"tiểu học hiệu\". Ở Nhật trẻ học tiểu học 6 năm, từ 6 tuổi.",
+      "examples": [
+        {
+          "ja": "小学校の時、この町に住んでいました。",
+          "vi": "Hồi tiểu học tôi sống ở thị trấn này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 949,
+      "word": "しばらく",
+      "meaningsVi": [
+        "một lúc, một lát",
+        "một thời gian (khá lâu)"
+      ],
+      "noteVi": "Có thể là một lát hay vài tuần, tùy ngữ cảnh. しばらくですね: lâu rồi không gặp (như 久しぶりですね).",
+      "examples": [
+        {
+          "ja": "しばらく、ここで待ってください。",
+          "vi": "Hãy đợi ở đây một lát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1106,
+      "word": "途中",
+      "meaningsVi": [
+        "giữa đường",
+        "giữa chừng"
+      ],
+      "noteVi": "Âm Hán Việt \"đồ trung\" (giữa đường). V（thể từ điển）/ N の + 途中で: đang trên đường …, đang giữa chừng …",
+      "examples": [
+        {
+          "ja": "学校へ行く途中で、先生に会いました。",
+          "vi": "Trên đường đến trường, tôi đã gặp thầy giáo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1188,
+      "word": "昼間",
+      "meaningsVi": [
+        "ban ngày"
+      ],
+      "noteVi": "Khoảng thời gian trời sáng, từ sáng đến chiều; còn 昼 thường là buổi trưa.",
+      "examples": [
+        {
+          "ja": "昼間は暖かいですが、夜は寒いです。",
+          "vi": "Ban ngày thì ấm nhưng ban đêm lạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1189,
+      "word": "昼休み",
+      "meaningsVi": [
+        "giờ nghỉ trưa"
+      ],
+      "noteVi": "昼 (trưa) + 休み (nghỉ).",
+      "examples": [
+        {
+          "ja": "昼休みは12時から1時までです。",
+          "vi": "Giờ nghỉ trưa từ 12 giờ đến 1 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1242,
+      "word": "昔",
+      "meaningsVi": [
+        "ngày xưa, trước đây"
+      ],
+      "noteVi": "Một thời gian khá lâu trước đây. 昔の写真: ảnh ngày xưa.",
+      "examples": [
+        {
+          "ja": "昔、ここに大きい木がありました。",
+          "vi": "Ngày xưa ở đây có một cái cây lớn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1228,
+      "word": "間に合う",
+      "meaningsVi": [
+        "kịp (giờ)"
+      ],
+      "noteVi": "N に間に合う: kịp N (電車に間に合う, 授業に間に合う). Không kịp: 間に合わない.",
+      "examples": [
+        {
+          "ja": "走りましたから、電車に間に合いました。",
+          "vi": "Nhờ chạy nên tôi đã kịp chuyến tàu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1251,
+      "word": "もうすぐ",
+      "meaningsVi": [
+        "sắp, sắp sửa"
+      ],
+      "noteVi": "Việc sắp xảy ra trong thời gian ngắn tới.",
+      "examples": [
+        {
+          "ja": "もうすぐ夏休みです。",
+          "vi": "Sắp đến kỳ nghỉ hè rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1255,
+      "word": "戻る",
+      "meaningsVi": [
+        "quay lại, trở lại"
+      ],
+      "noteVi": "Quay lại chỗ cũ: 席に戻る, 会社に戻る. Khác 帰る (về nhà, về nước). Nhóm I: 戻って.",
+      "examples": [
+        {
+          "ja": "田中さんは3時に会社に戻ります。",
+          "vi": "Anh Tanaka sẽ quay lại công ty lúc 3 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1283,
+      "word": "寄る",
+      "meaningsVi": [
+        "ghé, tạt qua"
+      ],
+      "noteVi": "Ghé vào một nơi trên đường đi: 郵便局に寄る. Cùng cách đọc với 夜 (よる) nhưng khác chữ.",
+      "examples": [
+        {
+          "ja": "会社の帰りに、デパートに寄りました。",
+          "vi": "Trên đường đi làm về, tôi ghé qua trung tâm thương mại."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1290,
+      "word": "留守",
+      "meaningsVi": [
+        "vắng nhà, đi vắng"
+      ],
+      "noteVi": "Âm Hán Việt \"lưu thủ\" nhưng nghĩa là không có nhà. 留守の間に: trong lúc vắng nhà.",
+      "examples": [
+        {
+          "ja": "昨日、田中さんの家に行きましたが、留守でした。",
+          "vi": "Hôm qua tôi đến nhà anh Tanaka nhưng anh ấy đi vắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1294,
+      "word": "レポート",
+      "meaningsVi": [
+        "bài báo cáo, bài viết (nộp cho trường, công ty)"
+      ],
+      "noteVi": "Nộp báo cáo: レポートを出す. Ở đại học, レポート là bài viết sinh viên nộp sau mỗi môn.",
+      "examples": [
+        {
+          "ja": "金曜日までにレポートを出してください。",
+          "vi": "Hãy nộp báo cáo trước thứ Sáu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1029,
+      "word": "そろそろ",
+      "meaningsVi": [
+        "sắp, đã đến lúc",
+        "từ từ"
+      ],
+      "noteVi": "Hay dùng để nói khéo rằng đã đến lúc làm gì (thường là ra về, kết thúc).",
+      "examples": [
+        {
+          "ja": "もう10時ですね。そろそろ帰りましょう。",
+          "vi": "10 giờ rồi nhỉ. Sắp đến lúc về rồi, chúng ta về thôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 710,
+      "word": "急ぐ",
+      "meaningsVi": [
+        "vội, khẩn trương"
+      ],
+      "noteVi": "Nhóm I, ぐ → いで: 急いで. 急いでください: Hãy nhanh lên.",
+      "examples": [
+        {
+          "ja": "時間がありません。急いでください。",
+          "vi": "Không còn thời gian. Nhanh lên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 899,
+      "word": "このあいだ",
+      "meaningsVi": [
+        "hôm nọ, mới đây"
+      ],
+      "noteVi": "Một ngày gần đây trong quá khứ (vài ngày, vài tuần trước). Cũng viết この間.",
+      "examples": [
+        {
+          "ja": "このあいだ、駅で山田さんに会いました。",
+          "vi": "Hôm nọ tôi gặp anh Yamada ở nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1318,
+      "word": "時",
+      "meaningsVi": [
+        "lúc, khi"
+      ],
+      "noteVi": "Đọc とき; đứng sau động từ, tính từ, N の để nói \"khi …\" (xem ngữ pháp 〜時). Cùng chữ 時 đọc じ trong 3時. Hay được viết bằng kana: とき.",
+      "examples": [
+        {
+          "ja": "暇な時、何をしますか。",
+          "vi": "Lúc rảnh bạn làm gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "代",
+      "meaningVi": "thay; đời, thời đại",
+      "noteVi": "Gặp trong 時代 (じだい, thời đại), 代わり (かわり, thay thế). Bên trái là bộ 亻 (người).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "去",
+      "meaningVi": "đi qua, đã qua",
+      "noteVi": "Gặp trong 去年 (きょねん, năm ngoái).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "昼",
+      "meaningVi": "ban ngày, buổi trưa",
+      "noteVi": "Gặp trong 昼 (ひる), 昼ご飯, 昼休み, 昼間 (ひるま). Bên dưới có 日 (mặt trời).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "夜",
+      "meaningVi": "đêm, buổi tối",
+      "noteVi": "Gặp trong 夜 (よる, buổi tối, ban đêm), 今夜 (こんや, tối nay).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "夕",
+      "meaningVi": "chiều tối",
+      "noteVi": "Gặp trong 夕方 (ゆうがた), 夕飯 (ゆうはん). Hình mặt trăng khuyết lúc chiều tối; là một phần của chữ 多, 夜, 名.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "帰",
+      "meaningVi": "về",
+      "noteVi": "Gặp trong 帰る (かえる, về), 帰り (かえり, lúc về).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "toki",
+      "titleVi": "〜時: khi, lúc",
+      "summaryVi": "V / Aい / Aな な / N の + 時（とき）: khi …, lúc …; thì của động từ trước 時 cho biết việc nào xảy ra trước.",
+      "explanationVi": [
+        "**時（とき）** = \"khi, lúc\", là một danh từ nên đứng sau thể thông thường: động từ (行く時, 行った時), tính từ đuôi い (寒い時), tính từ đuôi な + **な** (暇な時), danh từ + **の** (子供の時). Thường được viết bằng kana: とき.",
+        "Tiếng Việt đặt \"khi\" ở đầu: \"khi còn nhỏ\"; tiếng Nhật đặt 時 **sau**: 「子供の時」. Phần có 時 luôn đứng **trước** câu chính. Chủ ngữ trong phần 時 dùng **が**: 「友達が来た時」.",
+        "Thì của động từ trước 時 rất quan trọng: **V（thể từ điển）+ 時** = việc chính xảy ra **trước hoặc cùng lúc** với V: 「日本へ行く時、かばんを買いました」 (mua túi lúc chuẩn bị đi, chưa đến Nhật). **V た + 時** = việc chính xảy ra **sau khi** V đã xong: 「日本へ行った時、かばんを買いました」 (mua ở Nhật, khi đã đến nơi). Thì của cả câu do động từ cuối câu quyết định."
+      ],
+      "patterns": [
+        "V（thể từ điển / た / ない）+ 時",
+        "Aい + 時",
+        "Aな + な + 時",
+        "N + の + 時"
+      ],
+      "examples": [
+        {
+          "ja": "子供の時、よくこの公園で遊びました。",
+          "vi": "Hồi nhỏ tôi hay chơi ở công viên này."
+        },
+        {
+          "ja": "寒い時は、暖房をつけます。",
+          "vi": "Khi trời lạnh, tôi bật máy sưởi."
+        },
+        {
+          "ja": "日本へ行く時、新しいかばんを買いました。",
+          "vi": "Lúc chuẩn bị đi Nhật, tôi đã mua cái túi mới."
+        },
+        {
+          "ja": "日本へ行った時、このかばんを買いました。",
+          "vi": "Khi đi Nhật (lúc ở Nhật), tôi đã mua cái túi này."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "子供時、よくこの公園で遊びました。",
+          "right": "子供の時、よくこの公園で遊びました。",
+          "noteVi": "Danh từ cần の trước 時: 子供の時."
+        },
+        {
+          "wrong": "暇の時、何をしますか。",
+          "right": "暇な時、何をしますか。",
+          "noteVi": "暇 là tính từ đuôi な: dùng な trước 時, không dùng の."
+        },
+        {
+          "wrong": "日本へ行きます時、かばんを買いました。",
+          "right": "日本へ行く時、かばんを買いました。",
+          "noteVi": "Trước 時 dùng thể thông thường, không dùng thể ます."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "aida-aida-ni",
+      "titleVi": "〜間 / 〜間に: trong suốt lúc … / trong lúc …",
+      "summaryVi": "V ている / N の + 間: việc kéo dài suốt khoảng thời gian; + 間に: việc xảy ra một lần vào lúc nào đó trong khoảng đó.",
+      "explanationVi": [
+        "**V ている / N の + 間**, + một việc **kéo dài suốt** khoảng thời gian đó (câu sau thường là 〜ていました, 〜ています): 「母が料理をしている間、私はテレビを見ていました」 (Suốt lúc mẹ nấu ăn, tôi xem tivi).",
+        "**V ている / N の + 間に**, + một việc xảy ra **một lần, vào lúc nào đó** trong khoảng thời gian ấy: 「留守の間に、友達が来ました」 (Trong lúc tôi vắng nhà, bạn đã đến).",
+        "Tiếng Việt \"trong lúc, trong khi\" dùng cho cả hai trường hợp, nên hãy nhìn câu sau: việc **kéo dài suốt** → 間; việc **xảy ra một lần** → 間に. Động từ trước 間 thường ở dạng **〜ている** (trạng thái kéo dài): 寝ている間に; danh từ cần **の**: 夏休みの間."
+      ],
+      "patterns": [
+        "V ている / N の + 間、(việc kéo dài suốt)",
+        "V ている / N の + 間に、(việc xảy ra một lần)"
+      ],
+      "examples": [
+        {
+          "ja": "夏休みの間、国に帰っていました。",
+          "vi": "Suốt kỳ nghỉ hè tôi về nước."
+        },
+        {
+          "ja": "母が料理をしている間、私はテレビを見ていました。",
+          "vi": "Trong lúc mẹ nấu ăn, tôi xem tivi."
+        },
+        {
+          "ja": "留守の間に、友達が来ました。",
+          "vi": "Trong lúc tôi vắng nhà, có bạn đến."
+        },
+        {
+          "ja": "昼休みの間に、銀行へ行きました。",
+          "vi": "Trong giờ nghỉ trưa, tôi đã đi ngân hàng."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "夏休みの間に、国に帰っていました。",
+          "right": "夏休みの間、国に帰っていました。",
+          "noteVi": "Việc kéo dài suốt khoảng thời gian (帰っていました: ở quê suốt kỳ nghỉ) dùng 間, không có に."
+        },
+        {
+          "wrong": "夏休み間、国に帰っていました。",
+          "right": "夏休みの間、国に帰っていました。",
+          "noteVi": "Danh từ cần の trước 間: 夏休みの間."
+        },
+        {
+          "wrong": "留守の間で、友達が来ました。",
+          "right": "留守の間に、友達が来ました。",
+          "noteVi": "Thời điểm xảy ra việc dùng に (間に), không dùng で."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "made-ni",
+      "titleVi": "〜までに: trước (hạn chót), chậm nhất là …",
+      "summaryVi": "N（thời điểm）/ V（thể từ điển）+ までに: làm xong việc gì trước một thời điểm; khác まで (làm liên tục đến thời điểm đó).",
+      "explanationVi": [
+        "**までに** = \"trước …, chậm nhất là …\": nêu **hạn chót** cho một việc làm **một lần**: 「金曜日までにレポートを出してください」 (Hãy nộp báo cáo, chậm nhất là thứ Sáu).",
+        "So sánh với **まで** đã học: まで + việc **kéo dài liên tục** đến thời điểm đó: 「5時まで働きます」 (làm việc liên tục đến 5 giờ). までに + việc xảy ra **một lần, trước** thời điểm đó: 「5時までに帰ります」 (về nhà trước 5 giờ). Tiếng Việt đều có thể nói \"đến 5 giờ\", nên hãy tự hỏi: làm suốt hay làm xong trước?",
+        "Sau động từ: **V（thể từ điển）+ までに** = trước khi … (làm xong): 「父が帰るまでに、晩ご飯を作ります」 (Tôi sẽ nấu xong cơm tối trước khi bố về)."
+      ],
+      "patterns": [
+        "N（thời điểm）+ までに",
+        "V（thể từ điển）+ までに",
+        "So sánh: N まで (liên tục đến)"
+      ],
+      "examples": [
+        {
+          "ja": "金曜日までにレポートを出してください。",
+          "vi": "Hãy nộp báo cáo trước thứ Sáu."
+        },
+        {
+          "ja": "5時までに帰ります。",
+          "vi": "Tôi sẽ về trước 5 giờ."
+        },
+        {
+          "ja": "父が帰るまでに、晩ご飯を作ります。",
+          "vi": "Tôi sẽ nấu xong cơm tối trước khi bố về."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "金曜日までレポートを出してください。",
+          "right": "金曜日までにレポートを出してください。",
+          "noteVi": "Nộp (một lần) trước hạn: までに. まで chỉ dùng cho việc kéo dài liên tục."
+        },
+        {
+          "wrong": "5時までに働きます。",
+          "right": "5時まで働きます。",
+          "noteVi": "Làm việc liên tục đến 5 giờ: まで, không có に."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-07-e01",
+      "type": "choice",
+      "grammar": [
+        "toki"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Hồi nhỏ tôi hay chơi ở công viên này\"?",
+      "options": [
+        "子供の時、よくこの公園で遊びました。",
+        "子供時、よくこの公園で遊びました。",
+        "時子供、よくこの公園で遊びました。"
+      ],
+      "answer": 0,
+      "explainVi": "N + の + 時; phần có 時 đứng trước câu chính."
+    },
+    {
+      "id": "n4-07-e02",
+      "type": "fill",
+      "grammar": [
+        "toki"
+      ],
+      "before": "暇",
+      "after": "時、何をしますか。",
+      "answers": [
+        "な"
+      ],
+      "options": [
+        "な",
+        "の",
+        "に"
+      ],
+      "vi": "Lúc rảnh bạn làm gì?",
+      "explainVi": "暇 là tính từ đuôi な: 暇な時."
+    },
+    {
+      "id": "n4-07-e03",
+      "type": "choice",
+      "grammar": [
+        "toki"
+      ],
+      "promptVi": "Bạn mua cái túi này ở Nhật, sau khi đã đến Nhật. Chọn câu đúng.",
+      "options": [
+        "日本へ行った時、このかばんを買いました。",
+        "日本へ行く時、このかばんを買いました。",
+        "日本へ行きます時、このかばんを買いました。"
+      ],
+      "answer": 0,
+      "explainVi": "Mua sau khi đã đến nơi: 行った時. 行く時 là lúc chuẩn bị đi (chưa đến)."
+    },
+    {
+      "id": "n4-07-e04",
+      "type": "order",
+      "grammar": [
+        "toki"
+      ],
+      "vi": "Khi trời lạnh, tôi bật máy sưởi.",
+      "tiles": [
+        "つけます",
+        "寒い",
+        "暖房を",
+        "時は"
+      ],
+      "answers": [
+        "寒い時は暖房をつけます"
+      ]
+    },
+    {
+      "id": "n4-07-e05",
+      "type": "fill",
+      "grammar": [
+        "aida-aida-ni"
+      ],
+      "before": "夏休みの",
+      "after": "、国に帰っていました。",
+      "answers": [
+        "間"
+      ],
+      "options": [
+        "間",
+        "間に",
+        "までに"
+      ],
+      "vi": "Suốt kỳ nghỉ hè tôi về nước.",
+      "explainVi": "Việc kéo dài suốt khoảng thời gian: 間."
+    },
+    {
+      "id": "n4-07-e06",
+      "type": "choice",
+      "grammar": [
+        "aida-aida-ni"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Trong lúc tôi vắng nhà, có bạn đến\"?",
+      "options": [
+        "留守の間に、友達が来ました。",
+        "留守までに、友達が来ました。",
+        "留守の間で、友達が来ました。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc xảy ra một lần trong khoảng thời gian: 間に."
+    },
+    {
+      "id": "n4-07-e07",
+      "type": "order",
+      "grammar": [
+        "aida-aida-ni"
+      ],
+      "vi": "Trong lúc mẹ nấu ăn, tôi xem tivi.",
+      "tiles": [
+        "見ていました",
+        "間",
+        "母が",
+        "テレビを",
+        "料理をしている"
+      ],
+      "answers": [
+        "母が料理をしている間テレビを見ていました"
+      ]
+    },
+    {
+      "id": "n4-07-e08",
+      "type": "choice",
+      "grammar": [
+        "aida-aida-ni"
+      ],
+      "promptVi": "Chọn từ đúng.",
+      "ja": "私が寝ている＿、雨が降りました。",
+      "options": [
+        "間に",
+        "までに",
+        "から"
+      ],
+      "answer": 0,
+      "explainVi": "Mưa (một lần) trong lúc tôi đang ngủ: 寝ている間に."
+    },
+    {
+      "id": "n4-07-e09",
+      "type": "fill",
+      "grammar": [
+        "made-ni"
+      ],
+      "before": "金曜日",
+      "after": "レポートを出してください。",
+      "answers": [
+        "までに"
+      ],
+      "options": [
+        "までに",
+        "まで",
+        "から"
+      ],
+      "vi": "Hãy nộp báo cáo trước thứ Sáu (chậm nhất là thứ Sáu)."
+    },
+    {
+      "id": "n4-07-e10",
+      "type": "choice",
+      "grammar": [
+        "made-ni"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi làm việc (liên tục) đến 5 giờ\"?",
+      "options": [
+        "5時まで働きます。",
+        "5時までに働きます。",
+        "5時に働きます。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc kéo dài liên tục đến một thời điểm: まで."
+    },
+    {
+      "id": "n4-07-e11",
+      "type": "order",
+      "grammar": [
+        "made-ni"
+      ],
+      "vi": "Tôi sẽ về nhà trước 10 giờ.",
+      "tiles": [
+        "帰ります",
+        "10時",
+        "家に",
+        "までに"
+      ],
+      "answers": [
+        "10時までに家に帰ります",
+        "家に10時までに帰ります"
+      ]
+    },
+    {
+      "id": "n4-07-e12",
+      "type": "fill",
+      "grammar": [
+        "made-ni"
+      ],
+      "before": "父が帰る",
+      "after": "、晩ご飯を作ります。",
+      "answers": [
+        "までに"
+      ],
+      "options": [
+        "までに",
+        "間に",
+        "の"
+      ],
+      "vi": "Tôi sẽ nấu xong cơm tối trước khi bố về."
+    },
+    {
+      "id": "n4-07-e13",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "昔",
+          "ngày xưa"
+        ],
+        [
+          "昼間",
+          "ban ngày"
+        ],
+        [
+          "昼休み",
+          "giờ nghỉ trưa"
+        ],
+        [
+          "時代",
+          "thời, thời đại"
+        ]
+      ]
+    },
+    {
+      "id": "n4-07-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "通う",
+          "đi lại đều đặn"
+        ],
+        [
+          "戻る",
+          "quay lại"
+        ],
+        [
+          "寄る",
+          "ghé qua"
+        ],
+        [
+          "急ぐ",
+          "vội"
+        ]
+      ]
+    },
+    {
+      "id": "n4-07-e15",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Nhờ chạy nên tôi đã kịp chuyến tàu.\"",
+      "ja": "走りましたから、電車に＿。",
+      "options": [
+        "間に合いました",
+        "戻りました",
+        "寄りました"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-07-e16",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Sáng mai hãy đánh thức tôi lúc 6 giờ.\"",
+      "ja": "明日の朝、6時に＿ください。",
+      "options": [
+        "起こして",
+        "起きて",
+        "急いで"
+      ],
+      "answer": 0,
+      "explainVi": "起こす: đánh thức người khác; 起きる: tự mình thức dậy."
+    },
+    {
+      "id": "n4-07-e17",
+      "type": "choice",
+      "promptVi": "Đã 10 giờ tối ở nhà bạn. Bạn muốn nói \"Đã đến lúc về rồi, chúng ta về thôi\". Chọn câu đúng.",
+      "options": [
+        "そろそろ帰りましょう。",
+        "昔帰りましょう。",
+        "このあいだ帰りましょう。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-07-e18",
+      "type": "fill",
+      "before": "学校へ行く",
+      "after": "で、先生に会いました。",
+      "answers": [
+        "途中"
+      ],
+      "options": [
+        "途中",
+        "以内",
+        "留守"
+      ],
+      "vi": "Trên đường đến trường, tôi đã gặp thầy giáo."
+    },
+    {
+      "id": "n4-07-e19",
+      "type": "translate",
+      "grammar": [
+        "toki"
+      ],
+      "vi": "Hồi học tiểu học, tôi sống ở Đà Nẵng.",
+      "answers": [
+        "(私は)[小学校|小学生]の時(は)、ダナンに住んでいました。"
+      ],
+      "examples": [
+        {
+          "answer": "しょうがっこうのとき、ダナンにすんでいました",
+          "score": 100
+        },
+        {
+          "answer": "小学校時、ダナンに住んでいました。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "高校の時、ダナンに住んでいました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-07-e20",
+      "type": "translate",
+      "grammar": [
+        "aida-aida-ni"
+      ],
+      "vi": "Trong lúc tôi vắng nhà, có bạn đến.",
+      "answers": [
+        "(私の)留守の間に、友達が来ました。",
+        "私が留守の間に、友達が来ました。"
+      ],
+      "examples": [
+        {
+          "answer": "るすのあいだに、ともだちがきました",
+          "score": 100
+        },
+        {
+          "answer": "留守の間、友達が来ました。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "留守の間で、友達が来ました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "留守の間に、友達が来ませんでした。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-07-e21",
+      "type": "translate",
+      "grammar": [
+        "made-ni"
+      ],
+      "vi": "Hãy nộp báo cáo trước thứ Sáu.",
+      "answers": [
+        "金曜日までにレポートを出してください。",
+        "レポートは金曜日までに出してください。",
+        "レポートを金曜日までに出してください。"
+      ],
+      "examples": [
+        {
+          "answer": "きんようびまでにレポートをだしてください",
+          "score": 100
+        },
+        {
+          "answer": "金曜日までレポートを出してください。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "月曜日までにレポートを出してください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-07-e22",
+      "type": "question",
+      "grammar": [
+        "toki"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "子供の時、どこに住んでいましたか。",
+        "promptVi": "“Hồi nhỏ bạn sống ở đâu?” Bạn là Lan, hồi nhỏ sống ở Hà Nội. Hãy trả lời.",
+        "answers": [
+          "(子供の時(は))ハノイに住んでいました。",
+          "(子供の時(は))ハノイにいました。",
+          "ハノイです。"
+        ],
+        "examples": [
+          {
+            "answer": "ハノイにすんでいました",
+            "score": 100
+          },
+          {
+            "answer": "ハノイで住んでいました。",
+            "score": 80,
+            "issues": [
+              "ni_de"
+            ]
+          },
+          {
+            "answer": "ホーチミンに住んでいました。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "銀行と郵便局の間に、喫茶店があります。": "{銀|ぎん}{行|こう}と{郵|ゆう}{便|びん}{局|きょく}の{間|あいだ}に、{喫|きっ}{茶|さ}{店|てん}があります。",
+    "1時間以内に戻ります。": "1{時間|じかん}{以|い}{内|ない}に{戻|もど}ります。",
+    "この三つのうち、どれがいちばん好きですか。": "この{三|みっ}つのうち、どれがいちばん{好|す}きですか。",
+    "この写真を見て、学生時代を思い出しました。": "この{写|しゃ}{真|しん}を{見|み}て、{学|がく}{生|せい}{時|じ}{代|だい}を{思|おも}い{出|だ}しました。",
+    "今日は帰りが遅くなります。": "{今日|きょう}は{帰|かえ}りが{遅|おそ}くなります。",
+    "明日の朝、6時に起こしてください。": "{明日|あした}の{朝|あさ}、6{時|じ}に{起|お}こしてください。",
+    "毎日、自転車で大学に通っています。": "{毎|まい}{日|にち}、{自|じ}{転|てん}{車|しゃ}で{大|だい}{学|がく}に{通|かよ}っています。",
+    "月曜日の講義はとてもおもしろいです。": "{月|げつ}{曜|よう}{日|び}の{講|こう}{義|ぎ}はとてもおもしろいです。",
+    "妹は来年、高校に入ります。": "{妹|いもうと}は{来|らい}{年|ねん}、{高|こう}{校|こう}に{入|はい}ります。",
+    "学生時代に、よく京都へ旅行しました。": "{学|がく}{生|せい}{時|じ}{代|だい}に、よく{京都|きょうと}へ{旅|りょ}{行|こう}しました。",
+    "バスは9時に出発します。": "バスは{9時|くじ}に{出|しゅっ}{発|ぱつ}します。",
+    "小学校の時、この町に住んでいました。": "{小|しょう}{学|がっ}{校|こう}の{時|とき}、この{町|まち}に{住|す}んでいました。",
+    "しばらく、ここで待ってください。": "しばらく、ここで{待|ま}ってください。",
+    "学校へ行く途中で、先生に会いました。": "{学|がっ}{校|こう}へ{行|い}く{途|と}{中|ちゅう}で、{先|せん}{生|せい}に{会|あ}いました。",
+    "昼間は暖かいですが、夜は寒いです。": "{昼|ひる}{間|ま}は{暖|あたた}かいですが、{夜|よる}は{寒|さむ}いです。",
+    "昼休みは12時から1時までです。": "{昼|ひる}{休|やす}みは12{時|じ}から1{時|じ}までです。",
+    "昔、ここに大きい木がありました。": "{昔|むかし}、ここに{大|おお}きい{木|き}がありました。",
+    "走りましたから、電車に間に合いました。": "{走|はし}りましたから、{電|でん}{車|しゃ}に{間|ま}に{合|あ}いました。",
+    "もうすぐ夏休みです。": "もうすぐ{夏|なつ}{休|やす}みです。",
+    "田中さんは3時に会社に戻ります。": "{田中|たなか}さんは3{時|じ}に{会|かい}{社|しゃ}に{戻|もど}ります。",
+    "会社の帰りに、デパートに寄りました。": "{会|かい}{社|しゃ}の{帰|かえ}りに、デパートに{寄|よ}りました。",
+    "昨日、田中さんの家に行きましたが、留守でした。": "{昨日|きのう}、{田中|たなか}さんの{家|いえ}に{行|い}きましたが、{留|る}{守|す}でした。",
+    "金曜日までにレポートを出してください。": "{金|きん}{曜|よう}{日|び}までにレポートを{出|だ}してください。",
+    "もう10時ですね。そろそろ帰りましょう。": "もう10{時|じ}ですね。そろそろ{帰|かえ}りましょう。",
+    "時間がありません。急いでください。": "{時|じ}{間|かん}がありません。{急|いそ}いでください。",
+    "このあいだ、駅で山田さんに会いました。": "このあいだ、{駅|えき}で{山田|やまだ}さんに{会|あ}いました。",
+    "暇な時、何をしますか。": "{暇|ひま}な{時|とき}、{何|なに}をしますか。",
+    "子供の時、よくこの公園で遊びました。": "{子|こ}{供|ども}の{時|とき}、よくこの{公|こう}{園|えん}で{遊|あそ}びました。",
+    "寒い時は、暖房をつけます。": "{寒|さむ}い{時|とき}は、{暖|だん}{房|ぼう}をつけます。",
+    "日本へ行く時、新しいかばんを買いました。": "{日本|にほん}へ{行|い}く{時|とき}、{新|あたら}しいかばんを{買|か}いました。",
+    "日本へ行った時、このかばんを買いました。": "{日本|にほん}へ{行|い}った{時|とき}、このかばんを{買|か}いました。",
+    "子供時、よくこの公園で遊びました。": "{子|こ}{供|ども}{時|とき}、よくこの{公|こう}{園|えん}で{遊|あそ}びました。",
+    "暇の時、何をしますか。": "{暇|ひま}の{時|とき}、{何|なに}をしますか。",
+    "日本へ行く時、かばんを買いました。": "{日本|にほん}へ{行|い}く{時|とき}、かばんを{買|か}いました。",
+    "日本へ行きます時、かばんを買いました。": "{日本|にほん}へ{行|い}きます{時|とき}、かばんを{買|か}いました。",
+    "夏休みの間、国に帰っていました。": "{夏|なつ}{休|やす}みの{間|あいだ}、{国|くに}に{帰|かえ}っていました。",
+    "母が料理をしている間、私はテレビを見ていました。": "{母|はは}が{料|りょう}{理|り}をしている{間|あいだ}、{私|わたし}はテレビを{見|み}ていました。",
+    "留守の間に、友達が来ました。": "{留|る}{守|す}の{間|あいだ}に、{友|とも}{達|だち}が{来|き}ました。",
+    "昼休みの間に、銀行へ行きました。": "{昼|ひる}{休|やす}みの{間|あいだ}に、{銀|ぎん}{行|こう}へ{行|い}きました。",
+    "夏休みの間に、国に帰っていました。": "{夏|なつ}{休|やす}みの{間|あいだ}に、{国|くに}に{帰|かえ}っていました。",
+    "夏休み間、国に帰っていました。": "{夏|なつ}{休|やす}み{間|あいだ}、{国|くに}に{帰|かえ}っていました。",
+    "留守の間で、友達が来ました。": "{留|る}{守|す}の{間|あいだ}で、{友|とも}{達|だち}が{来|き}ました。",
+    "5時までに帰ります。": "5{時|じ}までに{帰|かえ}ります。",
+    "父が帰るまでに、晩ご飯を作ります。": "{父|ちち}が{帰|かえ}るまでに、{晩|ばん}ご{飯|はん}を{作|つく}ります。",
+    "金曜日までレポートを出してください。": "{金|きん}{曜|よう}{日|び}までレポートを{出|だ}してください。",
+    "5時まで働きます。": "5{時|じ}まで{働|はたら}きます。",
+    "5時までに働きます。": "5{時|じ}までに{働|はたら}きます。",
+    "時子供、よくこの公園で遊びました。": "{時|とき}{子|こ}{供|ども}、よくこの{公|こう}{園|えん}で{遊|あそ}びました。",
+    "な": "な",
+    "の": "の",
+    "に": "に",
+    "日本へ行く時、このかばんを買いました。": "{日本|にほん}へ{行|い}く{時|とき}、このかばんを{買|か}いました。",
+    "日本へ行きます時、このかばんを買いました。": "{日本|にほん}へ{行|い}きます{時|とき}、このかばんを{買|か}いました。",
+    "つけます": "つけます",
+    "寒い": "{寒|さむ}い",
+    "暖房を": "{暖|だん}{房|ぼう}を",
+    "時は": "{時|とき}は",
+    "寒い時は暖房をつけます": "{寒|さむ}い{時|とき}は{暖|だん}{房|ぼう}をつけます",
+    "間": "{間|あいだ}",
+    "間に": "{間|あいだ}に",
+    "までに": "までに",
+    "留守までに、友達が来ました。": "{留|る}{守|す}までに、{友|とも}{達|だち}が{来|き}ました。",
+    "見ていました": "{見|み}ていました",
+    "母が": "{母|はは}が",
+    "テレビを": "テレビを",
+    "料理をしている": "{料|りょう}{理|り}をしている",
+    "母が料理をしている間テレビを見ていました": "{母|はは}が{料|りょう}{理|り}をしている{間|あいだ}テレビを{見|み}ていました",
+    "私が寝ている＿、雨が降りました。": "{私|わたし}が{寝|ね}ている＿、{雨|あめ}が{降|ふ}りました。",
+    "から": "から",
+    "まで": "まで",
+    "5時に働きます。": "5{時|じ}に{働|はたら}きます。",
+    "帰ります": "{帰|かえ}ります",
+    "10時": "10{時|じ}",
+    "家に": "{家|いえ}に",
+    "10時までに家に帰ります": "10{時|じ}までに{家|いえ}に{帰|かえ}ります",
+    "家に10時までに帰ります": "{家|いえ}に10{時|じ}までに{帰|かえ}ります",
+    "昔": "{昔|むかし}",
+    "昼間": "{昼|ひる}{間|ま}",
+    "昼休み": "{昼|ひる}{休|やす}み",
+    "時代": "{時|じ}{代|だい}",
+    "通う": "{通|かよ}う",
+    "戻る": "{戻|もど}る",
+    "寄る": "{寄|よ}る",
+    "急ぐ": "{急|いそ}ぐ",
+    "走りましたから、電車に＿。": "{走|はし}りましたから、{電|でん}{車|しゃ}に＿。",
+    "間に合いました": "{間|ま}に{合|あ}いました",
+    "戻りました": "{戻|もど}りました",
+    "寄りました": "{寄|よ}りました",
+    "明日の朝、6時に＿ください。": "{明日|あした}の{朝|あさ}、6{時|じ}に＿ください。",
+    "起こして": "{起|お}こして",
+    "起きて": "{起|お}きて",
+    "急いで": "{急|いそ}いで",
+    "そろそろ帰りましょう。": "そろそろ{帰|かえ}りましょう。",
+    "昔帰りましょう。": "{昔|むかし}{帰|かえ}りましょう。",
+    "このあいだ帰りましょう。": "このあいだ{帰|かえ}りましょう。",
+    "途中": "{途|と}{中|ちゅう}",
+    "以内": "{以|い}{内|ない}",
+    "留守": "{留|る}{守|す}",
+    "私は小学校の時は、ダナンに住んでいました。": "{私|わたし}は{小|しょう}{学|がっ}{校|こう}の{時|とき}は、ダナンに{住|す}んでいました。",
+    "私の留守の間に、友達が来ました。": "{私|わたし}の{留|る}{守|す}の{間|あいだ}に、{友|とも}{達|だち}が{来|き}ました。",
+    "私が留守の間に、友達が来ました。": "{私|わたし}が{留|る}{守|す}の{間|あいだ}に、{友|とも}{達|だち}が{来|き}ました。",
+    "レポートは金曜日までに出してください。": "レポートは{金|きん}{曜|よう}{日|び}までに{出|だ}してください。",
+    "レポートを金曜日までに出してください。": "レポートを{金|きん}{曜|よう}{日|び}までに{出|だ}してください。",
+    "子供の時、どこに住んでいましたか。": "{子|こ}{供|ども}の{時|とき}、どこに{住|す}んでいましたか。",
+    "子供の時はハノイに住んでいました。": "{子|こ}{供|ども}の{時|とき}はハノイに{住|す}んでいました。",
+    "子供の時はハノイにいました。": "{子|こ}{供|ども}の{時|とき}はハノイにいました。",
+    "ハノイです。": "ハノイです。"
+  }
+}

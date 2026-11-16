@@ -1,0 +1,1222 @@
+{
+  "id": "n4-06",
+  "goalsVi": [
+    "Nói về quyết định của mình bằng 〜ことにする: 毎朝運動することにしました",
+    "Báo một việc đã được định, một quy định bằng 〜ことになる: 来月大阪に移ることになりました",
+    "Nói về việc mình cố gắng làm thành thói quen bằng 〜ようにする: 毎日日記を書くようにしています",
+    "Làm thay đổi trạng thái của vật bằng 〜くする / 〜にする: 冷房を強くする、部屋をきれいにする"
+  ],
+  "words": [
+    {
+      "no": 839,
+      "word": "決める",
+      "meaningsVi": [
+        "quyết định",
+        "chọn, định (ngày, chỗ…)"
+      ],
+      "noteVi": "Tha động từ: (ai đó) quyết định cái gì → N を決める. Tự động từ cùng cặp: 決まる (được quyết định), giống 開ける / 開く.",
+      "examples": [
+        {
+          "ja": "パーティーは土曜日に決めました。",
+          "vi": "Chúng tôi đã định tổ chức tiệc vào thứ Bảy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 837,
+      "word": "決まる",
+      "meaningsVi": [
+        "được quyết định, được định"
+      ],
+      "noteVi": "Tự động từ: việc gì が決まる. Người Việt hay nói \"tôi đã quyết định ngày\" (決めました), còn khi chỉ báo kết quả, người Nhật thích nói 決まりました.",
+      "examples": [
+        {
+          "ja": "次の会議の時間が決まりました。",
+          "vi": "Giờ của cuộc họp tới đã được định rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 832,
+      "word": "規則",
+      "meaningsVi": [
+        "quy tắc, nội quy"
+      ],
+      "noteVi": "Âm Hán Việt \"quy tắc\", nghĩa như tiếng Việt: luật lệ của trường, công ty, khu nhà.",
+      "examples": [
+        {
+          "ja": "この学校は規則が多いです。",
+          "vi": "Trường này có nhiều nội quy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 958,
+      "word": "習慣",
+      "meaningsVi": [
+        "thói quen",
+        "tập quán, phong tục"
+      ],
+      "noteVi": "Âm Hán Việt \"tập quán\". Dùng cho cả thói quen của một người lẫn phong tục của cả một nước.",
+      "examples": [
+        {
+          "ja": "日本には、玄関で靴を脱ぐ習慣があります。",
+          "vi": "Ở Nhật có tập quán cởi giày ở lối vào nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 740,
+      "word": "運動",
+      "meaningsVi": [
+        "vận động, tập thể dục"
+      ],
+      "noteVi": "運動する: vận động cơ thể (đi bộ, chạy, tập thể dục…). スポーツ là các môn thể thao (bóng đá, tennis…).",
+      "examples": [
+        {
+          "ja": "毎朝、30分運動しています。",
+          "vi": "Sáng nào tôi cũng tập thể dục 30 phút."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 962,
+      "word": "出席",
+      "meaningsVi": [
+        "có mặt, tham dự (họp, lớp học…)"
+      ],
+      "noteVi": "Âm Hán Việt \"xuất tịch\" (ra chỗ ngồi). Dùng với に: 会議に出席する, 授業に出席する.",
+      "examples": [
+        {
+          "ja": "明日の会議に出席します。",
+          "vi": "Tôi sẽ dự cuộc họp ngày mai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 743,
+      "word": "選ぶ",
+      "meaningsVi": [
+        "chọn, lựa chọn"
+      ],
+      "noteVi": "Chọn ra một (hoặc vài) thứ trong nhiều thứ: N を選ぶ. Thể て: 選んで.",
+      "examples": [
+        {
+          "ja": "好きな色を選んでください。",
+          "vi": "Hãy chọn màu bạn thích."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 792,
+      "word": "変える",
+      "meaningsVi": [
+        "thay đổi, đổi"
+      ],
+      "noteVi": "Tha động từ: N を変える (làm cho cái gì thay đổi). Đọc かえる giống 帰る (về nhà) nhưng 変える là nhóm II: 変えて, còn 帰る là nhóm I: 帰って.",
+      "examples": [
+        {
+          "ja": "会議の時間を変えてもいいですか。",
+          "vi": "Tôi đổi giờ họp có được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1291,
+      "word": "冷房",
+      "meaningsVi": [
+        "máy lạnh, điều hòa (chế độ làm mát)"
+      ],
+      "noteVi": "Âm Hán Việt \"lãnh phòng\" (làm lạnh phòng). Bật / tắt: 冷房をつける / 消す. Trong nói chuyện hằng ngày, người Nhật cũng gọi máy điều hòa là エアコン.",
+      "examples": [
+        {
+          "ja": "暑いですから、冷房をつけましょう。",
+          "vi": "Nóng quá, bật máy lạnh lên đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1059,
+      "word": "暖房",
+      "meaningsVi": [
+        "máy sưởi, sưởi ấm (trong phòng)"
+      ],
+      "noteVi": "Âm Hán Việt \"noãn phòng\" (làm ấm phòng). Ngược nghĩa: 冷房.",
+      "examples": [
+        {
+          "ja": "寒いですから、暖房をつけてもいいですか。",
+          "vi": "Lạnh quá, tôi bật máy sưởi được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 921,
+      "word": "下げる",
+      "meaningsVi": [
+        "hạ xuống, giảm (nhiệt độ, giá…)",
+        "cúi (đầu)",
+        "treo, đeo"
+      ],
+      "noteVi": "Tha động từ: N を下げる. Ngược nghĩa: 上げる (nâng lên, tăng).",
+      "examples": [
+        {
+          "ja": "頭を下げて、あいさつしました。",
+          "vi": "Tôi cúi đầu chào."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 902,
+      "word": "ごみ",
+      "meaningsVi": [
+        "rác"
+      ],
+      "noteVi": "ごみを出す: mang rác ra chỗ tập kết đúng ngày quy định; ごみを捨てる: vứt rác. Ở Nhật rác phải phân loại và đổ đúng ngày.",
+      "examples": [
+        {
+          "ja": "ごみは月曜日と木曜日に出してください。",
+          "vi": "Hãy đổ rác vào thứ Hai và thứ Năm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 996,
+      "word": "捨てる",
+      "meaningsVi": [
+        "vứt, bỏ đi"
+      ],
+      "noteVi": "Chỗ vứt dùng に: ごみ箱に捨てる (vứt vào thùng rác).",
+      "examples": [
+        {
+          "ja": "ここにごみを捨てないでください。",
+          "vi": "Đừng vứt rác ở đây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 972,
+      "word": "食事",
+      "meaningsVi": [
+        "bữa ăn",
+        "ăn, dùng bữa (食事する)"
+      ],
+      "noteVi": "Âm Hán Việt \"thực sự\" (việc ăn), không liên quan đến \"sự thật\". Lịch sự và chung chung hơn 食べる; hay dùng khi mời đi ăn.",
+      "examples": [
+        {
+          "ja": "今晩、一緒に食事しませんか。",
+          "vi": "Tối nay đi ăn cùng tôi không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1131,
+      "word": "日記",
+      "meaningsVi": [
+        "nhật ký"
+      ],
+      "noteVi": "Âm Hán Việt \"nhật ký\", nghĩa như tiếng Việt. Viết nhật ký: 日記を書く (hoặc 日記をつける).",
+      "examples": [
+        {
+          "ja": "毎晩、日本語で日記を書いています。",
+          "vi": "Tối nào tôi cũng viết nhật ký bằng tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1288,
+      "word": "両方",
+      "meaningsVi": [
+        "cả hai"
+      ],
+      "noteVi": "Là danh từ: 両方の手 (cả hai tay), 両方とも (cả hai đều). Chỉ dùng cho hai thứ; ba thứ trở lên dùng 全部.",
+      "examples": [
+        {
+          "ja": "コーヒーと紅茶、両方ください。",
+          "vi": "Cho tôi cả cà phê lẫn trà đen."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 731,
+      "word": "移る",
+      "meaningsVi": [
+        "chuyển (sang chỗ khác)",
+        "chuyển (công ty, chỗ làm)"
+      ],
+      "noteVi": "Tự động từ, nơi đến dùng に: 隣の部屋に移る, 大阪の会社に移る. Chuyển nhà thì thường nói 引っ越す.",
+      "examples": [
+        {
+          "ja": "会議は隣の会議室に移りました。",
+          "vi": "Cuộc họp đã chuyển sang phòng họp bên cạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 787,
+      "word": "会議",
+      "meaningsVi": [
+        "cuộc họp, hội nghị"
+      ],
+      "noteVi": "Âm Hán Việt \"hội nghị\", nhưng thường chỉ cuộc họp bình thường ở công ty, trường học.",
+      "examples": [
+        {
+          "ja": "会議は3時からです。",
+          "vi": "Cuộc họp bắt đầu từ 3 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 788,
+      "word": "会議室",
+      "meaningsVi": [
+        "phòng họp"
+      ],
+      "noteVi": "会議 (cuộc họp) + 室 (phòng). Cùng kiểu: 教室 (phòng học).",
+      "examples": [
+        {
+          "ja": "会議室は2階にあります。",
+          "vi": "Phòng họp ở tầng 2."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 677,
+      "word": "あいさつする",
+      "meaningsVi": [
+        "chào hỏi"
+      ],
+      "noteVi": "Chào ai: 人にあいさつする. Danh từ あいさつ: lời chào, bài phát biểu ngắn. Người Nhật rất coi trọng việc chào hỏi hàng xóm, đồng nghiệp.",
+      "examples": [
+        {
+          "ja": "毎朝、近所の人にあいさつします。",
+          "vi": "Sáng nào tôi cũng chào hàng xóm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1183,
+      "word": "引っ越す",
+      "meaningsVi": [
+        "chuyển nhà"
+      ],
+      "noteVi": "Nơi chuyển đến dùng に: 東京に引っ越す. Thể て: 引っ越して.",
+      "examples": [
+        {
+          "ja": "来週、新しいアパートに引っ越します。",
+          "vi": "Tuần sau tôi chuyển đến căn hộ mới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 797,
+      "word": "ガス",
+      "meaningsVi": [
+        "ga, khí đốt"
+      ],
+      "noteVi": "Khí đốt dùng để nấu ăn, đun nước nóng. Xăng xe là ガソリン (học sau).",
+      "examples": [
+        {
+          "ja": "料理の後で、ガスを消しました。",
+          "vi": "Nấu ăn xong, tôi đã tắt bếp ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 983,
+      "word": "水道",
+      "meaningsVi": [
+        "nước máy, hệ thống cấp nước"
+      ],
+      "noteVi": "Âm Hán Việt \"thủy đạo\" (đường nước). 水道の水: nước máy. Khi chuyển nhà phải đăng ký ガス, 水道, 電気.",
+      "examples": [
+        {
+          "ja": "この町の水道の水はおいしいです。",
+          "vi": "Nước máy ở thị trấn này ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "会",
+      "meaningVi": "gặp; hội, họp",
+      "noteVi": "Gặp trong 会う (あう, gặp), 会社 (かいしゃ, công ty), 会議 (かいぎ, cuộc họp).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "室",
+      "meaningVi": "phòng",
+      "noteVi": "Gặp trong 教室 (きょうしつ), 会議室 (かいぎしつ). Trên là bộ 宀 (mái nhà).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "習",
+      "meaningVi": "học, tập luyện",
+      "noteVi": "Gặp trong 習う (ならう, học), 習慣 (しゅうかん, thói quen). Trên là 羽 (đôi cánh): chim non tập bay.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "早",
+      "meaningVi": "sớm; nhanh",
+      "noteVi": "Gặp trong 早い (はやい, sớm), 早く. Mặt trời 日 vừa nhô lên trên 十: buổi sớm. Đừng nhầm với 速い (nhanh về tốc độ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "起",
+      "meaningVi": "dậy, thức dậy; khởi",
+      "noteVi": "Gặp trong 起きる (おきる, thức dậy). Bên trái là bộ 走 (chạy).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "朝",
+      "meaningVi": "buổi sáng",
+      "noteVi": "Gặp trong 朝 (あさ), 毎朝 (まいあさ), 今朝 (けさ), 朝ご飯. Bên phải là 月.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "koto-ni-suru",
+      "titleVi": "〜ことにする: quyết định (làm gì)",
+      "summaryVi": "V（thể từ điển / thể ない）+ ことにする: tự mình quyết định làm hay không làm việc gì: 毎朝運動することにしました.",
+      "explanationVi": [
+        "**V（thể từ điển）+ ことにする** = \"quyết định (sẽ) làm V\"; **V ない + ことにする** = \"quyết định không làm V\". Người quyết định là **chính người nói** (hoặc chủ ngữ của câu): 「来月、引っ越すことにしました」 (Tôi đã quyết định tháng sau chuyển nhà).",
+        "Hay dùng ở dạng **〜ことにしました** để báo một quyết định vừa đưa ra. Dạng **〜ことにしています** nói một việc mình đã quyết từ trước và giữ thành **nguyên tắc, thói quen** của bản thân: 「毎朝、30分歩くことにしています」.",
+        "Đã học 「N にする」 (コーヒーにします: chọn cà phê). Với động từ phải thêm **こと** để biến động từ thành danh từ: 「行くことにする」. Tiếng Việt nói \"quyết định + đi\", tiếng Nhật đặt động từ **trước**: 「行くことにしました」 = (tôi) quyết định đi."
+      ],
+      "patterns": [
+        "V（thể từ điển）+ ことにする",
+        "V ない + ことにする",
+        "〜ことにしています (nguyên tắc tự đặt ra)"
+      ],
+      "examples": [
+        {
+          "ja": "来月、引っ越すことにしました。",
+          "vi": "Tôi đã quyết định tháng sau chuyển nhà."
+        },
+        {
+          "ja": "今日から、お酒を飲まないことにしました。",
+          "vi": "Từ hôm nay tôi quyết định không uống rượu."
+        },
+        {
+          "ja": "毎朝、30分歩くことにしています。",
+          "vi": "Tôi đặt ra lệ sáng nào cũng đi bộ 30 phút."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "来月、引っ越しますことにしました。",
+          "right": "来月、引っ越すことにしました。",
+          "noteVi": "Trước こと dùng thể từ điển (hoặc thể ない), không dùng thể ます."
+        },
+        {
+          "wrong": "日本へ行くを決めました。",
+          "right": "日本へ行くことにしました。",
+          "noteVi": "Động từ không đứng ngay trước を. \"Quyết định làm gì\" nói 〜ことにする (hoặc 〜ことに決める), không nói 「V を決める」 theo kiểu \"quyết định đi\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "koto-ni-naru",
+      "titleVi": "〜ことになる: được quyết định là …, (việc) sẽ …",
+      "summaryVi": "V（thể từ điển / thể ない）+ ことになる: một việc đã được định (do người khác, công ty, hoàn cảnh); 〜ことになっています: quy định có sẵn.",
+      "explanationVi": [
+        "**V + ことになる** nói một việc **đã được quyết định** bởi người khác, công ty, nhà trường hay hoàn cảnh, không phải do riêng ý người nói: 「来月、大阪の会社に移ることになりました」 (Tháng sau tôi sẽ chuyển sang công ty ở Osaka, theo quyết định của công ty).",
+        "So sánh: 「ことにしました」 = **tôi** quyết định; 「ことになりました」 = việc **đã được định**. Người Nhật cũng hay dùng ことになりました để báo cả việc do mình quyết (kết hôn, chuyển việc), vì cách nói này nghe **khiêm tốn, khách quan** hơn.",
+        "Dạng **〜ことになっています** nói một **quy định, lệ** đã có sẵn: 「ごみは月曜日に出すことになっています」 (Theo quy định, rác đổ vào thứ Hai). Tiếng Việt hay thêm \"theo quy định\", \"đã định là\"."
+      ],
+      "patterns": [
+        "V（thể từ điển / thể ない）+ ことになる",
+        "〜ことになりました (báo tin)",
+        "〜ことになっています (quy định)"
+      ],
+      "examples": [
+        {
+          "ja": "来月、大阪の会社に移ることになりました。",
+          "vi": "Tháng sau tôi sẽ chuyển sang công ty ở Osaka."
+        },
+        {
+          "ja": "この部屋では、たばこを吸わないことになっています。",
+          "vi": "Theo quy định, không hút thuốc trong phòng này."
+        },
+        {
+          "ja": "ごみは月曜日に出すことになっています。",
+          "vi": "Theo quy định, rác đổ vào thứ Hai."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "来月、大阪に移るになりました。",
+          "right": "来月、大阪に移ることになりました。",
+          "noteVi": "Động từ không gắn thẳng với になる: phải có こと (移ることになる). Danh từ mới gắn thẳng: 医者になる."
+        },
+        {
+          "wrong": "来月、大阪に移ることなりました。",
+          "right": "来月、大阪に移ることになりました。",
+          "noteVi": "Không được bỏ に: こと + に + なる."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "you-ni-suru",
+      "titleVi": "〜ようにする: cố gắng (làm / không làm) …",
+      "summaryVi": "V（thể từ điển / thể ない）+ ようにする: cố gắng, chú ý để làm hay không làm việc gì; 〜ようにしています: cố giữ thành thói quen.",
+      "explanationVi": [
+        "**V（thể từ điển）+ ようにする** = \"cố gắng làm V, chú ý sao cho V\"; **V ない + ようにする** = \"cố gắng không V\". Mẫu này nói về **nỗ lực** (thường lặp lại nhiều lần), không phải một hành động làm một lần: 「野菜を食べるようにします」 (Tôi sẽ cố ăn rau).",
+        "**〜ようにしています** = đang cố duy trì thành **thói quen**: 「毎日、日記を書くようにしています」. **〜ようにしてください** = nhờ người khác chú ý làm, nhẹ nhàng hơn 〜てください: 「明日は早く来るようにしてください」.",
+        "So sánh với ことにする: 「毎朝運動することにしました」 = đã **quyết định**; 「毎朝運動するようにしています」 = đang **cố gắng** (có hôm có thể không làm được). Tiếng Việt \"cố gắng\" thì dùng ようにする."
+      ],
+      "patterns": [
+        "V（thể từ điển）+ ようにする",
+        "V ない + ようにする",
+        "〜ようにしています (cố giữ thói quen)",
+        "〜ようにしてください (nhờ chú ý)"
+      ],
+      "examples": [
+        {
+          "ja": "毎日、日記を書くようにしています。",
+          "vi": "Tôi cố gắng ngày nào cũng viết nhật ký."
+        },
+        {
+          "ja": "夜は、甘い物を食べないようにしています。",
+          "vi": "Buổi tối tôi cố không ăn đồ ngọt."
+        },
+        {
+          "ja": "明日は早く来るようにしてください。",
+          "vi": "Ngày mai nhớ cố đến sớm nhé."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "毎日、運動しますようにしています。",
+          "right": "毎日、運動するようにしています。",
+          "noteVi": "Trước ように dùng thể từ điển hoặc thể ない, không dùng thể ます."
+        },
+        {
+          "wrong": "夜は、甘い物を食べませんようにしています。",
+          "right": "夜は、甘い物を食べないようにしています。",
+          "noteVi": "Phủ định trước ように dùng thể ない (食べない), không dùng 食べません."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ku-suru-ni-suru",
+      "titleVi": "〜くする / 〜にする: làm cho (trở nên) …",
+      "summaryVi": "N を Aい → 〜くする; N を Aな / N → 〜にする: chủ động làm thay đổi trạng thái của vật: 冷房を強くする, 部屋をきれいにする.",
+      "explanationVi": [
+        "Đã học 「〜くなる / 〜になる」: cái gì đó **tự** trở nên như thế. **〜くする / 〜にする** là **người làm cho** nó trở nên như thế: 「部屋が暖かくなりました」 (Phòng đã ấm lên) ↔ 「暖房をつけて、部屋を暖かくしました」 (Tôi bật sưởi làm ấm phòng).",
+        "Cách ghép giống なる: tính từ đuôi い bỏ い thêm **く** (明るい → 明るくする; いい → **よく**する); tính từ đuôi な và danh từ thêm **に** (きれい → きれいにする, 静か → 静かにする). Vật bị thay đổi đi với **を**: 「N を 〜くする」.",
+        "Tiếng Việt thường nói \"làm cho … + tính từ\" hoặc dùng động từ riêng (vặn to, nói nhỏ, dọn sạch): 「声を小さくしてください」 = \"Hãy nói nhỏ lại\", 「静かにしてください」 = \"Hãy giữ trật tự\". Khác với 「コーヒーにします」 (chọn cà phê): ở đây có **N を** đứng trước."
+      ],
+      "patterns": [
+        "N を Aい → 〜く する",
+        "N を Aな／N → 〜に する"
+      ],
+      "examples": [
+        {
+          "ja": "暑いですから、冷房を強くしてください。",
+          "vi": "Nóng quá, hãy vặn máy lạnh mạnh lên."
+        },
+        {
+          "ja": "暖房をつけて、部屋を暖かくしました。",
+          "vi": "Tôi bật máy sưởi làm ấm phòng."
+        },
+        {
+          "ja": "すみません、声を小さくしてください。",
+          "vi": "Xin lỗi, anh chị nói nhỏ lại giúp."
+        },
+        {
+          "ja": "図書館では静かにしてください。",
+          "vi": "Trong thư viện hãy giữ trật tự."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "部屋を暖かいにしました。",
+          "right": "部屋を暖かくしました。",
+          "noteVi": "Tính từ đuôi い: bỏ い thêm く (暖かく), không thêm に."
+        },
+        {
+          "wrong": "部屋をきれいくしました。",
+          "right": "部屋をきれいにしました。",
+          "noteVi": "きれい là tính từ đuôi な dù kết thúc bằng い: thêm に."
+        },
+        {
+          "wrong": "部屋がきれいにしました。",
+          "right": "部屋をきれいにしました。",
+          "noteVi": "Vật bị làm cho thay đổi đi với を. Nếu nó tự thay đổi thì dùng が + なる: 部屋がきれいになりました."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-06-e01",
+      "type": "choice",
+      "grammar": [
+        "koto-ni-suru"
+      ],
+      "promptVi": "Bạn tự quyết định bỏ rượu. Câu nào nghĩa là \"Tôi đã quyết định không uống rượu\"?",
+      "options": [
+        "お酒を飲まないことにしました。",
+        "お酒を飲まないことになりました。",
+        "お酒を飲みませんことにしました。"
+      ],
+      "answer": 0,
+      "explainVi": "Tự mình quyết định: ことにしました. ことになりました là việc do người khác hay hoàn cảnh quyết định."
+    },
+    {
+      "id": "n4-06-e02",
+      "type": "fill",
+      "grammar": [
+        "koto-ni-suru"
+      ],
+      "before": "夏休みに京都へ行く",
+      "after": "にしました。",
+      "answers": [
+        "こと"
+      ],
+      "options": [
+        "こと",
+        "の",
+        "もの"
+      ],
+      "vi": "Tôi đã quyết định nghỉ hè sẽ đi Kyoto."
+    },
+    {
+      "id": "n4-06-e03",
+      "type": "order",
+      "grammar": [
+        "koto-ni-suru"
+      ],
+      "vi": "Tôi đã quyết định tháng sau chuyển nhà.",
+      "tiles": [
+        "しました",
+        "引っ越す",
+        "来月",
+        "ことに"
+      ],
+      "answers": [
+        "来月引っ越すことにしました"
+      ]
+    },
+    {
+      "id": "n4-06-e04",
+      "type": "choice",
+      "grammar": [
+        "koto-ni-naru"
+      ],
+      "promptVi": "Công ty quyết định chuyển bạn sang Osaka. Bạn báo tin với hàng xóm: chọn câu đúng.",
+      "options": [
+        "来月、大阪に移ることになりました。",
+        "来月、大阪に移ることにしました。",
+        "来月、大阪に移るになりました。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc do công ty quyết định: ことになりました. Không bỏ こと trước になる."
+    },
+    {
+      "id": "n4-06-e05",
+      "type": "fill",
+      "grammar": [
+        "koto-ni-naru"
+      ],
+      "before": "来月から大阪の会社に移ること",
+      "after": "なりました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "が"
+      ],
+      "vi": "Từ tháng sau tôi sẽ chuyển sang công ty ở Osaka."
+    },
+    {
+      "id": "n4-06-e06",
+      "type": "choice",
+      "grammar": [
+        "koto-ni-naru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Theo quy định, rác đổ vào thứ Hai\"?",
+      "options": [
+        "ごみは月曜日に出すことになっています。",
+        "ごみは月曜日に出すことにしました。",
+        "ごみは月曜日に出すようにしています。"
+      ],
+      "answer": 0,
+      "explainVi": "Quy định có sẵn: 〜ことになっています."
+    },
+    {
+      "id": "n4-06-e07",
+      "type": "fill",
+      "grammar": [
+        "you-ni-suru"
+      ],
+      "before": "夜は甘い物を",
+      "after": "ようにしています。",
+      "answers": [
+        "食べない"
+      ],
+      "options": [
+        "食べない",
+        "食べません",
+        "食べなくて"
+      ],
+      "vi": "Buổi tối tôi cố gắng không ăn đồ ngọt."
+    },
+    {
+      "id": "n4-06-e08",
+      "type": "choice",
+      "grammar": [
+        "you-ni-suru"
+      ],
+      "promptVi": "Bác sĩ khuyên bạn đi bộ nhiều hơn. Bạn đáp \"Vâng, tôi sẽ cố gắng đi bộ\". Chọn câu đúng.",
+      "options": [
+        "はい、歩くようにします。",
+        "はい、歩きますようにします。",
+        "はい、歩くようになります。"
+      ],
+      "answer": 0,
+      "explainVi": "Cố gắng làm: V（thể từ điển）+ ようにします."
+    },
+    {
+      "id": "n4-06-e09",
+      "type": "order",
+      "grammar": [
+        "you-ni-suru"
+      ],
+      "vi": "Tôi cố gắng ngày nào cũng viết nhật ký.",
+      "tiles": [
+        "しています",
+        "書く",
+        "日記を",
+        "ように",
+        "毎日"
+      ],
+      "answers": [
+        "毎日日記を書くようにしています",
+        "日記を毎日書くようにしています"
+      ]
+    },
+    {
+      "id": "n4-06-e10",
+      "type": "choice",
+      "grammar": [
+        "ku-suru-ni-suru"
+      ],
+      "promptVi": "Phòng tối quá. Câu nào nghĩa là \"Hãy làm cho phòng sáng lên\"?",
+      "options": [
+        "部屋を明るくしてください。",
+        "部屋を明るいにしてください。",
+        "部屋が明るくしてください。"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đuôi い: 明るい → 明るくする; vật bị làm thay đổi đi với を."
+    },
+    {
+      "id": "n4-06-e11",
+      "type": "fill",
+      "grammar": [
+        "ku-suru-ni-suru"
+      ],
+      "before": "図書館ですから、静か",
+      "after": "してください。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "で",
+        "を"
+      ],
+      "vi": "Đây là thư viện, hãy giữ trật tự."
+    },
+    {
+      "id": "n4-06-e12",
+      "type": "choice",
+      "grammar": [
+        "ku-suru-ni-suru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Lạnh quá, hãy vặn máy sưởi mạnh lên\"?",
+      "options": [
+        "寒いですから、暖房を強くしてください。",
+        "寒いですから、暖房を強くなってください。",
+        "寒いですから、暖房を強いにしてください。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-06-e13",
+      "type": "order",
+      "grammar": [
+        "ku-suru-ni-suru"
+      ],
+      "vi": "Hôm qua tôi đã dọn phòng sạch sẽ.",
+      "tiles": [
+        "しました",
+        "部屋を",
+        "昨日",
+        "きれいに"
+      ],
+      "answers": [
+        "昨日部屋をきれいにしました"
+      ]
+    },
+    {
+      "id": "n4-06-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "冷房",
+          "máy lạnh"
+        ],
+        [
+          "暖房",
+          "máy sưởi"
+        ],
+        [
+          "水道",
+          "nước máy"
+        ],
+        [
+          "ガス",
+          "ga, khí đốt"
+        ]
+      ]
+    },
+    {
+      "id": "n4-06-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "規則",
+          "nội quy"
+        ],
+        [
+          "習慣",
+          "thói quen"
+        ],
+        [
+          "会議",
+          "cuộc họp"
+        ],
+        [
+          "日記",
+          "nhật ký"
+        ]
+      ]
+    },
+    {
+      "id": "n4-06-e16",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng.",
+      "ja": "次の会議の時間が＿。",
+      "options": [
+        "決まりました",
+        "決めました",
+        "選びました"
+      ],
+      "answer": 0,
+      "explainVi": "が + tự động từ 決まる (được quyết định); を + tha động từ 決める."
+    },
+    {
+      "id": "n4-06-e17",
+      "type": "fill",
+      "grammar": [
+        "naide-kudasai"
+      ],
+      "before": "ここにごみを",
+      "after": "でください。",
+      "answers": [
+        "捨てない"
+      ],
+      "options": [
+        "捨てない",
+        "選ばない",
+        "変えない"
+      ],
+      "vi": "Đừng vứt rác ở đây."
+    },
+    {
+      "id": "n4-06-e18",
+      "type": "choice",
+      "promptVi": "Người bán hỏi どちらにしますか. Bạn muốn lấy cả hai. Chọn câu đúng.",
+      "options": [
+        "両方ください。",
+        "半分ください。",
+        "一つください。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-06-e19",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tôi sẽ dự cuộc họp ngày mai.\"",
+      "ja": "明日の会議に＿します。",
+      "options": [
+        "出席",
+        "運動",
+        "食事"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-06-e20",
+      "type": "translate",
+      "grammar": [
+        "koto-ni-suru"
+      ],
+      "vi": "Tôi đã quyết định từ ngày mai sẽ dậy sớm.",
+      "answers": [
+        "(私は)明日から早く起きることにしました。",
+        "(私は)明日から早く起きることに決めました。"
+      ],
+      "examples": [
+        {
+          "answer": "あしたからはやくおきることにしました",
+          "score": 100
+        },
+        {
+          "answer": "私わ明日から早く起きることにしました。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "明日から早く起きますことにしました。",
+          "score": 85,
+          "issues": [
+            "polite_in_clause"
+          ]
+        },
+        {
+          "answer": "明日から早く寝ることにしました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-06-e21",
+      "type": "translate",
+      "grammar": [
+        "koto-ni-naru"
+      ],
+      "vi": "Tháng sau tôi sẽ chuyển sang công ty ở Osaka (do công ty quyết định).",
+      "answers": [
+        "来月(から)大阪の会社[に|へ]移ることになりました。",
+        "(私は)来月(から)大阪の会社[に|へ]移ることになりました。"
+      ],
+      "examples": [
+        {
+          "answer": "らいげつおおさかのかいしゃにうつることになりました",
+          "score": 100
+        },
+        {
+          "answer": "来月大阪の会社を移ることになりました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "来月大阪の会社に移ることなりました。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "来月大阪の会社に移ることにしました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-06-e22",
+      "type": "translate",
+      "grammar": [
+        "you-ni-suru"
+      ],
+      "vi": "Tôi cố gắng ngày nào cũng tập thể dục.",
+      "answers": [
+        "(私は)毎日運動するようにしています。",
+        "(私は)毎日運動をするようにしています。"
+      ],
+      "examples": [
+        {
+          "answer": "まいにちうんどうするようにしています",
+          "score": 100
+        },
+        {
+          "answer": "毎日に運動するようにしています。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "毎日運動しないようにしています。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-06-e23",
+      "type": "translate",
+      "grammar": [
+        "ku-suru-ni-suru"
+      ],
+      "vi": "Hãy dọn phòng cho sạch sẽ. (dùng 〜にする)",
+      "answers": [
+        "部屋をきれいにしてください。"
+      ],
+      "examples": [
+        {
+          "answer": "へやをきれいにしてください",
+          "score": 100
+        },
+        {
+          "answer": "部屋がきれいにしてください。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "部屋をきれいしてください。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "部屋を汚くしてください。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "パーティーは土曜日に決めました。": "パーティーは{土|ど}{曜|よう}{日|び}に{決|き}めました。",
+    "次の会議の時間が決まりました。": "{次|つぎ}の{会|かい}{議|ぎ}の{時|じ}{間|かん}が{決|き}まりました。",
+    "この学校は規則が多いです。": "この{学|がっ}{校|こう}は{規|き}{則|そく}が{多|おお}いです。",
+    "日本には、玄関で靴を脱ぐ習慣があります。": "{日本|にほん}には、{玄|げん}{関|かん}で{靴|くつ}を{脱|ぬ}ぐ{習|しゅう}{慣|かん}があります。",
+    "毎朝、30分運動しています。": "{毎|まい}{朝|あさ}、30{分|ぷん}{運|うん}{動|どう}しています。",
+    "明日の会議に出席します。": "{明日|あした}の{会|かい}{議|ぎ}に{出|しゅっ}{席|せき}します。",
+    "好きな色を選んでください。": "{好|す}きな{色|いろ}を{選|えら}んでください。",
+    "会議の時間を変えてもいいですか。": "{会|かい}{議|ぎ}の{時|じ}{間|かん}を{変|か}えてもいいですか。",
+    "暑いですから、冷房をつけましょう。": "{暑|あつ}いですから、{冷|れい}{房|ぼう}をつけましょう。",
+    "寒いですから、暖房をつけてもいいですか。": "{寒|さむ}いですから、{暖|だん}{房|ぼう}をつけてもいいですか。",
+    "頭を下げて、あいさつしました。": "{頭|あたま}を{下|さ}げて、あいさつしました。",
+    "ごみは月曜日と木曜日に出してください。": "ごみは{月|げつ}{曜|よう}{日|び}と{木|もく}{曜|よう}{日|び}に{出|だ}してください。",
+    "ここにごみを捨てないでください。": "ここにごみを{捨|す}てないでください。",
+    "今晩、一緒に食事しませんか。": "{今|こん}{晩|ばん}、{一|いっ}{緒|しょ}に{食|しょく}{事|じ}しませんか。",
+    "毎晩、日本語で日記を書いています。": "{毎|まい}{晩|ばん}、{日本|にほん}{語|ご}で{日|にっ}{記|き}を{書|か}いています。",
+    "コーヒーと紅茶、両方ください。": "コーヒーと{紅|こう}{茶|ちゃ}、{両|りょう}{方|ほう}ください。",
+    "会議は隣の会議室に移りました。": "{会|かい}{議|ぎ}は{隣|となり}の{会|かい}{議|ぎ}{室|しつ}に{移|うつ}りました。",
+    "会議は3時からです。": "{会|かい}{議|ぎ}は3{時|じ}からです。",
+    "会議室は2階にあります。": "{会|かい}{議|ぎ}{室|しつ}は2{階|かい}にあります。",
+    "毎朝、近所の人にあいさつします。": "{毎|まい}{朝|あさ}、{近|きん}{所|じょ}の{人|ひと}にあいさつします。",
+    "来週、新しいアパートに引っ越します。": "{来|らい}{週|しゅう}、{新|あたら}しいアパートに{引|ひ}っ{越|こ}します。",
+    "料理の後で、ガスを消しました。": "{料|りょう}{理|り}の{後|あと}で、ガスを{消|け}しました。",
+    "この町の水道の水はおいしいです。": "この{町|まち}の{水|すい}{道|どう}の{水|みず}はおいしいです。",
+    "来月、引っ越すことにしました。": "{来|らい}{月|げつ}、{引|ひ}っ{越|こ}すことにしました。",
+    "今日から、お酒を飲まないことにしました。": "{今日|きょう}から、お{酒|さけ}を{飲|の}まないことにしました。",
+    "毎朝、30分歩くことにしています。": "{毎|まい}{朝|あさ}、30{分|ぷん}{歩|ある}くことにしています。",
+    "来月、引っ越しますことにしました。": "{来|らい}{月|げつ}、{引|ひ}っ{越|こ}しますことにしました。",
+    "日本へ行くことにしました。": "{日本|にほん}へ{行|い}くことにしました。",
+    "日本へ行くを決めました。": "{日本|にほん}へ{行|い}くを{決|き}めました。",
+    "来月、大阪の会社に移ることになりました。": "{来|らい}{月|げつ}、{大阪|おおさか}の{会|かい}{社|しゃ}に{移|うつ}ることになりました。",
+    "この部屋では、たばこを吸わないことになっています。": "この{部屋|へや}では、たばこを{吸|す}わないことになっています。",
+    "ごみは月曜日に出すことになっています。": "ごみは{月|げつ}{曜|よう}{日|び}に{出|だ}すことになっています。",
+    "来月、大阪に移ることになりました。": "{来|らい}{月|げつ}、{大阪|おおさか}に{移|うつ}ることになりました。",
+    "来月、大阪に移るになりました。": "{来|らい}{月|げつ}、{大阪|おおさか}に{移|うつ}るになりました。",
+    "来月、大阪に移ることなりました。": "{来|らい}{月|げつ}、{大阪|おおさか}に{移|うつ}ることなりました。",
+    "毎日、日記を書くようにしています。": "{毎|まい}{日|にち}、{日|にっ}{記|き}を{書|か}くようにしています。",
+    "夜は、甘い物を食べないようにしています。": "{夜|よる}は、{甘|あま}い{物|もの}を{食|た}べないようにしています。",
+    "明日は早く来るようにしてください。": "{明日|あした}は{早|はや}く{来|く}るようにしてください。",
+    "毎日、運動するようにしています。": "{毎|まい}{日|にち}、{運|うん}{動|どう}するようにしています。",
+    "毎日、運動しますようにしています。": "{毎|まい}{日|にち}、{運|うん}{動|どう}しますようにしています。",
+    "夜は、甘い物を食べませんようにしています。": "{夜|よる}は、{甘|あま}い{物|もの}を{食|た}べませんようにしています。",
+    "暑いですから、冷房を強くしてください。": "{暑|あつ}いですから、{冷|れい}{房|ぼう}を{強|つよ}くしてください。",
+    "暖房をつけて、部屋を暖かくしました。": "{暖|だん}{房|ぼう}をつけて、{部屋|へや}を{暖|あたた}かくしました。",
+    "すみません、声を小さくしてください。": "すみません、{声|こえ}を{小|ちい}さくしてください。",
+    "図書館では静かにしてください。": "{図|と}{書|しょ}{館|かん}では{静|しず}かにしてください。",
+    "部屋を暖かくしました。": "{部屋|へや}を{暖|あたた}かくしました。",
+    "部屋を暖かいにしました。": "{部屋|へや}を{暖|あたた}かいにしました。",
+    "部屋をきれいにしました。": "{部屋|へや}をきれいにしました。",
+    "部屋をきれいくしました。": "{部屋|へや}をきれいくしました。",
+    "部屋がきれいにしました。": "{部屋|へや}がきれいにしました。",
+    "お酒を飲まないことにしました。": "お{酒|さけ}を{飲|の}まないことにしました。",
+    "お酒を飲まないことになりました。": "お{酒|さけ}を{飲|の}まないことになりました。",
+    "お酒を飲みませんことにしました。": "お{酒|さけ}を{飲|の}みませんことにしました。",
+    "夏休みに京都へ行くことにしました。": "{夏|なつ}{休|やす}みに{京都|きょうと}へ{行|い}くことにしました。",
+    "こと": "こと",
+    "の": "の",
+    "もの": "もの",
+    "しました": "しました",
+    "引っ越す": "{引|ひ}っ{越|こ}す",
+    "来月": "{来|らい}{月|げつ}",
+    "ことに": "ことに",
+    "来月引っ越すことにしました": "{来|らい}{月|げつ}{引|ひ}っ{越|こ}すことにしました",
+    "来月、大阪に移ることにしました。": "{来|らい}{月|げつ}、{大阪|おおさか}に{移|うつ}ることにしました。",
+    "来月から大阪の会社に移ることになりました。": "{来|らい}{月|げつ}から{大阪|おおさか}の{会|かい}{社|しゃ}に{移|うつ}ることになりました。",
+    "に": "に",
+    "を": "を",
+    "が": "が",
+    "ごみは月曜日に出すことにしました。": "ごみは{月|げつ}{曜|よう}{日|び}に{出|だ}すことにしました。",
+    "ごみは月曜日に出すようにしています。": "ごみは{月|げつ}{曜|よう}{日|び}に{出|だ}すようにしています。",
+    "夜は甘い物を食べないようにしています。": "{夜|よる}は{甘|あま}い{物|もの}を{食|た}べないようにしています。",
+    "食べない": "{食|た}べない",
+    "食べません": "{食|た}べません",
+    "食べなくて": "{食|た}べなくて",
+    "はい、歩くようにします。": "はい、{歩|ある}くようにします。",
+    "はい、歩きますようにします。": "はい、{歩|ある}きますようにします。",
+    "はい、歩くようになります。": "はい、{歩|ある}くようになります。",
+    "しています": "しています",
+    "書く": "{書|か}く",
+    "日記を": "{日|にっ}{記|き}を",
+    "ように": "ように",
+    "毎日": "{毎|まい}{日|にち}",
+    "毎日日記を書くようにしています": "{毎|まい}{日|にち}{日|にっ}{記|き}を{書|か}くようにしています",
+    "日記を毎日書くようにしています": "{日|にっ}{記|き}を{毎|まい}{日|にち}{書|か}くようにしています",
+    "部屋を明るくしてください。": "{部屋|へや}を{明|あか}るくしてください。",
+    "部屋を明るいにしてください。": "{部屋|へや}を{明|あか}るいにしてください。",
+    "部屋が明るくしてください。": "{部屋|へや}が{明|あか}るくしてください。",
+    "図書館ですから、静かにしてください。": "{図|と}{書|しょ}{館|かん}ですから、{静|しず}かにしてください。",
+    "で": "で",
+    "寒いですから、暖房を強くしてください。": "{寒|さむ}いですから、{暖|だん}{房|ぼう}を{強|つよ}くしてください。",
+    "寒いですから、暖房を強くなってください。": "{寒|さむ}いですから、{暖|だん}{房|ぼう}を{強|つよ}くなってください。",
+    "寒いですから、暖房を強いにしてください。": "{寒|さむ}いですから、{暖|だん}{房|ぼう}を{強|つよ}いにしてください。",
+    "部屋を": "{部屋|へや}を",
+    "昨日": "{昨日|きのう}",
+    "きれいに": "きれいに",
+    "昨日部屋をきれいにしました": "{昨日|きのう}{部屋|へや}をきれいにしました",
+    "冷房": "{冷|れい}{房|ぼう}",
+    "暖房": "{暖|だん}{房|ぼう}",
+    "水道": "{水|すい}{道|どう}",
+    "ガス": "ガス",
+    "規則": "{規|き}{則|そく}",
+    "習慣": "{習|しゅう}{慣|かん}",
+    "会議": "{会|かい}{議|ぎ}",
+    "日記": "{日|にっ}{記|き}",
+    "次の会議の時間が＿。": "{次|つぎ}の{会|かい}{議|ぎ}の{時|じ}{間|かん}が＿。",
+    "決まりました": "{決|き}まりました",
+    "決めました": "{決|き}めました",
+    "選びました": "{選|えら}びました",
+    "捨てない": "{捨|す}てない",
+    "選ばない": "{選|えら}ばない",
+    "変えない": "{変|か}えない",
+    "両方ください。": "{両|りょう}{方|ほう}ください。",
+    "半分ください。": "{半|はん}{分|ぶん}ください。",
+    "一つください。": "{一|ひと}つください。",
+    "明日の会議に＿します。": "{明日|あした}の{会|かい}{議|ぎ}に＿します。",
+    "出席": "{出|しゅっ}{席|せき}",
+    "運動": "{運|うん}{動|どう}",
+    "食事": "{食|しょく}{事|じ}",
+    "私は明日から早く起きることにしました。": "{私|わたし}は{明日|あした}から{早|はや}く{起|お}きることにしました。",
+    "私は明日から早く起きることに決めました。": "{私|わたし}は{明日|あした}から{早|はや}く{起|お}きることに{決|き}めました。",
+    "私は来月から大阪の会社に移ることになりました。": "{私|わたし}は{来|らい}{月|げつ}から{大阪|おおさか}の{会|かい}{社|しゃ}に{移|うつ}ることになりました。",
+    "私は毎日運動するようにしています。": "{私|わたし}は{毎|まい}{日|にち}{運|うん}{動|どう}するようにしています。",
+    "私は毎日運動をするようにしています。": "{私|わたし}は{毎|まい}{日|にち}{運|うん}{動|どう}をするようにしています。",
+    "部屋をきれいにしてください。": "{部屋|へや}をきれいにしてください。"
+  }
+}

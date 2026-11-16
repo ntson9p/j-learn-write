@@ -1,0 +1,1277 @@
+{
+  "id": "n4-09",
+  "goalsVi": [
+    "Đáp lại lời người khác và khuyên bằng 〜なら: 京都へ行くなら、秋がいいですよ",
+    "Nói kết quả tất yếu, cách dùng máy, chỉ đường bằng 〜と: このボタンを押すと、ドアが開きます",
+    "Nói \"dù … cũng …\" bằng 〜ても / 〜でも: 雨が降っても、出かけます",
+    "Cho phép, xin phép lịch sự bằng 〜てもかまいません: ここに車を止めてもかまいません",
+    "Nói về đi lại, phương tiện và đường sá: 乗り換える、通る、込む、空港、ガソリンスタンド"
+  ],
+  "words": [
+    {
+      "no": 725,
+      "word": "動く",
+      "meaningsVi": [
+        "chuyển động, cử động",
+        "(máy) chạy, hoạt động"
+      ],
+      "noteVi": "Tự động từ: N が動く. Máy móc chạy được cũng dùng 動く.",
+      "examples": [
+        {
+          "ja": "古い時計ですが、まだ動きます。",
+          "vi": "Đồng hồ cũ nhưng vẫn còn chạy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 739,
+      "word": "運転手",
+      "meaningsVi": [
+        "tài xế, người lái xe"
+      ],
+      "noteVi": "Âm Hán Việt \"vận chuyển thủ\", nhưng 運転 nghĩa là lái (xe, máy), không phải \"vận chuyển\". Dùng cho người lái xe làm nghề.",
+      "examples": [
+        {
+          "ja": "父はタクシーの運転手です。",
+          "vi": "Bố tôi là tài xế taxi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 741,
+      "word": "エスカレーター",
+      "meaningsVi": [
+        "thang cuốn"
+      ],
+      "noteVi": "Khác エレベーター (thang máy). Đi thang cuốn: エスカレーターに乗る.",
+      "examples": [
+        {
+          "ja": "エスカレーターに乗って、3階へ行きました。",
+          "vi": "Tôi đi thang cuốn lên tầng 3."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 747,
+      "word": "オートバイ",
+      "meaningsVi": [
+        "xe máy, mô tô"
+      ],
+      "noteVi": "Trong nói chuyện người Nhật hay gọi là バイク. Đi xe máy: オートバイに乗る.",
+      "examples": [
+        {
+          "ja": "ベトナムでは、オートバイに乗る人が多いです。",
+          "vi": "Ở Việt Nam có nhiều người đi xe máy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 780,
+      "word": "下りる",
+      "meaningsVi": [
+        "đi xuống (cầu thang, dốc, núi)"
+      ],
+      "noteVi": "Đi xuống từ chỗ cao, nơi đi xuống dùng を: 階段を下りる, 山を下りる. Xuống xe, tàu viết 降りる (đã học); hai chữ cùng đọc おりる.",
+      "examples": [
+        {
+          "ja": "階段を下りて、右へ曲がってください。",
+          "vi": "Hãy đi xuống cầu thang rồi rẽ phải."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 798,
+      "word": "ガソリン",
+      "meaningsVi": [
+        "xăng"
+      ],
+      "noteVi": "Từ tiếng Anh gasoline. Khí đốt nấu ăn là ガス.",
+      "examples": [
+        {
+          "ja": "車のガソリンがなくなりました。",
+          "vi": "Xe hết xăng rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 799,
+      "word": "ガソリンスタンド",
+      "meaningsVi": [
+        "trạm xăng, cây xăng"
+      ],
+      "noteVi": "Từ người Nhật ghép từ hai từ tiếng Anh (gasoline + stand); người nói tiếng Anh không dùng như vậy.",
+      "examples": [
+        {
+          "ja": "この先にガソリンスタンドがあります。",
+          "vi": "Phía trước có cây xăng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 811,
+      "word": "かまう",
+      "meaningsVi": [
+        "bận tâm, để ý (thường ở thể phủ định)"
+      ],
+      "noteVi": "Hầu như chỉ dùng ở thể phủ định: かまいません (không sao, không phiền gì). 〜てもかまいません: … cũng được (xem ngữ pháp). Có thể viết 構う.",
+      "examples": [
+        {
+          "ja": "ええ、かまいませんよ。",
+          "vi": "Vâng, không sao đâu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 852,
+      "word": "空港",
+      "meaningsVi": [
+        "sân bay"
+      ],
+      "noteVi": "Âm Hán Việt \"không cảng\" (cảng trên không).",
+      "examples": [
+        {
+          "ja": "空港まで電車で1時間かかります。",
+          "vi": "Đi tàu đến sân bay mất 1 tiếng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 903,
+      "word": "込む",
+      "meaningsVi": [
+        "đông, chật (người, xe)"
+      ],
+      "noteVi": "Thường dùng 込んでいます (đang đông). N が込む: 道が込んでいます (đường đông xe).",
+      "examples": [
+        {
+          "ja": "朝の電車はとても込んでいます。",
+          "vi": "Tàu buổi sáng rất đông."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 917,
+      "word": "坂",
+      "meaningsVi": [
+        "con dốc"
+      ],
+      "noteVi": "坂を下りる: xuống dốc. Âm Hán Việt \"phản\".",
+      "examples": [
+        {
+          "ja": "この坂を下りると、駅があります。",
+          "vi": "Đi xuống con dốc này thì có nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 957,
+      "word": "自由",
+      "meaningsVi": [
+        "tự do",
+        "tùy ý, thoải mái"
+      ],
+      "noteVi": "Âm Hán Việt \"tự do\". Là tính từ đuôi な: 自由な時間 (thời gian tự do), 自由に (tùy ý).",
+      "examples": [
+        {
+          "ja": "この部屋は自由に使ってください。",
+          "vi": "Hãy cứ thoải mái dùng căn phòng này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1004,
+      "word": "すると",
+      "meaningsVi": [
+        "thế là, ngay sau đó"
+      ],
+      "noteVi": "Đứng đầu câu sau: việc ở câu sau xảy ra ngay sau việc ở câu trước, thường là điều bất ngờ. Hay dùng khi kể chuyện.",
+      "examples": [
+        {
+          "ja": "ボタンを押しました。すると、ドアが開きました。",
+          "vi": "Tôi đã ấn nút. Thế là cửa mở ra."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1015,
+      "word": "線",
+      "meaningsVi": [
+        "vạch, đường kẻ",
+        "tuyến (tàu, xe buýt)"
+      ],
+      "noteVi": "Âm Hán Việt \"tuyến\". Cũng dùng trong tên tuyến tàu: 〜線 (tuyến …).",
+      "examples": [
+        {
+          "ja": "黄色い線の後ろで待ってください。",
+          "vi": "Hãy đứng đợi phía sau vạch vàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1102,
+      "word": "通る",
+      "meaningsVi": [
+        "đi qua, chạy qua"
+      ],
+      "noteVi": "Nơi đi qua dùng を: 公園を通る. Khác 通う (đi lại đều đặn), cùng chữ 通.",
+      "examples": [
+        {
+          "ja": "毎朝、この公園を通って、駅へ行きます。",
+          "vi": "Sáng nào tôi cũng đi qua công viên này để ra ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1110,
+      "word": "止める",
+      "meaningsVi": [
+        "dừng (xe, máy…)",
+        "đỗ (xe)"
+      ],
+      "noteVi": "Tha động từ: N を止める. Tự động từ: 止まる (dừng lại). Nhóm II: 止めて.",
+      "examples": [
+        {
+          "ja": "ここに車を止めてもいいですか。",
+          "vi": "Tôi đỗ xe ở đây được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1123,
+      "word": "鳴る",
+      "meaningsVi": [
+        "kêu, reo (chuông, điện thoại)"
+      ],
+      "noteVi": "Tự động từ: ベルが鳴る, 電話が鳴る. Cùng đọc なる với なる (trở thành) nhưng khác chữ.",
+      "examples": [
+        {
+          "ja": "電話が鳴っています。",
+          "vi": "Điện thoại đang reo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1147,
+      "word": "乗り換える",
+      "meaningsVi": [
+        "đổi tàu, chuyển xe"
+      ],
+      "noteVi": "A で B に乗り換える: đổi sang B ở chỗ A. Nhóm II: 乗り換えて.",
+      "examples": [
+        {
+          "ja": "東京駅で地下鉄に乗り換えます。",
+          "vi": "Tôi đổi sang tàu điện ngầm ở ga Tokyo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1148,
+      "word": "乗り物",
+      "meaningsVi": [
+        "phương tiện đi lại, xe cộ"
+      ],
+      "noteVi": "乗る (đi, lên xe) + 物 (vật): mọi thứ để đi lại: xe buýt, tàu, máy bay…",
+      "examples": [
+        {
+          "ja": "子供は乗り物が大好きです。",
+          "vi": "Trẻ con rất thích xe cộ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1157,
+      "word": "場所",
+      "meaningsVi": [
+        "nơi, chỗ, địa điểm"
+      ],
+      "noteVi": "Âm Hán Việt \"trường sở\". Gần nghĩa 所 nhưng hay dùng khi nói về một địa điểm cụ thể.",
+      "examples": [
+        {
+          "ja": "会議の場所はどこですか。",
+          "vi": "Cuộc họp tổ chức ở đâu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1187,
+      "word": "ビル",
+      "meaningsVi": [
+        "tòa nhà (cao tầng)"
+      ],
+      "noteVi": "Gốc tiếng Anh building. Chỉ nhà nhiều tầng làm văn phòng, cửa hàng; không dùng cho nhà ở bình thường.",
+      "examples": [
+        {
+          "ja": "駅の前に高いビルがあります。",
+          "vi": "Trước ga có một tòa nhà cao."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1210,
+      "word": "ベル",
+      "meaningsVi": [
+        "chuông"
+      ],
+      "noteVi": "Chuông cửa, chuông báo giờ học. Chuông reo: ベルが鳴る.",
+      "examples": [
+        {
+          "ja": "授業のベルが鳴りました。",
+          "vi": "Chuông vào học đã reo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1230,
+      "word": "回る",
+      "meaningsVi": [
+        "quay, xoay",
+        "đi vòng quanh, đi một vòng"
+      ],
+      "noteVi": "Tự động từ. Đi vòng quanh một nơi dùng を: 町を回る.",
+      "examples": [
+        {
+          "ja": "バスで京都の町を回りました。",
+          "vi": "Tôi đã đi xe buýt một vòng thành phố Kyoto."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1240,
+      "word": "向かう",
+      "meaningsVi": [
+        "đi về phía, hướng về"
+      ],
+      "noteVi": "N に/へ向かう: đi về phía N. 〜に向かっています: đang trên đường đến …",
+      "examples": [
+        {
+          "ja": "今、空港に向かっています。",
+          "vi": "Bây giờ tôi đang trên đường đến sân bay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1253,
+      "word": "もちろん",
+      "meaningsVi": [
+        "tất nhiên, dĩ nhiên"
+      ],
+      "noteVi": "Đứng đầu câu hoặc trả lời ngắn: 「もちろんです」 (Tất nhiên rồi).",
+      "examples": [
+        {
+          "ja": "もちろん、パーティーに行きます。",
+          "vi": "Tất nhiên là tôi sẽ đến bữa tiệc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1201,
+      "word": "舟",
+      "meaningsVi": [
+        "thuyền (nhỏ)"
+      ],
+      "noteVi": "舟: thuyền nhỏ, thường chèo tay. Tàu thủy lớn viết 船 (cùng đọc ふね).",
+      "examples": [
+        {
+          "ja": "川で舟に乗りました。",
+          "vi": "Tôi đã đi thuyền trên sông."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "動",
+      "meaningVi": "động, chuyển động",
+      "noteVi": "Gặp trong 動く (うごく), 運動 (うんどう), 動物 (どうぶつ). 重 (nặng) + 力 (sức): dùng sức làm vật nặng chuyển động.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "空",
+      "meaningVi": "bầu trời; trống, rỗng",
+      "noteVi": "Gặp trong 空 (そら, bầu trời), 空港 (くうこう, sân bay).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "歩",
+      "meaningVi": "đi bộ, bước",
+      "noteVi": "Gặp trong 歩く (あるく, đi bộ), 散歩 (さんぽ, đi dạo).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "駅",
+      "meaningVi": "ga (tàu)",
+      "noteVi": "Gặp trong 駅 (えき). Bộ 馬 (ngựa) bên trái: ngày xưa là trạm đổi ngựa.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "通",
+      "meaningVi": "đi qua; thông",
+      "noteVi": "Gặp trong 通る (とおる, đi qua), 通う (かよう, đi lại đều đặn). Bộ 辶 (bước đi).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "急",
+      "meaningVi": "gấp, vội",
+      "noteVi": "Gặp trong 急ぐ (いそぐ, vội), 急行 (きゅうこう, tàu nhanh). Dưới là bộ 心 (tim).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "町",
+      "meaningVi": "thị trấn, phố",
+      "noteVi": "Gặp trong 町 (まち). Bộ 田 (ruộng) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "nara",
+      "titleVi": "〜なら: nếu (là) … thì",
+      "summaryVi": "N / Aな / V / Aい + なら: nếu (đúng là) … thì; hay dùng khi đáp lại lời người kia rồi đưa lời khuyên: 京都へ行くなら、秋がいいですよ.",
+      "explanationVi": [
+        "**なら** gắn sau danh từ, tính từ đuôi な (**không có だ**), thể thông thường của động từ và tính từ đuôi い. Thường dùng để **đáp lại** điều người kia vừa nói, rồi đưa ý kiến, lời khuyên: 「京都へ行きたいです。」「京都へ行くなら、秋がいいですよ。」 (Nếu đi Kyoto thì mùa thu là đẹp).",
+        "**N なら** = \"nếu là N thì, nói về N thì\": 「コーヒーなら、駅の前の店がおいしいですよ」. Tính từ đuôi な và danh từ dùng なら ở chỗ động từ dùng thể ば: 「暇なら、遊びに来てください」.",
+        "Chú ý thứ tự thời gian: với **V なら**, việc ở vế sau có thể làm **trước** V: 「日本へ行くなら、日本語を勉強したらどうですか」 (định đi Nhật thì học tiếng Nhật trước đi). Với たら, vế sau xảy ra **sau**: 「日本へ行ったら、…」 (khi đã đến Nhật thì …)."
+      ],
+      "patterns": [
+        "N / Aな + なら",
+        "V / Aい（thể thông thường）+ なら",
+        "Đáp lại: 〜なら、…（lời khuyên, ý kiến）"
+      ],
+      "examples": [
+        {
+          "ja": "京都へ行くなら、秋がいいですよ。",
+          "vi": "Nếu đi Kyoto thì nên đi mùa thu."
+        },
+        {
+          "ja": "コーヒーなら、駅の前の店がおいしいですよ。",
+          "vi": "Cà phê thì quán trước ga ngon đấy."
+        },
+        {
+          "ja": "暇なら、一緒に映画を見に行きませんか。",
+          "vi": "Nếu rảnh thì cùng đi xem phim không?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "暇だなら、一緒に映画を見に行きませんか。",
+          "right": "暇なら、一緒に映画を見に行きませんか。",
+          "noteVi": "Tính từ đuôi な và danh từ: không có だ trước なら."
+        },
+        {
+          "wrong": "京都へ行きますなら、秋がいいですよ。",
+          "right": "京都へ行くなら、秋がいいですよ。",
+          "noteVi": "Trước なら dùng thể thông thường, không dùng thể ます."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to",
+      "titleVi": "〜と: hễ … là …, … thì (kết quả tất yếu)",
+      "summaryVi": "V（thể từ điển / ない）+ と、…: hễ … thì (luôn) …; dùng cho quy luật tự nhiên, cách máy móc hoạt động, chỉ đường: このボタンを押すと、ドアが開きます.",
+      "explanationVi": [
+        "**V（thể từ điển）+ と** nêu điều kiện mà **hễ xảy ra thì kết quả ở vế sau luôn, tự nhiên xảy ra**: quy luật tự nhiên, cách máy móc hoạt động, thói quen: 「春になると、暖かくなります」, 「このボタンを押すと、ドアが開きます」. Tiếng Việt: \"hễ … là …\", \"cứ … thì …\".",
+        "Hay dùng khi **chỉ đường**: 「この道をまっすぐ行くと、右に駅があります」 (Đi thẳng đường này thì ga ở bên phải). Phủ định: 「急がないと、間に合いませんよ」 (Không nhanh lên là không kịp đâu).",
+        "Vế sau **không** dùng ý chí, lời nhờ, lời rủ, mong muốn (〜てください, 〜ましょう, 〜たい): muốn nhờ thì dùng たら: 「駅に着いたら、電話してください」. Vế sau ở quá khứ thì と nói về việc **phát hiện ra** khi làm gì: 「窓を開けると、雪が降っていました」 (Mở cửa sổ ra thì thấy tuyết đang rơi)."
+      ],
+      "patterns": [
+        "V（thể từ điển / ない）+ と、(kết quả tất yếu)",
+        "Chỉ đường: 〜を まっすぐ行くと、〜に 〜が あります"
+      ],
+      "examples": [
+        {
+          "ja": "このボタンを押すと、ドアが開きます。",
+          "vi": "Hễ ấn nút này là cửa mở."
+        },
+        {
+          "ja": "この道をまっすぐ行くと、右に駅があります。",
+          "vi": "Đi thẳng đường này thì ga ở bên phải."
+        },
+        {
+          "ja": "春になると、暖かくなります。",
+          "vi": "Mùa xuân đến thì trời ấm lên."
+        },
+        {
+          "ja": "急がないと、電車に間に合いませんよ。",
+          "vi": "Không nhanh lên là không kịp tàu đâu."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "駅に着くと、電話してください。",
+          "right": "駅に着いたら、電話してください。",
+          "noteVi": "Vế sau là lời nhờ (〜てください) thì không dùng と; dùng 〜たら."
+        },
+        {
+          "wrong": "このボタンを押したと、ドアが開きます。",
+          "right": "このボタンを押すと、ドアが開きます。",
+          "noteVi": "Trước と (điều kiện) dùng thể từ điển, không dùng thể た."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-mo-de-mo",
+      "titleVi": "〜ても / 〜でも: dù … cũng …",
+      "summaryVi": "V て / Aい くて + も; Aな / N + でも: dù … (thì) cũng …; vế sau trái với điều thường được chờ đợi.",
+      "explanationVi": [
+        "**〜ても** = \"dù … (thì) cũng …\": vế sau xảy ra **trái với** điều người ta thường chờ đợi từ vế trước: 「雨が降っても、出かけます」 (Dù trời mưa tôi cũng ra ngoài).",
+        "Cách tạo: **thể て + も**: 行って → 行っても, 読んで → 読んでも; phủ định: 行かない → 行か**なくても**; tính từ đuôi い: 高い → 高**くても**; tính từ đuôi な và danh từ: + **でも**: 静かでも, 雨でも.",
+        "Tiếng Việt đặt \"dù\" ở đầu câu; tiếng Nhật đặt ても ở **cuối** vế đầu. Hay đi với **いくら** (dù bao nhiêu) và từ để hỏi: 「いくら練習しても、上手になりません」, 「何回聞いても、わかりません」 (Hỏi bao nhiêu lần cũng không hiểu)."
+      ],
+      "patterns": [
+        "V て + も",
+        "V ない → V なくても",
+        "Aい → 〜くても",
+        "Aな / N + でも",
+        "いくら / 何回 + 〜ても"
+      ],
+      "examples": [
+        {
+          "ja": "雨が降っても、出かけます。",
+          "vi": "Dù trời mưa tôi cũng ra ngoài."
+        },
+        {
+          "ja": "この部屋は冬でも暖かいです。",
+          "vi": "Căn phòng này mùa đông cũng ấm."
+        },
+        {
+          "ja": "この辞典は高くても、買います。",
+          "vi": "Cuốn từ điển này dù đắt tôi cũng mua."
+        },
+        {
+          "ja": "いくら練習しても、上手になりません。",
+          "vi": "Luyện tập bao nhiêu cũng không giỏi lên."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "雨が降るでも、出かけます。",
+          "right": "雨が降っても、出かけます。",
+          "noteVi": "Động từ: thể て + も, không gắn でも vào thể từ điển."
+        },
+        {
+          "wrong": "高いでも、買います。",
+          "right": "高くても、買います。",
+          "noteVi": "Tính từ đuôi い: bỏ い thêm くても."
+        },
+        {
+          "wrong": "静かくても、この町は好きじゃありません。",
+          "right": "静かでも、この町は好きじゃありません。",
+          "noteVi": "Tính từ đuôi な: + でも, không đổi thành くても."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-mo-kamawanai",
+      "titleVi": "〜てもかまいません: … cũng được, không sao",
+      "summaryVi": "V て / Aい くて + もかまいません; N / Aな + でもかまいません: (làm) … cũng được, không phiền gì; giống 〜てもいいです nhưng trang trọng hơn.",
+      "explanationVi": [
+        "**〜てもかまいません** (thể thông thường: 〜てもかまわない) = \"… cũng được, không sao\": cho phép hoặc nói rằng mình không phiền. Nghĩa giống 「〜てもいいです」 đã học nhưng **trang trọng, lịch sự hơn**: 「ここに車を止めてもかまいません」.",
+        "Xin phép: **〜てもかまいませんか** (… có được không ạ?): 「明日、休んでもかまいませんか」. Đồng ý: 「ええ、かまいません」. Câu hỏi luôn ở dạng phủ định かまいませんか.",
+        "Phủ định: **〜なくてもかまいません** = không … cũng được (như 〜なくてもいいです): 「明日は来なくてもかまいません」. Danh từ, tính từ đuôi な: **でもかまいません**: 「ペンでも鉛筆でもかまいません」 (bút bi hay bút chì đều được)."
+      ],
+      "patterns": [
+        "V て + もかまいません",
+        "V ない → V なくてもかまいません",
+        "N / Aな + でもかまいません",
+        "〜てもかまいませんか (xin phép)"
+      ],
+      "examples": [
+        {
+          "ja": "ここに車を止めてもかまいません。",
+          "vi": "Đỗ xe ở đây cũng được."
+        },
+        {
+          "ja": "明日、休んでもかまいませんか。",
+          "vi": "Ngày mai tôi nghỉ có được không ạ?"
+        },
+        {
+          "ja": "ペンでも鉛筆でもかまいません。",
+          "vi": "Bút bi hay bút chì đều được."
+        },
+        {
+          "ja": "明日は来なくてもかまいません。",
+          "vi": "Ngày mai không đến cũng được."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ここに車を止めるもかまいません。",
+          "right": "ここに車を止めてもかまいません。",
+          "noteVi": "かまいません đi sau thể て + も, không đi sau thể từ điển."
+        },
+        {
+          "wrong": "明日、休んでもかまいますか。",
+          "right": "明日、休んでもかまいませんか。",
+          "noteVi": "Xin phép luôn hỏi bằng dạng phủ định かまいませんか; không nói かまいますか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-09-e01",
+      "type": "choice",
+      "grammar": [
+        "nara"
+      ],
+      "promptVi": "Bạn của bạn nói 「京都へ行きたいです。」 Bạn khuyên: \"Nếu đi Kyoto thì nên đi mùa thu.\" Chọn câu đúng.",
+      "options": [
+        "京都へ行くなら、秋がいいですよ。",
+        "京都へ行くと、秋がいいですよ。",
+        "京都へ行っても、秋がいいですよ。"
+      ],
+      "answer": 0,
+      "explainVi": "Đáp lại lời người kia rồi khuyên: 〜なら."
+    },
+    {
+      "id": "n4-09-e02",
+      "type": "fill",
+      "grammar": [
+        "nara"
+      ],
+      "before": "暇",
+      "after": "、一緒に映画を見に行きませんか。",
+      "answers": [
+        "なら"
+      ],
+      "options": [
+        "なら",
+        "だなら",
+        "でも"
+      ],
+      "vi": "Nếu rảnh thì cùng đi xem phim không?",
+      "explainVi": "Tính từ đuôi な + なら, không có だ."
+    },
+    {
+      "id": "n4-09-e03",
+      "type": "order",
+      "grammar": [
+        "nara"
+      ],
+      "vi": "Cà phê thì quán trước ga ngon đấy.",
+      "tiles": [
+        "店が",
+        "駅の前の",
+        "おいしいですよ",
+        "コーヒーなら"
+      ],
+      "answers": [
+        "コーヒーなら駅の前の店がおいしいですよ"
+      ]
+    },
+    {
+      "id": "n4-09-e04",
+      "type": "choice",
+      "grammar": [
+        "to"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Hễ ấn nút này là cửa mở\"?",
+      "options": [
+        "このボタンを押すと、ドアが開きます。",
+        "このボタンを押したと、ドアが開きます。",
+        "このボタンを押しても、ドアが開きます。"
+      ],
+      "answer": 0,
+      "explainVi": "Kết quả tất yếu: V（thể từ điển）+ と."
+    },
+    {
+      "id": "n4-09-e05",
+      "type": "fill",
+      "grammar": [
+        "to"
+      ],
+      "before": "この道をまっすぐ行く",
+      "after": "、右に駅があります。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "ても",
+        "まで"
+      ],
+      "vi": "Đi thẳng đường này thì ga ở bên phải."
+    },
+    {
+      "id": "n4-09-e06",
+      "type": "choice",
+      "grammar": [
+        "to"
+      ],
+      "promptVi": "Bạn muốn nhờ: \"Đến ga thì gọi điện cho tôi.\" Chọn câu đúng.",
+      "options": [
+        "駅に着いたら、電話してください。",
+        "駅に着くと、電話してください。",
+        "駅に着いても、電話してください。"
+      ],
+      "answer": 0,
+      "explainVi": "Vế sau là lời nhờ thì không dùng と; dùng 〜たら."
+    },
+    {
+      "id": "n4-09-e07",
+      "type": "order",
+      "grammar": [
+        "to"
+      ],
+      "vi": "Mùa xuân đến thì trời ấm lên.",
+      "tiles": [
+        "なります",
+        "暖かく",
+        "春に",
+        "なると"
+      ],
+      "answers": [
+        "春になると暖かくなります"
+      ]
+    },
+    {
+      "id": "n4-09-e08",
+      "type": "choice",
+      "grammar": [
+        "te-mo-de-mo"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Dù trời mưa tôi cũng đi\"?",
+      "options": [
+        "雨が降っても、行きます。",
+        "雨が降ったら、行きます。",
+        "雨が降ると、行きます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-09-e09",
+      "type": "fill",
+      "grammar": [
+        "te-mo-de-mo"
+      ],
+      "before": "この部屋は冬",
+      "after": "暖かいです。",
+      "answers": [
+        "でも"
+      ],
+      "options": [
+        "でも",
+        "なら",
+        "から"
+      ],
+      "vi": "Căn phòng này mùa đông cũng ấm."
+    },
+    {
+      "id": "n4-09-e10",
+      "type": "fill",
+      "grammar": [
+        "te-mo-de-mo"
+      ],
+      "before": "この辞典は",
+      "after": "、買います。",
+      "answers": [
+        "高くても"
+      ],
+      "options": [
+        "高くても",
+        "高いでも",
+        "高かったら"
+      ],
+      "vi": "Cuốn từ điển này dù đắt tôi cũng mua.",
+      "explainVi": "Tính từ đuôi い: 〜くても."
+    },
+    {
+      "id": "n4-09-e11",
+      "type": "order",
+      "grammar": [
+        "te-mo-de-mo"
+      ],
+      "vi": "Hỏi bao nhiêu lần tôi cũng không hiểu.",
+      "tiles": [
+        "わかりません",
+        "聞いても",
+        "何回"
+      ],
+      "answers": [
+        "何回聞いてもわかりません"
+      ]
+    },
+    {
+      "id": "n4-09-e12",
+      "type": "choice",
+      "grammar": [
+        "te-mo-kamawanai"
+      ],
+      "promptVi": "Bạn xin phép lịch sự: \"Ngày mai tôi nghỉ có được không ạ?\" Chọn câu đúng.",
+      "options": [
+        "明日、休んでもかまいませんか。",
+        "明日、休んでもかまいますか。",
+        "明日、休むもかまいませんか。"
+      ],
+      "answer": 0,
+      "explainVi": "Thể て + もかまいませんか; câu hỏi luôn dùng dạng phủ định."
+    },
+    {
+      "id": "n4-09-e13",
+      "type": "fill",
+      "grammar": [
+        "te-mo-kamawanai"
+      ],
+      "before": "ここに車を",
+      "after": "もかまいません。",
+      "answers": [
+        "止めて"
+      ],
+      "options": [
+        "止めて",
+        "止める",
+        "止めた"
+      ],
+      "vi": "Đỗ xe ở đây cũng được."
+    },
+    {
+      "id": "n4-09-e14",
+      "type": "choice",
+      "grammar": [
+        "te-mo-kamawanai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Ngày mai không đến cũng được\"?",
+      "options": [
+        "明日は来なくてもかまいません。",
+        "明日は来てもかまいません。",
+        "明日は来ないでください。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-09-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "空港",
+          "sân bay"
+        ],
+        [
+          "運転手",
+          "tài xế"
+        ],
+        [
+          "乗り物",
+          "phương tiện đi lại"
+        ],
+        [
+          "場所",
+          "nơi, chỗ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-09-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "エスカレーター",
+          "thang cuốn"
+        ],
+        [
+          "オートバイ",
+          "xe máy"
+        ],
+        [
+          "ガソリンスタンド",
+          "trạm xăng"
+        ],
+        [
+          "ビル",
+          "tòa nhà"
+        ]
+      ]
+    },
+    {
+      "id": "n4-09-e17",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tàu buổi sáng rất đông.\"",
+      "ja": "朝の電車はとても＿います。",
+      "options": [
+        "込んで",
+        "動いて",
+        "通って"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-09-e18",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tôi đổi sang tàu điện ngầm ở ga Tokyo.\"",
+      "ja": "東京駅で地下鉄に＿。",
+      "options": [
+        "乗り換えます",
+        "下ります",
+        "回ります"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-09-e19",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Hãy đi xuống cầu thang rồi rẽ phải.\"",
+      "ja": "階段を＿、右へ曲がってください。",
+      "options": [
+        "下りて",
+        "止めて",
+        "向かって"
+      ],
+      "answer": 0,
+      "explainVi": "Đi xuống cầu thang, dốc: 下りる. Xuống xe, tàu: 降りる."
+    },
+    {
+      "id": "n4-09-e20",
+      "type": "translate",
+      "grammar": [
+        "te-mo-de-mo"
+      ],
+      "vi": "Dù trời mưa, tôi cũng sẽ đi.",
+      "answers": [
+        "(明日)雨が降っても、(私は)行きます。",
+        "(明日)雨でも、(私は)行きます。"
+      ],
+      "examples": [
+        {
+          "answer": "あめがふっても、いきます",
+          "score": 100
+        },
+        {
+          "answer": "雨を降っても、行きます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "雨が降っても、行きません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-09-e21",
+      "type": "translate",
+      "grammar": [
+        "to"
+      ],
+      "vi": "(Chỉ đường) Đi thẳng đường này thì ga ở bên phải.",
+      "answers": [
+        "この道をまっすぐ行くと、右に駅があります。",
+        "この道をまっすぐ行くと、駅[は|が]右にあります。",
+        "この道をまっすぐ[行けば|行ったら]、右に駅があります。",
+        "この道をまっすぐ[行けば|行ったら]、駅[は|が]右にあります。"
+      ],
+      "examples": [
+        {
+          "answer": "このみちをまっすぐいくと、みぎにえきがあります",
+          "score": 100
+        },
+        {
+          "answer": "この道をまっすぐ行くと、右に駅がいます。",
+          "score": 80,
+          "issues": [
+            "aru_iru"
+          ]
+        },
+        {
+          "answer": "この道でまっすぐ行くと、右に駅があります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "この道をまっすぐ行くと、左に駅があります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-09-e22",
+      "type": "translate",
+      "grammar": [
+        "nara"
+      ],
+      "vi": "(Bạn bè nói muốn uống cà phê) Cà phê thì quán trước ga ngon đấy.",
+      "answers": [
+        "コーヒーなら、駅の前の店がおいしい(です)よ。",
+        "コーヒー[なら|だったら]、駅の前の店がおいしい(です)(よ)。"
+      ],
+      "examples": [
+        {
+          "answer": "コーヒーなら、えきのまえのみせがおいしいですよ",
+          "score": 100
+        },
+        {
+          "answer": "コーヒーなら、駅の前の店をおいしいですよ。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "紅茶なら、駅の前の店がおいしいですよ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-09-e23",
+      "type": "question",
+      "grammar": [
+        "te-mo-kamawanai"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "ここに車を止めてもいいですか。",
+        "promptVi": "Khách hỏi: “Tôi đỗ xe ở đây được không?” Hãy trả lời lịch sự rằng đỗ ở đây cũng không sao, dùng かまいません.",
+        "answers": [
+          "[ええ|はい]、(ここに)止めてもかまいません(よ)。",
+          "[ええ|はい]、(ここに)(車を)止めてもかまいません(よ)。",
+          "[ええ|はい]、かまいません(よ)。"
+        ],
+        "examples": [
+          {
+            "answer": "ええ、とめてもかまいません",
+            "score": 100
+          },
+          {
+            "answer": "ええ、ここで止めてもかまいません。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "いいえ、止めてはいけません。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "古い時計ですが、まだ動きます。": "{古|ふる}い{時計|とけい}ですが、まだ{動|うご}きます。",
+    "父はタクシーの運転手です。": "{父|ちち}はタクシーの{運|うん}{転|てん}{手|しゅ}です。",
+    "エスカレーターに乗って、3階へ行きました。": "エスカレーターに{乗|の}って、3{階|がい}へ{行|い}きました。",
+    "ベトナムでは、オートバイに乗る人が多いです。": "ベトナムでは、オートバイに{乗|の}る{人|ひと}が{多|おお}いです。",
+    "階段を下りて、右へ曲がってください。": "{階|かい}{段|だん}を{下|お}りて、{右|みぎ}へ{曲|ま}がってください。",
+    "車のガソリンがなくなりました。": "{車|くるま}のガソリンがなくなりました。",
+    "この先にガソリンスタンドがあります。": "この{先|さき}にガソリンスタンドがあります。",
+    "ええ、かまいませんよ。": "ええ、かまいませんよ。",
+    "空港まで電車で1時間かかります。": "{空|くう}{港|こう}まで{電|でん}{車|しゃ}で1{時間|じかん}かかります。",
+    "朝の電車はとても込んでいます。": "{朝|あさ}の{電|でん}{車|しゃ}はとても{込|こ}んでいます。",
+    "この坂を下りると、駅があります。": "この{坂|さか}を{下|お}りると、{駅|えき}があります。",
+    "この部屋は自由に使ってください。": "この{部屋|へや}は{自|じ}{由|ゆう}に{使|つか}ってください。",
+    "ボタンを押しました。すると、ドアが開きました。": "ボタンを{押|お}しました。すると、ドアが{開|あ}きました。",
+    "黄色い線の後ろで待ってください。": "{黄|き}{色|いろ}い{線|せん}の{後|うし}ろで{待|ま}ってください。",
+    "毎朝、この公園を通って、駅へ行きます。": "{毎|まい}{朝|あさ}、この{公|こう}{園|えん}を{通|とお}って、{駅|えき}へ{行|い}きます。",
+    "ここに車を止めてもいいですか。": "ここに{車|くるま}を{止|と}めてもいいですか。",
+    "電話が鳴っています。": "{電|でん}{話|わ}が{鳴|な}っています。",
+    "東京駅で地下鉄に乗り換えます。": "{東京|とうきょう}{駅|えき}で{地|ち}{下|か}{鉄|てつ}に{乗|の}り{換|か}えます。",
+    "子供は乗り物が大好きです。": "{子|こ}{供|ども}は{乗|の}り{物|もの}が{大|だい}{好|す}きです。",
+    "会議の場所はどこですか。": "{会|かい}{議|ぎ}の{場|ば}{所|しょ}はどこですか。",
+    "駅の前に高いビルがあります。": "{駅|えき}の{前|まえ}に{高|たか}いビルがあります。",
+    "授業のベルが鳴りました。": "{授|じゅ}{業|ぎょう}のベルが{鳴|な}りました。",
+    "バスで京都の町を回りました。": "バスで{京都|きょうと}の{町|まち}を{回|まわ}りました。",
+    "今、空港に向かっています。": "{今|いま}、{空|くう}{港|こう}に{向|む}かっています。",
+    "もちろん、パーティーに行きます。": "もちろん、パーティーに{行|い}きます。",
+    "川で舟に乗りました。": "{川|かわ}で{舟|ふね}に{乗|の}りました。",
+    "京都へ行くなら、秋がいいですよ。": "{京都|きょうと}へ{行|い}くなら、{秋|あき}がいいですよ。",
+    "コーヒーなら、駅の前の店がおいしいですよ。": "コーヒーなら、{駅|えき}の{前|まえ}の{店|みせ}がおいしいですよ。",
+    "暇なら、一緒に映画を見に行きませんか。": "{暇|ひま}なら、{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}に{行|い}きませんか。",
+    "暇だなら、一緒に映画を見に行きませんか。": "{暇|ひま}だなら、{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}に{行|い}きませんか。",
+    "京都へ行きますなら、秋がいいですよ。": "{京都|きょうと}へ{行|い}きますなら、{秋|あき}がいいですよ。",
+    "このボタンを押すと、ドアが開きます。": "このボタンを{押|お}すと、ドアが{開|あ}きます。",
+    "この道をまっすぐ行くと、右に駅があります。": "この{道|みち}をまっすぐ{行|い}くと、{右|みぎ}に{駅|えき}があります。",
+    "春になると、暖かくなります。": "{春|はる}になると、{暖|あたた}かくなります。",
+    "急がないと、電車に間に合いませんよ。": "{急|いそ}がないと、{電|でん}{車|しゃ}に{間|ま}に{合|あ}いませんよ。",
+    "駅に着いたら、電話してください。": "{駅|えき}に{着|つ}いたら、{電|でん}{話|わ}してください。",
+    "駅に着くと、電話してください。": "{駅|えき}に{着|つ}くと、{電|でん}{話|わ}してください。",
+    "このボタンを押したと、ドアが開きます。": "このボタンを{押|お}したと、ドアが{開|あ}きます。",
+    "雨が降っても、出かけます。": "{雨|あめ}が{降|ふ}っても、{出|で}かけます。",
+    "この部屋は冬でも暖かいです。": "この{部屋|へや}は{冬|ふゆ}でも{暖|あたた}かいです。",
+    "この辞典は高くても、買います。": "この{辞|じ}{典|てん}は{高|たか}くても、{買|か}います。",
+    "いくら練習しても、上手になりません。": "いくら{練|れん}{習|しゅう}しても、{上手|じょうず}になりません。",
+    "雨が降るでも、出かけます。": "{雨|あめ}が{降|ふ}るでも、{出|で}かけます。",
+    "高くても、買います。": "{高|たか}くても、{買|か}います。",
+    "高いでも、買います。": "{高|たか}いでも、{買|か}います。",
+    "静かでも、この町は好きじゃありません。": "{静|しず}かでも、この{町|まち}は{好|す}きじゃありません。",
+    "静かくても、この町は好きじゃありません。": "{静|しず}かくても、この{町|まち}は{好|す}きじゃありません。",
+    "ここに車を止めてもかまいません。": "ここに{車|くるま}を{止|と}めてもかまいません。",
+    "明日、休んでもかまいませんか。": "{明日|あした}、{休|やす}んでもかまいませんか。",
+    "ペンでも鉛筆でもかまいません。": "ペンでも{鉛|えん}{筆|ぴつ}でもかまいません。",
+    "明日は来なくてもかまいません。": "{明日|あした}は{来|こ}なくてもかまいません。",
+    "ここに車を止めるもかまいません。": "ここに{車|くるま}を{止|と}めるもかまいません。",
+    "明日、休んでもかまいますか。": "{明日|あした}、{休|やす}んでもかまいますか。",
+    "京都へ行くと、秋がいいですよ。": "{京都|きょうと}へ{行|い}くと、{秋|あき}がいいですよ。",
+    "京都へ行っても、秋がいいですよ。": "{京都|きょうと}へ{行|い}っても、{秋|あき}がいいですよ。",
+    "なら": "なら",
+    "だなら": "だなら",
+    "でも": "でも",
+    "店が": "{店|みせ}が",
+    "駅の前の": "{駅|えき}の{前|まえ}の",
+    "おいしいですよ": "おいしいですよ",
+    "コーヒーなら": "コーヒーなら",
+    "コーヒーなら駅の前の店がおいしいですよ": "コーヒーなら{駅|えき}の{前|まえ}の{店|みせ}がおいしいですよ",
+    "このボタンを押しても、ドアが開きます。": "このボタンを{押|お}しても、ドアが{開|あ}きます。",
+    "と": "と",
+    "ても": "ても",
+    "まで": "まで",
+    "駅に着いても、電話してください。": "{駅|えき}に{着|つ}いても、{電|でん}{話|わ}してください。",
+    "なります": "なります",
+    "暖かく": "{暖|あたた}かく",
+    "春に": "{春|はる}に",
+    "なると": "なると",
+    "春になると暖かくなります": "{春|はる}になると{暖|あたた}かくなります",
+    "雨が降っても、行きます。": "{雨|あめ}が{降|ふ}っても、{行|い}きます。",
+    "雨が降ったら、行きます。": "{雨|あめ}が{降|ふ}ったら、{行|い}きます。",
+    "雨が降ると、行きます。": "{雨|あめ}が{降|ふ}ると、{行|い}きます。",
+    "から": "から",
+    "高くても": "{高|たか}くても",
+    "高いでも": "{高|たか}いでも",
+    "高かったら": "{高|たか}かったら",
+    "わかりません": "わかりません",
+    "聞いても": "{聞|き}いても",
+    "何回": "{何回|なんかい}",
+    "何回聞いてもわかりません": "{何回|なんかい}{聞|き}いてもわかりません",
+    "明日、休むもかまいませんか。": "{明日|あした}、{休|やす}むもかまいませんか。",
+    "止めて": "{止|と}めて",
+    "止める": "{止|と}める",
+    "止めた": "{止|と}めた",
+    "明日は来てもかまいません。": "{明日|あした}は{来|き}てもかまいません。",
+    "明日は来ないでください。": "{明日|あした}は{来|こ}ないでください。",
+    "空港": "{空|くう}{港|こう}",
+    "運転手": "{運|うん}{転|てん}{手|しゅ}",
+    "乗り物": "{乗|の}り{物|もの}",
+    "場所": "{場|ば}{所|しょ}",
+    "エスカレーター": "エスカレーター",
+    "オートバイ": "オートバイ",
+    "ガソリンスタンド": "ガソリンスタンド",
+    "ビル": "ビル",
+    "朝の電車はとても＿います。": "{朝|あさ}の{電|でん}{車|しゃ}はとても＿います。",
+    "込んで": "{込|こ}んで",
+    "動いて": "{動|うご}いて",
+    "通って": "{通|とお}って",
+    "東京駅で地下鉄に＿。": "{東京|とうきょう}{駅|えき}で{地|ち}{下|か}{鉄|てつ}に＿。",
+    "乗り換えます": "{乗|の}り{換|か}えます",
+    "下ります": "{下|お}ります",
+    "回ります": "{回|まわ}ります",
+    "階段を＿、右へ曲がってください。": "{階|かい}{段|だん}を＿、{右|みぎ}へ{曲|ま}がってください。",
+    "下りて": "{下|お}りて",
+    "向かって": "{向|む}かって",
+    "明日雨が降っても、私は行きます。": "{明日|あした}{雨|あめ}が{降|ふ}っても、{私|わたし}は{行|い}きます。",
+    "明日雨でも、私は行きます。": "{明日|あした}{雨|あめ}でも、{私|わたし}は{行|い}きます。",
+    "この道をまっすぐ行くと、駅は右にあります。": "この{道|みち}をまっすぐ{行|い}くと、{駅|えき}は{右|みぎ}にあります。",
+    "この道をまっすぐ行けば、右に駅があります。": "この{道|みち}をまっすぐ{行|い}けば、{右|みぎ}に{駅|えき}があります。",
+    "この道をまっすぐ行けば、駅は右にあります。": "この{道|みち}をまっすぐ{行|い}けば、{駅|えき}は{右|みぎ}にあります。",
+    "ええ、ここに止めてもかまいませんよ。": "ええ、ここに{止|と}めてもかまいませんよ。",
+    "ええ、ここに車を止めてもかまいませんよ。": "ええ、ここに{車|くるま}を{止|と}めてもかまいませんよ。"
+  }
+}

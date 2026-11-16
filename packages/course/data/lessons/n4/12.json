@@ -1,0 +1,1239 @@
+{
+  "id": "n4-12",
+  "goalsVi": [
+    "Nói sự thay đổi từ nay về sau và cho tới bây giờ: 暑くなっていきます、日本語がおもしろくなってきました",
+    "Nói đi làm gì rồi về, mang đi, mang về: ちょっと飲み物を買ってきます、傘を持っていってください",
+    "Nói bắt đầu, làm xong, làm liên tục, bỗng nhiên làm: 読み始めました、書き終わりました、歩き続けました、泣き出しました",
+    "Nói về thành phố, dân số và sự thay đổi: 人口が増えています、町がずいぶん変わりました"
+  ],
+  "words": [
+    {
+      "no": 681,
+      "word": "上がる",
+      "meaningsVi": [
+        "tăng lên, lên cao",
+        "đi lên",
+        "bước vào (nhà)"
+      ],
+      "noteVi": "Tự động từ: 熱が上がる, 値段が上がる. Mời khách vào nhà: どうぞ、上がってください (bước từ 玄関 lên sàn nhà). Ngược nghĩa: 下がる.",
+      "examples": [
+        {
+          "ja": "夜になって、熱が上がりました。",
+          "vi": "Đến tối thì sốt cao lên."
+        },
+        {
+          "ja": "どうぞ、上がってください。",
+          "vi": "Mời anh vào nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 919,
+      "word": "下がる",
+      "meaningsVi": [
+        "giảm, hạ xuống",
+        "lùi lại"
+      ],
+      "noteVi": "Tự động từ: 熱が下がる (hạ sốt). Tha động từ \"hạ, giảm\" là 下げる.",
+      "examples": [
+        {
+          "ja": "薬を飲んで、熱が下がりました。",
+          "vi": "Uống thuốc xong, tôi đã hạ sốt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 705,
+      "word": "生きる",
+      "meaningsVi": [
+        "sống (còn sống, sống đời)"
+      ],
+      "noteVi": "Tiếng Việt \"sống\" có hai nghĩa: sống (không chết) là 生きる; sống ở đâu là 住む.",
+      "examples": [
+        {
+          "ja": "おばあさんは100歳まで生きました。",
+          "vi": "Bà cụ đã sống đến 100 tuổi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 784,
+      "word": "終わり",
+      "meaningsVi": [
+        "kết thúc, phần cuối"
+      ],
+      "noteVi": "Danh từ của 終わる. Ngược nghĩa: 始め.",
+      "examples": [
+        {
+          "ja": "夏休みももう終わりです。",
+          "vi": "Kỳ nghỉ hè cũng sắp hết rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 793,
+      "word": "科学",
+      "meaningsVi": [
+        "khoa học"
+      ],
+      "noteVi": "Âm Hán Việt \"khoa học\", nghĩa như tiếng Việt (thường là khoa học tự nhiên).",
+      "examples": [
+        {
+          "ja": "兄は大学で科学を勉強しています。",
+          "vi": "Anh tôi học khoa học ở đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 851,
+      "word": "空気",
+      "meaningsVi": [
+        "không khí",
+        "bầu không khí"
+      ],
+      "noteVi": "Âm Hán Việt \"không khí\", dùng cả cho bầu không khí giữa mọi người.",
+      "examples": [
+        {
+          "ja": "田舎は空気がきれいです。",
+          "vi": "Ở quê không khí trong lành."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 934,
+      "word": "市",
+      "meaningsVi": [
+        "thành phố (đơn vị hành chính)"
+      ],
+      "noteVi": "Đứng sau tên thành phố: 大阪市. 町 là thị trấn, khu phố, hoặc \"phố xá\" nói chung.",
+      "examples": [
+        {
+          "ja": "市の図書館で本を借りました。",
+          "vi": "Tôi mượn sách ở thư viện thành phố."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 977,
+      "word": "人口",
+      "meaningsVi": [
+        "dân số"
+      ],
+      "noteVi": "Âm Hán Việt \"nhân khẩu\", nhưng nghĩa là dân số của cả một vùng, nước. Đông dân: 人口が多い.",
+      "examples": [
+        {
+          "ja": "東京は人口が多いです。",
+          "vi": "Tokyo đông dân."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 879,
+      "word": "郊外",
+      "meaningsVi": [
+        "ngoại ô, ngoại thành"
+      ],
+      "noteVi": "Âm Hán Việt \"giao ngoại\".",
+      "examples": [
+        {
+          "ja": "郊外に家を買いました。",
+          "vi": "Tôi đã mua nhà ở ngoại ô."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 992,
+      "word": "進む",
+      "meaningsVi": [
+        "tiến lên, tiến triển"
+      ],
+      "noteVi": "Cũng dùng cho đồng hồ chạy nhanh: この時計は5分進んでいます.",
+      "examples": [
+        {
+          "ja": "科学がどんどん進んでいます。",
+          "vi": "Khoa học đang tiến bộ rất nhanh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 916,
+      "word": "最初",
+      "meaningsVi": [
+        "đầu tiên, lúc đầu"
+      ],
+      "noteVi": "Âm Hán Việt \"tối sơ\". Ngược nghĩa: 最後.",
+      "examples": [
+        {
+          "ja": "最初は日本語が全然わかりませんでした。",
+          "vi": "Lúc đầu tôi hoàn toàn không hiểu tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 915,
+      "word": "最後",
+      "meaningsVi": [
+        "cuối cùng, sau cùng"
+      ],
+      "noteVi": "Âm Hán Việt \"tối hậu\" (như \"tối hậu thư\").",
+      "examples": [
+        {
+          "ja": "最後の問題が難しかったです。",
+          "vi": "Câu hỏi cuối cùng khó."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 920,
+      "word": "盛ん",
+      "meaningsVi": [
+        "thịnh hành, phát triển mạnh, sôi nổi"
+      ],
+      "noteVi": "Tính từ đuôi な, âm Hán Việt \"thịnh\": hoạt động nào đó được nhiều người làm, phát triển mạnh.",
+      "examples": [
+        {
+          "ja": "この大学は科学の研究が盛んです。",
+          "vi": "Trường đại học này nghiên cứu khoa học rất mạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 984,
+      "word": "ずいぶん",
+      "meaningsVi": [
+        "khá, rất (hơn mình nghĩ)"
+      ],
+      "noteVi": "Kèm sự ngạc nhiên của người nói: ずいぶん寒くなりましたね (Trời lạnh hẳn rồi nhỉ).",
+      "examples": [
+        {
+          "ja": "ずいぶん寒くなりましたね。",
+          "vi": "Trời lạnh hẳn rồi nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1038,
+      "word": "だいぶ",
+      "meaningsVi": [
+        "khá nhiều, đáng kể"
+      ],
+      "noteVi": "Hay dùng khi nói về sự thay đổi, tiến bộ: だいぶよくなりました (đã khá hơn nhiều).",
+      "examples": [
+        {
+          "ja": "日本語がだいぶ上手になりました。",
+          "vi": "Tiếng Nhật của tôi đã giỏi lên nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1076,
+      "word": "続く",
+      "meaningsVi": [
+        "tiếp diễn, kéo dài"
+      ],
+      "noteVi": "Tự động từ: 雨が続く (mưa kéo dài). Tha động từ: 続ける.",
+      "examples": [
+        {
+          "ja": "雨が3日続いています。",
+          "vi": "Mưa đã kéo dài 3 ngày rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1077,
+      "word": "続ける",
+      "meaningsVi": [
+        "tiếp tục (làm gì)"
+      ],
+      "noteVi": "Tha động từ: 勉強を続ける. Sau dạng ます bỏ ます: 歩き続ける (đi bộ mãi).",
+      "examples": [
+        {
+          "ja": "日本語の勉強を続けています。",
+          "vi": "Tôi vẫn đang tiếp tục học tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1156,
+      "word": "始める",
+      "meaningsVi": [
+        "bắt đầu (làm gì)"
+      ],
+      "noteVi": "Tha động từ: 仕事を始める (ai bắt đầu việc gì). Tự động từ: 授業が始まる (tiết học bắt đầu).",
+      "examples": [
+        {
+          "ja": "来月から新しい仕事を始めます。",
+          "vi": "Từ tháng sau tôi bắt đầu công việc mới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1204,
+      "word": "降り出す",
+      "meaningsVi": [
+        "(mưa, tuyết) bắt đầu rơi"
+      ],
+      "noteVi": "Ghép từ 降る + 出す (xem ngữ pháp 〜出す): mưa bắt đầu rơi, thường là bất chợt.",
+      "examples": [
+        {
+          "ja": "午後から雨が降り出しました。",
+          "vi": "Từ chiều trời bắt đầu mưa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1118,
+      "word": "泣く",
+      "meaningsVi": [
+        "khóc"
+      ],
+      "noteVi": "Cùng cách đọc なく với 鳴く (chim, côn trùng kêu). Người khóc: 泣く.",
+      "examples": [
+        {
+          "ja": "子供が泣いています。",
+          "vi": "Đứa trẻ đang khóc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1302,
+      "word": "笑う",
+      "meaningsVi": [
+        "cười"
+      ],
+      "examples": [
+        {
+          "ja": "彼女はいつも笑っています。",
+          "vi": "Cô ấy lúc nào cũng tươi cười."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 859,
+      "word": "暮れる",
+      "meaningsVi": [
+        "(trời) tối, (ngày, năm) hết"
+      ],
+      "noteVi": "Hay gặp: 日が暮れる (trời tối, mặt trời lặn), 年が暮れる (cuối năm).",
+      "examples": [
+        {
+          "ja": "冬は日が早く暮れます。",
+          "vi": "Mùa đông trời tối sớm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1170,
+      "word": "日",
+      "meaningsVi": [
+        "ngày",
+        "mặt trời, ánh nắng"
+      ],
+      "noteVi": "Đứng một mình đọc ひ: その日 (hôm đó), 日が暮れる. Trong từ ghép đọc khác: 毎日 (にち), 三日 (か), 日曜日 (び).",
+      "examples": [
+        {
+          "ja": "その日は雨でした。",
+          "vi": "Hôm đó trời mưa."
+        },
+        {
+          "ja": "とうとう国へ帰る日が来ました。",
+          "vi": "Rốt cuộc ngày về nước cũng đã đến."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1192,
+      "word": "増える",
+      "meaningsVi": [
+        "tăng lên"
+      ],
+      "noteVi": "Tự động từ: 人口が増える. Ngược nghĩa: 減る (へる, giảm).",
+      "examples": [
+        {
+          "ja": "日本に住むベトナム人が増えています。",
+          "vi": "Người Việt sống ở Nhật đang tăng lên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 820,
+      "word": "変わる",
+      "meaningsVi": [
+        "thay đổi, đổi khác"
+      ],
+      "noteVi": "Tự động từ: 町が変わる. Tha động từ: 変える (ai thay đổi cái gì).",
+      "examples": [
+        {
+          "ja": "この町はずいぶん変わりました。",
+          "vi": "Thị trấn này đã thay đổi nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1113,
+      "word": "どんどん",
+      "meaningsVi": [
+        "nhanh chóng, ào ào, ngày càng (nhanh)"
+      ],
+      "noteVi": "Thay đổi nhanh và mạnh; だんだん là dần dần, từ từ.",
+      "examples": [
+        {
+          "ja": "人口がどんどん増えていきます。",
+          "vi": "Dân số tăng lên nhanh chóng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1265,
+      "word": "やっと",
+      "meaningsVi": [
+        "cuối cùng thì (sau bao vất vả, chờ đợi)"
+      ],
+      "noteVi": "Dùng khi kết quả mong đợi đến sau nhiều cố gắng; người nói thấy nhẹ nhõm.",
+      "examples": [
+        {
+          "ja": "やっと宿題が終わりました。",
+          "vi": "Cuối cùng cũng làm xong bài tập."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1099,
+      "word": "とうとう",
+      "meaningsVi": [
+        "rốt cuộc, cuối cùng (sau một thời gian dài)"
+      ],
+      "noteVi": "Kết quả đến sau một thời gian dài, có thể tốt hoặc xấu: とうとう雨が降り出した. やっと chỉ dùng cho kết quả tốt, mong đợi.",
+      "examples": [
+        {
+          "ja": "とうとう雨が降り出しました。",
+          "vi": "Rốt cuộc trời cũng đổ mưa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "始",
+      "meaningVi": "bắt đầu",
+      "noteVi": "Gặp trong 始める (はじめる), 始まる (はじまる). Bộ 女 bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "終",
+      "meaningVi": "kết thúc",
+      "noteVi": "Gặp trong 終わる (おわる), 終わり. Bộ 糸 (sợi tơ) bên trái: hết cuộn chỉ.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "多",
+      "meaningVi": "nhiều",
+      "noteVi": "Gặp trong 多い (おおい). Hai chữ 夕 chồng lên nhau.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "少",
+      "meaningVi": "ít",
+      "noteVi": "Gặp trong 少ない (すくない), 少し (すこし). Giống 小 (nhỏ) thêm một nét phẩy ở dưới.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "口",
+      "meaningVi": "miệng; cửa",
+      "noteVi": "Gặp trong 口 (くち), 入口, 出口, 人口 (じんこう). Hình cái miệng mở.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "広",
+      "meaningVi": "rộng",
+      "noteVi": "Gặp trong 広い (ひろい). Bộ 广 (mái nhà) ở trên.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "te-iku",
+      "titleVi": "〜ていく: làm rồi đi; (thay đổi) từ nay về sau",
+      "summaryVi": "V-て + いく: làm việc gì rồi đi, mang đi, hoặc sự thay đổi tiếp diễn từ bây giờ về sau: 暑くなっていきます.",
+      "explanationVi": [
+        "**V-て + いく** (いく viết bằng kana) có ba cách dùng chính. (1) **Làm việc gì rồi đi**: 「お弁当を買っていきます」 (Tôi mua cơm hộp rồi đi). 持っていく, 連れていく: mang đi, dẫn đi.",
+        "(2) **Di chuyển ra xa** người nói: 「鳥が空へ飛んでいきました」 (Con chim bay đi mất). (3) **Sự thay đổi tiếp diễn từ bây giờ về sau**: 「これからだんだん暑くなっていきます」 (Từ giờ trời sẽ nóng dần lên). Tiếng Việt hay nói \"… dần\", \"ngày càng …\", \"… đi\".",
+        "Cách ghép: thể て + いく, chia như 行く: いきます, いった, いって (không phải いきて). Hãy hình dung một mũi tên đi **ra xa** người nói: về không gian (đi khỏi đây) hoặc về thời gian (từ nay về sau)."
+      ],
+      "patterns": [
+        "V-て + いく／いきます",
+        "(これから) 〜くなって／〜になって いく"
+      ],
+      "examples": [
+        {
+          "ja": "これからだんだん暑くなっていきます。",
+          "vi": "Từ giờ trời sẽ nóng dần lên."
+        },
+        {
+          "ja": "午後は雨ですから、傘を持っていってください。",
+          "vi": "Chiều nay trời mưa, hãy mang ô theo."
+        },
+        {
+          "ja": "人口はこれからも増えていくでしょう。",
+          "vi": "Dân số có lẽ từ nay về sau sẽ còn tăng."
+        },
+        {
+          "ja": "鳥が空へ飛んでいきました。",
+          "vi": "Con chim đã bay đi lên trời."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "傘を持っていきてください。",
+          "right": "傘を持っていってください。",
+          "noteVi": "いく chia như 行く: thể て là いって, không phải いきて."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-kuru",
+      "titleVi": "〜てくる: làm rồi về; (thay đổi) cho tới bây giờ; bắt đầu",
+      "summaryVi": "V-て + くる: đi làm gì rồi quay lại, di chuyển về phía người nói, hoặc sự thay đổi từ trước tới bây giờ: 寒くなってきました.",
+      "explanationVi": [
+        "**V-て + くる** (くる viết bằng kana) là chiều ngược lại của 〜ていく: mũi tên hướng **về phía** người nói. (1) **Đi làm gì rồi quay lại**: 「ちょっと飲み物を買ってきます」 (Tôi đi mua đồ uống rồi về ngay). (2) **Di chuyển về phía** người nói: 「兄が国から帰ってきました」.",
+        "(3) **Sự thay đổi từ trước cho tới bây giờ**: 「日本語がだんだんおもしろくなってきました」 (Tiếng Nhật dần trở nên thú vị). Cũng dùng khi một việc **vừa bắt đầu** xảy ra: 「雨が降ってきました」 (Trời bắt đầu mưa rồi).",
+        "Cách ghép: thể て + くる, chia như 来る: きます, きた, きて, こない. So sánh: 「寒くなってきました」 (đã lạnh dần, cho tới giờ) và 「寒くなっていきます」 (sẽ lạnh dần, từ giờ về sau)."
+      ],
+      "patterns": [
+        "V-て + くる／きます",
+        "〜くなって／〜になって きました"
+      ],
+      "examples": [
+        {
+          "ja": "ちょっと飲み物を買ってきます。",
+          "vi": "Tôi đi mua đồ uống một chút rồi về ngay."
+        },
+        {
+          "ja": "雨が降ってきました。",
+          "vi": "Trời bắt đầu mưa rồi."
+        },
+        {
+          "ja": "日本語がだんだんおもしろくなってきました。",
+          "vi": "Tiếng Nhật dần trở nên thú vị."
+        },
+        {
+          "ja": "兄が国から帰ってきました。",
+          "vi": "Anh tôi đã từ quê nhà trở về."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "雨が降りてきました。",
+          "right": "雨が降ってきました。",
+          "noteVi": "降る (mưa rơi) có thể て là 降って; 降りて là của 降りる (xuống xe)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "hajimeru-owaru-tsuzukeru",
+      "titleVi": "〜始める / 〜終わる / 〜続ける: bắt đầu, làm xong, làm liên tục",
+      "summaryVi": "V (bỏ ます) + 始める / 終わる / 続ける: bắt đầu làm, làm xong, cứ tiếp tục làm: 読み始めました、書き終わりました.",
+      "explanationVi": [
+        "Ghép **dạng ます bỏ ます** với 始める (bắt đầu), 終わる (xong), 続ける (tiếp tục) để tạo thành một động từ mới: 「読みます → 読み始める」 (bắt đầu đọc), 「書きます → 書き終わる」 (viết xong), 「歩きます → 歩き続ける」 (cứ đi bộ mãi).",
+        "Tiếng Việt đặt \"bắt đầu\", \"tiếp tục\" **trước** động từ, \"xong\" **sau**; tiếng Nhật luôn đặt các từ này **sau** động từ. Chỉ phần sau được chia: 読み始めました, 書き終わった, 歩き続けています.",
+        "Có thể dùng cho thiên nhiên: 「雨が降り始めました」. 〜終わる dùng cho việc có điểm kết thúc rõ ràng (đọc hết quyển sách, ăn hết bữa)."
+      ],
+      "patterns": [
+        "V (bỏ ます) + 始める",
+        "V (bỏ ます) + 終わる",
+        "V (bỏ ます) + 続ける"
+      ],
+      "examples": [
+        {
+          "ja": "先週からこの本を読み始めました。",
+          "vi": "Tôi bắt đầu đọc quyển sách này từ tuần trước."
+        },
+        {
+          "ja": "やっとレポートを書き終わりました。",
+          "vi": "Cuối cùng tôi cũng viết xong báo cáo."
+        },
+        {
+          "ja": "2時間歩き続けて、疲れました。",
+          "vi": "Đi bộ liền 2 tiếng nên tôi mệt rồi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先週からこの本を読む始めました。",
+          "right": "先週からこの本を読み始めました。",
+          "noteVi": "始める ghép với dạng ます bỏ ます (読み), không ghép với thể từ điển (読む)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "dasu",
+      "titleVi": "〜出す: bỗng nhiên bắt đầu",
+      "summaryVi": "V (bỏ ます) + 出す: một việc bỗng nhiên bắt đầu, ngoài dự đoán: 子供が泣き出しました.",
+      "explanationVi": [
+        "**V (bỏ ます) + 出す** nghĩa là **bỗng nhiên bắt đầu**, thường là việc xảy ra bất ngờ, không kiểm soát được: 「子供が泣き出しました」 (Đứa trẻ òa khóc), 「みんなが笑い出しました」 (Mọi người phá lên cười), 「雨が降り出しました」.",
+        "Tiếng Việt hay nói \"òa (khóc)\", \"phá lên (cười)\", \"bỗng\", \"đổ (mưa)\". Cách ghép giống 〜始める: 泣きます → 泣き出す.",
+        "Khác với 〜始める: 〜出す **không** dùng cho việc mình định làm, kế hoạch, lời mời hay nhờ vả. \"Từ mai tôi bắt đầu học\" phải nói 「明日から勉強し始めます」, không nói 勉強し出します."
+      ],
+      "patterns": [
+        "V (bỏ ます) + 出す／出しました"
+      ],
+      "examples": [
+        {
+          "ja": "映画を見て、子供が泣き出しました。",
+          "vi": "Xem phim, đứa trẻ bỗng òa khóc."
+        },
+        {
+          "ja": "田中さんの話を聞いて、みんなが笑い出しました。",
+          "vi": "Nghe chuyện anh Tanaka kể, mọi người phá lên cười."
+        },
+        {
+          "ja": "雨が降り出しました。",
+          "vi": "Trời đổ mưa."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日から日本語を勉強し出します。",
+          "right": "明日から日本語を勉強し始めます。",
+          "noteVi": "Việc mình có kế hoạch làm thì dùng 〜始める; 〜出す chỉ việc bỗng nhiên xảy ra."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-12-e01",
+      "type": "choice",
+      "grammar": [
+        "te-iku"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Từ giờ trời sẽ lạnh dần\"?",
+      "options": [
+        "これからだんだん寒くなっていきます。",
+        "今までだんだん寒くなってきました。",
+        "これからだんだん寒くなりました。"
+      ],
+      "answer": 0,
+      "explainVi": "Thay đổi từ bây giờ về sau: 〜ていく."
+    },
+    {
+      "id": "n4-12-e02",
+      "type": "fill",
+      "grammar": [
+        "te-iku"
+      ],
+      "before": "午後は雨だから、傘を持って",
+      "after": "ね。",
+      "answers": [
+        "いって"
+      ],
+      "options": [
+        "いって",
+        "きて",
+        "みて"
+      ],
+      "vi": "(Mẹ dặn con trước khi con ra khỏi nhà) Chiều nay mưa đấy, mang ô theo nhé."
+    },
+    {
+      "id": "n4-12-e03",
+      "type": "order",
+      "grammar": [
+        "te-iku"
+      ],
+      "vi": "Dân số có lẽ sẽ ngày càng tăng nhanh.",
+      "tiles": [
+        "人口は",
+        "どんどん",
+        "増えて",
+        "いくでしょう"
+      ],
+      "answers": [
+        "人口はどんどん増えていくでしょう"
+      ]
+    },
+    {
+      "id": "n4-12-e04",
+      "type": "fill",
+      "grammar": [
+        "te-kuru"
+      ],
+      "before": "ちょっと飲み物を買って",
+      "after": "ます。",
+      "answers": [
+        "き"
+      ],
+      "options": [
+        "き",
+        "い",
+        "しまい"
+      ],
+      "vi": "Tôi đi mua đồ uống một chút rồi về ngay."
+    },
+    {
+      "id": "n4-12-e05",
+      "type": "choice",
+      "grammar": [
+        "te-kuru"
+      ],
+      "promptVi": "Đang đi ngoài đường, bạn thấy mưa vừa bắt đầu rơi. Bạn nói câu nào?",
+      "options": [
+        "雨が降ってきました。",
+        "雨が降っていきました。",
+        "雨が降りてきました。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc vừa bắt đầu xảy ra: 〜てきました. 降る → 降って."
+    },
+    {
+      "id": "n4-12-e06",
+      "type": "choice",
+      "grammar": [
+        "te-kuru"
+      ],
+      "promptVi": "\"Việc học tiếng Nhật dần trở nên thú vị (cho tới bây giờ).\" Chọn từ đúng.",
+      "ja": "日本語の勉強がおもしろくなって＿。",
+      "options": [
+        "きました",
+        "いきました",
+        "みました"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-12-e07",
+      "type": "order",
+      "grammar": [
+        "te-kuru"
+      ],
+      "vi": "Anh tôi đã từ Nhật trở về.",
+      "tiles": [
+        "兄が",
+        "日本から",
+        "帰って",
+        "きました"
+      ],
+      "answers": [
+        "兄が日本から帰ってきました",
+        "日本から兄が帰ってきました"
+      ]
+    },
+    {
+      "id": "n4-12-e08",
+      "type": "fill",
+      "grammar": [
+        "hajimeru-owaru-tsuzukeru"
+      ],
+      "before": "この本は先週から読み",
+      "after": "ました。",
+      "answers": [
+        "始め"
+      ],
+      "options": [
+        "始め",
+        "終わり",
+        "続け"
+      ],
+      "vi": "Quyển sách này tôi bắt đầu đọc từ tuần trước."
+    },
+    {
+      "id": "n4-12-e09",
+      "type": "choice",
+      "grammar": [
+        "hajimeru-owaru-tsuzukeru"
+      ],
+      "promptVi": "\"Tôi đã viết xong báo cáo.\" Chọn từ đúng.",
+      "ja": "レポートを＿。",
+      "options": [
+        "書き終わりました",
+        "書き始めました",
+        "書き続けました"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-12-e10",
+      "type": "order",
+      "grammar": [
+        "hajimeru-owaru-tsuzukeru"
+      ],
+      "vi": "Chúng tôi đã đi bộ liền 2 tiếng.",
+      "tiles": [
+        "私たちは",
+        "2時間",
+        "歩き",
+        "続けました"
+      ],
+      "answers": [
+        "私たちは2時間歩き続けました"
+      ]
+    },
+    {
+      "id": "n4-12-e11",
+      "type": "fill",
+      "grammar": [
+        "dasu"
+      ],
+      "before": "映画を見て、子供が泣き",
+      "after": "ました。",
+      "answers": [
+        "出し"
+      ],
+      "options": [
+        "出し",
+        "終わり",
+        "続け"
+      ],
+      "vi": "Xem phim, đứa trẻ bỗng òa khóc."
+    },
+    {
+      "id": "n4-12-e12",
+      "type": "choice",
+      "grammar": [
+        "dasu",
+        "hajimeru-owaru-tsuzukeru"
+      ],
+      "promptVi": "\"Từ tháng sau tôi sẽ bắt đầu học tiếng Anh.\" Câu nào đúng?",
+      "options": [
+        "来月から英語を習い始めます。",
+        "来月から英語を習い出します。",
+        "来月から英語を習い終わります。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc có kế hoạch: 〜始める. 〜出す chỉ việc bỗng nhiên xảy ra."
+    },
+    {
+      "id": "n4-12-e13",
+      "type": "choice",
+      "grammar": [
+        "dasu"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Mọi người bỗng phá lên cười\"?",
+      "options": [
+        "みんなが笑い出しました。",
+        "みんなが笑い終わりました。",
+        "みんなが笑っておきました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-12-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "増える",
+          "tăng lên"
+        ],
+        [
+          "変わる",
+          "thay đổi"
+        ],
+        [
+          "続く",
+          "kéo dài, tiếp diễn"
+        ],
+        [
+          "進む",
+          "tiến lên"
+        ],
+        [
+          "暮れる",
+          "(trời) tối"
+        ]
+      ]
+    },
+    {
+      "id": "n4-12-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "最初",
+          "lúc đầu"
+        ],
+        [
+          "最後",
+          "cuối cùng"
+        ],
+        [
+          "人口",
+          "dân số"
+        ],
+        [
+          "郊外",
+          "ngoại ô"
+        ],
+        [
+          "空気",
+          "không khí"
+        ]
+      ]
+    },
+    {
+      "id": "n4-12-e16",
+      "type": "choice",
+      "promptVi": "\"Cuối cùng (sau bao vất vả) tôi cũng làm xong bài tập.\" Chọn từ đúng.",
+      "ja": "＿宿題が終わりました。",
+      "options": [
+        "やっと",
+        "ずいぶん",
+        "最初"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-12-e17",
+      "type": "choice",
+      "promptVi": "\"Uống thuốc xong, tôi đã hạ sốt.\" Chọn từ đúng.",
+      "ja": "薬を飲んで、熱が＿。",
+      "options": [
+        "下がりました",
+        "上がりました",
+        "増えました"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-12-e18",
+      "type": "translate",
+      "grammar": [
+        "te-iku"
+      ],
+      "vi": "Từ giờ trời sẽ nóng dần lên. (dùng 〜ていく)",
+      "answers": [
+        "これからだんだん暑くなっていきます。",
+        "これから(だんだん)暑くなって[いきます|いく|いくでしょう]。",
+        "これからどんどん暑くなって[いきます|いく|いくでしょう]。"
+      ],
+      "examples": [
+        {
+          "answer": "これからだんだんあつくなっていきます",
+          "score": 100
+        },
+        {
+          "answer": "これからだんだん暑くなってきます。",
+          "score": 0
+        },
+        {
+          "answer": "これからだんだん寒くなっていきます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-12-e19",
+      "type": "translate",
+      "grammar": [
+        "te-kuru"
+      ],
+      "vi": "Trời bắt đầu mưa rồi. (dùng 〜てくる)",
+      "answers": [
+        "雨が降ってきました。",
+        "雨が降ってきた(よ)。"
+      ],
+      "examples": [
+        {
+          "answer": "あめがふってきました",
+          "score": 100
+        },
+        {
+          "answer": "雨を降ってきました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "雨が降りてきました。",
+          "score": 0
+        },
+        {
+          "answer": "雪が降ってきました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-12-e20",
+      "type": "translate",
+      "grammar": [
+        "hajimeru-owaru-tsuzukeru"
+      ],
+      "vi": "Tôi đã đọc xong quyển sách này. (dùng 〜おわる)",
+      "answers": [
+        "(私は)この本を読み終わりました。",
+        "(私は)この本を(もう)読み終わ[りました|った]。"
+      ],
+      "examples": [
+        {
+          "answer": "このほんをよみおわりました",
+          "score": 100
+        },
+        {
+          "answer": "この本を読む終わりました。",
+          "score": 0
+        },
+        {
+          "answer": "この本を読み始めました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-12-e21",
+      "type": "translate",
+      "grammar": [
+        "dasu"
+      ],
+      "vi": "Đứa trẻ bỗng òa khóc. (dùng 〜だす)",
+      "answers": [
+        "子供が泣き出しました。",
+        "子供[が|は]泣き出し[ました|た]。"
+      ],
+      "examples": [
+        {
+          "answer": "こどもがなきだしました",
+          "score": 100
+        },
+        {
+          "answer": "子供を泣き出しました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "子供が笑い出しました。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "夜になって、熱が上がりました。": "{夜|よる}になって、{熱|ねつ}が{上|あ}がりました。",
+    "どうぞ、上がってください。": "どうぞ、{上|あ}がってください。",
+    "薬を飲んで、熱が下がりました。": "{薬|くすり}を{飲|の}んで、{熱|ねつ}が{下|さ}がりました。",
+    "おばあさんは100歳まで生きました。": "おばあさんは100{歳|さい}まで{生|い}きました。",
+    "夏休みももう終わりです。": "{夏|なつ}{休|やす}みももう{終|お}わりです。",
+    "兄は大学で科学を勉強しています。": "{兄|あに}は{大|だい}{学|がく}で{科|か}{学|がく}を{勉|べん}{強|きょう}しています。",
+    "田舎は空気がきれいです。": "{田舎|いなか}は{空|くう}{気|き}がきれいです。",
+    "市の図書館で本を借りました。": "{市|し}の{図|と}{書|しょ}{館|かん}で{本|ほん}を{借|か}りました。",
+    "東京は人口が多いです。": "{東京|とうきょう}は{人|じん}{口|こう}が{多|おお}いです。",
+    "郊外に家を買いました。": "{郊|こう}{外|がい}に{家|いえ}を{買|か}いました。",
+    "科学がどんどん進んでいます。": "{科|か}{学|がく}がどんどん{進|すす}んでいます。",
+    "最初は日本語が全然わかりませんでした。": "{最|さい}{初|しょ}は{日本|にほん}{語|ご}が{全然|ぜんぜん}わかりませんでした。",
+    "最後の問題が難しかったです。": "{最|さい}{後|ご}の{問|もん}{題|だい}が{難|むずか}しかったです。",
+    "この大学は科学の研究が盛んです。": "この{大|だい}{学|がく}は{科|か}{学|がく}の{研|けん}{究|きゅう}が{盛|さか}んです。",
+    "ずいぶん寒くなりましたね。": "ずいぶん{寒|さむ}くなりましたね。",
+    "日本語がだいぶ上手になりました。": "{日本|にほん}{語|ご}がだいぶ{上手|じょうず}になりました。",
+    "雨が3日続いています。": "{雨|あめ}が{3日|みっか}{続|つづ}いています。",
+    "日本語の勉強を続けています。": "{日本|にほん}{語|ご}の{勉|べん}{強|きょう}を{続|つづ}けています。",
+    "来月から新しい仕事を始めます。": "{来|らい}{月|げつ}から{新|あたら}しい{仕|し}{事|ごと}を{始|はじ}めます。",
+    "午後から雨が降り出しました。": "{午|ご}{後|ご}から{雨|あめ}が{降|ふ}り{出|だ}しました。",
+    "子供が泣いています。": "{子|こ}{供|ども}が{泣|な}いています。",
+    "彼女はいつも笑っています。": "{彼|かの}{女|じょ}はいつも{笑|わら}っています。",
+    "冬は日が早く暮れます。": "{冬|ふゆ}は{日|ひ}が{早|はや}く{暮|く}れます。",
+    "その日は雨でした。": "その{日|ひ}は{雨|あめ}でした。",
+    "とうとう国へ帰る日が来ました。": "とうとう{国|くに}へ{帰|かえ}る{日|ひ}が{来|き}ました。",
+    "日本に住むベトナム人が増えています。": "{日本|にほん}に{住|す}むベトナム{人|じん}が{増|ふ}えています。",
+    "この町はずいぶん変わりました。": "この{町|まち}はずいぶん{変|か}わりました。",
+    "人口がどんどん増えていきます。": "{人|じん}{口|こう}がどんどん{増|ふ}えていきます。",
+    "やっと宿題が終わりました。": "やっと{宿|しゅく}{題|だい}が{終|お}わりました。",
+    "とうとう雨が降り出しました。": "とうとう{雨|あめ}が{降|ふ}り{出|だ}しました。",
+    "これからだんだん暑くなっていきます。": "これからだんだん{暑|あつ}くなっていきます。",
+    "午後は雨ですから、傘を持っていってください。": "{午|ご}{後|ご}は{雨|あめ}ですから、{傘|かさ}を{持|も}っていってください。",
+    "人口はこれからも増えていくでしょう。": "{人|じん}{口|こう}はこれからも{増|ふ}えていくでしょう。",
+    "鳥が空へ飛んでいきました。": "{鳥|とり}が{空|そら}へ{飛|と}んでいきました。",
+    "傘を持っていってください。": "{傘|かさ}を{持|も}っていってください。",
+    "傘を持っていきてください。": "{傘|かさ}を{持|も}っていきてください。",
+    "ちょっと飲み物を買ってきます。": "ちょっと{飲|の}み{物|もの}を{買|か}ってきます。",
+    "雨が降ってきました。": "{雨|あめ}が{降|ふ}ってきました。",
+    "日本語がだんだんおもしろくなってきました。": "{日本|にほん}{語|ご}がだんだんおもしろくなってきました。",
+    "兄が国から帰ってきました。": "{兄|あに}が{国|くに}から{帰|かえ}ってきました。",
+    "雨が降りてきました。": "{雨|あめ}が{降|お}りてきました。",
+    "先週からこの本を読み始めました。": "{先|せん}{週|しゅう}からこの{本|ほん}を{読|よ}み{始|はじ}めました。",
+    "やっとレポートを書き終わりました。": "やっとレポートを{書|か}き{終|お}わりました。",
+    "2時間歩き続けて、疲れました。": "2{時間|じかん}{歩|ある}き{続|つづ}けて、{疲|つか}れました。",
+    "先週からこの本を読む始めました。": "{先|せん}{週|しゅう}からこの{本|ほん}を{読|よ}む{始|はじ}めました。",
+    "映画を見て、子供が泣き出しました。": "{映|えい}{画|が}を{見|み}て、{子|こ}{供|ども}が{泣|な}き{出|だ}しました。",
+    "田中さんの話を聞いて、みんなが笑い出しました。": "{田中|たなか}さんの{話|はなし}を{聞|き}いて、みんなが{笑|わら}い{出|だ}しました。",
+    "雨が降り出しました。": "{雨|あめ}が{降|ふ}り{出|だ}しました。",
+    "明日から日本語を勉強し始めます。": "{明日|あした}から{日本|にほん}{語|ご}を{勉|べん}{強|きょう}し{始|はじ}めます。",
+    "明日から日本語を勉強し出します。": "{明日|あした}から{日本|にほん}{語|ご}を{勉|べん}{強|きょう}し{出|だ}します。",
+    "これからだんだん寒くなっていきます。": "これからだんだん{寒|さむ}くなっていきます。",
+    "今までだんだん寒くなってきました。": "{今|いま}までだんだん{寒|さむ}くなってきました。",
+    "これからだんだん寒くなりました。": "これからだんだん{寒|さむ}くなりました。",
+    "午後は雨だから、傘を持っていってね。": "{午|ご}{後|ご}は{雨|あめ}だから、{傘|かさ}を{持|も}っていってね。",
+    "いって": "いって",
+    "きて": "きて",
+    "みて": "みて",
+    "人口は": "{人|じん}{口|こう}は",
+    "どんどん": "どんどん",
+    "増えて": "{増|ふ}えて",
+    "いくでしょう": "いくでしょう",
+    "人口はどんどん増えていくでしょう": "{人|じん}{口|こう}はどんどん{増|ふ}えていくでしょう",
+    "き": "き",
+    "い": "い",
+    "しまい": "しまい",
+    "雨が降っていきました。": "{雨|あめ}が{降|ふ}っていきました。",
+    "日本語の勉強がおもしろくなって＿。": "{日本|にほん}{語|ご}の{勉|べん}{強|きょう}がおもしろくなって＿。",
+    "きました": "きました",
+    "いきました": "いきました",
+    "みました": "みました",
+    "兄が": "{兄|あに}が",
+    "日本から": "{日本|にほん}から",
+    "帰って": "{帰|かえ}って",
+    "兄が日本から帰ってきました": "{兄|あに}が{日本|にほん}から{帰|かえ}ってきました",
+    "日本から兄が帰ってきました": "{日本|にほん}から{兄|あに}が{帰|かえ}ってきました",
+    "この本は先週から読み始めました。": "この{本|ほん}は{先|せん}{週|しゅう}から{読|よ}み{始|はじ}めました。",
+    "始め": "{始|はじ}め",
+    "終わり": "{終|お}わり",
+    "続け": "{続|つづ}け",
+    "レポートを＿。": "レポートを＿。",
+    "書き終わりました": "{書|か}き{終|お}わりました",
+    "書き始めました": "{書|か}き{始|はじ}めました",
+    "書き続けました": "{書|か}き{続|つづ}けました",
+    "私たちは": "{私|わたし}たちは",
+    "2時間": "2{時間|じかん}",
+    "歩き": "{歩|ある}き",
+    "続けました": "{続|つづ}けました",
+    "私たちは2時間歩き続けました": "{私|わたし}たちは2{時間|じかん}{歩|ある}き{続|つづ}けました",
+    "出し": "{出|だ}し",
+    "来月から英語を習い始めます。": "{来|らい}{月|げつ}から{英|えい}{語|ご}を{習|なら}い{始|はじ}めます。",
+    "来月から英語を習い出します。": "{来|らい}{月|げつ}から{英|えい}{語|ご}を{習|なら}い{出|だ}します。",
+    "来月から英語を習い終わります。": "{来|らい}{月|げつ}から{英|えい}{語|ご}を{習|なら}い{終|お}わります。",
+    "みんなが笑い出しました。": "みんなが{笑|わら}い{出|だ}しました。",
+    "みんなが笑い終わりました。": "みんなが{笑|わら}い{終|お}わりました。",
+    "みんなが笑っておきました。": "みんなが{笑|わら}っておきました。",
+    "増える": "{増|ふ}える",
+    "変わる": "{変|か}わる",
+    "続く": "{続|つづ}く",
+    "進む": "{進|すす}む",
+    "暮れる": "{暮|く}れる",
+    "最初": "{最|さい}{初|しょ}",
+    "最後": "{最|さい}{後|ご}",
+    "人口": "{人|じん}{口|こう}",
+    "郊外": "{郊|こう}{外|がい}",
+    "空気": "{空|くう}{気|き}",
+    "＿宿題が終わりました。": "＿{宿|しゅく}{題|だい}が{終|お}わりました。",
+    "やっと": "やっと",
+    "ずいぶん": "ずいぶん",
+    "薬を飲んで、熱が＿。": "{薬|くすり}を{飲|の}んで、{熱|ねつ}が＿。",
+    "下がりました": "{下|さ}がりました",
+    "上がりました": "{上|あ}がりました",
+    "増えました": "{増|ふ}えました",
+    "これからどんどん暑くなっていきます。": "これからどんどん{暑|あつ}くなっていきます。",
+    "雨が降ってきたよ。": "{雨|あめ}が{降|ふ}ってきたよ。",
+    "私はこの本を読み終わりました。": "{私|わたし}はこの{本|ほん}を{読|よ}み{終|お}わりました。",
+    "私はこの本をもう読み終わりました。": "{私|わたし}はこの{本|ほん}をもう{読|よ}み{終|お}わりました。",
+    "子供が泣き出しました。": "{子|こ}{供|ども}が{泣|な}き{出|だ}しました。"
+  }
+}

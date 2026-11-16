@@ -1,0 +1,1283 @@
+{
+  "id": "n4-05",
+  "goalsVi": [
+    "Rủ bạn bè, nói ý định tức thời bằng thể ý chí: 行こう, 休もう",
+    "Nói dự định, kế hoạch: 〜(よ)うと思っています, 〜つもりです, 〜予定です",
+    "Nói về tương lai, học hành, du lịch: 卒業, 入学, 将来, 夢, 旅館, 予約"
+  ],
+  "words": [
+    {
+      "no": 775,
+      "word": "思う",
+      "meaningsVi": [
+        "nghĩ, cho rằng",
+        "định (làm gì)"
+      ],
+      "noteVi": "Điều mình nghĩ đi với と: 〜と思う. Thể ý chí + と思う: định làm gì (行こうと思います). Âm Hán Việt \"tư\" (suy tư).",
+      "examples": [
+        {
+          "ja": "今晩は早く寝ようと思います。",
+          "vi": "Tối nay tôi định đi ngủ sớm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1080,
+      "word": "つもり",
+      "meaningsVi": [
+        "ý định, dự định"
+      ],
+      "noteVi": "V (thể từ điển) + つもりです: định làm gì (ý định đã nghĩ kỹ). Thường viết bằng hiragana.",
+      "examples": [
+        {
+          "ja": "来年、結婚するつもりです。",
+          "vi": "Năm sau tôi định kết hôn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1281,
+      "word": "予定",
+      "meaningsVi": [
+        "lịch, kế hoạch (đã sắp xếp)",
+        "dự kiến"
+      ],
+      "noteVi": "Âm Hán Việt \"dự định\" nhưng 予定 thiên về lịch đã sắp xếp (chuyến bay, cuộc hẹn), không phải ý định trong lòng (つもり). 予定がある: có lịch, có hẹn.",
+      "examples": [
+        {
+          "ja": "土曜日は予定がありますか。",
+          "vi": "Thứ bảy anh có lịch gì không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 861,
+      "word": "計画",
+      "meaningsVi": [
+        "kế hoạch"
+      ],
+      "noteVi": "Âm Hán Việt \"kế hoạch\". 計画を立てる: lập kế hoạch. Thường là kế hoạch lớn, chi tiết hơn 予定.",
+      "examples": [
+        {
+          "ja": "夏休みの旅行の計画を立てました。",
+          "vi": "Tôi đã lập kế hoạch cho chuyến du lịch hè."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1049,
+      "word": "立てる",
+      "meaningsVi": [
+        "lập (kế hoạch, lịch)",
+        "dựng đứng (vật)"
+      ],
+      "noteVi": "予定を立てる, 計画を立てる: lên lịch, lập kế hoạch. Tự động từ tương ứng: 立つ (đứng).",
+      "examples": [
+        {
+          "ja": "来月の予定を立てましょう。",
+          "vi": "Chúng ta lên lịch cho tháng sau nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 971,
+      "word": "将来",
+      "meaningsVi": [
+        "tương lai, sau này"
+      ],
+      "noteVi": "Âm Hán Việt \"tương lai\". Thường nói về tương lai của một người (nghề nghiệp, cuộc sống).",
+      "examples": [
+        {
+          "ja": "将来、医者になりたいです。",
+          "vi": "Sau này tôi muốn trở thành bác sĩ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1274,
+      "word": "夢",
+      "meaningsVi": [
+        "giấc mơ",
+        "ước mơ"
+      ],
+      "noteVi": "夢を見る: nằm mơ. 私の夢は〜ことです: ước mơ của tôi là ….",
+      "examples": [
+        {
+          "ja": "私の夢は日本で先生になることです。",
+          "vi": "Ước mơ của tôi là trở thành giáo viên ở Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1022,
+      "word": "卒業",
+      "meaningsVi": [
+        "tốt nghiệp"
+      ],
+      "noteVi": "Âm Hán Việt \"tốt nghiệp\". Tốt nghiệp trường nào dùng を: 大学を卒業する (không dùng に).",
+      "examples": [
+        {
+          "ja": "来年の3月に大学を卒業します。",
+          "vi": "Tháng 3 năm sau tôi tốt nghiệp đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1133,
+      "word": "入学",
+      "meaningsVi": [
+        "nhập học, vào trường"
+      ],
+      "noteVi": "Vào trường nào dùng に: 大学に入学する (ngược với 卒業 dùng を). Ở Nhật năm học bắt đầu vào tháng 4.",
+      "examples": [
+        {
+          "ja": "妹は4月に大学に入学しました。",
+          "vi": "Em gái tôi đã vào đại học hồi tháng 4."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 874,
+      "word": "研究",
+      "meaningsVi": [
+        "nghiên cứu"
+      ],
+      "noteVi": "研究する: nghiên cứu. Âm Hán Việt \"nghiên cứu\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "大学で車の技術を研究しています。",
+          "vi": "Tôi đang nghiên cứu công nghệ ô tô ở trường đại học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 875,
+      "word": "研究室",
+      "meaningsVi": [
+        "phòng nghiên cứu (của giáo sư ở đại học)"
+      ],
+      "noteVi": "Phòng làm việc của giáo sư và nhóm sinh viên; sinh viên năm cuối thường vào một 研究室 để làm luận văn.",
+      "examples": [
+        {
+          "ja": "明日、先生の研究室へ行く予定です。",
+          "vi": "Ngày mai tôi sẽ đến phòng nghiên cứu của thầy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 889,
+      "word": "公務員",
+      "meaningsVi": [
+        "công chức, viên chức nhà nước"
+      ],
+      "noteVi": "Âm Hán Việt \"công vụ viên\".",
+      "examples": [
+        {
+          "ja": "父は公務員で、毎日6時に家に帰ります。",
+          "vi": "Bố tôi là công chức, ngày nào cũng về nhà lúc 6 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 925,
+      "word": "再来月",
+      "meaningsVi": [
+        "tháng sau nữa"
+      ],
+      "noteVi": "Âm Hán Việt \"tái lai nguyệt\". 今月 → 来月 → 再来月.",
+      "examples": [
+        {
+          "ja": "再来月、日本へ行く予定です。",
+          "vi": "Tháng sau nữa tôi sẽ sang Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 926,
+      "word": "再来週",
+      "meaningsVi": [
+        "tuần sau nữa"
+      ],
+      "noteVi": "今週 → 来週 → 再来週.",
+      "examples": [
+        {
+          "ja": "再来週の土曜日にパーティーをします。",
+          "vi": "Thứ bảy tuần sau nữa chúng tôi tổ chức tiệc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 911,
+      "word": "今度",
+      "meaningsVi": [
+        "lần tới, lần sau",
+        "lần này"
+      ],
+      "noteVi": "Hay dùng với nghĩa \"lần tới\": 今度、一緒に行きましょう. Đôi khi là \"lần này\": 今度の旅行 (chuyến đi lần này). Âm Hán Việt \"kim độ\".",
+      "examples": [
+        {
+          "ja": "今度の日曜日、一緒に花見に行きませんか。",
+          "vi": "Chủ nhật tới đi ngắm hoa anh đào với tôi không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 906,
+      "word": "これから",
+      "meaningsVi": [
+        "từ bây giờ, từ nay",
+        "bây giờ (sắp làm)"
+      ],
+      "examples": [
+        {
+          "ja": "これから晩ご飯を作ります。",
+          "vi": "Bây giờ tôi sẽ nấu cơm tối."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 688,
+      "word": "明日",
+      "meaningsVi": [
+        "ngày mai (cách nói trang trọng)"
+      ],
+      "noteVi": "Cùng chữ 明日 nhưng đọc あす (thay vì あした) thì trang trọng hơn, hay nghe trong tin tức, thông báo, thư từ.",
+      "examples": [
+        {
+          "ja": "明日の天気は晴れでしょう。",
+          "vi": "Thời tiết ngày mai có lẽ sẽ nắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1289,
+      "word": "旅館",
+      "meaningsVi": [
+        "nhà trọ kiểu Nhật (ryokan)"
+      ],
+      "noteVi": "Âm Hán Việt \"lữ quán\". Phòng trải chiếu tatami, thường có bữa tối, bữa sáng và bồn tắm nước nóng; khác ホテル kiểu phương Tây.",
+      "examples": [
+        {
+          "ja": "京都で古い旅館に泊まりました。",
+          "vi": "Ở Kyoto tôi đã nghỉ tại một nhà trọ cổ kiểu Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1109,
+      "word": "泊まる",
+      "meaningsVi": [
+        "ngủ lại, nghỉ lại (qua đêm)"
+      ],
+      "noteVi": "Nơi ngủ lại đi với に: ホテルに泊まる.",
+      "examples": [
+        {
+          "ja": "今晩は友達の家に泊まるつもりです。",
+          "vi": "Tối nay tôi định ngủ lại nhà bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 876,
+      "word": "見物",
+      "meaningsVi": [
+        "tham quan, ngắm cảnh, đi xem"
+      ],
+      "noteVi": "Âm Hán Việt \"kiến vật\". 見物する: đi xem (lễ hội, thành phố, chùa chiền).",
+      "examples": [
+        {
+          "ja": "土曜日、京都の町を見物しようと思っています。",
+          "vi": "Thứ bảy tôi định đi tham quan phố phường Kyoto."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1163,
+      "word": "花見",
+      "meaningsVi": [
+        "ngắm hoa anh đào"
+      ],
+      "noteVi": "Cuối tháng 3, tháng 4, người Nhật ngồi dưới gốc anh đào ăn uống, trò chuyện. Cũng nói お花見.",
+      "examples": [
+        {
+          "ja": "4月に公園で花見をしました。",
+          "vi": "Tháng 4 tôi đã ngắm hoa anh đào ở công viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1282,
+      "word": "予約",
+      "meaningsVi": [
+        "đặt trước (chỗ, phòng, lịch hẹn)"
+      ],
+      "noteVi": "Âm Hán Việt \"dự ước\". 予約する: đặt trước nhà hàng, khách sạn, lịch khám bệnh.",
+      "examples": [
+        {
+          "ja": "旅館を予約しました。",
+          "vi": "Tôi đã đặt phòng ở nhà trọ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 718,
+      "word": "田舎",
+      "meaningsVi": [
+        "nông thôn, miền quê",
+        "quê (nơi mình lớn lên)"
+      ],
+      "noteVi": "Âm Hán Việt \"điền xá\" (nhà giữa ruộng). 田舎へ帰る: về quê.",
+      "examples": [
+        {
+          "ja": "夏休みは田舎へ帰るつもりです。",
+          "vi": "Nghỉ hè tôi định về quê."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 987,
+      "word": "スーツケース",
+      "meaningsVi": [
+        "va li"
+      ],
+      "examples": [
+        {
+          "ja": "大きいスーツケースを持って、旅行に行きます。",
+          "vi": "Tôi mang chiếc va li to đi du lịch."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1052,
+      "word": "楽しみ",
+      "meaningsVi": [
+        "niềm vui, điều mong chờ"
+      ],
+      "noteVi": "〜が楽しみです / 〜を楽しみにしています: mong chờ điều gì. Khác 楽しい (vui).",
+      "examples": [
+        {
+          "ja": "来週の旅行がとても楽しみです。",
+          "vi": "Tôi rất mong chờ chuyến du lịch tuần sau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 771,
+      "word": "お祭り",
+      "meaningsVi": [
+        "lễ hội"
+      ],
+      "noteVi": "Lễ hội truyền thống ở đền chùa, khu phố, nhiều nhất vào mùa hè: có rước kiệu, hàng quán.",
+      "examples": [
+        {
+          "ja": "日曜日、近所でお祭りがあります。",
+          "vi": "Chủ nhật này ở gần nhà có lễ hội."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "思",
+      "meaningVi": "nghĩ",
+      "noteVi": "Gặp trong 思う (おもう). 田 (ruộng) + 心 (tim): nghĩ trong lòng.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "計",
+      "meaningVi": "đo, tính; kế",
+      "noteVi": "Gặp trong 計画 (けいかく), 時計 (とけい). Bộ 言 (lời nói) + 十.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "画",
+      "meaningVi": "vẽ, tranh; hoạch",
+      "noteVi": "Gặp trong 計画 (けいかく), 映画 (えいが), 漫画 (まんが).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "旅",
+      "meaningVi": "đi xa, du lịch",
+      "noteVi": "Gặp trong 旅行 (りょこう), 旅館 (りょかん).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "京",
+      "meaningVi": "kinh đô",
+      "noteVi": "Gặp trong 東京 (とうきょう), 京都 (きょうと).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "夏",
+      "meaningVi": "mùa hè",
+      "noteVi": "Gặp trong 夏 (なつ), 夏休み (なつやすみ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "花",
+      "meaningVi": "hoa",
+      "noteVi": "Gặp trong 花 (はな), 花見 (はなみ), 花瓶 (かびん). Bộ 艹 (cỏ) + 化.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ou-you",
+      "titleVi": "Thể ý chí 〜おう / 〜よう: … thôi, … nhé",
+      "summaryVi": "Thể ý chí là dạng thân mật của 〜ましょう: 行こう (đi thôi), 食べよう (ăn thôi).",
+      "explanationVi": [
+        "**Thể ý chí** là dạng thông thường của 〜ましょう: rủ bạn bè 「一緒に行こう」 (Cùng đi nhé), hoặc nói ý định của mình lúc đó 「疲れた。ちょっと休もう」 (Mệt quá. Nghỉ chút thôi).",
+        "Cách chia: **nhóm 1** đổi âm cuối sang hàng お rồi thêm う: 行く → 行**こう**, 泳ぐ → 泳**ごう**, 話す → 話**そう**, 待つ → 待**とう**, 読む → 読**もう**, 帰る → 帰**ろう**, 買う → 買**おう**. **Nhóm 2** bỏ る, thêm **よう**: 食べる → 食べ**よう**, 見る → 見**よう**. **Nhóm 3**: する → **しよう**, 来る → **来よう** (こよう).",
+        "Thêm か để đề nghị giúp: 「持とうか」 (Để mình xách cho nhé?), dạng thân mật của 〜ましょうか. Thể ý chí là thể thông thường, không dùng với người trên; với họ dùng 〜ましょう.",
+        "Thể ý chí chỉ nói **hành động người nói muốn làm**, không dùng để đoán: \"chắc trời sẽ mưa\" là 「雨が降るでしょう」."
+      ],
+      "patterns": [
+        "Nhóm 1: 行く → 行こう",
+        "Nhóm 2: 食べる → 食べよう",
+        "する → しよう ／ 来る → 来よう",
+        "V (thể ý chí) + か"
+      ],
+      "examples": [
+        {
+          "ja": "疲れたね。ちょっと休もう。",
+          "vi": "Mệt nhỉ. Nghỉ một chút đi."
+        },
+        {
+          "ja": "日曜日、一緒に花見に行こう。",
+          "vi": "Chủ nhật cùng đi ngắm hoa anh đào nhé."
+        },
+        {
+          "ja": "荷物、持とうか。",
+          "vi": "Để mình xách đồ giúp nhé?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "一緒に映画を見ろう。",
+          "right": "一緒に映画を見よう。",
+          "noteVi": "見る là nhóm 2: bỏ る thêm よう (見よう). Chỉ nhóm 1 mới đổi る thành ろう (帰る → 帰ろう)."
+        },
+        {
+          "wrong": "先生、一緒に帰ろう。",
+          "right": "先生、一緒に帰りましょう。",
+          "noteVi": "Câu sai không sai ngữ pháp nhưng **thất lễ**: thể ý chí là thể thông thường. Với người trên dùng 〜ましょう."
+        },
+        {
+          "wrong": "明日は雨が降ろう。",
+          "right": "明日は雨が降るでしょう。",
+          "noteVi": "Thể ý chí chỉ dùng cho hành động mình muốn làm, không dùng để đoán. Đoán thì dùng でしょう."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "you-to-omou",
+      "titleVi": "〜(よ)うと思う: định …, đang tính …",
+      "summaryVi": "V (thể ý chí) + と思います / と思っています: nói dự định của mình một cách mềm mỏng.",
+      "explanationVi": [
+        "**V (thể ý chí) + と思う** nói ý định của người nói: 「夏休みに国へ帰ろうと思います」 = Kỳ nghỉ hè tôi định về nước. と là trợ từ trích dẫn: nghĩa đen \"tôi nghĩ rằng: về nước thôi\".",
+        "「〜と思います」: ý định vừa quyết khi nói. 「〜と思っています」: ý định đã có từ trước và vẫn đang giữ. Kể ý định của người khác thì dùng 〜と思っています: 「田中さんは車を買おうと思っています」.",
+        "Tiếng Việt \"tôi định\", \"tôi đang tính\". So với 〜つもりです, 〜(よ)うと思っています nghe **mềm**, chưa chắc chắn bằng.",
+        "Chú ý: 「行きたいと思います」 là \"muốn đi\"; 「行こうと思います」 là \"định đi\". 「行くと思います」 lại là \"(tôi) đoán là sẽ đi\", không phải nói ý định."
+      ],
+      "patterns": [
+        "V (thể ý chí) + と 思います",
+        "V (thể ý chí) + と 思っています"
+      ],
+      "examples": [
+        {
+          "ja": "夏休みに国へ帰ろうと思います。",
+          "vi": "Kỳ nghỉ hè tôi định về nước."
+        },
+        {
+          "ja": "将来、日本の会社で働こうと思っています。",
+          "vi": "Tôi đang tính sau này làm việc ở công ty Nhật."
+        },
+        {
+          "ja": "田中さんは車を買おうと思っています。",
+          "vi": "Anh Tanaka đang định mua ô tô."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "夏休みに国へ帰りようと思います。",
+          "right": "夏休みに国へ帰ろうと思います。",
+          "noteVi": "帰る là nhóm 1: 帰る → 帰ろう (đổi る thành ろう), không phải 帰りよう. よう chỉ dành cho nhóm 2 (食べよう) và 来よう."
+        },
+        {
+          "wrong": "来年、日本へ行くと思います。",
+          "right": "来年、日本へ行こうと思います。",
+          "noteVi": "Câu sai không sai ngữ pháp nhưng là lời **đoán** (\"tôi nghĩ là sẽ đi\"). Nói ý định của mình dùng thể ý chí: 行こうと思います."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "tsumori",
+      "titleVi": "〜つもりです: định, có ý định",
+      "summaryVi": "V (thể từ điển / thể ない) + つもりです: nói ý định đã nghĩ kỹ, khá chắc chắn.",
+      "explanationVi": [
+        "**V (thể từ điển) + つもりです**: ý định đã nghĩ kỹ, khá chắc chắn: 「来年、日本の大学に入学するつもりです」 = Năm sau tôi định vào đại học ở Nhật.",
+        "Định **không** làm: **V-ない + つもりです**: 「今年は国へ帰らないつもりです」. 〜つもりはありません cũng có, nhưng nghĩa rất mạnh (\"hoàn toàn không có ý định\").",
+        "Hỏi ý định: 「卒業してから、何をするつもりですか」. Hỏi thẳng người trên 〜つもりですか có thể nghe thiếu lễ phép; nên hỏi 「ご予定は？」.",
+        "So sánh: 〜(よ)うと思っています: đang tính, mềm; 〜つもりです: ý định chắc hơn; 〜予定です: việc đã lên lịch (điểm ngữ pháp sau)."
+      ],
+      "patterns": [
+        "V (thể từ điển) + つもりです",
+        "V-ない + つもりです"
+      ],
+      "examples": [
+        {
+          "ja": "来年、日本の大学に入学するつもりです。",
+          "vi": "Năm sau tôi định vào đại học ở Nhật."
+        },
+        {
+          "ja": "今年の夏は国へ帰らないつもりです。",
+          "vi": "Hè năm nay tôi định không về nước."
+        },
+        {
+          "ja": "卒業してから、何をするつもりですか。",
+          "vi": "Sau khi tốt nghiệp bạn định làm gì?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "来年、日本へ行きますつもりです。",
+          "right": "来年、日本へ行くつもりです。",
+          "noteVi": "つもり đi sau thể từ điển (行く), không đi sau thể ます.",
+          "issue": "polite_in_clause"
+        },
+        {
+          "wrong": "来年、日本へ行くのつもりです。",
+          "right": "来年、日本へ行くつもりです。",
+          "noteVi": "Không thêm の giữa động từ và つもり."
+        },
+        {
+          "wrong": "今年は国へ帰るつもりではありません。",
+          "right": "今年は国へ帰らないつもりです。",
+          "noteVi": "\"Định không làm\" nói là V-ない + つもりです; 〜つもりではありません nghe không tự nhiên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "yotei",
+      "titleVi": "〜予定です: theo lịch, dự kiến",
+      "summaryVi": "V (thể từ điển) / N の + 予定です: việc đã được lên lịch, sắp xếp.",
+      "explanationVi": [
+        "**予定** là lịch, kế hoạch đã sắp xếp: 「飛行機は5時に着く予定です」 = Máy bay dự kiến đến lúc 5 giờ. Việc đó có thể do người khác quyết định (lịch học, chuyến bay).",
+        "Cách ghép: **V (thể từ điển) + 予定です**: 「来週、大阪へ行く予定です」; **N + の + 予定です**: 「来月は旅行の予定です」.",
+        "So sánh: つもり là ý định trong lòng mình; 予定 là việc đã lên lịch, nghe khách quan hơn. Trong công việc, người Nhật hay dùng 予定 hơn つもり. 予定 cũng là danh từ: 予定がある (có lịch, có hẹn), 予定を立てる (lên lịch)."
+      ],
+      "patterns": [
+        "V (thể từ điển) + 予定です",
+        "N の 予定です",
+        "予定が ある ／ 予定を 立てる"
+      ],
+      "examples": [
+        {
+          "ja": "飛行機は5時に着く予定です。",
+          "vi": "Máy bay dự kiến đến lúc 5 giờ."
+        },
+        {
+          "ja": "再来月、京都の旅館に泊まる予定です。",
+          "vi": "Tháng sau nữa tôi sẽ nghỉ ở một nhà trọ kiểu Nhật ở Kyoto."
+        },
+        {
+          "ja": "来月は旅行の予定です。",
+          "vi": "Tháng sau tôi có lịch đi du lịch."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "来週、大阪へ行きます予定です。",
+          "right": "来週、大阪へ行く予定です。",
+          "noteVi": "予定 đi sau thể từ điển (行く), không đi sau thể ます."
+        },
+        {
+          "wrong": "飛行機は5時に着くつもりです。",
+          "right": "飛行機は5時に着く予定です。",
+          "noteVi": "Tiếng Việt đều nói \"dự định\", nhưng つもり là ý định của một người. Lịch của máy bay, tàu xe, lớp học… dùng 予定."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-05-e01",
+      "type": "match",
+      "grammar": [
+        "ou-you"
+      ],
+      "promptVi": "Ghép động từ với thể ý chí của nó",
+      "pairs": [
+        [
+          "行く",
+          "行こう"
+        ],
+        [
+          "食べる",
+          "食べよう"
+        ],
+        [
+          "する",
+          "しよう"
+        ],
+        [
+          "来る",
+          "来よう"
+        ]
+      ]
+    },
+    {
+      "id": "n4-05-e02",
+      "type": "choice",
+      "grammar": [
+        "ou-you"
+      ],
+      "promptVi": "Nói với bạn: \"Chủ nhật cùng đi ngắm hoa anh đào nhé.\" Câu nào đúng?",
+      "options": [
+        "日曜日、一緒に花見に行こう。",
+        "日曜日、一緒に花見に行きよう。",
+        "日曜日、一緒に花見に行くよう。"
+      ],
+      "answer": 0,
+      "explainVi": "行く là nhóm 1: く → こ + う: 行こう."
+    },
+    {
+      "id": "n4-05-e03",
+      "type": "fill",
+      "grammar": [
+        "ou-you"
+      ],
+      "before": "疲れたね。ちょっと",
+      "after": "。",
+      "answers": [
+        "休もう"
+      ],
+      "options": [
+        "休もう",
+        "休みよう",
+        "休むよう"
+      ],
+      "vi": "Mệt nhỉ. Nghỉ một chút đi."
+    },
+    {
+      "id": "n4-05-e04",
+      "type": "fill",
+      "grammar": [
+        "ou-you"
+      ],
+      "promptVi": "Đề nghị giúp bạn (thân mật).",
+      "before": "荷物、",
+      "after": "？",
+      "answers": [
+        "持とうか"
+      ],
+      "options": [
+        "持とうか",
+        "持ちたいか",
+        "持ったか"
+      ],
+      "vi": "Để mình xách đồ giúp nhé?"
+    },
+    {
+      "id": "n4-05-e05",
+      "type": "fill",
+      "grammar": [
+        "you-to-omou"
+      ],
+      "before": "夏休みに国へ帰ろう",
+      "after": "思います。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "を",
+        "に"
+      ],
+      "vi": "Kỳ nghỉ hè tôi định về nước."
+    },
+    {
+      "id": "n4-05-e06",
+      "type": "choice",
+      "grammar": [
+        "you-to-omou"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tối nay tôi định đi ngủ sớm\"?",
+      "options": [
+        "今晩は早く寝ようと思います。",
+        "今晩は早く寝たいです。",
+        "今晩は早く寝ました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-05-e07",
+      "type": "choice",
+      "grammar": [
+        "you-to-omou"
+      ],
+      "promptVi": "Chọn dạng đúng.",
+      "ja": "夏休みは田舎へ＿と思っています。",
+      "options": [
+        "帰ろう",
+        "帰りよう",
+        "帰るよう"
+      ],
+      "answer": 0,
+      "explainVi": "帰る là nhóm 1: 帰る → 帰ろう."
+    },
+    {
+      "id": "n4-05-e08",
+      "type": "order",
+      "grammar": [
+        "you-to-omou"
+      ],
+      "vi": "Tôi đang tính sau này làm việc ở công ty Nhật.",
+      "tiles": [
+        "将来",
+        "日本の会社で",
+        "働こうと",
+        "思っています"
+      ],
+      "answers": [
+        "将来日本の会社で働こうと思っています"
+      ]
+    },
+    {
+      "id": "n4-05-e09",
+      "type": "fill",
+      "grammar": [
+        "tsumori"
+      ],
+      "before": "来年、日本の大学に入学する",
+      "after": "です。",
+      "answers": [
+        "つもり",
+        "予定"
+      ],
+      "vi": "Năm sau tôi định vào đại học ở Nhật."
+    },
+    {
+      "id": "n4-05-e10",
+      "type": "choice",
+      "grammar": [
+        "tsumori"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Năm nay tôi định không về nước\"?",
+      "options": [
+        "今年は国へ帰らないつもりです。",
+        "今年は国へ帰るつもりです。",
+        "今年は国へ帰ったつもりです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-05-e11",
+      "type": "order",
+      "grammar": [
+        "tsumori"
+      ],
+      "vi": "Sau khi tốt nghiệp bạn định làm gì?",
+      "tiles": [
+        "卒業してから",
+        "何を",
+        "する",
+        "つもりですか"
+      ],
+      "answers": [
+        "卒業してから何をするつもりですか"
+      ]
+    },
+    {
+      "id": "n4-05-e12",
+      "type": "choice",
+      "grammar": [
+        "tsumori"
+      ],
+      "promptVi": "Câu nào đúng?",
+      "options": [
+        "来年、結婚するつもりです。",
+        "来年、結婚しますつもりです。",
+        "来年、結婚したつもりです。"
+      ],
+      "answer": 0,
+      "explainVi": "つもり đi sau thể từ điển: 結婚する."
+    },
+    {
+      "id": "n4-05-e13",
+      "type": "fill",
+      "grammar": [
+        "yotei"
+      ],
+      "before": "飛行機は5時に着く",
+      "after": "です。",
+      "answers": [
+        "予定"
+      ],
+      "options": [
+        "予定",
+        "つもり",
+        "と思う"
+      ],
+      "vi": "Máy bay dự kiến đến lúc 5 giờ."
+    },
+    {
+      "id": "n4-05-e14",
+      "type": "choice",
+      "grammar": [
+        "yotei"
+      ],
+      "promptVi": "Câu nào đúng?",
+      "options": [
+        "来週、大阪へ行く予定です。",
+        "来週、大阪へ行きます予定です。",
+        "来週、大阪へ行くの予定です。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-05-e15",
+      "type": "order",
+      "grammar": [
+        "yotei"
+      ],
+      "vi": "Tháng sau nữa tôi sẽ nghỉ ở một nhà trọ kiểu Nhật ở Kyoto (đã lên lịch).",
+      "tiles": [
+        "再来月",
+        "京都の",
+        "旅館に",
+        "泊まる",
+        "予定です"
+      ],
+      "answers": [
+        "再来月京都の旅館に泊まる予定です"
+      ]
+    },
+    {
+      "id": "n4-05-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "卒業",
+          "tốt nghiệp"
+        ],
+        [
+          "入学",
+          "nhập học"
+        ],
+        [
+          "研究",
+          "nghiên cứu"
+        ],
+        [
+          "公務員",
+          "công chức"
+        ]
+      ]
+    },
+    {
+      "id": "n4-05-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "再来週",
+          "tuần sau nữa"
+        ],
+        [
+          "再来月",
+          "tháng sau nữa"
+        ],
+        [
+          "今度",
+          "lần tới"
+        ],
+        [
+          "将来",
+          "tương lai"
+        ]
+      ]
+    },
+    {
+      "id": "n4-05-e18",
+      "type": "choice",
+      "promptVi": "Chọn trợ từ đúng.",
+      "ja": "来年の3月に大学＿卒業します。",
+      "options": [
+        "を",
+        "に",
+        "で"
+      ],
+      "answer": 0,
+      "explainVi": "卒業する dùng を (rời khỏi trường); 入学する dùng に (vào trường)."
+    },
+    {
+      "id": "n4-05-e19",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tôi rất mong chờ chuyến du lịch tuần sau.\"",
+      "ja": "来週の旅行がとても＿です。",
+      "options": [
+        "楽しみ",
+        "楽しい",
+        "楽しく"
+      ],
+      "answer": 0,
+      "explainVi": "楽しみです: mong chờ (việc sắp tới). 楽しい là \"vui\"."
+    },
+    {
+      "id": "n4-05-e20",
+      "type": "translate",
+      "grammar": [
+        "ou-you"
+      ],
+      "vi": "(Nói với bạn) Chủ nhật cùng đi ngắm hoa anh đào nhé!",
+      "answers": [
+        "日曜日[、|に、|に](一緒に)[花見|お花見][に行こう|をしよう]。"
+      ],
+      "examples": [
+        {
+          "answer": "にちようび、いっしょにはなみにいこう",
+          "score": 100
+        },
+        {
+          "answer": "日曜日、一緒に花見を行こう。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "日曜日、一緒に映画を見に行こう。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-05-e21",
+      "type": "translate",
+      "grammar": [
+        "you-to-omou"
+      ],
+      "vi": "Nghỉ hè tôi định về quê.",
+      "answers": [
+        "(私は)夏休み[に|は][田舎|国][へ|に]帰ろうと思[います|っています]。",
+        "(私は)夏休み[に|は][田舎|国][へ|に]帰るつもりです。"
+      ],
+      "examples": [
+        {
+          "answer": "なつやすみにいなかへかえろうとおもいます",
+          "score": 100
+        },
+        {
+          "answer": "夏休みに田舎を帰ろうと思います。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "冬休みに田舎へ帰ろうと思います。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-05-e22",
+      "type": "translate",
+      "grammar": [
+        "tsumori"
+      ],
+      "vi": "Sau khi tốt nghiệp, tôi định làm công chức.",
+      "answers": [
+        "(私は)(大学を)卒業[してから|したら|した後(で)]、公務員になるつもりです。",
+        "(私は)(大学を)卒業[してから|したら|した後(で)]、公務員になろうと思[います|っています]。"
+      ],
+      "examples": [
+        {
+          "answer": "そつぎょうしてから、こうむいんになるつもりです",
+          "score": 100
+        },
+        {
+          "answer": "卒業してから、公務員になりますつもりです。",
+          "score": 85,
+          "issues": [
+            "polite_in_clause"
+          ]
+        },
+        {
+          "answer": "卒業してから、公務員がなるつもりです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "卒業してから、医者になるつもりです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-05-e23",
+      "type": "question",
+      "grammar": [
+        "yotei"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "飛行機は何時に着く予定ですか。",
+        "promptVi": "\"Máy bay dự kiến đến lúc mấy giờ?\" Theo lịch, máy bay đến lúc 5 giờ.",
+        "answers": [
+          "(飛行機は)5時に着く予定です。",
+          "5時(の予定)です。"
+        ],
+        "examples": [
+          {
+            "answer": "ごじにつくよていです",
+            "score": 100
+          },
+          {
+            "answer": "5時に着くの予定です。",
+            "score": 85,
+            "issues": [
+              "extra_word"
+            ]
+          },
+          {
+            "answer": "6時に着く予定です。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "今晩は早く寝ようと思います。": "{今|こん}{晩|ばん}は{早|はや}く{寝|ね}ようと{思|おも}います。",
+    "来年、結婚するつもりです。": "{来|らい}{年|ねん}、{結|けっ}{婚|こん}するつもりです。",
+    "土曜日は予定がありますか。": "{土|ど}{曜|よう}{日|び}は{予|よ}{定|てい}がありますか。",
+    "夏休みの旅行の計画を立てました。": "{夏|なつ}{休|やす}みの{旅|りょ}{行|こう}の{計|けい}{画|かく}を{立|た}てました。",
+    "来月の予定を立てましょう。": "{来|らい}{月|げつ}の{予|よ}{定|てい}を{立|た}てましょう。",
+    "将来、医者になりたいです。": "{将|しょう}{来|らい}、{医|い}{者|しゃ}になりたいです。",
+    "私の夢は日本で先生になることです。": "{私|わたし}の{夢|ゆめ}は{日本|にほん}で{先|せん}{生|せい}になることです。",
+    "来年の3月に大学を卒業します。": "{来|らい}{年|ねん}の3{月|がつ}に{大|だい}{学|がく}を{卒|そつ}{業|ぎょう}します。",
+    "妹は4月に大学に入学しました。": "{妹|いもうと}は{4月|しがつ}に{大|だい}{学|がく}に{入|にゅう}{学|がく}しました。",
+    "大学で車の技術を研究しています。": "{大|だい}{学|がく}で{車|くるま}の{技|ぎ}{術|じゅつ}を{研|けん}{究|きゅう}しています。",
+    "明日、先生の研究室へ行く予定です。": "{明日|あした}、{先|せん}{生|せい}の{研|けん}{究|きゅう}{室|しつ}へ{行|い}く{予|よ}{定|てい}です。",
+    "父は公務員で、毎日6時に家に帰ります。": "{父|ちち}は{公|こう}{務|む}{員|いん}で、{毎|まい}{日|にち}6{時|じ}に{家|いえ}に{帰|かえ}ります。",
+    "再来月、日本へ行く予定です。": "{再|さ}{来|らい}{月|げつ}、{日本|にほん}へ{行|い}く{予|よ}{定|てい}です。",
+    "再来週の土曜日にパーティーをします。": "{再|さ}{来|らい}{週|しゅう}の{土|ど}{曜|よう}{日|び}にパーティーをします。",
+    "今度の日曜日、一緒に花見に行きませんか。": "{今|こん}{度|ど}の{日|にち}{曜|よう}{日|び}、{一|いっ}{緒|しょ}に{花|はな}{見|み}に{行|い}きませんか。",
+    "これから晩ご飯を作ります。": "これから{晩|ばん}ご{飯|はん}を{作|つく}ります。",
+    "明日の天気は晴れでしょう。": "{明日|あす}の{天|てん}{気|き}は{晴|は}れでしょう。",
+    "京都で古い旅館に泊まりました。": "{京都|きょうと}で{古|ふる}い{旅|りょ}{館|かん}に{泊|と}まりました。",
+    "今晩は友達の家に泊まるつもりです。": "{今|こん}{晩|ばん}は{友|とも}{達|だち}の{家|いえ}に{泊|と}まるつもりです。",
+    "土曜日、京都の町を見物しようと思っています。": "{土|ど}{曜|よう}{日|び}、{京都|きょうと}の{町|まち}を{見|けん}{物|ぶつ}しようと{思|おも}っています。",
+    "4月に公園で花見をしました。": "{4月|しがつ}に{公|こう}{園|えん}で{花|はな}{見|み}をしました。",
+    "旅館を予約しました。": "{旅|りょ}{館|かん}を{予|よ}{約|やく}しました。",
+    "夏休みは田舎へ帰るつもりです。": "{夏|なつ}{休|やす}みは{田舎|いなか}へ{帰|かえ}るつもりです。",
+    "大きいスーツケースを持って、旅行に行きます。": "{大|おお}きいスーツケースを{持|も}って、{旅|りょ}{行|こう}に{行|い}きます。",
+    "来週の旅行がとても楽しみです。": "{来|らい}{週|しゅう}の{旅|りょ}{行|こう}がとても{楽|たの}しみです。",
+    "日曜日、近所でお祭りがあります。": "{日|にち}{曜|よう}{日|び}、{近|きん}{所|じょ}でお{祭|まつ}りがあります。",
+    "疲れたね。ちょっと休もう。": "{疲|つか}れたね。ちょっと{休|やす}もう。",
+    "日曜日、一緒に花見に行こう。": "{日|にち}{曜|よう}{日|び}、{一|いっ}{緒|しょ}に{花|はな}{見|み}に{行|い}こう。",
+    "荷物、持とうか。": "{荷|に}{物|もつ}、{持|も}とうか。",
+    "一緒に映画を見よう。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}よう。",
+    "一緒に映画を見ろう。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}ろう。",
+    "先生、一緒に帰りましょう。": "{先|せん}{生|せい}、{一|いっ}{緒|しょ}に{帰|かえ}りましょう。",
+    "先生、一緒に帰ろう。": "{先|せん}{生|せい}、{一|いっ}{緒|しょ}に{帰|かえ}ろう。",
+    "明日は雨が降るでしょう。": "{明日|あした}は{雨|あめ}が{降|ふ}るでしょう。",
+    "明日は雨が降ろう。": "{明日|あした}は{雨|あめ}が{降|ふ}ろう。",
+    "夏休みに国へ帰ろうと思います。": "{夏|なつ}{休|やす}みに{国|くに}へ{帰|かえ}ろうと{思|おも}います。",
+    "将来、日本の会社で働こうと思っています。": "{将|しょう}{来|らい}、{日本|にほん}の{会|かい}{社|しゃ}で{働|はたら}こうと{思|おも}っています。",
+    "田中さんは車を買おうと思っています。": "{田中|たなか}さんは{車|くるま}を{買|か}おうと{思|おも}っています。",
+    "夏休みに国へ帰りようと思います。": "{夏|なつ}{休|やす}みに{国|くに}へ{帰|かえ}りようと{思|おも}います。",
+    "来年、日本へ行こうと思います。": "{来|らい}{年|ねん}、{日本|にほん}へ{行|い}こうと{思|おも}います。",
+    "来年、日本へ行くと思います。": "{来|らい}{年|ねん}、{日本|にほん}へ{行|い}くと{思|おも}います。",
+    "来年、日本の大学に入学するつもりです。": "{来|らい}{年|ねん}、{日本|にほん}の{大|だい}{学|がく}に{入|にゅう}{学|がく}するつもりです。",
+    "今年の夏は国へ帰らないつもりです。": "{今年|ことし}の{夏|なつ}は{国|くに}へ{帰|かえ}らないつもりです。",
+    "卒業してから、何をするつもりですか。": "{卒|そつ}{業|ぎょう}してから、{何|なに}をするつもりですか。",
+    "来年、日本へ行くつもりです。": "{来|らい}{年|ねん}、{日本|にほん}へ{行|い}くつもりです。",
+    "来年、日本へ行きますつもりです。": "{来|らい}{年|ねん}、{日本|にほん}へ{行|い}きますつもりです。",
+    "来年、日本へ行くのつもりです。": "{来|らい}{年|ねん}、{日本|にほん}へ{行|い}くのつもりです。",
+    "今年は国へ帰らないつもりです。": "{今年|ことし}は{国|くに}へ{帰|かえ}らないつもりです。",
+    "今年は国へ帰るつもりではありません。": "{今年|ことし}は{国|くに}へ{帰|かえ}るつもりではありません。",
+    "飛行機は5時に着く予定です。": "{飛|ひ}{行|こう}{機|き}は5{時|じ}に{着|つ}く{予|よ}{定|てい}です。",
+    "再来月、京都の旅館に泊まる予定です。": "{再|さ}{来|らい}{月|げつ}、{京都|きょうと}の{旅|りょ}{館|かん}に{泊|と}まる{予|よ}{定|てい}です。",
+    "来月は旅行の予定です。": "{来|らい}{月|げつ}は{旅|りょ}{行|こう}の{予|よ}{定|てい}です。",
+    "来週、大阪へ行く予定です。": "{来|らい}{週|しゅう}、{大阪|おおさか}へ{行|い}く{予|よ}{定|てい}です。",
+    "来週、大阪へ行きます予定です。": "{来|らい}{週|しゅう}、{大阪|おおさか}へ{行|い}きます{予|よ}{定|てい}です。",
+    "飛行機は5時に着くつもりです。": "{飛|ひ}{行|こう}{機|き}は5{時|じ}に{着|つ}くつもりです。",
+    "行く": "{行|い}く",
+    "行こう": "{行|い}こう",
+    "食べる": "{食|た}べる",
+    "食べよう": "{食|た}べよう",
+    "する": "する",
+    "しよう": "しよう",
+    "来る": "{来|く}る",
+    "来よう": "{来|こ}よう",
+    "日曜日、一緒に花見に行きよう。": "{日|にち}{曜|よう}{日|び}、{一|いっ}{緒|しょ}に{花|はな}{見|み}に{行|い}きよう。",
+    "日曜日、一緒に花見に行くよう。": "{日|にち}{曜|よう}{日|び}、{一|いっ}{緒|しょ}に{花|はな}{見|み}に{行|い}くよう。",
+    "休もう": "{休|やす}もう",
+    "休みよう": "{休|やす}みよう",
+    "休むよう": "{休|やす}むよう",
+    "荷物、持とうか？": "{荷|に}{物|もつ}、{持|も}とうか？",
+    "持とうか": "{持|も}とうか",
+    "持ちたいか": "{持|も}ちたいか",
+    "持ったか": "{持|も}ったか",
+    "と": "と",
+    "を": "を",
+    "に": "に",
+    "今晩は早く寝たいです。": "{今|こん}{晩|ばん}は{早|はや}く{寝|ね}たいです。",
+    "今晩は早く寝ました。": "{今|こん}{晩|ばん}は{早|はや}く{寝|ね}ました。",
+    "夏休みは田舎へ＿と思っています。": "{夏|なつ}{休|やす}みは{田舎|いなか}へ＿と{思|おも}っています。",
+    "帰ろう": "{帰|かえ}ろう",
+    "帰りよう": "{帰|かえ}りよう",
+    "帰るよう": "{帰|かえ}るよう",
+    "将来": "{将|しょう}{来|らい}",
+    "日本の会社で": "{日本|にほん}の{会|かい}{社|しゃ}で",
+    "働こうと": "{働|はたら}こうと",
+    "思っています": "{思|おも}っています",
+    "将来日本の会社で働こうと思っています": "{将|しょう}{来|らい}{日本|にほん}の{会|かい}{社|しゃ}で{働|はたら}こうと{思|おも}っています",
+    "つもり": "つもり",
+    "予定": "{予|よ}{定|てい}",
+    "今年は国へ帰るつもりです。": "{今年|ことし}は{国|くに}へ{帰|かえ}るつもりです。",
+    "今年は国へ帰ったつもりです。": "{今年|ことし}は{国|くに}へ{帰|かえ}ったつもりです。",
+    "卒業してから": "{卒|そつ}{業|ぎょう}してから",
+    "何を": "{何|なに}を",
+    "つもりですか": "つもりですか",
+    "卒業してから何をするつもりですか": "{卒|そつ}{業|ぎょう}してから{何|なに}をするつもりですか",
+    "来年、結婚しますつもりです。": "{来|らい}{年|ねん}、{結|けっ}{婚|こん}しますつもりです。",
+    "来年、結婚したつもりです。": "{来|らい}{年|ねん}、{結|けっ}{婚|こん}したつもりです。",
+    "と思う": "と{思|おも}う",
+    "来週、大阪へ行くの予定です。": "{来|らい}{週|しゅう}、{大阪|おおさか}へ{行|い}くの{予|よ}{定|てい}です。",
+    "再来月": "{再|さ}{来|らい}{月|げつ}",
+    "京都の": "{京都|きょうと}の",
+    "旅館に": "{旅|りょ}{館|かん}に",
+    "泊まる": "{泊|と}まる",
+    "予定です": "{予|よ}{定|てい}です",
+    "再来月京都の旅館に泊まる予定です": "{再|さ}{来|らい}{月|げつ}{京都|きょうと}の{旅|りょ}{館|かん}に{泊|と}まる{予|よ}{定|てい}です",
+    "卒業": "{卒|そつ}{業|ぎょう}",
+    "入学": "{入|にゅう}{学|がく}",
+    "研究": "{研|けん}{究|きゅう}",
+    "公務員": "{公|こう}{務|む}{員|いん}",
+    "再来週": "{再|さ}{来|らい}{週|しゅう}",
+    "今度": "{今|こん}{度|ど}",
+    "来年の3月に大学＿卒業します。": "{来|らい}{年|ねん}の3{月|がつ}に{大|だい}{学|がく}＿{卒|そつ}{業|ぎょう}します。",
+    "で": "で",
+    "来週の旅行がとても＿です。": "{来|らい}{週|しゅう}の{旅|りょ}{行|こう}がとても＿です。",
+    "楽しみ": "{楽|たの}しみ",
+    "楽しい": "{楽|たの}しい",
+    "楽しく": "{楽|たの}しく",
+    "私は夏休みに田舎へ帰ろうと思います。": "{私|わたし}は{夏|なつ}{休|やす}みに{田舎|いなか}へ{帰|かえ}ろうと{思|おも}います。",
+    "私は夏休みに田舎へ帰るつもりです。": "{私|わたし}は{夏|なつ}{休|やす}みに{田舎|いなか}へ{帰|かえ}るつもりです。",
+    "私は大学を卒業してから、公務員になるつもりです。": "{私|わたし}は{大|だい}{学|がく}を{卒|そつ}{業|ぎょう}してから、{公|こう}{務|む}{員|いん}になるつもりです。",
+    "私は大学を卒業してから、公務員になろうと思います。": "{私|わたし}は{大|だい}{学|がく}を{卒|そつ}{業|ぎょう}してから、{公|こう}{務|む}{員|いん}になろうと{思|おも}います。",
+    "飛行機は何時に着く予定ですか。": "{飛|ひ}{行|こう}{機|き}は{何時|なんじ}に{着|つ}く{予|よ}{定|てい}ですか。",
+    "5時の予定です。": "5{時|じ}の{予|よ}{定|てい}です。"
+  }
+}
