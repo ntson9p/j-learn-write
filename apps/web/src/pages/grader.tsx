@@ -3,14 +3,14 @@
  * run its rules on any sentence (for learners and for teachers checking it).
  */
 import { exerciseQuestion, LEVELS, translateQuestion, type Exercise } from '@j-learn-write/course';
-import { checkJaSentence, grade, JA_ISSUE_LABELS_VI, type GradeResult, type Question } from '@j-learn-write/grader';
-import { useEffect, useMemo, useState } from 'preact/hooks';
+import { JA_ISSUE_LABELS_VI, type GradeResult, type Question, type SentenceCheck } from '@j-learn-write/grader';
+import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { GradeResultView, scoreBand } from '../components/grade-result';
 import { useAsync } from '../components/hooks';
 import type { PageProps } from '../components/lazy';
 import { MixedText } from '../components/text';
 import { lessonsOf } from '../lib/content';
-import { warmGrader } from '../lib/warm';
+import { checkSentence, gradeAnswer, warmGrader } from '../lib/grading';
 import { T } from '../strings';
 
 type FreeExercise = Extract<Exercise, { type: 'translate' | 'question' }>;
@@ -34,12 +34,21 @@ export default function GraderPage(_props: PageProps) {
   const [answer, setAnswer] = useState('');
   const [graded, setGraded] = useState<{ answer: string; result: GradeResult } | null>(null);
   const [sentence, setSentence] = useState('');
-  const [checked, setChecked] = useState<ReturnType<typeof checkJaSentence> | null>(null);
+  const [checked, setChecked] = useState<SentenceCheck | null>(null);
 
   const items = list.data ?? [];
   const current = items.find((x) => x.ex.id === id) ?? items[0];
   const question = useMemo(() => (current ? questionOf(current.ex) : undefined), [current?.ex.id]);
-  const check = (text: string) => question && setGraded({ answer: text, result: grade(question, text) });
+  const shown = useRef(question);
+  shown.current = question;
+  const check = (text: string) => {
+    if (!question) return;
+    const asked = question;
+    void gradeAnswer(asked, text).then((result) => {
+      // Ignore a result for a question that is no longer shown.
+      if (shown.current === asked) setGraded({ answer: text, result });
+    });
+  };
   const example = graded && question ? question.examples?.find((ex) => ex.answer === graded.answer) : undefined;
 
   return (
@@ -145,7 +154,7 @@ export default function GraderPage(_props: PageProps) {
         autocomplete="off"
         onSubmit={(e) => {
           e.preventDefault();
-          setChecked(checkJaSentence(sentence));
+          void checkSentence(sentence).then(setChecked);
         }}
       >
         <label for="grader-sentence" class="visually-hidden">

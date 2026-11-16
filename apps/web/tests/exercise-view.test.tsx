@@ -4,7 +4,7 @@
  * Japanese text carries lang="ja".
  */
 import { LEVELS, loadKana, loadLevel } from '@j-learn-write/course';
-import { cleanup, fireEvent, render } from '@testing-library/preact';
+import { cleanup, fireEvent, render, waitFor } from '@testing-library/preact';
 import { afterEach, describe, expect, it } from 'vitest';
 import { ExerciseView, type AnyExercise } from '../src/components/exercise';
 import { RubyContext } from '../src/components/text';
@@ -14,12 +14,12 @@ import { untaggedJapanese } from './untagged';
 afterEach(cleanup);
 
 describe('free-answer exercises on screen', () => {
-  it('shows the grader result with Japanese tagged', () => {
+  it('shows the grader result with Japanese tagged', async () => {
     const ex: AnyExercise = { id: 'x-t', type: 'translate', vi: 'Tôi là học sinh.', answers: ['私は学生です。'] };
     const { container, getByRole } = render(<ExerciseView exercise={ex} onChecked={() => {}} />);
     fireEvent.input(getByRole('textbox'), { target: { value: '私わ学生です' } });
     fireEvent.submit(container.querySelector('form')!);
-    expect(container.querySelector('.grade-result')).not.toBeNull();
+    await waitFor(() => expect(container.querySelector('.grade-result')).not.toBeNull(), { timeout: 5000 });
     expect(container.textContent).toContain('90');
     expect(untaggedJapanese(container)).toEqual([]);
   });
@@ -42,7 +42,7 @@ describe('exercises on screen', async () => {
   for (const lesson of lessons) {
     taught.push(...(lesson.meta.kana ?? []));
     const exercises: AnyExercise[] = [...lessonDrills(lesson, kana, [...taught], true), ...lesson.content!.exercises];
-    it(`${lesson.meta.id}: ${exercises.length} exercises tag their Japanese text`, () => {
+    it(`${lesson.meta.id}: ${exercises.length} exercises tag their Japanese text`, async () => {
       for (const ex of exercises) {
         const { container, unmount } = render(
           <RubyContext.Provider value={{ ruby: lesson.content!.ruby ?? {} }}>
@@ -53,7 +53,7 @@ describe('exercises on screen', async () => {
         if (ex.type === 'choice') {
           const wrong = container.querySelectorAll<HTMLButtonElement>('.option')[ex.answer === 0 ? 1 : 0]!;
           fireEvent.click(wrong);
-          expect(container.querySelector('.feedback.bad'), ex.id).not.toBeNull();
+          await waitFor(() => expect(container.querySelector('.feedback.bad'), ex.id).not.toBeNull());
           expect(untaggedJapanese(container), `${ex.id} feedback`).toEqual([]);
         }
         unmount();

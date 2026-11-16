@@ -5,6 +5,7 @@
  */
 import { exerciseQuestion, hashString, rubyReading, translateQuestion, type Exercise, type KanaEntry, type KanaPractice, type ListWord, type WordContent } from '@j-learn-write/course';
 import { checkJaSentence, grade, normalizeJa, type GradeResult, type Issue } from '@j-learn-write/grader';
+import { checkSentence, gradeAnswer } from './grading';
 import { romanize, type RomajiTable } from './romaji';
 
 /** A free answer counts as right from this score. */
@@ -86,7 +87,8 @@ export function shuffledTiles(ex: Extract<Exercise, { type: 'order' }>): string[
   return shuffle(ex.tiles, ex.id);
 }
 
-export function check(ex: Exercise, answer: Answer, ctx: CheckContext = {}): Outcome {
+/** Checks a closed exercise; null for a free answer (it needs the grader). */
+export function checkClosed(ex: Exercise, answer: Answer, ctx: CheckContext = {}): Outcome | null {
   switch (ex.type) {
     case 'choice': {
       const ok = answer.type === 'choice' && answer.index === ex.answer;
@@ -100,27 +102,50 @@ export function check(ex: Exercise, answer: Answer, ctx: CheckContext = {}): Out
     case 'order': {
       const built = answer.type === 'order' ? answer.tiles.join('') : '';
       const ok = ex.answers.some((a) => plainText(a) === plainText(built));
-      const out: Outcome = { correct: ok, score: ok ? 100 : 0, expected: ex.answers[0] };
-      // A wrong order the rules can explain (上の机, 書きて…).
-      if (!ok && built) {
-        const issues = checkJaSentence(built).issues;
-        if (issues.length > 0) out.issues = issues;
-      }
-      return out;
-    }
-    case 'translate':
-    case 'question': {
-      const text = answer.type === 'text' ? answer.text : '';
-      const q = ex.type === 'translate' ? translateQuestion(ex) : exerciseQuestion(ex);
-      const result = grade(q, text);
-      return { correct: result.score >= PASS_SCORE, score: result.score, result };
+      return { correct: ok, score: ok ? 100 : 0, expected: ex.answers[0] };
     }
     case 'match': {
       const mistakes = answer.type === 'match' ? answer.mistakes : ex.pairs.length;
       const score = Math.round((100 * ex.pairs.length) / (ex.pairs.length + mistakes));
       return { correct: mistakes === 0, score };
     }
+    case 'translate':
+    case 'question':
+      return null;
   }
+}
+
+const freeQuestion = (ex: Extract<Exercise, { type: 'translate' | 'question' }>) => (ex.type === 'translate' ? translateQuestion(ex) : exerciseQuestion(ex));
+const textOf = (answer: Answer) => (answer.type === 'text' ? answer.text : '');
+const builtOf = (answer: Answer) => (answer.type === 'order' ? answer.tiles.join('') : '');
+
+/** Checks an answer on the spot, grader included (tests, tools). The app uses checkAsync. */
+export function check(ex: Exercise, answer: Answer, ctx: CheckContext = {}): Outcome {
+  if (ex.type === 'translate' || ex.type === 'question') {
+    const result = grade(freeQuestion(ex), textOf(answer));
+    return { correct: result.score >= PASS_SCORE, score: result.score, result };
+  }
+  const out = checkClosed(ex, answer, ctx)!;
+  // A wrong order the rules can explain (上の机, 書きて…).
+  if (ex.type === 'order' && !out.correct && builtOf(answer)) {
+    const issues = checkJaSentence(builtOf(answer)).issues;
+    if (issues.length > 0) out.issues = issues;
+  }
+  return out;
+}
+
+/** Checks an answer; free answers and the rules run in the grading worker (lib/grading.ts). */
+export async function checkAsync(ex: Exercise, answer: Answer, ctx: CheckContext = {}): Promise<Outcome> {
+  if (ex.type === 'translate' || ex.type === 'question') {
+    const result = await gradeAnswer(freeQuestion(ex), textOf(answer));
+    return { correct: result.score >= PASS_SCORE, score: result.score, result };
+  }
+  const out = checkClosed(ex, answer, ctx)!;
+  if (ex.type === 'order' && !out.correct && builtOf(answer)) {
+    const issues = (await checkSentence(builtOf(answer))).issues;
+    if (issues.length > 0) out.issues = issues;
+  }
+  return out;
 }
 
 /** A generated drill (not stored in the course data); `listen` is spoken instead of shown. */

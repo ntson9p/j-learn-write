@@ -5,7 +5,7 @@
 import type { Exercise } from '@j-learn-write/course';
 import { JA_ISSUE_LABELS_VI } from '@j-learn-write/grader';
 import { useContext, useMemo, useRef, useState } from 'preact/hooks';
-import { acceptedForms, check, needsJapaneseKeyboard, shuffle, shuffledTiles, type Answer, type Drill, type Outcome } from '../lib/exercises';
+import { acceptedForms, checkAsync, checkClosed, needsJapaneseKeyboard, shuffle, shuffledTiles, type Answer, type Drill, type Outcome } from '../lib/exercises';
 import { settings } from '../lib/settings';
 import { speak, voices } from '../lib/speech';
 import { href } from '../router';
@@ -62,16 +62,29 @@ function Feedback({ outcome, exercise }: { outcome: Outcome; exercise: AnyExerci
 export function ExerciseView({ exercise, onChecked }: Props) {
   const ctx = useContext(RubyContext);
   const [outcome, setOutcome] = useState<Outcome | null>(null);
+  const [checking, setChecking] = useState(false);
   // A ref, not only state: a double tap submits twice before the next render.
   const answered = useRef(false);
   const submit = (answer: Answer) => {
     if (answered.current) return;
     answered.current = true;
-    const o = check(exercise, answer, { ruby: ctx.ruby });
-    setOutcome(o);
-    onChecked(o);
+    const done = (o: Outcome) => {
+      setOutcome(o);
+      onChecked(o);
+    };
+    // Closed exercises are checked at once; free answers and a wrong word order go to the grader.
+    const closed = checkClosed(exercise, answer, { ruby: ctx.ruby });
+    if (closed && (exercise.type !== 'order' || closed.correct)) {
+      done(closed);
+      return;
+    }
+    setChecking(true);
+    void checkAsync(exercise, answer, { ruby: ctx.ruby }).then((o) => {
+      setChecking(false);
+      done(o);
+    });
   };
-  const locked = outcome !== null;
+  const locked = outcome !== null || checking;
 
   return (
     <div class="exercise" data-type={exercise.type}>
@@ -80,6 +93,11 @@ export function ExerciseView({ exercise, onChecked }: Props) {
       {exercise.type === 'order' && <OrderBody ex={exercise} locked={locked} onAnswer={submit} />}
       {exercise.type === 'match' && <MatchBody ex={exercise} locked={locked} onAnswer={submit} />}
       {(exercise.type === 'translate' || exercise.type === 'question') && <TextBody ex={exercise} locked={locked} onAnswer={submit} />}
+      {checking && (
+        <p class="muted" role="status">
+          {T.exercise.checking}
+        </p>
+      )}
       {outcome && <Feedback outcome={outcome} exercise={exercise} />}
     </div>
   );

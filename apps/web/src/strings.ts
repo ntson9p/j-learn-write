@@ -162,6 +162,7 @@ export const T = {
   } as Record<string, string>,
 
   exercise: {
+    checking: 'Đang chấm…',
     check: 'Kiểm tra',
     next: 'Tiếp tục',
     correct: 'Chính xác!',

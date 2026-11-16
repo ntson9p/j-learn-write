@@ -76,4 +76,4 @@ Chưa hỗ trợ (bộ chấm cho 0 điểm, không báo lỗi riêng): てお�
 ## 5. Hiệu năng (đo 2026-11-16, Node 22)
 
 - 0,71 ms mỗi câu trả lời (câu hỏi `model`, trung bình trên ~50 câu thử).
-- Lần chấm đầu tiên ~550 ms: dựng từ vựng với mọi dạng chia (kể cả dạng N4: khả năng, bị động, sai khiến, ちゃう, てる…) ~390 ms, bảng số đếm kana và bảng dạng sai của luật. Trên điện thoại có thể lâu gấp vài lần, nên app dựng sẵn bộ chấm khi rảnh (xem `apps/web`).
+- Lần chấm đầu tiên ~550 ms: dựng từ vựng với mọi dạng chia (kể cả dạng N4: khả năng, bị động, sai khiến, ちゃう, てる…) ~390 ms, bảng số đếm kana và bảng dạng sai của luật. Trên điện thoại có thể lâu gấp vài lần, nên app chấm trong một **Web Worker** (`apps/web/src/lib/grader.worker.ts`) và dựng sẵn bộ chấm ngay khi mở trang có bài tự luận: màn hình không bị khựng (Lighthouse cục bộ, trang luyện tập n4-01: thời gian bị chặn 1960 ms → 50 ms). Bài tập đóng vẫn chấm ngay trên trang.

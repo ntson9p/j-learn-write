@@ -1,7 +1,7 @@
 /** Runs a list of exercises one by one and reports every outcome. */
 import { useEffect, useRef, useState } from 'preact/hooks';
 import type { Outcome } from '../lib/exercises';
-import { warmGrader } from '../lib/warm';
+import { warmGrader } from '../lib/grading';
 import { T } from '../strings';
 import { ExerciseView, type AnyExercise } from './exercise';
 
