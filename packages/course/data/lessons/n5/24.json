@@ -1,0 +1,1269 @@
+{
+  "id": "n5-24",
+  "goalsVi": [
+    "Nói về sự thay đổi: 寒くなりました、医者になります",
+    "Nói lựa chọn, quyết định: コーヒーにします",
+    "Nối hai tính từ, danh từ: 安くておいしいです、静かできれいです",
+    "Nói về màu sắc, áo khoác, áo len và hình dáng, độ nặng nhẹ của đồ vật"
+  ],
+  "words": [
+    {
+      "no": 461,
+      "word": "なる",
+      "meaningsVi": [
+        "trở nên, trở thành"
+      ],
+      "noteVi": "Aい → 〜くなる (寒くなる), Aな / N → 〜になる (元気になる, 医者になる). Nhóm I: なります, なって, なった.",
+      "examples": [
+        {
+          "ja": "暖かくなりましたね。",
+          "vi": "Trời ấm lên rồi nhỉ."
+        },
+        {
+          "ja": "私は医者になりたいです。",
+          "vi": "Tôi muốn trở thành bác sĩ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 498,
+      "word": "二十歳",
+      "meaningsVi": [
+        "20 tuổi"
+      ],
+      "noteVi": "Cách đọc đặc biệt: はたち (cũng nói にじゅっさい). Ở Nhật, 20 tuổi là tuổi được uống rượu, hút thuốc; nhiều nơi làm lễ cho người tròn 20 tuổi vào tháng 1.",
+      "examples": [
+        {
+          "ja": "弟は来年二十歳になります。",
+          "vi": "Em trai tôi sang năm tròn 20 tuổi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 119,
+      "word": "大人",
+      "meaningsVi": [
+        "người lớn"
+      ],
+      "noteVi": "Âm Hán Việt \"đại nhân\" nhưng không có nghĩa \"quan lớn\": 大人 là người lớn, ngược với 子供 (trẻ con). Trên bảng giá vé hay gặp 「大人」 và 「子供」.",
+      "examples": [
+        {
+          "ja": "大人は300円、子供は100円です。",
+          "vi": "Người lớn 300 yên, trẻ em 100 yên."
+        },
+        {
+          "ja": "早く大人になりたいです。",
+          "vi": "Tôi muốn mau lớn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 373,
+      "word": "だんだん",
+      "meaningsVi": [
+        "dần dần"
+      ],
+      "noteVi": "Hay đi với なる: 「だんだん寒くなります」. Kanji: 段々.",
+      "examples": [
+        {
+          "ja": "だんだん暑くなりますね。",
+          "vi": "Trời dần dần nóng lên nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 74,
+      "word": "色",
+      "meaningsVi": [
+        "màu, màu sắc"
+      ],
+      "noteVi": "Hỏi màu: 「何色ですか」 (なにいろ). Một số tên màu có 色 ở cuối: 黄色 (màu vàng), 茶色 (màu nâu).",
+      "examples": [
+        {
+          "ja": "何色が好きですか。",
+          "vi": "Bạn thích màu gì?"
+        },
+        {
+          "ja": "この色はきれいですね。",
+          "vi": "Màu này đẹp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 4,
+      "word": "赤",
+      "meaningsVi": [
+        "màu đỏ"
+      ],
+      "noteVi": "赤 là danh từ (màu đỏ), 赤い là tính từ (đỏ). Trước danh từ thường dùng 赤い: 「赤いセーター」; khi nói về màu thì dùng 赤: 「赤が好きです」, 「赤にします」.",
+      "examples": [
+        {
+          "ja": "私は赤が好きです。",
+          "vi": "Tôi thích màu đỏ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 2,
+      "word": "青",
+      "meaningsVi": [
+        "màu xanh (xanh lam, xanh dương)"
+      ],
+      "noteVi": "Giống chữ \"xanh\" trong tiếng Việt, 青 có khi chỉ cả màu xanh lá: đèn xanh giao thông gọi là 青. Tính từ: 青い.",
+      "examples": [
+        {
+          "ja": "青と白、どっちがいい？",
+          "vi": "Xanh với trắng, cậu thích cái nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 304,
+      "word": "白",
+      "meaningsVi": [
+        "màu trắng"
+      ],
+      "noteVi": "Tính từ: 白い (trắng).",
+      "examples": [
+        {
+          "ja": "白と黒、どちらがいいですか。",
+          "vi": "Trắng và đen, anh chọn màu nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 217,
+      "word": "黒",
+      "meaningsVi": [
+        "màu đen"
+      ],
+      "noteVi": "Tính từ: 黒い (đen).",
+      "examples": [
+        {
+          "ja": "色は黒にします。",
+          "vi": "Về màu thì tôi chọn màu đen."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 178,
+      "word": "黄色",
+      "meaningsVi": [
+        "màu vàng"
+      ],
+      "noteVi": "黄色 là danh từ (màu vàng); tính từ là 黄色い. Âm Hán Việt \"hoàng sắc\".",
+      "examples": [
+        {
+          "ja": "黄色のセーターにします。",
+          "vi": "Tôi chọn áo len màu vàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 381,
+      "word": "茶色",
+      "meaningsVi": [
+        "màu nâu"
+      ],
+      "noteVi": "Âm Hán Việt \"trà sắc\" = màu trà; nghĩa là màu nâu, không phải màu xanh của nước trà.",
+      "examples": [
+        {
+          "ja": "茶色のかばんを買いました。",
+          "vi": "Tôi đã mua một cái túi màu nâu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 601,
+      "word": "緑",
+      "meaningsVi": [
+        "màu xanh lá",
+        "cây xanh"
+      ],
+      "noteVi": "Chỉ màu xanh lá, và cả cây cỏ xanh: 「緑が多い」 = nhiều cây xanh.",
+      "examples": [
+        {
+          "ja": "この町は緑が多いです。",
+          "vi": "Thị trấn này có nhiều cây xanh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 179,
+      "word": "黄色い",
+      "meaningsVi": [
+        "vàng"
+      ],
+      "noteVi": "Tính từ đuôi い: 黄色いかばん. Danh từ: 黄色.",
+      "examples": [
+        {
+          "ja": "黄色い花が咲いています。",
+          "vi": "Hoa vàng đang nở."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 6,
+      "word": "明るい",
+      "meaningsVi": [
+        "sáng, sáng sủa",
+        "vui vẻ, cởi mở (tính cách)"
+      ],
+      "noteVi": "Ngược nghĩa: 暗い.",
+      "examples": [
+        {
+          "ja": "この部屋は明るくて広いです。",
+          "vi": "Căn phòng này sáng sủa và rộng."
+        },
+        {
+          "ja": "マイさんは明るい人です。",
+          "vi": "Chị Mai là người vui vẻ, cởi mở."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 212,
+      "word": "暗い",
+      "meaningsVi": [
+        "tối",
+        "u buồn, ít nói (tính cách)"
+      ],
+      "noteVi": "Ngược nghĩa với 明るい. Âm Hán Việt \"ám\" (như \"u ám\").",
+      "examples": [
+        {
+          "ja": "外はもう暗くなりました。",
+          "vi": "Bên ngoài trời đã tối rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 327,
+      "word": "セーター",
+      "meaningsVi": [
+        "áo len"
+      ],
+      "examples": [
+        {
+          "ja": "寒いですから、セーターを着ます。",
+          "vi": "Trời lạnh nên tôi mặc áo len."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 233,
+      "word": "コート",
+      "meaningsVi": [
+        "áo khoác dài, áo măng tô",
+        "sân (quần vợt...)"
+      ],
+      "examples": [
+        {
+          "ja": "このコートは軽くて暖かいです。",
+          "vi": "Cái áo khoác này nhẹ và ấm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 85,
+      "word": "上着",
+      "meaningsVi": [
+        "áo khoác (mặc ngoài)"
+      ],
+      "noteVi": "Áo mặc ngoài cùng như áo vest, áo jacket. Âm Hán Việt \"thượng trước\": \"trước\" ở đây là \"mặc\" (như 着る), không phải \"phía trước\".",
+      "examples": [
+        {
+          "ja": "暑いですから、上着を脱ぎます。",
+          "vi": "Nóng nên tôi cởi áo khoác."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 132,
+      "word": "重い",
+      "meaningsVi": [
+        "nặng"
+      ],
+      "noteVi": "Ngược nghĩa: 軽い. Âm Hán Việt \"trọng\".",
+      "examples": [
+        {
+          "ja": "このかばんは重いですね。",
+          "vi": "Cái túi này nặng nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 171,
+      "word": "軽い",
+      "meaningsVi": [
+        "nhẹ"
+      ],
+      "noteVi": "Ngược nghĩa: 重い. Âm Hán Việt \"khinh\" (như \"khinh khí\").",
+      "examples": [
+        {
+          "ja": "このかばんは軽くて便利です。",
+          "vi": "Cái túi này nhẹ và tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 546,
+      "word": "太い",
+      "meaningsVi": [
+        "to, dày (vật dài)",
+        "(nét) đậm"
+      ],
+      "noteVi": "Dùng cho vật hình dài: cây, chân, bút, nét chữ. Không dùng 太い để nói người béo. Ngược nghĩa: 細い.",
+      "examples": [
+        {
+          "ja": "この木は太いですね。",
+          "vi": "Cái cây này to nhỉ."
+        },
+        {
+          "ja": "太いペンで名前を書いてください。",
+          "vi": "Hãy viết tên bằng bút nét đậm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 567,
+      "word": "細い",
+      "meaningsVi": [
+        "nhỏ, mảnh, thon (vật dài)",
+        "(đường) hẹp, nhỏ"
+      ],
+      "noteVi": "Dùng cho vật hình dài: dây, chân, ngón tay, con đường. Ngược nghĩa: 太い. Âm Hán Việt \"tế\" (như \"tinh tế\").",
+      "examples": [
+        {
+          "ja": "細い道を歩きました。",
+          "vi": "Tôi đã đi bộ trên một con đường nhỏ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 589,
+      "word": "丸い",
+      "meaningsVi": [
+        "tròn"
+      ],
+      "noteVi": "Âm Hán Việt \"hoàn\" (viên tròn).",
+      "examples": [
+        {
+          "ja": "丸いテーブルを買いました。",
+          "vi": "Tôi đã mua một cái bàn tròn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 619,
+      "word": "もっと",
+      "meaningsVi": [
+        "hơn nữa, thêm nữa"
+      ],
+      "noteVi": "Đứng trước tính từ, động từ: 「もっと大きい」 (to hơn nữa), 「もっと食べたい」 (muốn ăn thêm).",
+      "examples": [
+        {
+          "ja": "もっと大きい声で話してください。",
+          "vi": "Hãy nói to hơn nữa."
+        },
+        {
+          "ja": "もっと食べたいです。",
+          "vi": "Tôi muốn ăn thêm nữa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 271,
+      "word": "再来年",
+      "meaningsVi": [
+        "năm sau nữa"
+      ],
+      "noteVi": "去年 – 今年 – 来年 – 再来年. Âm Hán Việt \"tái lai niên\" = năm lại đến thêm lần nữa.",
+      "examples": [
+        {
+          "ja": "再来年、二十歳になります。",
+          "vi": "Năm sau nữa tôi tròn 20 tuổi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "白",
+      "meaningVi": "trắng",
+      "noteVi": "Chữ 日 (mặt trời) thêm một nét nhỏ trên đầu: tia nắng trắng. Gặp trong 白 (しろ), 白い (しろい).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ku-naru-ni-naru",
+      "titleVi": "〜くなる / 〜になる: trở nên, trở thành",
+      "summaryVi": "Aい → 〜くなります; Aな / N → 〜になります: nói sự thay đổi.",
+      "explanationVi": [
+        "**なる** = trở nên, trở thành; dùng để nói **sự thay đổi**. Tính từ đuôi い: bỏ い, thêm **く**: 「寒い → 寒くなります」. Tính từ đuôi な và danh từ: thêm **に**: 「元気になります」, 「医者になります」. 「いい」 là ngoại lệ: 「よくなります」.",
+        "Tiếng Việt thường chỉ thêm \"rồi\", \"lên\", \"đi\": \"Trời lạnh rồi\" = 「寒くなりました」, \"Phòng sạch rồi\" = 「部屋がきれいになりました」. 「寒いです」 chỉ nói trạng thái bây giờ; muốn nói sự thay đổi đã xảy ra thì dùng 「なりました」.",
+        "Hay đi với **だんだん** (dần dần) và **もっと** (hơn nữa): 「だんだん暖かくなります」. Tuổi và nghề nghiệp cũng dùng になる: 「来年二十歳になります」."
+      ],
+      "patterns": [
+        "Aい → 〜く なります",
+        "Aな／N → 〜に なります"
+      ],
+      "examples": [
+        {
+          "ja": "だんだん寒くなりました。",
+          "vi": "Trời lạnh dần rồi."
+        },
+        {
+          "ja": "部屋がきれいになりました。",
+          "vi": "Phòng đã sạch sẽ rồi."
+        },
+        {
+          "ja": "弟は来年二十歳になります。",
+          "vi": "Em trai tôi sang năm tròn 20 tuổi."
+        },
+        {
+          "ja": "天気がよくなりました。",
+          "vi": "Thời tiết đã tốt lên."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "寒いになりました。",
+          "right": "寒くなりました。",
+          "noteVi": "Tính từ đuôi い: bỏ い thêm く, không thêm に."
+        },
+        {
+          "wrong": "元気くなりました。",
+          "right": "元気になりました。",
+          "noteVi": "元気 là tính từ đuôi な: thêm に, không thêm く."
+        },
+        {
+          "wrong": "天気がいいくなりました。",
+          "right": "天気がよくなりました。",
+          "noteVi": "いい là ngoại lệ: dạng く là よく."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-suru",
+      "titleVi": "〜にする: chọn, quyết định",
+      "summaryVi": "N にします: chọn N, quyết định lấy N (khi gọi món, mua đồ, chọn ngày).",
+      "explanationVi": [
+        "**N + にします** = \"chọn N, lấy N\", dùng khi quyết định giữa nhiều lựa chọn: gọi món, mua hàng, chọn ngày giờ. 「私はコーヒーにします」 = Tôi chọn (gọi) cà phê.",
+        "Hỏi người khác chọn gì: 「何にしますか」. Đã quyết định: 「〜にしました」. Rủ cùng chọn: 「土曜日にしましょう」. So sánh: 「コーヒーをください」 là nhờ người bán đưa cho mình; 「コーヒーにします」 là nói mình chọn món nào.",
+        "Đừng nhầm を với に: tiếng Việt nói \"tôi lấy cà phê\" nên dễ dùng を, nhưng chọn món phải là 「コーヒーにします」. Khác với 「〜になる」 (tự thay đổi), 「〜にする」 là **người nói** quyết định."
+      ],
+      "patterns": [
+        "N に します",
+        "何に しますか"
+      ],
+      "examples": [
+        {
+          "ja": "私は紅茶にします。",
+          "vi": "Tôi chọn trà đen."
+        },
+        {
+          "ja": "何にしますか。",
+          "vi": "Bạn chọn món gì?"
+        },
+        {
+          "ja": "パーティーは土曜日にしましょう。",
+          "vi": "Tiệc thì chọn thứ Bảy nhé."
+        },
+        {
+          "ja": "この赤いセーターにします。",
+          "vi": "Tôi chọn cái áo len đỏ này."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私はコーヒーをします。",
+          "right": "私はコーヒーにします。",
+          "noteVi": "Chọn món dùng 〜にします, không dùng を (theo thói quen \"tôi lấy cà phê\")."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kute-de",
+      "titleVi": "〜くて / 〜で: và (nối tính từ, danh từ)",
+      "summaryVi": "Nối hai tính từ hoặc danh từ: Aい → 〜くて; Aな / N → 〜で.",
+      "explanationVi": [
+        "Muốn nói hai đặc điểm trong một câu, tiếng Việt chỉ cần \"và\" hoặc dấu phẩy: \"rẻ và ngon\". Tiếng Nhật **không dùng と** để nối tính từ; tính từ đứng trước đổi sang dạng nối. Aい: bỏ い, thêm **くて**: 「安い → 安くて」 (「いい → よくて」). Aな và danh từ: thêm **で**: 「静か → 静かで」, 「学生 → 学生で」.",
+        "Ví dụ: 「この店は安くておいしいです」, 「この町は静かできれいです」, 「マイさんは学生で、二十歳です」. Chỉ từ cuối cùng mang です và thì của câu: 「安くておいしかったです」 (đã rẻ lại ngon).",
+        "Hai đặc điểm nên cùng chiều (cùng tốt hoặc cùng xấu). Nếu ngược nhau (rẻ nhưng không ngon) thì dùng が: 「安いですが、おいしくないです」."
+      ],
+      "patterns": [
+        "Aい → 〜くて、…",
+        "Aな／N → 〜で、…"
+      ],
+      "examples": [
+        {
+          "ja": "このコートは軽くて暖かいです。",
+          "vi": "Cái áo khoác này nhẹ và ấm."
+        },
+        {
+          "ja": "この部屋は明るくて広いです。",
+          "vi": "Căn phòng này sáng sủa và rộng."
+        },
+        {
+          "ja": "あの公園は静かできれいです。",
+          "vi": "Công viên kia yên tĩnh và đẹp."
+        },
+        {
+          "ja": "マイさんは学生で、二十歳です。",
+          "vi": "Chị Mai là sinh viên, 20 tuổi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この店は安いとおいしいです。",
+          "right": "この店は安くておいしいです。",
+          "noteVi": "と chỉ nối danh từ; nối tính từ dùng くて hoặc で."
+        },
+        {
+          "wrong": "このかばんは軽いくて便利です。",
+          "right": "このかばんは軽くて便利です。",
+          "noteVi": "Bỏ い rồi mới thêm くて."
+        },
+        {
+          "wrong": "この町は静かくてきれいです。",
+          "right": "この町は静かできれいです。",
+          "noteVi": "静か là tính từ đuôi な: dùng で."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-24-e01",
+      "type": "fill",
+      "grammar": [
+        "ku-naru-ni-naru"
+      ],
+      "before": "だんだん",
+      "after": "なりました。",
+      "answers": [
+        "寒く"
+      ],
+      "options": [
+        "寒く",
+        "寒い",
+        "寒くて"
+      ],
+      "vi": "Trời lạnh dần rồi.",
+      "explainVi": "Aい: bỏ い thêm く rồi mới đến なる."
+    },
+    {
+      "id": "n5-24-e02",
+      "type": "fill",
+      "grammar": [
+        "ku-naru-ni-naru"
+      ],
+      "before": "部屋がきれい",
+      "after": "なりました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "vi": "Phòng đã sạch sẽ rồi.",
+      "explainVi": "きれい là tính từ đuôi な: thêm に."
+    },
+    {
+      "id": "n5-24-e03",
+      "type": "choice",
+      "grammar": [
+        "ku-naru-ni-naru"
+      ],
+      "promptVi": "Chọn câu đúng: \"Em trai tôi sẽ trở thành bác sĩ.\"",
+      "options": [
+        "弟は医者になります。",
+        "弟は医者をなります。",
+        "弟は医者でなります。"
+      ],
+      "answer": 0,
+      "explainVi": "Danh từ + になる."
+    },
+    {
+      "id": "n5-24-e04",
+      "type": "order",
+      "grammar": [
+        "ku-naru-ni-naru"
+      ],
+      "vi": "Bên ngoài trời đã tối rồi.",
+      "tiles": [
+        "外は",
+        "もう",
+        "暗く",
+        "なりました"
+      ],
+      "answers": [
+        "外はもう暗くなりました",
+        "もう外は暗くなりました"
+      ]
+    },
+    {
+      "id": "n5-24-e05",
+      "type": "fill",
+      "grammar": [
+        "ni-suru"
+      ],
+      "before": "私はコーヒー",
+      "after": "します。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "が"
+      ],
+      "vi": "Tôi chọn cà phê.",
+      "explainVi": "Chọn món: N にします."
+    },
+    {
+      "id": "n5-24-e06",
+      "type": "choice",
+      "grammar": [
+        "ni-suru"
+      ],
+      "promptVi": "Bạn hỏi bạn bè: \"Bạn chọn món gì?\"",
+      "options": [
+        "何にしますか。",
+        "何をしますか。",
+        "何がありますか。"
+      ],
+      "answer": 0,
+      "explainVi": "何をしますか = Bạn làm gì?; 何がありますか = Có những gì?"
+    },
+    {
+      "id": "n5-24-e07",
+      "type": "order",
+      "grammar": [
+        "ni-suru"
+      ],
+      "vi": "Tôi chọn cái áo len đỏ này.",
+      "tiles": [
+        "この",
+        "赤い",
+        "セーターに",
+        "します"
+      ],
+      "answers": [
+        "この赤いセーターにします"
+      ]
+    },
+    {
+      "id": "n5-24-e08",
+      "type": "choice",
+      "grammar": [
+        "ni-suru"
+      ],
+      "promptVi": "\"Tiệc thì chọn thứ Bảy nhé.\" Chọn trợ từ đúng.",
+      "ja": "パーティーは土曜日＿しましょう。",
+      "options": [
+        "に",
+        "で",
+        "を"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-24-e09",
+      "type": "fill",
+      "grammar": [
+        "kute-de"
+      ],
+      "before": "このコートは",
+      "after": "暖かいです。",
+      "answers": [
+        "軽くて"
+      ],
+      "options": [
+        "軽くて",
+        "軽いで",
+        "軽いです"
+      ],
+      "vi": "Cái áo khoác này nhẹ và ấm.",
+      "explainVi": "Aい: bỏ い thêm くて."
+    },
+    {
+      "id": "n5-24-e10",
+      "type": "fill",
+      "grammar": [
+        "kute-de"
+      ],
+      "before": "この町は静か",
+      "after": "きれいです。",
+      "answers": [
+        "で"
+      ],
+      "options": [
+        "で",
+        "と",
+        "に"
+      ],
+      "vi": "Thị trấn này yên tĩnh và đẹp.",
+      "explainVi": "静か là tính từ đuôi な: dùng で."
+    },
+    {
+      "id": "n5-24-e11",
+      "type": "choice",
+      "grammar": [
+        "kute-de"
+      ],
+      "promptVi": "Chọn câu đúng: \"Căn phòng này sáng sủa và rộng.\"",
+      "options": [
+        "この部屋は明るくて広いです。",
+        "この部屋は明るいで広いです。",
+        "この部屋は明るいて広いです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-24-e12",
+      "type": "order",
+      "grammar": [
+        "kute-de"
+      ],
+      "vi": "Chị Mai là sinh viên, 20 tuổi.",
+      "tiles": [
+        "マイさんは",
+        "学生で",
+        "二十歳",
+        "です"
+      ],
+      "answers": [
+        "マイさんは学生で二十歳です"
+      ]
+    },
+    {
+      "id": "n5-24-e13",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "赤",
+          "màu đỏ"
+        ],
+        [
+          "青",
+          "màu xanh lam"
+        ],
+        [
+          "黄色",
+          "màu vàng"
+        ],
+        [
+          "緑",
+          "màu xanh lá"
+        ]
+      ]
+    },
+    {
+      "id": "n5-24-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "白",
+          "màu trắng"
+        ],
+        [
+          "黒",
+          "màu đen"
+        ],
+        [
+          "茶色",
+          "màu nâu"
+        ],
+        [
+          "色",
+          "màu sắc"
+        ]
+      ]
+    },
+    {
+      "id": "n5-24-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "重い",
+          "nặng"
+        ],
+        [
+          "軽い",
+          "nhẹ"
+        ],
+        [
+          "太い",
+          "to, dày"
+        ],
+        [
+          "細い",
+          "nhỏ, mảnh"
+        ]
+      ]
+    },
+    {
+      "id": "n5-24-e16",
+      "type": "choice",
+      "promptVi": "Chọn từ trái nghĩa.",
+      "ja": "明るい",
+      "options": [
+        "暗い",
+        "丸い",
+        "軽い"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-24-e17",
+      "type": "choice",
+      "promptVi": "\"Năm sau nữa\" là từ nào?",
+      "options": [
+        "再来年",
+        "去年",
+        "来年"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-24-e18",
+      "type": "fill",
+      "before": "寒いですから、",
+      "after": "を着ます。",
+      "answers": [
+        "セーター"
+      ],
+      "options": [
+        "セーター",
+        "帽子",
+        "靴"
+      ],
+      "vi": "Trời lạnh nên tôi mặc áo len.",
+      "explainVi": "着る dùng cho áo; mũ và giày dùng động từ khác (靴をはく)."
+    },
+    {
+      "id": "n5-24-e19",
+      "type": "choice",
+      "promptVi": "Vé người lớn giá bao nhiêu?",
+      "ja": "大人は500円、子供は200円です。",
+      "options": [
+        "500円",
+        "200円",
+        "700円"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-24-e20",
+      "type": "choice",
+      "promptVi": "\"Xin lỗi, hãy nói to hơn nữa.\" Chọn từ đúng.",
+      "ja": "すみません、＿大きい声で話してください。",
+      "options": [
+        "もっと",
+        "だんだん",
+        "まだ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-24-e21",
+      "type": "translate",
+      "grammar": [
+        "ku-naru-ni-naru"
+      ],
+      "vi": "Trời đã ấm lên rồi.",
+      "answers": [
+        "(もう)暖かくなりました。",
+        "天気が(もう)暖かくなりました。"
+      ],
+      "examples": [
+        {
+          "answer": "あたたかくなりました",
+          "score": 100
+        },
+        {
+          "answer": "暖かくになりました。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "寒くなりました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e22",
+      "type": "translate",
+      "grammar": [
+        "ku-naru-ni-naru",
+        "tai"
+      ],
+      "vi": "Tôi muốn trở thành giáo viên tiếng Nhật.",
+      "answers": [
+        "(私は)日本語の先生になりたい(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんごのせんせいになりたいです",
+          "score": 100
+        },
+        {
+          "answer": "日本語の先生がなりたいです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "日本語の先生になりました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e23",
+      "type": "translate",
+      "grammar": [
+        "ni-suru"
+      ],
+      "vi": "(Ở cửa hàng) Tôi chọn cái áo khoác màu đen.",
+      "answers": [
+        "(私は)黒[い|の][コート|上着]にします。"
+      ],
+      "examples": [
+        {
+          "answer": "くろいコートにします",
+          "score": 100
+        },
+        {
+          "answer": "黒いコートをします。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "白いコートにします。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e24",
+      "type": "translate",
+      "grammar": [
+        "kute-de"
+      ],
+      "vi": "Chiếc áo len này rẻ và ấm.",
+      "answers": [
+        "このセーターは安くて暖かい(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "このセーターはやすくてあたたかいです",
+          "score": 100
+        },
+        {
+          "answer": "このせーたーはやすくてあたたかいです",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ]
+        },
+        {
+          "answer": "このセーターは高くて暖かいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e25",
+      "type": "translate",
+      "grammar": [
+        "kute-de"
+      ],
+      "vi": "Công viên này yên tĩnh và rộng.",
+      "answers": [
+        "この公園は静かで広い(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "このこうえんはしずかでひろいです",
+          "score": 100
+        },
+        {
+          "answer": "この公園は静かと広いです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "この公園は静かなで広いです。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "この公園はにぎやかで広いです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-24-e26",
+      "type": "question",
+      "grammar": [
+        "ni-suru"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "何にしますか。",
+        "promptVi": "Ở quán cà phê, nhân viên hỏi: “Anh/chị dùng gì ạ?” Hãy trả lời: tôi chọn cà phê.",
+        "answers": [
+          "(私は)コーヒーにします。",
+          "コーヒー(を)[ください|お願いします]。"
+        ],
+        "examples": [
+          {
+            "answer": "コーヒーにします",
+            "score": 100
+          },
+          {
+            "answer": "コーヒーをします。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "紅茶にします。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "暖かくなりましたね。": "{暖|あたた}かくなりましたね。",
+    "私は医者になりたいです。": "{私|わたし}は{医|い}{者|しゃ}になりたいです。",
+    "弟は来年二十歳になります。": "{弟|おとうと}は{来|らい}{年|ねん}{二十歳|はたち}になります。",
+    "大人は300円、子供は100円です。": "{大人|おとな}は300{円|えん}、{子|こ}{供|ども}は100{円|えん}です。",
+    "早く大人になりたいです。": "{早|はや}く{大人|おとな}になりたいです。",
+    "だんだん暑くなりますね。": "だんだん{暑|あつ}くなりますね。",
+    "何色が好きですか。": "{何|なに}{色|いろ}が{好|す}きですか。",
+    "この色はきれいですね。": "この{色|いろ}はきれいですね。",
+    "私は赤が好きです。": "{私|わたし}は{赤|あか}が{好|す}きです。",
+    "青と白、どっちがいい？": "{青|あお}と{白|しろ}、どっちがいい？",
+    "白と黒、どちらがいいですか。": "{白|しろ}と{黒|くろ}、どちらがいいですか。",
+    "色は黒にします。": "{色|いろ}は{黒|くろ}にします。",
+    "黄色のセーターにします。": "{黄|き}{色|いろ}のセーターにします。",
+    "茶色のかばんを買いました。": "{茶|ちゃ}{色|いろ}のかばんを{買|か}いました。",
+    "この町は緑が多いです。": "この{町|まち}は{緑|みどり}が{多|おお}いです。",
+    "黄色い花が咲いています。": "{黄|き}{色|いろ}い{花|はな}が{咲|さ}いています。",
+    "この部屋は明るくて広いです。": "この{部屋|へや}は{明|あか}るくて{広|ひろ}いです。",
+    "マイさんは明るい人です。": "マイさんは{明|あか}るい{人|ひと}です。",
+    "外はもう暗くなりました。": "{外|そと}はもう{暗|くら}くなりました。",
+    "寒いですから、セーターを着ます。": "{寒|さむ}いですから、セーターを{着|き}ます。",
+    "このコートは軽くて暖かいです。": "このコートは{軽|かる}くて{暖|あたた}かいです。",
+    "暑いですから、上着を脱ぎます。": "{暑|あつ}いですから、{上|うわ}{着|ぎ}を{脱|ぬ}ぎます。",
+    "このかばんは重いですね。": "このかばんは{重|おも}いですね。",
+    "このかばんは軽くて便利です。": "このかばんは{軽|かる}くて{便|べん}{利|り}です。",
+    "この木は太いですね。": "この{木|き}は{太|ふと}いですね。",
+    "太いペンで名前を書いてください。": "{太|ふと}いペンで{名|な}{前|まえ}を{書|か}いてください。",
+    "細い道を歩きました。": "{細|ほそ}い{道|みち}を{歩|ある}きました。",
+    "丸いテーブルを買いました。": "{丸|まる}いテーブルを{買|か}いました。",
+    "もっと大きい声で話してください。": "もっと{大|おお}きい{声|こえ}で{話|はな}してください。",
+    "もっと食べたいです。": "もっと{食|た}べたいです。",
+    "再来年、二十歳になります。": "{再|さ}{来|らい}{年|ねん}、{二十歳|はたち}になります。",
+    "だんだん寒くなりました。": "だんだん{寒|さむ}くなりました。",
+    "部屋がきれいになりました。": "{部屋|へや}がきれいになりました。",
+    "天気がよくなりました。": "{天|てん}{気|き}がよくなりました。",
+    "寒くなりました。": "{寒|さむ}くなりました。",
+    "寒いになりました。": "{寒|さむ}いになりました。",
+    "元気になりました。": "{元|げん}{気|き}になりました。",
+    "元気くなりました。": "{元|げん}{気|き}くなりました。",
+    "天気がいいくなりました。": "{天|てん}{気|き}がいいくなりました。",
+    "私は紅茶にします。": "{私|わたし}は{紅|こう}{茶|ちゃ}にします。",
+    "何にしますか。": "{何|なに}にしますか。",
+    "パーティーは土曜日にしましょう。": "パーティーは{土|ど}{曜|よう}{日|び}にしましょう。",
+    "この赤いセーターにします。": "この{赤|あか}いセーターにします。",
+    "私はコーヒーにします。": "{私|わたし}はコーヒーにします。",
+    "私はコーヒーをします。": "{私|わたし}はコーヒーをします。",
+    "あの公園は静かできれいです。": "あの{公|こう}{園|えん}は{静|しず}かできれいです。",
+    "マイさんは学生で、二十歳です。": "マイさんは{学|がく}{生|せい}で、{二十歳|はたち}です。",
+    "この店は安くておいしいです。": "この{店|みせ}は{安|やす}くておいしいです。",
+    "この店は安いとおいしいです。": "この{店|みせ}は{安|やす}いとおいしいです。",
+    "このかばんは軽いくて便利です。": "このかばんは{軽|かる}いくて{便|べん}{利|り}です。",
+    "この町は静かできれいです。": "この{町|まち}は{静|しず}かできれいです。",
+    "この町は静かくてきれいです。": "この{町|まち}は{静|しず}かくてきれいです。",
+    "寒く": "{寒|さむ}く",
+    "寒い": "{寒|さむ}い",
+    "寒くて": "{寒|さむ}くて",
+    "に": "に",
+    "を": "を",
+    "で": "で",
+    "弟は医者になります。": "{弟|おとうと}は{医|い}{者|しゃ}になります。",
+    "弟は医者をなります。": "{弟|おとうと}は{医|い}{者|しゃ}をなります。",
+    "弟は医者でなります。": "{弟|おとうと}は{医|い}{者|しゃ}でなります。",
+    "外は": "{外|そと}は",
+    "もう": "もう",
+    "暗く": "{暗|くら}く",
+    "なりました": "なりました",
+    "外はもう暗くなりました": "{外|そと}はもう{暗|くら}くなりました",
+    "もう外は暗くなりました": "もう{外|そと}は{暗|くら}くなりました",
+    "が": "が",
+    "何をしますか。": "{何|なに}をしますか。",
+    "何がありますか。": "{何|なに}がありますか。",
+    "この": "この",
+    "赤い": "{赤|あか}い",
+    "セーターに": "セーターに",
+    "します": "します",
+    "この赤いセーターにします": "この{赤|あか}いセーターにします",
+    "パーティーは土曜日＿しましょう。": "パーティーは{土|ど}{曜|よう}{日|び}＿しましょう。",
+    "軽くて": "{軽|かる}くて",
+    "軽いで": "{軽|かる}いで",
+    "軽いです": "{軽|かる}いです",
+    "と": "と",
+    "この部屋は明るいで広いです。": "この{部屋|へや}は{明|あか}るいで{広|ひろ}いです。",
+    "この部屋は明るいて広いです。": "この{部屋|へや}は{明|あか}るいて{広|ひろ}いです。",
+    "マイさんは": "マイさんは",
+    "学生で": "{学|がく}{生|せい}で",
+    "二十歳": "{二十歳|はたち}",
+    "です": "です",
+    "マイさんは学生で二十歳です": "マイさんは{学|がく}{生|せい}で{二十歳|はたち}です",
+    "赤": "{赤|あか}",
+    "青": "{青|あお}",
+    "黄色": "{黄|き}{色|いろ}",
+    "緑": "{緑|みどり}",
+    "白": "{白|しろ}",
+    "黒": "{黒|くろ}",
+    "茶色": "{茶|ちゃ}{色|いろ}",
+    "色": "{色|いろ}",
+    "重い": "{重|おも}い",
+    "軽い": "{軽|かる}い",
+    "太い": "{太|ふと}い",
+    "細い": "{細|ほそ}い",
+    "明るい": "{明|あか}るい",
+    "暗い": "{暗|くら}い",
+    "丸い": "{丸|まる}い",
+    "再来年": "{再|さ}{来|らい}{年|ねん}",
+    "去年": "{去|きょ}{年|ねん}",
+    "来年": "{来|らい}{年|ねん}",
+    "セーター": "セーター",
+    "帽子": "{帽|ぼう}{子|し}",
+    "靴": "{靴|くつ}",
+    "大人は500円、子供は200円です。": "{大人|おとな}は500{円|えん}、{子|こ}{供|ども}は200{円|えん}です。",
+    "500円": "500{円|えん}",
+    "200円": "200{円|えん}",
+    "700円": "700{円|えん}",
+    "すみません、＿大きい声で話してください。": "すみません、＿{大|おお}きい{声|こえ}で{話|はな}してください。",
+    "もっと": "もっと",
+    "だんだん": "だんだん",
+    "まだ": "まだ",
+    "もう暖かくなりました。": "もう{暖|あたた}かくなりました。",
+    "天気がもう暖かくなりました。": "{天|てん}{気|き}がもう{暖|あたた}かくなりました。",
+    "私は日本語の先生になりたいです。": "{私|わたし}は{日本|にほん}{語|ご}の{先|せん}{生|せい}になりたいです。",
+    "私は黒いコートにします。": "{私|わたし}は{黒|くろ}いコートにします。",
+    "このセーターは安くて暖かいです。": "このセーターは{安|やす}くて{暖|あたた}かいです。",
+    "この公園は静かで広いです。": "この{公|こう}{園|えん}は{静|しず}かで{広|ひろ}いです。",
+    "コーヒーをください。": "コーヒーをください。"
+  }
+}

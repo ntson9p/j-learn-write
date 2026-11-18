@@ -1,0 +1,1106 @@
+{
+  "id": "n5-01",
+  "goalsVi": [
+    "Chào khi gặp lần đầu: はじめまして、どうぞよろしくお願いします",
+    "Giới thiệu tên, quốc tịch, nghề nghiệp: 私はグエンです、学生です",
+    "Hỏi và trả lời câu hỏi có/không với か, はい, いいえ; nói \"cũng\" với も"
+  ],
+  "words": [
+    {
+      "no": 1305,
+      "word": "私",
+      "meaningsVi": [
+        "tôi"
+      ],
+      "noteVi": "Dùng được với mọi người, trong mọi hoàn cảnh. Khi đã rõ đang nói về mình, người Nhật thường lược 私.",
+      "examples": [
+        {
+          "ja": "私は学生です。",
+          "vi": "Tôi là học sinh."
+        },
+        {
+          "ja": "私はベトナム人です。",
+          "vi": "Tôi là người Việt Nam."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 27,
+      "word": "あなた",
+      "meaningsVi": [
+        "bạn, anh, chị (ngôi thứ hai)"
+      ],
+      "noteVi": "Người Nhật ít gọi thẳng あなた, nhất là với người trên; thường gọi tên + さん: 「田中さんは学生ですか」.",
+      "examples": [
+        {
+          "ja": "あなたは学生ですか。",
+          "vi": "Bạn là học sinh à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1309,
+      "word": "日本",
+      "meaningsVi": [
+        "Nhật Bản"
+      ],
+      "examples": [
+        {
+          "ja": "いいえ、日本です。",
+          "vi": "Không, (là) Nhật Bản."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1311,
+      "word": "日本人",
+      "meaningsVi": [
+        "người Nhật"
+      ],
+      "noteVi": "Tên nước + 人 (じん) = người nước đó: ベトナム人 (người Việt Nam).",
+      "examples": [
+        {
+          "ja": "田中さんは日本人です。",
+          "vi": "Anh Tanaka là người Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 141,
+      "word": "外国人",
+      "meaningsVi": [
+        "người nước ngoài"
+      ],
+      "examples": [
+        {
+          "ja": "私は外国人です。",
+          "vi": "Tôi là người nước ngoài."
+        },
+        {
+          "ja": "あなたも外国人ですか。",
+          "vi": "Bạn cũng là người nước ngoài à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 151,
+      "word": "学生",
+      "meaningsVi": [
+        "học sinh",
+        "sinh viên"
+      ],
+      "noteVi": "Âm Hán Việt \"học sinh\", nhưng 学生 dùng cho cả học sinh lẫn sinh viên đại học.",
+      "examples": [
+        {
+          "ja": "私は学生です。",
+          "vi": "Tôi là học sinh."
+        },
+        {
+          "ja": "田中さんも学生ですか。",
+          "vi": "Anh Tanaka cũng là sinh viên à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 656,
+      "word": "留学生",
+      "meaningsVi": [
+        "du học sinh"
+      ],
+      "noteVi": "Âm Hán Việt \"lưu học sinh\": người nước ngoài sang học ở Nhật.",
+      "examples": [
+        {
+          "ja": "グエンさんは留学生です。",
+          "vi": "Anh Nguyễn là du học sinh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 335,
+      "word": "先生",
+      "meaningsVi": [
+        "giáo viên, thầy, cô",
+        "bác sĩ (khi gọi)"
+      ],
+      "noteVi": "先生 là cách gọi kính trọng (thầy cô, bác sĩ); không dùng 先生 để nói về nghề của chính mình.",
+      "examples": [
+        {
+          "ja": "田中さんは先生です。",
+          "vi": "Cô Tanaka là giáo viên."
+        },
+        {
+          "ja": "先生は誰ですか。",
+          "vi": "Giáo viên là ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 52,
+      "word": "医者",
+      "meaningsVi": [
+        "bác sĩ"
+      ],
+      "noteVi": "Khi gọi hay nói với bác sĩ, người Nhật dùng 先生, không dùng 医者.",
+      "examples": [
+        {
+          "ja": "私は医者です。",
+          "vi": "Tôi là bác sĩ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 483,
+      "word": "はい",
+      "meaningsVi": [
+        "vâng, dạ, có"
+      ],
+      "examples": [
+        {
+          "ja": "はい、学生です。",
+          "vi": "Vâng, (tôi) là học sinh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 44,
+      "word": "いいえ",
+      "meaningsVi": [
+        "không"
+      ],
+      "noteVi": "いいえ khá dứt khoát; trong hội thoại người Nhật thường nói nhẹ hơn, sẽ học ở các bài sau.",
+      "examples": [
+        {
+          "ja": "いいえ、先生ではありません。",
+          "vi": "Không, (tôi) không phải là giáo viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 457,
+      "word": "名前",
+      "meaningsVi": [
+        "tên"
+      ],
+      "noteVi": "Khi hỏi tên người khác, thêm お cho lịch sự: お名前. Không thêm お khi nói tên của mình.",
+      "examples": [
+        {
+          "ja": "お名前は何ですか。",
+          "vi": "Tên của bạn là gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 462,
+      "word": "何",
+      "meaningsVi": [
+        "cái gì (đọc なん)"
+      ],
+      "noteVi": "Đọc なん trước です, の, と và trước trợ số từ; đọc なに trong các trường hợp khác (何語 なにご).",
+      "examples": [
+        {
+          "ja": "お名前は何ですか。",
+          "vi": "Tên của bạn là gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1306,
+      "word": "何",
+      "meaningsVi": [
+        "cái gì (đọc なに)"
+      ],
+      "noteVi": "Đọc なに trước を, が, も và trong 何語 (tiếng gì); trước です đọc なん.",
+      "examples": [
+        {
+          "ja": "何語ですか。",
+          "vi": "Là tiếng gì vậy?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 371,
+      "word": "誰",
+      "meaningsVi": [
+        "ai"
+      ],
+      "examples": [
+        {
+          "ja": "先生は誰ですか。",
+          "vi": "Giáo viên là ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 434,
+      "word": "どなた",
+      "meaningsVi": [
+        "ai (lịch sự)"
+      ],
+      "noteVi": "どなた là cách nói lịch sự của 誰, dùng với người lạ, người trên.",
+      "examples": [
+        {
+          "ja": "どなたですか。",
+          "vi": "Ai vậy ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 494,
+      "word": "はじめまして",
+      "meaningsVi": [
+        "rất vui được gặp (câu chào lần đầu)"
+      ],
+      "noteVi": "Chỉ nói khi gặp ai đó lần đầu tiên, ở đầu lời tự giới thiệu.",
+      "examples": [
+        {
+          "ja": "はじめまして。グエンです。",
+          "vi": "Rất vui được gặp anh chị. Tôi là Nguyễn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 420,
+      "word": "どうぞよろしく",
+      "meaningsVi": [
+        "rất mong được giúp đỡ (câu chào khi làm quen)"
+      ],
+      "noteVi": "Nói ở cuối lời tự giới thiệu. Thêm お願いします cho lịch sự hơn.",
+      "examples": [
+        {
+          "ja": "マイです。どうぞよろしくお願いします。",
+          "vi": "Tôi là Mai. Rất mong được anh chị giúp đỡ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 124,
+      "word": "お願いします",
+      "meaningsVi": [
+        "xin nhờ, làm ơn"
+      ],
+      "noteVi": "Dùng khi nhờ hoặc nhận lời giúp đỡ của người khác một cách lịch sự.",
+      "examples": [
+        {
+          "ja": "どうぞよろしくお願いします。",
+          "vi": "Rất mong được anh chị giúp đỡ."
+        },
+        {
+          "ja": "はい、お願いします。",
+          "vi": "Vâng, nhờ anh chị."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "日",
+      "meaningVi": "mặt trời; ngày",
+      "noteVi": "Gặp trong 日本 (Nhật Bản, nghĩa đen là \"gốc của mặt trời\").",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "本",
+      "meaningVi": "gốc; sách",
+      "noteVi": "Một mình 本 (ほん) là quyển sách; trong 日本 mang nghĩa \"gốc\".",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "人",
+      "meaningVi": "người",
+      "noteVi": "Sau tên nước đọc じん: 日本人 (người Nhật), ベトナム人 (người Việt Nam).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "wa",
+      "titleVi": "Trợ từ は: nêu chủ đề",
+      "summaryVi": "N1 は N2 です: N1 là N2. は đánh dấu điều câu đang nói tới.",
+      "explanationVi": [
+        "**は** đứng sau danh từ để nêu **chủ đề** của câu, tức là điều câu nói tới. 「私は学生です」 nghĩa đen là \"về phần tôi thì, là học sinh\", tức là \"Tôi là học sinh\".",
+        "Khi làm trợ từ, は đọc là **wa** (không đọc ha) nhưng vẫn viết bằng chữ は.",
+        "Trật tự câu: chủ đề + は đứng trước, **です** (hay động từ) luôn đứng **cuối câu**."
+      ],
+      "patterns": [
+        "N1 は N2 です"
+      ],
+      "examples": [
+        {
+          "ja": "私はグエンです。",
+          "vi": "Tôi là Nguyễn."
+        },
+        {
+          "ja": "田中さんは先生です。",
+          "vi": "Cô Tanaka là giáo viên."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私わ学生です。",
+          "right": "私は学生です。",
+          "noteVi": "Trợ từ đọc là \"wa\" nhưng luôn viết は, không viết わ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "desu",
+      "titleVi": "です: là (lịch sự)",
+      "summaryVi": "Đặt sau danh từ ở cuối câu để nói lịch sự: 学生です = là học sinh.",
+      "explanationVi": [
+        "**です** đứng cuối câu, sau danh từ, tương đương \"là\" và làm cho câu **lịch sự**. Khi chủ ngữ đã rõ thì lược đi: 「学生です」 = \"(Tôi) là học sinh\".",
+        "です không đổi theo ngôi hay số nhiều: 私は学生です, 田中さんは学生です.",
+        "Âm u ở cuối です thường đọc rất nhẹ, nghe gần như \"des\"."
+      ],
+      "patterns": [
+        "N です"
+      ],
+      "examples": [
+        {
+          "ja": "学生です。",
+          "vi": "(Tôi) là học sinh."
+        },
+        {
+          "ja": "グエンさんは医者です。",
+          "vi": "Anh Nguyễn là bác sĩ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私はです学生。",
+          "right": "私は学生です。",
+          "noteVi": "です luôn đứng cuối câu, không đứng ở vị trí của chữ \"là\" như trong tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ka-question",
+      "titleVi": "か: câu hỏi",
+      "summaryVi": "Thêm か vào cuối câu để hỏi: 学生ですか = có phải là học sinh không?",
+      "explanationVi": [
+        "Thêm **か** vào cuối câu là thành câu hỏi; trật tự các từ **không đổi**. Khi viết, câu hỏi có か thường kết thúc bằng dấu 「。」.",
+        "Câu hỏi có từ để hỏi (何, 誰, どなた) cũng thêm か ở cuối: 「お名前は何ですか」. Từ để hỏi đứng đúng chỗ của câu trả lời.",
+        "Trả lời câu hỏi có/không: 「はい、…です」 hoặc 「いいえ、…ではありません」."
+      ],
+      "patterns": [
+        "N1 は N2 ですか",
+        "N1 は 何／誰 ですか"
+      ],
+      "examples": [
+        {
+          "ja": "あなたは学生ですか。",
+          "vi": "Bạn là học sinh à?"
+        },
+        {
+          "ja": "先生は誰ですか。",
+          "vi": "Giáo viên là ai?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "誰は先生ですか。",
+          "right": "先生は誰ですか。",
+          "noteVi": "Từ để hỏi không đứng trước は; đặt chủ đề trước, từ để hỏi ở chỗ của câu trả lời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "de-wa-arimasen-ja-nai",
+      "titleVi": "ではありません / じゃありません: không phải là",
+      "summaryVi": "Phủ định của です: 学生ではありません = không phải là học sinh.",
+      "explanationVi": [
+        "Phủ định của **です** là **ではありません**. Khi nói chuyện thường dùng **じゃありません**; với bạn bè, người nhà dùng **じゃない** (thể thông thường).",
+        "Câu phủ định giữ nguyên trật tự: chủ đề + は + danh từ + ではありません.",
+        "Trong ではありません, は cũng đọc là \"wa\"."
+      ],
+      "patterns": [
+        "N1 は N2 ではありません",
+        "N1 は N2 じゃありません"
+      ],
+      "examples": [
+        {
+          "ja": "私は先生ではありません。",
+          "vi": "Tôi không phải là giáo viên."
+        },
+        {
+          "ja": "いいえ、医者じゃありません。",
+          "vi": "Không, (tôi) không phải là bác sĩ."
+        },
+        {
+          "ja": "私は学生じゃない。",
+          "vi": "Tớ không phải là học sinh. (thân mật)"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は学生ですない。",
+          "right": "私は学生ではありません。",
+          "noteVi": "Không ghép です với ない: phủ định của です là ではありません."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mo",
+      "titleVi": "も: cũng",
+      "summaryVi": "N1 も N2 です: N1 cũng là N2. も thay vào chỗ của は.",
+      "explanationVi": [
+        "**も** nghĩa là \"cũng\". も **thay** cho は, không đứng sau は: 「田中さんは先生です。山田さんも先生です」.",
+        "Trong câu phủ định, も nghĩa là \"cũng không\": 「私も医者ではありません」."
+      ],
+      "patterns": [
+        "N1 も N2 です"
+      ],
+      "examples": [
+        {
+          "ja": "私も学生です。",
+          "vi": "Tôi cũng là học sinh."
+        },
+        {
+          "ja": "田中さんも日本人ですか。",
+          "vi": "Anh Tanaka cũng là người Nhật à?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私はも学生です。",
+          "right": "私も学生です。",
+          "noteVi": "も đứng vào chỗ của は; không dùng cả hai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-01-e01",
+      "type": "fill",
+      "grammar": [
+        "wa"
+      ],
+      "before": "私",
+      "after": "学生です。",
+      "answers": [
+        "は"
+      ],
+      "vi": "Tôi là học sinh.",
+      "explainVi": "Trợ từ chủ đề đọc là \"wa\" nhưng viết は."
+    },
+    {
+      "id": "n5-01-e02",
+      "type": "fill",
+      "grammar": [
+        "mo"
+      ],
+      "before": "田中さん",
+      "after": "学生です。",
+      "answers": [
+        "も"
+      ],
+      "options": [
+        "は",
+        "も",
+        "か"
+      ],
+      "vi": "Anh Tanaka cũng là học sinh."
+    },
+    {
+      "id": "n5-01-e03",
+      "type": "choice",
+      "grammar": [
+        "de-wa-arimasen-ja-nai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi không phải là giáo viên\"?",
+      "options": [
+        "私は先生です。",
+        "私は先生ではありません。",
+        "私は先生ですか。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-01-e04",
+      "type": "choice",
+      "grammar": [
+        "ka-question"
+      ],
+      "promptVi": "Câu nào là câu hỏi?",
+      "options": [
+        "あなたも学生です。",
+        "あなたは学生です。",
+        "あなたは学生ですか。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-01-e05",
+      "type": "order",
+      "grammar": [
+        "wa",
+        "desu"
+      ],
+      "vi": "Tôi là người Việt Nam.",
+      "tiles": [
+        "です",
+        "私",
+        "ベトナム人",
+        "は"
+      ],
+      "answers": [
+        "私はベトナム人です"
+      ]
+    },
+    {
+      "id": "n5-01-e06",
+      "type": "order",
+      "grammar": [
+        "ka-question"
+      ],
+      "vi": "Anh Tanaka có phải là bác sĩ không?",
+      "tiles": [
+        "医者",
+        "か",
+        "田中さん",
+        "です",
+        "は"
+      ],
+      "answers": [
+        "田中さんは医者ですか"
+      ]
+    },
+    {
+      "id": "n5-01-e07",
+      "type": "order",
+      "grammar": [
+        "mo",
+        "de-wa-arimasen-ja-nai"
+      ],
+      "vi": "Tôi cũng không phải là người Nhật.",
+      "tiles": [
+        "日本人",
+        "私",
+        "ではありません",
+        "も"
+      ],
+      "answers": [
+        "私も日本人ではありません"
+      ]
+    },
+    {
+      "id": "n5-01-e08",
+      "type": "choice",
+      "grammar": [
+        "ka-question"
+      ],
+      "promptVi": "Trả lời \"Vâng\" cho câu hỏi này:",
+      "ja": "あなたは留学生ですか。",
+      "options": [
+        "いいえ、留学生です。",
+        "はい、留学生です。",
+        "はい、留学生ではありません。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-01-e09",
+      "type": "choice",
+      "promptVi": "Câu này hỏi điều gì?",
+      "ja": "お名前は何ですか。",
+      "options": [
+        "Tên",
+        "Quốc tịch",
+        "Nghề nghiệp"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-01-e10",
+      "type": "choice",
+      "promptVi": "Gặp một người lần đầu tiên, bạn nói câu nào trước?",
+      "options": [
+        "お願いします。",
+        "はじめまして。",
+        "いいえ。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-01-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "学生",
+          "học sinh, sinh viên"
+        ],
+        [
+          "先生",
+          "giáo viên"
+        ],
+        [
+          "医者",
+          "bác sĩ"
+        ],
+        [
+          "留学生",
+          "du học sinh"
+        ]
+      ]
+    },
+    {
+      "id": "n5-01-e12",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "誰",
+          "ai"
+        ],
+        [
+          "名前",
+          "tên"
+        ],
+        [
+          "外国人",
+          "người nước ngoài"
+        ],
+        [
+          "日本人",
+          "người Nhật"
+        ]
+      ]
+    },
+    {
+      "id": "n5-01-e13",
+      "type": "choice",
+      "grammar": [
+        "ka-question"
+      ],
+      "promptVi": "Hỏi \"Giáo viên là ai?\": chọn từ điền vào chỗ trống.",
+      "ja": "先生は＿ですか。",
+      "options": [
+        "名前",
+        "誰",
+        "何"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-01-e14",
+      "type": "fill",
+      "promptVi": "Hỏi lịch sự \"Ai vậy ạ?\": chọn từ điền vào chỗ trống.",
+      "before": "",
+      "after": "ですか。",
+      "answers": [
+        "どなた"
+      ],
+      "options": [
+        "どなた",
+        "名前",
+        "はい"
+      ]
+    },
+    {
+      "id": "n5-01-e15",
+      "type": "choice",
+      "grammar": [
+        "de-wa-arimasen-ja-nai"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "私は日本人ではありません。",
+      "options": [
+        "Tôi là người Nhật.",
+        "Tôi cũng là người Nhật.",
+        "Tôi không phải là người Nhật."
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-01-e16",
+      "type": "translate",
+      "grammar": [
+        "wa",
+        "desu"
+      ],
+      "vi": "Tôi là du học sinh.",
+      "answers": [
+        "(私は)留学生です。"
+      ],
+      "examples": [
+        {
+          "answer": "わたしはりゅうがくせいです",
+          "score": 100
+        },
+        {
+          "answer": "わたしわりゅうがくせいです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ],
+          "note": "Trợ từ chủ đề đọc là wa nhưng viết は."
+        },
+        {
+          "answer": "私留学生です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は (tiếng Việt không có trợ từ chủ đề)."
+        },
+        {
+          "answer": "りゅがくせいです",
+          "score": 90,
+          "issues": [
+            "kana_spelling"
+          ],
+          "note": "Thiếu trường âm: りゅうがくせい."
+        },
+        {
+          "answer": "私は学生です。",
+          "score": 0,
+          "note": "学生 là học sinh, không phải du học sinh."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e17",
+      "type": "translate",
+      "grammar": [
+        "de-wa-arimasen-ja-nai"
+      ],
+      "vi": "Anh Minh không phải là giáo viên. (lịch sự)",
+      "answers": [
+        "ミンさんは先生[ではありません|じゃありません|ではないです|じゃないです]。"
+      ],
+      "examples": [
+        {
+          "answer": "ミンさんはせんせいではありません",
+          "score": 100
+        },
+        {
+          "answer": "ミンさんはせんせいじゃないです",
+          "score": 100
+        },
+        {
+          "answer": "ミンさん先生ではありません。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "ミンさんは先生です。",
+          "score": 0,
+          "note": "Câu khẳng định, không phải phủ định."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e18",
+      "type": "translate",
+      "grammar": [
+        "mo"
+      ],
+      "vi": "Chị Mai cũng là học sinh.",
+      "answers": [
+        "マイさんも学生です。"
+      ],
+      "examples": [
+        {
+          "answer": "マイさんもがくせいです",
+          "score": 100
+        },
+        {
+          "answer": "マイさんはもがくせいです",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ],
+          "note": "も thay cho は, không viết はも."
+        },
+        {
+          "answer": "マイさんはがくせいです",
+          "score": 0,
+          "note": "Thiếu も: mất nghĩa \"cũng\"."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e19",
+      "type": "translate",
+      "grammar": [
+        "ka-question"
+      ],
+      "vi": "Bạn có phải là người Nhật không?",
+      "answers": [
+        "(あなたは)日本人ですか。"
+      ],
+      "examples": [
+        {
+          "answer": "あなたはにほんじんですか",
+          "score": 100
+        },
+        {
+          "answer": "あなたわにほんじんですか",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "あなたは日本人か。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu です trước か."
+        },
+        {
+          "answer": "あなたは日本人です。",
+          "score": 0,
+          "note": "Thiếu か: không còn là câu hỏi."
+        }
+      ]
+    },
+    {
+      "id": "n5-01-e20",
+      "type": "question",
+      "grammar": [
+        "ka-question",
+        "de-wa-arimasen-ja-nai"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "あなたは先生ですか。",
+        "promptVi": "Bạn là học sinh, không phải giáo viên. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(いいえ、)(私は)先生[ではありません|じゃありません|ではないです|じゃないです]。",
+          "(いいえ、)(私は)学生です。",
+          "(いいえ、)(私は)先生[ではありません|じゃありません|ではないです|じゃないです]。(私は)学生です。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、せんせいではありません",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、わたしわがくせいです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "はい、先生ではありません。",
+            "score": 0,
+            "note": "Câu hỏi khẳng định: trả lời \"không phải\" thì dùng いいえ."
+          },
+          {
+            "answer": "はい、先生です。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-01-e21",
+      "type": "question",
+      "grammar": [
+        "wa",
+        "desu"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "お名前は何ですか。",
+        "promptVi": "Bạn tên là Nguyễn. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(私は)グエンです。",
+          "名前はグエンです。"
+        ],
+        "examples": [
+          {
+            "answer": "わたしはグエンです",
+            "score": 100
+          },
+          {
+            "answer": "わたしわグエンです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "グエン。",
+            "score": 100,
+            "issues": [
+              "politeness_mix"
+            ],
+            "note": "Thiếu です."
+          },
+          {
+            "answer": "私は田中です。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "私は学生です。": "{私|わたし}は{学|がく}{生|せい}です。",
+    "私はベトナム人です。": "{私|わたし}はベトナム{人|じん}です。",
+    "あなたは学生ですか。": "あなたは{学|がく}{生|せい}ですか。",
+    "いいえ、日本です。": "いいえ、{日本|にほん}です。",
+    "田中さんは日本人です。": "{田中|たなか}さんは{日本|にほん}{人|じん}です。",
+    "私は外国人です。": "{私|わたし}は{外|がい}{国|こく}{人|じん}です。",
+    "あなたも外国人ですか。": "あなたも{外|がい}{国|こく}{人|じん}ですか。",
+    "田中さんも学生ですか。": "{田中|たなか}さんも{学|がく}{生|せい}ですか。",
+    "グエンさんは留学生です。": "グエンさんは{留|りゅう}{学|がく}{生|せい}です。",
+    "田中さんは先生です。": "{田中|たなか}さんは{先|せん}{生|せい}です。",
+    "先生は誰ですか。": "{先|せん}{生|せい}は{誰|だれ}ですか。",
+    "私は医者です。": "{私|わたし}は{医|い}{者|しゃ}です。",
+    "はい、学生です。": "はい、{学|がく}{生|せい}です。",
+    "いいえ、先生ではありません。": "いいえ、{先|せん}{生|せい}ではありません。",
+    "お名前は何ですか。": "お{名|な}{前|まえ}は{何|なん}ですか。",
+    "何語ですか。": "{何|なに}{語|ご}ですか。",
+    "どなたですか。": "どなたですか。",
+    "はじめまして。グエンです。": "はじめまして。グエンです。",
+    "マイです。どうぞよろしくお願いします。": "マイです。どうぞよろしくお{願|ねが}いします。",
+    "どうぞよろしくお願いします。": "どうぞよろしくお{願|ねが}いします。",
+    "はい、お願いします。": "はい、お{願|ねが}いします。",
+    "私はグエンです。": "{私|わたし}はグエンです。",
+    "私わ学生です。": "{私|わたし}わ{学|がく}{生|せい}です。",
+    "学生です。": "{学|がく}{生|せい}です。",
+    "グエンさんは医者です。": "グエンさんは{医|い}{者|しゃ}です。",
+    "私はです学生。": "{私|わたし}はです{学|がく}{生|せい}。",
+    "誰は先生ですか。": "{誰|だれ}は{先|せん}{生|せい}ですか。",
+    "私は先生ではありません。": "{私|わたし}は{先|せん}{生|せい}ではありません。",
+    "いいえ、医者じゃありません。": "いいえ、{医|い}{者|しゃ}じゃありません。",
+    "私は学生じゃない。": "{私|わたし}は{学|がく}{生|せい}じゃない。",
+    "私は学生ではありません。": "{私|わたし}は{学|がく}{生|せい}ではありません。",
+    "私は学生ですない。": "{私|わたし}は{学|がく}{生|せい}ですない。",
+    "私も学生です。": "{私|わたし}も{学|がく}{生|せい}です。",
+    "田中さんも日本人ですか。": "{田中|たなか}さんも{日本|にほん}{人|じん}ですか。",
+    "私はも学生です。": "{私|わたし}はも{学|がく}{生|せい}です。",
+    "は": "は",
+    "田中さんも学生です。": "{田中|たなか}さんも{学|がく}{生|せい}です。",
+    "も": "も",
+    "か": "か",
+    "私は先生です。": "{私|わたし}は{先|せん}{生|せい}です。",
+    "私は先生ですか。": "{私|わたし}は{先|せん}{生|せい}ですか。",
+    "あなたも学生です。": "あなたも{学|がく}{生|せい}です。",
+    "あなたは学生です。": "あなたは{学|がく}{生|せい}です。",
+    "です": "です",
+    "私": "{私|わたし}",
+    "ベトナム人": "ベトナム{人|じん}",
+    "私はベトナム人です": "{私|わたし}はベトナム{人|じん}です",
+    "医者": "{医|い}{者|しゃ}",
+    "田中さん": "{田中|たなか}さん",
+    "田中さんは医者ですか": "{田中|たなか}さんは{医|い}{者|しゃ}ですか",
+    "日本人": "{日本|にほん}{人|じん}",
+    "ではありません": "ではありません",
+    "私も日本人ではありません": "{私|わたし}も{日本|にほん}{人|じん}ではありません",
+    "あなたは留学生ですか。": "あなたは{留|りゅう}{学|がく}{生|せい}ですか。",
+    "いいえ、留学生です。": "いいえ、{留|りゅう}{学|がく}{生|せい}です。",
+    "はい、留学生です。": "はい、{留|りゅう}{学|がく}{生|せい}です。",
+    "はい、留学生ではありません。": "はい、{留|りゅう}{学|がく}{生|せい}ではありません。",
+    "お願いします。": "お{願|ねが}いします。",
+    "はじめまして。": "はじめまして。",
+    "いいえ。": "いいえ。",
+    "学生": "{学|がく}{生|せい}",
+    "先生": "{先|せん}{生|せい}",
+    "留学生": "{留|りゅう}{学|がく}{生|せい}",
+    "誰": "{誰|だれ}",
+    "名前": "{名|な}{前|まえ}",
+    "外国人": "{外|がい}{国|こく}{人|じん}",
+    "先生は＿ですか。": "{先|せん}{生|せい}は＿ですか。",
+    "何": "{何|なん}",
+    "どなた": "どなた",
+    "はい": "はい",
+    "私は日本人ではありません。": "{私|わたし}は{日本|にほん}{人|じん}ではありません。",
+    "私は留学生です。": "{私|わたし}は{留|りゅう}{学|がく}{生|せい}です。",
+    "ミンさんは先生ではありません。": "ミンさんは{先|せん}{生|せい}ではありません。",
+    "マイさんも学生です。": "マイさんも{学|がく}{生|せい}です。",
+    "あなたは日本人ですか。": "あなたは{日本|にほん}{人|じん}ですか。",
+    "あなたは先生ですか。": "あなたは{先|せん}{生|せい}ですか。",
+    "いいえ、私は先生ではありません。": "いいえ、{私|わたし}は{先|せん}{生|せい}ではありません。",
+    "いいえ、私は学生です。": "いいえ、{私|わたし}は{学|がく}{生|せい}です。",
+    "いいえ、私は先生ではありません。私は学生です。": "いいえ、{私|わたし}は{先|せん}{生|せい}ではありません。{私|わたし}は{学|がく}{生|せい}です。",
+    "名前はグエンです。": "{名|な}{前|まえ}はグエンです。"
+  }
+}

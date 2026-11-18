@@ -1,0 +1,1577 @@
+{
+  "id": "n4-18",
+  "goalsVi": [
+    "Nói điều gì đó vượt quá mức bằng 〜すぎる: 昨日は食べすぎました、このかばんは高すぎます",
+    "So sánh \"không … bằng\" với 〜ほど〜ない: 今年の夏は去年ほど暑くないです",
+    "Nói \"mãi mà không\" với なかなか〜ない, \"chỉ có\" với 〜しか〜ない",
+    "Nói \"toàn là\" với 〜ばかり và \"vừa mới\" với 〜たばかり: 肉ばかり食べています、日本に来たばかりです",
+    "Nói về món ăn, vị và nấu nướng: 味、焼く、沸かす、漬ける、ステーキ、サラダ、ケーキ"
+  ],
+  "words": [
+    {
+      "no": 686,
+      "word": "味",
+      "meaningsVi": [
+        "vị, mùi vị"
+      ],
+      "noteVi": "Âm Hán Việt \"vị\". Vị nhạt: 味が薄い; nếm thử (xem vừa chưa): 味を見る. Hỏi vị thế nào: どんな味ですか.",
+      "examples": [
+        {
+          "ja": "この料理は味が薄いです。",
+          "vi": "Món này vị nhạt."
+        },
+        {
+          "ja": "ちょっと味を見てください。",
+          "vi": "Bạn nếm thử vị một chút xem."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 696,
+      "word": "アルコール",
+      "meaningsVi": [
+        "rượu, đồ uống có cồn",
+        "cồn"
+      ],
+      "noteVi": "Chỉ chung đồ uống có cồn (rượu, bia…) và cồn. Nói hằng ngày, người Nhật hay dùng お酒 hơn.",
+      "examples": [
+        {
+          "ja": "私はアルコールが飲めません。",
+          "vi": "Tôi không uống được rượu bia."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 715,
+      "word": "いっぱい",
+      "meaningsVi": [
+        "đầy",
+        "no (bụng)",
+        "nhiều (thân mật)"
+      ],
+      "noteVi": "Kanji: 一杯. おなかがいっぱい: no bụng. Nghĩa \"nhiều\" là cách nói thân mật, lịch sự hơn là たくさん. Chú ý: 1杯 (いっぱい) còn là \"một cốc, một bát\".",
+      "examples": [
+        {
+          "ja": "おなかがいっぱいです。",
+          "vi": "Tôi no rồi."
+        },
+        {
+          "ja": "冷蔵庫に野菜がいっぱいあります。",
+          "vi": "Trong tủ lạnh có rất nhiều rau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 988,
+      "word": "過ぎる",
+      "meaningsVi": [
+        "quá, … quá mức (sau động từ, tính từ)",
+        "(thời gian) trôi qua, quá (giờ)",
+        "đi qua, vượt qua (một chỗ)"
+      ],
+      "noteVi": "Đứng một mình thường viết kanji 過ぎる (時間が過ぎる: thời gian trôi qua); làm hậu tố \"quá\" thường viết kana: 食べすぎる, 高すぎる (xem ngữ pháp bài này).",
+      "examples": [
+        {
+          "ja": "もう12時を過ぎました。",
+          "vi": "Đã quá 12 giờ rồi."
+        },
+        {
+          "ja": "昨日は食べすぎました。",
+          "vi": "Hôm qua tôi ăn quá nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1218,
+      "word": "ほど",
+      "meaningsVi": [
+        "(không …) bằng (ほど〜ない)",
+        "khoảng, chừng (trang trọng hơn ぐらい)"
+      ],
+      "noteVi": "Kanji: 程. Sau số lượng, ほど nghĩa là \"khoảng\", giống ぐらい nhưng lịch sự hơn. ほど〜ない: xem ngữ pháp bài này.",
+      "examples": [
+        {
+          "ja": "今日は昨日ほど寒くないです。",
+          "vi": "Hôm nay không lạnh bằng hôm qua."
+        },
+        {
+          "ja": "10分ほど待ってください。",
+          "vi": "Xin chờ khoảng 10 phút."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1117,
+      "word": "なかなか",
+      "meaningsVi": [
+        "mãi mà không, khó mà (với phủ định)",
+        "khá, cũng … đấy (với khẳng định)"
+      ],
+      "noteVi": "Với phủ định: việc mình mong mãi không xảy ra. Với khẳng định: hơn mình nghĩ, \"khá\". Khen người trên bằng なかなか có thể nghe như đánh giá từ trên xuống, nên tránh.",
+      "examples": [
+        {
+          "ja": "バスがなかなか来ません。",
+          "vi": "Xe buýt mãi mà không đến."
+        },
+        {
+          "ja": "この映画はなかなかおもしろいです。",
+          "vi": "Phim này khá hay đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1028,
+      "word": "それほど",
+      "meaningsVi": [
+        "(không …) đến mức đó, (không …) lắm"
+      ],
+      "noteVi": "Thường đi với phủ định, gần nghĩa あまり〜ない. それほどでもないです: Cũng không đến mức đó đâu (khi được khen).",
+      "examples": [
+        {
+          "ja": "このステーキはそれほど高くないです。",
+          "vi": "Món bít tết này không đắt lắm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1031,
+      "word": "そんなに",
+      "meaningsVi": [
+        "đến thế, nhiều như thế",
+        "(không …) lắm (với phủ định)"
+      ],
+      "noteVi": "Nói về điều người nghe vừa nói hoặc đang làm: \"đến thế\". Với phủ định: \"không … lắm\", giống それほど.",
+      "examples": [
+        {
+          "ja": "そんなに食べると、太りますよ。",
+          "vi": "Ăn nhiều như thế là béo đấy."
+        },
+        {
+          "ja": "日本語はそんなに難しくないですよ。",
+          "vi": "Tiếng Nhật không khó lắm đâu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1063,
+      "word": "ちっとも",
+      "meaningsVi": [
+        "chẳng … chút nào (với phủ định)"
+      ],
+      "noteVi": "Luôn đi với phủ định. Nghĩa như 全然〜ない nhưng thân mật hơn, hay dùng trong hội thoại, có ý phàn nàn.",
+      "examples": [
+        {
+          "ja": "この本はちっともおもしろくないです。",
+          "vi": "Quyển sách này chẳng hay chút nào."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1057,
+      "word": "足りる",
+      "meaningsVi": [
+        "đủ"
+      ],
+      "noteVi": "Động từ nhóm II: 足ります, 足りない. Hay dùng ở dạng phủ định 足りない (thiếu): 時間が足りない (không đủ thời gian).",
+      "examples": [
+        {
+          "ja": "お金が足りません。",
+          "vi": "Không đủ tiền."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 961,
+      "word": "十分",
+      "meaningsVi": [
+        "đủ, đầy đủ"
+      ],
+      "noteVi": "Âm Hán Việt \"thập phần\" (mười phần): đủ, đầy đủ. Đọc じゅうぶん; khác 10分 (じゅっぷん, mười phút). Từ chối khi được mời thêm: もう十分です.",
+      "examples": [
+        {
+          "ja": "時間はまだ十分あります。",
+          "vi": "Thời gian vẫn còn đủ."
+        },
+        {
+          "ja": "ご飯はもう十分です。",
+          "vi": "Cơm thế là đủ rồi ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 703,
+      "word": "以外",
+      "meaningsVi": [
+        "ngoài … ra, trừ …"
+      ],
+      "noteVi": "Âm Hán Việt \"dĩ ngoại\". N以外: trừ N (N không nằm trong số đó).",
+      "examples": [
+        {
+          "ja": "田中さん以外、みんな来ました。",
+          "vi": "Trừ anh Tanaka, mọi người đều đã đến."
+        },
+        {
+          "ja": "肉以外は何でも食べます。",
+          "vi": "Ngoài thịt ra thì tôi ăn gì cũng được."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 857,
+      "word": "比べる",
+      "meaningsVi": [
+        "so sánh"
+      ],
+      "noteVi": "So sánh hai thứ: AとBを比べる. Hay gặp mẫu 〜と比べて (so với …).",
+      "examples": [
+        {
+          "ja": "去年と比べて、今年は雨が多いです。",
+          "vi": "So với năm ngoái, năm nay mưa nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1199,
+      "word": "太る",
+      "meaningsVi": [
+        "béo lên, tăng cân"
+      ],
+      "noteVi": "Động từ chỉ sự thay đổi: 太りました = đã béo lên. Nói một người béo (trạng thái) dùng 太っている. Ngược nghĩa: 痩せる. Đồ vật to, dày: 太い.",
+      "examples": [
+        {
+          "ja": "最近、少し太りました。",
+          "vi": "Dạo này tôi béo lên một chút."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 995,
+      "word": "ステーキ",
+      "meaningsVi": [
+        "bít tết"
+      ],
+      "examples": [
+        {
+          "ja": "このステーキは大きすぎて、全部食べられません。",
+          "vi": "Miếng bít tết này to quá, tôi không ăn hết được."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 927,
+      "word": "サラダ",
+      "meaningsVi": [
+        "xa lát, salad"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝、サラダを食べています。",
+          "vi": "Sáng nào tôi cũng ăn xa lát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 932,
+      "word": "サンドイッチ",
+      "meaningsVi": [
+        "bánh mì kẹp, sandwich"
+      ],
+      "noteVi": "Bánh mì kẹp kiểu Âu (bánh mì gối). Bánh mì Việt Nam người Nhật gọi là バインミー.",
+      "examples": [
+        {
+          "ja": "昼ご飯はサンドイッチしか食べませんでした。",
+          "vi": "Bữa trưa tôi chỉ ăn mỗi bánh mì kẹp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 956,
+      "word": "ジャム",
+      "meaningsVi": [
+        "mứt (phết bánh mì)"
+      ],
+      "noteVi": "Mứt sệt để phết bánh mì; khác mứt khô ngày Tết của Việt Nam.",
+      "examples": [
+        {
+          "ja": "パンにジャムを塗って食べます。",
+          "vi": "Tôi phết mứt lên bánh mì rồi ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 865,
+      "word": "ケーキ",
+      "meaningsVi": [
+        "bánh ngọt, bánh kem"
+      ],
+      "noteVi": "Bánh ngọt kiểu Âu (bánh kem, bánh bông lan…). Bánh sinh nhật: 誕生日のケーキ.",
+      "examples": [
+        {
+          "ja": "ケーキを食べすぎて、太ってしまいました。",
+          "vi": "Tôi ăn bánh ngọt nhiều quá nên béo lên mất rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1198,
+      "word": "ぶどう",
+      "meaningsVi": [
+        "nho"
+      ],
+      "noteVi": "Kanji: 葡萄. Rượu vang là ワイン (từ ngoài bài).",
+      "examples": [
+        {
+          "ja": "この店のぶどうは甘くておいしいです。",
+          "vi": "Nho của cửa hàng này ngọt và ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1235,
+      "word": "みそ",
+      "meaningsVi": [
+        "tương miso"
+      ],
+      "noteVi": "Tương làm từ đậu nành lên men, dùng nấu canh miso (みそ汁) và ướp đồ ăn. Kanji: 味噌.",
+      "examples": [
+        {
+          "ja": "みそは日本料理によく使います。",
+          "vi": "Miso thường được dùng trong món Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 896,
+      "word": "ごちそう",
+      "meaningsVi": [
+        "bữa ăn ngon, món ngon thịnh soạn",
+        "chiêu đãi, mời (ăn uống): ごちそうする"
+      ],
+      "noteVi": "ごちそうする: mời, trả tiền bữa ăn cho người khác. ごちそうになる: được mời. Câu cảm ơn sau bữa ăn ごちそうさま(でした) cũng từ từ này.",
+      "examples": [
+        {
+          "ja": "今日は私がごちそうします。",
+          "vi": "Hôm nay để tôi mời."
+        },
+        {
+          "ja": "昨日はごちそうをたくさん食べました。",
+          "vi": "Hôm qua tôi đã ăn rất nhiều món ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1259,
+      "word": "焼く",
+      "meaningsVi": [
+        "nướng, rán (thịt, cá, bánh)",
+        "đốt"
+      ],
+      "noteVi": "Tha động từ: N を焼く. Tự động từ cùng cặp: 焼ける (được nướng chín, cháy). Nướng thịt, cá, bánh mì, rán trứng đều có thể dùng 焼く.",
+      "examples": [
+        {
+          "ja": "魚を焼いて食べました。",
+          "vi": "Tôi nướng cá rồi ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1269,
+      "word": "湯",
+      "meaningsVi": [
+        "nước nóng"
+      ],
+      "noteVi": "Âm Hán Việt \"thang\". Tiếng Nhật 湯 là **nước nóng**, không phải canh, súp. Thường nói lịch sự お湯. Nước lạnh, nước nói chung: 水. Nhà tắm công cộng: 銭湯 (ngoài bài).",
+      "examples": [
+        {
+          "ja": "お湯を沸かしてください。",
+          "vi": "Hãy đun nước nóng giúp tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1297,
+      "word": "沸かす",
+      "meaningsVi": [
+        "đun sôi, đun nóng"
+      ],
+      "noteVi": "Tha động từ: お湯を沸かす (đun nước), お風呂を沸かす (làm nóng nước bồn tắm). Tự động từ cùng cặp: 沸く.",
+      "examples": [
+        {
+          "ja": "お風呂を沸かしました。",
+          "vi": "Tôi đã đun nước tắm (bồn tắm) rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1299,
+      "word": "沸く",
+      "meaningsVi": [
+        "sôi, (nước) nóng lên"
+      ],
+      "noteVi": "Tự động từ: お湯が沸く, お風呂が沸く (nước tắm đã nóng). Làm cho sôi: 沸かす.",
+      "examples": [
+        {
+          "ja": "お湯が沸きました。",
+          "vi": "Nước sôi rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 989,
+      "word": "すく",
+      "meaningsVi": [
+        "(bụng) đói",
+        "(xe, đường, quán) vắng"
+      ],
+      "noteVi": "Kanji: 空く (đọc すく; đọc あく là \"trống, có chỗ\"). Thường viết kana. Đói bụng: おなかがすく; vắng: すいている, ngược nghĩa với 込んでいる.",
+      "examples": [
+        {
+          "ja": "おなかがすきました。",
+          "vi": "Tôi đói bụng rồi."
+        },
+        {
+          "ja": "朝の電車はすいていました。",
+          "vi": "Tàu buổi sáng vắng người."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1073,
+      "word": "漬ける",
+      "meaningsVi": [
+        "ngâm",
+        "ướp, muối (dưa, rau)"
+      ],
+      "noteVi": "Ngâm, ướp vào chất lỏng hoặc gia vị: N を〜に漬ける. Cùng cách đọc với つける (bật, gắn) nhưng khác chữ.",
+      "examples": [
+        {
+          "ja": "肉をしょうゆに漬けてから焼きます。",
+          "vi": "Ướp thịt với xì dầu rồi mới nướng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "味",
+      "meaningVi": "vị",
+      "noteVi": "Gặp trong 味 (あじ), 意味 (いみ). Bộ 口 (miệng) + 未: nếm bằng miệng.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "飲",
+      "meaningVi": "uống",
+      "noteVi": "Gặp trong 飲む (のむ), 飲み物 (のみもの). Bộ 食 (ăn) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "肉",
+      "meaningVi": "thịt",
+      "noteVi": "Gặp trong 肉 (にく), 牛肉 (ぎゅうにく), 豚肉 (ぶたにく).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "牛",
+      "meaningVi": "bò",
+      "noteVi": "Gặp trong 牛肉 (ぎゅうにく), 牛乳 (ぎゅうにゅう). Giống 午 (ngọ) nhưng nét dọc trổ lên trên.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "魚",
+      "meaningVi": "cá",
+      "noteVi": "Gặp trong 魚 (さかな). Phía dưới là bốn chấm như đuôi cá.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "野",
+      "meaningVi": "đồng ruộng, dã",
+      "noteVi": "Gặp trong 野菜 (やさい: rau). Bên trái là 里 (làng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "料",
+      "meaningVi": "nguyên liệu, phí",
+      "noteVi": "Gặp trong 料理 (りょうり: món ăn, nấu ăn), 食料品 (thực phẩm). Bộ 米 (gạo) + 斗 (cái đấu đong).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "sugiru",
+      "titleVi": "〜すぎる: quá, … quá mức",
+      "summaryVi": "Động từ (bỏ ます), tính từ (bỏ い, đuôi な) + すぎる: làm gì quá nhiều, … quá mức: 食べすぎる, 高すぎる.",
+      "explanationVi": [
+        "**〜すぎる** nói một việc **vượt quá mức bình thường**, thường là điều không tốt, giống \"quá\" trong tiếng Việt: 「このかばんは高すぎます」 (Cái túi này đắt quá), 「昨日は飲みすぎました」 (Hôm qua tôi uống quá nhiều).",
+        "Cách ghép: **động từ** dạng ます bỏ ます + すぎる: 食べます → 食べすぎる, 飲みます → 飲みすぎる. **Tính từ đuôi い** bỏ い + すぎる: 高い → 高すぎる, 難しい → 難しすぎる. **Tính từ đuôi な** + すぎる: 静か → 静かすぎる. Ngoại lệ: いい → **よすぎる**.",
+        "すぎる là động từ nhóm II, chia như 食べる: すぎます, すぎました, すぎて, すぎないで. Hay gặp 〜すぎて、〜 (quá … nên …): 「この問題は難しすぎて、わかりません」.",
+        "Khác với とても (rất): 「とても高いです」 chỉ nói đắt; 「高すぎます」 là **đắt quá mức** (nên không mua, không vừa ý). Khen thì dùng とても: 「とてもおいしいです」."
+      ],
+      "patterns": [
+        "V (bỏ ます) + すぎる",
+        "Aい (bỏ い) + すぎる",
+        "Aな + すぎる",
+        "〜すぎて、〜"
+      ],
+      "examples": [
+        {
+          "ja": "昨日はお酒を飲みすぎました。",
+          "vi": "Hôm qua tôi uống rượu quá nhiều."
+        },
+        {
+          "ja": "このかばんは高すぎて、買えません。",
+          "vi": "Cái túi này đắt quá, tôi không mua nổi."
+        },
+        {
+          "ja": "この部屋は静かすぎて、ちょっと寂しいです。",
+          "vi": "Căn phòng này yên tĩnh quá, hơi buồn."
+        },
+        {
+          "ja": "ケーキを食べすぎないでください。",
+          "vi": "Đừng ăn bánh ngọt nhiều quá nhé."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "このかばんは高いすぎます。",
+          "right": "このかばんは高すぎます。",
+          "noteVi": "Tính từ đuôi い phải bỏ い trước すぎる: 高い → 高すぎる."
+        },
+        {
+          "wrong": "昨日は食べるすぎました。",
+          "right": "昨日は食べすぎました。",
+          "noteVi": "Động từ dùng dạng ます bỏ ます (食べ), không dùng thể từ điển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "hodo-nai",
+      "titleVi": "〜ほど〜ない: không … bằng",
+      "summaryVi": "N1 は N2 ほど + phủ định: N1 không … bằng N2: 今年の夏は去年ほど暑くないです.",
+      "explanationVi": [
+        "**N1 は N2 ほど 〜ない** nghĩa là \"N1 **không** … **bằng** N2\": 「今年の夏は去年ほど暑くないです」 (Mùa hè năm nay không nóng bằng năm ngoái). Ý câu: N2 thì … hơn.",
+        "Vế sau **luôn ở dạng phủ định**: tính từ 〜くない, 〜じゃない; động từ 〜ない, 〜ません. Muốn nói \"… hơn\" thì dùng より: 「去年より暑いです」.",
+        "ほど đứng **sau** mốc so sánh (去年ほど: bằng năm ngoái), ngược với tiếng Việt (\"bằng\" đứng trước \"năm ngoái\"). So với より, câu ほど〜ない nghe nhẹ nhàng hơn: \"không nóng bằng\" thay vì \"mát hơn\".",
+        "**それほど / そんなに + phủ định**: \"không … lắm, không đến mức đó\": 「この料理はそれほど辛くないです」 (Món này không cay lắm). Gần nghĩa あまり〜ない."
+      ],
+      "patterns": [
+        "N1 は N2 ほど + Aくない / Aじゃない",
+        "N1 は N2 ほど + V ない",
+        "それほど / そんなに + phủ định"
+      ],
+      "examples": [
+        {
+          "ja": "今年の夏は去年ほど暑くないです。",
+          "vi": "Mùa hè năm nay không nóng bằng năm ngoái."
+        },
+        {
+          "ja": "バスは電車ほど速くないです。",
+          "vi": "Xe buýt không nhanh bằng tàu điện."
+        },
+        {
+          "ja": "私は兄ほど背が高くないです。",
+          "vi": "Tôi không cao bằng anh trai."
+        },
+        {
+          "ja": "この料理はそれほど辛くないです。",
+          "vi": "Món này không cay lắm."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "今年の夏は去年ほど暑いです。",
+          "right": "今年の夏は去年ほど暑くないです。",
+          "noteVi": "ほど (so sánh) luôn đi với phủ định. Muốn nói \"nóng hơn\" thì dùng より: 去年より暑いです."
+        },
+        {
+          "wrong": "私は兄ほど背が高いじゃないです。",
+          "right": "私は兄ほど背が高くないです。",
+          "noteVi": "Phủ định của tính từ đuôi い là 〜くない (高くない), không thêm じゃない.",
+          "issue": "adjective_form"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "nakanaka-nai",
+      "titleVi": "なかなか〜ない: mãi mà không",
+      "summaryVi": "なかなか + động từ phủ định: việc mình mong đợi mãi không xảy ra, làm mãi không được: バスがなかなか来ません.",
+      "explanationVi": [
+        "**なかなか + động từ phủ định** nói việc mình mong muốn **mãi mà không xảy ra**, hoặc làm mãi **không được**: 「バスがなかなか来ません」 (Xe buýt mãi không đến), 「風邪がなかなか治りません」 (Cảm mãi không khỏi).",
+        "Hay đi với thể khả năng phủ định: 「漢字がなかなか覚えられません」 (Chữ Hán mãi mà không nhớ được), 「なかなか寝られません」 (Mãi không ngủ được).",
+        "Khác với 全然〜ない (hoàn toàn không): 「全然来ません」 chỉ nói \"không đến\"; 「なかなか来ません」 là \"đợi mãi chưa thấy đến\", có cảm giác **sốt ruột, mất nhiều thời gian**.",
+        "なかなか với câu **khẳng định** lại có nghĩa \"**khá, cũng … đấy**\" (hơn mình nghĩ): 「この映画はなかなかおもしろいです」 (Phim này khá hay đấy)."
+      ],
+      "patterns": [
+        "なかなか + V ない / V ません",
+        "なかなか + V (thể khả năng) ない",
+        "なかなか + A (khẳng định): khá …"
+      ],
+      "examples": [
+        {
+          "ja": "バスがなかなか来ません。",
+          "vi": "Xe buýt mãi mà không đến."
+        },
+        {
+          "ja": "漢字がなかなか覚えられません。",
+          "vi": "Chữ Hán mãi mà không nhớ được."
+        },
+        {
+          "ja": "風邪がなかなか治りません。",
+          "vi": "Cảm mãi mà không khỏi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "バスがなかなか来ます。",
+          "right": "バスがなかなか来ません。",
+          "noteVi": "Nghĩa \"mãi mà không\" cần động từ phủ định."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "shika-nai",
+      "titleVi": "〜しか〜ない: chỉ (có) …",
+      "summaryVi": "N しか + động từ phủ định: chỉ có N, nhấn mạnh là ít, không đủ: 100円しかありません.",
+      "explanationVi": [
+        "**N しか + động từ phủ định** nghĩa là \"**chỉ** (có) N\": 「財布に100円しかありません」 (Trong ví chỉ có 100 yên). Động từ **luôn ở dạng phủ định**, dù tiếng Việt nói khẳng định (\"chỉ có\").",
+        "So với だけ (đã học): だけ trung tính, động từ khẳng định: 「100円だけあります」. しか〜ない nhấn mạnh **ít quá, không đủ**, thường có ý tiếc: 「100円しかありません」 (chỉ có 100 yên thôi).",
+        "しか thay cho が và を: 「水しか飲みません」 (không nói 水をしか). Với các trợ từ khác, しか đứng sau trợ từ: 「日本でしか買えません」 (chỉ mua được ở Nhật), 「田中さんにしか話していません」 (chỉ nói với anh Tanaka).",
+        "Hay đi với số lượng: 「3時間しか寝ませんでした」 (Chỉ ngủ được có 3 tiếng), 「少ししかわかりません」 (Chỉ hiểu một chút)."
+      ],
+      "patterns": [
+        "N しか + V ない / V ません",
+        "N + trợ từ (で, に, と…) + しか + phủ định",
+        "số lượng + しか + phủ định"
+      ],
+      "examples": [
+        {
+          "ja": "財布に100円しかありません。",
+          "vi": "Trong ví chỉ có 100 yên."
+        },
+        {
+          "ja": "昨日は3時間しか寝ませんでした。",
+          "vi": "Hôm qua tôi chỉ ngủ được 3 tiếng."
+        },
+        {
+          "ja": "私は日本語が少ししかわかりません。",
+          "vi": "Tôi chỉ hiểu một chút tiếng Nhật."
+        },
+        {
+          "ja": "この料理は日本でしか食べられません。",
+          "vi": "Món này chỉ ăn được ở Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "財布に100円しかあります。",
+          "right": "財布に100円しかありません。",
+          "noteVi": "しか luôn đi với động từ phủ định: しかありません."
+        },
+        {
+          "wrong": "水をしか飲みません。",
+          "right": "水しか飲みません。",
+          "noteVi": "しか thay cho を và が, không nói をしか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "bakari",
+      "titleVi": "〜ばかり: toàn là, chỉ toàn",
+      "summaryVi": "N ばかり: toàn là N; V て ばかりいる: suốt ngày chỉ làm V (thường có ý chê): 肉ばかり食べています.",
+      "explanationVi": [
+        "**N ばかり** nghĩa là \"**toàn là** N, chỉ toàn N\", nói một thứ lặp đi lặp lại nhiều quá: 「弟は肉ばかり食べています」 (Em trai tôi toàn ăn thịt), 「この店は学生ばかりです」 (Quán này toàn sinh viên). Thường có ý **chê, không hài lòng**.",
+        "**V て ばかりいる**: \"suốt ngày chỉ làm V\": 「弟は遊んでばかりいます」 (Em tôi suốt ngày chỉ chơi). Dùng **thể て** + ばかり + いる; いる chia bình thường: いました, いないで…",
+        "ばかり thay cho を và が: 肉を食べる → 肉ばかり食べる. So với しか〜ない: しか đi với phủ định, nhấn mạnh **ít**; ばかり đi với khẳng định, nhấn mạnh **nhiều quá, lặp lại**: 「サラダしか食べません」 (chỉ ăn xa lát, không ăn gì khác) và 「サラダばかり食べています」 (lúc nào cũng ăn xa lát)."
+      ],
+      "patterns": [
+        "N ばかり + V",
+        "V て + ばかりいる",
+        "N ばかりです"
+      ],
+      "examples": [
+        {
+          "ja": "弟は肉ばかり食べています。",
+          "vi": "Em trai tôi toàn ăn thịt."
+        },
+        {
+          "ja": "休みの日は寝てばかりいます。",
+          "vi": "Ngày nghỉ tôi suốt ngày chỉ ngủ."
+        },
+        {
+          "ja": "この店は学生ばかりです。",
+          "vi": "Quán này toàn sinh viên."
+        },
+        {
+          "ja": "テレビを見てばかりいないで、勉強しなさい。",
+          "vi": "Đừng có suốt ngày xem tivi, học bài đi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "弟は遊ぶばかりいます。",
+          "right": "弟は遊んでばかりいます。",
+          "noteVi": "\"Suốt ngày chỉ làm\": thể て + ばかりいる."
+        },
+        {
+          "wrong": "弟は肉をばかり食べています。",
+          "right": "弟は肉ばかり食べています。",
+          "noteVi": "ばかり thay cho を, không nói をばかり."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ta-bakari",
+      "titleVi": "〜たばかり: vừa mới …",
+      "summaryVi": "V た + ばかりです: vừa mới làm V (theo cảm nhận của người nói là chưa lâu): 日本に来たばかりです.",
+      "explanationVi": [
+        "**V た + ばかりです** nghĩa là \"**vừa mới** làm V\": 「先月日本に来たばかりです」 (Tôi vừa mới sang Nhật tháng trước). Động từ ở **thể た**.",
+        "\"Vừa mới\" ở đây theo **cảm nhận** của người nói: có thể là 5 phút trước, cũng có thể là mấy tháng trước, miễn là người nói thấy chưa lâu: 「この車は去年買ったばかりです」 (Xe này tôi mới mua năm ngoái).",
+        "Hay dùng để giải thích: 「さっき食べたばかりなので、おなかがいっぱいです」 (Tôi vừa ăn xong nên còn no). たばかり chia như danh từ: たばかりです, たばかりなので, たばかりの + N: 「焼いたばかりのパン」 (bánh mì vừa nướng xong).",
+        "Phân biệt: 「食べたばかりです」 (vừa mới ăn) và 「食べてばかりいます」 (suốt ngày chỉ ăn)."
+      ],
+      "patterns": [
+        "V た + ばかりです",
+        "V た + ばかりなので、〜",
+        "V た + ばかりの + N"
+      ],
+      "examples": [
+        {
+          "ja": "先月日本に来たばかりです。",
+          "vi": "Tôi vừa mới sang Nhật tháng trước."
+        },
+        {
+          "ja": "さっき食べたばかりなので、おなかがいっぱいです。",
+          "vi": "Tôi vừa ăn xong nên vẫn còn no."
+        },
+        {
+          "ja": "焼いたばかりのパンはおいしいです。",
+          "vi": "Bánh mì vừa nướng xong thì ngon."
+        },
+        {
+          "ja": "この車は去年買ったばかりです。",
+          "vi": "Chiếc xe này tôi mới mua năm ngoái."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日本に来るばかりです。",
+          "right": "日本に来たばかりです。",
+          "noteVi": "\"Vừa mới\" cần thể た trước ばかり."
+        },
+        {
+          "wrong": "さっき食べましたばかりです。",
+          "right": "さっき食べたばかりです。",
+          "noteVi": "Trước ばかり dùng thể た thông thường (食べた), không dùng ました."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-18-e01",
+      "type": "fill",
+      "grammar": [
+        "sugiru"
+      ],
+      "before": "昨日はお酒を飲み",
+      "after": "ました。",
+      "answers": [
+        "すぎ"
+      ],
+      "options": [
+        "すぎ",
+        "始め",
+        "終わり"
+      ],
+      "vi": "Hôm qua tôi đã uống rượu quá nhiều.",
+      "explainVi": "Quá mức: dạng ます bỏ ます + すぎる (飲みすぎる)."
+    },
+    {
+      "id": "n4-18-e02",
+      "type": "choice",
+      "grammar": [
+        "sugiru"
+      ],
+      "promptVi": "\"Cái áo sơ mi này với tôi thì to quá (không vừa).\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "このシャツは私には＿。",
+      "options": [
+        "大きすぎます",
+        "大きそうです",
+        "大きくなりました"
+      ],
+      "answer": 0,
+      "explainVi": "Quá mức: tính từ bỏ い + すぎる (大きすぎる)."
+    },
+    {
+      "id": "n4-18-e03",
+      "type": "order",
+      "grammar": [
+        "sugiru"
+      ],
+      "vi": "Tôi ăn bánh ngọt quá nhiều nên đã béo lên mất rồi.",
+      "tiles": [
+        "ケーキを",
+        "食べすぎて",
+        "太って",
+        "しまいました"
+      ],
+      "answers": [
+        "ケーキを食べすぎて太ってしまいました"
+      ]
+    },
+    {
+      "id": "n4-18-e04",
+      "type": "fill",
+      "grammar": [
+        "hodo-nai"
+      ],
+      "before": "今年の夏は去年",
+      "after": "暑くないです。",
+      "answers": [
+        "ほど"
+      ],
+      "options": [
+        "ほど",
+        "より",
+        "ばかり"
+      ],
+      "vi": "Mùa hè năm nay không nóng bằng năm ngoái.",
+      "explainVi": "Không … bằng: N ほど + phủ định. 去年より暑くない là \"không nóng hơn năm ngoái\"."
+    },
+    {
+      "id": "n4-18-e05",
+      "type": "choice",
+      "grammar": [
+        "hodo-nai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Xe buýt không nhanh bằng tàu điện\"?",
+      "options": [
+        "バスは電車ほど速くないです。",
+        "電車はバスほど速くないです。",
+        "バスは電車より速いです。"
+      ],
+      "answer": 0,
+      "explainVi": "N1 は N2 ほど〜ない: N1 không … bằng N2. Mốc so sánh (電車) đứng trước ほど."
+    },
+    {
+      "id": "n4-18-e06",
+      "type": "choice",
+      "grammar": [
+        "hodo-nai"
+      ],
+      "promptVi": "\"Món này không cay lắm.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "この料理は＿辛くないです。",
+      "options": [
+        "それほど",
+        "とても",
+        "もっと"
+      ],
+      "answer": 0,
+      "explainVi": "それほど + phủ định: không … lắm."
+    },
+    {
+      "id": "n4-18-e07",
+      "type": "fill",
+      "grammar": [
+        "nakanaka-nai"
+      ],
+      "before": "バスが",
+      "after": "来ません。",
+      "answers": [
+        "なかなか"
+      ],
+      "options": [
+        "なかなか",
+        "とても",
+        "もう"
+      ],
+      "vi": "Xe buýt mãi mà không đến.",
+      "explainVi": "Mãi mà không: なかなか + phủ định. もう来ません là \"sẽ không đến nữa\"."
+    },
+    {
+      "id": "n4-18-e08",
+      "type": "choice",
+      "grammar": [
+        "nakanaka-nai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Cảm mãi mà không khỏi\"?",
+      "options": [
+        "風邪がなかなか治りません。",
+        "風邪がもう治りました。",
+        "風邪を全然ひきません。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-18-e09",
+      "type": "choice",
+      "grammar": [
+        "nakanaka-nai"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "この映画はなかなかおもしろいです。",
+      "options": [
+        "Phim này khá hay đấy.",
+        "Phim này mãi mà không hay.",
+        "Phim này không hay lắm."
+      ],
+      "answer": 0,
+      "explainVi": "なかなか với câu khẳng định: khá, cũng … đấy."
+    },
+    {
+      "id": "n4-18-e10",
+      "type": "fill",
+      "grammar": [
+        "shika-nai"
+      ],
+      "before": "財布に100円",
+      "after": "ありません。",
+      "answers": [
+        "しか"
+      ],
+      "options": [
+        "しか",
+        "だけ",
+        "ばかり"
+      ],
+      "vi": "Trong ví chỉ có 100 yên.",
+      "explainVi": "しか đi với phủ định; だけ đi với khẳng định (100円だけあります)."
+    },
+    {
+      "id": "n4-18-e11",
+      "type": "choice",
+      "grammar": [
+        "shika-nai"
+      ],
+      "promptVi": "Chọn câu đúng: \"Hôm qua tôi chỉ ngủ được 3 tiếng.\"",
+      "options": [
+        "昨日は3時間しか寝ませんでした。",
+        "昨日は3時間しか寝ました。",
+        "昨日は3時間だけ寝ませんでした。"
+      ],
+      "answer": 0,
+      "explainVi": "しか + động từ phủ định."
+    },
+    {
+      "id": "n4-18-e12",
+      "type": "choice",
+      "grammar": [
+        "shika-nai"
+      ],
+      "promptVi": "\"Món này chỉ ăn được ở Nhật.\" Chọn trợ từ đúng điền vào chỗ trống.",
+      "ja": "この料理は日本＿しか食べられません。",
+      "options": [
+        "で",
+        "を",
+        "が"
+      ],
+      "answer": 0,
+      "explainVi": "Nơi chốn で, sau đó là しか: でしか."
+    },
+    {
+      "id": "n4-18-e13",
+      "type": "fill",
+      "grammar": [
+        "bakari"
+      ],
+      "before": "弟は肉",
+      "after": "食べています。",
+      "answers": [
+        "ばかり"
+      ],
+      "options": [
+        "ばかり",
+        "しか",
+        "ほど"
+      ],
+      "vi": "Em trai tôi toàn ăn thịt.",
+      "explainVi": "Toàn là: N ばかり + động từ khẳng định. しか cần động từ phủ định."
+    },
+    {
+      "id": "n4-18-e14",
+      "type": "choice",
+      "grammar": [
+        "bakari"
+      ],
+      "promptVi": "\"Ngày nghỉ tôi suốt ngày chỉ ngủ.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "休みの日は＿ばかりいます。",
+      "options": [
+        "寝て",
+        "寝た",
+        "寝る"
+      ],
+      "answer": 0,
+      "explainVi": "Suốt ngày chỉ làm V: V て + ばかりいる."
+    },
+    {
+      "id": "n4-18-e15",
+      "type": "order",
+      "grammar": [
+        "bakari"
+      ],
+      "vi": "Đừng có suốt ngày xem tivi, học bài đi.",
+      "tiles": [
+        "テレビを",
+        "見て",
+        "ばかり",
+        "いないで",
+        "勉強しなさい"
+      ],
+      "answers": [
+        "テレビを見てばかりいないで勉強しなさい"
+      ]
+    },
+    {
+      "id": "n4-18-e16",
+      "type": "fill",
+      "grammar": [
+        "ta-bakari"
+      ],
+      "before": "先月日本に",
+      "after": "ばかりです。",
+      "answers": [
+        "来た"
+      ],
+      "options": [
+        "来た",
+        "来る",
+        "来て"
+      ],
+      "vi": "Tôi vừa mới sang Nhật tháng trước.",
+      "explainVi": "Vừa mới: thể た + ばかり."
+    },
+    {
+      "id": "n4-18-e17",
+      "type": "choice",
+      "grammar": [
+        "ta-bakari",
+        "bakari"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi vừa ăn xong\"?",
+      "options": [
+        "さっき食べたばかりです。",
+        "いつも食べてばかりいます。",
+        "まだ食べていません。"
+      ],
+      "answer": 0,
+      "explainVi": "食べたばかり: vừa mới ăn. 食べてばかりいる: suốt ngày chỉ ăn."
+    },
+    {
+      "id": "n4-18-e18",
+      "type": "choice",
+      "grammar": [
+        "ta-bakari"
+      ],
+      "promptVi": "\"Bánh mì vừa nướng xong thì ngon.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "＿パンはおいしいです。",
+      "options": [
+        "焼いたばかりの",
+        "焼いてばかりの",
+        "焼くばかりの"
+      ],
+      "answer": 0,
+      "explainVi": "Trước danh từ: V た + ばかりの + N."
+    },
+    {
+      "id": "n4-18-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "ステーキ",
+          "bít tết"
+        ],
+        [
+          "サラダ",
+          "xa lát"
+        ],
+        [
+          "ジャム",
+          "mứt"
+        ],
+        [
+          "ぶどう",
+          "nho"
+        ],
+        [
+          "みそ",
+          "tương miso"
+        ]
+      ]
+    },
+    {
+      "id": "n4-18-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "焼く",
+          "nướng"
+        ],
+        [
+          "沸かす",
+          "đun sôi"
+        ],
+        [
+          "漬ける",
+          "ướp, ngâm"
+        ],
+        [
+          "比べる",
+          "so sánh"
+        ],
+        [
+          "太る",
+          "béo lên"
+        ]
+      ]
+    },
+    {
+      "id": "n4-18-e21",
+      "type": "choice",
+      "promptVi": "\"Nước sôi rồi.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "お湯が＿。",
+      "options": [
+        "沸きました",
+        "沸かしました",
+        "焼きました"
+      ],
+      "answer": 0,
+      "explainVi": "Tự động từ: お湯が沸く. Tha động từ: お湯を沸かす."
+    },
+    {
+      "id": "n4-18-e22",
+      "type": "choice",
+      "promptVi": "Bạn muốn nói \"Hôm nay để tôi mời (trả tiền bữa ăn)\". Chọn từ đúng điền vào chỗ trống.",
+      "ja": "今日は私が＿します。",
+      "options": [
+        "ごちそう",
+        "料理",
+        "食事"
+      ],
+      "answer": 0,
+      "explainVi": "ごちそうする: mời ăn uống. 料理する là nấu ăn, 食事する là dùng bữa."
+    },
+    {
+      "id": "n4-18-e23",
+      "type": "translate",
+      "grammar": [
+        "sugiru"
+      ],
+      "vi": "Hôm qua tôi đã ăn quá nhiều.",
+      "answers": [
+        "(私は)昨日(は)食べすぎました。",
+        "(私は)昨日(は)食べすぎてしまいました。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはたべすぎました",
+          "score": 100
+        },
+        {
+          "answer": "昨日に食べすぎました。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "昨日は飲みすぎました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-18-e24",
+      "type": "translate",
+      "grammar": [
+        "hodo-nai"
+      ],
+      "vi": "Hôm nay không lạnh bằng hôm qua.",
+      "answers": [
+        "今日は昨日ほど寒くないです。"
+      ],
+      "examples": [
+        {
+          "answer": "きょうはきのうほどさむくないです",
+          "score": 100
+        },
+        {
+          "answer": "今日は昨日ほど寒いじゃないです。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "今日は昨日より寒いです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-18-e25",
+      "type": "translate",
+      "grammar": [
+        "shika-nai"
+      ],
+      "vi": "Trong ví tôi chỉ có 500 yên. (dùng 〜しか)",
+      "answers": [
+        "(私の)財布に(は)500円しかありません。"
+      ],
+      "examples": [
+        {
+          "answer": "さいふに500えんしかありません",
+          "score": 100
+        },
+        {
+          "answer": "財布で500円しかありません。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "財布に5000円しかありません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-18-e26",
+      "type": "translate",
+      "grammar": [
+        "bakari"
+      ],
+      "vi": "Em trai tôi suốt ngày chỉ xem tivi.",
+      "answers": [
+        "弟はテレビを見てばかりいます。",
+        "弟はテレビばかり見ています。",
+        "弟はテレビを見てばかりです。"
+      ],
+      "examples": [
+        {
+          "answer": "おとうとはテレビをみてばかりいます",
+          "score": 100
+        },
+        {
+          "answer": "弟はテレビをばかり見ています。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "弟は本を読んでばかりいます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-18-e27",
+      "type": "question",
+      "grammar": [
+        "ta-bakari"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "おなかがすきましたか。",
+        "promptVi": "\"Bạn đói chưa?\" Bạn vừa ăn xong. Hãy trả lời: \"Chưa, tôi vừa mới ăn.\" (dùng 〜たばかり)",
+        "answers": [
+          "いいえ、(さっき)(ご飯を)食べたばかりです。",
+          "いいえ、(さっき)(ご飯を)食べたばかりですから。",
+          "いいえ、(さっき)(ご飯を)食べたばかりなので。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、たべたばかりです",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、さっきご飯が食べたばかりです。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "はい、すきました。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "この料理は味が薄いです。": "この{料|りょう}{理|り}は{味|あじ}が{薄|うす}いです。",
+    "ちょっと味を見てください。": "ちょっと{味|あじ}を{見|み}てください。",
+    "私はアルコールが飲めません。": "{私|わたし}はアルコールが{飲|の}めません。",
+    "おなかがいっぱいです。": "おなかがいっぱいです。",
+    "冷蔵庫に野菜がいっぱいあります。": "{冷|れい}{蔵|ぞう}{庫|こ}に{野|や}{菜|さい}がいっぱいあります。",
+    "もう12時を過ぎました。": "もう12{時|じ}を{過|す}ぎました。",
+    "昨日は食べすぎました。": "{昨日|きのう}は{食|た}べすぎました。",
+    "今日は昨日ほど寒くないです。": "{今日|きょう}は{昨日|きのう}ほど{寒|さむ}くないです。",
+    "10分ほど待ってください。": "10{分|ぷん}ほど{待|ま}ってください。",
+    "バスがなかなか来ません。": "バスがなかなか{来|き}ません。",
+    "この映画はなかなかおもしろいです。": "この{映|えい}{画|が}はなかなかおもしろいです。",
+    "このステーキはそれほど高くないです。": "このステーキはそれほど{高|たか}くないです。",
+    "そんなに食べると、太りますよ。": "そんなに{食|た}べると、{太|ふと}りますよ。",
+    "日本語はそんなに難しくないですよ。": "{日本|にほん}{語|ご}はそんなに{難|むずか}しくないですよ。",
+    "この本はちっともおもしろくないです。": "この{本|ほん}はちっともおもしろくないです。",
+    "お金が足りません。": "お{金|かね}が{足|た}りません。",
+    "時間はまだ十分あります。": "{時|じ}{間|かん}はまだ{十|じゅう}{分|ぶん}あります。",
+    "ご飯はもう十分です。": "ご{飯|はん}はもう{十|じゅう}{分|ぶん}です。",
+    "田中さん以外、みんな来ました。": "{田中|たなか}さん{以|い}{外|がい}、みんな{来|き}ました。",
+    "肉以外は何でも食べます。": "{肉|にく}{以|い}{外|がい}は{何|なん}でも{食|た}べます。",
+    "去年と比べて、今年は雨が多いです。": "{去|きょ}{年|ねん}と{比|くら}べて、{今年|ことし}は{雨|あめ}が{多|おお}いです。",
+    "最近、少し太りました。": "{最|さい}{近|きん}、{少|すこ}し{太|ふと}りました。",
+    "このステーキは大きすぎて、全部食べられません。": "このステーキは{大|おお}きすぎて、{全|ぜん}{部|ぶ}{食|た}べられません。",
+    "毎朝、サラダを食べています。": "{毎|まい}{朝|あさ}、サラダを{食|た}べています。",
+    "昼ご飯はサンドイッチしか食べませんでした。": "{昼|ひる}ご{飯|はん}はサンドイッチしか{食|た}べませんでした。",
+    "パンにジャムを塗って食べます。": "パンにジャムを{塗|ぬ}って{食|た}べます。",
+    "ケーキを食べすぎて、太ってしまいました。": "ケーキを{食|た}べすぎて、{太|ふと}ってしまいました。",
+    "この店のぶどうは甘くておいしいです。": "この{店|みせ}のぶどうは{甘|あま}くておいしいです。",
+    "みそは日本料理によく使います。": "みそは{日本|にほん}{料|りょう}{理|り}によく{使|つか}います。",
+    "今日は私がごちそうします。": "{今日|きょう}は{私|わたし}がごちそうします。",
+    "昨日はごちそうをたくさん食べました。": "{昨日|きのう}はごちそうをたくさん{食|た}べました。",
+    "魚を焼いて食べました。": "{魚|さかな}を{焼|や}いて{食|た}べました。",
+    "お湯を沸かしてください。": "お{湯|ゆ}を{沸|わ}かしてください。",
+    "お風呂を沸かしました。": "お{風|ふ}{呂|ろ}を{沸|わ}かしました。",
+    "お湯が沸きました。": "お{湯|ゆ}が{沸|わ}きました。",
+    "おなかがすきました。": "おなかがすきました。",
+    "朝の電車はすいていました。": "{朝|あさ}の{電|でん}{車|しゃ}はすいていました。",
+    "肉をしょうゆに漬けてから焼きます。": "{肉|にく}をしょうゆに{漬|つ}けてから{焼|や}きます。",
+    "昨日はお酒を飲みすぎました。": "{昨日|きのう}はお{酒|さけ}を{飲|の}みすぎました。",
+    "このかばんは高すぎて、買えません。": "このかばんは{高|たか}すぎて、{買|か}えません。",
+    "この部屋は静かすぎて、ちょっと寂しいです。": "この{部屋|へや}は{静|しず}かすぎて、ちょっと{寂|さび}しいです。",
+    "ケーキを食べすぎないでください。": "ケーキを{食|た}べすぎないでください。",
+    "このかばんは高すぎます。": "このかばんは{高|たか}すぎます。",
+    "このかばんは高いすぎます。": "このかばんは{高|たか}いすぎます。",
+    "昨日は食べるすぎました。": "{昨日|きのう}は{食|た}べるすぎました。",
+    "今年の夏は去年ほど暑くないです。": "{今年|ことし}の{夏|なつ}は{去|きょ}{年|ねん}ほど{暑|あつ}くないです。",
+    "バスは電車ほど速くないです。": "バスは{電|でん}{車|しゃ}ほど{速|はや}くないです。",
+    "私は兄ほど背が高くないです。": "{私|わたし}は{兄|あに}ほど{背|せ}が{高|たか}くないです。",
+    "この料理はそれほど辛くないです。": "この{料|りょう}{理|り}はそれほど{辛|から}くないです。",
+    "今年の夏は去年ほど暑いです。": "{今年|ことし}の{夏|なつ}は{去|きょ}{年|ねん}ほど{暑|あつ}いです。",
+    "私は兄ほど背が高いじゃないです。": "{私|わたし}は{兄|あに}ほど{背|せ}が{高|たか}いじゃないです。",
+    "漢字がなかなか覚えられません。": "{漢|かん}{字|じ}がなかなか{覚|おぼ}えられません。",
+    "風邪がなかなか治りません。": "{風邪|かぜ}がなかなか{治|なお}りません。",
+    "バスがなかなか来ます。": "バスがなかなか{来|き}ます。",
+    "財布に100円しかありません。": "{財|さい}{布|ふ}に100{円|えん}しかありません。",
+    "昨日は3時間しか寝ませんでした。": "{昨日|きのう}は3{時間|じかん}しか{寝|ね}ませんでした。",
+    "私は日本語が少ししかわかりません。": "{私|わたし}は{日本|にほん}{語|ご}が{少|すこ}ししかわかりません。",
+    "この料理は日本でしか食べられません。": "この{料|りょう}{理|り}は{日本|にほん}でしか{食|た}べられません。",
+    "財布に100円しかあります。": "{財|さい}{布|ふ}に100{円|えん}しかあります。",
+    "水しか飲みません。": "{水|みず}しか{飲|の}みません。",
+    "水をしか飲みません。": "{水|みず}をしか{飲|の}みません。",
+    "弟は肉ばかり食べています。": "{弟|おとうと}は{肉|にく}ばかり{食|た}べています。",
+    "休みの日は寝てばかりいます。": "{休|やす}みの{日|ひ}は{寝|ね}てばかりいます。",
+    "この店は学生ばかりです。": "この{店|みせ}は{学|がく}{生|せい}ばかりです。",
+    "テレビを見てばかりいないで、勉強しなさい。": "テレビを{見|み}てばかりいないで、{勉|べん}{強|きょう}しなさい。",
+    "弟は遊んでばかりいます。": "{弟|おとうと}は{遊|あそ}んでばかりいます。",
+    "弟は遊ぶばかりいます。": "{弟|おとうと}は{遊|あそ}ぶばかりいます。",
+    "弟は肉をばかり食べています。": "{弟|おとうと}は{肉|にく}をばかり{食|た}べています。",
+    "先月日本に来たばかりです。": "{先|せん}{月|げつ}{日本|にほん}に{来|き}たばかりです。",
+    "さっき食べたばかりなので、おなかがいっぱいです。": "さっき{食|た}べたばかりなので、おなかがいっぱいです。",
+    "焼いたばかりのパンはおいしいです。": "{焼|や}いたばかりのパンはおいしいです。",
+    "この車は去年買ったばかりです。": "この{車|くるま}は{去|きょ}{年|ねん}{買|か}ったばかりです。",
+    "日本に来たばかりです。": "{日本|にほん}に{来|き}たばかりです。",
+    "日本に来るばかりです。": "{日本|にほん}に{来|く}るばかりです。",
+    "さっき食べたばかりです。": "さっき{食|た}べたばかりです。",
+    "さっき食べましたばかりです。": "さっき{食|た}べましたばかりです。",
+    "すぎ": "すぎ",
+    "始め": "{始|はじ}め",
+    "終わり": "{終|お}わり",
+    "このシャツは私には＿。": "このシャツは{私|わたし}には＿。",
+    "大きすぎます": "{大|おお}きすぎます",
+    "大きそうです": "{大|おお}きそうです",
+    "大きくなりました": "{大|おお}きくなりました",
+    "ケーキを": "ケーキを",
+    "食べすぎて": "{食|た}べすぎて",
+    "太って": "{太|ふと}って",
+    "しまいました": "しまいました",
+    "ケーキを食べすぎて太ってしまいました": "ケーキを{食|た}べすぎて{太|ふと}ってしまいました",
+    "ほど": "ほど",
+    "より": "より",
+    "ばかり": "ばかり",
+    "電車はバスほど速くないです。": "{電|でん}{車|しゃ}はバスほど{速|はや}くないです。",
+    "バスは電車より速いです。": "バスは{電|でん}{車|しゃ}より{速|はや}いです。",
+    "この料理は＿辛くないです。": "この{料|りょう}{理|り}は＿{辛|から}くないです。",
+    "それほど": "それほど",
+    "とても": "とても",
+    "もっと": "もっと",
+    "なかなか": "なかなか",
+    "もう": "もう",
+    "風邪がもう治りました。": "{風邪|かぜ}がもう{治|なお}りました。",
+    "風邪を全然ひきません。": "{風邪|かぜ}を{全然|ぜんぜん}ひきません。",
+    "しか": "しか",
+    "だけ": "だけ",
+    "昨日は3時間しか寝ました。": "{昨日|きのう}は3{時間|じかん}しか{寝|ね}ました。",
+    "昨日は3時間だけ寝ませんでした。": "{昨日|きのう}は3{時間|じかん}だけ{寝|ね}ませんでした。",
+    "この料理は日本＿しか食べられません。": "この{料|りょう}{理|り}は{日本|にほん}＿しか{食|た}べられません。",
+    "で": "で",
+    "を": "を",
+    "が": "が",
+    "休みの日は＿ばかりいます。": "{休|やす}みの{日|ひ}は＿ばかりいます。",
+    "寝て": "{寝|ね}て",
+    "寝た": "{寝|ね}た",
+    "寝る": "{寝|ね}る",
+    "テレビを": "テレビを",
+    "見て": "{見|み}て",
+    "いないで": "いないで",
+    "勉強しなさい": "{勉|べん}{強|きょう}しなさい",
+    "テレビを見てばかりいないで勉強しなさい": "テレビを{見|み}てばかりいないで{勉|べん}{強|きょう}しなさい",
+    "来た": "{来|き}た",
+    "来る": "{来|く}る",
+    "来て": "{来|き}て",
+    "いつも食べてばかりいます。": "いつも{食|た}べてばかりいます。",
+    "まだ食べていません。": "まだ{食|た}べていません。",
+    "＿パンはおいしいです。": "＿パンはおいしいです。",
+    "焼いたばかりの": "{焼|や}いたばかりの",
+    "焼いてばかりの": "{焼|や}いてばかりの",
+    "焼くばかりの": "{焼|や}くばかりの",
+    "ステーキ": "ステーキ",
+    "サラダ": "サラダ",
+    "ジャム": "ジャム",
+    "ぶどう": "ぶどう",
+    "みそ": "みそ",
+    "焼く": "{焼|や}く",
+    "沸かす": "{沸|わ}かす",
+    "漬ける": "{漬|つ}ける",
+    "比べる": "{比|くら}べる",
+    "太る": "{太|ふと}る",
+    "お湯が＿。": "お{湯|ゆ}が＿。",
+    "沸きました": "{沸|わ}きました",
+    "沸かしました": "{沸|わ}かしました",
+    "焼きました": "{焼|や}きました",
+    "今日は私が＿します。": "{今日|きょう}は{私|わたし}が＿します。",
+    "ごちそう": "ごちそう",
+    "料理": "{料|りょう}{理|り}",
+    "食事": "{食|しょく}{事|じ}",
+    "私は昨日は食べすぎました。": "{私|わたし}は{昨日|きのう}は{食|た}べすぎました。",
+    "私は昨日は食べすぎてしまいました。": "{私|わたし}は{昨日|きのう}は{食|た}べすぎてしまいました。",
+    "私の財布には500円しかありません。": "{私|わたし}の{財|さい}{布|ふ}には500{円|えん}しかありません。",
+    "弟はテレビを見てばかりいます。": "{弟|おとうと}はテレビを{見|み}てばかりいます。",
+    "弟はテレビばかり見ています。": "{弟|おとうと}はテレビばかり{見|み}ています。",
+    "弟はテレビを見てばかりです。": "{弟|おとうと}はテレビを{見|み}てばかりです。",
+    "おなかがすきましたか。": "おなかがすきましたか。",
+    "いいえ、さっきご飯を食べたばかりです。": "いいえ、さっきご{飯|はん}を{食|た}べたばかりです。",
+    "いいえ、さっきご飯を食べたばかりですから。": "いいえ、さっきご{飯|はん}を{食|た}べたばかりですから。",
+    "いいえ、さっきご飯を食べたばかりなので。": "いいえ、さっきご{飯|はん}を{食|た}べたばかりなので。"
+  }
+}

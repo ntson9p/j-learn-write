@@ -1,0 +1,424 @@
+{
+  "id": "kana-05",
+  "goalsVi": [
+    "Đọc được âm đục (dấu ゛): が ざ だ ば và các hàng của chúng",
+    "Đọc được âm bán đục (dấu ゜): ぱ ぴ ぷ ぺ ぽ",
+    "Biết じ/ぢ cùng đọc \"ji\", ず/づ cùng đọc \"zu\" (thường viết じ, ず)"
+  ],
+  "practice": [
+    {
+      "ja": "かぎ",
+      "vi": "chìa khóa"
+    },
+    {
+      "ja": "かぞく",
+      "vi": "gia đình"
+    },
+    {
+      "ja": "ごはん",
+      "vi": "cơm; bữa ăn"
+    },
+    {
+      "ja": "じかん",
+      "vi": "thời gian"
+    },
+    {
+      "ja": "みず",
+      "vi": "nước"
+    },
+    {
+      "ja": "かぜ",
+      "vi": "gió"
+    },
+    {
+      "ja": "だいがく",
+      "vi": "trường đại học"
+    },
+    {
+      "ja": "でんわ",
+      "vi": "điện thoại"
+    },
+    {
+      "ja": "まど",
+      "vi": "cửa sổ"
+    },
+    {
+      "ja": "かばん",
+      "vi": "cái cặp, túi xách"
+    },
+    {
+      "ja": "たまご",
+      "vi": "quả trứng"
+    },
+    {
+      "ja": "ひだり",
+      "vi": "bên trái"
+    },
+    {
+      "ja": "てんぷら",
+      "vi": "món tempura"
+    },
+    {
+      "ja": "えんぴつ",
+      "vi": "bút chì"
+    },
+    {
+      "ja": "さんぽ",
+      "vi": "đi dạo"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-05-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ga\"?",
+      "options": [
+        "が",
+        "か",
+        "ざ"
+      ],
+      "answer": 0,
+      "explainVi": "Dấu ゛ (hai chấm) biến âm k thành g: か → が."
+    },
+    {
+      "id": "kana-05-e02",
+      "type": "choice",
+      "promptVi": "Chữ ざ đọc là gì?",
+      "options": [
+        "sa",
+        "za",
+        "da"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-05-e03",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"pa\"?",
+      "options": [
+        "ば",
+        "は",
+        "ぱ"
+      ],
+      "answer": 2,
+      "explainVi": "Dấu ゜ (vòng tròn nhỏ) biến âm h thành p; dấu ゛ biến h thành b."
+    },
+    {
+      "id": "kana-05-e04",
+      "type": "choice",
+      "promptVi": "Chữ じ đọc là gì?",
+      "options": [
+        "ji",
+        "shi",
+        "chi"
+      ],
+      "answer": 0,
+      "explainVi": "ぢ cũng đọc là \"ji\" nhưng rất ít dùng; thường viết じ."
+    },
+    {
+      "id": "kana-05-e05",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"bu\"?",
+      "options": [
+        "ぷ",
+        "ぶ",
+        "ふ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-05-e06",
+      "type": "choice",
+      "promptVi": "Chữ ど đọc là gì?",
+      "options": [
+        "do",
+        "to",
+        "go"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-05-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "が",
+          "ga"
+        ],
+        [
+          "ぎ",
+          "gi"
+        ],
+        [
+          "ぐ",
+          "gu"
+        ],
+        [
+          "げ",
+          "ge"
+        ],
+        [
+          "ご",
+          "go"
+        ]
+      ]
+    },
+    {
+      "id": "kana-05-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ざ",
+          "za"
+        ],
+        [
+          "じ",
+          "ji"
+        ],
+        [
+          "ず",
+          "zu"
+        ],
+        [
+          "ぜ",
+          "ze"
+        ],
+        [
+          "ぞ",
+          "zo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-05-e09",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "だ",
+          "da"
+        ],
+        [
+          "ぢ",
+          "ji"
+        ],
+        [
+          "づ",
+          "zu"
+        ],
+        [
+          "で",
+          "de"
+        ],
+        [
+          "ど",
+          "do"
+        ]
+      ]
+    },
+    {
+      "id": "kana-05-e10",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ば",
+          "ba"
+        ],
+        [
+          "び",
+          "bi"
+        ],
+        [
+          "ぶ",
+          "bu"
+        ],
+        [
+          "べ",
+          "be"
+        ],
+        [
+          "ぼ",
+          "bo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-05-e11",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ぱ",
+          "pa"
+        ],
+        [
+          "ぴ",
+          "pi"
+        ],
+        [
+          "ぷ",
+          "pu"
+        ],
+        [
+          "ぺ",
+          "pe"
+        ],
+        [
+          "ぽ",
+          "po"
+        ]
+      ]
+    },
+    {
+      "id": "kana-05-e12",
+      "type": "choice",
+      "promptVi": "\"mizu\" (nước) viết thế nào?",
+      "options": [
+        "みず",
+        "みす",
+        "みづ"
+      ],
+      "answer": 0,
+      "explainVi": "Âm \"zu\" hầu như luôn viết ず; づ chỉ dùng trong một số ít từ."
+    },
+    {
+      "id": "kana-05-e13",
+      "type": "choice",
+      "promptVi": "Từ かぎ nghĩa là gì?",
+      "options": [
+        "gia đình",
+        "chìa khóa",
+        "cửa sổ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-05-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "ごはん",
+          "cơm; bữa ăn"
+        ],
+        [
+          "でんわ",
+          "điện thoại"
+        ],
+        [
+          "たまご",
+          "quả trứng"
+        ],
+        [
+          "ひだり",
+          "bên trái"
+        ]
+      ]
+    },
+    {
+      "id": "kana-05-e15",
+      "type": "order",
+      "vi": "Ghép thành từ \"kazoku\" (gia đình)",
+      "tiles": [
+        "く",
+        "ぞ",
+        "か"
+      ],
+      "answers": [
+        "かぞく"
+      ]
+    },
+    {
+      "id": "kana-05-e16",
+      "type": "order",
+      "vi": "Ghép thành từ \"daigaku\" (trường đại học)",
+      "tiles": [
+        "が",
+        "い",
+        "く",
+        "だ"
+      ],
+      "answers": [
+        "だいがく"
+      ]
+    },
+    {
+      "id": "kana-05-e17",
+      "type": "order",
+      "vi": "Ghép thành từ \"sanpo\" (đi dạo)",
+      "tiles": [
+        "ぽ",
+        "ん",
+        "さ"
+      ],
+      "answers": [
+        "さんぽ"
+      ]
+    },
+    {
+      "id": "kana-05-e18",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"thời gian\"?",
+      "options": [
+        "かぜ",
+        "まど",
+        "じかん"
+      ],
+      "answer": 2
+    }
+  ],
+  "ruby": {
+    "かぎ": "かぎ",
+    "かぞく": "かぞく",
+    "ごはん": "ごはん",
+    "じかん": "じかん",
+    "みず": "みず",
+    "かぜ": "かぜ",
+    "だいがく": "だいがく",
+    "でんわ": "でんわ",
+    "まど": "まど",
+    "かばん": "かばん",
+    "たまご": "たまご",
+    "ひだり": "ひだり",
+    "てんぷら": "てんぷら",
+    "えんぴつ": "えんぴつ",
+    "さんぽ": "さんぽ",
+    "が": "が",
+    "か": "か",
+    "ざ": "ざ",
+    "ば": "ば",
+    "は": "は",
+    "ぱ": "ぱ",
+    "ぷ": "ぷ",
+    "ぶ": "ぶ",
+    "ふ": "ふ",
+    "ぎ": "ぎ",
+    "ぐ": "ぐ",
+    "げ": "げ",
+    "ご": "ご",
+    "じ": "じ",
+    "ず": "ず",
+    "ぜ": "ぜ",
+    "ぞ": "ぞ",
+    "だ": "だ",
+    "ぢ": "ぢ",
+    "づ": "づ",
+    "で": "で",
+    "ど": "ど",
+    "び": "び",
+    "べ": "べ",
+    "ぼ": "ぼ",
+    "ぴ": "ぴ",
+    "ぺ": "ぺ",
+    "ぽ": "ぽ",
+    "みす": "みす",
+    "みづ": "みづ",
+    "く": "く",
+    "い": "い",
+    "ん": "ん",
+    "さ": "さ"
+  }
+}

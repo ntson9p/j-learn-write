@@ -1,0 +1,1311 @@
+{
+  "id": "n5-25",
+  "goalsVi": [
+    "Phủ định hoàn toàn với ぜんぜん: ぜんぜんわかりません",
+    "Nói không có gì, không có ai: 何も食べませんでした、誰もいません",
+    "Nói cái gì đó, ai đó, đâu đó: 何か飲みますか、どこかへ行きましたか",
+    "Báo mất đồ ở 交番; mua thịt, rau, bánh kẹo; nói vị ngọt, cay, dở"
+  ],
+  "words": [
+    {
+      "no": 1016,
+      "word": "ぜんぜん",
+      "meaningsVi": [
+        "hoàn toàn (không), (không) … chút nào"
+      ],
+      "noteVi": "Đi với phủ định: 「ぜんぜんわかりません」 (hoàn toàn không hiểu). Kanji: 全然 (âm Hán Việt \"toàn nhiên\").",
+      "examples": [
+        {
+          "ja": "漢字がぜんぜんわかりません。",
+          "vi": "Tôi hoàn toàn không hiểu chữ Hán."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 261,
+      "word": "財布",
+      "meaningsVi": [
+        "ví, bóp"
+      ],
+      "noteVi": "Âm Hán Việt \"tài bố\" (túi vải đựng tiền).",
+      "examples": [
+        {
+          "ja": "財布をなくしました。",
+          "vi": "Tôi làm mất ví rồi."
+        },
+        {
+          "ja": "財布にお金がありません。",
+          "vi": "Trong ví không có tiền."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 149,
+      "word": "かぎ",
+      "meaningsVi": [
+        "chìa khóa",
+        "ổ khóa"
+      ],
+      "noteVi": "Kanji 鍵, thường viết bằng kana. Khóa cửa: 「かぎをかける」.",
+      "examples": [
+        {
+          "ja": "かぎはどこに置きましたか。",
+          "vi": "Bạn để chìa khóa ở đâu?"
+        },
+        {
+          "ja": "ドアにかぎをかけてください。",
+          "vi": "Hãy khóa cửa lại."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 468,
+      "word": "荷物",
+      "meaningsVi": [
+        "hành lý",
+        "đồ đạc mang theo, bưu kiện"
+      ],
+      "noteVi": "Âm Hán Việt \"hà vật\" (\"hà\" = gánh, vác). Dùng cho túi, va li, đồ mang theo, cả bưu kiện gửi đi.",
+      "examples": [
+        {
+          "ja": "荷物が重いですね。持ちましょうか。",
+          "vi": "Hành lý nặng nhỉ. Để tôi xách giúp nhé?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 564,
+      "word": "ポケット",
+      "meaningsVi": [
+        "túi (áo, quần)"
+      ],
+      "noteVi": "Chỉ túi may trên quần áo; túi xách là かばん.",
+      "examples": [
+        {
+          "ja": "ポケットに何かありますか。",
+          "vi": "Trong túi có gì không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 488,
+      "word": "箱",
+      "meaningsVi": [
+        "hộp, thùng"
+      ],
+      "examples": [
+        {
+          "ja": "この箱の中に何がありますか。",
+          "vi": "Trong hộp này có gì?"
+        },
+        {
+          "ja": "箱にお菓子が入っています。",
+          "vi": "Trong hộp có bánh kẹo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 231,
+      "word": "交番",
+      "meaningsVi": [
+        "bốt cảnh sát, đồn cảnh sát nhỏ"
+      ],
+      "noteVi": "Trạm cảnh sát nhỏ ở góc phố, gần nhà ga. Có thể đến hỏi đường, báo mất đồ, nộp đồ nhặt được.",
+      "examples": [
+        {
+          "ja": "財布をなくしましたから、交番へ行きました。",
+          "vi": "Tôi làm mất ví nên đã đến bốt cảnh sát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 131,
+      "word": "おまわりさん",
+      "meaningsVi": [
+        "chú cảnh sát, anh cảnh sát (cách gọi thân thiện)"
+      ],
+      "noteVi": "Cách gọi thân thiện, lịch sự những cảnh sát tuần tra, nhất là ở 交番.",
+      "examples": [
+        {
+          "ja": "交番のおまわりさんに道を聞きました。",
+          "vi": "Tôi hỏi đường chú cảnh sát ở bốt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 219,
+      "word": "警官",
+      "meaningsVi": [
+        "cảnh sát (viên)"
+      ],
+      "noteVi": "Từ trung tính, hay gặp trong tin tức, văn viết. Khi gọi trực tiếp thì nói おまわりさん. Âm Hán Việt \"cảnh quan\".",
+      "examples": [
+        {
+          "ja": "交番に警官が2人います。",
+          "vi": "Trong bốt có 2 cảnh sát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 450,
+      "word": "なくす",
+      "meaningsVi": [
+        "làm mất, đánh mất"
+      ],
+      "noteVi": "Tha động từ (nhóm I): 「財布をなくす」. Tiếng Việt hay nói \"bị mất ví\", tiếng Nhật nói 「財布をなくしました」 (tôi làm mất ví). Kanji: 無くす.",
+      "examples": [
+        {
+          "ja": "かぎをなくしました。",
+          "vi": "Tôi làm mất chìa khóa rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 620,
+      "word": "物",
+      "meaningsVi": [
+        "đồ, vật, thứ"
+      ],
+      "noteVi": "Chỉ đồ vật cụ thể. Gặp trong 食べ物 (đồ ăn), 飲み物 (đồ uống), 建物 (tòa nhà). 「私の物」 = đồ của tôi.",
+      "examples": [
+        {
+          "ja": "これは私の物じゃありません。",
+          "vi": "Cái này không phải đồ của tôi."
+        },
+        {
+          "ja": "何か甘い物が食べたいです。",
+          "vi": "Tôi muốn ăn thứ gì đó ngọt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 563,
+      "word": "ほか",
+      "meaningsVi": [
+        "khác, cái khác",
+        "ngoài ra"
+      ],
+      "noteVi": "「ほかの + N」 = N khác: 「ほかの色」. 「ほかに」 = ngoài ra. Kanji: 他.",
+      "examples": [
+        {
+          "ja": "ほかの色はありますか。",
+          "vi": "Có màu khác không?"
+        },
+        {
+          "ja": "ほかに何かありますか。",
+          "vi": "Ngoài ra còn gì nữa không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 103,
+      "word": "置く",
+      "meaningsVi": [
+        "đặt, để"
+      ],
+      "noteVi": "Chỗ đặt dùng に: 「机の上に置く」. Nhóm I: 置きます, 置いて, 置いた.",
+      "examples": [
+        {
+          "ja": "かばんをいすの上に置きました。",
+          "vi": "Tôi đặt cặp lên ghế."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 444,
+      "word": "取る",
+      "meaningsVi": [
+        "lấy",
+        "cầm, chuyền (cho ai)"
+      ],
+      "noteVi": "Chụp ảnh là 撮る: cùng âm とる nhưng khác kanji. Nhóm I: 取ります, 取って.",
+      "examples": [
+        {
+          "ja": "すみません、塩を取ってください。",
+          "vi": "Xin lỗi, lấy giúp tôi lọ muối."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 623,
+      "word": "八百屋",
+      "meaningsVi": [
+        "cửa hàng rau quả"
+      ],
+      "noteVi": "Đọc đặc biệt: やおや. Âm Hán Việt \"bát bách ốc\": \"tám trăm\" ý là rất nhiều thứ; 屋 (や) = cửa hàng.",
+      "examples": [
+        {
+          "ja": "八百屋で野菜と果物を買いました。",
+          "vi": "Tôi mua rau và hoa quả ở cửa hàng rau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 190,
+      "word": "牛肉",
+      "meaningsVi": [
+        "thịt bò"
+      ],
+      "noteVi": "牛 (bò) + 肉 (thịt). Âm Hán Việt \"ngưu nhục\".",
+      "examples": [
+        {
+          "ja": "牛肉と豚肉と、どちらが好きですか。",
+          "vi": "Thịt bò và thịt lợn, bạn thích loại nào hơn?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 543,
+      "word": "豚肉",
+      "meaningsVi": [
+        "thịt lợn, thịt heo"
+      ],
+      "noteVi": "豚 (ぶた, con lợn) + 肉 (thịt).",
+      "examples": [
+        {
+          "ja": "豚肉を200グラムください。",
+          "vi": "Cho tôi 200 gam thịt lợn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 442,
+      "word": "鶏肉",
+      "meaningsVi": [
+        "thịt gà"
+      ],
+      "noteVi": "Đọc là とりにく (鶏 = gà). Âm Hán Việt \"kê nhục\".",
+      "examples": [
+        {
+          "ja": "鶏肉は安くておいしいです。",
+          "vi": "Thịt gà vừa rẻ vừa ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 100,
+      "word": "お菓子",
+      "meaningsVi": [
+        "bánh kẹo, đồ ăn vặt"
+      ],
+      "noteVi": "Gồm bánh ngọt, kẹo, bánh quy, snack. Âm Hán Việt \"quả tử\".",
+      "examples": [
+        {
+          "ja": "子供はお菓子が大好きです。",
+          "vi": "Trẻ con rất thích bánh kẹo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 36,
+      "word": "あめ",
+      "meaningsVi": [
+        "kẹo (kẹo ngậm)"
+      ],
+      "noteVi": "Kanji 飴. Cùng âm あめ với 雨 (mưa) nhưng khác ngữ điệu.",
+      "examples": [
+        {
+          "ja": "あめを一つどうぞ。",
+          "vi": "Mời bạn một viên kẹo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 34,
+      "word": "甘い",
+      "meaningsVi": [
+        "ngọt"
+      ],
+      "noteVi": "Âm Hán Việt \"cam\" (như \"cam thảo\").",
+      "examples": [
+        {
+          "ja": "このお菓子は甘くておいしいです。",
+          "vi": "Bánh này ngọt và ngon."
+        },
+        {
+          "ja": "このあめは甘くないです。",
+          "vi": "Viên kẹo này không ngọt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 168,
+      "word": "辛い",
+      "meaningsVi": [
+        "cay"
+      ],
+      "noteVi": "Cùng chữ 辛い còn đọc là つらい (vất vả, khổ sở), nghĩa khác hẳn. Âm Hán Việt \"tân\".",
+      "examples": [
+        {
+          "ja": "辛い料理が好きですか。",
+          "vi": "Bạn có thích món cay không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 581,
+      "word": "まずい",
+      "meaningsVi": [
+        "dở, không ngon",
+        "không ổn, gay rồi (văn nói)"
+      ],
+      "noteVi": "Nói thẳng まずい về món người khác nấu là bất lịch sự; nói nhẹ hơn: 「あまりおいしくないです」. Ngược nghĩa: おいしい.",
+      "examples": [
+        {
+          "ja": "このパンは古くて、まずいです。",
+          "vi": "Bánh mì này cũ nên dở."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 515,
+      "word": "ハンカチ",
+      "meaningsVi": [
+        "khăn tay"
+      ],
+      "examples": [
+        {
+          "ja": "ハンカチを忘れました。",
+          "vi": "Tôi quên khăn tay rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 591,
+      "word": "万年筆",
+      "meaningsVi": [
+        "bút máy"
+      ],
+      "noteVi": "Âm Hán Việt \"vạn niên bút\" (bút dùng được vạn năm).",
+      "examples": [
+        {
+          "ja": "この万年筆は父の物です。",
+          "vi": "Cây bút máy này là của bố tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 633,
+      "word": "夕飯",
+      "meaningsVi": [
+        "bữa tối, cơm tối"
+      ],
+      "noteVi": "Nghĩa như 晩ご飯, hay dùng trong gia đình. Âm Hán Việt \"tịch phạn\" (bữa chiều).",
+      "examples": [
+        {
+          "ja": "今日の夕飯は何ですか。",
+          "vi": "Bữa tối nay ăn gì vậy?"
+        },
+        {
+          "ja": "夕飯はもう食べた？",
+          "vi": "Cậu ăn tối chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "金",
+      "meaningVi": "vàng; tiền; kim loại",
+      "noteVi": "Gặp trong お金 (おかね, tiền) và 金曜日 (きんようび, thứ Sáu). Âm on キン, âm kun かね.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "zenzen-nai",
+      "titleVi": "ぜんぜん〜ない (全然): hoàn toàn không…",
+      "summaryVi": "ぜんぜん + phủ định: hoàn toàn không, không … chút nào.",
+      "explanationVi": [
+        "**ぜんぜん + phủ định** = \"hoàn toàn không\", \"không … chút nào\": 「ぜんぜんわかりません」 (Tôi hoàn toàn không hiểu). ぜんぜん đi với động từ, tính từ ở dạng phủ định: 〜ません, 〜ない, 〜くないです.",
+        "So sánh mức độ: 「あまり〜ない」 = không … lắm; 「ぜんぜん〜ない」 = hoàn toàn không: 「このカレーはあまり辛くないです」 (không cay lắm), 「ぜんぜん辛くないです」 (không cay chút nào).",
+        "Kanji là 全然 (âm Hán Việt \"toàn nhiên\"), nhưng trong bài viết bằng kana. Giới trẻ Nhật đôi khi dùng ぜんぜん trong câu khẳng định (「ぜんぜん大丈夫」 = hoàn toàn ổn), nhưng người mới học nên dùng ぜんぜん với phủ định."
+      ],
+      "patterns": [
+        "ぜんぜん V ません",
+        "ぜんぜん Aい くないです",
+        "ぜんぜん N／Aな じゃありません"
+      ],
+      "examples": [
+        {
+          "ja": "漢字がぜんぜんわかりません。",
+          "vi": "Tôi hoàn toàn không hiểu chữ Hán."
+        },
+        {
+          "ja": "このカレーはぜんぜん辛くないです。",
+          "vi": "Món cà ri này không cay chút nào."
+        },
+        {
+          "ja": "昨夜はぜんぜん寝ませんでした。",
+          "vi": "Tối qua tôi không ngủ chút nào."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ぜんぜんわかります。",
+          "right": "ぜんぜんわかりません。",
+          "noteVi": "ぜんぜん đi với phủ định."
+        },
+        {
+          "wrong": "このお菓子はぜんぜんおいしいです。",
+          "right": "このお菓子はとてもおいしいです。",
+          "noteVi": "Muốn nói \"rất ngon\" thì dùng とても. ぜんぜん + khẳng định chỉ là văn nói của giới trẻ, người mới học không nên dùng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "nani-mo-nai-dare-mo-nai",
+      "titleVi": "何も〜ない / 誰も〜ない: không … gì cả, không ai…",
+      "summaryVi": "何も + phủ định: không … gì cả; 誰も + phủ định: không ai … cả.",
+      "explanationVi": [
+        "**何も + phủ định** = \"không … gì cả\"; **誰も + phủ định** = \"không ai … cả\": 「今朝は何も食べませんでした」, 「教室に誰もいません」. 何も đọc là **なにも**.",
+        "も đứng vào chỗ của が và を: không nói 「何を食べませんでした」 mà nói 「何も食べませんでした」. Với trợ từ khác thì giữ trợ từ rồi thêm も: 「どこへも行きませんでした」 (không đi đâu cả), 「誰にも会いませんでした」 (không gặp ai cả).",
+        "Tiếng Việt nói \"không có ai\" nên dễ dùng あります, nhưng người và động vật vẫn dùng います: 「部屋に誰もいません」. Đồ vật dùng あります: 「冷蔵庫に何もありません」."
+      ],
+      "patterns": [
+        "何も V ません",
+        "誰も V ません",
+        "どこ（へ／に）も V ません"
+      ],
+      "examples": [
+        {
+          "ja": "今朝は何も食べませんでした。",
+          "vi": "Sáng nay tôi không ăn gì cả."
+        },
+        {
+          "ja": "教室には誰もいません。",
+          "vi": "Trong lớp không có ai cả."
+        },
+        {
+          "ja": "日曜日はどこへも行きませんでした。",
+          "vi": "Chủ nhật tôi không đi đâu cả."
+        },
+        {
+          "ja": "冷蔵庫に何もありません。",
+          "vi": "Trong tủ lạnh không có gì cả."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "何も食べました。",
+          "right": "何も食べませんでした。",
+          "noteVi": "何も, 誰も luôn đi với động từ phủ định."
+        },
+        {
+          "wrong": "何を食べませんでした。",
+          "right": "何も食べませんでした。",
+          "noteVi": "\"Không … gì\" dùng 何も, không dùng 何を."
+        },
+        {
+          "wrong": "部屋に誰もありません。",
+          "right": "部屋に誰もいません。",
+          "noteVi": "Người dùng いる: 誰もいません, dù tiếng Việt nói \"không có ai\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "nani-ka-dare-ka-doko-ka",
+      "titleVi": "何か / 誰か / どこか: cái gì đó, ai đó, đâu đó",
+      "summaryVi": "Từ để hỏi + か: cái gì đó (何か), ai đó (誰か), đâu đó (どこか).",
+      "explanationVi": [
+        "Từ để hỏi + **か** chỉ một thứ **không xác định**: 「何か」 (cái gì đó), 「誰か」 (ai đó), 「どこか」 (đâu đó). 何か đọc là **なにか**.",
+        "Câu hỏi có 何か là câu hỏi có/không: 「何か食べましたか」 = Bạn có ăn gì không? → 「はい、パンを食べました」 hoặc 「いいえ、何も食べませんでした」. Khác với 「何を食べましたか」 = Bạn đã ăn gì? (phải trả lời bằng tên món ăn).",
+        "Sau 何か, 誰か thường bỏ が và を: 「何か飲みますか」, 「誰か来ましたか」. Với へ, に, で thì giữ: 「どこかへ行きましたか」, 「どこかで財布をなくしました」."
+      ],
+      "patterns": [
+        "何か V ますか",
+        "誰か V ますか",
+        "どこか（へ／で）V ますか"
+      ],
+      "examples": [
+        {
+          "ja": "何か飲みますか。",
+          "vi": "Bạn có uống gì không?"
+        },
+        {
+          "ja": "誰か来ましたか。",
+          "vi": "Có ai đến không?"
+        },
+        {
+          "ja": "夏休みはどこかへ行きましたか。",
+          "vi": "Kỳ nghỉ hè bạn có đi đâu không?"
+        },
+        {
+          "ja": "どこかで財布をなくしました。",
+          "vi": "Tôi làm mất ví ở đâu đó rồi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "いいえ、何か食べませんでした。",
+          "right": "いいえ、何も食べませんでした。",
+          "noteVi": "Câu phủ định \"không … gì\" dùng 何も, không dùng 何か."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-25-e01",
+      "type": "fill",
+      "grammar": [
+        "zenzen-nai"
+      ],
+      "before": "漢字がぜんぜん",
+      "after": "。",
+      "answers": [
+        "わかりません"
+      ],
+      "options": [
+        "わかりません",
+        "わかります",
+        "わかりました"
+      ],
+      "vi": "Tôi hoàn toàn không hiểu chữ Hán.",
+      "explainVi": "ぜんぜん đi với phủ định."
+    },
+    {
+      "id": "n5-25-e02",
+      "type": "choice",
+      "grammar": [
+        "zenzen-nai"
+      ],
+      "promptVi": "Chọn câu đúng: \"Món cà ri này không cay chút nào.\"",
+      "options": [
+        "このカレーはぜんぜん辛くないです。",
+        "このカレーはぜんぜん辛いです。",
+        "このカレーはとても辛くないです。"
+      ],
+      "answer": 0,
+      "explainVi": "ぜんぜん + phủ định = không … chút nào. とても không đi với phủ định."
+    },
+    {
+      "id": "n5-25-e03",
+      "type": "order",
+      "grammar": [
+        "zenzen-nai"
+      ],
+      "vi": "Tối qua tôi không ngủ chút nào.",
+      "tiles": [
+        "昨夜は",
+        "ぜんぜん",
+        "寝ませんでした"
+      ],
+      "answers": [
+        "昨夜はぜんぜん寝ませんでした"
+      ]
+    },
+    {
+      "id": "n5-25-e04",
+      "type": "choice",
+      "grammar": [
+        "zenzen-nai"
+      ],
+      "promptVi": "\"Bánh này không ngọt chút nào.\" Chọn từ đúng.",
+      "ja": "このお菓子は＿甘くないです。",
+      "options": [
+        "ぜんぜん",
+        "とても",
+        "よく"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-25-e05",
+      "type": "fill",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "before": "今朝は",
+      "after": "食べませんでした。",
+      "answers": [
+        "何も"
+      ],
+      "options": [
+        "何も",
+        "何か",
+        "何を"
+      ],
+      "vi": "Sáng nay tôi không ăn gì cả."
+    },
+    {
+      "id": "n5-25-e06",
+      "type": "fill",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "before": "教室に",
+      "after": "いません。",
+      "answers": [
+        "誰も"
+      ],
+      "options": [
+        "誰も",
+        "誰か",
+        "誰が"
+      ],
+      "vi": "Trong lớp không có ai cả."
+    },
+    {
+      "id": "n5-25-e07",
+      "type": "choice",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "promptVi": "Chọn câu đúng: \"Trong phòng không có ai.\"",
+      "options": [
+        "部屋に誰もいません。",
+        "部屋に誰もありません。",
+        "部屋に誰かいません。"
+      ],
+      "answer": 0,
+      "explainVi": "\"Không ai\" là 誰も + phủ định; người dùng います."
+    },
+    {
+      "id": "n5-25-e08",
+      "type": "order",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "vi": "Hôm qua tôi không đi đâu cả.",
+      "tiles": [
+        "昨日は",
+        "どこ",
+        "へ",
+        "も",
+        "行きませんでした"
+      ],
+      "answers": [
+        "昨日はどこへも行きませんでした"
+      ],
+      "explainVi": "Giữ trợ từ へ rồi thêm も: どこへも."
+    },
+    {
+      "id": "n5-25-e09",
+      "type": "choice",
+      "grammar": [
+        "nani-ka-dare-ka-doko-ka"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "何か飲みますか。",
+      "options": [
+        "Bạn có uống gì không?",
+        "Bạn uống gì?",
+        "Bạn không uống gì à?"
+      ],
+      "answer": 0,
+      "explainVi": "何か…か là câu hỏi có/không; hỏi \"uống gì\" là 何を飲みますか."
+    },
+    {
+      "id": "n5-25-e10",
+      "type": "fill",
+      "grammar": [
+        "nani-ka-dare-ka-doko-ka"
+      ],
+      "before": "夏休みは",
+      "after": "へ行きましたか。",
+      "answers": [
+        "どこか"
+      ],
+      "options": [
+        "どこか",
+        "どこも",
+        "どこ"
+      ],
+      "vi": "Kỳ nghỉ hè bạn có đi đâu không?",
+      "explainVi": "どこへ行きましたか = Bạn đã đi đâu? (hỏi nơi chốn)."
+    },
+    {
+      "id": "n5-25-e11",
+      "type": "choice",
+      "grammar": [
+        "nani-ka-dare-ka-doko-ka",
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "promptVi": "Bạn không ăn gì. Trả lời thế nào?",
+      "ja": "何か食べましたか。",
+      "options": [
+        "いいえ、何も食べませんでした。",
+        "いいえ、何か食べませんでした。",
+        "はい、何も食べませんでした。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-25-e12",
+      "type": "fill",
+      "grammar": [
+        "nani-ka-dare-ka-doko-ka"
+      ],
+      "before": "",
+      "after": "来ましたか。",
+      "answers": [
+        "誰か"
+      ],
+      "options": [
+        "誰か",
+        "誰も",
+        "誰を"
+      ],
+      "vi": "Có ai đến không?"
+    },
+    {
+      "id": "n5-25-e13",
+      "type": "order",
+      "grammar": [
+        "nani-ka-dare-ka-doko-ka"
+      ],
+      "vi": "Tôi muốn ăn thứ gì đó ngọt.",
+      "tiles": [
+        "何か",
+        "甘い",
+        "物が",
+        "食べたいです"
+      ],
+      "answers": [
+        "何か甘い物が食べたいです"
+      ]
+    },
+    {
+      "id": "n5-25-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "財布",
+          "ví"
+        ],
+        [
+          "かぎ",
+          "chìa khóa"
+        ],
+        [
+          "ハンカチ",
+          "khăn tay"
+        ],
+        [
+          "万年筆",
+          "bút máy"
+        ]
+      ]
+    },
+    {
+      "id": "n5-25-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "牛肉",
+          "thịt bò"
+        ],
+        [
+          "豚肉",
+          "thịt lợn"
+        ],
+        [
+          "鶏肉",
+          "thịt gà"
+        ],
+        [
+          "八百屋",
+          "cửa hàng rau quả"
+        ]
+      ]
+    },
+    {
+      "id": "n5-25-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "甘い",
+          "ngọt"
+        ],
+        [
+          "辛い",
+          "cay"
+        ],
+        [
+          "まずい",
+          "dở"
+        ],
+        [
+          "おいしい",
+          "ngon"
+        ]
+      ]
+    },
+    {
+      "id": "n5-25-e17",
+      "type": "choice",
+      "promptVi": "Bạn làm mất ví. Bạn đến đâu để báo?",
+      "options": [
+        "交番",
+        "八百屋",
+        "喫茶店"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-25-e18",
+      "type": "fill",
+      "before": "すみません、塩を",
+      "after": "ください。",
+      "answers": [
+        "取って"
+      ],
+      "options": [
+        "取って",
+        "置いて",
+        "なくして"
+      ],
+      "vi": "Xin lỗi, lấy giúp tôi lọ muối."
+    },
+    {
+      "id": "n5-25-e19",
+      "type": "fill",
+      "before": "かばんをいすの上に",
+      "after": "。",
+      "answers": [
+        "置きました"
+      ],
+      "options": [
+        "置きました",
+        "取りました",
+        "なくしました"
+      ],
+      "vi": "Tôi đặt cặp lên ghế."
+    },
+    {
+      "id": "n5-25-e20",
+      "type": "choice",
+      "promptVi": "Ở cửa hàng, câu này nghĩa là gì?",
+      "ja": "ほかの色はありますか。",
+      "options": [
+        "Có màu khác không?",
+        "Có màu này không?",
+        "Màu nào đẹp nhất?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-25-e21",
+      "type": "choice",
+      "promptVi": "Người này đã hỏi đường ai?",
+      "ja": "交番のおまわりさんに道を聞きました。",
+      "options": [
+        "Cảnh sát",
+        "Người bán rau",
+        "Bạn bè"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-25-e22",
+      "type": "translate",
+      "grammar": [
+        "zenzen-nai"
+      ],
+      "vi": "Tôi hoàn toàn không hiểu tiếng Anh.",
+      "answers": [
+        "(私は)英語[が|は]ぜんぜんわかりません。",
+        "(私は)ぜんぜん英語[が|は]わかりません。"
+      ],
+      "examples": [
+        {
+          "answer": "えいごがぜんぜんわかりません",
+          "score": 100
+        },
+        {
+          "answer": "英語をぜんぜんわかりません。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "英語が少しわかります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-25-e23",
+      "type": "translate",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "vi": "Hôm qua tôi không mua gì cả.",
+      "answers": [
+        "昨日(は)何も買いませんでした。",
+        "私は昨日(は)何も買いませんでした。",
+        "昨日(は)、私は何も買いませんでした。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはなにもかいませんでした",
+          "score": 100
+        },
+        {
+          "answer": "きのうわなにもかいませんでした",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "昨日は何か買いました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-25-e24",
+      "type": "translate",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai"
+      ],
+      "vi": "Ở công viên không có ai cả.",
+      "answers": [
+        "公園に(は)誰もいません。"
+      ],
+      "examples": [
+        {
+          "answer": "こうえんにはだれもいません",
+          "score": 100
+        },
+        {
+          "answer": "こうえんにわだれもいません",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "公園に誰かいます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-25-e25",
+      "type": "translate",
+      "grammar": [
+        "nani-ka-dare-ka-doko-ka"
+      ],
+      "vi": "Tôi để quên ô ở đâu đó rồi.",
+      "answers": [
+        "(私は)どこかに傘を忘れました。",
+        "(私は)傘をどこかに忘れました。"
+      ],
+      "examples": [
+        {
+          "answer": "どこかにかさをわすれました",
+          "score": 100
+        },
+        {
+          "answer": "どこかに傘お忘れました。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "どこかにかばんを忘れました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-25-e26",
+      "type": "question",
+      "grammar": [
+        "nani-mo-nai-dare-mo-nai",
+        "nani-ka-dare-ka-doko-ka"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "夏休みはどこかへ行きましたか。",
+        "promptVi": "Bạn được hỏi: “Kỳ nghỉ hè bạn có đi đâu không?” Hãy trả lời: Không, tôi không đi đâu cả.",
+        "answers": [
+          "いいえ、(夏休みは)どこ[へ|に]も行きませんでした。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、どこへもいきませんでした",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、どこえもいきませんでした",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "いいえ、どこかへ行きませんでした。",
+            "score": 0
+          },
+          {
+            "answer": "はい、どこかへ行きました。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-25-e27",
+      "type": "question",
+      "grammar": [
+        "x-position"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "財布はどこにありますか。",
+        "promptVi": "Ví ở đâu? Hãy trả lời: ở trong túi áo.",
+        "picture": "👛",
+        "expected": {
+          "places": [
+            "ポケット"
+          ],
+          "position": "中",
+          "sentence": "財布はポケットの中にあります。"
+        },
+        "examples": [
+          {
+            "answer": "ポケットのなかにあります",
+            "score": 100
+          },
+          {
+            "answer": "財布はポケットの中にいます。",
+            "score": 80,
+            "issues": [
+              "aru_iru"
+            ]
+          },
+          {
+            "answer": "中のポケットにあります。",
+            "score": 80,
+            "issues": [
+              "position_order"
+            ]
+          },
+          {
+            "answer": "かばんの中にあります。",
+            "score": 20
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "漢字がぜんぜんわかりません。": "{漢|かん}{字|じ}がぜんぜんわかりません。",
+    "財布をなくしました。": "{財|さい}{布|ふ}をなくしました。",
+    "財布にお金がありません。": "{財|さい}{布|ふ}にお{金|かね}がありません。",
+    "かぎはどこに置きましたか。": "かぎはどこに{置|お}きましたか。",
+    "ドアにかぎをかけてください。": "ドアにかぎをかけてください。",
+    "荷物が重いですね。持ちましょうか。": "{荷|に}{物|もつ}が{重|おも}いですね。{持|も}ちましょうか。",
+    "ポケットに何かありますか。": "ポケットに{何|なに}かありますか。",
+    "この箱の中に何がありますか。": "この{箱|はこ}の{中|なか}に{何|なに}がありますか。",
+    "箱にお菓子が入っています。": "{箱|はこ}にお{菓|か}{子|し}が{入|はい}っています。",
+    "財布をなくしましたから、交番へ行きました。": "{財|さい}{布|ふ}をなくしましたから、{交|こう}{番|ばん}へ{行|い}きました。",
+    "交番のおまわりさんに道を聞きました。": "{交|こう}{番|ばん}のおまわりさんに{道|みち}を{聞|き}きました。",
+    "交番に警官が2人います。": "{交|こう}{番|ばん}に{警|けい}{官|かん}が{2人|ふたり}います。",
+    "かぎをなくしました。": "かぎをなくしました。",
+    "これは私の物じゃありません。": "これは{私|わたし}の{物|もの}じゃありません。",
+    "何か甘い物が食べたいです。": "{何|なに}か{甘|あま}い{物|もの}が{食|た}べたいです。",
+    "ほかの色はありますか。": "ほかの{色|いろ}はありますか。",
+    "ほかに何かありますか。": "ほかに{何|なに}かありますか。",
+    "かばんをいすの上に置きました。": "かばんをいすの{上|うえ}に{置|お}きました。",
+    "すみません、塩を取ってください。": "すみません、{塩|しお}を{取|と}ってください。",
+    "八百屋で野菜と果物を買いました。": "{八百屋|やおや}で{野|や}{菜|さい}と{果物|くだもの}を{買|か}いました。",
+    "牛肉と豚肉と、どちらが好きですか。": "{牛|ぎゅう}{肉|にく}と{豚|ぶた}{肉|にく}と、どちらが{好|す}きですか。",
+    "豚肉を200グラムください。": "{豚|ぶた}{肉|にく}を200グラムください。",
+    "鶏肉は安くておいしいです。": "{鶏|とり}{肉|にく}は{安|やす}くておいしいです。",
+    "子供はお菓子が大好きです。": "{子|こ}{供|ども}はお{菓|か}{子|し}が{大|だい}{好|す}きです。",
+    "あめを一つどうぞ。": "あめを{一|ひと}つどうぞ。",
+    "このお菓子は甘くておいしいです。": "このお{菓|か}{子|し}は{甘|あま}くておいしいです。",
+    "このあめは甘くないです。": "このあめは{甘|あま}くないです。",
+    "辛い料理が好きですか。": "{辛|から}い{料|りょう}{理|り}が{好|す}きですか。",
+    "このパンは古くて、まずいです。": "このパンは{古|ふる}くて、まずいです。",
+    "ハンカチを忘れました。": "ハンカチを{忘|わす}れました。",
+    "この万年筆は父の物です。": "この{万|まん}{年|ねん}{筆|ひつ}は{父|ちち}の{物|もの}です。",
+    "今日の夕飯は何ですか。": "{今日|きょう}の{夕|ゆう}{飯|はん}は{何|なん}ですか。",
+    "夕飯はもう食べた？": "{夕|ゆう}{飯|はん}はもう{食|た}べた？",
+    "このカレーはぜんぜん辛くないです。": "このカレーはぜんぜん{辛|から}くないです。",
+    "昨夜はぜんぜん寝ませんでした。": "{昨夜|ゆうべ}はぜんぜん{寝|ね}ませんでした。",
+    "ぜんぜんわかりません。": "ぜんぜんわかりません。",
+    "ぜんぜんわかります。": "ぜんぜんわかります。",
+    "このお菓子はとてもおいしいです。": "このお{菓|か}{子|し}はとてもおいしいです。",
+    "このお菓子はぜんぜんおいしいです。": "このお{菓|か}{子|し}はぜんぜんおいしいです。",
+    "今朝は何も食べませんでした。": "{今朝|けさ}は{何|なに}も{食|た}べませんでした。",
+    "教室には誰もいません。": "{教|きょう}{室|しつ}には{誰|だれ}もいません。",
+    "日曜日はどこへも行きませんでした。": "{日|にち}{曜|よう}{日|び}はどこへも{行|い}きませんでした。",
+    "冷蔵庫に何もありません。": "{冷|れい}{蔵|ぞう}{庫|こ}に{何|なに}もありません。",
+    "何も食べませんでした。": "{何|なに}も{食|た}べませんでした。",
+    "何も食べました。": "{何|なに}も{食|た}べました。",
+    "何を食べませんでした。": "{何|なに}を{食|た}べませんでした。",
+    "部屋に誰もいません。": "{部屋|へや}に{誰|だれ}もいません。",
+    "部屋に誰もありません。": "{部屋|へや}に{誰|だれ}もありません。",
+    "何か飲みますか。": "{何|なに}か{飲|の}みますか。",
+    "誰か来ましたか。": "{誰|だれ}か{来|き}ましたか。",
+    "夏休みはどこかへ行きましたか。": "{夏|なつ}{休|やす}みはどこかへ{行|い}きましたか。",
+    "どこかで財布をなくしました。": "どこかで{財|さい}{布|ふ}をなくしました。",
+    "いいえ、何も食べませんでした。": "いいえ、{何|なに}も{食|た}べませんでした。",
+    "いいえ、何か食べませんでした。": "いいえ、{何|なに}か{食|た}べませんでした。",
+    "わかりません": "わかりません",
+    "わかります": "わかります",
+    "わかりました": "わかりました",
+    "このカレーはぜんぜん辛いです。": "このカレーはぜんぜん{辛|から}いです。",
+    "このカレーはとても辛くないです。": "このカレーはとても{辛|から}くないです。",
+    "昨夜は": "{昨夜|ゆうべ}は",
+    "ぜんぜん": "ぜんぜん",
+    "寝ませんでした": "{寝|ね}ませんでした",
+    "昨夜はぜんぜん寝ませんでした": "{昨夜|ゆうべ}はぜんぜん{寝|ね}ませんでした",
+    "このお菓子は＿甘くないです。": "このお{菓|か}{子|し}は＿{甘|あま}くないです。",
+    "とても": "とても",
+    "よく": "よく",
+    "何も": "{何|なに}も",
+    "何か": "{何|なに}か",
+    "何を": "{何|なに}を",
+    "教室に誰もいません。": "{教|きょう}{室|しつ}に{誰|だれ}もいません。",
+    "誰も": "{誰|だれ}も",
+    "誰か": "{誰|だれ}か",
+    "誰が": "{誰|だれ}が",
+    "部屋に誰かいません。": "{部屋|へや}に{誰|だれ}かいません。",
+    "昨日は": "{昨日|きのう}は",
+    "どこ": "どこ",
+    "へ": "へ",
+    "も": "も",
+    "行きませんでした": "{行|い}きませんでした",
+    "昨日はどこへも行きませんでした": "{昨日|きのう}はどこへも{行|い}きませんでした",
+    "どこか": "どこか",
+    "どこも": "どこも",
+    "何か食べましたか。": "{何|なに}か{食|た}べましたか。",
+    "はい、何も食べませんでした。": "はい、{何|なに}も{食|た}べませんでした。",
+    "誰を": "{誰|だれ}を",
+    "甘い": "{甘|あま}い",
+    "物が": "{物|もの}が",
+    "食べたいです": "{食|た}べたいです",
+    "何か甘い物が食べたいです": "{何|なに}か{甘|あま}い{物|もの}が{食|た}べたいです",
+    "財布": "{財|さい}{布|ふ}",
+    "かぎ": "かぎ",
+    "ハンカチ": "ハンカチ",
+    "万年筆": "{万|まん}{年|ねん}{筆|ひつ}",
+    "牛肉": "{牛|ぎゅう}{肉|にく}",
+    "豚肉": "{豚|ぶた}{肉|にく}",
+    "鶏肉": "{鶏|とり}{肉|にく}",
+    "八百屋": "{八百屋|やおや}",
+    "辛い": "{辛|から}い",
+    "まずい": "まずい",
+    "おいしい": "おいしい",
+    "交番": "{交|こう}{番|ばん}",
+    "喫茶店": "{喫|きっ}{茶|さ}{店|てん}",
+    "取って": "{取|と}って",
+    "置いて": "{置|お}いて",
+    "なくして": "なくして",
+    "置きました": "{置|お}きました",
+    "取りました": "{取|と}りました",
+    "なくしました": "なくしました",
+    "私は英語がぜんぜんわかりません。": "{私|わたし}は{英|えい}{語|ご}がぜんぜんわかりません。",
+    "私はぜんぜん英語がわかりません。": "{私|わたし}はぜんぜん{英|えい}{語|ご}がわかりません。",
+    "昨日は何も買いませんでした。": "{昨日|きのう}は{何|なに}も{買|か}いませんでした。",
+    "私は昨日は何も買いませんでした。": "{私|わたし}は{昨日|きのう}は{何|なに}も{買|か}いませんでした。",
+    "昨日は、私は何も買いませんでした。": "{昨日|きのう}は、{私|わたし}は{何|なに}も{買|か}いませんでした。",
+    "公園には誰もいません。": "{公|こう}{園|えん}には{誰|だれ}もいません。",
+    "私はどこかに傘を忘れました。": "{私|わたし}はどこかに{傘|かさ}を{忘|わす}れました。",
+    "私は傘をどこかに忘れました。": "{私|わたし}は{傘|かさ}をどこかに{忘|わす}れました。",
+    "いいえ、夏休みはどこへも行きませんでした。": "いいえ、{夏|なつ}{休|やす}みはどこへも{行|い}きませんでした。",
+    "財布はどこにありますか。": "{財|さい}{布|ふ}はどこにありますか。",
+    "財布はポケットの中にあります。": "{財|さい}{布|ふ}はポケットの{中|なか}にあります。"
+  }
+}

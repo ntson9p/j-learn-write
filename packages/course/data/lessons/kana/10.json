@@ -1,0 +1,339 @@
+{
+  "id": "kana-10",
+  "goalsVi": [
+    "Đọc được các âm mở rộng dùng cho từ mượn: ティ, ファ, ウェ, シェ…",
+    "Phân biệt chữ nhỏ (ァ ィ ゥ ェ ォ) ghép thành một âm với chữ to đọc thành hai âm",
+    "Đọc được những từ mượn mới: パーティー, カフェ, フォーク"
+  ],
+  "practice": [
+    {
+      "ja": "パーティー",
+      "vi": "bữa tiệc"
+    },
+    {
+      "ja": "フォーク",
+      "vi": "cái nĩa"
+    },
+    {
+      "ja": "ファイル",
+      "vi": "tệp tin; bìa hồ sơ"
+    },
+    {
+      "ja": "カフェ",
+      "vi": "quán cà phê"
+    },
+    {
+      "ja": "チェック",
+      "vi": "kiểm tra, đánh dấu"
+    },
+    {
+      "ja": "シェフ",
+      "vi": "đầu bếp"
+    },
+    {
+      "ja": "ウェブサイト",
+      "vi": "trang web"
+    },
+    {
+      "ja": "ソフトウェア",
+      "vi": "phần mềm"
+    },
+    {
+      "ja": "フェリー",
+      "vi": "phà"
+    },
+    {
+      "ja": "ティッシュ",
+      "vi": "khăn giấy"
+    },
+    {
+      "ja": "ハロウィン",
+      "vi": "lễ Halloween"
+    },
+    {
+      "ja": "ミルクティー",
+      "vi": "trà sữa"
+    },
+    {
+      "ja": "チェス",
+      "vi": "cờ vua"
+    },
+    {
+      "ja": "メロディー",
+      "vi": "giai điệu"
+    },
+    {
+      "ja": "フィルム",
+      "vi": "cuộn phim"
+    },
+    {
+      "ja": "タトゥー",
+      "vi": "hình xăm"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-10-e01",
+      "type": "choice",
+      "promptVi": "Chữ ティ đọc là gì?",
+      "options": [
+        "ti",
+        "chi",
+        "tei"
+      ],
+      "answer": 0,
+      "explainVi": "Âm \"ti\" không có trong bảng cơ bản: viết テ + ィ nhỏ. チ đọc là \"chi\"."
+    },
+    {
+      "id": "kana-10-e02",
+      "type": "choice",
+      "promptVi": "Chữ nào ghi âm \"fa\"?",
+      "options": [
+        "ハ",
+        "ファ",
+        "フア"
+      ],
+      "answer": 1,
+      "explainVi": "ファ (ァ nhỏ) là một âm \"fa\"; フア (ア to) là hai âm \"fu-a\"."
+    },
+    {
+      "id": "kana-10-e03",
+      "type": "choice",
+      "promptVi": "Từ nào đọc là \"kafe\" (quán cà phê)?",
+      "options": [
+        "カフェ",
+        "カフエ",
+        "カヘ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-10-e04",
+      "type": "choice",
+      "promptVi": "Chữ ディ đọc là gì?",
+      "options": [
+        "ji",
+        "dei",
+        "di"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-10-e05",
+      "type": "choice",
+      "promptVi": "Chữ ヴ dùng để ghi âm nào trong từ mượn?",
+      "options": [
+        "w",
+        "v",
+        "f"
+      ],
+      "answer": 1,
+      "explainVi": "Nhiều từ có âm \"v\" cũng được viết bằng hàng バ: ヴァイオリン hay バイオリン (vĩ cầm)."
+    },
+    {
+      "id": "kana-10-e06",
+      "type": "choice",
+      "promptVi": "Chữ ウェ đọc là gì?",
+      "options": [
+        "ue",
+        "we",
+        "wa"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-10-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ファ",
+          "fa"
+        ],
+        [
+          "フィ",
+          "fi"
+        ],
+        [
+          "フェ",
+          "fe"
+        ],
+        [
+          "フォ",
+          "fo"
+        ],
+        [
+          "シェ",
+          "she"
+        ]
+      ]
+    },
+    {
+      "id": "kana-10-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ティ",
+          "ti"
+        ],
+        [
+          "ディ",
+          "di"
+        ],
+        [
+          "トゥ",
+          "tu"
+        ],
+        [
+          "チェ",
+          "che"
+        ],
+        [
+          "ウィ",
+          "wi"
+        ]
+      ]
+    },
+    {
+      "id": "kana-10-e09",
+      "type": "choice",
+      "promptVi": "\"paatii\" (bữa tiệc) viết thế nào?",
+      "options": [
+        "パーティー",
+        "パーテー",
+        "パティ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-10-e10",
+      "type": "choice",
+      "promptVi": "Từ フォーク nghĩa là gì?",
+      "options": [
+        "con dao",
+        "cái nĩa",
+        "cái thìa"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-10-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "シェフ",
+          "đầu bếp"
+        ],
+        [
+          "フェリー",
+          "phà"
+        ],
+        [
+          "チェス",
+          "cờ vua"
+        ],
+        [
+          "ミルクティー",
+          "trà sữa"
+        ]
+      ]
+    },
+    {
+      "id": "kana-10-e12",
+      "type": "order",
+      "vi": "Ghép thành từ \"fairu\" (tệp tin)",
+      "tiles": [
+        "ル",
+        "イ",
+        "ファ"
+      ],
+      "answers": [
+        "ファイル"
+      ]
+    },
+    {
+      "id": "kana-10-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"chekku\" (kiểm tra)",
+      "tiles": [
+        "ク",
+        "ッ",
+        "チェ"
+      ],
+      "answers": [
+        "チェック"
+      ]
+    },
+    {
+      "id": "kana-10-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"sofutowea\" (phần mềm)",
+      "tiles": [
+        "ア",
+        "ソ",
+        "ウェ",
+        "ト",
+        "フ"
+      ],
+      "answers": [
+        "ソフトウェア"
+      ]
+    },
+    {
+      "id": "kana-10-e15",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"khăn giấy\"?",
+      "options": [
+        "タトゥー",
+        "メロディー",
+        "ティッシュ"
+      ],
+      "answer": 2
+    }
+  ],
+  "ruby": {
+    "パーティー": "パーティー",
+    "フォーク": "フォーク",
+    "ファイル": "ファイル",
+    "カフェ": "カフェ",
+    "チェック": "チェック",
+    "シェフ": "シェフ",
+    "ウェブサイト": "ウェブサイト",
+    "ソフトウェア": "ソフトウェア",
+    "フェリー": "フェリー",
+    "ティッシュ": "ティッシュ",
+    "ハロウィン": "ハロウィン",
+    "ミルクティー": "ミルクティー",
+    "チェス": "チェス",
+    "メロディー": "メロディー",
+    "フィルム": "フィルム",
+    "タトゥー": "タトゥー",
+    "ハ": "ハ",
+    "ファ": "ファ",
+    "フア": "フア",
+    "カフエ": "カフエ",
+    "カヘ": "カヘ",
+    "フィ": "フィ",
+    "フェ": "フェ",
+    "フォ": "フォ",
+    "シェ": "シェ",
+    "ティ": "ティ",
+    "ディ": "ディ",
+    "トゥ": "トゥ",
+    "チェ": "チェ",
+    "ウィ": "ウィ",
+    "パーテー": "パーテー",
+    "パティ": "パティ",
+    "ル": "ル",
+    "イ": "イ",
+    "ク": "ク",
+    "ッ": "ッ",
+    "ア": "ア",
+    "ソ": "ソ",
+    "ウェ": "ウェ",
+    "ト": "ト",
+    "フ": "フ"
+  }
+}

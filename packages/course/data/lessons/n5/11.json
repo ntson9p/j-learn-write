@@ -1,0 +1,1263 @@
+{
+  "id": "n5-11",
+  "goalsVi": [
+    "Miêu tả đồ vật, nơi chốn, thời tiết bằng tính từ đuôi い: この時計は高いです, 新しいかばん",
+    "Nói phủ định lịch sự của tính từ đuôi い (高くありません); nói \"rất\" với とても và \"không … lắm\" với あまり",
+    "Hỏi cảm nhận, đánh giá với どう: 日本語はどうですか"
+  ],
+  "words": [
+    {
+      "no": 96,
+      "word": "大きい",
+      "meaningsVi": [
+        "to, lớn"
+      ],
+      "noteVi": "Kanji 大 (đại) cũng có trong 大学 (đại học).",
+      "examples": [
+        {
+          "ja": "このかばんは大きいです。",
+          "vi": "Cái cặp này to."
+        },
+        {
+          "ja": "大きい傘ですね。",
+          "vi": "Cái ô to nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 374,
+      "word": "小さい",
+      "meaningsVi": [
+        "nhỏ, bé"
+      ],
+      "noteVi": "Kanji 小 (tiểu): nhỏ. Đừng nhầm với 少 (thiểu: ít) trong 少し.",
+      "examples": [
+        {
+          "ja": "この時計は小さいです。",
+          "vi": "Chiếc đồng hồ này nhỏ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 20,
+      "word": "新しい",
+      "meaningsVi": [
+        "mới"
+      ],
+      "noteVi": "Âm Hán Việt \"tân\" (tân thời, tân binh).",
+      "examples": [
+        {
+          "ja": "これは新しい辞書です。",
+          "vi": "Đây là cuốn từ điển mới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 549,
+      "word": "古い",
+      "meaningsVi": [
+        "cũ",
+        "cổ, lâu đời"
+      ],
+      "noteVi": "Dùng cho đồ vật, nhà cửa, thành phố…; không dùng để nói người \"già\". Âm Hán Việt \"cổ\".",
+      "examples": [
+        {
+          "ja": "私の自転車は古いです。",
+          "vi": "Xe đạp của tôi cũ rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 357,
+      "word": "高い",
+      "meaningsVi": [
+        "đắt",
+        "cao"
+      ],
+      "noteVi": "Một từ hai nghĩa: \"đắt\" (giá) và \"cao\" (chiều cao). Trái nghĩa của \"đắt\" là 安い; trái nghĩa của \"cao\" là 低い (sẽ học sau).",
+      "examples": [
+        {
+          "ja": "このかばんは高いです。",
+          "vi": "Cái cặp này đắt."
+        },
+        {
+          "ja": "高い時計ですね。",
+          "vi": "Chiếc đồng hồ đắt tiền nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 626,
+      "word": "安い",
+      "meaningsVi": [
+        "rẻ"
+      ],
+      "noteVi": "Âm Hán Việt \"an\" (bình an) nhưng 安い nghĩa là rẻ.",
+      "examples": [
+        {
+          "ja": "この店の果物は安いです。",
+          "vi": "Hoa quả ở cửa hàng này rẻ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 43,
+      "word": "いい",
+      "meaningsVi": [
+        "tốt, hay, được",
+        "đẹp (trời)"
+      ],
+      "noteVi": "Phủ định là よくありません, không phải いくありません (いい vốn là よい). いい天気 = trời đẹp.",
+      "examples": [
+        {
+          "ja": "今日はいい天気ですね。",
+          "vi": "Hôm nay trời đẹp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 674,
+      "word": "悪い",
+      "meaningsVi": [
+        "xấu, tồi, không tốt"
+      ],
+      "noteVi": "Âm Hán Việt \"ác\", nhưng nghĩa thường nhẹ hơn \"độc ác\": chỉ là \"xấu, không tốt\", như 悪い天気 (thời tiết xấu).",
+      "examples": [
+        {
+          "ja": "あの人は悪い人ではありません。",
+          "vi": "Người đó không phải là người xấu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 94,
+      "word": "おいしい",
+      "meaningsVi": [
+        "ngon"
+      ],
+      "noteVi": "Kanji là 美味しい nhưng thường viết bằng hiragana.",
+      "examples": [
+        {
+          "ja": "この店のパンはおいしいです。",
+          "vi": "Bánh mì ở tiệm này ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 133,
+      "word": "おもしろい",
+      "meaningsVi": [
+        "hay, thú vị",
+        "buồn cười"
+      ],
+      "noteVi": "Dùng cho sách, phim, bài học, con người…: vừa là \"hay, thú vị\" vừa là \"buồn cười\". Kanji: 面白い.",
+      "examples": [
+        {
+          "ja": "この本はおもしろいです。",
+          "vi": "Quyển sách này hay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 393,
+      "word": "つまらない",
+      "meaningsVi": [
+        "chán, nhạt, không hay"
+      ],
+      "noteVi": "Trái nghĩa với おもしろい.",
+      "examples": [
+        {
+          "ja": "この雑誌はつまらないです。",
+          "vi": "Cuốn tạp chí này chán."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 609,
+      "word": "難しい",
+      "meaningsVi": [
+        "khó"
+      ],
+      "noteVi": "Âm Hán Việt \"nan\" (nan giải).",
+      "examples": [
+        {
+          "ja": "日本語は難しいですか。",
+          "vi": "Tiếng Nhật có khó không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 625,
+      "word": "やさしい",
+      "meaningsVi": [
+        "dễ"
+      ],
+      "noteVi": "やさしい (dễ) viết kanji là 易しい. やさしい nghĩa \"hiền, tốt bụng\" là một từ khác, viết 優しい (sẽ học sau).",
+      "examples": [
+        {
+          "ja": "この宿題はやさしいです。",
+          "vi": "Bài tập về nhà này dễ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 23,
+      "word": "暑い",
+      "meaningsVi": [
+        "nóng (thời tiết)"
+      ],
+      "noteVi": "暑い chỉ dùng cho thời tiết, không khí. Đồ vật nóng (nước, cà phê) là 熱い, cùng cách đọc あつい.",
+      "examples": [
+        {
+          "ja": "今日は暑いですね。",
+          "vi": "Hôm nay nóng nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 269,
+      "word": "寒い",
+      "meaningsVi": [
+        "lạnh (thời tiết)"
+      ],
+      "noteVi": "Âm Hán Việt \"hàn\" (hàn đới). Chỉ dùng cho thời tiết, không khí; đồ uống, đồ vật lạnh là 冷たい (sẽ học sau).",
+      "examples": [
+        {
+          "ja": "今朝はとても寒いです。",
+          "vi": "Sáng nay rất lạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 54,
+      "word": "忙しい",
+      "meaningsVi": [
+        "bận, bận rộn"
+      ],
+      "examples": [
+        {
+          "ja": "今週はとても忙しいです。",
+          "vi": "Tuần này tôi rất bận."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 376,
+      "word": "近い",
+      "meaningsVi": [
+        "gần"
+      ],
+      "noteVi": "Gần chỗ nào: N に近い (駅に近い = gần nhà ga). Âm Hán Việt \"cận\" (lân cận).",
+      "examples": [
+        {
+          "ja": "私の家は駅に近いです。",
+          "vi": "Nhà tôi gần nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 423,
+      "word": "遠い",
+      "meaningsVi": [
+        "xa"
+      ],
+      "noteVi": "Xa từ đâu: N から遠い. Âm Hán Việt \"viễn\" (viễn thông).",
+      "examples": [
+        {
+          "ja": "大学は家から遠いです。",
+          "vi": "Trường đại học xa nhà tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 417,
+      "word": "どう",
+      "meaningsVi": [
+        "thế nào, ra sao"
+      ],
+      "noteVi": "N はどうですか dùng để hỏi cảm nhận, đánh giá của người nghe. Cách nói lịch sự hơn là いかが (bài sau).",
+      "examples": [
+        {
+          "ja": "日本の食べ物はどうですか。",
+          "vi": "Đồ ăn Nhật thế nào?"
+        },
+        {
+          "ja": "日本語の勉強はどうですか。",
+          "vi": "Việc học tiếng Nhật thế nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 5,
+      "word": "赤い",
+      "meaningsVi": [
+        "đỏ"
+      ],
+      "examples": [
+        {
+          "ja": "赤いかばんは私のです。",
+          "vi": "Cái cặp màu đỏ là của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 3,
+      "word": "青い",
+      "meaningsVi": [
+        "xanh lam, xanh dương"
+      ],
+      "noteVi": "Màu của bầu trời, biển. Người Nhật cũng gọi đèn xanh giao thông là 青.",
+      "examples": [
+        {
+          "ja": "青い時計を買いました。",
+          "vi": "Tôi đã mua một chiếc đồng hồ màu xanh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 305,
+      "word": "白い",
+      "meaningsVi": [
+        "trắng"
+      ],
+      "examples": [
+        {
+          "ja": "白いノートをください。",
+          "vi": "Cho tôi cuốn vở màu trắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 218,
+      "word": "黒い",
+      "meaningsVi": [
+        "đen"
+      ],
+      "examples": [
+        {
+          "ja": "あの黒い車は田中さんのです。",
+          "vi": "Chiếc ô tô màu đen kia là của anh Tanaka."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 35,
+      "word": "あまり",
+      "meaningsVi": [
+        "không … lắm, không … mấy (đi với phủ định)"
+      ],
+      "noteVi": "Đi với phủ định ở cuối câu: あまり高くありません (không đắt lắm), あまり食べません (không ăn mấy).",
+      "examples": [
+        {
+          "ja": "私はあまりコーヒーを飲みません。",
+          "vi": "Tôi không uống cà phê mấy."
+        },
+        {
+          "ja": "今日はあまり寒くありません。",
+          "vi": "Hôm nay không lạnh lắm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 433,
+      "word": "とても",
+      "meaningsVi": [
+        "rất"
+      ],
+      "noteVi": "Đứng trước tính từ, dùng trong câu khẳng định: とても暑いです.",
+      "examples": [
+        {
+          "ja": "この店のコーヒーはとてもおいしいです。",
+          "vi": "Cà phê ở quán này rất ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 410,
+      "word": "天気",
+      "meaningsVi": [
+        "thời tiết"
+      ],
+      "noteVi": "Âm Hán Việt \"thiên khí\". 「いい天気ですね」 (trời đẹp nhỉ) là câu chào hỏi rất hay dùng.",
+      "examples": [
+        {
+          "ja": "今日はいい天気ですね。",
+          "vi": "Hôm nay trời đẹp nhỉ."
+        },
+        {
+          "ja": "ハノイの天気はどうですか。",
+          "vi": "Thời tiết ở Hà Nội thế nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "大",
+      "meaningVi": "to, lớn",
+      "noteVi": "Hình người dang rộng hai tay. Có trong 大きい và 大学 (đại học). Dễ nhầm với 犬 (con chó) và 太 (to, béo).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "小",
+      "meaningVi": "nhỏ",
+      "noteVi": "Có trong 小さい. Dễ nhầm với 少 (ít) trong 少し.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "高",
+      "meaningVi": "cao; đắt",
+      "noteVi": "Hình một tòa nhà nhiều tầng. Có trong 高い (cao, đắt).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-i-adjective",
+      "titleVi": "Tính từ đuôi い",
+      "summaryVi": "Tính từ đuôi い đứng trước danh từ (高い時計) hoặc trước です ở cuối câu (この時計は高いです); phủ định: 高くありません.",
+      "explanationVi": [
+        "**Tính từ đuôi い** kết thúc bằng い: 高い, 大きい, おいしい. Dùng ở **cuối câu** trước です: 「この時計は高いです」 = Chiếc đồng hồ này đắt; hoặc **trước danh từ**: 「高い時計」 = chiếc đồng hồ đắt.",
+        "Khác tiếng Việt, tính từ đứng **trước** danh từ: tiếng Việt nói \"đồng hồ **đắt**\", tiếng Nhật nói 「**高い**時計」. Tính từ đuôi い nối thẳng với danh từ, **không thêm の** ở giữa.",
+        "Phủ định lịch sự: đổi い cuối thành **く** rồi thêm **ありません**: 高い → 高**く**ありません, おいしい → おいし**く**ありません. Riêng **いい** → **よくありません**. Không dùng じゃありません (phủ định của danh từ) với tính từ đuôi い.",
+        "Hỏi cảm nhận: N は **どう** ですか. 「日本語はどうですか」 「おもしろいです」. Muốn nói \"rất\" thì thêm **とても**: 「とてもおもしろいです」."
+      ],
+      "patterns": [
+        "N は A-い です",
+        "A-い N",
+        "N は A-く ありません"
+      ],
+      "examples": [
+        {
+          "ja": "この時計は高いです。",
+          "vi": "Chiếc đồng hồ này đắt."
+        },
+        {
+          "ja": "これは新しいかばんです。",
+          "vi": "Đây là cái cặp mới."
+        },
+        {
+          "ja": "ハノイは今、とても暑いです。",
+          "vi": "Hà Nội bây giờ rất nóng."
+        },
+        {
+          "ja": "この本はおもしろくありません。",
+          "vi": "Quyển sách này không hay."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "これはかばん赤いです。",
+          "right": "これは赤いかばんです。",
+          "noteVi": "Tính từ đứng trước danh từ, không đứng sau như tiếng Việt (\"cái cặp đỏ\")."
+        },
+        {
+          "wrong": "これは大きいのかばんです。",
+          "right": "これは大きいかばんです。",
+          "noteVi": "Tính từ đuôi い nối thẳng với danh từ, không thêm の."
+        },
+        {
+          "wrong": "この本は高いじゃありません。",
+          "right": "この本は高くありません。",
+          "noteVi": "じゃありません là phủ định của danh từ. Với tính từ đuôi い, đổi い thành く rồi thêm ありません."
+        },
+        {
+          "wrong": "この辞書はいくありません。",
+          "right": "この辞書はよくありません。",
+          "noteVi": "いい là trường hợp đặc biệt: phủ định là よくありません."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "amari-nai",
+      "titleVi": "あまり〜ません: không … lắm",
+      "summaryVi": "あまり + phủ định: không … lắm, không … mấy: あまり高くありません, あまり食べません.",
+      "explanationVi": [
+        "**あまり** đi với **phủ định** để nói mức độ thấp, \"không … lắm\": 「あまり高くありません」 = không đắt lắm. Với động từ, あまり nói tần suất thấp, \"không … mấy, ít khi\": 「あまりテレビを見ません」 = tôi ít khi xem tivi.",
+        "Tiếng Việt chữ \"không\" đứng trước, còn tiếng Nhật phần phủ định nằm ở **cuối câu**. Câu có あまり (với nghĩa này) phải kết thúc bằng phủ định: 〜くありません, 〜ません.",
+        "Ngược lại, **とても** (rất) đi với câu **khẳng định**: 「とても暑いです」. Không dùng とても để nói \"không … lắm\"."
+      ],
+      "patterns": [
+        "あまり A-く ありません",
+        "あまり V-ません"
+      ],
+      "examples": [
+        {
+          "ja": "この辞書はあまり高くありません。",
+          "vi": "Cuốn từ điển này không đắt lắm."
+        },
+        {
+          "ja": "私はあまりテレビを見ません。",
+          "vi": "Tôi ít khi xem tivi."
+        },
+        {
+          "ja": "日本語はあまり難しくありません。",
+          "vi": "Tiếng Nhật không khó lắm."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この映画はあまりおもしろいです。",
+          "right": "この映画はあまりおもしろくありません。",
+          "noteVi": "あまり (nghĩa \"không … lắm\") phải đi với phủ định ở cuối câu."
+        },
+        {
+          "wrong": "このかばんはとても高くありません。",
+          "right": "このかばんはあまり高くありません。",
+          "noteVi": "Muốn nói \"không … lắm\" thì dùng あまり; とても đi với câu khẳng định."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-11-e01",
+      "type": "choice",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "promptVi": "Chọn câu đúng: \"Đây là cái cặp đỏ.\"",
+      "options": [
+        "これは赤いかばんです。",
+        "これはかばん赤いです。",
+        "これは赤いのかばんです。"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đứng trước danh từ và nối thẳng, không thêm の."
+    },
+    {
+      "id": "n5-11-e02",
+      "type": "fill",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "before": "この時計は",
+      "after": "です。",
+      "answers": [
+        "高い"
+      ],
+      "options": [
+        "高い",
+        "高く",
+        "高いの"
+      ],
+      "vi": "Chiếc đồng hồ này đắt."
+    },
+    {
+      "id": "n5-11-e03",
+      "type": "choice",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "promptVi": "Chọn dạng phủ định của câu này:",
+      "ja": "この本は高いです。",
+      "options": [
+        "この本は高くありません。",
+        "この本は高いじゃありません。",
+        "この本は高いではありません。"
+      ],
+      "answer": 0,
+      "explainVi": "Đổi い thành く rồi thêm ありません."
+    },
+    {
+      "id": "n5-11-e04",
+      "type": "fill",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "before": "この辞書は",
+      "after": "。",
+      "answers": [
+        "よくありません"
+      ],
+      "options": [
+        "よくありません",
+        "いいです",
+        "いいじゃありません"
+      ],
+      "vi": "Cuốn từ điển này không tốt.",
+      "explainVi": "いい → よくありません."
+    },
+    {
+      "id": "n5-11-e05",
+      "type": "order",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "vi": "Đây là quyển sách mới.",
+      "tiles": [
+        "本",
+        "これは",
+        "です",
+        "新しい"
+      ],
+      "answers": [
+        "これは新しい本です"
+      ]
+    },
+    {
+      "id": "n5-11-e06",
+      "type": "choice",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "promptVi": "Câu trả lời nào phù hợp?",
+      "ja": "日本語はどうですか。",
+      "options": [
+        "とてもおもしろいです。",
+        "はい、日本語です。",
+        "日本語の本です。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-11-e07",
+      "type": "match",
+      "promptVi": "Ghép màu sắc với nghĩa",
+      "pairs": [
+        [
+          "赤い",
+          "đỏ"
+        ],
+        [
+          "青い",
+          "xanh lam"
+        ],
+        [
+          "白い",
+          "trắng"
+        ],
+        [
+          "黒い",
+          "đen"
+        ]
+      ]
+    },
+    {
+      "id": "n5-11-e08",
+      "type": "match",
+      "promptVi": "Ghép tính từ với nghĩa",
+      "pairs": [
+        [
+          "大きい",
+          "to"
+        ],
+        [
+          "小さい",
+          "nhỏ"
+        ],
+        [
+          "新しい",
+          "mới"
+        ],
+        [
+          "古い",
+          "cũ"
+        ],
+        [
+          "高い",
+          "đắt"
+        ],
+        [
+          "安い",
+          "rẻ"
+        ]
+      ]
+    },
+    {
+      "id": "n5-11-e09",
+      "type": "match",
+      "promptVi": "Ghép tính từ với nghĩa",
+      "pairs": [
+        [
+          "暑い",
+          "nóng (thời tiết)"
+        ],
+        [
+          "寒い",
+          "lạnh (thời tiết)"
+        ],
+        [
+          "近い",
+          "gần"
+        ],
+        [
+          "遠い",
+          "xa"
+        ],
+        [
+          "忙しい",
+          "bận"
+        ],
+        [
+          "難しい",
+          "khó"
+        ]
+      ]
+    },
+    {
+      "id": "n5-11-e10",
+      "type": "choice",
+      "grammar": [
+        "amari-nai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Hôm nay không lạnh lắm\"?",
+      "options": [
+        "今日はあまり寒くありません。",
+        "今日はとても寒いです。",
+        "今日はあまり寒いです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-11-e11",
+      "type": "fill",
+      "grammar": [
+        "amari-nai"
+      ],
+      "before": "私は",
+      "after": "テレビを見ません。",
+      "answers": [
+        "あまり"
+      ],
+      "options": [
+        "あまり",
+        "とても",
+        "毎日"
+      ],
+      "vi": "Tôi ít khi xem tivi."
+    },
+    {
+      "id": "n5-11-e12",
+      "type": "order",
+      "grammar": [
+        "amari-nai"
+      ],
+      "vi": "Cái cặp này không to lắm.",
+      "tiles": [
+        "あまり",
+        "このかばんは",
+        "ありません",
+        "大きく"
+      ],
+      "answers": [
+        "このかばんはあまり大きくありません"
+      ]
+    },
+    {
+      "id": "n5-11-e13",
+      "type": "choice",
+      "grammar": [
+        "amari-nai"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "この映画はあまりおもしろくありません。",
+      "options": [
+        "Bộ phim này không hay lắm.",
+        "Bộ phim này rất hay.",
+        "Bộ phim này hay lắm."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-11-e14",
+      "type": "fill",
+      "grammar": [
+        "amari-nai"
+      ],
+      "before": "このコーヒーはあまり",
+      "after": "ありません。",
+      "answers": [
+        "おいしく"
+      ],
+      "vi": "Cà phê này không ngon lắm."
+    },
+    {
+      "id": "n5-11-e15",
+      "type": "fill",
+      "grammar": [
+        "amari-nai"
+      ],
+      "before": "今日は",
+      "after": "暑いです。",
+      "answers": [
+        "とても"
+      ],
+      "options": [
+        "とても",
+        "あまり",
+        "どう"
+      ],
+      "vi": "Hôm nay rất nóng.",
+      "explainVi": "とても đi với câu khẳng định; あまり đi với phủ định."
+    },
+    {
+      "id": "n5-11-e16",
+      "type": "choice",
+      "promptVi": "Bạn muốn hỏi bạn mình thấy đồ ăn Nhật thế nào. Câu nào đúng?",
+      "options": [
+        "日本の食べ物はどうですか。",
+        "日本の食べ物は何ですか。",
+        "日本の食べ物はどこですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-11-e17",
+      "type": "choice",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "promptVi": "Sáng nay trời đẹp. Bạn chào hàng xóm thế nào?",
+      "options": [
+        "いい天気ですね。",
+        "天気はいいですか。",
+        "悪い天気ですね。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-11-e18",
+      "type": "order",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "vi": "Nhà tôi xa nhà ga.",
+      "tiles": [
+        "遠いです",
+        "私の家は",
+        "駅から"
+      ],
+      "answers": [
+        "私の家は駅から遠いです",
+        "駅から私の家は遠いです"
+      ]
+    },
+    {
+      "id": "n5-11-e19",
+      "type": "fill",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "before": "",
+      "after": "傘は私のです。",
+      "answers": [
+        "黒い"
+      ],
+      "options": [
+        "黒い",
+        "黒く",
+        "黒いの"
+      ],
+      "vi": "Cái ô màu đen là của tôi."
+    },
+    {
+      "id": "n5-11-e20",
+      "type": "choice",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "promptVi": "Trong câu này, tính từ đuôi い có nghĩa là gì?",
+      "ja": "この辞書は高いです。",
+      "options": [
+        "đắt",
+        "cao",
+        "mới"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-11-e21",
+      "type": "translate",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "vi": "Đây là một quyển sách thú vị.",
+      "answers": [
+        "これはおもしろい本です。"
+      ],
+      "examples": [
+        {
+          "answer": "これはおもしろいほんです。",
+          "score": 100
+        },
+        {
+          "answer": "これは面白い本です。",
+          "score": 100
+        },
+        {
+          "answer": "これはおもしろいの本です。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "これわおもしろい本です。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "これはつまらない本です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-11-e22",
+      "type": "translate",
+      "grammar": [
+        "amari-nai",
+        "x-i-adjective"
+      ],
+      "vi": "Bài tập về nhà hôm nay không khó lắm.",
+      "answers": [
+        "今日の宿題はあまり難しくありません。"
+      ],
+      "examples": [
+        {
+          "answer": "きょうのしゅくだいはあまりむずかしくありません。",
+          "score": 100
+        },
+        {
+          "answer": "今日の宿題はあまり難しいじゃありません。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "今日の宿題はとても難しくありません。",
+          "score": 0
+        },
+        {
+          "answer": "今日の宿題はあまりやさしくありません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-11-e23",
+      "type": "translate",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "vi": "Chiếc ô tô màu trắng kia rất đắt.",
+      "answers": [
+        "あの白い車はとても高いです。"
+      ],
+      "examples": [
+        {
+          "answer": "あのしろいくるまはとてもたかいです。",
+          "score": 100
+        },
+        {
+          "answer": "あの白いの車はとても高いです。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "あの白い車わとても高いです。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "あの白い車はとても安いです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-11-e24",
+      "type": "question",
+      "grammar": [
+        "x-i-adjective"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "東京の天気はどうですか。",
+        "promptVi": "Thời tiết ở Tokyo thế nào? Trả lời: rất lạnh.",
+        "answers": [
+          "とても寒いです。",
+          "[(今日は)|東京は]とても寒いです。"
+        ],
+        "examples": [
+          {
+            "answer": "とてもさむいです。",
+            "score": 100
+          },
+          {
+            "answer": "今日わとても寒いです。",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "とても暑いです。",
+            "score": 0
+          },
+          {
+            "answer": "あまり寒くありません。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-11-e25",
+      "type": "question",
+      "grammar": [
+        "amari-nai"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "その映画はおもしろいですか。",
+        "promptVi": "Bộ phim đó có hay không? Trả lời: \"Không, không hay lắm.\"",
+        "answers": [
+          "いいえ、あまりおもしろくありません。",
+          "(いいえ、)(その映画は)あまりおもしろくありません。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、あまりおもしろくありません。",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、あまり面白くありません。",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、あまりおもしろいじゃありません。",
+            "score": 80,
+            "issues": [
+              "adjective_form"
+            ]
+          },
+          {
+            "answer": "いいえ、とてもおもしろくありません。",
+            "score": 0
+          },
+          {
+            "answer": "はい、とてもおもしろいです。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "このかばんは大きいです。": "このかばんは{大|おお}きいです。",
+    "大きい傘ですね。": "{大|おお}きい{傘|かさ}ですね。",
+    "この時計は小さいです。": "この{時計|とけい}は{小|ちい}さいです。",
+    "これは新しい辞書です。": "これは{新|あたら}しい{辞|じ}{書|しょ}です。",
+    "私の自転車は古いです。": "{私|わたし}の{自|じ}{転|てん}{車|しゃ}は{古|ふる}いです。",
+    "このかばんは高いです。": "このかばんは{高|たか}いです。",
+    "高い時計ですね。": "{高|たか}い{時計|とけい}ですね。",
+    "この店の果物は安いです。": "この{店|みせ}の{果物|くだもの}は{安|やす}いです。",
+    "今日はいい天気ですね。": "{今日|きょう}はいい{天|てん}{気|き}ですね。",
+    "あの人は悪い人ではありません。": "あの{人|ひと}は{悪|わる}い{人|ひと}ではありません。",
+    "この店のパンはおいしいです。": "この{店|みせ}のパンはおいしいです。",
+    "この本はおもしろいです。": "この{本|ほん}はおもしろいです。",
+    "この雑誌はつまらないです。": "この{雑|ざっ}{誌|し}はつまらないです。",
+    "日本語は難しいですか。": "{日本|にほん}{語|ご}は{難|むずか}しいですか。",
+    "この宿題はやさしいです。": "この{宿|しゅく}{題|だい}はやさしいです。",
+    "今日は暑いですね。": "{今日|きょう}は{暑|あつ}いですね。",
+    "今朝はとても寒いです。": "{今朝|けさ}はとても{寒|さむ}いです。",
+    "今週はとても忙しいです。": "{今|こん}{週|しゅう}はとても{忙|いそが}しいです。",
+    "私の家は駅に近いです。": "{私|わたし}の{家|いえ}は{駅|えき}に{近|ちか}いです。",
+    "大学は家から遠いです。": "{大|だい}{学|がく}は{家|いえ}から{遠|とお}いです。",
+    "日本の食べ物はどうですか。": "{日本|にほん}の{食|た}べ{物|もの}はどうですか。",
+    "日本語の勉強はどうですか。": "{日本|にほん}{語|ご}の{勉|べん}{強|きょう}はどうですか。",
+    "赤いかばんは私のです。": "{赤|あか}いかばんは{私|わたし}のです。",
+    "青い時計を買いました。": "{青|あお}い{時計|とけい}を{買|か}いました。",
+    "白いノートをください。": "{白|しろ}いノートをください。",
+    "あの黒い車は田中さんのです。": "あの{黒|くろ}い{車|くるま}は{田中|たなか}さんのです。",
+    "私はあまりコーヒーを飲みません。": "{私|わたし}はあまりコーヒーを{飲|の}みません。",
+    "今日はあまり寒くありません。": "{今日|きょう}はあまり{寒|さむ}くありません。",
+    "この店のコーヒーはとてもおいしいです。": "この{店|みせ}のコーヒーはとてもおいしいです。",
+    "ハノイの天気はどうですか。": "ハノイの{天|てん}{気|き}はどうですか。",
+    "この時計は高いです。": "この{時計|とけい}は{高|たか}いです。",
+    "これは新しいかばんです。": "これは{新|あたら}しいかばんです。",
+    "ハノイは今、とても暑いです。": "ハノイは{今|いま}、とても{暑|あつ}いです。",
+    "この本はおもしろくありません。": "この{本|ほん}はおもしろくありません。",
+    "これは赤いかばんです。": "これは{赤|あか}いかばんです。",
+    "これはかばん赤いです。": "これはかばん{赤|あか}いです。",
+    "これは大きいかばんです。": "これは{大|おお}きいかばんです。",
+    "これは大きいのかばんです。": "これは{大|おお}きいのかばんです。",
+    "この本は高くありません。": "この{本|ほん}は{高|たか}くありません。",
+    "この本は高いじゃありません。": "この{本|ほん}は{高|たか}いじゃありません。",
+    "この辞書はよくありません。": "この{辞|じ}{書|しょ}はよくありません。",
+    "この辞書はいくありません。": "この{辞|じ}{書|しょ}はいくありません。",
+    "この辞書はあまり高くありません。": "この{辞|じ}{書|しょ}はあまり{高|たか}くありません。",
+    "私はあまりテレビを見ません。": "{私|わたし}はあまりテレビを{見|み}ません。",
+    "日本語はあまり難しくありません。": "{日本|にほん}{語|ご}はあまり{難|むずか}しくありません。",
+    "この映画はあまりおもしろくありません。": "この{映|えい}{画|が}はあまりおもしろくありません。",
+    "この映画はあまりおもしろいです。": "この{映|えい}{画|が}はあまりおもしろいです。",
+    "このかばんはあまり高くありません。": "このかばんはあまり{高|たか}くありません。",
+    "このかばんはとても高くありません。": "このかばんはとても{高|たか}くありません。",
+    "これは赤いのかばんです。": "これは{赤|あか}いのかばんです。",
+    "高い": "{高|たか}い",
+    "高く": "{高|たか}く",
+    "高いの": "{高|たか}いの",
+    "この本は高いです。": "この{本|ほん}は{高|たか}いです。",
+    "この本は高いではありません。": "この{本|ほん}は{高|たか}いではありません。",
+    "よくありません": "よくありません",
+    "いいです": "いいです",
+    "いいじゃありません": "いいじゃありません",
+    "本": "{本|ほん}",
+    "これは": "これは",
+    "です": "です",
+    "新しい": "{新|あたら}しい",
+    "これは新しい本です": "これは{新|あたら}しい{本|ほん}です",
+    "日本語はどうですか。": "{日本|にほん}{語|ご}はどうですか。",
+    "とてもおもしろいです。": "とてもおもしろいです。",
+    "はい、日本語です。": "はい、{日本|にほん}{語|ご}です。",
+    "日本語の本です。": "{日本|にほん}{語|ご}の{本|ほん}です。",
+    "赤い": "{赤|あか}い",
+    "青い": "{青|あお}い",
+    "白い": "{白|しろ}い",
+    "黒い": "{黒|くろ}い",
+    "大きい": "{大|おお}きい",
+    "小さい": "{小|ちい}さい",
+    "古い": "{古|ふる}い",
+    "安い": "{安|やす}い",
+    "暑い": "{暑|あつ}い",
+    "寒い": "{寒|さむ}い",
+    "近い": "{近|ちか}い",
+    "遠い": "{遠|とお}い",
+    "忙しい": "{忙|いそが}しい",
+    "難しい": "{難|むずか}しい",
+    "今日はとても寒いです。": "{今日|きょう}はとても{寒|さむ}いです。",
+    "今日はあまり寒いです。": "{今日|きょう}はあまり{寒|さむ}いです。",
+    "あまり": "あまり",
+    "とても": "とても",
+    "毎日": "{毎|まい}{日|にち}",
+    "このかばんは": "このかばんは",
+    "ありません": "ありません",
+    "大きく": "{大|おお}きく",
+    "このかばんはあまり大きくありません": "このかばんはあまり{大|おお}きくありません",
+    "このコーヒーはあまりおいしくありません。": "このコーヒーはあまりおいしくありません。",
+    "おいしく": "おいしく",
+    "今日はとても暑いです。": "{今日|きょう}はとても{暑|あつ}いです。",
+    "どう": "どう",
+    "日本の食べ物は何ですか。": "{日本|にほん}の{食|た}べ{物|もの}は{何|なん}ですか。",
+    "日本の食べ物はどこですか。": "{日本|にほん}の{食|た}べ{物|もの}はどこですか。",
+    "いい天気ですね。": "いい{天|てん}{気|き}ですね。",
+    "天気はいいですか。": "{天|てん}{気|き}はいいですか。",
+    "悪い天気ですね。": "{悪|わる}い{天|てん}{気|き}ですね。",
+    "遠いです": "{遠|とお}いです",
+    "私の家は": "{私|わたし}の{家|いえ}は",
+    "駅から": "{駅|えき}から",
+    "私の家は駅から遠いです": "{私|わたし}の{家|いえ}は{駅|えき}から{遠|とお}いです",
+    "駅から私の家は遠いです": "{駅|えき}から{私|わたし}の{家|いえ}は{遠|とお}いです",
+    "黒い傘は私のです。": "{黒|くろ}い{傘|かさ}は{私|わたし}のです。",
+    "黒く": "{黒|くろ}く",
+    "黒いの": "{黒|くろ}いの",
+    "この辞書は高いです。": "この{辞|じ}{書|しょ}は{高|たか}いです。",
+    "これはおもしろい本です。": "これはおもしろい{本|ほん}です。",
+    "今日の宿題はあまり難しくありません。": "{今日|きょう}の{宿|しゅく}{題|だい}はあまり{難|むずか}しくありません。",
+    "あの白い車はとても高いです。": "あの{白|しろ}い{車|くるま}はとても{高|たか}いです。",
+    "東京の天気はどうですか。": "{東京|とうきょう}の{天|てん}{気|き}はどうですか。",
+    "とても寒いです。": "とても{寒|さむ}いです。",
+    "その映画はおもしろいですか。": "その{映|えい}{画|が}はおもしろいですか。",
+    "いいえ、あまりおもしろくありません。": "いいえ、あまりおもしろくありません。",
+    "いいえ、その映画はあまりおもしろくありません。": "いいえ、その{映|えい}{画|が}はあまりおもしろくありません。"
+  }
+}

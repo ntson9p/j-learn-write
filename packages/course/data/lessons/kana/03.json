@@ -1,0 +1,329 @@
+{
+  "id": "kana-03",
+  "goalsVi": [
+    "Đọc và viết được hàng な: な に ぬ ね の",
+    "Đọc và viết được hàng は: は ひ ふ へ ほ",
+    "Phân biệt được ぬ và め, ね và れ, は và ほ"
+  ],
+  "practice": [
+    {
+      "ja": "いぬ",
+      "vi": "con chó"
+    },
+    {
+      "ja": "ねこ",
+      "vi": "con mèo"
+    },
+    {
+      "ja": "はな",
+      "vi": "bông hoa"
+    },
+    {
+      "ja": "ひと",
+      "vi": "người"
+    },
+    {
+      "ja": "ふね",
+      "vi": "con thuyền"
+    },
+    {
+      "ja": "ほし",
+      "vi": "ngôi sao"
+    },
+    {
+      "ja": "なつ",
+      "vi": "mùa hè"
+    },
+    {
+      "ja": "にく",
+      "vi": "thịt"
+    },
+    {
+      "ja": "さかな",
+      "vi": "con cá"
+    },
+    {
+      "ja": "あなた",
+      "vi": "bạn (ngôi thứ hai)"
+    },
+    {
+      "ja": "ひとつ",
+      "vi": "một cái"
+    },
+    {
+      "ja": "ふたつ",
+      "vi": "hai cái"
+    },
+    {
+      "ja": "きのう",
+      "vi": "hôm qua"
+    },
+    {
+      "ja": "おかね",
+      "vi": "tiền"
+    },
+    {
+      "ja": "ふく",
+      "vi": "quần áo"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-03-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"nu\"?",
+      "options": [
+        "ぬ",
+        "め",
+        "の"
+      ],
+      "answer": 0,
+      "explainVi": "ぬ và め giống nhau, nhưng nét cuối của ぬ kết thúc bằng một vòng nhỏ."
+    },
+    {
+      "id": "kana-03-e02",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ne\"?",
+      "options": [
+        "れ",
+        "わ",
+        "ね"
+      ],
+      "answer": 2,
+      "explainVi": "Ba chữ có cùng nét bên trái; ね kết thúc bằng vòng nhỏ, れ hất ra ngoài, わ cong tròn."
+    },
+    {
+      "id": "kana-03-e03",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ho\"?",
+      "options": [
+        "は",
+        "ほ",
+        "け"
+      ],
+      "answer": 1,
+      "explainVi": "ほ có hai nét ngang ở bên phải, は chỉ có một."
+    },
+    {
+      "id": "kana-03-e04",
+      "type": "choice",
+      "promptVi": "Chữ に đọc là gì?",
+      "options": [
+        "ni",
+        "ko",
+        "ta"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-03-e05",
+      "type": "choice",
+      "promptVi": "Chữ ふ đọc là gì?",
+      "options": [
+        "ku",
+        "fu",
+        "ru"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-03-e06",
+      "type": "choice",
+      "promptVi": "Chữ は đọc là gì?",
+      "options": [
+        "ha",
+        "ho",
+        "ke"
+      ],
+      "answer": 0,
+      "explainVi": "Khi làm trợ từ, は đọc là \"wa\"; bạn sẽ học ở chặng N5."
+    },
+    {
+      "id": "kana-03-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "な",
+          "na"
+        ],
+        [
+          "に",
+          "ni"
+        ],
+        [
+          "ぬ",
+          "nu"
+        ],
+        [
+          "ね",
+          "ne"
+        ],
+        [
+          "の",
+          "no"
+        ]
+      ]
+    },
+    {
+      "id": "kana-03-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "は",
+          "ha"
+        ],
+        [
+          "ひ",
+          "hi"
+        ],
+        [
+          "ふ",
+          "fu"
+        ],
+        [
+          "へ",
+          "he"
+        ],
+        [
+          "ほ",
+          "ho"
+        ]
+      ]
+    },
+    {
+      "id": "kana-03-e09",
+      "type": "choice",
+      "promptVi": "\"neko\" (con mèo) viết thế nào?",
+      "options": [
+        "ねこ",
+        "れこ",
+        "ねて"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-03-e10",
+      "type": "choice",
+      "promptVi": "Từ いぬ nghĩa là gì?",
+      "options": [
+        "con mèo",
+        "con cá",
+        "con chó"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-03-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "ふね",
+          "con thuyền"
+        ],
+        [
+          "ほし",
+          "ngôi sao"
+        ],
+        [
+          "なつ",
+          "mùa hè"
+        ],
+        [
+          "にく",
+          "thịt"
+        ]
+      ]
+    },
+    {
+      "id": "kana-03-e12",
+      "type": "order",
+      "vi": "Ghép thành từ \"sakana\" (con cá)",
+      "tiles": [
+        "な",
+        "か",
+        "さ"
+      ],
+      "answers": [
+        "さかな"
+      ]
+    },
+    {
+      "id": "kana-03-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"hitotsu\" (một cái)",
+      "tiles": [
+        "つ",
+        "と",
+        "ひ"
+      ],
+      "answers": [
+        "ひとつ"
+      ]
+    },
+    {
+      "id": "kana-03-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"okane\" (tiền)",
+      "tiles": [
+        "ね",
+        "か",
+        "お"
+      ],
+      "answers": [
+        "おかね"
+      ]
+    },
+    {
+      "id": "kana-03-e15",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"người\"?",
+      "options": [
+        "ふね",
+        "ひと",
+        "はな"
+      ],
+      "answer": 1
+    }
+  ],
+  "ruby": {
+    "いぬ": "いぬ",
+    "ねこ": "ねこ",
+    "はな": "はな",
+    "ひと": "ひと",
+    "ふね": "ふね",
+    "ほし": "ほし",
+    "なつ": "なつ",
+    "にく": "にく",
+    "さかな": "さかな",
+    "あなた": "あなた",
+    "ひとつ": "ひとつ",
+    "ふたつ": "ふたつ",
+    "きのう": "きのう",
+    "おかね": "おかね",
+    "ふく": "ふく",
+    "ぬ": "ぬ",
+    "め": "め",
+    "の": "の",
+    "れ": "れ",
+    "わ": "わ",
+    "ね": "ね",
+    "は": "は",
+    "ほ": "ほ",
+    "け": "け",
+    "な": "な",
+    "に": "に",
+    "ひ": "ひ",
+    "ふ": "ふ",
+    "へ": "へ",
+    "れこ": "れこ",
+    "ねて": "ねて",
+    "か": "か",
+    "さ": "さ",
+    "つ": "つ",
+    "と": "と",
+    "お": "お"
+  }
+}

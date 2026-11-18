@@ -1,0 +1,347 @@
+{
+  "id": "kana-09",
+  "goalsVi": [
+    "Đọc được katakana có dấu ゛ ゜ và âm ghép: ガ, パ, シャ, チョ…",
+    "Đọc được ッ nhỏ và dấu trường âm ー trong từ mượn",
+    "Đọc được những từ mượn hay gặp: コーヒー, テレビ, ベトナム"
+  ],
+  "practice": [
+    {
+      "ja": "コーヒー",
+      "vi": "cà phê"
+    },
+    {
+      "ja": "ケーキ",
+      "vi": "bánh ngọt"
+    },
+    {
+      "ja": "ノート",
+      "vi": "quyển vở"
+    },
+    {
+      "ja": "ペン",
+      "vi": "cây bút"
+    },
+    {
+      "ja": "バス",
+      "vi": "xe buýt"
+    },
+    {
+      "ja": "テレビ",
+      "vi": "ti vi"
+    },
+    {
+      "ja": "ベトナム",
+      "vi": "Việt Nam"
+    },
+    {
+      "ja": "パン",
+      "vi": "bánh mì"
+    },
+    {
+      "ja": "ジュース",
+      "vi": "nước ép trái cây"
+    },
+    {
+      "ja": "シャツ",
+      "vi": "áo sơ mi"
+    },
+    {
+      "ja": "チョコレート",
+      "vi": "sô-cô-la"
+    },
+    {
+      "ja": "ベッド",
+      "vi": "cái giường"
+    },
+    {
+      "ja": "サッカー",
+      "vi": "bóng đá"
+    },
+    {
+      "ja": "スーパー",
+      "vi": "siêu thị"
+    },
+    {
+      "ja": "ニュース",
+      "vi": "tin tức"
+    },
+    {
+      "ja": "タクシー",
+      "vi": "taxi"
+    },
+    {
+      "ja": "ホーチミン",
+      "vi": "Thành phố Hồ Chí Minh"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-09-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ga\"?",
+      "options": [
+        "ガ",
+        "カ",
+        "ザ"
+      ],
+      "answer": 0,
+      "explainVi": "Như hiragana, dấu ゛ biến k thành g: カ → ガ."
+    },
+    {
+      "id": "kana-09-e02",
+      "type": "choice",
+      "promptVi": "Chữ ブ đọc là gì?",
+      "options": [
+        "bu",
+        "pu",
+        "fu"
+      ],
+      "answer": 0,
+      "explainVi": "Dấu ゛ biến h/f thành b, dấu ゜ biến thành p: フ → ブ (bu), プ (pu)."
+    },
+    {
+      "id": "kana-09-e03",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"pa\"?",
+      "options": [
+        "バ",
+        "パ",
+        "ハ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-09-e04",
+      "type": "choice",
+      "promptVi": "Trong コーヒー, dấu ー có tác dụng gì?",
+      "options": [
+        "Ngắt âm",
+        "Kéo dài nguyên âm đứng trước",
+        "Đọc thành \"n\""
+      ],
+      "answer": 1,
+      "explainVi": "ー kéo dài nguyên âm đứng trước: コーヒー = ko-o-hi-i (cà phê)."
+    },
+    {
+      "id": "kana-09-e05",
+      "type": "choice",
+      "promptVi": "Từ nào đọc là \"beddo\" (cái giường)?",
+      "options": [
+        "ベド",
+        "ペッド",
+        "ベッド"
+      ],
+      "answer": 2,
+      "explainVi": "ッ nhỏ ngắt hơi trước phụ âm đứng sau, như gấp đôi phụ âm đó: ベッド = bed-do."
+    },
+    {
+      "id": "kana-09-e06",
+      "type": "choice",
+      "promptVi": "Chữ シャ đọc là gì?",
+      "options": [
+        "shiya",
+        "sha",
+        "tsuya"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-09-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "ガ",
+          "ga"
+        ],
+        [
+          "ジ",
+          "ji"
+        ],
+        [
+          "ズ",
+          "zu"
+        ],
+        [
+          "デ",
+          "de"
+        ],
+        [
+          "ボ",
+          "bo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-09-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "キャ",
+          "kya"
+        ],
+        [
+          "シュ",
+          "shu"
+        ],
+        [
+          "チョ",
+          "cho"
+        ],
+        [
+          "ニュ",
+          "nyu"
+        ],
+        [
+          "リョ",
+          "ryo"
+        ]
+      ]
+    },
+    {
+      "id": "kana-09-e09",
+      "type": "choice",
+      "promptVi": "\"betonamu\" (Việt Nam) viết thế nào?",
+      "options": [
+        "ベトナム",
+        "ペトナム",
+        "ベトナン"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-09-e10",
+      "type": "choice",
+      "promptVi": "Từ スーパー nghĩa là gì?",
+      "options": [
+        "bóng đá",
+        "tin tức",
+        "siêu thị"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-09-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "コーヒー",
+          "cà phê"
+        ],
+        [
+          "テレビ",
+          "ti vi"
+        ],
+        [
+          "ジュース",
+          "nước ép trái cây"
+        ],
+        [
+          "パン",
+          "bánh mì"
+        ]
+      ]
+    },
+    {
+      "id": "kana-09-e12",
+      "type": "order",
+      "vi": "Ghép thành từ \"sakkaa\" (bóng đá)",
+      "tiles": [
+        "ー",
+        "カ",
+        "サ",
+        "ッ"
+      ],
+      "answers": [
+        "サッカー"
+      ]
+    },
+    {
+      "id": "kana-09-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"chokoreeto\" (sô-cô-la)",
+      "tiles": [
+        "レ",
+        "チョ",
+        "ト",
+        "ー",
+        "コ"
+      ],
+      "answers": [
+        "チョコレート"
+      ]
+    },
+    {
+      "id": "kana-09-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"nyuusu\" (tin tức)",
+      "tiles": [
+        "ス",
+        "ニュ",
+        "ー"
+      ],
+      "answers": [
+        "ニュース"
+      ]
+    },
+    {
+      "id": "kana-09-e15",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"xe buýt\"?",
+      "options": [
+        "バス",
+        "パン",
+        "ペン"
+      ],
+      "answer": 0
+    }
+  ],
+  "ruby": {
+    "コーヒー": "コーヒー",
+    "ケーキ": "ケーキ",
+    "ノート": "ノート",
+    "ペン": "ペン",
+    "バス": "バス",
+    "テレビ": "テレビ",
+    "ベトナム": "ベトナム",
+    "パン": "パン",
+    "ジュース": "ジュース",
+    "シャツ": "シャツ",
+    "チョコレート": "チョコレート",
+    "ベッド": "ベッド",
+    "サッカー": "サッカー",
+    "スーパー": "スーパー",
+    "ニュース": "ニュース",
+    "タクシー": "タクシー",
+    "ホーチミン": "ホーチミン",
+    "ガ": "ガ",
+    "カ": "カ",
+    "ザ": "ザ",
+    "バ": "バ",
+    "パ": "パ",
+    "ハ": "ハ",
+    "ベド": "ベド",
+    "ペッド": "ペッド",
+    "ジ": "ジ",
+    "ズ": "ズ",
+    "デ": "デ",
+    "ボ": "ボ",
+    "キャ": "キャ",
+    "シュ": "シュ",
+    "チョ": "チョ",
+    "ニュ": "ニュ",
+    "リョ": "リョ",
+    "ペトナム": "ペトナム",
+    "ベトナン": "ベトナン",
+    "ー": "ー",
+    "サ": "サ",
+    "ッ": "ッ",
+    "レ": "レ",
+    "ト": "ト",
+    "コ": "コ",
+    "ス": "ス"
+  }
+}

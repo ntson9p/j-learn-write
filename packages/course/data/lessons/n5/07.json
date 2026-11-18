@@ -1,0 +1,1431 @@
+{
+  "id": "n5-07",
+  "goalsVi": [
+    "Kể việc làm hằng ngày bằng động từ thể ます: 毎朝6時に起きます",
+    "Nói phủ định và quá khứ: 起きません, 起きました, 起きませんでした",
+    "Nói mức độ thường xuyên với いつも, よく, ときどき",
+    "Hỏi có hay không có: 明日、授業はありますか, 田中さんはいますか"
+  ],
+  "words": [
+    {
+      "no": 102,
+      "word": "起きる",
+      "meaningsVi": [
+        "thức dậy, dậy"
+      ],
+      "noteVi": "Thể ます: 起きます. Chỉ việc dậy, ra khỏi giường.",
+      "examples": [
+        {
+          "ja": "毎朝6時に起きます。",
+          "vi": "Sáng nào tôi cũng dậy lúc 6 giờ."
+        },
+        {
+          "ja": "今朝は7時に起きました。",
+          "vi": "Sáng nay tôi dậy lúc 7 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 475,
+      "word": "寝る",
+      "meaningsVi": [
+        "đi ngủ",
+        "ngủ"
+      ],
+      "noteVi": "Thể ます: 寝ます. Vừa là \"đi ngủ\" vừa là \"ngủ\".",
+      "examples": [
+        {
+          "ja": "毎晩11時ごろ寝ます。",
+          "vi": "Tối nào tôi cũng đi ngủ vào khoảng 11 giờ."
+        },
+        {
+          "ja": "昨日は1時に寝ました。",
+          "vi": "Hôm qua tôi đi ngủ lúc 1 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 499,
+      "word": "働く",
+      "meaningsVi": [
+        "làm việc"
+      ],
+      "noteVi": "Thể ます: 働きます. Nói việc đi làm (ở công ty, cửa hàng…); 仕事をします cũng có nghĩa là làm việc.",
+      "examples": [
+        {
+          "ja": "月曜日から金曜日まで働きます。",
+          "vi": "Tôi làm việc từ thứ Hai đến thứ Sáu."
+        },
+        {
+          "ja": "土曜日は働きません。",
+          "vi": "Thứ Bảy tôi không làm việc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 628,
+      "word": "休む",
+      "meaningsVi": [
+        "nghỉ, nghỉ ngơi",
+        "nghỉ (học, làm)"
+      ],
+      "noteVi": "Thể ます: 休みます. Danh từ 休み (ngày nghỉ) đã học ở bài 5. \"Nghỉ học\" là 授業を休みます.",
+      "examples": [
+        {
+          "ja": "日曜日は休みます。",
+          "vi": "Chủ nhật tôi nghỉ."
+        },
+        {
+          "ja": "昨日は授業を休みました。",
+          "vi": "Hôm qua tôi đã nghỉ học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 559,
+      "word": "勉強",
+      "meaningsVi": [
+        "học, việc học"
+      ],
+      "noteVi": "Hán Việt \"miễn cưỡng\" nhưng nghĩa là học. Dùng như động từ: 勉強します (học), 日本語を勉強します (học tiếng Nhật).",
+      "examples": [
+        {
+          "ja": "毎晩、日本語を勉強します。",
+          "vi": "Tối nào tôi cũng học tiếng Nhật."
+        },
+        {
+          "ja": "昨日は勉強しませんでした。",
+          "vi": "Hôm qua tôi không học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 323,
+      "word": "する",
+      "meaningsVi": [
+        "làm"
+      ],
+      "noteVi": "Thể ます: します. Nhiều danh từ + します thành động từ: 勉強します, 掃除します, 洗濯します; cũng có thể thêm を: 宿題をします.",
+      "examples": [
+        {
+          "ja": "毎晩、宿題をします。",
+          "vi": "Tối nào tôi cũng làm bài tập."
+        },
+        {
+          "ja": "今朝、掃除をしました。",
+          "vi": "Sáng nay tôi đã dọn dẹp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 136,
+      "word": "終わる",
+      "meaningsVi": [
+        "kết thúc, xong"
+      ],
+      "noteVi": "Thể ます: 終わります. Chủ ngữ là sự việc: giờ học, công việc (授業が終わります). Cách viết cũ 終る đôi khi vẫn gặp.",
+      "examples": [
+        {
+          "ja": "授業は4時に終わります。",
+          "vi": "Giờ học kết thúc lúc 4 giờ."
+        },
+        {
+          "ja": "仕事は何時に終わりますか。",
+          "vi": "Công việc xong lúc mấy giờ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 491,
+      "word": "始まる",
+      "meaningsVi": [
+        "bắt đầu"
+      ],
+      "noteVi": "Thể ます: 始まります. Chủ ngữ là sự việc, không phải người: 授業は9時に始まります.",
+      "examples": [
+        {
+          "ja": "授業は9時に始まります。",
+          "vi": "Giờ học bắt đầu lúc 9 giờ."
+        },
+        {
+          "ja": "仕事は何時に始まりますか。",
+          "vi": "Công việc bắt đầu lúc mấy giờ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 573,
+      "word": "毎朝",
+      "meaningsVi": [
+        "mỗi sáng, sáng nào cũng"
+      ],
+      "noteVi": "Không thêm に sau 毎朝 (cũng như 毎日, 毎晩).",
+      "examples": [
+        {
+          "ja": "毎朝、シャワーをあびます。",
+          "vi": "Sáng nào tôi cũng tắm vòi sen."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 578,
+      "word": "毎晩",
+      "meaningsVi": [
+        "mỗi tối, tối nào cũng"
+      ],
+      "examples": [
+        {
+          "ja": "毎晩、お風呂に入ります。",
+          "vi": "Tối nào tôi cũng tắm bồn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 220,
+      "word": "今朝",
+      "meaningsVi": [
+        "sáng nay"
+      ],
+      "noteVi": "Đọc đặc biệt けさ.",
+      "examples": [
+        {
+          "ja": "今朝は6時に起きました。",
+          "vi": "Sáng nay tôi dậy lúc 6 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 258,
+      "word": "今晩",
+      "meaningsVi": [
+        "tối nay"
+      ],
+      "noteVi": "Câu chào こんばんは (chào buổi tối) cũng từ 今晩 mà ra.",
+      "examples": [
+        {
+          "ja": "今晩、洗濯をします。",
+          "vi": "Tối nay tôi sẽ giặt đồ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 632,
+      "word": "夕方",
+      "meaningsVi": [
+        "chiều tối"
+      ],
+      "noteVi": "Khoảng từ 4–5 giờ chiều đến lúc trời tối, trước 夜.",
+      "examples": [
+        {
+          "ja": "夕方、掃除をします。",
+          "vi": "Chiều tối tôi sẽ dọn dẹp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 64,
+      "word": "いつも",
+      "meaningsVi": [
+        "luôn luôn, lúc nào cũng",
+        "mọi khi"
+      ],
+      "examples": [
+        {
+          "ja": "いつも12時に寝ます。",
+          "vi": "Tôi lúc nào cũng đi ngủ vào 12 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 425,
+      "word": "時々",
+      "meaningsVi": [
+        "thỉnh thoảng"
+      ],
+      "noteVi": "Thường viết bằng hiragana: ときどき. Trong cách viết kanji 時々, 々 là dấu lặp lại chữ đứng trước (時々 = 時 + 時).",
+      "examples": [
+        {
+          "ja": "ときどき、土曜日も働きます。",
+          "vi": "Thỉnh thoảng thứ Bảy tôi cũng làm việc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 641,
+      "word": "よく",
+      "meaningsVi": [
+        "thường, hay",
+        "nhiều, chăm (làm việc gì)"
+      ],
+      "noteVi": "Mức độ thường xuyên: いつも > よく > ときどき.",
+      "examples": [
+        {
+          "ja": "日曜日はよく洗濯をします。",
+          "vi": "Chủ nhật tôi hay giặt đồ."
+        },
+        {
+          "ja": "よく勉強しますね。",
+          "vi": "Bạn học chăm nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 295,
+      "word": "シャワー",
+      "meaningsVi": [
+        "vòi sen"
+      ],
+      "noteVi": "\"Tắm vòi sen\" là シャワーをあびます.",
+      "examples": [
+        {
+          "ja": "夜、シャワーをあびます。",
+          "vi": "Buổi tối tôi tắm vòi sen."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 32,
+      "word": "あびる",
+      "meaningsVi": [
+        "tắm (vòi sen)",
+        "dội (nước) lên người"
+      ],
+      "noteVi": "Thể ます: あびます. Kanji: 浴びる. Thường đi với シャワー: シャワーをあびます.",
+      "examples": [
+        {
+          "ja": "毎朝、シャワーをあびます。",
+          "vi": "Sáng nào tôi cũng tắm vòi sen."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 128,
+      "word": "お風呂",
+      "meaningsVi": [
+        "bồn tắm",
+        "việc tắm bồn"
+      ],
+      "noteVi": "\"Tắm bồn\" là お風呂に入ります (vào bồn), không dùng あびます. Người Nhật thường ngâm bồn nước nóng vào buổi tối.",
+      "examples": [
+        {
+          "ja": "毎晩、お風呂に入ります。",
+          "vi": "Tối nào tôi cũng tắm bồn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 485,
+      "word": "入る",
+      "meaningsVi": [
+        "vào",
+        "tắm (bồn): お風呂に入る"
+      ],
+      "noteVi": "Thể ます: 入ります (はいります). Nơi đi vào đứng trước に: お風呂に入ります.",
+      "examples": [
+        {
+          "ja": "今晩はお風呂に入りません。",
+          "vi": "Tối nay tôi không tắm bồn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 338,
+      "word": "掃除",
+      "meaningsVi": [
+        "dọn dẹp, quét dọn"
+      ],
+      "noteVi": "Dùng như động từ: 掃除します hoặc 掃除をします.",
+      "examples": [
+        {
+          "ja": "土曜日に掃除をします。",
+          "vi": "Thứ Bảy tôi dọn dẹp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 336,
+      "word": "洗濯",
+      "meaningsVi": [
+        "giặt giũ, giặt đồ"
+      ],
+      "noteVi": "Dùng như động từ: 洗濯します hoặc 洗濯をします. Hán Việt \"tẩy trạc\".",
+      "examples": [
+        {
+          "ja": "日曜日の朝、洗濯をします。",
+          "vi": "Sáng Chủ nhật tôi giặt đồ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 298,
+      "word": "宿題",
+      "meaningsVi": [
+        "bài tập về nhà"
+      ],
+      "noteVi": "\"Làm bài tập\" là 宿題をします.",
+      "examples": [
+        {
+          "ja": "今晩、宿題をします。",
+          "vi": "Tối nay tôi sẽ làm bài tập."
+        },
+        {
+          "ja": "宿題をしましたか。",
+          "vi": "Bạn đã làm bài tập chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 40,
+      "word": "ある",
+      "meaningsVi": [
+        "có (đồ vật, sự việc)",
+        "ở (đồ vật)"
+      ],
+      "noteVi": "Thể ます: あります, phủ định ありません. Dùng cho đồ vật, sự việc (授業, 仕事); với người và động vật dùng いる. Cách nói \"ở đâu có gì\" học ở bài 14.",
+      "examples": [
+        {
+          "ja": "明日、授業はありますか。",
+          "vi": "Ngày mai có giờ học không?"
+        },
+        {
+          "ja": "いいえ、ありません。",
+          "vi": "Không, không có."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 71,
+      "word": "いる",
+      "meaningsVi": [
+        "có, ở (người, động vật)"
+      ],
+      "noteVi": "Thể ます: います, phủ định いません. 田中さんはいますか = Anh Tanaka có ở đây không?",
+      "examples": [
+        {
+          "ja": "田中さんはいますか。",
+          "vi": "Anh Tanaka có ở đây không?"
+        },
+        {
+          "ja": "先生は今いません。",
+          "vi": "Thầy giáo bây giờ không có ở đây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "毎",
+      "meaningVi": "mỗi",
+      "noteVi": "Gặp trong 毎日, 毎朝, 毎晩. Phần dưới gần giống chữ 母 (mẹ): \"ngày nào mẹ cũng…\" để dễ nhớ.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "今",
+      "meaningVi": "bây giờ; nay",
+      "noteVi": "Đọc いま (今), こん (今月, 今晩). Đọc đặc biệt: 今日 きょう, 今朝 けさ, 今年 ことし.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "午",
+      "meaningVi": "trưa (giờ Ngọ)",
+      "noteVi": "午前: buổi sáng (trước trưa), 午後: buổi chiều (sau trưa). Đừng nhầm với 牛 (bò): nét dọc của 牛 nhô lên trên, của 午 thì không.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "masu",
+      "titleVi": "V-ます: động từ thể lịch sự",
+      "summaryVi": "V-ます nói thói quen hoặc việc sẽ làm: 毎朝6時に起きます. Động từ luôn đứng cuối câu.",
+      "explanationVi": [
+        "Động từ tiếng Nhật đứng **cuối câu**. Thể **ます** là thể lịch sự, dùng khi nói với người không thân hoặc người trên: 「起きます」, 「働きます」, 「勉強します」.",
+        "Thể ます không phải quá khứ: nó nói **thói quen** (「毎朝6時に起きます」) và **việc sẽ làm** (「明日、休みます」). Tiếng Việt thêm \"sẽ\" để nói tương lai; tiếng Nhật không cần, từ chỉ thời gian (明日, 今晩…) là đủ.",
+        "Trật tự thường gặp: (chủ đề は) + thời gian (+ に) + (cái gì + **を**) + động từ: 「私は毎晩日本語を勉強します」. を đánh dấu cái mà hành động tác động tới, như trong 〜をください đã học; bài 9 học kỹ hơn. Khi nói về mình, 私は thường được lược.",
+        "Từ điển ghi động từ ở **thể từ điển** (起きる, 働く, する); ở bài này hãy học thuộc thể ます của từng động từ, cách chia sẽ học ở bài 22. Nhiều danh từ + します thành động từ: 勉強します, 掃除します, 洗濯します."
+      ],
+      "patterns": [
+        "N (thời gian) に V-ます",
+        "N を V-ます"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝6時に起きます。",
+          "vi": "Sáng nào tôi cũng dậy lúc 6 giờ."
+        },
+        {
+          "ja": "授業は9時に始まります。",
+          "vi": "Giờ học bắt đầu lúc 9 giờ."
+        },
+        {
+          "ja": "今晩、宿題をします。",
+          "vi": "Tối nay tôi sẽ làm bài tập."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は起きます6時に。",
+          "right": "私は6時に起きます。",
+          "noteVi": "Động từ luôn đứng cuối câu; giờ giấc đứng trước động từ, không đứng sau như \"tôi dậy lúc 6 giờ\" của tiếng Việt."
+        },
+        {
+          "wrong": "勉強ます。",
+          "right": "勉強します。",
+          "noteVi": "勉強 là danh từ, phải thêm します mới thành động từ \"học\". Tương tự: 掃除します, 洗濯します."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "masen",
+      "titleVi": "V-ません: không làm",
+      "summaryVi": "Đổi ます thành ません để phủ định: 働きます → 働きません (không làm việc).",
+      "explanationVi": [
+        "Phủ định của động từ: đổi **ます** thành **ません**: 起きます → 起きません, します → しません. Dùng cho thói quen (「土曜日は働きません」) và việc sẽ không làm (「今晩は勉強しません」).",
+        "**ではありません** chỉ đứng sau **danh từ** (学生ではありません). Với động từ thì chỉ dùng ません.",
+        "Trả lời câu hỏi: 「明日、働きますか」 → 「はい、働きます」 hoặc 「いいえ、働きません」. Câu phủ định thường có は để nhấn sự đối lập: 「土曜日は働きません」 (thứ Bảy thì không làm)."
+      ],
+      "patterns": [
+        "V-ません",
+        "N は V-ません"
+      ],
+      "examples": [
+        {
+          "ja": "土曜日は働きません。",
+          "vi": "Thứ Bảy tôi không làm việc."
+        },
+        {
+          "ja": "今晩はお風呂に入りません。",
+          "vi": "Tối nay tôi không tắm bồn."
+        },
+        {
+          "ja": "すみません、田中さんは今いません。",
+          "vi": "Xin lỗi, anh Tanaka bây giờ không có ở đây."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "土曜日は働きますではありません。",
+          "right": "土曜日は働きません。",
+          "noteVi": "ではありません chỉ đứng sau danh từ; động từ phủ định bằng cách đổi ます thành ません."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mashita",
+      "titleVi": "V-ました: đã làm",
+      "summaryVi": "Đổi ます thành ました để nói việc đã xảy ra: 起きます → 起きました.",
+      "explanationVi": [
+        "Quá khứ của động từ: đổi **ます** thành **ました**: 寝ます → 寝ました, します → しました.",
+        "Tiếng Việt chỉ cần \"hôm qua\" hay \"đã\", động từ không đổi; tiếng Nhật thì động từ **phải** đổi sang ました khi việc đã xảy ra: 「昨日、11時に寝ました」. Câu có 昨日, 今朝, 先月, 去年… thường dùng ました.",
+        "Hỏi: 「宿題をしましたか」. Trả lời ngắn chỉ cần động từ: 「はい、しました」."
+      ],
+      "patterns": [
+        "V-ました",
+        "V-ましたか"
+      ],
+      "examples": [
+        {
+          "ja": "今朝、6時に起きました。",
+          "vi": "Sáng nay tôi dậy lúc 6 giờ."
+        },
+        {
+          "ja": "仕事は5時に終わりました。",
+          "vi": "Công việc đã xong lúc 5 giờ."
+        },
+        {
+          "ja": "宿題をしましたか。",
+          "vi": "Bạn đã làm bài tập chưa?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "昨日、11時に寝ます。",
+          "right": "昨日、11時に寝ました。",
+          "noteVi": "Việc đã xảy ra (昨日) thì động từ phải ở thể ました; tiếng Việt không đổi động từ nên rất dễ quên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "masen-deshita",
+      "titleVi": "V-ませんでした: đã không làm",
+      "summaryVi": "ません + でした: 勉強しませんでした = (hôm đó) đã không học.",
+      "explanationVi": [
+        "Phủ định ở quá khứ: **ません** + **でした**: 起きませんでした, しませんでした. Giống ではありませんでした của danh từ, でした được thêm vào cuối.",
+        "Dùng khi một việc đã không xảy ra: 「昨日は勉強しませんでした」. Nói 「昨日は勉強しません」 là sai, vì ません không dùng cho quá khứ.",
+        "Chú ý: câu hỏi 「宿題をしましたか」 thường dịch là \"Bạn đã làm bài tập chưa?\", nhưng 「いいえ、しませんでした」 là \"Không, tôi đã không làm\" (việc đã qua), không phải \"chưa làm, sẽ làm\". Cách nói \"chưa\" học ở bài 19."
+      ],
+      "patterns": [
+        "V-ませんでした"
+      ],
+      "examples": [
+        {
+          "ja": "昨日は勉強しませんでした。",
+          "vi": "Hôm qua tôi không học."
+        },
+        {
+          "ja": "今朝、シャワーをあびませんでした。",
+          "vi": "Sáng nay tôi không tắm vòi sen."
+        },
+        {
+          "ja": "先月の20日は働きませんでした。",
+          "vi": "Ngày 20 tháng trước tôi không làm việc."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "昨日は勉強しません。",
+          "right": "昨日は勉強しませんでした。",
+          "noteVi": "Việc của hôm qua phải dùng ませんでした; ません chỉ dùng cho hiện tại và tương lai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-07-e01",
+      "type": "fill",
+      "grammar": [
+        "masu"
+      ],
+      "before": "毎朝6時に",
+      "after": "。",
+      "answers": [
+        "起きます"
+      ],
+      "options": [
+        "起きます",
+        "寝ます",
+        "入ります"
+      ],
+      "vi": "Sáng nào tôi cũng dậy lúc 6 giờ."
+    },
+    {
+      "id": "n5-07-e02",
+      "type": "choice",
+      "grammar": [
+        "masu"
+      ],
+      "promptVi": "Chọn câu đúng trật tự: \"Tôi dậy lúc 6 giờ.\"",
+      "options": [
+        "私は6時に起きます。",
+        "私は起きます6時に。",
+        "起きます私は6時に。"
+      ],
+      "answer": 0,
+      "explainVi": "Động từ đứng cuối câu."
+    },
+    {
+      "id": "n5-07-e03",
+      "type": "order",
+      "grammar": [
+        "masu"
+      ],
+      "vi": "Tối nào tôi cũng học tiếng Nhật.",
+      "tiles": [
+        "勉強します",
+        "日本語",
+        "毎晩",
+        "を"
+      ],
+      "answers": [
+        "毎晩日本語を勉強します",
+        "日本語を毎晩勉強します"
+      ]
+    },
+    {
+      "id": "n5-07-e04",
+      "type": "fill",
+      "grammar": [
+        "masu"
+      ],
+      "before": "毎晩、お風呂に",
+      "after": "。",
+      "answers": [
+        "入ります"
+      ],
+      "options": [
+        "入ります",
+        "あびます",
+        "始まります"
+      ],
+      "vi": "Tối nào tôi cũng tắm bồn.",
+      "explainVi": "お風呂に入ります (tắm bồn); シャワーをあびます (tắm vòi sen)."
+    },
+    {
+      "id": "n5-07-e05",
+      "type": "choice",
+      "grammar": [
+        "masu"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Giờ học bắt đầu lúc 9 giờ\"?",
+      "options": [
+        "授業は9時に始まります。",
+        "授業は9時に終わります。",
+        "授業は9時まで始まります。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-07-e06",
+      "type": "choice",
+      "grammar": [
+        "masu"
+      ],
+      "promptVi": "Chọn từ đúng: \"Ngày mai có phải làm việc không?\"",
+      "ja": "明日、仕事は＿か。",
+      "options": [
+        "あります",
+        "います",
+        "入ります"
+      ],
+      "answer": 0,
+      "explainVi": "Sự việc (仕事, 授業) dùng あります; người dùng います."
+    },
+    {
+      "id": "n5-07-e07",
+      "type": "choice",
+      "grammar": [
+        "masen"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Thứ Bảy tôi không làm việc\"?",
+      "options": [
+        "土曜日は働きません。",
+        "土曜日は働きます。",
+        "土曜日は働きませんでした。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-07-e08",
+      "type": "fill",
+      "grammar": [
+        "masen"
+      ],
+      "before": "いいえ、明日は授業は",
+      "after": "。",
+      "answers": [
+        "ありません"
+      ],
+      "options": [
+        "ありません",
+        "あります",
+        "ではありません"
+      ],
+      "vi": "Không, ngày mai không có giờ học."
+    },
+    {
+      "id": "n5-07-e09",
+      "type": "order",
+      "grammar": [
+        "masen"
+      ],
+      "vi": "Tối nay tôi không tắm bồn.",
+      "tiles": [
+        "入りません",
+        "は",
+        "お風呂",
+        "今晩",
+        "に"
+      ],
+      "answers": [
+        "今晩はお風呂に入りません"
+      ]
+    },
+    {
+      "id": "n5-07-e10",
+      "type": "fill",
+      "grammar": [
+        "masen"
+      ],
+      "before": "すみません、田中さんは今",
+      "after": "。",
+      "answers": [
+        "いません"
+      ],
+      "options": [
+        "いません",
+        "ありません",
+        "ではありません"
+      ],
+      "vi": "Xin lỗi, anh Tanaka bây giờ không có ở đây.",
+      "explainVi": "Với người dùng いる: いません."
+    },
+    {
+      "id": "n5-07-e11",
+      "type": "choice",
+      "grammar": [
+        "mashita"
+      ],
+      "promptVi": "Câu nào nói về việc đã xảy ra?",
+      "options": [
+        "毎朝、6時に起きます。",
+        "今朝、6時に起きました。",
+        "明日、6時に起きます。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-07-e12",
+      "type": "fill",
+      "grammar": [
+        "mashita"
+      ],
+      "before": "昨日、11時に",
+      "after": "。",
+      "answers": [
+        "寝ました"
+      ],
+      "options": [
+        "寝ました",
+        "寝ます",
+        "寝ません"
+      ],
+      "vi": "Hôm qua tôi đi ngủ lúc 11 giờ."
+    },
+    {
+      "id": "n5-07-e13",
+      "type": "choice",
+      "grammar": [
+        "mashita"
+      ],
+      "promptVi": "Trả lời \"Vâng, tôi đã làm rồi.\"",
+      "ja": "宿題をしましたか。",
+      "options": [
+        "はい、しました。",
+        "はい、します。",
+        "いいえ、しませんでした。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-07-e14",
+      "type": "order",
+      "grammar": [
+        "mashita"
+      ],
+      "vi": "Sáng nay tôi đã dọn dẹp.",
+      "tiles": [
+        "しました",
+        "掃除",
+        "今朝",
+        "を"
+      ],
+      "answers": [
+        "今朝掃除をしました"
+      ]
+    },
+    {
+      "id": "n5-07-e15",
+      "type": "choice",
+      "grammar": [
+        "masen-deshita"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Hôm qua tôi không học\"?",
+      "options": [
+        "昨日は勉強しませんでした。",
+        "昨日は勉強しません。",
+        "昨日は勉強しました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-07-e16",
+      "type": "fill",
+      "grammar": [
+        "masen-deshita"
+      ],
+      "before": "先月の20日は",
+      "after": "。",
+      "answers": [
+        "働きませんでした"
+      ],
+      "options": [
+        "働きませんでした",
+        "働きません",
+        "働きました"
+      ],
+      "vi": "Ngày 20 tháng trước tôi không làm việc."
+    },
+    {
+      "id": "n5-07-e17",
+      "type": "choice",
+      "grammar": [
+        "masen-deshita"
+      ],
+      "promptVi": "Trả lời \"Không, (tôi) không tắm.\"",
+      "ja": "今朝、シャワーをあびましたか。",
+      "options": [
+        "いいえ、あびませんでした。",
+        "いいえ、あびません。",
+        "はい、あびました。"
+      ],
+      "answer": 0,
+      "explainVi": "Câu hỏi về sáng nay (đã qua) nên trả lời bằng ませんでした."
+    },
+    {
+      "id": "n5-07-e18",
+      "type": "order",
+      "grammar": [
+        "masen-deshita"
+      ],
+      "vi": "Hôm qua tôi không làm bài tập.",
+      "tiles": [
+        "宿題",
+        "しませんでした",
+        "昨日",
+        "を"
+      ],
+      "answers": [
+        "昨日宿題をしませんでした",
+        "宿題を昨日しませんでした"
+      ]
+    },
+    {
+      "id": "n5-07-e19",
+      "type": "match",
+      "promptVi": "Ghép động từ với nghĩa",
+      "pairs": [
+        [
+          "起きます",
+          "thức dậy"
+        ],
+        [
+          "寝ます",
+          "đi ngủ"
+        ],
+        [
+          "働きます",
+          "làm việc"
+        ],
+        [
+          "休みます",
+          "nghỉ"
+        ],
+        [
+          "勉強します",
+          "học"
+        ]
+      ]
+    },
+    {
+      "id": "n5-07-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "毎朝",
+          "mỗi sáng"
+        ],
+        [
+          "今朝",
+          "sáng nay"
+        ],
+        [
+          "今晩",
+          "tối nay"
+        ],
+        [
+          "夕方",
+          "chiều tối"
+        ]
+      ]
+    },
+    {
+      "id": "n5-07-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "いつも",
+          "luôn luôn"
+        ],
+        [
+          "よく",
+          "thường, hay"
+        ],
+        [
+          "ときどき",
+          "thỉnh thoảng"
+        ]
+      ]
+    },
+    {
+      "id": "n5-07-e22",
+      "type": "match",
+      "promptVi": "Ghép việc nhà với nghĩa",
+      "pairs": [
+        [
+          "掃除",
+          "dọn dẹp"
+        ],
+        [
+          "洗濯",
+          "giặt đồ"
+        ],
+        [
+          "宿題",
+          "bài tập về nhà"
+        ],
+        [
+          "お風呂",
+          "bồn tắm"
+        ]
+      ]
+    },
+    {
+      "id": "n5-07-e23",
+      "type": "translate",
+      "grammar": [
+        "masu"
+      ],
+      "vi": "Tối nào tôi cũng đi ngủ lúc 10 giờ.",
+      "answers": [
+        "(私は)毎晩10時に寝ます。"
+      ],
+      "examples": [
+        {
+          "answer": "まいばんじゅうじにねます",
+          "score": 100
+        },
+        {
+          "answer": "毎晩10時寝ます。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu に sau giờ."
+        },
+        {
+          "answer": "毎晩10時を寝ます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Giờ làm việc gì dùng に, không dùng を."
+        },
+        {
+          "answer": "毎晩10時に寝ました。",
+          "score": 0,
+          "note": "Việc lặp lại hằng ngày dùng thể ます, không dùng ました."
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e24",
+      "type": "translate",
+      "grammar": [
+        "masen"
+      ],
+      "vi": "Chủ nhật tôi không làm việc.",
+      "answers": [
+        "(私は)日曜日は働きません。",
+        "(私は)日曜日(に)は[働きません|仕事(を)しません]。"
+      ],
+      "examples": [
+        {
+          "answer": "にちようびははたらきません",
+          "score": 100
+        },
+        {
+          "answer": "にちようびわはたらきません",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "日曜日働きません。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "日曜日は働きます。",
+          "score": 0,
+          "note": "Phủ định của 働きます là 働きません."
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e25",
+      "type": "translate",
+      "grammar": [
+        "mashita"
+      ],
+      "vi": "Sáng nay tôi đã tắm vòi sen.",
+      "answers": [
+        "(私は)今朝シャワーをあびました。"
+      ],
+      "examples": [
+        {
+          "answer": "けさシャワーをあびました",
+          "score": 100
+        },
+        {
+          "answer": "けさシャワーおあびました",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ],
+          "note": "Trợ từ tân ngữ đọc là o nhưng viết を."
+        },
+        {
+          "answer": "けさしゃわーをあびました",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ],
+          "note": "Từ mượn viết bằng katakana: シャワー."
+        },
+        {
+          "answer": "今朝シャワーにあびました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "今朝シャワーをあびます。",
+          "score": 0,
+          "note": "Việc đã làm sáng nay dùng thể quá khứ あびました."
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e26",
+      "type": "translate",
+      "grammar": [
+        "masen-deshita"
+      ],
+      "vi": "Hôm qua tôi đã không làm bài tập.",
+      "answers": [
+        "(私は)昨日宿題をしませんでした。",
+        "(私は)昨日は宿題をしませんでした。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうしゅくだいをしませんでした",
+          "score": 100
+        },
+        {
+          "answer": "きのうしゅくだいおしませんでした",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "昨日宿題がしませんでした。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "昨日宿題をしません。",
+          "score": 0,
+          "note": "Nói về hôm qua thì dùng thể quá khứ phủ định しませんでした."
+        },
+        {
+          "answer": "昨日宿題をしました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-07-e27",
+      "type": "question",
+      "grammar": [
+        "masu"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "毎朝、何時に起きますか。",
+        "promptVi": "Sáng nào bạn cũng dậy lúc 6 giờ rưỡi. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(私は)(毎朝)6時[半|30分]に起きます。",
+          "6時[半|30分]です。"
+        ],
+        "examples": [
+          {
+            "answer": "まいあさろくじはんにおきます",
+            "score": 100
+          },
+          {
+            "answer": "6時半起きます。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ],
+            "note": "Thiếu に sau giờ."
+          },
+          {
+            "answer": "6時半を起きます。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "6時半に起きました。",
+            "score": 0,
+            "note": "Câu hỏi về thói quen (毎朝): trả lời bằng thể ます."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-07-e28",
+      "type": "question",
+      "grammar": [
+        "masen"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "明日、授業はありますか。",
+        "promptVi": "Ngày mai là Chủ nhật, không có giờ học. Hãy trả lời câu hỏi.",
+        "answers": [
+          "いいえ、(授業は)ありません。",
+          "(いいえ、)(明日は)(授業は)[ありません|ないです]。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、ありません",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、授業わありません",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "いいえ、ありませんでした。",
+            "score": 0,
+            "note": "Hỏi về ngày mai: trả lời bằng ありません, không dùng quá khứ."
+          },
+          {
+            "answer": "はい、あります。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "毎朝6時に起きます。": "{毎|まい}{朝|あさ}6{時|じ}に{起|お}きます。",
+    "今朝は7時に起きました。": "{今朝|けさ}は{7時|しちじ}に{起|お}きました。",
+    "毎晩11時ごろ寝ます。": "{毎|まい}{晩|ばん}11{時|じ}ごろ{寝|ね}ます。",
+    "昨日は1時に寝ました。": "{昨日|きのう}は1{時|じ}に{寝|ね}ました。",
+    "月曜日から金曜日まで働きます。": "{月|げつ}{曜|よう}{日|び}から{金|きん}{曜|よう}{日|び}まで{働|はたら}きます。",
+    "土曜日は働きません。": "{土|ど}{曜|よう}{日|び}は{働|はたら}きません。",
+    "日曜日は休みます。": "{日|にち}{曜|よう}{日|び}は{休|やす}みます。",
+    "昨日は授業を休みました。": "{昨日|きのう}は{授|じゅ}{業|ぎょう}を{休|やす}みました。",
+    "毎晩、日本語を勉強します。": "{毎|まい}{晩|ばん}、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}します。",
+    "昨日は勉強しませんでした。": "{昨日|きのう}は{勉|べん}{強|きょう}しませんでした。",
+    "毎晩、宿題をします。": "{毎|まい}{晩|ばん}、{宿|しゅく}{題|だい}をします。",
+    "今朝、掃除をしました。": "{今朝|けさ}、{掃|そう}{除|じ}をしました。",
+    "授業は4時に終わります。": "{授|じゅ}{業|ぎょう}は{4時|よじ}に{終|お}わります。",
+    "仕事は何時に終わりますか。": "{仕|し}{事|ごと}は{何時|なんじ}に{終|お}わりますか。",
+    "授業は9時に始まります。": "{授|じゅ}{業|ぎょう}は{9時|くじ}に{始|はじ}まります。",
+    "仕事は何時に始まりますか。": "{仕|し}{事|ごと}は{何時|なんじ}に{始|はじ}まりますか。",
+    "毎朝、シャワーをあびます。": "{毎|まい}{朝|あさ}、シャワーをあびます。",
+    "毎晩、お風呂に入ります。": "{毎|まい}{晩|ばん}、お{風|ふ}{呂|ろ}に{入|はい}ります。",
+    "今朝は6時に起きました。": "{今朝|けさ}は6{時|じ}に{起|お}きました。",
+    "今晩、洗濯をします。": "{今|こん}{晩|ばん}、{洗|せん}{濯|たく}をします。",
+    "夕方、掃除をします。": "{夕|ゆう}{方|がた}、{掃|そう}{除|じ}をします。",
+    "いつも12時に寝ます。": "いつも12{時|じ}に{寝|ね}ます。",
+    "ときどき、土曜日も働きます。": "ときどき、{土|ど}{曜|よう}{日|び}も{働|はたら}きます。",
+    "日曜日はよく洗濯をします。": "{日|にち}{曜|よう}{日|び}はよく{洗|せん}{濯|たく}をします。",
+    "よく勉強しますね。": "よく{勉|べん}{強|きょう}しますね。",
+    "夜、シャワーをあびます。": "{夜|よる}、シャワーをあびます。",
+    "今晩はお風呂に入りません。": "{今|こん}{晩|ばん}はお{風|ふ}{呂|ろ}に{入|はい}りません。",
+    "土曜日に掃除をします。": "{土|ど}{曜|よう}{日|び}に{掃|そう}{除|じ}をします。",
+    "日曜日の朝、洗濯をします。": "{日|にち}{曜|よう}{日|び}の{朝|あさ}、{洗|せん}{濯|たく}をします。",
+    "今晩、宿題をします。": "{今|こん}{晩|ばん}、{宿|しゅく}{題|だい}をします。",
+    "宿題をしましたか。": "{宿|しゅく}{題|だい}をしましたか。",
+    "明日、授業はありますか。": "{明日|あした}、{授|じゅ}{業|ぎょう}はありますか。",
+    "いいえ、ありません。": "いいえ、ありません。",
+    "田中さんはいますか。": "{田中|たなか}さんはいますか。",
+    "先生は今いません。": "{先|せん}{生|せい}は{今|いま}いません。",
+    "私は6時に起きます。": "{私|わたし}は6{時|じ}に{起|お}きます。",
+    "私は起きます6時に。": "{私|わたし}は{起|お}きます6{時|じ}に。",
+    "勉強します。": "{勉|べん}{強|きょう}します。",
+    "勉強ます。": "{勉|べん}{強|きょう}ます。",
+    "すみません、田中さんは今いません。": "すみません、{田中|たなか}さんは{今|いま}いません。",
+    "土曜日は働きますではありません。": "{土|ど}{曜|よう}{日|び}は{働|はたら}きますではありません。",
+    "今朝、6時に起きました。": "{今朝|けさ}、6{時|じ}に{起|お}きました。",
+    "仕事は5時に終わりました。": "{仕|し}{事|ごと}は5{時|じ}に{終|お}わりました。",
+    "昨日、11時に寝ました。": "{昨日|きのう}、11{時|じ}に{寝|ね}ました。",
+    "昨日、11時に寝ます。": "{昨日|きのう}、11{時|じ}に{寝|ね}ます。",
+    "今朝、シャワーをあびませんでした。": "{今朝|けさ}、シャワーをあびませんでした。",
+    "先月の20日は働きませんでした。": "{先|せん}{月|げつ}の{20日|はつか}は{働|はたら}きませんでした。",
+    "昨日は勉強しません。": "{昨日|きのう}は{勉|べん}{強|きょう}しません。",
+    "起きます": "{起|お}きます",
+    "寝ます": "{寝|ね}ます",
+    "入ります": "{入|はい}ります",
+    "起きます私は6時に。": "{起|お}きます{私|わたし}は6{時|じ}に。",
+    "勉強します": "{勉|べん}{強|きょう}します",
+    "日本語": "{日本|にほん}{語|ご}",
+    "毎晩": "{毎|まい}{晩|ばん}",
+    "を": "を",
+    "毎晩日本語を勉強します": "{毎|まい}{晩|ばん}{日本|にほん}{語|ご}を{勉|べん}{強|きょう}します",
+    "日本語を毎晩勉強します": "{日本|にほん}{語|ご}を{毎|まい}{晩|ばん}{勉|べん}{強|きょう}します",
+    "あびます": "あびます",
+    "始まります": "{始|はじ}まります",
+    "授業は9時に終わります。": "{授|じゅ}{業|ぎょう}は{9時|くじ}に{終|お}わります。",
+    "授業は9時まで始まります。": "{授|じゅ}{業|ぎょう}は{9時|くじ}まで{始|はじ}まります。",
+    "明日、仕事は＿か。": "{明日|あした}、{仕|し}{事|ごと}は＿か。",
+    "あります": "あります",
+    "います": "います",
+    "土曜日は働きます。": "{土|ど}{曜|よう}{日|び}は{働|はたら}きます。",
+    "土曜日は働きませんでした。": "{土|ど}{曜|よう}{日|び}は{働|はたら}きませんでした。",
+    "いいえ、明日は授業はありません。": "いいえ、{明日|あした}は{授|じゅ}{業|ぎょう}はありません。",
+    "ありません": "ありません",
+    "ではありません": "ではありません",
+    "入りません": "{入|はい}りません",
+    "は": "は",
+    "お風呂": "お{風|ふ}{呂|ろ}",
+    "今晩": "{今|こん}{晩|ばん}",
+    "に": "に",
+    "今晩はお風呂に入りません": "{今|こん}{晩|ばん}はお{風|ふ}{呂|ろ}に{入|はい}りません",
+    "いません": "いません",
+    "毎朝、6時に起きます。": "{毎|まい}{朝|あさ}、6{時|じ}に{起|お}きます。",
+    "明日、6時に起きます。": "{明日|あした}、6{時|じ}に{起|お}きます。",
+    "寝ました": "{寝|ね}ました",
+    "寝ません": "{寝|ね}ません",
+    "はい、しました。": "はい、しました。",
+    "はい、します。": "はい、します。",
+    "いいえ、しませんでした。": "いいえ、しませんでした。",
+    "しました": "しました",
+    "掃除": "{掃|そう}{除|じ}",
+    "今朝": "{今朝|けさ}",
+    "今朝掃除をしました": "{今朝|けさ}{掃|そう}{除|じ}をしました",
+    "昨日は勉強しました。": "{昨日|きのう}は{勉|べん}{強|きょう}しました。",
+    "働きませんでした": "{働|はたら}きませんでした",
+    "働きません": "{働|はたら}きません",
+    "働きました": "{働|はたら}きました",
+    "今朝、シャワーをあびましたか。": "{今朝|けさ}、シャワーをあびましたか。",
+    "いいえ、あびませんでした。": "いいえ、あびませんでした。",
+    "いいえ、あびません。": "いいえ、あびません。",
+    "はい、あびました。": "はい、あびました。",
+    "宿題": "{宿|しゅく}{題|だい}",
+    "しませんでした": "しませんでした",
+    "昨日": "{昨日|きのう}",
+    "昨日宿題をしませんでした": "{昨日|きのう}{宿|しゅく}{題|だい}をしませんでした",
+    "宿題を昨日しませんでした": "{宿|しゅく}{題|だい}を{昨日|きのう}しませんでした",
+    "働きます": "{働|はたら}きます",
+    "休みます": "{休|やす}みます",
+    "毎朝": "{毎|まい}{朝|あさ}",
+    "夕方": "{夕|ゆう}{方|がた}",
+    "いつも": "いつも",
+    "よく": "よく",
+    "ときどき": "ときどき",
+    "洗濯": "{洗|せん}{濯|たく}",
+    "私は毎晩10時に寝ます。": "{私|わたし}は{毎|まい}{晩|ばん}10{時|じ}に{寝|ね}ます。",
+    "私は日曜日は働きません。": "{私|わたし}は{日|にち}{曜|よう}{日|び}は{働|はたら}きません。",
+    "私は日曜日には働きません。": "{私|わたし}は{日|にち}{曜|よう}{日|び}には{働|はたら}きません。",
+    "私は今朝シャワーをあびました。": "{私|わたし}は{今朝|けさ}シャワーをあびました。",
+    "私は昨日宿題をしませんでした。": "{私|わたし}は{昨日|きのう}{宿|しゅく}{題|だい}をしませんでした。",
+    "私は昨日は宿題をしませんでした。": "{私|わたし}は{昨日|きのう}は{宿|しゅく}{題|だい}をしませんでした。",
+    "毎朝、何時に起きますか。": "{毎|まい}{朝|あさ}、{何時|なんじ}に{起|お}きますか。",
+    "私は毎朝6時半に起きます。": "{私|わたし}は{毎|まい}{朝|あさ}6{時|じ}{半|はん}に{起|お}きます。",
+    "6時半です。": "6{時|じ}{半|はん}です。",
+    "いいえ、授業はありません。": "いいえ、{授|じゅ}{業|ぎょう}はありません。"
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "id": "kana-02",
+  "goalsVi": [
+    "Đọc và viết được hàng さ: さ し す せ そ",
+    "Đọc và viết được hàng た: た ち つ て と",
+    "Phân biệt được các chữ dễ nhầm: さ và ち, し và つ"
+  ],
+  "practice": [
+    {
+      "ja": "あさ",
+      "vi": "buổi sáng"
+    },
+    {
+      "ja": "いす",
+      "vi": "cái ghế"
+    },
+    {
+      "ja": "すし",
+      "vi": "món sushi"
+    },
+    {
+      "ja": "かさ",
+      "vi": "cái ô"
+    },
+    {
+      "ja": "した",
+      "vi": "phía dưới"
+    },
+    {
+      "ja": "そと",
+      "vi": "bên ngoài"
+    },
+    {
+      "ja": "たかい",
+      "vi": "cao; đắt"
+    },
+    {
+      "ja": "ちかい",
+      "vi": "gần"
+    },
+    {
+      "ja": "くつ",
+      "vi": "đôi giày"
+    },
+    {
+      "ja": "て",
+      "vi": "bàn tay"
+    },
+    {
+      "ja": "あし",
+      "vi": "chân"
+    },
+    {
+      "ja": "うた",
+      "vi": "bài hát"
+    },
+    {
+      "ja": "つくえ",
+      "vi": "cái bàn"
+    },
+    {
+      "ja": "せかい",
+      "vi": "thế giới"
+    },
+    {
+      "ja": "ちいさい",
+      "vi": "nhỏ"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-02-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"sa\"?",
+      "options": [
+        "さ",
+        "ち",
+        "き"
+      ],
+      "answer": 0,
+      "explainVi": "さ và ち gần như đối xứng: nét cong dưới của さ mở sang phải (như chữ c), của ち mở sang trái (như số 5)."
+    },
+    {
+      "id": "kana-02-e02",
+      "type": "choice",
+      "promptVi": "Chữ し đọc là gì?",
+      "options": [
+        "shi",
+        "tsu",
+        "chi"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-02-e03",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"tsu\"?",
+      "options": [
+        "し",
+        "つ",
+        "う"
+      ],
+      "answer": 1,
+      "explainVi": "つ là một nét cong nằm ngang; し là một nét móc thẳng đứng."
+    },
+    {
+      "id": "kana-02-e04",
+      "type": "choice",
+      "promptVi": "Chữ ち đọc là gì?",
+      "options": [
+        "sa",
+        "ki",
+        "chi"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "kana-02-e05",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"to\"?",
+      "options": [
+        "と",
+        "て",
+        "そ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-02-e06",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"se\"?",
+      "options": [
+        "さ",
+        "せ",
+        "そ"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-02-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "さ",
+          "sa"
+        ],
+        [
+          "し",
+          "shi"
+        ],
+        [
+          "す",
+          "su"
+        ],
+        [
+          "せ",
+          "se"
+        ],
+        [
+          "そ",
+          "so"
+        ]
+      ]
+    },
+    {
+      "id": "kana-02-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "た",
+          "ta"
+        ],
+        [
+          "ち",
+          "chi"
+        ],
+        [
+          "つ",
+          "tsu"
+        ],
+        [
+          "て",
+          "te"
+        ],
+        [
+          "と",
+          "to"
+        ]
+      ]
+    },
+    {
+      "id": "kana-02-e09",
+      "type": "choice",
+      "promptVi": "\"isu\" (cái ghế) viết thế nào?",
+      "options": [
+        "いす",
+        "いつ",
+        "いし"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-02-e10",
+      "type": "choice",
+      "promptVi": "Từ くつ nghĩa là gì?",
+      "options": [
+        "cái ô",
+        "đôi giày",
+        "cái ghế"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-02-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "あさ",
+          "buổi sáng"
+        ],
+        [
+          "かさ",
+          "cái ô"
+        ],
+        [
+          "そと",
+          "bên ngoài"
+        ],
+        [
+          "した",
+          "phía dưới"
+        ]
+      ]
+    },
+    {
+      "id": "kana-02-e12",
+      "type": "order",
+      "vi": "Ghép thành từ \"tsukue\" (cái bàn)",
+      "tiles": [
+        "え",
+        "つ",
+        "く"
+      ],
+      "answers": [
+        "つくえ"
+      ]
+    },
+    {
+      "id": "kana-02-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"chikai\" (gần)",
+      "tiles": [
+        "い",
+        "ち",
+        "か"
+      ],
+      "answers": [
+        "ちかい"
+      ]
+    },
+    {
+      "id": "kana-02-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"sushi\" (món sushi)",
+      "tiles": [
+        "し",
+        "す"
+      ],
+      "answers": [
+        "すし"
+      ]
+    },
+    {
+      "id": "kana-02-e15",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"cao; đắt\"?",
+      "options": [
+        "ちかい",
+        "ちいさい",
+        "たかい"
+      ],
+      "answer": 2
+    }
+  ],
+  "ruby": {
+    "あさ": "あさ",
+    "いす": "いす",
+    "すし": "すし",
+    "かさ": "かさ",
+    "した": "した",
+    "そと": "そと",
+    "たかい": "たかい",
+    "ちかい": "ちかい",
+    "くつ": "くつ",
+    "て": "て",
+    "あし": "あし",
+    "うた": "うた",
+    "つくえ": "つくえ",
+    "せかい": "せかい",
+    "ちいさい": "ちいさい",
+    "さ": "さ",
+    "ち": "ち",
+    "き": "き",
+    "し": "し",
+    "つ": "つ",
+    "う": "う",
+    "と": "と",
+    "そ": "そ",
+    "せ": "せ",
+    "す": "す",
+    "た": "た",
+    "いつ": "いつ",
+    "いし": "いし",
+    "え": "え",
+    "く": "く",
+    "い": "い",
+    "か": "か"
+  }
+}

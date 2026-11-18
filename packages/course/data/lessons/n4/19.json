@@ -1,0 +1,1328 @@
+{
+  "id": "n4-19",
+  "goalsVi": [
+    "Nói hành động đang ở giai đoạn nào bằng 〜ところです: 出かけるところです、作っているところです、着いたところです",
+    "Chia đều, làm từng chút một bằng 〜ずつ: 一人2つずつ、少しずつ",
+    "Nói việc lặp lại cách quãng bằng 〜おきに và thứ tự bằng 〜目: 1日おきに、2つ目の角",
+    "Đếm đêm trọ, nhà, bộ quần áo, lần: 2泊、3軒、1着、2度",
+    "Mua sắm và đi tàu: ねだん、おつり、レジ、払う、急行、特急、普通"
+  ],
+  "words": [
+    {
+      "no": 702,
+      "word": "以下",
+      "meaningsVi": [
+        "… trở xuống, không quá …"
+      ],
+      "noteVi": "Âm Hán Việt \"dĩ hạ\". **Tính cả con số đó**: 3000円以下 là từ 3000 yên trở xuống (3000 yên cũng được). Còn \"dưới 3000 yên\" (không tính 3000) là 3000円未満 (ngoài bài).",
+      "examples": [
+        {
+          "ja": "3000円以下のプレゼントを探しています。",
+          "vi": "Tôi đang tìm món quà từ 3000 yên trở xuống."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 709,
+      "word": "以上",
+      "meaningsVi": [
+        "… trở lên, hơn …",
+        "hết, xong (cuối bài nói: 以上です)"
+      ],
+      "noteVi": "Âm Hán Việt \"dĩ thượng\". **Tính cả con số đó**: 20歳以上 là từ 20 tuổi trở lên. 以上です đặt cuối bài phát biểu, báo cáo: \"xin hết\".",
+      "examples": [
+        {
+          "ja": "毎日8時間以上働いています。",
+          "vi": "Ngày nào tôi cũng làm việc từ 8 tiếng trở lên."
+        },
+        {
+          "ja": "私の話は以上です。",
+          "vi": "Phần trình bày của tôi đến đây là hết."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 751,
+      "word": "億",
+      "meaningsVi": [
+        "một trăm triệu"
+      ],
+      "noteVi": "Âm Hán Việt \"ức\". Tiếng Nhật đếm theo 4 chữ số: 1万 = 10 nghìn, 1億 = 1万 × 1万 = 100 triệu, 10億 = 1 tỷ. Chú ý khi đổi sang tiếng Việt.",
+      "examples": [
+        {
+          "ja": "日本の人口は1億2000万人ぐらいです。",
+          "vi": "Dân số Nhật Bản khoảng 120 triệu người."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1091,
+      "word": "点",
+      "meaningsVi": [
+        "điểm (bài thi)",
+        "điểm, mặt (vấn đề)",
+        "dấu chấm"
+      ],
+      "noteVi": "Âm Hán Việt \"điểm\", nghĩa gần như tiếng Việt. Được điểm: 点を取る. Dấu 、 trong câu tiếng Nhật cũng gọi là 点.",
+      "examples": [
+        {
+          "ja": "テストで90点を取りました。",
+          "vi": "Tôi được 90 điểm bài kiểm tra."
+        },
+        {
+          "ja": "この点がよくわかりません。",
+          "vi": "Điểm này tôi chưa hiểu lắm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1152,
+      "word": "倍",
+      "meaningsVi": [
+        "gấp đôi",
+        "gấp … lần (sau số)"
+      ],
+      "noteVi": "Âm Hán Việt \"bội\". Đứng một mình là \"gấp đôi\": 倍になる. Sau số: 2倍 (gấp 2), 3倍 (gấp 3).",
+      "examples": [
+        {
+          "ja": "野菜のねだんが2倍になりました。",
+          "vi": "Giá rau đã tăng gấp đôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1303,
+      "word": "割合",
+      "meaningsVi": [
+        "tỷ lệ",
+        "tương đối, khá (phó từ)"
+      ],
+      "noteVi": "Tỷ lệ cao, thấp: 割合が高い / 低い (không nói 多い). Làm phó từ: 割合簡単でした (khá dễ).",
+      "examples": [
+        {
+          "ja": "このクラスは女性の割合が高いです。",
+          "vi": "Lớp này tỷ lệ nữ cao."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1035,
+      "word": "だいたい",
+      "meaningsVi": [
+        "khoảng, đại khái",
+        "hầu hết, phần lớn"
+      ],
+      "noteVi": "Kanji: 大体. Trước số lượng: \"khoảng\" (= ぐらい). Với động từ: hiểu, làm được phần lớn.",
+      "examples": [
+        {
+          "ja": "駅まではだいたい10分です。",
+          "vi": "Đến ga mất khoảng 10 phút."
+        },
+        {
+          "ja": "先生の話はだいたいわかりました。",
+          "vi": "Tôi hiểu đại khái lời thầy giảng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1036,
+      "word": "たいてい",
+      "meaningsVi": [
+        "thường thì, thường là",
+        "phần lớn"
+      ],
+      "noteVi": "Kanji: 大抵. Nói thói quen gần như lúc nào cũng vậy, mức cao hơn よく và 時々.",
+      "examples": [
+        {
+          "ja": "日曜日はたいてい家にいます。",
+          "vi": "Chủ nhật tôi thường ở nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1054,
+      "word": "たまに",
+      "meaningsVi": [
+        "thỉnh thoảng, đôi khi (hiếm khi)"
+      ],
+      "noteVi": "Ít hơn 時々. Thứ tự tần suất: いつも > たいてい > よく > 時々 > たまに > あまり〜ない > 全然〜ない.",
+      "examples": [
+        {
+          "ja": "たまに映画を見に行きます。",
+          "vi": "Thỉnh thoảng tôi đi xem phim."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1219,
+      "word": "ほとんど",
+      "meaningsVi": [
+        "hầu hết, gần như",
+        "hầu như không (với phủ định)"
+      ],
+      "noteVi": "Trước danh từ dùng ほとんどの. Với phủ định: hầu như không (mức thấp hơn あまり〜ない).",
+      "examples": [
+        {
+          "ja": "ほとんどの学生が来ました。",
+          "vi": "Hầu hết sinh viên đã đến."
+        },
+        {
+          "ja": "お酒はほとんど飲みません。",
+          "vi": "Tôi hầu như không uống rượu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1043,
+      "word": "足す",
+      "meaningsVi": [
+        "cộng (số)",
+        "thêm vào"
+      ],
+      "noteVi": "Cộng A với B: AにBを足す. Thêm vào cho đủ: 塩を足す, 水を足す.",
+      "examples": [
+        {
+          "ja": "2に3を足すと、5になります。",
+          "vi": "2 cộng 3 bằng 5."
+        },
+        {
+          "ja": "塩をもう少し足してください。",
+          "vi": "Cho thêm chút muối nữa giúp tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1139,
+      "word": "ねだん",
+      "meaningsVi": [
+        "giá, giá cả"
+      ],
+      "noteVi": "Kanji: 値段. Giá cao, rẻ: ねだんが高い / 安い. Hỏi giá thường nói いくらですか.",
+      "examples": [
+        {
+          "ja": "このかばんはねだんが高いです。",
+          "vi": "Cái túi này giá cao."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 765,
+      "word": "おつり",
+      "meaningsVi": [
+        "tiền thừa, tiền thối lại"
+      ],
+      "noteVi": "Kanji: お釣り. Nhận tiền thừa: おつりをもらう.",
+      "examples": [
+        {
+          "ja": "おつりは200円です。",
+          "vi": "Tiền thừa của quý khách là 200 yên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1293,
+      "word": "レジ",
+      "meaningsVi": [
+        "quầy thu ngân, quầy tính tiền"
+      ],
+      "noteVi": "Từ register (máy tính tiền). Xếp hàng ở quầy: レジに並ぶ.",
+      "examples": [
+        {
+          "ja": "レジでお金を払います。",
+          "vi": "Tôi trả tiền ở quầy thu ngân."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1165,
+      "word": "払う",
+      "meaningsVi": [
+        "trả (tiền)"
+      ],
+      "noteVi": "N を払う: お金を払う, 家賃を払う. Thể て: 払って.",
+      "examples": [
+        {
+          "ja": "お金はレジで払ってください。",
+          "vi": "Xin trả tiền ở quầy thu ngân."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1092,
+      "word": "店員",
+      "meaningsVi": [
+        "nhân viên cửa hàng"
+      ],
+      "noteVi": "Âm Hán Việt \"điếm viên\". Gọi nhân viên lịch sự: 店員さん, hoặc すみません.",
+      "examples": [
+        {
+          "ja": "店員さんに聞いてみましょう。",
+          "vi": "Thử hỏi nhân viên cửa hàng xem."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 973,
+      "word": "食料品",
+      "meaningsVi": [
+        "thực phẩm, đồ ăn (để bán)"
+      ],
+      "noteVi": "Âm Hán Việt \"thực liệu phẩm\". Thường dùng ở cửa hàng, siêu thị: khu thực phẩm 食料品売り場.",
+      "examples": [
+        {
+          "ja": "食料品は1階で売っています。",
+          "vi": "Thực phẩm được bán ở tầng 1."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 844,
+      "word": "急行",
+      "meaningsVi": [
+        "tàu tốc hành, tàu nhanh"
+      ],
+      "noteVi": "Âm Hán Việt \"cấp hành\". Tàu chỉ dừng ở các ga lớn. Ở Nhật có: 普通 (dừng mọi ga), 急行 (nhanh), 特急 (tốc hành đặc biệt).",
+      "examples": [
+        {
+          "ja": "急行に乗れば、10分早く着きます。",
+          "vi": "Nếu đi tàu nhanh thì đến sớm hơn 10 phút."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1197,
+      "word": "普通",
+      "meaningsVi": [
+        "bình thường, thông thường",
+        "thường thì",
+        "tàu thường (dừng mọi ga)"
+      ],
+      "noteVi": "Âm Hán Việt \"phổ thông\" nhưng nghĩa thường gặp là \"bình thường\": 普通の人 (người bình thường). Trên bảng giờ tàu: 普通 = tàu dừng mọi ga.",
+      "examples": [
+        {
+          "ja": "この駅には普通しか止まりません。",
+          "vi": "Ga này chỉ có tàu thường dừng."
+        },
+        {
+          "ja": "普通は8時ごろ起きます。",
+          "vi": "Thường thì tôi dậy lúc khoảng 8 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 974,
+      "word": "女性",
+      "meaningsVi": [
+        "phụ nữ, nữ giới"
+      ],
+      "noteVi": "Âm Hán Việt \"nữ tính\" nhưng nghĩa là \"phụ nữ\", không phải \"tính nữ\". Lịch sự, trang trọng hơn 女の人; 女 đứng một mình nghe thô.",
+      "examples": [
+        {
+          "ja": "この会社は女性が多いです。",
+          "vi": "Công ty này có nhiều nữ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1058,
+      "word": "男性",
+      "meaningsVi": [
+        "nam giới, đàn ông"
+      ],
+      "noteVi": "Âm Hán Việt \"nam tính\" nhưng nghĩa là \"nam giới\". Lịch sự hơn 男の人.",
+      "examples": [
+        {
+          "ja": "あの男性は誰ですか。",
+          "vi": "Người đàn ông kia là ai vậy?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 829,
+      "word": "汽車",
+      "meaningsVi": [
+        "tàu hỏa (chạy bằng hơi nước)"
+      ],
+      "noteVi": "Âm Hán Việt \"khí xa\" (xe hơi nước). Nghe cổ; tàu điện ngày nay là 電車. Chú ý: \"xe hơi\" tiếng Việt là 車, không phải 汽車.",
+      "examples": [
+        {
+          "ja": "昔はこの町まで汽車が走っていました。",
+          "vi": "Ngày xưa tàu hỏa chạy đến tận thị trấn này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1107,
+      "word": "特急",
+      "meaningsVi": [
+        "tàu tốc hành đặc biệt"
+      ],
+      "noteVi": "Âm Hán Việt \"đặc cấp\". Nhanh hơn 急行, thường phải mua thêm vé tốc hành (特急券).",
+      "examples": [
+        {
+          "ja": "特急で大阪まで2時間半かかります。",
+          "vi": "Đi tàu tốc hành đặc biệt đến Osaka mất 2 tiếng rưỡi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "以",
+      "meaningVi": "lấy, từ (mốc)",
+      "noteVi": "Gặp trong 以上 (いじょう), 以下 (いか), 以外 (いがい), 以内 (いない).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "週",
+      "meaningVi": "tuần",
+      "noteVi": "Gặp trong 今週 (こんしゅう), 毎週 (まいしゅう), 1週間. Bộ 辶 (đi) + 周 (vòng quanh): một vòng các ngày.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "店",
+      "meaningVi": "cửa hàng, quán",
+      "noteVi": "Gặp trong 店 (みせ), 店員 (てんいん), 喫茶店 (きっさてん). Bộ 广 (mái nhà) + 占.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "員",
+      "meaningVi": "người, thành viên",
+      "noteVi": "Gặp trong 店員 (てんいん), 会社員, 公務員 (こうむいん). Trên là 口, dưới là 貝.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "買",
+      "meaningVi": "mua",
+      "noteVi": "Gặp trong 買う (かう), 買い物 (かいもの). Dưới là 貝 (vỏ sò, ngày xưa dùng làm tiền).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "曜",
+      "meaningVi": "ngày trong tuần",
+      "noteVi": "Gặp trong 月曜日 (げつようび), 何曜日 (なんようび). Bộ 日 bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "tokoro-da",
+      "titleVi": "〜ところだ: sắp, đang, vừa (đúng lúc)",
+      "summaryVi": "V る / V ている / V た + ところです: hành động đang ở giai đoạn nào: sắp làm, đang làm dở, vừa làm xong.",
+      "explanationVi": [
+        "**ところ** vốn là \"chỗ\"; trong mẫu này là \"**đúng lúc**\". Đứng sau động từ, nó cho biết hành động đang ở **giai đoạn nào**, giống \"sắp\", \"đang\", \"vừa\" trong tiếng Việt.",
+        "**V る + ところです**: **sắp** làm (ngay bây giờ): 「今から出かけるところです」 (Tôi sắp ra ngoài). **V ている + ところです**: **đang** làm dở: 「今、晩ご飯を作っているところです」 (Tôi đang nấu cơm tối). **V た + ところです**: **vừa** làm xong: 「今、駅に着いたところです」 (Tôi vừa đến ga).",
+        "Hay đi với 今, 今から, ちょうど: 「ちょうど今、家に帰ったところです」. Thường dùng để giải thích tình trạng của mình lúc đó, ví dụ khi nghe điện thoại.",
+        "So với 〜たばかり (bài trước): **V たところ** là vừa xong **theo đồng hồ** (mấy phút trước), không dùng cho chuyện đã lâu; **V たばかり** là vừa mới **theo cảm nhận**, có thể là tháng trước: 「先月日本に来たばかりです」 (không nói 来たところです)."
+      ],
+      "patterns": [
+        "V る + ところです (sắp)",
+        "V ている + ところです (đang)",
+        "V た + ところです (vừa xong)"
+      ],
+      "examples": [
+        {
+          "ja": "今から出かけるところです。",
+          "vi": "Tôi đang chuẩn bị đi ra ngoài."
+        },
+        {
+          "ja": "今、晩ご飯を作っているところです。",
+          "vi": "Bây giờ tôi đang nấu bữa tối."
+        },
+        {
+          "ja": "ちょうど今、駅に着いたところです。",
+          "vi": "Tôi vừa mới tới ga."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先月日本に来たところです。",
+          "right": "先月日本に来たばかりです。",
+          "noteVi": "V たところ chỉ dùng cho việc vừa xong cách đây rất ngắn. Chuyện tháng trước dùng たばかり."
+        },
+        {
+          "wrong": "今から出かけたところです。",
+          "right": "今から出かけるところです。",
+          "noteVi": "\"Sắp\" dùng thể từ điển (出かける) + ところ; thể た là \"vừa xong\", không đi với 今から."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "zutsu",
+      "titleVi": "〜ずつ: mỗi …, từng … một",
+      "summaryVi": "Số lượng + ずつ: chia đều mỗi người, mỗi lần một lượng như nhau; 少しずつ: từng chút một.",
+      "explanationVi": [
+        "**Số lượng + ずつ** nói một lượng **chia đều**, lặp lại như nhau cho mỗi người, mỗi lần: 「一人2つずつ取ってください」 (Mỗi người lấy 2 cái), 「毎日、漢字を5つずつ覚えています」 (Mỗi ngày tôi nhớ 5 chữ Hán).",
+        "ずつ đứng **sau số lượng** (có trợ số từ): 1つずつ, 2枚ずつ, 3人ずつ. Tiếng Việt nói \"**mỗi** người hai cái\" (chữ \"mỗi\" gắn với người), còn tiếng Nhật gắn ずつ vào **lượng được chia**: 一人2つずつ.",
+        "**少しずつ**: từng chút một, dần dần: 「日本語が少しずつ上手になりました」. **一人ずつ**, **一つずつ**: lần lượt từng người, từng cái một: 「一人ずつ部屋に入ってください」."
+      ],
+      "patterns": [
+        "Số + trợ số từ + ずつ",
+        "一人 + số lượng + ずつ (mỗi người …)",
+        "少しずつ / 一人ずつ / 一つずつ"
+      ],
+      "examples": [
+        {
+          "ja": "一人2つずつ取ってください。",
+          "vi": "Mỗi người hãy lấy 2 cái."
+        },
+        {
+          "ja": "毎日、漢字を5つずつ覚えています。",
+          "vi": "Mỗi ngày tôi nhớ 5 chữ Hán."
+        },
+        {
+          "ja": "日本語が少しずつ上手になりました。",
+          "vi": "Tiếng Nhật của tôi giỏi lên từng chút một."
+        },
+        {
+          "ja": "一人ずつ部屋に入ってください。",
+          "vi": "Hãy vào phòng lần lượt từng người một."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "一人ずつ2つ取ってください。",
+          "right": "一人2つずつ取ってください。",
+          "noteVi": "Câu sai không sai ngữ pháp nhưng sai ý: 一人ずつ là \"lần lượt từng người\". Muốn nói \"mỗi người 2 cái\" thì ずつ đi sau lượng được chia: 2つずつ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "oki-ni",
+      "titleVi": "〜おきに: cách …, cứ … một lần",
+      "summaryVi": "Số + trợ số từ + おきに: việc lặp lại cách nhau đều đặn: 1日おきに (cách ngày), 10分おきに (cứ 10 phút một lần).",
+      "explanationVi": [
+        "**Số lượng + おきに** nói một việc lặp lại **cách nhau một khoảng đều**: 「1日おきにプールへ行きます」 (Tôi đi bơi cách ngày), 「バスは10分おきに来ます」 (Xe buýt cứ 10 phút có một chuyến).",
+        "Với **ngày, tuần, tháng, năm**, おき là **bỏ qua** khoảng đó: 1日おき = cách một ngày (thứ Hai, thứ Tư, thứ Sáu…), 2日おき = cách hai ngày (cứ 3 ngày một lần). Với **giờ, phút, mét**, thường hiểu là \"cứ … một lần\": 「4時間おきに薬を飲みます」 (cứ 4 tiếng uống một lần).",
+        "おきに đứng **sau số lượng**, không đứng sau 毎日, 毎週. Trước danh từ dùng おきの: 1日おきの授業 (lớp học cách ngày)."
+      ],
+      "patterns": [
+        "Số + trợ số từ + おきに + V",
+        "1日おきに (cách ngày)",
+        "Số + trợ số từ + おきの + N"
+      ],
+      "examples": [
+        {
+          "ja": "1日おきにプールへ行きます。",
+          "vi": "Tôi đi bơi cách ngày."
+        },
+        {
+          "ja": "この薬は4時間おきに飲んでください。",
+          "vi": "Thuốc này cứ 4 tiếng uống một lần."
+        },
+        {
+          "ja": "バスは10分おきに来ます。",
+          "vi": "Xe buýt cứ 10 phút có một chuyến."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "毎日おきにプールへ行きます。",
+          "right": "1日おきにプールへ行きます。",
+          "noteVi": "おきに đi sau số lượng (1日, 2週間…). 毎日 đã là \"mỗi ngày\" nên không thêm おきに."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "me",
+      "titleVi": "〜目: thứ … (số thứ tự)",
+      "summaryVi": "Số + trợ số từ + 目: chỉ thứ tự: 2つ目 (cái thứ hai), 3回目 (lần thứ ba), 2日目 (ngày thứ hai).",
+      "explanationVi": [
+        "Thêm **目** (め) sau **số + trợ số từ** để nói **thứ tự**: 1つ目 (cái thứ nhất), 2回目 (lần thứ hai), 3日目 (ngày thứ ba), 2年目 (năm thứ hai), 3番目 (thứ ba).",
+        "So sánh: 「3回」 là \"3 lần\" (số lượng), 「3回目」 là \"lần **thứ** 3\" (thứ tự). 「2日」 là \"2 ngày\" hoặc \"ngày mùng 2\", 「2日目」 là \"ngày thứ hai\" (của chuyến đi, khóa học…).",
+        "Hay dùng khi chỉ đường và nói kinh nghiệm: 「2つ目の角を右に曲がってください」 (Rẽ phải ở góc phố thứ hai), 「これで3回目の日本旅行です」 (Đây là lần thứ 3 tôi du lịch Nhật). Trước danh từ có の: 2つ目の角."
+      ],
+      "patterns": [
+        "Số + trợ số từ + 目",
+        "Số + trợ số từ + 目 + の + N"
+      ],
+      "examples": [
+        {
+          "ja": "2つ目の角を右に曲がってください。",
+          "vi": "Hãy rẽ phải ở góc phố thứ hai."
+        },
+        {
+          "ja": "これで3回目の日本旅行です。",
+          "vi": "Đây là chuyến du lịch Nhật lần thứ 3 của tôi."
+        },
+        {
+          "ja": "旅行の2日目は京都に行きました。",
+          "vi": "Ngày thứ hai của chuyến đi, chúng tôi đến Kyoto."
+        },
+        {
+          "ja": "日本の生活は今年で2年目です。",
+          "vi": "Năm nay là năm thứ hai tôi sống ở Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "2つの角を右に曲がってください。",
+          "right": "2つ目の角を右に曲がってください。",
+          "noteVi": "2つ là \"hai cái\" (số lượng). Nói thứ tự (góc thứ hai) cần 目: 2つ目."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "x-counters-n4",
+      "titleVi": "Trợ số từ: 〜泊, 〜軒, 〜着, 〜番目, 〜度",
+      "summaryVi": "泊 (đêm ở trọ), 軒 (căn nhà, cửa hàng), 着 (bộ quần áo), 番目 (thứ …), 度 (lần; độ).",
+      "explanationVi": [
+        "**〜泊** (はく): số **đêm** ở khách sạn, nhà trọ: 1泊 (いっぱく), 2泊 (にはく), 3泊 (さんぱく). 「2泊3日」 là chuyến đi 3 ngày 2 đêm: tiếng Nhật nói số đêm trước.",
+        "**〜軒** (けん): đếm **nhà, cửa hàng**: 1軒 (いっけん), 2軒 (にけん), 3軒 (**さんげん**). **〜着** (ちゃく): đếm **bộ quần áo** như com lê, áo khoác, váy: 1着 (いっちゃく), 2着 (にちゃく). Áo sơ mi, áo phông mỏng thì vẫn đếm bằng 枚.",
+        "**〜番目** (ばんめ): thứ tự, giống 〜目: 1番目, 2番目, 「前から3番目の人」 (người thứ ba tính từ đầu). **〜度** (ど): **lần** (trang trọng hơn 回): 1度 (いちど), 2度 (にど); và **độ** (nhiệt độ): 「熱が38度あります」.",
+        "Hỏi số lượng: 何泊 (なんぱく), 何軒 (なんげん), 何着 (なんちゃく), 何番目 (なんばんめ), 何度 (なんど)."
+      ],
+      "patterns": [
+        "Số + 泊 / 軒 / 着 / 番目 / 度",
+        "何泊 / 何軒 / 何着 / 何番目 / 何度"
+      ],
+      "examples": [
+        {
+          "ja": "京都のホテルに2泊しました。",
+          "vi": "Tôi đã ở khách sạn ở Kyoto 2 đêm."
+        },
+        {
+          "ja": "駅の前に喫茶店が2軒あります。",
+          "vi": "Trước ga có 2 quán cà phê."
+        },
+        {
+          "ja": "スーツを1着買いました。",
+          "vi": "Tôi đã mua một bộ com lê."
+        },
+        {
+          "ja": "熱が38度あります。",
+          "vi": "Tôi sốt 38 độ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "3日2泊の旅行に行きます。",
+          "right": "2泊3日の旅行に行きます。",
+          "noteVi": "Tiếng Nhật nói số đêm trước: 2泊3日 (3 ngày 2 đêm). Nói 3日2泊 theo thứ tự tiếng Việt nghe rất lạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-19-e01",
+      "type": "choice",
+      "grammar": [
+        "tokoro-da"
+      ],
+      "promptVi": "\"Tôi vừa mới tới ga.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "ちょうど今、駅に＿ところです。",
+      "options": [
+        "着いた",
+        "着く",
+        "着いて"
+      ],
+      "answer": 0,
+      "explainVi": "Vừa xong: thể た + ところ. 着くところ là \"sắp đến\"."
+    },
+    {
+      "id": "n4-19-e02",
+      "type": "fill",
+      "grammar": [
+        "tokoro-da"
+      ],
+      "before": "今、晩ご飯を",
+      "after": "ところです。",
+      "answers": [
+        "作っている"
+      ],
+      "options": [
+        "作っている",
+        "作った",
+        "作る"
+      ],
+      "vi": "Bây giờ tôi đang nấu bữa tối (đang làm dở).",
+      "explainVi": "Đang làm dở: V ている + ところ."
+    },
+    {
+      "id": "n4-19-e03",
+      "type": "fill",
+      "grammar": [
+        "tokoro-da"
+      ],
+      "before": "今から",
+      "after": "ところです。",
+      "answers": [
+        "出かける"
+      ],
+      "options": [
+        "出かける",
+        "出かけた",
+        "出かけている"
+      ],
+      "vi": "Bây giờ tôi sắp đi ra ngoài.",
+      "explainVi": "Sắp làm: thể từ điển + ところ."
+    },
+    {
+      "id": "n4-19-e04",
+      "type": "choice",
+      "grammar": [
+        "tokoro-da",
+        "ta-bakari"
+      ],
+      "promptVi": "Câu nào đúng: \"Tôi vừa mới sang Nhật tháng trước.\"",
+      "options": [
+        "先月日本に来たばかりです。",
+        "先月日本に来たところです。",
+        "先月日本に来るところです。"
+      ],
+      "answer": 0,
+      "explainVi": "Chuyện tháng trước: たばかり (vừa mới theo cảm nhận). たところ chỉ dùng cho việc vừa xong mấy phút trước."
+    },
+    {
+      "id": "n4-19-e05",
+      "type": "fill",
+      "grammar": [
+        "zutsu"
+      ],
+      "before": "一人2つ",
+      "after": "取ってください。",
+      "answers": [
+        "ずつ"
+      ],
+      "options": [
+        "ずつ",
+        "おきに",
+        "目"
+      ],
+      "vi": "Mỗi người hãy lấy 2 cái.",
+      "explainVi": "Chia đều: số lượng + ずつ."
+    },
+    {
+      "id": "n4-19-e06",
+      "type": "choice",
+      "grammar": [
+        "zutsu"
+      ],
+      "promptVi": "\"Tiếng Nhật của tôi giỏi lên từng chút một.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "日本語が＿上手になりました。",
+      "options": [
+        "少しずつ",
+        "少しだけ",
+        "少ししか"
+      ],
+      "answer": 0,
+      "explainVi": "Từng chút một, dần dần: 少しずつ."
+    },
+    {
+      "id": "n4-19-e07",
+      "type": "order",
+      "grammar": [
+        "zutsu"
+      ],
+      "vi": "Hãy vào phòng lần lượt từng người một.",
+      "tiles": [
+        "一人ずつ",
+        "部屋に",
+        "入って",
+        "ください"
+      ],
+      "answers": [
+        "一人ずつ部屋に入ってください",
+        "部屋に一人ずつ入ってください"
+      ]
+    },
+    {
+      "id": "n4-19-e08",
+      "type": "choice",
+      "grammar": [
+        "oki-ni"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "1日おきにプールへ行きます。",
+      "options": [
+        "Tôi đi bơi cách ngày.",
+        "Ngày nào tôi cũng đi bơi.",
+        "Một tuần tôi đi bơi một lần."
+      ],
+      "answer": 0,
+      "explainVi": "1日おきに: cách một ngày (ngày đi, ngày không)."
+    },
+    {
+      "id": "n4-19-e09",
+      "type": "fill",
+      "grammar": [
+        "oki-ni"
+      ],
+      "before": "この薬は4時間",
+      "after": "飲んでください。",
+      "answers": [
+        "おきに"
+      ],
+      "options": [
+        "おきに",
+        "ずつ",
+        "目"
+      ],
+      "vi": "Thuốc này cứ 4 tiếng uống một lần."
+    },
+    {
+      "id": "n4-19-e10",
+      "type": "order",
+      "grammar": [
+        "oki-ni"
+      ],
+      "vi": "Xe buýt cứ 10 phút có một chuyến.",
+      "tiles": [
+        "バスは",
+        "10分",
+        "おきに",
+        "来ます"
+      ],
+      "answers": [
+        "バスは10分おきに来ます"
+      ]
+    },
+    {
+      "id": "n4-19-e11",
+      "type": "choice",
+      "grammar": [
+        "me"
+      ],
+      "promptVi": "\"Hãy rẽ phải ở góc phố thứ hai.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "＿の角を右に曲がってください。",
+      "options": [
+        "2つ目",
+        "2つ",
+        "2回"
+      ],
+      "answer": 0,
+      "explainVi": "Thứ tự: số + trợ số từ + 目."
+    },
+    {
+      "id": "n4-19-e12",
+      "type": "choice",
+      "grammar": [
+        "me"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "日本の生活は今年で2年目です。",
+      "options": [
+        "Năm nay là năm thứ hai tôi sống ở Nhật.",
+        "Tôi đã sống ở Nhật 2 năm trước.",
+        "Năm nay tôi sang Nhật 2 lần."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-19-e13",
+      "type": "fill",
+      "grammar": [
+        "me"
+      ],
+      "before": "これで3回",
+      "after": "の日本旅行です。",
+      "answers": [
+        "目"
+      ],
+      "options": [
+        "目",
+        "ずつ",
+        "おきに"
+      ],
+      "vi": "Đây là chuyến du lịch Nhật lần thứ 3 của tôi."
+    },
+    {
+      "id": "n4-19-e14",
+      "type": "choice",
+      "grammar": [
+        "x-counters-n4"
+      ],
+      "promptVi": "\"Trước ga có 2 quán cà phê.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "駅の前に喫茶店が＿あります。",
+      "options": [
+        "2軒",
+        "2着",
+        "2泊"
+      ],
+      "answer": 0,
+      "explainVi": "Nhà, cửa hàng: 軒 (2軒 にけん)."
+    },
+    {
+      "id": "n4-19-e15",
+      "type": "choice",
+      "grammar": [
+        "x-counters-n4"
+      ],
+      "promptVi": "\"Tôi đã mua một bộ com lê.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "スーツを＿買いました。",
+      "options": [
+        "1着",
+        "1本",
+        "1軒"
+      ],
+      "answer": 0,
+      "explainVi": "Bộ quần áo (com lê, áo khoác, váy): 着."
+    },
+    {
+      "id": "n4-19-e16",
+      "type": "match",
+      "grammar": [
+        "x-counters-n4"
+      ],
+      "promptVi": "Ghép với nghĩa",
+      "pairs": [
+        [
+          "2泊",
+          "2 đêm (ở trọ)"
+        ],
+        [
+          "2軒",
+          "2 căn nhà, cửa hàng"
+        ],
+        [
+          "1着",
+          "1 bộ quần áo"
+        ],
+        [
+          "3番目",
+          "thứ ba"
+        ],
+        [
+          "2度",
+          "2 lần"
+        ]
+      ]
+    },
+    {
+      "id": "n4-19-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "レジ",
+          "quầy thu ngân"
+        ],
+        [
+          "おつり",
+          "tiền thừa"
+        ],
+        [
+          "ねだん",
+          "giá"
+        ],
+        [
+          "店員",
+          "nhân viên cửa hàng"
+        ],
+        [
+          "食料品",
+          "thực phẩm"
+        ]
+      ]
+    },
+    {
+      "id": "n4-19-e18",
+      "type": "choice",
+      "promptVi": "\"Thỉnh thoảng tôi đi xem phim.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "＿映画を見に行きます。",
+      "options": [
+        "たまに",
+        "ほとんど",
+        "以上"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-19-e19",
+      "type": "choice",
+      "promptVi": "Loại tàu nào dừng ở tất cả các ga?",
+      "options": [
+        "普通",
+        "急行",
+        "特急"
+      ],
+      "answer": 0,
+      "explainVi": "普通 dừng mọi ga; 急行 và 特急 chỉ dừng ở ga lớn."
+    },
+    {
+      "id": "n4-19-e20",
+      "type": "choice",
+      "promptVi": "\"Ngày nào tôi cũng làm việc từ 8 tiếng trở lên.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "毎日8時間＿働いています。",
+      "options": [
+        "以上",
+        "以下",
+        "以外"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-19-e21",
+      "type": "translate",
+      "grammar": [
+        "tokoro-da"
+      ],
+      "vi": "Tôi vừa mới về đến nhà. (dùng 〜ところ)",
+      "answers": [
+        "(私は)今、家に帰ったところです。",
+        "(私は)(今)(ちょうど)家[に|へ][帰った|着いた]ところです。"
+      ],
+      "examples": [
+        {
+          "answer": "いまいえにかえったところです",
+          "score": 100
+        },
+        {
+          "answer": "今、家で帰ったところです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "今、家に帰るところです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-19-e22",
+      "type": "translate",
+      "grammar": [
+        "zutsu"
+      ],
+      "vi": "Mỗi người hãy lấy 2 cái.",
+      "answers": [
+        "一人2つずつ取ってください。",
+        "一人[2つ|2個]ずつ取ってください。"
+      ],
+      "examples": [
+        {
+          "answer": "ひとりふたつずつとってください",
+          "score": 100
+        },
+        {
+          "answer": "一人ずつ2つ取ってください。",
+          "score": 70,
+          "issues": [
+            "extra_word",
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "一人3つずつ取ってください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-19-e23",
+      "type": "translate",
+      "grammar": [
+        "oki-ni"
+      ],
+      "vi": "Tôi đi bơi cách ngày (ở bể bơi).",
+      "answers": [
+        "(私は)1日おきにプール[へ|に]行きます。",
+        "(私は)1日おきにプールで泳ぎます。",
+        "(私は)1日おきにプール[へ|に]泳ぎに行きます。"
+      ],
+      "examples": [
+        {
+          "answer": "いちにちおきにプールへいきます",
+          "score": 100
+        },
+        {
+          "answer": "1日おきにプールで行きます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "毎日プールへ行きます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-19-e24",
+      "type": "translate",
+      "grammar": [
+        "me"
+      ],
+      "vi": "Hãy rẽ trái ở góc phố thứ ba.",
+      "answers": [
+        "3つ目の角を左に曲がってください。",
+        "[3つ目|3番目]の角[を|で]左[に|へ]曲がってください。"
+      ],
+      "examples": [
+        {
+          "answer": "みっつめのかどをひだりにまがってください",
+          "score": 100
+        },
+        {
+          "answer": "3つ目の角に左に曲がってください。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "3つ目の角を右に曲がってください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-19-e25",
+      "type": "question",
+      "grammar": [
+        "x-counters-n4"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "スーツを何着買いましたか。",
+        "promptVi": "\"Bạn đã mua mấy bộ com lê?\" Nhìn hình và trả lời.",
+        "picture": "👔 👔",
+        "expected": {
+          "number": 2,
+          "noun": "スーツ",
+          "counter": "着",
+          "sentence": "スーツを2着買いました。"
+        },
+        "examples": [
+          {
+            "answer": "スーツをにちゃくかいました",
+            "score": 100
+          },
+          {
+            "answer": "スーツを2枚買いました。",
+            "score": 80,
+            "issues": [
+              "wrong_counter"
+            ]
+          },
+          {
+            "answer": "スーツを3着買いました。",
+            "score": 20
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "3000円以下のプレゼントを探しています。": "3000{円|えん}{以|い}{下|か}のプレゼントを{探|さが}しています。",
+    "毎日8時間以上働いています。": "{毎|まい}{日|にち}8{時間|じかん}{以|い}{上|じょう}{働|はたら}いています。",
+    "私の話は以上です。": "{私|わたし}の{話|はなし}は{以|い}{上|じょう}です。",
+    "日本の人口は1億2000万人ぐらいです。": "{日本|にほん}の{人|じん}{口|こう}は1{億|おく}2000{万人|まんにん}ぐらいです。",
+    "テストで90点を取りました。": "テストで90{点|てん}を{取|と}りました。",
+    "この点がよくわかりません。": "この{点|てん}がよくわかりません。",
+    "野菜のねだんが2倍になりました。": "{野|や}{菜|さい}のねだんが2{倍|ばい}になりました。",
+    "このクラスは女性の割合が高いです。": "このクラスは{女|じょ}{性|せい}の{割|わり}{合|あい}が{高|たか}いです。",
+    "駅まではだいたい10分です。": "{駅|えき}まではだいたい10{分|ぷん}です。",
+    "先生の話はだいたいわかりました。": "{先|せん}{生|せい}の{話|はなし}はだいたいわかりました。",
+    "日曜日はたいてい家にいます。": "{日|にち}{曜|よう}{日|び}はたいてい{家|いえ}にいます。",
+    "たまに映画を見に行きます。": "たまに{映|えい}{画|が}を{見|み}に{行|い}きます。",
+    "ほとんどの学生が来ました。": "ほとんどの{学|がく}{生|せい}が{来|き}ました。",
+    "お酒はほとんど飲みません。": "お{酒|さけ}はほとんど{飲|の}みません。",
+    "2に3を足すと、5になります。": "2に3を{足|た}すと、5になります。",
+    "塩をもう少し足してください。": "{塩|しお}をもう{少|すこ}し{足|た}してください。",
+    "このかばんはねだんが高いです。": "このかばんはねだんが{高|たか}いです。",
+    "おつりは200円です。": "おつりは200{円|えん}です。",
+    "レジでお金を払います。": "レジでお{金|かね}を{払|はら}います。",
+    "お金はレジで払ってください。": "お{金|かね}はレジで{払|はら}ってください。",
+    "店員さんに聞いてみましょう。": "{店|てん}{員|いん}さんに{聞|き}いてみましょう。",
+    "食料品は1階で売っています。": "{食|しょく}{料|りょう}{品|ひん}は1{階|かい}で{売|う}っています。",
+    "急行に乗れば、10分早く着きます。": "{急|きゅう}{行|こう}に{乗|の}れば、10{分|ぷん}{早|はや}く{着|つ}きます。",
+    "この駅には普通しか止まりません。": "この{駅|えき}には{普|ふ}{通|つう}しか{止|と}まりません。",
+    "普通は8時ごろ起きます。": "{普|ふ}{通|つう}は8{時|じ}ごろ{起|お}きます。",
+    "この会社は女性が多いです。": "この{会|かい}{社|しゃ}は{女|じょ}{性|せい}が{多|おお}いです。",
+    "あの男性は誰ですか。": "あの{男|だん}{性|せい}は{誰|だれ}ですか。",
+    "昔はこの町まで汽車が走っていました。": "{昔|むかし}はこの{町|まち}まで{汽|き}{車|しゃ}が{走|はし}っていました。",
+    "特急で大阪まで2時間半かかります。": "{特|とっ}{急|きゅう}で{大阪|おおさか}まで2{時間|じかん}{半|はん}かかります。",
+    "今から出かけるところです。": "{今|いま}から{出|で}かけるところです。",
+    "今、晩ご飯を作っているところです。": "{今|いま}、{晩|ばん}ご{飯|はん}を{作|つく}っているところです。",
+    "ちょうど今、駅に着いたところです。": "ちょうど{今|いま}、{駅|えき}に{着|つ}いたところです。",
+    "先月日本に来たばかりです。": "{先|せん}{月|げつ}{日本|にほん}に{来|き}たばかりです。",
+    "先月日本に来たところです。": "{先|せん}{月|げつ}{日本|にほん}に{来|き}たところです。",
+    "今から出かけたところです。": "{今|いま}から{出|で}かけたところです。",
+    "一人2つずつ取ってください。": "{一人|ひとり}2つずつ{取|と}ってください。",
+    "毎日、漢字を5つずつ覚えています。": "{毎|まい}{日|にち}、{漢|かん}{字|じ}を5つずつ{覚|おぼ}えています。",
+    "日本語が少しずつ上手になりました。": "{日本|にほん}{語|ご}が{少|すこ}しずつ{上手|じょうず}になりました。",
+    "一人ずつ部屋に入ってください。": "{一人|ひとり}ずつ{部屋|へや}に{入|はい}ってください。",
+    "一人ずつ2つ取ってください。": "{一人|ひとり}ずつ2つ{取|と}ってください。",
+    "1日おきにプールへ行きます。": "1{日|にち}おきにプールへ{行|い}きます。",
+    "この薬は4時間おきに飲んでください。": "この{薬|くすり}は{4時間|よじかん}おきに{飲|の}んでください。",
+    "バスは10分おきに来ます。": "バスは10{分|ぷん}おきに{来|き}ます。",
+    "毎日おきにプールへ行きます。": "{毎|まい}{日|にち}おきにプールへ{行|い}きます。",
+    "2つ目の角を右に曲がってください。": "2つ{目|め}の{角|かど}を{右|みぎ}に{曲|ま}がってください。",
+    "これで3回目の日本旅行です。": "これで3{回|かい}{目|め}の{日本|にほん}{旅|りょ}{行|こう}です。",
+    "旅行の2日目は京都に行きました。": "{旅|りょ}{行|こう}の{2日|ふつか}{目|め}は{京都|きょうと}に{行|い}きました。",
+    "日本の生活は今年で2年目です。": "{日本|にほん}の{生|せい}{活|かつ}は{今年|ことし}で2{年|ねん}{目|め}です。",
+    "2つの角を右に曲がってください。": "2つの{角|かど}を{右|みぎ}に{曲|ま}がってください。",
+    "京都のホテルに2泊しました。": "{京都|きょうと}のホテルに2{泊|はく}しました。",
+    "駅の前に喫茶店が2軒あります。": "{駅|えき}の{前|まえ}に{喫|きっ}{茶|さ}{店|てん}が2{軒|けん}あります。",
+    "スーツを1着買いました。": "スーツを1{着|ちゃく}{買|か}いました。",
+    "熱が38度あります。": "{熱|ねつ}が38{度|ど}あります。",
+    "2泊3日の旅行に行きます。": "2{泊|はく}{3日|みっか}の{旅|りょ}{行|こう}に{行|い}きます。",
+    "3日2泊の旅行に行きます。": "{3日|みっか}2{泊|はく}の{旅|りょ}{行|こう}に{行|い}きます。",
+    "ちょうど今、駅に＿ところです。": "ちょうど{今|いま}、{駅|えき}に＿ところです。",
+    "着いた": "{着|つ}いた",
+    "着く": "{着|つ}く",
+    "着いて": "{着|つ}いて",
+    "作っている": "{作|つく}っている",
+    "作った": "{作|つく}った",
+    "作る": "{作|つく}る",
+    "出かける": "{出|で}かける",
+    "出かけた": "{出|で}かけた",
+    "出かけている": "{出|で}かけている",
+    "先月日本に来るところです。": "{先|せん}{月|げつ}{日本|にほん}に{来|く}るところです。",
+    "ずつ": "ずつ",
+    "おきに": "おきに",
+    "目": "{目|め}",
+    "日本語が＿上手になりました。": "{日本|にほん}{語|ご}が＿{上手|じょうず}になりました。",
+    "少しずつ": "{少|すこ}しずつ",
+    "少しだけ": "{少|すこ}しだけ",
+    "少ししか": "{少|すこ}ししか",
+    "一人ずつ": "{一人|ひとり}ずつ",
+    "部屋に": "{部屋|へや}に",
+    "入って": "{入|はい}って",
+    "ください": "ください",
+    "一人ずつ部屋に入ってください": "{一人|ひとり}ずつ{部屋|へや}に{入|はい}ってください",
+    "部屋に一人ずつ入ってください": "{部屋|へや}に{一人|ひとり}ずつ{入|はい}ってください",
+    "バスは": "バスは",
+    "10分": "10{分|ぷん}",
+    "来ます": "{来|き}ます",
+    "バスは10分おきに来ます": "バスは10{分|ぷん}おきに{来|き}ます",
+    "＿の角を右に曲がってください。": "＿の{角|かど}を{右|みぎ}に{曲|ま}がってください。",
+    "2つ目": "2つ{目|め}",
+    "2つ": "2つ",
+    "2回": "2{回|かい}",
+    "駅の前に喫茶店が＿あります。": "{駅|えき}の{前|まえ}に{喫|きっ}{茶|さ}{店|てん}が＿あります。",
+    "2軒": "2{軒|けん}",
+    "2着": "2{着|ちゃく}",
+    "2泊": "2{泊|はく}",
+    "スーツを＿買いました。": "スーツを＿{買|か}いました。",
+    "1着": "1{着|ちゃく}",
+    "1本": "1{本|ぽん}",
+    "1軒": "1{軒|けん}",
+    "3番目": "3{番目|ばんめ}",
+    "2度": "2{度|ど}",
+    "レジ": "レジ",
+    "おつり": "おつり",
+    "ねだん": "ねだん",
+    "店員": "{店|てん}{員|いん}",
+    "食料品": "{食|しょく}{料|りょう}{品|ひん}",
+    "＿映画を見に行きます。": "＿{映|えい}{画|が}を{見|み}に{行|い}きます。",
+    "たまに": "たまに",
+    "ほとんど": "ほとんど",
+    "以上": "{以|い}{上|じょう}",
+    "普通": "{普|ふ}{通|つう}",
+    "急行": "{急|きゅう}{行|こう}",
+    "特急": "{特|とっ}{急|きゅう}",
+    "毎日8時間＿働いています。": "{毎|まい}{日|にち}8{時間|じかん}＿{働|はたら}いています。",
+    "以下": "{以|い}{下|か}",
+    "以外": "{以|い}{外|がい}",
+    "私は今、家に帰ったところです。": "{私|わたし}は{今|いま}、{家|いえ}に{帰|かえ}ったところです。",
+    "私は今ちょうど家に帰ったところです。": "{私|わたし}は{今|いま}ちょうど{家|いえ}に{帰|かえ}ったところです。",
+    "私は1日おきにプールへ行きます。": "{私|わたし}は1{日|にち}おきにプールへ{行|い}きます。",
+    "私は1日おきにプールで泳ぎます。": "{私|わたし}は1{日|にち}おきにプールで{泳|およ}ぎます。",
+    "私は1日おきにプールへ泳ぎに行きます。": "{私|わたし}は1{日|にち}おきにプールへ{泳|およ}ぎに{行|い}きます。",
+    "3つ目の角を左に曲がってください。": "3つ{目|め}の{角|かど}を{左|ひだり}に{曲|ま}がってください。",
+    "スーツを何着買いましたか。": "スーツを{何着|なんちゃく}{買|か}いましたか。",
+    "スーツを2着買いました。": "スーツを2{着|ちゃく}{買|か}いました。"
+  }
+}

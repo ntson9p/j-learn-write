@@ -1,0 +1,625 @@
+{
+  "_doc": "Which lesson teaches which kana, words (numbers in jlpt/vocabulary.json), kanji and grammar points (ids in jlpt/grammar.json). Lesson content lives in lessons/<level>/<NN>.json. DRAFT: to be reviewed by a Japanese teacher.",
+  "lessons": [
+    {
+      "id": "kana-01",
+      "level": "kana",
+      "order": 1,
+      "titleVi": "Hiragana: hàng あ và か",
+      "topicVi": "Nguyên âm và hàng K",
+      "kana": ["あ", "い", "う", "え", "お", "か", "き", "く", "け", "こ"]
+    },
+    {
+      "id": "kana-02",
+      "level": "kana",
+      "order": 2,
+      "titleVi": "Hiragana: hàng さ và た",
+      "topicVi": "Hàng S và T",
+      "kana": ["さ", "し", "す", "せ", "そ", "た", "ち", "つ", "て", "と"]
+    },
+    {
+      "id": "kana-03",
+      "level": "kana",
+      "order": 3,
+      "titleVi": "Hiragana: hàng な và は",
+      "topicVi": "Hàng N và H",
+      "kana": ["な", "に", "ぬ", "ね", "の", "は", "ひ", "ふ", "へ", "ほ"]
+    },
+    {
+      "id": "kana-04",
+      "level": "kana",
+      "order": 4,
+      "titleVi": "Hiragana: hàng ま, や, ら, わ và ん",
+      "topicVi": "Các hàng còn lại",
+      "kana": ["ま", "み", "む", "め", "も", "や", "ゆ", "よ", "ら", "り", "る", "れ", "ろ", "わ", "を", "ん"]
+    },
+    {
+      "id": "kana-05",
+      "level": "kana",
+      "order": 5,
+      "titleVi": "Hiragana: âm đục và bán đục",
+      "topicVi": "が, ざ, だ, ば, ぱ",
+      "kana": ["が", "ぎ", "ぐ", "げ", "ご", "ざ", "じ", "ず", "ぜ", "ぞ", "だ", "ぢ", "づ", "で", "ど", "ば", "ぱ", "び", "ぴ", "ぶ", "ぷ", "べ", "ぺ", "ぼ", "ぽ"]
+    },
+    {
+      "id": "kana-06",
+      "level": "kana",
+      "order": 6,
+      "titleVi": "Hiragana: âm ghép, âm ngắt, trường âm",
+      "topicVi": "きゃ, っ, おかあさん",
+      "kana": ["っ", "ゃ", "ゅ", "ょ", "きゃ", "きゅ", "きょ", "ぎゃ", "ぎゅ", "ぎょ", "しゃ", "しゅ", "しょ", "じゃ", "じゅ", "じょ", "ちゃ", "ちゅ", "ちょ", "にゃ", "にゅ", "にょ", "ひゃ", "ひゅ", "ひょ", "びゃ", "びゅ", "びょ", "ぴゃ", "ぴゅ", "ぴょ", "みゃ", "みゅ", "みょ", "りゃ", "りゅ", "りょ"]
+    },
+    {
+      "id": "kana-07",
+      "level": "kana",
+      "order": 7,
+      "titleVi": "Katakana: hàng ア đến ト",
+      "topicVi": "Nguyên âm, hàng K, S, T",
+      "kana": ["ア", "イ", "ウ", "エ", "オ", "カ", "キ", "ク", "ケ", "コ", "サ", "シ", "ス", "セ", "ソ", "タ", "チ", "ツ", "テ", "ト"]
+    },
+    {
+      "id": "kana-08",
+      "level": "kana",
+      "order": 8,
+      "titleVi": "Katakana: hàng ナ đến ン",
+      "topicVi": "Hàng N, H, M, Y, R, W",
+      "kana": ["ナ", "ニ", "ヌ", "ネ", "ノ", "ハ", "ヒ", "フ", "ヘ", "ホ", "マ", "ミ", "ム", "メ", "モ", "ヤ", "ユ", "ヨ", "ラ", "リ", "ル", "レ", "ロ", "ワ", "ヲ", "ン"]
+    },
+    {
+      "id": "kana-09",
+      "level": "kana",
+      "order": 9,
+      "titleVi": "Katakana: âm đục, âm ghép, trường âm",
+      "topicVi": "ガ, キャ, ッ, ー",
+      "kana": ["ガ", "ギ", "グ", "ゲ", "ゴ", "ザ", "ジ", "ズ", "ゼ", "ゾ", "ダ", "ヂ", "ッ", "ヅ", "デ", "ド", "バ", "パ", "ビ", "ピ", "ブ", "プ", "ベ", "ペ", "ボ", "ポ", "ャ", "ュ", "ョ", "キャ", "キュ", "キョ", "ギャ", "ギュ", "ギョ", "シャ", "シュ", "ショ", "ジャ", "ジュ", "ジョ", "チャ", "チュ", "チョ", "ニャ", "ニュ", "ニョ", "ヒャ", "ヒュ", "ヒョ", "ビャ", "ビュ", "ビョ", "ピャ", "ピュ", "ピョ", "ミャ", "ミュ", "ミョ", "リャ", "リュ", "リョ", "ー"]
+    },
+    {
+      "id": "kana-10",
+      "level": "kana",
+      "order": 10,
+      "titleVi": "Katakana: âm mở rộng cho từ mượn",
+      "topicVi": "ファ, ティ, ウィ… và ôn tập kana",
+      "kana": ["ァ", "ィ", "ゥ", "ェ", "ォ", "シェ", "ジェ", "チェ", "ティ", "ディ", "トゥ", "ドゥ", "ファ", "フィ", "フェ", "フォ", "ウィ", "ウェ", "ウォ", "ヴァ", "ヴィ", "ヴ", "ヴェ", "ヴォ"]
+    },
+    {
+      "id": "n5-01",
+      "level": "n5",
+      "order": 1,
+      "titleVi": "Giới thiệu bản thân",
+      "topicVi": "Chào hỏi, tên, quốc tịch, nghề nghiệp",
+      "words": [1305, 27, 1309, 1311, 141, 151, 656, 335, 52, 483, 44, 457, 462, 1306, 371, 434, 494, 420, 124],
+      "kanji": ["日", "本", "人"],
+      "grammar": ["wa", "desu", "ka-question", "de-wa-arimasen-ja-nai", "mo"]
+    },
+    {
+      "id": "n5-02",
+      "level": "n5",
+      "order": 2,
+      "titleVi": "Cái này là gì?",
+      "topicVi": "Đồ vật quanh ta",
+      "words": [1313, 525, 253, 347, 42, 445, 248, 344, 30, 436, 570, 279, 93, 562, 476, 267, 306, 153, 163, 426, 1310, 89],
+      "kanji": ["何", "語", "名"],
+      "grammar": ["kore-sore-are-dore", "no", "kono-sono-ano-dono"]
+    },
+    {
+      "id": "n5-03",
+      "level": "n5",
+      "order": 3,
+      "titleVi": "Ở đâu?",
+      "topicVi": "Trường học, nhà ga, cửa hàng",
+      "words": [235, 340, 16, 427, 242, 341, 21, 431, 159, 350, 142, 193, 302, 430, 112, 416, 91, 406, 209, 320],
+      "kanji": ["学", "校", "生", "先"],
+      "grammar": ["koko-soko-asoko-doko", "ne", "yo"]
+    },
+    {
+      "id": "n5-04",
+      "level": "n5",
+      "order": 4,
+      "titleVi": "Số đếm và giá tiền",
+      "topicVi": "Mua sắm",
+      "words": [1314, 57, 463, 272, 274, 227, 666, 282, 500, 189, 296, 530, 332, 590, 526, 542, 600, 644, 63, 610, 455, 629, 238, 50, 204, 39, 422, 596],
+      "kanji": ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十", "円"],
+      "grammar": ["x-numbers", "x-counters-basic", "o-kudasai"]
+    },
+    {
+      "id": "n5-05",
+      "level": "n5",
+      "order": 5,
+      "titleVi": "Mấy giờ?",
+      "topicVi": "Giờ giấc, lịch làm việc",
+      "words": [1315, 66, 239, 236, 512, 518, 277, 11, 533, 513, 648, 576, 192, 15, 188, 278, 297, 627, 516, 413, 331, 383, 201, 634, 127, 257, 259],
+      "kanji": ["時", "分", "間", "半"],
+      "grammar": ["x-time", "kara-from", "made", "goro"]
+    },
+    {
+      "id": "n5-06",
+      "level": "n5",
+      "order": 6,
+      "titleVi": "Ngày tháng",
+      "topicVi": "Lịch, sinh nhật, ngày nghỉ",
+      "words": [1316, 224, 167, 307, 617, 202, 440, 467, 545, 599, 643, 61, 607, 456, 639, 237, 424, 501, 372, 60, 254, 333, 650, 245, 195, 652, 173],
+      "kanji": ["月", "火", "土", "年"],
+      "grammar": ["x-dates", "ni-time", "deshita"]
+    },
+    {
+      "id": "n5-07",
+      "level": "n5",
+      "order": 7,
+      "titleVi": "Một ngày của tôi",
+      "topicVi": "Sinh hoạt hằng ngày",
+      "words": [102, 475, 499, 628, 559, 323, 136, 491, 573, 578, 220, 258, 632, 64, 425, 641, 295, 32, 128, 485, 338, 336, 298, 40, 71],
+      "kanji": ["毎", "今", "午"],
+      "grammar": ["masu", "masen", "mashita", "masen-deshita"]
+    },
+    {
+      "id": "n5-08",
+      "level": "n5",
+      "order": 8,
+      "titleVi": "Đi đâu, bằng gì?",
+      "topicVi": "Đi lại, phương tiện",
+      "words": [48, 215, 147, 412, 496, 284, 41, 359, 523, 379, 216, 46, 439, 531, 528, 157, 480, 387, 187, 255, 334, 651, 13],
+      "kanji": ["行", "来", "車"],
+      "grammar": ["e", "ni-destination", "de-means", "to-with"]
+    },
+    {
+      "id": "n5-09",
+      "level": "n5",
+      "order": 9,
+      "titleVi": "Ăn gì, uống gì?",
+      "topicVi": "Ăn uống",
+      "words": [369, 479, 605, 409, 12, 534, 517, 249, 514, 370, 465, 262, 624, 205, 595, 111, 234, 191, 368, 478, 56, 241, 663, 145, 419, 454],
+      "kanji": ["食", "見", "水"],
+      "grammar": ["o", "de-place", "to-and", "ya", "ka-or"]
+    },
+    {
+      "id": "n5-10",
+      "level": "n5",
+      "order": 10,
+      "titleVi": "Cùng đi nhé!",
+      "topicVi": "Rủ rê, hẹn gặp, cho và mượn",
+      "words": [62, 1, 87, 228, 273, 185, 482, 384, 90, 582, 270, 152, 401, 150, 10, 154, 170, 108, 458, 597, 293, 443, 585, 618, 602, 222],
+      "kanji": ["書", "友", "休"],
+      "grammar": ["masen-ka", "mashou", "mashou-ka", "ni-indirect-object"]
+    },
+    {
+      "id": "n5-11",
+      "level": "n5",
+      "order": 11,
+      "titleVi": "Tính từ đuôi い",
+      "topicVi": "Miêu tả đồ vật, thời tiết",
+      "words": [96, 374, 20, 549, 357, 626, 43, 674, 94, 133, 393, 609, 625, 23, 269, 54, 376, 423, 417, 5, 3, 305, 218, 35, 433, 410],
+      "kanji": ["大", "小", "高"],
+      "grammar": ["x-i-adjective", "amari-nai"]
+    },
+    {
+      "id": "n5-12",
+      "level": "n5",
+      "order": 12,
+      "titleVi": "Tính từ đuôi な",
+      "topicVi": "Miêu tả người, nơi chốn; quá khứ của tính từ",
+      "words": [199, 280, 464, 636, 560, 226, 529, 354, 356, 75, 584, 428, 364, 668, 535, 330, 84, 47, 175, 115, 138, 116, 139],
+      "kanji": ["男", "女", "子"],
+      "grammar": ["na-na-adjective", "ku-nai-katta-ku-nakatta"]
+    },
+    {
+      "id": "n5-13",
+      "level": "n5",
+      "order": 13,
+      "titleVi": "Thích và giỏi",
+      "topicVi": "Sở thích, khả năng",
+      "words": [310, 196, 353, 299, 553, 318, 137, 79, 80, 183, 521, 86, 646, 181, 505, 669, 658, 176, 418, 451, 407, 314, 358, 421, 555],
+      "kanji": ["読", "聞", "話"],
+      "grammar": ["ga-suki-ga-kirai", "ga-jouzu-ga-heta", "ga-but", "kara-reason"]
+    },
+    {
+      "id": "n5-14",
+      "level": "n5",
+      "order": 14,
+      "titleVi": "Có ở đâu?",
+      "topicVi": "Nhà cửa, phòng, vị trí đồ vật",
+      "words": [76, 281, 447, 579, 77, 435, 642, 378, 593, 524, 343, 556, 355, 470, 389, 53, 554, 398, 571, 661, 247, 65, 474, 441, 177],
+      "kanji": ["上", "中", "下", "木"],
+      "grammar": ["ga-aru-ga-iru", "ga-subject", "ni-location", "x-position"]
+    },
+    {
+      "id": "n5-15",
+      "level": "n5",
+      "order": 15,
+      "titleVi": "Đếm đồ vật",
+      "topicVi": "Trợ số từ, gia đình, bao nhiêu lần",
+      "words": [544, 194, 28, 29, 114, 68, 1307, 1308, 186, 486, 537, 566, 509, 165, 337, 98, 58, 527, 575, 574, 200, 214, 613, 49, 148],
+      "kanji": ["百", "千", "万"],
+      "grammar": ["x-counters", "ni-frequency", "dake", "kurai-gurai"]
+    },
+    {
+      "id": "n5-16",
+      "level": "n5",
+      "order": 16,
+      "titleVi": "So sánh",
+      "topicVi": "Mùa, thời tiết, so sánh",
+      "words": [1317, 508, 452, 7, 547, 37, 637, 510, 210, 155, 18, 315, 548, 59, 647, 432, 230, 507, 110, 448, 594, 522, 95, 312, 121, 577],
+      "kanji": ["雨", "天", "長"],
+      "grammar": ["yori", "no-hou-ga-yori", "to-to-dochira-ga", "no-naka-de-ga-ichiban"]
+    },
+    {
+      "id": "n5-17",
+      "level": "n5",
+      "order": 17,
+      "titleVi": "Muốn…",
+      "topicVi": "Mong muốn, kế hoạch nghỉ",
+      "words": [565, 72, 659, 453, 82, 630, 174, 477, 134, 17, 140, 569, 166, 144, 101, 129, 172, 538, 88, 400, 640, 541, 207, 561, 394],
+      "kanji": ["山", "川", "外"],
+      "grammar": ["tai", "ga-hoshii", "ni-iku"]
+    },
+    {
+      "id": "n5-18",
+      "level": "n5",
+      "order": 18,
+      "titleVi": "Thể て",
+      "topicVi": "Nhờ vả, chỉ đường, trình tự hành động",
+      "words": [586, 580, 673, 229, 162, 490, 598, 438, 135, 388, 380, 638, 616, 45, 348, 408, 365, 672, 345, 608, 557, 396, 38],
+      "kanji": ["右", "左"],
+      "grammar": ["x-te-form", "te-kudasai", "te", "te-kara"]
+    },
+    {
+      "id": "n5-19",
+      "level": "n5",
+      "order": 19,
+      "titleVi": "Đang làm gì?",
+      "topicVi": "Hành động đang diễn ra, trạng thái, trang phục",
+      "words": [198, 487, 290, 473, 294, 309, 319, 208, 329, 667, 614, 321, 31, 303, 223, 392, 113, 99, 122, 123, 104, 615, 583],
+      "kanji": ["父", "母"],
+      "grammar": ["te-iru", "mou-ta", "mada-te-inai"]
+    },
+    {
+      "id": "n5-20",
+      "level": "n5",
+      "order": 20,
+      "titleVi": "Được phép, không được",
+      "topicVi": "Quy định ở trường, nơi công cộng",
+      "words": [9, 291, 8, 289, 391, 221, 180, 411, 588, 415, 665, 495, 324, 361, 385, 232, 366, 308, 326, 213, 558, 250, 143, 92],
+      "kanji": ["電"],
+      "grammar": ["te-mo-ii", "te-wa-ikenai"]
+    },
+    {
+      "id": "n5-21",
+      "level": "n5",
+      "order": 21,
+      "titleVi": "Thể ない",
+      "topicVi": "Lời khuyên, nghĩa vụ",
+      "words": [203, 532, 156, 146, 670, 360, 130, 251, 352, 506, 664, 404, 225, 70, 403, 322, 471, 33, 109, 568, 459, 311, 252, 105],
+      "kanji": ["入", "出"],
+      "grammar": ["nai", "naide-kudasai", "nakereba-naranai-nakute-wa-ikenai", "nakute-mo-ii"]
+    },
+    {
+      "id": "n5-22",
+      "level": "n5",
+      "order": 22,
+      "titleVi": "Thể từ điển",
+      "topicVi": "Khả năng, sở thích, trước khi…",
+      "words": [402, 481, 592, 288, 83, 377, 631, 572, 606, 292, 243, 342, 25, 69, 390, 197, 73, 268, 275, 301, 497, 489, 446, 539, 317],
+      "kanji": ["前"],
+      "grammar": ["x-dictionary-form", "da", "mae-ni"]
+    },
+    {
+      "id": "n5-23",
+      "level": "n5",
+      "order": 23,
+      "titleVi": "Thể た",
+      "topicVi": "Kinh nghiệm, liệt kê hành động",
+      "words": [493, 26, 635, 117, 118, 81, 437, 611, 51, 363, 621, 351, 504, 107, 125, 126, 657, 158, 264, 502, 106, 382, 160, 244],
+      "kanji": ["後", "国"],
+      "grammar": ["ta", "ta-koto-ga-aru", "ato-de", "tari-tari-suru"]
+    },
+    {
+      "id": "n5-24",
+      "level": "n5",
+      "order": 24,
+      "titleVi": "Trở nên…",
+      "topicVi": "Thay đổi, quyết định, màu sắc",
+      "words": [461, 498, 119, 373, 74, 4, 2, 304, 217, 178, 381, 601, 179, 6, 212, 327, 233, 85, 132, 171, 546, 567, 589, 619, 271],
+      "kanji": ["白"],
+      "grammar": ["ku-naru-ni-naru", "ni-suru", "kute-de"]
+    },
+    {
+      "id": "n5-25",
+      "level": "n5",
+      "order": 25,
+      "titleVi": "Không … gì cả",
+      "topicVi": "Phủ định toàn bộ, đại từ bất định, đồ thất lạc",
+      "words": [1016, 261, 149, 468, 564, 488, 231, 131, 219, 450, 620, 563, 103, 444, 623, 190, 543, 442, 100, 36, 34, 168, 581, 515, 591, 633],
+      "kanji": ["金"],
+      "grammar": ["zenzen-nai", "nani-mo-nai-dare-mo-nai", "nani-ka-dare-ka-doko-ka"]
+    },
+    {
+      "id": "n5-26",
+      "level": "n5",
+      "order": 26,
+      "titleVi": "Vừa … vừa …",
+      "topicVi": "Thói quen, gọi tên, phỏng đoán",
+      "words": [67, 246, 551, 287, 265, 283, 240, 622, 552, 367, 469, 653, 511, 211, 540, 266, 519, 466, 603, 182, 654, 662, 397, 399, 645],
+      "kanji": ["東", "西", "南", "北"],
+      "grammar": ["nagara", "to-iu-named", "deshou"]
+    },
+    {
+      "id": "n5-27",
+      "level": "n5",
+      "order": 27,
+      "titleVi": "Sức khỏe và thời tiết",
+      "topicVi": "Ôn tập: cơ thể, bệnh tật, thời tiết",
+      "words": [169, 19, 612, 604, 503, 206, 14, 120, 325, 55, 286, 395, 649, 520, 24, 472, 300, 386, 316, 346, 328, 550, 184],
+      "kanji": ["気"],
+      "grammar": []
+    },
+    {
+      "id": "n5-28",
+      "level": "n5",
+      "order": 28,
+      "titleVi": "Ôn tập N5",
+      "topicVi": "Tổng hợp N5",
+      "words": [1312, 671, 22, 78, 97, 375, 256, 655, 161, 164, 260, 276, 313, 339, 349, 405, 362, 429, 449, 460, 536, 587, 660, 285, 414, 484, 492, 263],
+      "kanji": [],
+      "grammar": []
+    },
+    {
+      "id": "n4-01",
+      "level": "n4",
+      "order": 1,
+      "titleVi": "Thể thông thường",
+      "topicVi": "Nói chuyện thân mật, giải thích",
+      "words": [675, 676, 737, 1216, 838, 816, 809, 817, 1064, 1030, 700, 1041, 1027, 871, 726, 991, 736, 923, 900, 914, 1179, 689, 697, 1151, 849, 869, 1202],
+      "kanji": ["私", "自", "近", "不", "住", "同", "言"],
+      "grammar": ["n-desu-no-desu", "kedo-keredomo", "shi", "kana-kashira"]
+    },
+    {
+      "id": "n4-02",
+      "level": "n4",
+      "order": 2,
+      "titleVi": "Cho và nhận",
+      "topicVi": "Quà tặng, giúp đỡ",
+      "words": [858, 1257, 753, 1205, 773, 746, 782, 776, 1135, 684, 1273, 1168, 1089, 1078, 754, 1108, 1284, 1087, 979, 1082, 764, 1079, 1244, 1245, 1105, 812],
+      "kanji": ["送", "手", "物", "親", "切", "兄"],
+      "grammar": ["ageru-kureru-morau", "te-ageru", "te-kureru", "te-morau"]
+    },
+    {
+      "id": "n4-03",
+      "level": "n4",
+      "order": 3,
+      "titleVi": "Nhờ vả lịch sự",
+      "topicVi": "Nhờ cấp trên, người lạ",
+      "words": [854, 712, 922, 803, 1196, 954, 1018, 952, 884, 1011, 1295, 1020, 1221, 1061, 1074, 1044, 912, 1191, 1075, 723, 959, 819, 1276, 1014],
+      "kanji": ["社", "事", "仕", "工", "場", "用", "明"],
+      "grammar": ["te-kudasaru-te-itadaku", "te-kuremasen-ka-te-itadakemasen-ka"]
+    },
+    {
+      "id": "n4-04",
+      "level": "n4",
+      "order": 4,
+      "titleVi": "Thể khả năng",
+      "topicVi": "Có thể làm được",
+      "words": [897, 830, 738, 982, 960, 1088, 1171, 1231, 935, 1161, 790, 1208, 828, 1233, 1126, 824, 1101, 1162, 848, 964, 691, 690, 1081, 968, 1160],
+      "kanji": ["運", "転", "発", "字", "漢", "英", "集"],
+      "grammar": ["eru-rareru-potential", "koto-ga-dekiru", "you-ni-naru"]
+    },
+    {
+      "id": "n4-05",
+      "level": "n4",
+      "order": 5,
+      "titleVi": "Dự định",
+      "topicVi": "Ý định, kế hoạch",
+      "words": [775, 1080, 1281, 861, 1049, 971, 1274, 1022, 1133, 874, 875, 889, 925, 926, 911, 906, 688, 1289, 1109, 876, 1163, 1282, 718, 987, 1052, 771],
+      "kanji": ["思", "計", "画", "旅", "京", "夏", "花"],
+      "grammar": ["ou-you", "you-to-omou", "tsumori", "yotei"]
+    },
+    {
+      "id": "n4-06",
+      "level": "n4",
+      "order": 6,
+      "titleVi": "Quyết định",
+      "topicVi": "Quyết định, quy định",
+      "words": [839, 837, 832, 958, 740, 962, 743, 792, 1291, 1059, 921, 902, 996, 972, 1131, 1288, 731, 787, 788, 677, 1183, 797, 983],
+      "kanji": ["会", "室", "習", "早", "起", "朝"],
+      "grammar": ["koto-ni-suru", "koto-ni-naru", "you-ni-suru", "ku-suru-ni-suru"]
+    },
+    {
+      "id": "n4-07",
+      "level": "n4",
+      "order": 7,
+      "titleVi": "Khi nào",
+      "topicVi": "Thời điểm, khoảng thời gian",
+      "words": [678, 717, 727, 774, 791, 756, 814, 880, 882, 942, 963, 967, 949, 1106, 1188, 1189, 1242, 1228, 1251, 1255, 1283, 1290, 1294, 1029, 710, 899, 1318],
+      "kanji": ["代", "去", "昼", "夜", "夕", "帰"],
+      "grammar": ["toki", "aida-aida-ni", "made-ni"]
+    },
+    {
+      "id": "n4-08",
+      "level": "n4",
+      "order": 8,
+      "titleVi": "Nếu … thì",
+      "topicVi": "Điều kiện, lời khuyên",
+      "words": [750, 767, 826, 868, 893, 909, 918, 946, 947, 1002, 976, 1111, 1114, 1116, 1120, 1142, 1150, 1176, 1190, 1227, 1236, 1237, 1252, 1301, 1209],
+      "kanji": ["問", "題", "持", "別", "銀", "借", "貸"],
+      "grammar": ["ba", "ba-yokatta", "tara", "tara-dou"]
+    },
+    {
+      "id": "n4-09",
+      "level": "n4",
+      "order": 9,
+      "titleVi": "Dù … cũng",
+      "topicVi": "Điều kiện, nhượng bộ",
+      "words": [725, 739, 741, 747, 780, 798, 799, 811, 852, 903, 917, 957, 1004, 1015, 1102, 1110, 1123, 1147, 1148, 1157, 1187, 1210, 1230, 1240, 1253, 1201],
+      "kanji": ["動", "空", "歩", "駅", "通", "急", "町"],
+      "grammar": ["nara", "to", "te-mo-de-mo", "te-mo-kamawanai"]
+    },
+    {
+      "id": "n4-10",
+      "level": "n4",
+      "order": 10,
+      "titleVi": "Nên và phải",
+      "topicVi": "Lời khuyên, nghĩa vụ, mệnh lệnh nhẹ",
+      "words": [732, 772, 823, 836, 850, 855, 866, 980, 1012, 1032, 1034, 1056, 1060, 1067, 1086, 1124, 808, 1132, 1140, 1144, 1146, 1154, 1246, 1115, 1272, 825],
+      "kanji": ["者", "体", "院", "病", "医", "心", "目"],
+      "grammar": ["hou-ga-ii", "nai-to-ikenai-nakucha", "naide", "nasai"]
+    },
+    {
+      "id": "n4-11",
+      "level": "n4",
+      "order": 11,
+      "titleVi": "Làm xong, làm sẵn",
+      "topicVi": "Trợ động từ sau thể て",
+      "words": [721, 734, 777, 759, 785, 794, 795, 802, 815, 908, 944, 965, 1001, 993, 1047, 1051, 1072, 1094, 1137, 1175, 1200, 1232, 1277, 1279, 1304, 810, 1319],
+      "kanji": ["意", "真", "写", "図", "紙", "開"],
+      "grammar": ["te-shimau-chau", "te-oku", "te-miru", "te-aru"]
+    },
+    {
+      "id": "n4-12",
+      "level": "n4",
+      "order": 12,
+      "titleVi": "Đi và đến",
+      "topicVi": "Thay đổi theo thời gian, bắt đầu và kết thúc",
+      "words": [681, 919, 705, 784, 793, 851, 934, 977, 879, 992, 916, 915, 920, 984, 1038, 1076, 1077, 1156, 1204, 1118, 1302, 859, 1170, 1192, 820, 1113, 1265, 1099],
+      "kanji": ["始", "終", "多", "少", "口", "広"],
+      "grammar": ["te-iku", "te-kuru", "hajimeru-owaru-tsuzukeru", "dasu"]
+    },
+    {
+      "id": "n4-13",
+      "level": "n4",
+      "order": 13,
+      "titleVi": "Trông có vẻ",
+      "topicVi": "Phán đoán theo bề ngoài, nghe nói",
+      "words": [1019, 733, 805, 818, 856, 1039, 1093, 1166, 1214, 1172, 1138, 1267, 1143, 1263, 1224, 1177, 1262, 1119, 762, 913, 831, 860, 807, 924, 907, 1159],
+      "kanji": ["台", "風", "新", "春", "秋", "冬"],
+      "grammar": ["sou-da-appearance", "sou-da-hearsay", "rashii"]
+    },
+    {
+      "id": "n4-14",
+      "level": "n4",
+      "order": 14,
+      "titleVi": "Hình như",
+      "topicVi": "Phỏng đoán",
+      "words": [766, 796, 864, 940, 941, 1040, 1112, 1127, 1134, 1174, 1185, 1211, 1275, 783, 843, 749, 1229, 1217, 685, 1193, 1173, 742],
+      "kanji": ["地", "音", "悪", "死", "元", "赤"],
+      "grammar": ["you-da", "mitai", "kamo-shirenai", "darou"]
+    },
+    {
+      "id": "n4-15",
+      "level": "n4",
+      "order": 15,
+      "titleVi": "Chắc chắn là",
+      "topicVi": "Suy luận, trích dẫn",
+      "words": [706, 833, 1042, 1158, 1007, 1167, 975, 1125, 1266, 863, 953, 890, 822, 1017, 821, 1215, 1292, 1207, 1213, 881, 1009, 1008, 692, 981],
+      "kanji": ["考", "世", "界", "洋", "研", "究"],
+      "grammar": ["hazu-da", "hazu-ga-nai", "to-omou", "to-iu-say"]
+    },
+    {
+      "id": "n4-16",
+      "level": "n4",
+      "order": 16,
+      "titleVi": "Vì và để",
+      "topicVi": "Lý do, mục đích",
+      "words": [748, 872, 1286, 1300, 1055, 1026, 714, 939, 724, 1195, 1280, 1084, 1261, 1278, 1260, 755, 1005, 886, 1184, 1264, 895, 1046],
+      "kanji": ["理", "試", "験", "正", "答", "勉", "強"],
+      "grammar": ["node", "noni-although", "noni-purpose", "te-reason", "tame-ni", "you-ni"]
+    },
+    {
+      "id": "n4-17",
+      "level": "n4",
+      "order": 17,
+      "titleVi": "Muốn người khác…",
+      "topicVi": "Mong muốn của người khác, dễ và khó",
+      "words": [698, 770, 933, 1182, 840, 891, 1013, 800, 1268, 901, 1194, 1098, 1128, 1000, 695, 1298, 841, 943, 986, 931, 679],
+      "kanji": ["安", "着", "服", "使", "道", "楽"],
+      "grammar": ["te-hoshii", "tagaru", "garu", "yasui-nikui"]
+    },
+    {
+      "id": "n4-18",
+      "level": "n4",
+      "order": 18,
+      "titleVi": "Quá, chỉ, toàn",
+      "topicVi": "Mức độ, giới hạn",
+      "words": [686, 696, 715, 988, 1218, 1117, 1028, 1031, 1063, 1057, 961, 703, 857, 1199, 995, 927, 932, 956, 865, 1198, 1235, 896, 1259, 1269, 1297, 1299, 989, 1073],
+      "kanji": ["味", "飲", "肉", "牛", "魚", "野", "料"],
+      "grammar": ["sugiru", "hodo-nai", "nakanaka-nai", "shika-nai", "bakari", "ta-bakari"]
+    },
+    {
+      "id": "n4-19",
+      "level": "n4",
+      "order": 19,
+      "titleVi": "Đúng lúc",
+      "topicVi": "Thời điểm hành động, tần suất",
+      "words": [702, 709, 751, 1091, 1152, 1303, 1035, 1036, 1054, 1219, 1043, 1139, 765, 1293, 1165, 1092, 973, 844, 1197, 974, 1058, 829, 1107],
+      "kanji": ["以", "週", "店", "員", "買", "曜"],
+      "grammar": ["tokoro-da", "zutsu", "oki-ni", "me", "x-counters-n4"]
+    },
+    {
+      "id": "n4-20",
+      "level": "n4",
+      "order": 20,
+      "titleVi": "Có … hay không",
+      "topicVi": "Câu hỏi lồng, danh từ hóa",
+      "words": [713, 862, 1180, 1096, 1100, 910, 978, 1090, 846, 719, 950, 1234, 786, 1239, 1258, 1164, 867, 729, 999, 1248, 768, 769, 1206, 1053, 1103],
+      "kanji": ["館", "海", "色", "度", "映", "質", "文"],
+      "grammar": ["ka-dou-ka", "ka-embedded-question", "no-koto-nominalizer", "koto-ga-aru"]
+    },
+    {
+      "id": "n4-21",
+      "level": "n4",
+      "order": 21,
+      "titleVi": "Bị động",
+      "topicVi": "Bị, được (thể bị động)",
+      "words": [938, 1220, 1136, 1203, 708, 813, 758, 1003, 1070, 969, 757, 1186, 1048, 834, 1256, 716, 904, 951, 1270, 1271, 1006, 930, 687, 693, 694, 789, 1129],
+      "kanji": ["建", "業", "作", "古", "足", "田"],
+      "grammar": ["reru-rareru-passive", "mo-emphasis"]
+    },
+    {
+      "id": "n4-22",
+      "level": "n4",
+      "order": 22,
+      "titleVi": "Sai khiến",
+      "topicVi": "Bắt, cho phép làm",
+      "words": [682, 680, 778, 877, 885, 845, 1021, 835, 1141, 1145, 1155, 1066, 888, 887, 985, 1069, 1023, 1025, 1033, 883, 704, 945, 730, 1238],
+      "kanji": ["弟", "姉", "妹", "堂", "教", "公"],
+      "grammar": ["seru-saseru", "sasete-kudasai", "serareru-saserareru"]
+    },
+    {
+      "id": "n4-23",
+      "level": "n4",
+      "order": 23,
+      "titleVi": "Mệnh lệnh và cấm đoán",
+      "topicVi": "Biển báo, lời nói mạnh",
+      "words": [699, 827, 1065, 870, 928, 929, 955, 1121, 728, 804, 1223, 936, 847, 1062, 1130, 1169, 707, 873, 1068],
+      "kanji": ["力", "止", "青", "走", "立", "注"],
+      "grammar": ["e-ro", "na-prohibition"]
+    },
+    {
+      "id": "n4-24",
+      "level": "n4",
+      "order": 24,
+      "titleVi": "Tôn kính ngữ",
+      "topicVi": "Nói với cấp trên, khách hàng",
+      "words": [720, 763, 1122, 1247, 905, 745, 894, 761, 892, 760, 842, 1083, 1285, 1045, 744, 1287, 1010, 1104],
+      "kanji": ["主", "有", "族", "特", "方", "茶"],
+      "grammar": ["sonkeigo", "o-ni-naru"]
+    },
+    {
+      "id": "n4-25",
+      "level": "n4",
+      "order": 25,
+      "titleVi": "Khiêm nhường ngữ",
+      "topicVi": "Nói về mình khi lịch sự",
+      "words": [711, 722, 1222, 1250, 1249, 1153, 970, 806, 701, 1241, 683, 735, 752, 1212, 966, 948, 1320],
+      "kanji": ["売", "屋", "品", "知", "待", "家"],
+      "grammar": ["kenjougo", "o-suru", "de-gozaimasu"]
+    },
+    {
+      "id": "n4-26",
+      "level": "n4",
+      "order": 26,
+      "titleVi": "Tổng hợp N4",
+      "topicVi": "Cách làm, đang trong lúc, liệt kê, gợi ý",
+      "words": [779, 937, 1050, 990, 994, 997, 998, 1024, 1037, 1085, 1095, 1097, 1149, 853, 1243, 898, 1071, 1181, 1254, 1226, 1296, 1178, 878, 801, 781, 1225],
+      "kanji": ["鳥", "歌", "飯", "黒", "重", "犬"],
+      "grammar": ["kata", "chuu-juu", "toka-toka", "nado", "de-mo-suggestion", "sa", "ga-suru"]
+    }
+  ]
+}

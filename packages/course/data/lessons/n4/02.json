@@ -1,0 +1,1301 @@
+{
+  "id": "n4-02",
+  "goalsVi": [
+    "Nói ai cho ai cái gì bằng あげる, くれる, もらう",
+    "Nói việc mình làm giúp người khác và được người khác giúp: 〜てあげる, 〜てくれる, 〜てもらう",
+    "Nói về quà tặng (プレゼント, お土産, お祝い) và gia đình mình (夫, 妻, 息子, 娘)"
+  ],
+  "words": [
+    {
+      "no": 858,
+      "word": "くれる",
+      "meaningsVi": [
+        "cho (tôi, người phía tôi)"
+      ],
+      "noteVi": "Người khác cho mình hoặc cho người phía mình (gia đình, nhóm của mình). Chủ ngữ là người cho: 友達が(私に)本をくれました. Mình cho người khác thì dùng あげる.",
+      "examples": [
+        {
+          "ja": "姉が私に時計をくれました。",
+          "vi": "Chị tôi đã cho tôi cái đồng hồ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1257,
+      "word": "もらう",
+      "meaningsVi": [
+        "nhận, được (ai đó) cho"
+      ],
+      "noteVi": "Chủ ngữ là người nhận; người cho đi với に hoặc から: 友達にもらう, 友達からもらう. Nhận từ công ty, trường học thì dùng から.",
+      "examples": [
+        {
+          "ja": "誕生日に友達から花をもらいました。",
+          "vi": "Sinh nhật, tôi được bạn tặng hoa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 753,
+      "word": "贈り物",
+      "meaningsVi": [
+        "quà tặng, quà biếu"
+      ],
+      "noteVi": "Trang trọng hơn プレゼント, hay dùng cho quà biếu nhân dịp lễ, Tết, hoặc trong văn viết.",
+      "examples": [
+        {
+          "ja": "母の誕生日の贈り物を買いました。",
+          "vi": "Tôi đã mua quà sinh nhật cho mẹ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1205,
+      "word": "プレゼント",
+      "meaningsVi": [
+        "quà, quà tặng"
+      ],
+      "noteVi": "Dùng hằng ngày, nhất là quà sinh nhật, quà Giáng sinh. プレゼントする: tặng quà.",
+      "examples": [
+        {
+          "ja": "彼女に誕生日のプレゼントをあげました。",
+          "vi": "Tôi đã tặng bạn gái quà sinh nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 773,
+      "word": "お土産",
+      "meaningsVi": [
+        "quà (mua khi đi xa về)",
+        "quà mang theo khi đến thăm nhà ai"
+      ],
+      "noteVi": "Âm Hán Việt \"thổ sản\" (sản vật địa phương). Đi du lịch về, người Nhật thường mua bánh kẹo làm お土産 cho đồng nghiệp, bạn bè. Quà lưu niệm mua cho chính mình cũng gọi là お土産.",
+      "examples": [
+        {
+          "ja": "京都で家族にお土産を買いました。",
+          "vi": "Tôi đã mua quà ở Kyoto cho gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 746,
+      "word": "お祝い",
+      "meaningsVi": [
+        "quà mừng",
+        "sự chúc mừng, lễ mừng"
+      ],
+      "noteVi": "Quà hoặc tiền mừng nhân dịp vui: 結婚のお祝い (quà mừng cưới), 誕生日のお祝い.",
+      "examples": [
+        {
+          "ja": "友達に結婚のお祝いをあげました。",
+          "vi": "Tôi đã tặng bạn quà mừng cưới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 782,
+      "word": "お礼",
+      "meaningsVi": [
+        "lời cảm ơn",
+        "quà cảm ơn, quà đáp lễ"
+      ],
+      "noteVi": "お礼を言う: nói lời cảm ơn. お礼に: để cảm ơn, để đáp lễ.",
+      "examples": [
+        {
+          "ja": "手伝ってくれた人にお礼を言いました。",
+          "vi": "Tôi đã cảm ơn người đã giúp mình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 776,
+      "word": "おもちゃ",
+      "meaningsVi": [
+        "đồ chơi"
+      ],
+      "examples": [
+        {
+          "ja": "子供におもちゃを買ってあげました。",
+          "vi": "Tôi đã mua đồ chơi cho con."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1135,
+      "word": "人形",
+      "meaningsVi": [
+        "búp bê",
+        "con rối, tượng người nhỏ"
+      ],
+      "noteVi": "Âm Hán Việt \"nhân hình\" (hình người).",
+      "examples": [
+        {
+          "ja": "娘は人形が大好きです。",
+          "vi": "Con gái tôi rất thích búp bê."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 684,
+      "word": "アクセサリー",
+      "meaningsVi": [
+        "đồ trang sức, phụ kiện đeo"
+      ],
+      "noteVi": "Chủ yếu chỉ đồ đeo trên người: vòng, nhẫn, khuyên tai, dây chuyền.",
+      "examples": [
+        {
+          "ja": "この店のアクセサリーは安くて、かわいいです。",
+          "vi": "Đồ trang sức ở cửa hàng này rẻ mà xinh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1273,
+      "word": "指輪",
+      "meaningsVi": [
+        "nhẫn"
+      ],
+      "noteVi": "Âm Hán Việt \"chỉ luân\" (vòng ở ngón tay).",
+      "examples": [
+        {
+          "ja": "夫が指輪をくれました。",
+          "vi": "Chồng tôi đã tặng tôi chiếc nhẫn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1168,
+      "word": "ハンドバッグ",
+      "meaningsVi": [
+        "túi xách tay (của phụ nữ)"
+      ],
+      "examples": [
+        {
+          "ja": "このハンドバッグは姉にもらいました。",
+          "vi": "Cái túi xách này tôi được chị gái cho."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1089,
+      "word": "手袋",
+      "meaningsVi": [
+        "găng tay"
+      ],
+      "noteVi": "Âm Hán Việt \"thủ đại\" (túi cho tay). Đeo găng tay: 手袋をする.",
+      "examples": [
+        {
+          "ja": "寒いですから、手袋をしてください。",
+          "vi": "Trời lạnh nên hãy đeo găng tay vào."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1078,
+      "word": "包む",
+      "meaningsVi": [
+        "gói, bọc"
+      ],
+      "examples": [
+        {
+          "ja": "店の人がプレゼントをきれいに包んでくれました。",
+          "vi": "Nhân viên cửa hàng đã gói quà rất đẹp cho tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 754,
+      "word": "送る",
+      "meaningsVi": [
+        "gửi",
+        "đưa (ai) đi, tiễn"
+      ],
+      "noteVi": "Gửi đồ, thư: 手紙を送る. Đưa người đến đâu đó (đi bộ hoặc bằng xe): 駅まで送る.",
+      "examples": [
+        {
+          "ja": "国の家族に写真を送りました。",
+          "vi": "Tôi đã gửi ảnh cho gia đình ở quê nhà."
+        },
+        {
+          "ja": "車で駅まで送りましょうか。",
+          "vi": "Để tôi đưa anh ra ga bằng ô tô nhé?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1108,
+      "word": "届ける",
+      "meaningsVi": [
+        "mang đến, đưa đến tận nơi",
+        "nộp, trình báo (cho cơ quan)"
+      ],
+      "noteVi": "Mang đồ đến tận tay người nhận: 荷物を届ける. Nhặt được đồ rơi thì 交番に届ける (nộp cho đồn cảnh sát).",
+      "examples": [
+        {
+          "ja": "この荷物を田中さんに届けてください。",
+          "vi": "Hãy mang gói hàng này đến cho anh Tanaka."
+        },
+        {
+          "ja": "財布を交番に届けました。",
+          "vi": "Tôi đã nộp cái ví cho đồn cảnh sát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1284,
+      "word": "喜ぶ",
+      "meaningsVi": [
+        "vui mừng, vui sướng"
+      ],
+      "noteVi": "Thường dùng để kể về niềm vui của người khác, thể hiện qua nét mặt, lời nói: 母はとても喜びました. Nói cảm xúc của mình thì dùng うれしい.",
+      "examples": [
+        {
+          "ja": "息子はおもちゃをもらって、喜んでいます。",
+          "vi": "Con trai tôi được đồ chơi nên rất vui."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1087,
+      "word": "手伝う",
+      "meaningsVi": [
+        "giúp, phụ giúp (một việc)"
+      ],
+      "noteVi": "Giúp ai làm một việc cụ thể: 母を手伝う (giúp mẹ), 料理を手伝う (phụ nấu ăn). Người được giúp đi với を.",
+      "examples": [
+        {
+          "ja": "毎晩、母の料理を手伝います。",
+          "vi": "Tối nào tôi cũng phụ mẹ nấu ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 979,
+      "word": "親切",
+      "meaningsVi": [
+        "tử tế, tốt bụng",
+        "lòng tốt"
+      ],
+      "noteVi": "Âm Hán Việt \"thân thiết\" nhưng nghĩa là tử tế, tốt bụng (với cả người lạ), không phải \"thân thiết\". Là tính từ đuôi な: 親切な人.",
+      "examples": [
+        {
+          "ja": "田中さんはとても親切な人です。",
+          "vi": "Anh Tanaka là người rất tốt bụng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1082,
+      "word": "連れる",
+      "meaningsVi": [
+        "dẫn theo, dắt theo (người, con vật)"
+      ],
+      "noteVi": "Hay dùng ở dạng 連れて行く (dẫn đi), 連れて来る (dẫn đến), 連れて帰る (dẫn về). Mang đồ vật thì dùng 持って行く.",
+      "examples": [
+        {
+          "ja": "日曜日、子供を公園に連れて行きました。",
+          "vi": "Chủ nhật tôi đã dẫn con đi công viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 764,
+      "word": "夫",
+      "meaningsVi": [
+        "chồng (tôi)"
+      ],
+      "noteVi": "Nói về chồng mình với người ngoài. Chồng của người khác: ご主人.",
+      "examples": [
+        {
+          "ja": "夫は銀行で働いています。",
+          "vi": "Chồng tôi làm việc ở ngân hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1079,
+      "word": "妻",
+      "meaningsVi": [
+        "vợ (tôi)"
+      ],
+      "noteVi": "Nói về vợ mình với người ngoài. Vợ của người khác: 奥さん.",
+      "examples": [
+        {
+          "ja": "妻は料理がとても上手です。",
+          "vi": "Vợ tôi nấu ăn rất giỏi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1244,
+      "word": "息子",
+      "meaningsVi": [
+        "con trai (tôi)"
+      ],
+      "noteVi": "Nói về con trai mình. Con trai người khác: 息子さん.",
+      "examples": [
+        {
+          "ja": "息子は5歳です。",
+          "vi": "Con trai tôi 5 tuổi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1245,
+      "word": "娘",
+      "meaningsVi": [
+        "con gái (tôi)"
+      ],
+      "noteVi": "Nói về con gái mình. Con gái người khác: 娘さん.",
+      "examples": [
+        {
+          "ja": "娘は東京の大学で勉強しています。",
+          "vi": "Con gái tôi đang học đại học ở Tokyo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1105,
+      "word": "とこや",
+      "meaningsVi": [
+        "tiệm cắt tóc (nam)",
+        "thợ cắt tóc"
+      ],
+      "noteVi": "Chữ Hán: 床屋. Tiệm cắt tóc kiểu truyền thống, khách chủ yếu là nam.",
+      "examples": [
+        {
+          "ja": "とこやで髪を切ってもらいました。",
+          "vi": "Tôi đã đi cắt tóc ở tiệm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 812,
+      "word": "髪",
+      "meaningsVi": [
+        "tóc"
+      ],
+      "noteVi": "Cũng nói 髪の毛 (かみのけ). Đồng âm với 紙 (giấy): chú ý chữ Hán.",
+      "examples": [
+        {
+          "ja": "マイさんは髪が長いです。",
+          "vi": "Chị Mai có mái tóc dài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "送",
+      "meaningVi": "gửi, tiễn",
+      "noteVi": "Gặp trong 送る (おくる). Bộ 辶 (bước đi): đưa đi.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "手",
+      "meaningVi": "tay",
+      "noteVi": "Gặp trong 手 (て), 手紙, 手袋, 手伝う, 上手, 下手. Hình bàn tay với các ngón.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "物",
+      "meaningVi": "vật, đồ vật",
+      "noteVi": "Gặp trong 物 (もの), 食べ物, 飲み物, 買い物, 贈り物, 動物 (どうぶつ). Bên trái là bộ 牛 (trâu bò).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "親",
+      "meaningVi": "cha mẹ; thân",
+      "noteVi": "Gặp trong 両親 (りょうしん), 親切 (しんせつ). Mẹo nhớ: 立 (đứng) + 木 (cây) + 見 (nhìn): cha mẹ đứng trên cây trông con.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "切",
+      "meaningVi": "cắt; thiết tha",
+      "noteVi": "Gặp trong 切る (きる), 切手 (きって), 大切, 親切. Bên phải là bộ 刀 (dao).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "兄",
+      "meaningVi": "anh trai",
+      "noteVi": "Gặp trong 兄 (あに), お兄さん, 兄弟 (きょうだい). Chữ 口 (miệng) trên 儿 (chân người).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ageru-kureru-morau",
+      "titleVi": "あげる / くれる / もらう: cho và nhận",
+      "summaryVi": "あげる: cho người khác; くれる: người khác cho tôi (người phía tôi); もらう: nhận.",
+      "explanationVi": [
+        "Tiếng Việt chỉ cần \"cho\" và \"nhận\", còn tiếng Nhật chọn động từ theo **hướng đi của món đồ** so với người nói: **あげる** khi đồ đi **từ mình ra** (hoặc giữa hai người khác), **くれる** khi đồ đi **về phía mình** (tôi, gia đình, nhóm của tôi), **もらう** khi kể từ phía **người nhận**.",
+        "Với あげる và くれる, chủ ngữ là **người cho**, người nhận đi với に: 「私は弟に時計をあげました」, 「姉が(私に)時計をくれました」 (私に thường bỏ, vì くれる đã cho biết người nhận là mình). Với もらう, chủ ngữ là **người nhận**, người cho đi với **に** hoặc **から**: 「私は姉に/から時計をもらいました」.",
+        "Vì vậy 「友達が私にあげました」 là sai: người khác cho mình phải dùng くれる. Cùng một việc có hai cách nói: 「マイさんが手袋をくれました」 = 「(私は)マイさんに手袋をもらいました」.",
+        "Nhận từ công ty, trường học, cơ quan thì chỉ dùng から: 「会社からお祝いをもらいました」. Khi cho hoặc nhận từ người trên, dùng kính ngữ さしあげる, くださる, いただく (bài sau)."
+      ],
+      "patterns": [
+        "A は B に N を あげる",
+        "A が (私に) N を くれる",
+        "B は A に／から N を もらう"
+      ],
+      "examples": [
+        {
+          "ja": "私は弟に時計をあげました。",
+          "vi": "Tôi đã cho em trai cái đồng hồ."
+        },
+        {
+          "ja": "マイさんが手袋をくれました。",
+          "vi": "Chị Mai đã cho tôi đôi găng tay."
+        },
+        {
+          "ja": "私はマイさんに手袋をもらいました。",
+          "vi": "Tôi được chị Mai cho đôi găng tay."
+        },
+        {
+          "ja": "田中さんは木村さんにお土産をあげました。",
+          "vi": "Anh Tanaka đã tặng chị Kimura quà."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "友達は私にプレゼントをあげました。",
+          "right": "友達は私にプレゼントをくれました。",
+          "noteVi": "Người khác cho mình (hoặc người nhà mình) phải dùng くれる; あげる chỉ dùng khi đồ đi từ mình ra, hoặc giữa hai người khác."
+        },
+        {
+          "wrong": "私は友達にプレゼントをくれました。",
+          "right": "私は友達にプレゼントをあげました。",
+          "noteVi": "Mình cho người khác thì dùng あげる; くれる chỉ dùng khi đồ đi về phía mình."
+        },
+        {
+          "wrong": "私は会社にお祝いをもらいました。",
+          "right": "私は会社からお祝いをもらいました。",
+          "noteVi": "Nhận từ công ty, trường học (không phải một người) thì dùng から, không dùng に."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-ageru",
+      "titleVi": "〜てあげる: làm (việc gì) cho người khác",
+      "summaryVi": "V-て あげる: mình (hoặc ai đó) làm một việc giúp người khác.",
+      "explanationVi": [
+        "Giống あげる với đồ vật, **V-て + あげる** là \"cho\" người khác **một hành động**: 「妹に本を読んであげました」 = Tôi đã đọc sách cho em gái nghe.",
+        "Người được giúp giữ trợ từ của động từ chính: 「妹に本を読む」 → 「妹に本を読んであげる」, 「母を手伝う」 → 「母を手伝ってあげる」. Khi động từ không có chỗ cho người nhận, dùng の: 「友達の荷物を持ってあげました」 (xách đồ giúp bạn).",
+        "**Chú ý**: 〜てあげる mang ý \"mình làm ơn cho người ta\". Nói thẳng với người nghe, nhất là người trên, dễ nghe như **kể công**. Không nói 「先生、荷物を持ってあげます」; đề nghị giúp thì nói 「荷物を持ちましょうか」 (Để em xách giúp nhé)."
+      ],
+      "patterns": [
+        "(私は) B に N を V-て あげる",
+        "(私は) B の N を V-て あげる"
+      ],
+      "examples": [
+        {
+          "ja": "妹に本を読んであげました。",
+          "vi": "Tôi đã đọc sách cho em gái nghe."
+        },
+        {
+          "ja": "友達の荷物を持ってあげました。",
+          "vi": "Tôi đã xách đồ giúp bạn."
+        },
+        {
+          "ja": "木村さんは留学生に日本語を教えてあげています。",
+          "vi": "Chị Kimura đang dạy tiếng Nhật giúp các du học sinh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "妹に本を読みてあげました。",
+          "right": "妹に本を読んであげました。",
+          "noteVi": "あげる đi sau thể て: 読む → 読んで (không phải 読みて).",
+          "issue": "te_form"
+        },
+        {
+          "wrong": "先生、荷物を持ってあげます。",
+          "right": "先生、荷物を持ちましょうか。",
+          "noteVi": "Câu sai không sai ngữ pháp nhưng **thất lễ**: nói 〜てあげる với người trên nghe như kể công. Đề nghị giúp thì dùng 〜ましょうか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-kureru",
+      "titleVi": "〜てくれる: (người khác) làm cho tôi",
+      "summaryVi": "V-て くれる: người khác làm một việc giúp tôi (người phía tôi), kèm lòng biết ơn.",
+      "explanationVi": [
+        "**V-て + くれる**: người khác làm một việc **cho mình** (hoặc người nhà, nhóm của mình) và mình **thấy biết ơn**: 「友達が宿題を手伝ってくれました」 = Bạn đã giúp tôi làm bài tập.",
+        "Chủ ngữ là **người làm**, thường đi với が. Người nhận (私に) thường bỏ, vì くれる đã cho biết người được giúp là mình.",
+        "Tiếng Việt kể đơn giản \"bạn giúp tôi làm bài tập\". Nếu tiếng Nhật chỉ nói 「友達が宿題を手伝いました」 thì nghe như kể lại sự việc, **thiếu ý cảm ơn**. Khi được ai giúp, người Nhật hầu như luôn nói 〜てくれる hoặc 〜てもらう."
+      ],
+      "patterns": [
+        "A が (私に) N を V-て くれる"
+      ],
+      "examples": [
+        {
+          "ja": "友達が宿題を手伝ってくれました。",
+          "vi": "Bạn đã giúp tôi làm bài tập."
+        },
+        {
+          "ja": "母がセーターを送ってくれました。",
+          "vi": "Mẹ đã gửi áo len cho tôi."
+        },
+        {
+          "ja": "田中さんが車で駅まで送ってくれました。",
+          "vi": "Anh Tanaka đã đưa tôi ra ga bằng ô tô."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "友達が宿題を手伝ってあげました。",
+          "right": "友達が宿題を手伝ってくれました。",
+          "noteVi": "Người khác làm cho mình: 〜てくれる. 〜てあげる chỉ dùng khi mình (hoặc ai đó) làm cho người khác."
+        },
+        {
+          "wrong": "私は友達に写真を撮ってくれました。",
+          "right": "友達が写真を撮ってくれました。",
+          "noteVi": "Với 〜てくれる, chủ ngữ là người làm (友達が), không phải mình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-morau",
+      "titleVi": "〜てもらう: được (người khác) làm cho",
+      "summaryVi": "V-て もらう: tôi được người khác làm cho một việc, thường là do tôi nhờ.",
+      "explanationVi": [
+        "**V-て + もらう** kể từ phía **người được giúp**: 「(私は)田中さんに手紙を読んでもらいました」 = Tôi được (nhờ) anh Tanaka đọc giúp lá thư. Chủ ngữ là người nhận, **người làm đi với に**.",
+        "Cùng một việc có thể nói bằng 〜てくれる hoặc 〜てもらう: 「友達が手伝ってくれました」 = 「友達に手伝ってもらいました」. 〜てもらう thường gợi ý **mình đã nhờ**; 〜てくれる nhấn vào lòng tốt của người làm.",
+        "Với dịch vụ (cắt tóc, sửa đồ…), người Nhật nói 〜てもらう: 「とこやで髪を切ってもらいました」. Tiếng Việt nói \"tôi đi cắt tóc\", còn 「髪を切りました」 có khi được hiểu là tự cắt."
+      ],
+      "patterns": [
+        "(私は) A に N を V-て もらう"
+      ],
+      "examples": [
+        {
+          "ja": "私は田中さんに日本語の手紙を読んでもらいました。",
+          "vi": "Tôi đã nhờ anh Tanaka đọc giúp lá thư tiếng Nhật."
+        },
+        {
+          "ja": "とこやで髪を切ってもらいました。",
+          "vi": "Tôi đã đi cắt tóc ở tiệm."
+        },
+        {
+          "ja": "友達に駅までの道を教えてもらいました。",
+          "vi": "Tôi được bạn chỉ đường ra ga."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は友達が宿題を手伝ってもらいました。",
+          "right": "私は友達に宿題を手伝ってもらいました。",
+          "noteVi": "Người làm giúp đi với に trong 〜てもらう. が dùng với 〜てくれる: 友達が手伝ってくれました."
+        },
+        {
+          "wrong": "とこやで髪を切てもらいました。",
+          "right": "とこやで髪を切ってもらいました。",
+          "noteVi": "切る là động từ nhóm 1 (dù có đuôi いる): thể て là 切って, không phải 切て."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-02-e01",
+      "type": "choice",
+      "grammar": [
+        "ageru-kureru-morau"
+      ],
+      "promptVi": "Chị gái tôi đã cho tôi đồng hồ. Chọn động từ đúng.",
+      "ja": "姉が私に時計を＿。",
+      "options": [
+        "くれました",
+        "あげました",
+        "もらいました"
+      ],
+      "answer": 0,
+      "explainVi": "Người khác cho mình: くれる."
+    },
+    {
+      "id": "n4-02-e02",
+      "type": "fill",
+      "grammar": [
+        "ageru-kureru-morau"
+      ],
+      "before": "私は弟にお土産を",
+      "after": "。",
+      "answers": [
+        "あげました"
+      ],
+      "options": [
+        "あげました",
+        "くれました",
+        "もらいました"
+      ],
+      "vi": "Tôi đã cho em trai quà."
+    },
+    {
+      "id": "n4-02-e03",
+      "type": "choice",
+      "grammar": [
+        "ageru-kureru-morau"
+      ],
+      "promptVi": "Câu nào cùng nghĩa với câu sau?",
+      "ja": "マイさんが私に花をくれました。",
+      "options": [
+        "私はマイさんに花をもらいました。",
+        "私はマイさんに花をあげました。",
+        "マイさんは私に花をもらいました。"
+      ],
+      "answer": 0,
+      "explainVi": "くれる (chủ ngữ là người cho) ↔ もらう (chủ ngữ là người nhận, người cho đi với に)."
+    },
+    {
+      "id": "n4-02-e04",
+      "type": "order",
+      "grammar": [
+        "ageru-kureru-morau"
+      ],
+      "vi": "Tôi đã nhận quà mừng từ công ty.",
+      "tiles": [
+        "私は",
+        "会社から",
+        "お祝いを",
+        "もらいました"
+      ],
+      "answers": [
+        "私は会社からお祝いをもらいました",
+        "私はお祝いを会社からもらいました"
+      ]
+    },
+    {
+      "id": "n4-02-e05",
+      "type": "choice",
+      "grammar": [
+        "te-ageru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi đã đọc sách cho em gái nghe\"?",
+      "options": [
+        "妹に本を読んであげました。",
+        "妹に本を読んでくれました。",
+        "妹に本を読んでもらいました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-02-e06",
+      "type": "fill",
+      "grammar": [
+        "te-ageru"
+      ],
+      "before": "友達の荷物を持って",
+      "after": "。",
+      "answers": [
+        "あげました"
+      ],
+      "options": [
+        "あげました",
+        "くれました",
+        "もらいました"
+      ],
+      "vi": "Tôi đã xách đồ giúp bạn."
+    },
+    {
+      "id": "n4-02-e07",
+      "type": "choice",
+      "grammar": [
+        "te-ageru"
+      ],
+      "promptVi": "Bạn muốn đề nghị xách đồ giúp thầy giáo. Câu nào lịch sự?",
+      "options": [
+        "先生、荷物を持ちましょうか。",
+        "先生、荷物を持ってあげます。",
+        "先生、荷物を持ってあげましょうか。"
+      ],
+      "answer": 0,
+      "explainVi": "Nói 〜てあげる với người trên nghe như kể công; đề nghị giúp thì dùng 〜ましょうか."
+    },
+    {
+      "id": "n4-02-e08",
+      "type": "order",
+      "grammar": [
+        "te-ageru"
+      ],
+      "vi": "Tôi đã chỉ đường cho người nước ngoài.",
+      "tiles": [
+        "外国人に",
+        "道を",
+        "教えて",
+        "あげました"
+      ],
+      "answers": [
+        "外国人に道を教えてあげました",
+        "道を外国人に教えてあげました"
+      ]
+    },
+    {
+      "id": "n4-02-e09",
+      "type": "choice",
+      "grammar": [
+        "te-kureru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Mẹ đã gửi áo len cho tôi\"?",
+      "options": [
+        "母がセーターを送ってくれました。",
+        "母がセーターを送ってあげました。",
+        "母がセーターを送ってもらいました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-02-e10",
+      "type": "fill",
+      "grammar": [
+        "te-kureru"
+      ],
+      "before": "田中さんが車で駅まで送って",
+      "after": "。",
+      "answers": [
+        "くれました"
+      ],
+      "options": [
+        "くれました",
+        "あげました",
+        "もらいました"
+      ],
+      "vi": "Anh Tanaka đã đưa tôi ra ga bằng ô tô."
+    },
+    {
+      "id": "n4-02-e11",
+      "type": "fill",
+      "grammar": [
+        "te-kureru"
+      ],
+      "promptVi": "Viết thể て của động từ 撮る.",
+      "before": "友達が写真を",
+      "after": "くれました。",
+      "answers": [
+        "撮って"
+      ],
+      "vi": "Bạn đã chụp ảnh cho tôi."
+    },
+    {
+      "id": "n4-02-e12",
+      "type": "order",
+      "grammar": [
+        "te-kureru"
+      ],
+      "vi": "Chị Mai đã gói quà giúp tôi.",
+      "tiles": [
+        "マイさんが",
+        "プレゼントを",
+        "包んで",
+        "くれました"
+      ],
+      "answers": [
+        "マイさんがプレゼントを包んでくれました",
+        "プレゼントをマイさんが包んでくれました"
+      ]
+    },
+    {
+      "id": "n4-02-e13",
+      "type": "choice",
+      "grammar": [
+        "te-morau"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi được bạn cắt tóc cho\"?",
+      "options": [
+        "友達に髪を切ってもらいました。",
+        "友達に髪を切ってあげました。",
+        "友達が髪を切ってもらいました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-02-e14",
+      "type": "fill",
+      "grammar": [
+        "te-morau"
+      ],
+      "before": "私は田中さん",
+      "after": "日本語の手紙を読んでもらいました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "が",
+        "を"
+      ],
+      "vi": "Tôi đã nhờ anh Tanaka đọc giúp lá thư tiếng Nhật."
+    },
+    {
+      "id": "n4-02-e15",
+      "type": "choice",
+      "grammar": [
+        "te-kureru",
+        "te-morau"
+      ],
+      "promptVi": "Câu nào cùng nghĩa với câu sau?",
+      "ja": "友達が宿題を手伝ってくれました。",
+      "options": [
+        "私は友達に宿題を手伝ってもらいました。",
+        "私は友達の宿題を手伝ってあげました。",
+        "友達は私に宿題を手伝ってもらいました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-02-e16",
+      "type": "choice",
+      "grammar": [
+        "te-morau"
+      ],
+      "promptVi": "Chọn thể て đúng.",
+      "ja": "とこやで髪を＿もらいました。",
+      "options": [
+        "切って",
+        "切りて",
+        "切った"
+      ],
+      "answer": 0,
+      "explainVi": "切る là động từ nhóm 1: 切る → 切って."
+    },
+    {
+      "id": "n4-02-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "夫",
+          "chồng (tôi)"
+        ],
+        [
+          "妻",
+          "vợ (tôi)"
+        ],
+        [
+          "息子",
+          "con trai (tôi)"
+        ],
+        [
+          "娘",
+          "con gái (tôi)"
+        ]
+      ]
+    },
+    {
+      "id": "n4-02-e18",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "指輪",
+          "nhẫn"
+        ],
+        [
+          "手袋",
+          "găng tay"
+        ],
+        [
+          "人形",
+          "búp bê"
+        ],
+        [
+          "おもちゃ",
+          "đồ chơi"
+        ]
+      ]
+    },
+    {
+      "id": "n4-02-e19",
+      "type": "choice",
+      "promptVi": "Đi du lịch về, bạn mua bánh kẹo cho đồng nghiệp. Món quà đó gọi là gì?",
+      "options": [
+        "お土産",
+        "お礼",
+        "お祝い"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-02-e20",
+      "type": "choice",
+      "promptVi": "Chủ nhật tôi dẫn con đi công viên. Chọn từ đúng.",
+      "ja": "日曜日、子供を公園に＿行きます。",
+      "options": [
+        "連れて",
+        "持って",
+        "届けて"
+      ],
+      "answer": 0,
+      "explainVi": "Dẫn người, con vật theo: 連れて行く. Mang đồ vật: 持って行く."
+    },
+    {
+      "id": "n4-02-e21",
+      "type": "translate",
+      "grammar": [
+        "ageru-kureru-morau"
+      ],
+      "vi": "Tôi đã nhận quà sinh nhật từ chị Mai.",
+      "answers": [
+        "(私は)マイさん[に|から]誕生日の[プレゼント|贈り物]をもらいました。",
+        "マイさん[が|は](私に)誕生日の[プレゼント|贈り物]をくれました。"
+      ],
+      "examples": [
+        {
+          "answer": "マイさんにたんじょうびのプレゼントをもらいました",
+          "score": 100
+        },
+        {
+          "answer": "マイさんが誕生日のプレゼントをもらいました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "マイさんに誕生日のプレゼントをあげました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-02-e22",
+      "type": "translate",
+      "grammar": [
+        "te-ageru"
+      ],
+      "vi": "Tôi đã xách hành lý giúp một bà cụ. (dùng 〜てあげる)",
+      "answers": [
+        "(私は)おばあさんの荷物を持ってあげました。"
+      ],
+      "examples": [
+        {
+          "answer": "おばあさんのにもつをもってあげました",
+          "score": 100
+        },
+        {
+          "answer": "おばあさんの荷物を持ちてあげました。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "おばあさんに荷物を持ってもらいました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-02-e23",
+      "type": "translate",
+      "grammar": [
+        "te-kureru"
+      ],
+      "vi": "Bạn tôi đã giúp tôi làm bài tập.",
+      "answers": [
+        "友達[が|は](私の)宿題を手伝ってくれました。",
+        "(私は)友達に宿題を手伝ってもらいました。"
+      ],
+      "examples": [
+        {
+          "answer": "ともだちがしゅくだいをてつだってくれました",
+          "score": 100
+        },
+        {
+          "answer": "友達が宿題を手伝いてくれました。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "友達が掃除を手伝ってくれました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-02-e24",
+      "type": "question",
+      "grammar": [
+        "te-morau"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "誰に日本語を教えてもらいましたか。",
+        "promptVi": "\"Bạn được ai dạy tiếng Nhật?\" Bạn là Nam, cô Suzuki đã dạy bạn tiếng Nhật.",
+        "answers": [
+          "鈴木先生に(日本語を)教えてもらいました。",
+          "鈴木先生が(日本語を)教えてくれました。"
+        ],
+        "examples": [
+          {
+            "answer": "すずきせんせいににほんごをおしえてもらいました",
+            "score": 100
+          },
+          {
+            "answer": "鈴木先生が日本語を教えてもらいました。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "田中先生に日本語を教えてもらいました。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n4-02-e25",
+      "type": "translate",
+      "grammar": [
+        "te-morau"
+      ],
+      "vi": "Hôm qua tôi đã đi cắt tóc ở tiệm. (dùng 〜てもらう)",
+      "answers": [
+        "昨日、とこやで髪を切ってもらいました。"
+      ],
+      "examples": [
+        {
+          "answer": "きのう、とこやでかみをきってもらいました",
+          "score": 100
+        },
+        {
+          "answer": "昨日、とこやで髪を切りてもらいました。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "昨日、とこやで髪を洗ってもらいました。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "姉が私に時計をくれました。": "{姉|あね}が{私|わたし}に{時計|とけい}をくれました。",
+    "誕生日に友達から花をもらいました。": "{誕|たん}{生|じょう}{日|び}に{友|とも}{達|だち}から{花|はな}をもらいました。",
+    "母の誕生日の贈り物を買いました。": "{母|はは}の{誕|たん}{生|じょう}{日|び}の{贈|おく}り{物|もの}を{買|か}いました。",
+    "彼女に誕生日のプレゼントをあげました。": "{彼|かの}{女|じょ}に{誕|たん}{生|じょう}{日|び}のプレゼントをあげました。",
+    "京都で家族にお土産を買いました。": "{京都|きょうと}で{家|か}{族|ぞく}にお{土産|みやげ}を{買|か}いました。",
+    "友達に結婚のお祝いをあげました。": "{友|とも}{達|だち}に{結|けっ}{婚|こん}のお{祝|いわ}いをあげました。",
+    "手伝ってくれた人にお礼を言いました。": "{手伝|てつだ}ってくれた{人|ひと}にお{礼|れい}を{言|い}いました。",
+    "子供におもちゃを買ってあげました。": "{子|こ}{供|ども}におもちゃを{買|か}ってあげました。",
+    "娘は人形が大好きです。": "{娘|むすめ}は{人|にん}{形|ぎょう}が{大|だい}{好|す}きです。",
+    "この店のアクセサリーは安くて、かわいいです。": "この{店|みせ}のアクセサリーは{安|やす}くて、かわいいです。",
+    "夫が指輪をくれました。": "{夫|おっと}が{指|ゆび}{輪|わ}をくれました。",
+    "このハンドバッグは姉にもらいました。": "このハンドバッグは{姉|あね}にもらいました。",
+    "寒いですから、手袋をしてください。": "{寒|さむ}いですから、{手|て}{袋|ぶくろ}をしてください。",
+    "店の人がプレゼントをきれいに包んでくれました。": "{店|みせ}の{人|ひと}がプレゼントをきれいに{包|つつ}んでくれました。",
+    "国の家族に写真を送りました。": "{国|くに}の{家|か}{族|ぞく}に{写|しゃ}{真|しん}を{送|おく}りました。",
+    "車で駅まで送りましょうか。": "{車|くるま}で{駅|えき}まで{送|おく}りましょうか。",
+    "この荷物を田中さんに届けてください。": "この{荷|に}{物|もつ}を{田中|たなか}さんに{届|とど}けてください。",
+    "財布を交番に届けました。": "{財|さい}{布|ふ}を{交|こう}{番|ばん}に{届|とど}けました。",
+    "息子はおもちゃをもらって、喜んでいます。": "{息子|むすこ}はおもちゃをもらって、{喜|よろこ}んでいます。",
+    "毎晩、母の料理を手伝います。": "{毎|まい}{晩|ばん}、{母|はは}の{料|りょう}{理|り}を{手伝|てつだ}います。",
+    "田中さんはとても親切な人です。": "{田中|たなか}さんはとても{親|しん}{切|せつ}な{人|ひと}です。",
+    "日曜日、子供を公園に連れて行きました。": "{日|にち}{曜|よう}{日|び}、{子|こ}{供|ども}を{公|こう}{園|えん}に{連|つ}れて{行|い}きました。",
+    "夫は銀行で働いています。": "{夫|おっと}は{銀|ぎん}{行|こう}で{働|はたら}いています。",
+    "妻は料理がとても上手です。": "{妻|つま}は{料|りょう}{理|り}がとても{上手|じょうず}です。",
+    "息子は5歳です。": "{息子|むすこ}は5{歳|さい}です。",
+    "娘は東京の大学で勉強しています。": "{娘|むすめ}は{東京|とうきょう}の{大|だい}{学|がく}で{勉|べん}{強|きょう}しています。",
+    "とこやで髪を切ってもらいました。": "とこやで{髪|かみ}を{切|き}ってもらいました。",
+    "マイさんは髪が長いです。": "マイさんは{髪|かみ}が{長|なが}いです。",
+    "私は弟に時計をあげました。": "{私|わたし}は{弟|おとうと}に{時計|とけい}をあげました。",
+    "マイさんが手袋をくれました。": "マイさんが{手|て}{袋|ぶくろ}をくれました。",
+    "私はマイさんに手袋をもらいました。": "{私|わたし}はマイさんに{手|て}{袋|ぶくろ}をもらいました。",
+    "田中さんは木村さんにお土産をあげました。": "{田中|たなか}さんは{木村|きむら}さんにお{土産|みやげ}をあげました。",
+    "友達は私にプレゼントをくれました。": "{友|とも}{達|だち}は{私|わたし}にプレゼントをくれました。",
+    "友達は私にプレゼントをあげました。": "{友|とも}{達|だち}は{私|わたし}にプレゼントをあげました。",
+    "私は友達にプレゼントをあげました。": "{私|わたし}は{友|とも}{達|だち}にプレゼントをあげました。",
+    "私は友達にプレゼントをくれました。": "{私|わたし}は{友|とも}{達|だち}にプレゼントをくれました。",
+    "私は会社からお祝いをもらいました。": "{私|わたし}は{会|かい}{社|しゃ}からお{祝|いわ}いをもらいました。",
+    "私は会社にお祝いをもらいました。": "{私|わたし}は{会|かい}{社|しゃ}にお{祝|いわ}いをもらいました。",
+    "妹に本を読んであげました。": "{妹|いもうと}に{本|ほん}を{読|よ}んであげました。",
+    "友達の荷物を持ってあげました。": "{友|とも}{達|だち}の{荷|に}{物|もつ}を{持|も}ってあげました。",
+    "木村さんは留学生に日本語を教えてあげています。": "{木村|きむら}さんは{留|りゅう}{学|がく}{生|せい}に{日本|にほん}{語|ご}を{教|おし}えてあげています。",
+    "妹に本を読みてあげました。": "{妹|いもうと}に{本|ほん}を{読|よ}みてあげました。",
+    "先生、荷物を持ちましょうか。": "{先|せん}{生|せい}、{荷|に}{物|もつ}を{持|も}ちましょうか。",
+    "先生、荷物を持ってあげます。": "{先|せん}{生|せい}、{荷|に}{物|もつ}を{持|も}ってあげます。",
+    "友達が宿題を手伝ってくれました。": "{友|とも}{達|だち}が{宿|しゅく}{題|だい}を{手伝|てつだ}ってくれました。",
+    "母がセーターを送ってくれました。": "{母|はは}がセーターを{送|おく}ってくれました。",
+    "田中さんが車で駅まで送ってくれました。": "{田中|たなか}さんが{車|くるま}で{駅|えき}まで{送|おく}ってくれました。",
+    "友達が宿題を手伝ってあげました。": "{友|とも}{達|だち}が{宿|しゅく}{題|だい}を{手伝|てつだ}ってあげました。",
+    "友達が写真を撮ってくれました。": "{友|とも}{達|だち}が{写|しゃ}{真|しん}を{撮|と}ってくれました。",
+    "私は友達に写真を撮ってくれました。": "{私|わたし}は{友|とも}{達|だち}に{写|しゃ}{真|しん}を{撮|と}ってくれました。",
+    "私は田中さんに日本語の手紙を読んでもらいました。": "{私|わたし}は{田中|たなか}さんに{日本|にほん}{語|ご}の{手|て}{紙|がみ}を{読|よ}んでもらいました。",
+    "友達に駅までの道を教えてもらいました。": "{友|とも}{達|だち}に{駅|えき}までの{道|みち}を{教|おし}えてもらいました。",
+    "私は友達に宿題を手伝ってもらいました。": "{私|わたし}は{友|とも}{達|だち}に{宿|しゅく}{題|だい}を{手伝|てつだ}ってもらいました。",
+    "私は友達が宿題を手伝ってもらいました。": "{私|わたし}は{友|とも}{達|だち}が{宿|しゅく}{題|だい}を{手伝|てつだ}ってもらいました。",
+    "とこやで髪を切てもらいました。": "とこやで{髪|かみ}を{切|き}てもらいました。",
+    "姉が私に時計を＿。": "{姉|あね}が{私|わたし}に{時計|とけい}を＿。",
+    "くれました": "くれました",
+    "あげました": "あげました",
+    "もらいました": "もらいました",
+    "私は弟にお土産をあげました。": "{私|わたし}は{弟|おとうと}にお{土産|みやげ}をあげました。",
+    "マイさんが私に花をくれました。": "マイさんが{私|わたし}に{花|はな}をくれました。",
+    "私はマイさんに花をもらいました。": "{私|わたし}はマイさんに{花|はな}をもらいました。",
+    "私はマイさんに花をあげました。": "{私|わたし}はマイさんに{花|はな}をあげました。",
+    "マイさんは私に花をもらいました。": "マイさんは{私|わたし}に{花|はな}をもらいました。",
+    "私は": "{私|わたし}は",
+    "会社から": "{会|かい}{社|しゃ}から",
+    "お祝いを": "お{祝|いわ}いを",
+    "私は会社からお祝いをもらいました": "{私|わたし}は{会|かい}{社|しゃ}からお{祝|いわ}いをもらいました",
+    "私はお祝いを会社からもらいました": "{私|わたし}はお{祝|いわ}いを{会|かい}{社|しゃ}からもらいました",
+    "妹に本を読んでくれました。": "{妹|いもうと}に{本|ほん}を{読|よ}んでくれました。",
+    "妹に本を読んでもらいました。": "{妹|いもうと}に{本|ほん}を{読|よ}んでもらいました。",
+    "先生、荷物を持ってあげましょうか。": "{先|せん}{生|せい}、{荷|に}{物|もつ}を{持|も}ってあげましょうか。",
+    "外国人に": "{外|がい}{国|こく}{人|じん}に",
+    "道を": "{道|みち}を",
+    "教えて": "{教|おし}えて",
+    "外国人に道を教えてあげました": "{外|がい}{国|こく}{人|じん}に{道|みち}を{教|おし}えてあげました",
+    "道を外国人に教えてあげました": "{道|みち}を{外|がい}{国|こく}{人|じん}に{教|おし}えてあげました",
+    "母がセーターを送ってあげました。": "{母|はは}がセーターを{送|おく}ってあげました。",
+    "母がセーターを送ってもらいました。": "{母|はは}がセーターを{送|おく}ってもらいました。",
+    "撮って": "{撮|と}って",
+    "マイさんが": "マイさんが",
+    "プレゼントを": "プレゼントを",
+    "包んで": "{包|つつ}んで",
+    "マイさんがプレゼントを包んでくれました": "マイさんがプレゼントを{包|つつ}んでくれました",
+    "プレゼントをマイさんが包んでくれました": "プレゼントをマイさんが{包|つつ}んでくれました",
+    "友達に髪を切ってもらいました。": "{友|とも}{達|だち}に{髪|かみ}を{切|き}ってもらいました。",
+    "友達に髪を切ってあげました。": "{友|とも}{達|だち}に{髪|かみ}を{切|き}ってあげました。",
+    "友達が髪を切ってもらいました。": "{友|とも}{達|だち}が{髪|かみ}を{切|き}ってもらいました。",
+    "に": "に",
+    "が": "が",
+    "を": "を",
+    "私は友達の宿題を手伝ってあげました。": "{私|わたし}は{友|とも}{達|だち}の{宿|しゅく}{題|だい}を{手伝|てつだ}ってあげました。",
+    "友達は私に宿題を手伝ってもらいました。": "{友|とも}{達|だち}は{私|わたし}に{宿|しゅく}{題|だい}を{手伝|てつだ}ってもらいました。",
+    "とこやで髪を＿もらいました。": "とこやで{髪|かみ}を＿もらいました。",
+    "切って": "{切|き}って",
+    "切りて": "{切|き}りて",
+    "切った": "{切|き}った",
+    "夫": "{夫|おっと}",
+    "妻": "{妻|つま}",
+    "息子": "{息子|むすこ}",
+    "娘": "{娘|むすめ}",
+    "指輪": "{指|ゆび}{輪|わ}",
+    "手袋": "{手|て}{袋|ぶくろ}",
+    "人形": "{人|にん}{形|ぎょう}",
+    "おもちゃ": "おもちゃ",
+    "お土産": "お{土産|みやげ}",
+    "お礼": "お{礼|れい}",
+    "お祝い": "お{祝|いわ}い",
+    "日曜日、子供を公園に＿行きます。": "{日|にち}{曜|よう}{日|び}、{子|こ}{供|ども}を{公|こう}{園|えん}に＿{行|い}きます。",
+    "連れて": "{連|つ}れて",
+    "持って": "{持|も}って",
+    "届けて": "{届|とど}けて",
+    "私はマイさんに誕生日のプレゼントをもらいました。": "{私|わたし}はマイさんに{誕|たん}{生|じょう}{日|び}のプレゼントをもらいました。",
+    "マイさんが私に誕生日のプレゼントをくれました。": "マイさんが{私|わたし}に{誕|たん}{生|じょう}{日|び}のプレゼントをくれました。",
+    "私はおばあさんの荷物を持ってあげました。": "{私|わたし}はおばあさんの{荷|に}{物|もつ}を{持|も}ってあげました。",
+    "友達が私の宿題を手伝ってくれました。": "{友|とも}{達|だち}が{私|わたし}の{宿|しゅく}{題|だい}を{手伝|てつだ}ってくれました。",
+    "誰に日本語を教えてもらいましたか。": "{誰|だれ}に{日本|にほん}{語|ご}を{教|おし}えてもらいましたか。",
+    "鈴木先生に日本語を教えてもらいました。": "{鈴木|すずき}{先|せん}{生|せい}に{日本|にほん}{語|ご}を{教|おし}えてもらいました。",
+    "鈴木先生が日本語を教えてくれました。": "{鈴木|すずき}{先|せん}{生|せい}が{日本|にほん}{語|ご}を{教|おし}えてくれました。",
+    "昨日、とこやで髪を切ってもらいました。": "{昨日|きのう}、とこやで{髪|かみ}を{切|き}ってもらいました。"
+  }
+}

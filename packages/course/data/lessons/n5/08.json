@@ -1,0 +1,1284 @@
+{
+  "id": "n5-08",
+  "goalsVi": [
+    "Nói đi đâu, đến đâu, về đâu với へ và に: 来週、京都へ行きます",
+    "Nói đi bằng phương tiện gì với で: 電車で会社へ行きます",
+    "Nói đi với ai với と, hoặc đi một mình (一人で)",
+    "Mua vé, hỏi chuyến tàu tiếp theo: 大阪までのきっぷをください"
+  ],
+  "words": [
+    {
+      "no": 48,
+      "word": "行く",
+      "meaningsVi": [
+        "đi"
+      ],
+      "noteVi": "Thể ます: 行きます. Nơi đến đứng trước へ hoặc に: 東京へ行きます.",
+      "examples": [
+        {
+          "ja": "明日、大阪へ行きます。",
+          "vi": "Ngày mai tôi đi Osaka."
+        },
+        {
+          "ja": "先週、病院へ行きました。",
+          "vi": "Tuần trước tôi đã đi bệnh viện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 215,
+      "word": "来る",
+      "meaningsVi": [
+        "đến, tới"
+      ],
+      "noteVi": "Thể ます: 来ます (きます). Chỉ việc đến chỗ người nói đang ở; đang ở Việt Nam mà nói \"sang Nhật\" thì dùng 行きます.",
+      "examples": [
+        {
+          "ja": "グエンさんは去年日本へ来ました。",
+          "vi": "Anh Nguyễn đã đến Nhật năm ngoái."
+        },
+        {
+          "ja": "来週、友達も来ます。",
+          "vi": "Tuần sau bạn tôi cũng đến."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 147,
+      "word": "帰る",
+      "meaningsVi": [
+        "về (nhà, nước mình)"
+      ],
+      "noteVi": "Thể ます: 帰ります. Chỉ dùng khi về nơi của mình (nhà, quê, nước mình); đi đến nơi khác thì dùng 行きます.",
+      "examples": [
+        {
+          "ja": "毎日7時に家へ帰ります。",
+          "vi": "Ngày nào tôi cũng về nhà lúc 7 giờ."
+        },
+        {
+          "ja": "来月、国へ帰ります。",
+          "vi": "Tháng sau tôi về nước."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 412,
+      "word": "電車",
+      "meaningsVi": [
+        "tàu điện"
+      ],
+      "noteVi": "Hán Việt \"điện xa\" (xe chạy bằng điện).",
+      "examples": [
+        {
+          "ja": "電車で会社へ行きます。",
+          "vi": "Tôi đi làm bằng tàu điện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 496,
+      "word": "バス",
+      "meaningsVi": [
+        "xe buýt"
+      ],
+      "examples": [
+        {
+          "ja": "バスで学校へ来ました。",
+          "vi": "Tôi đã đến trường bằng xe buýt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 284,
+      "word": "自転車",
+      "meaningsVi": [
+        "xe đạp"
+      ],
+      "noteVi": "Hán Việt \"tự chuyển xa\" (xe tự lăn bánh).",
+      "examples": [
+        {
+          "ja": "自転車で駅まで行きます。",
+          "vi": "Tôi đi xe đạp đến ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 41,
+      "word": "歩く",
+      "meaningsVi": [
+        "đi bộ"
+      ],
+      "noteVi": "Thể ます: 歩きます. \"Đi bộ đến trường\" có thể nói 学校まで歩きます; cách nói 歩いて行きます học ở bài thể て.",
+      "examples": [
+        {
+          "ja": "駅から学校まで歩きます。",
+          "vi": "Tôi đi bộ từ ga đến trường."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 359,
+      "word": "タクシー",
+      "meaningsVi": [
+        "taxi"
+      ],
+      "examples": [
+        {
+          "ja": "タクシーで病院へ行きました。",
+          "vi": "Tôi đã đi bệnh viện bằng taxi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 523,
+      "word": "飛行機",
+      "meaningsVi": [
+        "máy bay"
+      ],
+      "noteVi": "Hán Việt \"phi hành cơ\" (máy để bay).",
+      "examples": [
+        {
+          "ja": "飛行機でハノイへ帰ります。",
+          "vi": "Tôi về Hà Nội bằng máy bay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 379,
+      "word": "地下鉄",
+      "meaningsVi": [
+        "tàu điện ngầm"
+      ],
+      "noteVi": "Hán Việt \"địa hạ thiết\" (đường sắt dưới mặt đất).",
+      "examples": [
+        {
+          "ja": "地下鉄で東京駅へ行きます。",
+          "vi": "Tôi đi ga Tokyo bằng tàu điện ngầm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 216,
+      "word": "車",
+      "meaningsVi": [
+        "ô tô, xe hơi",
+        "xe (nói chung)"
+      ],
+      "noteVi": "Đứng một mình, 車 thường là ô tô; trong từ ghép nghĩa là \"xe\": 電車, 自転車.",
+      "examples": [
+        {
+          "ja": "家族と車で京都へ行きました。",
+          "vi": "Tôi đã đi Kyoto bằng ô tô với gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 46,
+      "word": "家",
+      "meaningsVi": [
+        "nhà, ngôi nhà"
+      ],
+      "noteVi": "\"Về nhà\" là 家へ帰ります.",
+      "examples": [
+        {
+          "ja": "毎日7時に家へ帰ります。",
+          "vi": "Ngày nào tôi cũng về nhà lúc 7 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 439,
+      "word": "友達",
+      "meaningsVi": [
+        "bạn, bạn bè"
+      ],
+      "noteVi": "Dùng cho cả một người bạn lẫn nhiều người bạn.",
+      "examples": [
+        {
+          "ja": "友達と図書館へ行きます。",
+          "vi": "Tôi đi thư viện với bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 531,
+      "word": "病院",
+      "meaningsVi": [
+        "bệnh viện"
+      ],
+      "noteVi": "Ở Nhật, phòng khám nhỏ cũng thường được gọi là 病院. \"Đi khám bệnh\" là 病院へ行きます.",
+      "examples": [
+        {
+          "ja": "昨日、病院へ行きました。",
+          "vi": "Hôm qua tôi đã đi bệnh viện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 528,
+      "word": "一人",
+      "meaningsVi": [
+        "một người",
+        "một mình (一人で)"
+      ],
+      "noteVi": "Đọc đặc biệt ひとり; hai người là 二人 (ふたり), từ ba người trở đi là số + にん: 3人. 一人で = một mình.",
+      "examples": [
+        {
+          "ja": "一人で日本へ来ました。",
+          "vi": "Tôi đến Nhật một mình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 157,
+      "word": "家族",
+      "meaningsVi": [
+        "gia đình"
+      ],
+      "noteVi": "Hán Việt \"gia tộc\" nhưng nghĩa là gia đình (những người sống chung một nhà), không phải dòng họ.",
+      "examples": [
+        {
+          "ja": "あさって、家族と京都へ行きます。",
+          "vi": "Ngày kia tôi đi Kyoto với gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 480,
+      "word": "乗る",
+      "meaningsVi": [
+        "đi (xe, tàu), lên (xe, tàu)"
+      ],
+      "noteVi": "Thể ます: 乗ります. Xe đứng trước に: 電車に乗ります (lên tàu). \"Đi bằng tàu\" thì nói 電車で行きます.",
+      "examples": [
+        {
+          "ja": "次の電車に乗ります。",
+          "vi": "Tôi sẽ lên chuyến tàu tiếp theo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 387,
+      "word": "次",
+      "meaningsVi": [
+        "tiếp theo, kế tiếp"
+      ],
+      "noteVi": "Đứng trước danh từ thì cần の: 次の電車 (chuyến tàu tiếp theo).",
+      "examples": [
+        {
+          "ja": "次の電車は何時ですか。",
+          "vi": "Chuyến tàu tiếp theo lúc mấy giờ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 187,
+      "word": "切符",
+      "meaningsVi": [
+        "vé (tàu, xe)"
+      ],
+      "noteVi": "Hán Việt \"thiết phù\". Thường là vé tàu điện, xe buýt. Hay được viết bằng hiragana: きっぷ (きっぷうりば: quầy bán vé).",
+      "examples": [
+        {
+          "ja": "大阪までのきっぷをください。",
+          "vi": "Cho tôi vé đi Osaka."
+        },
+        {
+          "ja": "きっぷはいくらですか。",
+          "vi": "Vé bao nhiêu tiền?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 255,
+      "word": "今週",
+      "meaningsVi": [
+        "tuần này"
+      ],
+      "noteVi": "Không dùng に sau 今週, 先週, 来週.",
+      "examples": [
+        {
+          "ja": "今週の土曜日、友達と京都へ行きます。",
+          "vi": "Thứ Bảy tuần này tôi đi Kyoto với bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 334,
+      "word": "先週",
+      "meaningsVi": [
+        "tuần trước"
+      ],
+      "examples": [
+        {
+          "ja": "先週、国へ帰りました。",
+          "vi": "Tuần trước tôi đã về nước."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 651,
+      "word": "来週",
+      "meaningsVi": [
+        "tuần sau, tuần tới"
+      ],
+      "examples": [
+        {
+          "ja": "来週の月曜日に病院へ行きます。",
+          "vi": "Thứ Hai tuần sau tôi đi bệnh viện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 13,
+      "word": "あさって",
+      "meaningsVi": [
+        "ngày kia"
+      ],
+      "noteVi": "Kanji: 明後日. Thứ tự: 昨日 (hôm qua), 今日 (hôm nay), 明日 (ngày mai), あさって (ngày kia).",
+      "examples": [
+        {
+          "ja": "あさって、東京へ行きます。",
+          "vi": "Ngày kia tôi đi Tokyo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "行",
+      "meaningVi": "đi; hàng",
+      "noteVi": "Đọc い trong 行きます; こう trong 銀行 (ngân hàng), 飛行機 (máy bay). Hình ngã tư đường: đi trên đường.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "来",
+      "meaningVi": "đến, tới",
+      "noteVi": "Đọc き trong 来ます, らい trong 来月, 来年, 来週 (tháng sau, năm sau, tuần sau: thời gian \"sắp tới\").",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "車",
+      "meaningVi": "xe",
+      "noteVi": "Hình chiếc xe nhìn từ trên xuống: thân xe ở giữa, hai bánh ở trên và dưới. Gặp trong 車, 電車, 自転車.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "e",
+      "titleVi": "へ: đi về phía (hướng di chuyển)",
+      "summaryVi": "N (nơi chốn) へ 行きます／来ます／帰ります: đi, đến, về nơi đó. へ đọc là e.",
+      "explanationVi": [
+        "**へ** đứng sau nơi chốn để chỉ **hướng đi** của các động từ di chuyển 行きます (đi), 来ます (đến), 帰ります (về): 「東京へ行きます」. Khi làm trợ từ, へ đọc là **e** (không đọc he), giống は đọc là wa.",
+        "Tiếng Việt nói \"đi Tokyo\", \"về nước\" không cần thêm từ nào; tiếng Nhật thì cần へ (hoặc に) sau nơi đến, và động từ vẫn ở cuối câu. Hỏi đi đâu: 「どこへ行きますか」.",
+        "行きます hay 来ます? **来ます** là đến chỗ người nói đang ở. Đang ở Nhật thì nói 「去年日本へ来ました」; đang ở Việt Nam thì nói 「来年日本へ行きます」. **帰ります** là về nơi của mình: nhà, nước mình."
+      ],
+      "patterns": [
+        "N (nơi chốn) へ 行きます／来ます／帰ります"
+      ],
+      "examples": [
+        {
+          "ja": "来週、京都へ行きます。",
+          "vi": "Tuần sau tôi đi Kyoto."
+        },
+        {
+          "ja": "田中さんは何時に家へ帰りますか。",
+          "vi": "Anh Tanaka về nhà lúc mấy giờ?"
+        },
+        {
+          "ja": "グエンさんは去年日本へ来ました。",
+          "vi": "Anh Nguyễn đã đến Nhật năm ngoái."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "東京え行きます。",
+          "right": "東京へ行きます。",
+          "noteVi": "Trợ từ đọc là \"e\" nhưng luôn viết へ, không viết え."
+        },
+        {
+          "wrong": "来年、日本へ来ます。",
+          "right": "来年、日本へ行きます。",
+          "noteVi": "Khi đang ở Việt Nam, \"sang Nhật\" là 行きます; 来ます chỉ dùng khi đến nơi người nói đang ở (câu bên trái chỉ đúng nếu người nói đang ở Nhật)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-destination",
+      "titleVi": "に: đến (nơi đến)",
+      "summaryVi": "N に 行きます／来ます／帰ります: に chỉ nơi đến; 乗ります, 入ります cũng đi với に.",
+      "explanationVi": [
+        "**に** sau nơi chốn chỉ **nơi đến** của động từ di chuyển: 「病院に行きます」. Với 行きます, 来ます, 帰ります, dùng に hay へ đều được; へ nghiêng về hướng đi, に nghiêng về điểm đến.",
+        "Một số động từ dùng に cho chỗ mình lên, vào: 「電車に乗ります」 (lên tàu), 「お風呂に入ります」 (vào bồn tắm). Tiếng Việt nói \"lên xe buýt\" như có tân ngữ, nhưng tiếng Nhật **không** dùng を ở đây.",
+        "Một câu có thể có hai に: một chỉ giờ, một chỉ nơi đến: 「8時に会社に来ました」."
+      ],
+      "patterns": [
+        "N (nơi chốn) に 行きます／来ます／帰ります",
+        "N (xe, tàu) に 乗ります"
+      ],
+      "examples": [
+        {
+          "ja": "明日、病院に行きます。",
+          "vi": "Ngày mai tôi đi bệnh viện."
+        },
+        {
+          "ja": "8時に会社に来ました。",
+          "vi": "Tôi đã đến công ty lúc 8 giờ."
+        },
+        {
+          "ja": "次の電車に乗ります。",
+          "vi": "Tôi sẽ lên chuyến tàu tiếp theo."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "バスを乗ります。",
+          "right": "バスに乗ります。",
+          "noteVi": "乗ります đi với に: xe là chỗ mình lên, không phải tân ngữ như \"lên xe buýt\" trong tiếng Việt."
+        },
+        {
+          "wrong": "病院で行きます。",
+          "right": "病院に行きます。",
+          "noteVi": "Nơi đến dùng に hoặc へ; で không chỉ nơi đến."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "de-means",
+      "titleVi": "で: bằng (phương tiện, cách thức)",
+      "summaryVi": "N で V: làm bằng N. 電車で行きます = đi bằng tàu điện.",
+      "explanationVi": [
+        "**で** sau danh từ chỉ **phương tiện, công cụ, cách thức**, giống \"bằng\" trong tiếng Việt: 「電車で行きます」 (đi bằng tàu điện), 「バスで来ました」 (đến bằng xe buýt). Ngôn ngữ cũng dùng で: 「英語でお願いします」 (làm ơn nói bằng tiếng Anh).",
+        "Hỏi phương tiện: 「何で来ましたか」 (đến bằng gì?). 何で ở đây nên đọc **なにで**, vì なんで còn có nghĩa là \"tại sao\".",
+        "\"Một mình\" là 「一人で」: 「一人で日本へ来ました」. \"Đi bộ\" không dùng で: nói 「駅まで歩きます」; cách nói \"đi bộ đến\" (歩いて行きます) học ở bài thể て."
+      ],
+      "patterns": [
+        "N (phương tiện) で 行きます／来ます／帰ります",
+        "N (ngôn ngữ) で"
+      ],
+      "examples": [
+        {
+          "ja": "毎日、地下鉄で会社へ行きます。",
+          "vi": "Ngày nào tôi cũng đi làm bằng tàu điện ngầm."
+        },
+        {
+          "ja": "飛行機でハノイへ帰ります。",
+          "vi": "Tôi về Hà Nội bằng máy bay."
+        },
+        {
+          "ja": "すみません、英語でお願いします。",
+          "vi": "Xin lỗi, làm ơn nói bằng tiếng Anh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "電車に会社へ行きます。",
+          "right": "電車で会社へ行きます。",
+          "noteVi": "\"Bằng tàu\" là 電車で; に chỉ dùng với 乗ります: 電車に乗ります."
+        },
+        {
+          "wrong": "歩くで学校へ来ました。",
+          "right": "学校まで歩きました。",
+          "noteVi": "で chỉ đứng sau danh từ; \"đi bộ\" dùng chính động từ 歩きます."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to-with",
+      "titleVi": "と: cùng với (người cùng làm)",
+      "summaryVi": "N (người) と V: làm cùng với N. 友達と行きます = đi với bạn.",
+      "explanationVi": [
+        "**と** sau danh từ chỉ người để nói **người cùng làm** việc đó, giống \"với, cùng với\": 「友達と京都へ行きます」 (đi Kyoto với bạn).",
+        "Trật tự khác tiếng Việt: \"đi Kyoto **với bạn**\" có \"với bạn\" ở cuối, còn 「友達と」 phải đứng **trước** động từ: 「友達と京都へ行きます」 hoặc 「京都へ友達と行きます」.",
+        "Hỏi đi với ai: 「誰と行きますか」. \"Một mình\" không dùng と mà dùng 「一人で」: 「一人で行きます」."
+      ],
+      "patterns": [
+        "N (người) と V"
+      ],
+      "examples": [
+        {
+          "ja": "友達と図書館へ行きます。",
+          "vi": "Tôi đi thư viện với bạn."
+        },
+        {
+          "ja": "日曜日、家族と大阪へ行きました。",
+          "vi": "Chủ nhật tôi đã đi Osaka với gia đình."
+        },
+        {
+          "ja": "誰と来ましたか。",
+          "vi": "Bạn đã đến với ai?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は友達と行きます京都へ。",
+          "right": "私は友達と京都へ行きます。",
+          "noteVi": "Động từ luôn đứng cuối câu; nơi đến và người đi cùng đều đứng trước động từ."
+        },
+        {
+          "wrong": "一人と来ました。",
+          "right": "一人で来ました。",
+          "noteVi": "\"Một mình\" là 一人で; と cần có một người cùng làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-08-e01",
+      "type": "fill",
+      "grammar": [
+        "e"
+      ],
+      "before": "来週、京都",
+      "after": "行きます。",
+      "answers": [
+        "へ"
+      ],
+      "options": [
+        "へ",
+        "を",
+        "で"
+      ],
+      "vi": "Tuần sau tôi đi Kyoto."
+    },
+    {
+      "id": "n5-08-e02",
+      "type": "choice",
+      "grammar": [
+        "e"
+      ],
+      "promptVi": "Trợ từ へ trong câu này đọc là gì?",
+      "ja": "東京へ行きます。",
+      "options": [
+        "e",
+        "he",
+        "ni"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e03",
+      "type": "order",
+      "grammar": [
+        "e"
+      ],
+      "vi": "Anh Tanaka về nhà lúc 7 giờ.",
+      "tiles": [
+        "帰ります",
+        "家",
+        "は",
+        "7時",
+        "へ",
+        "田中さん",
+        "に"
+      ],
+      "answers": [
+        "田中さんは7時に家へ帰ります",
+        "田中さんは家へ7時に帰ります"
+      ]
+    },
+    {
+      "id": "n5-08-e04",
+      "type": "choice",
+      "grammar": [
+        "e"
+      ],
+      "promptVi": "Anh Nam là người Việt Nam, đang sống ở Nhật. Tháng sau anh ấy về nước. Chọn động từ đúng.",
+      "ja": "来月、国へ＿。",
+      "options": [
+        "帰ります",
+        "来ます",
+        "入ります"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e05",
+      "type": "fill",
+      "grammar": [
+        "ni-destination",
+        "e"
+      ],
+      "before": "明日、病院",
+      "after": "行きます。",
+      "answers": [
+        "に",
+        "へ"
+      ],
+      "vi": "Ngày mai tôi đi bệnh viện.",
+      "explainVi": "Với 行きます, dùng に hay へ đều được."
+    },
+    {
+      "id": "n5-08-e06",
+      "type": "choice",
+      "grammar": [
+        "ni-destination"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi sẽ lên chuyến tàu tiếp theo\"?",
+      "options": [
+        "次の電車に乗ります。",
+        "次の電車を乗ります。",
+        "次の電車で乗ります。"
+      ],
+      "answer": 0,
+      "explainVi": "乗ります đi với に."
+    },
+    {
+      "id": "n5-08-e07",
+      "type": "choice",
+      "grammar": [
+        "ni-destination"
+      ],
+      "promptVi": "Chọn trợ từ đúng.",
+      "ja": "毎晩、お風呂＿入ります。",
+      "options": [
+        "に",
+        "で",
+        "を"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e08",
+      "type": "order",
+      "grammar": [
+        "ni-destination"
+      ],
+      "vi": "Tôi đã đến công ty lúc 8 giờ.",
+      "tiles": [
+        "来ました",
+        "に",
+        "会社",
+        "に",
+        "8時"
+      ],
+      "answers": [
+        "8時に会社に来ました",
+        "会社に8時に来ました"
+      ]
+    },
+    {
+      "id": "n5-08-e09",
+      "type": "choice",
+      "grammar": [
+        "de-means"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi đi học bằng xe đạp\"?",
+      "options": [
+        "自転車で学校へ行きます。",
+        "自転車に学校へ行きます。",
+        "自転車と学校へ行きます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e10",
+      "type": "fill",
+      "grammar": [
+        "de-means"
+      ],
+      "before": "毎日、地下鉄",
+      "after": "会社へ行きます。",
+      "answers": [
+        "で"
+      ],
+      "options": [
+        "で",
+        "に",
+        "を"
+      ],
+      "vi": "Ngày nào tôi cũng đi làm bằng tàu điện ngầm."
+    },
+    {
+      "id": "n5-08-e11",
+      "type": "choice",
+      "grammar": [
+        "de-means"
+      ],
+      "promptVi": "Câu này hỏi điều gì?",
+      "ja": "学校まで何で来ますか。",
+      "options": [
+        "Phương tiện",
+        "Thời gian",
+        "Người đi cùng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e12",
+      "type": "order",
+      "grammar": [
+        "de-means"
+      ],
+      "vi": "Tôi về Hà Nội bằng máy bay.",
+      "tiles": [
+        "帰ります",
+        "ハノイ",
+        "で",
+        "飛行機",
+        "へ"
+      ],
+      "answers": [
+        "飛行機でハノイへ帰ります",
+        "ハノイへ飛行機で帰ります"
+      ]
+    },
+    {
+      "id": "n5-08-e13",
+      "type": "fill",
+      "grammar": [
+        "de-means"
+      ],
+      "before": "すみません、英語",
+      "after": "お願いします。",
+      "answers": [
+        "で"
+      ],
+      "options": [
+        "で",
+        "と",
+        "へ"
+      ],
+      "vi": "Xin lỗi, làm ơn nói bằng tiếng Anh."
+    },
+    {
+      "id": "n5-08-e14",
+      "type": "choice",
+      "grammar": [
+        "to-with"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi đi Kyoto với bạn\"?",
+      "options": [
+        "友達と京都へ行きます。",
+        "友達で京都へ行きます。",
+        "友達へ京都と行きます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e15",
+      "type": "fill",
+      "grammar": [
+        "to-with"
+      ],
+      "before": "日曜日、家族",
+      "after": "大阪へ行きました。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "に",
+        "を"
+      ],
+      "vi": "Chủ nhật tôi đã đi Osaka với gia đình."
+    },
+    {
+      "id": "n5-08-e16",
+      "type": "choice",
+      "grammar": [
+        "to-with",
+        "de-means"
+      ],
+      "promptVi": "Trả lời: \"Tôi đến một mình.\"",
+      "ja": "誰と来ましたか。",
+      "options": [
+        "一人で来ました。",
+        "一人と来ました。",
+        "一人へ来ました。"
+      ],
+      "answer": 0,
+      "explainVi": "\"Một mình\" là 一人で."
+    },
+    {
+      "id": "n5-08-e17",
+      "type": "order",
+      "grammar": [
+        "to-with"
+      ],
+      "vi": "Tôi đã đi Tokyo với anh Tanaka.",
+      "tiles": [
+        "行きました",
+        "へ",
+        "田中さん",
+        "東京",
+        "と"
+      ],
+      "answers": [
+        "田中さんと東京へ行きました",
+        "東京へ田中さんと行きました"
+      ]
+    },
+    {
+      "id": "n5-08-e18",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Cho tôi vé đi Osaka.\"",
+      "ja": "大阪までの＿をください。",
+      "options": [
+        "きっぷ",
+        "電車",
+        "次"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-08-e19",
+      "type": "match",
+      "promptVi": "Ghép phương tiện với nghĩa",
+      "pairs": [
+        [
+          "電車",
+          "tàu điện"
+        ],
+        [
+          "地下鉄",
+          "tàu điện ngầm"
+        ],
+        [
+          "自転車",
+          "xe đạp"
+        ],
+        [
+          "飛行機",
+          "máy bay"
+        ],
+        [
+          "車",
+          "ô tô"
+        ]
+      ]
+    },
+    {
+      "id": "n5-08-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "先週",
+          "tuần trước"
+        ],
+        [
+          "今週",
+          "tuần này"
+        ],
+        [
+          "来週",
+          "tuần sau"
+        ],
+        [
+          "あさって",
+          "ngày kia"
+        ]
+      ]
+    },
+    {
+      "id": "n5-08-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "友達",
+          "bạn bè"
+        ],
+        [
+          "家族",
+          "gia đình"
+        ],
+        [
+          "病院",
+          "bệnh viện"
+        ],
+        [
+          "家",
+          "nhà"
+        ]
+      ]
+    },
+    {
+      "id": "n5-08-e22",
+      "type": "translate",
+      "grammar": [
+        "e",
+        "de-means"
+      ],
+      "vi": "Tuần sau tôi về Hà Nội bằng máy bay.",
+      "answers": [
+        "[(私は)来週、|来週、私は][飛行機でハノイへ|ハノイへ飛行機で]帰ります。"
+      ],
+      "examples": [
+        {
+          "answer": "らいしゅう、ひこうきでハノイへかえります。",
+          "score": 100
+        },
+        {
+          "answer": "らいしゅう、ひこうきでハノイえかえります。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "来週、飛行機にハノイへ帰ります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "来週、電車でハノイへ帰ります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-08-e23",
+      "type": "translate",
+      "grammar": [
+        "to-with",
+        "e"
+      ],
+      "vi": "Ngày kia tôi sẽ đi Tokyo với bạn.",
+      "answers": [
+        "[(私は)あさって、|あさって、私は][友達と東京へ|東京へ友達と]行きます。"
+      ],
+      "examples": [
+        {
+          "answer": "あさって、ともだちと東京へいきます。",
+          "score": 100
+        },
+        {
+          "answer": "あさって、友達と東京に行きます。",
+          "score": 100
+        },
+        {
+          "answer": "あさって、友達で東京へ行きます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "あさって、家族と東京へ行きます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-08-e24",
+      "type": "translate",
+      "grammar": [
+        "ni-destination"
+      ],
+      "vi": "Tôi sẽ lên chuyến xe buýt tiếp theo.",
+      "answers": [
+        "(私は)次のバスに乗ります。"
+      ],
+      "examples": [
+        {
+          "answer": "つぎのバスにのります。",
+          "score": 100
+        },
+        {
+          "answer": "次のバスを乗ります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "次バスに乗ります。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "次の電車に乗ります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-08-e25",
+      "type": "question",
+      "grammar": [
+        "de-means"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "毎日、何で会社へ行きますか。",
+        "promptVi": "Hằng ngày bạn đi làm bằng gì? Trả lời: bằng xe đạp.",
+        "answers": [
+          "自転車で行きます。",
+          "[(私は)(毎日、)自転車で(会社へ)行きます|(私は)(毎日、)会社へ自転車で行きます|自転車です|自転車で]。"
+        ],
+        "examples": [
+          {
+            "answer": "じてんしゃでいきます。",
+            "score": 100
+          },
+          {
+            "answer": "自転車に行きます。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "じでんしゃでいきます。",
+            "score": 90,
+            "issues": [
+              "kana_spelling"
+            ]
+          },
+          {
+            "answer": "バスで行きます。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-08-e26",
+      "type": "question",
+      "grammar": [
+        "e"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "いつ国へ帰りますか。",
+        "promptVi": "Khi nào bạn về nước? Trả lời: tuần sau.",
+        "answers": [
+          "来週帰ります。",
+          "[(私は)来週(国へ)帰ります|来週です]。"
+        ],
+        "examples": [
+          {
+            "answer": "らいしゅうかえります。",
+            "score": 100
+          },
+          {
+            "answer": "来週に国へ帰ります。",
+            "score": 85,
+            "issues": [
+              "extra_word"
+            ]
+          },
+          {
+            "answer": "らいしゅうくにえかえります。",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "来月帰ります。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "明日、大阪へ行きます。": "{明日|あした}、{大阪|おおさか}へ{行|い}きます。",
+    "先週、病院へ行きました。": "{先|せん}{週|しゅう}、{病|びょう}{院|いん}へ{行|い}きました。",
+    "グエンさんは去年日本へ来ました。": "グエンさんは{去|きょ}{年|ねん}{日本|にほん}へ{来|き}ました。",
+    "来週、友達も来ます。": "{来|らい}{週|しゅう}、{友|とも}{達|だち}も{来|き}ます。",
+    "毎日7時に家へ帰ります。": "{毎|まい}{日|にち}{7時|しちじ}に{家|いえ}へ{帰|かえ}ります。",
+    "来月、国へ帰ります。": "{来|らい}{月|げつ}、{国|くに}へ{帰|かえ}ります。",
+    "電車で会社へ行きます。": "{電|でん}{車|しゃ}で{会|かい}{社|しゃ}へ{行|い}きます。",
+    "バスで学校へ来ました。": "バスで{学|がっ}{校|こう}へ{来|き}ました。",
+    "自転車で駅まで行きます。": "{自|じ}{転|てん}{車|しゃ}で{駅|えき}まで{行|い}きます。",
+    "駅から学校まで歩きます。": "{駅|えき}から{学|がっ}{校|こう}まで{歩|ある}きます。",
+    "タクシーで病院へ行きました。": "タクシーで{病|びょう}{院|いん}へ{行|い}きました。",
+    "飛行機でハノイへ帰ります。": "{飛|ひ}{行|こう}{機|き}でハノイへ{帰|かえ}ります。",
+    "地下鉄で東京駅へ行きます。": "{地|ち}{下|か}{鉄|てつ}で{東京|とうきょう}{駅|えき}へ{行|い}きます。",
+    "家族と車で京都へ行きました。": "{家|か}{族|ぞく}と{車|くるま}で{京都|きょうと}へ{行|い}きました。",
+    "友達と図書館へ行きます。": "{友|とも}{達|だち}と{図|と}{書|しょ}{館|かん}へ{行|い}きます。",
+    "昨日、病院へ行きました。": "{昨日|きのう}、{病|びょう}{院|いん}へ{行|い}きました。",
+    "一人で日本へ来ました。": "{一人|ひとり}で{日本|にほん}へ{来|き}ました。",
+    "あさって、家族と京都へ行きます。": "あさって、{家|か}{族|ぞく}と{京都|きょうと}へ{行|い}きます。",
+    "次の電車に乗ります。": "{次|つぎ}の{電|でん}{車|しゃ}に{乗|の}ります。",
+    "次の電車は何時ですか。": "{次|つぎ}の{電|でん}{車|しゃ}は{何時|なんじ}ですか。",
+    "大阪までのきっぷをください。": "{大阪|おおさか}までのきっぷをください。",
+    "きっぷはいくらですか。": "きっぷはいくらですか。",
+    "今週の土曜日、友達と京都へ行きます。": "{今|こん}{週|しゅう}の{土|ど}{曜|よう}{日|び}、{友|とも}{達|だち}と{京都|きょうと}へ{行|い}きます。",
+    "先週、国へ帰りました。": "{先|せん}{週|しゅう}、{国|くに}へ{帰|かえ}りました。",
+    "来週の月曜日に病院へ行きます。": "{来|らい}{週|しゅう}の{月|げつ}{曜|よう}{日|び}に{病|びょう}{院|いん}へ{行|い}きます。",
+    "あさって、東京へ行きます。": "あさって、{東京|とうきょう}へ{行|い}きます。",
+    "来週、京都へ行きます。": "{来|らい}{週|しゅう}、{京都|きょうと}へ{行|い}きます。",
+    "田中さんは何時に家へ帰りますか。": "{田中|たなか}さんは{何時|なんじ}に{家|いえ}へ{帰|かえ}りますか。",
+    "東京へ行きます。": "{東京|とうきょう}へ{行|い}きます。",
+    "東京え行きます。": "{東京|とうきょう}え{行|い}きます。",
+    "来年、日本へ行きます。": "{来|らい}{年|ねん}、{日本|にほん}へ{行|い}きます。",
+    "来年、日本へ来ます。": "{来|らい}{年|ねん}、{日本|にほん}へ{来|き}ます。",
+    "明日、病院に行きます。": "{明日|あした}、{病|びょう}{院|いん}に{行|い}きます。",
+    "8時に会社に来ました。": "8{時|じ}に{会|かい}{社|しゃ}に{来|き}ました。",
+    "バスに乗ります。": "バスに{乗|の}ります。",
+    "バスを乗ります。": "バスを{乗|の}ります。",
+    "病院に行きます。": "{病|びょう}{院|いん}に{行|い}きます。",
+    "病院で行きます。": "{病|びょう}{院|いん}で{行|い}きます。",
+    "毎日、地下鉄で会社へ行きます。": "{毎|まい}{日|にち}、{地|ち}{下|か}{鉄|てつ}で{会|かい}{社|しゃ}へ{行|い}きます。",
+    "すみません、英語でお願いします。": "すみません、{英|えい}{語|ご}でお{願|ねが}いします。",
+    "電車に会社へ行きます。": "{電|でん}{車|しゃ}に{会|かい}{社|しゃ}へ{行|い}きます。",
+    "学校まで歩きました。": "{学|がっ}{校|こう}まで{歩|ある}きました。",
+    "歩くで学校へ来ました。": "{歩|ある}くで{学|がっ}{校|こう}へ{来|き}ました。",
+    "日曜日、家族と大阪へ行きました。": "{日|にち}{曜|よう}{日|び}、{家|か}{族|ぞく}と{大阪|おおさか}へ{行|い}きました。",
+    "誰と来ましたか。": "{誰|だれ}と{来|き}ましたか。",
+    "私は友達と京都へ行きます。": "{私|わたし}は{友|とも}{達|だち}と{京都|きょうと}へ{行|い}きます。",
+    "私は友達と行きます京都へ。": "{私|わたし}は{友|とも}{達|だち}と{行|い}きます{京都|きょうと}へ。",
+    "一人で来ました。": "{一人|ひとり}で{来|き}ました。",
+    "一人と来ました。": "{一人|ひとり}と{来|き}ました。",
+    "へ": "へ",
+    "を": "を",
+    "で": "で",
+    "帰ります": "{帰|かえ}ります",
+    "家": "{家|いえ}",
+    "は": "は",
+    "7時": "{7時|しちじ}",
+    "田中さん": "{田中|たなか}さん",
+    "に": "に",
+    "田中さんは7時に家へ帰ります": "{田中|たなか}さんは{7時|しちじ}に{家|いえ}へ{帰|かえ}ります",
+    "田中さんは家へ7時に帰ります": "{田中|たなか}さんは{家|いえ}へ{7時|しちじ}に{帰|かえ}ります",
+    "来月、国へ＿。": "{来|らい}{月|げつ}、{国|くに}へ＿。",
+    "来ます": "{来|き}ます",
+    "入ります": "{入|はい}ります",
+    "次の電車を乗ります。": "{次|つぎ}の{電|でん}{車|しゃ}を{乗|の}ります。",
+    "次の電車で乗ります。": "{次|つぎ}の{電|でん}{車|しゃ}で{乗|の}ります。",
+    "毎晩、お風呂＿入ります。": "{毎|まい}{晩|ばん}、お{風|ふ}{呂|ろ}＿{入|はい}ります。",
+    "来ました": "{来|き}ました",
+    "会社": "{会|かい}{社|しゃ}",
+    "8時": "8{時|じ}",
+    "8時に会社に来ました": "8{時|じ}に{会|かい}{社|しゃ}に{来|き}ました",
+    "会社に8時に来ました": "{会|かい}{社|しゃ}に8{時|じ}に{来|き}ました",
+    "自転車で学校へ行きます。": "{自|じ}{転|てん}{車|しゃ}で{学|がっ}{校|こう}へ{行|い}きます。",
+    "自転車に学校へ行きます。": "{自|じ}{転|てん}{車|しゃ}に{学|がっ}{校|こう}へ{行|い}きます。",
+    "自転車と学校へ行きます。": "{自|じ}{転|てん}{車|しゃ}と{学|がっ}{校|こう}へ{行|い}きます。",
+    "学校まで何で来ますか。": "{学|がっ}{校|こう}まで{何|なに}で{来|き}ますか。",
+    "ハノイ": "ハノイ",
+    "飛行機": "{飛|ひ}{行|こう}{機|き}",
+    "飛行機でハノイへ帰ります": "{飛|ひ}{行|こう}{機|き}でハノイへ{帰|かえ}ります",
+    "ハノイへ飛行機で帰ります": "ハノイへ{飛|ひ}{行|こう}{機|き}で{帰|かえ}ります",
+    "と": "と",
+    "友達と京都へ行きます。": "{友|とも}{達|だち}と{京都|きょうと}へ{行|い}きます。",
+    "友達で京都へ行きます。": "{友|とも}{達|だち}で{京都|きょうと}へ{行|い}きます。",
+    "友達へ京都と行きます。": "{友|とも}{達|だち}へ{京都|きょうと}と{行|い}きます。",
+    "一人へ来ました。": "{一人|ひとり}へ{来|き}ました。",
+    "行きました": "{行|い}きました",
+    "東京": "{東京|とうきょう}",
+    "田中さんと東京へ行きました": "{田中|たなか}さんと{東京|とうきょう}へ{行|い}きました",
+    "東京へ田中さんと行きました": "{東京|とうきょう}へ{田中|たなか}さんと{行|い}きました",
+    "大阪までの＿をください。": "{大阪|おおさか}までの＿をください。",
+    "きっぷ": "きっぷ",
+    "電車": "{電|でん}{車|しゃ}",
+    "次": "{次|つぎ}",
+    "地下鉄": "{地|ち}{下|か}{鉄|てつ}",
+    "自転車": "{自|じ}{転|てん}{車|しゃ}",
+    "車": "{車|くるま}",
+    "先週": "{先|せん}{週|しゅう}",
+    "今週": "{今|こん}{週|しゅう}",
+    "来週": "{来|らい}{週|しゅう}",
+    "あさって": "あさって",
+    "友達": "{友|とも}{達|だち}",
+    "家族": "{家|か}{族|ぞく}",
+    "病院": "{病|びょう}{院|いん}",
+    "私は来週、飛行機でハノイへ帰ります。": "{私|わたし}は{来|らい}{週|しゅう}、{飛|ひ}{行|こう}{機|き}でハノイへ{帰|かえ}ります。",
+    "私はあさって、友達と東京へ行きます。": "{私|わたし}はあさって、{友|とも}{達|だち}と{東京|とうきょう}へ{行|い}きます。",
+    "私は次のバスに乗ります。": "{私|わたし}は{次|つぎ}のバスに{乗|の}ります。",
+    "毎日、何で会社へ行きますか。": "{毎|まい}{日|にち}、{何|なに}で{会|かい}{社|しゃ}へ{行|い}きますか。",
+    "自転車で行きます。": "{自|じ}{転|てん}{車|しゃ}で{行|い}きます。",
+    "私は毎日、自転車で会社へ行きます。": "{私|わたし}は{毎|まい}{日|にち}、{自|じ}{転|てん}{車|しゃ}で{会|かい}{社|しゃ}へ{行|い}きます。",
+    "いつ国へ帰りますか。": "いつ{国|くに}へ{帰|かえ}りますか。",
+    "来週帰ります。": "{来|らい}{週|しゅう}{帰|かえ}ります。",
+    "私は来週国へ帰ります。": "{私|わたし}は{来|らい}{週|しゅう}{国|くに}へ{帰|かえ}ります。"
+  }
+}

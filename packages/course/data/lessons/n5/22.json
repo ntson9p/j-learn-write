@@ -1,0 +1,1416 @@
+{
+  "id": "n5-22",
+  "goalsVi": [
+    "Chuyển động từ từ thể ます sang thể từ điển và phân biệt ba nhóm động từ",
+    "Nói chuyện thân mật với thể từ điển và だ: 明日は休みだ",
+    "Nói làm gì trước khi làm gì: 寝る前に歯を磨きます",
+    "Nói về nấu ăn, gia vị, dụng cụ ăn; nói mình biết làm gì với できる"
+  ],
+  "words": [
+    {
+      "no": 402,
+      "word": "できる",
+      "meaningsVi": [
+        "có thể, làm được, biết (làm gì)",
+        "xong, làm xong (món ăn, việc)"
+      ],
+      "noteVi": "Dùng mẫu 「N が できます」: 「日本語ができます」 (biết tiếng Nhật), không dùng を. できる thuộc nhóm II: できます → できる.",
+      "examples": [
+        {
+          "ja": "グエンさんは日本語ができます。",
+          "vi": "Anh Nguyễn biết tiếng Nhật."
+        },
+        {
+          "ja": "ご飯ができましたよ。",
+          "vi": "Cơm nấu xong rồi đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 481,
+      "word": "歯",
+      "meaningsVi": [
+        "răng"
+      ],
+      "noteVi": "Âm Hán Việt \"xỉ\" (như trong \"nha xỉ\"). Đánh răng: 「歯を磨く」.",
+      "examples": [
+        {
+          "ja": "毎朝、歯を磨きます。",
+          "vi": "Sáng nào tôi cũng đánh răng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 592,
+      "word": "磨く",
+      "meaningsVi": [
+        "đánh (răng)",
+        "đánh bóng, lau bóng"
+      ],
+      "noteVi": "Nhóm I: 磨きます → 磨く. Tiếng Việt nói \"đánh răng\", tiếng Nhật dùng 磨く (chà cho sạch, cho bóng).",
+      "examples": [
+        {
+          "ja": "寝る前に、歯を磨きます。",
+          "vi": "Tôi đánh răng trước khi đi ngủ."
+        },
+        {
+          "ja": "父は毎週、靴を磨きます。",
+          "vi": "Tuần nào bố tôi cũng đánh giày."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 288,
+      "word": "自分",
+      "meaningsVi": [
+        "bản thân, chính mình"
+      ],
+      "noteVi": "「自分で」 = tự mình làm, không nhờ ai: 「自分で作ります」. 「自分の」 = của chính mình.",
+      "examples": [
+        {
+          "ja": "お弁当は自分で作ります。",
+          "vi": "Cơm hộp thì tôi tự làm."
+        },
+        {
+          "ja": "自分の部屋を掃除してください。",
+          "vi": "Hãy dọn phòng của mình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 83,
+      "word": "売る",
+      "meaningsVi": [
+        "bán"
+      ],
+      "noteVi": "Ngược nghĩa với 買う (mua). Nhóm I: 売ります → 売る. Cửa hàng bán thứ gì thường nói 「〜を売っています」.",
+      "examples": [
+        {
+          "ja": "あの店は古い本を売っています。",
+          "vi": "Cửa hàng kia bán sách cũ."
+        },
+        {
+          "ja": "この自転車を売りたいです。",
+          "vi": "Tôi muốn bán chiếc xe đạp này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 377,
+      "word": "違う",
+      "meaningsVi": [
+        "khác, không giống",
+        "sai, không phải"
+      ],
+      "noteVi": "Trong tiếng Nhật 違う là động từ (nhóm I), không phải tính từ: 「違います」, phủ định 「違いません」. Khi người khác nói sai, đáp lịch sự 「いいえ、違います」.",
+      "examples": [
+        {
+          "ja": "いいえ、違います。",
+          "vi": "Không, không phải ạ."
+        },
+        {
+          "ja": "日本語と中国語は違います。",
+          "vi": "Tiếng Nhật và tiếng Trung khác nhau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 631,
+      "word": "やる",
+      "meaningsVi": [
+        "làm (thân mật)",
+        "chơi (thể thao, trò chơi)"
+      ],
+      "noteVi": "Cách nói thân mật của する, dùng nhiều trong văn nói: 「宿題をやる」. Nói lịch sự hoặc với người trên thì dùng する. Nhóm I: やります → やる.",
+      "examples": [
+        {
+          "ja": "今晩、宿題をやる。",
+          "vi": "Tối nay tớ làm bài tập."
+        },
+        {
+          "ja": "一緒にやりましょう。",
+          "vi": "Cùng làm nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 572,
+      "word": "ほんとう",
+      "meaningsVi": [
+        "thật, sự thật",
+        "thật sự, thật là (ほんとうに)"
+      ],
+      "noteVi": "「ほんとうですか」 = Thật vậy sao?; nói thân mật: 「ほんとう？」 hoặc 「ほんと？」. 「ほんとうに」 + tính từ = thật là, thật sự. Kanji: 本当.",
+      "examples": [
+        {
+          "ja": "ほんとうですか。",
+          "vi": "Thật vậy sao?"
+        },
+        {
+          "ja": "このカレーはほんとうにおいしいです。",
+          "vi": "Món cà ri này ngon thật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 606,
+      "word": "みんな",
+      "meaningsVi": [
+        "mọi người",
+        "tất cả"
+      ],
+      "noteVi": "Thân mật hơn 皆さん. Khi gọi một nhóm người một cách lịch sự (\"Thưa các bạn\") dùng 皆さん; nói với bạn bè hoặc nói về nhóm của mình dùng みんな. 「みんなで」 = (làm) cùng mọi người.",
+      "examples": [
+        {
+          "ja": "みんなで晩ご飯を作ります。",
+          "vi": "Mọi người cùng nhau nấu bữa tối."
+        },
+        {
+          "ja": "クラスのみんなは元気です。",
+          "vi": "Mọi người trong lớp đều khỏe."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 292,
+      "word": "じゃ",
+      "meaningsVi": [
+        "thế thì, vậy thì",
+        "thôi (khi chào tạm biệt)"
+      ],
+      "noteVi": "Cách nói thân mật của では, đứng đầu câu. 「じゃ、また明日」 là câu chào tạm biệt rất hay dùng với bạn bè.",
+      "examples": [
+        {
+          "ja": "じゃ、また明日。",
+          "vi": "Thôi, mai gặp lại nhé."
+        },
+        {
+          "ja": "じゃ、これをください。",
+          "vi": "Vậy thì cho tôi cái này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 243,
+      "word": "こっち",
+      "meaningsVi": [
+        "phía này, bên này",
+        "cái này (khi chọn giữa hai cái)"
+      ],
+      "noteVi": "Cách nói thân mật của こちら. Bộ こっち・そっち・あっち・どっち dùng với bạn bè, người nhà.",
+      "examples": [
+        {
+          "ja": "こっちへ来て。",
+          "vi": "Lại đây đi."
+        },
+        {
+          "ja": "こっちが私の部屋だよ。",
+          "vi": "Đây là phòng của tớ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 342,
+      "word": "そっち",
+      "meaningsVi": [
+        "phía đó, bên đó (gần người nghe)",
+        "cái đó (khi chọn giữa hai cái)"
+      ],
+      "noteVi": "Cách nói thân mật của そちら; hay dùng khi gọi điện: \"chỗ cậu\".",
+      "examples": [
+        {
+          "ja": "そっちの天気はどう？",
+          "vi": "Bên đó thời tiết thế nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 25,
+      "word": "あっち",
+      "meaningsVi": [
+        "phía kia, đằng kia"
+      ],
+      "noteVi": "Cách nói thân mật của あちら.",
+      "examples": [
+        {
+          "ja": "駅はあっちだよ。",
+          "vi": "Nhà ga ở đằng kia đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 69,
+      "word": "嫌",
+      "meaningsVi": [
+        "khó chịu, ghét",
+        "không muốn, không chịu (khi từ chối)"
+      ],
+      "noteVi": "Tính từ đuôi な, đọc là いや. 嫌 nói cảm giác khó chịu, không muốn lúc đó; 嫌い là không thích (lâu dài). Nói thẳng 「嫌です」 với người khác nghe khá mạnh. Âm Hán Việt \"hiềm\" (như \"hiềm khích\").",
+      "examples": [
+        {
+          "ja": "雨は嫌ですね。",
+          "vi": "Mưa thật khó chịu nhỉ."
+        },
+        {
+          "ja": "嫌だよ。まだ帰りたくない。",
+          "vi": "Không chịu đâu. Tớ chưa muốn về."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 390,
+      "word": "作る",
+      "meaningsVi": [
+        "làm, chế tạo",
+        "nấu (món ăn)"
+      ],
+      "noteVi": "Nấu món gì: 「料理を作る」, 「カレーを作る」. Nhóm I: 作ります → 作る.",
+      "examples": [
+        {
+          "ja": "母は毎朝お弁当を作ります。",
+          "vi": "Mẹ tôi làm cơm hộp mỗi sáng."
+        },
+        {
+          "ja": "日曜日はいつも自分で料理を作る。",
+          "vi": "Chủ nhật tớ thường tự nấu ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 197,
+      "word": "切る",
+      "meaningsVi": [
+        "cắt",
+        "tắt, cúp (điện thoại)"
+      ],
+      "noteVi": "Đuôi -iru nhưng là nhóm I: 切ります, 切って (không phải 切て). 「電話を切る」 = cúp máy. Đừng nhầm với 着る (mặc, nhóm II), cũng đọc là きる.",
+      "examples": [
+        {
+          "ja": "ナイフで肉を切ります。",
+          "vi": "Tôi cắt thịt bằng dao."
+        },
+        {
+          "ja": "野菜を小さく切ってください。",
+          "vi": "Hãy cắt nhỏ rau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 73,
+      "word": "入れる",
+      "meaningsVi": [
+        "cho vào, bỏ vào",
+        "pha (trà, cà phê)"
+      ],
+      "noteVi": "入れる (cho cái gì vào, nhóm II) khác 入る (tự đi vào, nhóm I): 「かばんに本を入れます」, 「部屋に入ります」. Chỗ cho vào dùng に.",
+      "examples": [
+        {
+          "ja": "コーヒーに砂糖を入れますか。",
+          "vi": "Anh có cho đường vào cà phê không?"
+        },
+        {
+          "ja": "お茶を入れましょうか。",
+          "vi": "Tôi pha trà nhé?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 268,
+      "word": "砂糖",
+      "meaningsVi": [
+        "đường (ăn)"
+      ],
+      "noteVi": "Âm Hán Việt \"sa đường\" = đường cát. Đừng nhầm với họ 佐藤 (さとう), cùng cách đọc.",
+      "examples": [
+        {
+          "ja": "いいえ、砂糖は入れません。",
+          "vi": "Không, tôi không bỏ đường."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 275,
+      "word": "塩",
+      "meaningsVi": [
+        "muối"
+      ],
+      "noteVi": "Âm Hán Việt \"diêm\" nghĩa là muối (như \"diêm điền\" = ruộng muối), không phải que diêm.",
+      "examples": [
+        {
+          "ja": "塩を少し入れてください。",
+          "vi": "Hãy cho một chút muối."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 301,
+      "word": "しょうゆ",
+      "meaningsVi": [
+        "xì dầu, nước tương"
+      ],
+      "noteVi": "Kanji 醤油 khó nên thường viết bằng kana. Đây là gia vị quan trọng nhất của món Nhật.",
+      "examples": [
+        {
+          "ja": "魚にしょうゆをかけて食べます。",
+          "vi": "Tôi rưới xì dầu lên cá rồi ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 497,
+      "word": "バター",
+      "meaningsVi": [
+        "bơ (làm từ sữa)"
+      ],
+      "noteVi": "バター là bơ làm từ sữa (butter), không phải quả bơ.",
+      "examples": [
+        {
+          "ja": "パンにバターをつけて食べます。",
+          "vi": "Tôi phết bơ lên bánh mì rồi ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 489,
+      "word": "はし",
+      "meaningsVi": [
+        "đũa"
+      ],
+      "noteVi": "Kanji 箸, thường viết bằng kana. Cùng âm với 橋 (はし, cây cầu) nhưng khác ngữ điệu. Ăn bằng đũa: 「はしで食べる」.",
+      "examples": [
+        {
+          "ja": "はしでご飯を食べます。",
+          "vi": "Tôi ăn cơm bằng đũa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 446,
+      "word": "ナイフ",
+      "meaningsVi": [
+        "dao (dao ăn, dao nhỏ)"
+      ],
+      "examples": [
+        {
+          "ja": "ナイフとフォークをください。",
+          "vi": "Cho tôi dao và nĩa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 539,
+      "word": "フォーク",
+      "meaningsVi": [
+        "nĩa, dĩa"
+      ],
+      "examples": [
+        {
+          "ja": "はしは難しいですから、フォークで食べます。",
+          "vi": "Đũa khó dùng nên tôi ăn bằng nĩa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 317,
+      "word": "スプーン",
+      "meaningsVi": [
+        "thìa, muỗng"
+      ],
+      "examples": [
+        {
+          "ja": "スプーンでカレーを食べます。",
+          "vi": "Tôi ăn cà ri bằng thìa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "前",
+      "meaningVi": "trước, phía trước",
+      "noteVi": "Gặp trong 前 (まえ, phía trước; trước khi), 名前 (なまえ, tên), 午前 (ごぜん, buổi sáng). Trái nghĩa với 後 (sau).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-dictionary-form",
+      "titleVi": "Thể từ điển và ba nhóm động từ",
+      "summaryVi": "Thể từ điển (書く, 食べる, する) là dạng gốc của động từ, ghi trong từ điển; nó là thể thông thường của 〜ます.",
+      "explanationVi": [
+        "**Thể từ điển** là dạng gốc của động từ, dạng được ghi trong từ điển: 「書く」, 「食べる」, 「する」. Nó là **thể thông thường** (thân mật) của 「〜ます」: 「毎朝6時に起きます」 → 「毎朝6時に起きる」. Thể từ điển còn đứng trước nhiều mẫu câu, ví dụ 「寝る前に」 (trước khi ngủ).",
+        "**Nhóm I**: âm trước ます thuộc hàng **い** (âm i); đổi sang âm hàng **う** (âm u) cùng dòng: 「買います → 買う」, 「書きます → 書く」, 「泳ぎます → 泳ぐ」, 「話します → 話す」, 「待ちます → 待つ」, 「遊びます → 遊ぶ」, 「読みます → 読む」, 「売ります → 売る」.",
+        "**Nhóm II**: bỏ ます, thêm **る**: 「食べます → 食べる」, 「入れます → 入れる」, 「見ます → 見る」, 「起きます → 起きる」. **Nhóm III** chỉ có hai động từ: 「します → する」 (cả 「勉強します → 勉強する」) và 「来ます → 来る」 (đọc là くる).",
+        "Cách nhận nhóm: âm trước ます thuộc hàng **え** (âm e: 食べ, 入れ, 寝) thì luôn là nhóm II. Âm hàng **い** (âm i) thì thường là nhóm I, nhưng có một số động từ nhóm II phải nhớ: 「見る」, 「起きる」, 「いる」, 「できる」, 「借りる」, 「降りる」, 「着る」, 「あびる」. Ngược lại, 「帰る」, 「入る」, 「切る」, 「走る」, 「知る」 trông giống nhóm II nhưng là **nhóm I** (帰ります, 帰って)."
+      ],
+      "patterns": [
+        "Nhóm I: 書きます → 書く（âm i → âm u）",
+        "Nhóm II: 食べます → 食べる（ます → る）",
+        "Nhóm III: します → する、来ます → 来る"
+      ],
+      "examples": [
+        {
+          "ja": "毎朝6時に起きる。",
+          "vi": "Sáng nào tớ cũng dậy lúc 6 giờ."
+        },
+        {
+          "ja": "明日、友達と映画を見る。",
+          "vi": "Ngày mai tớ xem phim với bạn."
+        },
+        {
+          "ja": "日曜日はいつも家で本を読む。",
+          "vi": "Chủ nhật tớ thường đọc sách ở nhà."
+        },
+        {
+          "ja": "来月、グエンさんが日本へ来る。",
+          "vi": "Tháng sau anh Nguyễn sang Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "毎朝6時に起く。",
+          "right": "毎朝6時に起きる。",
+          "noteVi": "起きます là nhóm II: bỏ ます thêm る → 起きる. Không đổi き thành く như nhóm I."
+        },
+        {
+          "wrong": "6時に家へ帰ます。",
+          "right": "6時に家へ帰ります。",
+          "noteVi": "帰る trông giống nhóm II nhưng là nhóm I, nên thể ます là 帰ります (không phải 帰ます)."
+        },
+        {
+          "wrong": "明日、映画を見るます。",
+          "right": "明日、映画を見ます。",
+          "noteVi": "ます gắn vào gốc của thể ます (見), không gắn vào thể từ điển. Lịch sự: 見ます; thân mật: 見る."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "da",
+      "titleVi": "だ: là (thể thông thường của です)",
+      "summaryVi": "だ là dạng thân mật của です, đặt sau danh từ và tính từ đuôi な: 休みだ = (hôm nay) được nghỉ.",
+      "explanationVi": [
+        "**だ** là dạng **thông thường** của **です**, đặt sau danh từ và tính từ đuôi な: 「今日は休みです」 → 「今日は休みだ」, 「この町は静かです」 → 「この町は静かだ」. Dùng khi nói với bạn bè, người nhà, người ít tuổi hơn, và khi viết nhật ký, ghi chú. Với người trên và người lạ vẫn dùng です, ます.",
+        "Tính từ đuôi い và động từ **không** thêm だ: thể thông thường của 「高いです」 là 「高い」, của 「行きます」 là 「行く」. Nói 「高いだ」 là sai.",
+        "Các dạng của danh từ và tính từ đuôi な: 「学生です → 学生だ」, 「学生じゃありません → 学生じゃない」, 「学生でした → 学生だった」. Tính từ đuôi い: 「高くないです → 高くない」, 「高かったです → 高かった」. Động từ: 「行きません → 行かない」.",
+        "Câu hỏi thân mật **bỏ だ và bỏ か**, chỉ lên giọng ở cuối: 「明日、休み？」 (Mai cậu nghỉ à?), 「これ、おいしい？」. Trong hội thoại, だ đứng một mình ở cuối câu nghe hơi cứng; người ta hay nói 「〜だよ」, 「〜だね」."
+      ],
+      "patterns": [
+        "N／Aな だ",
+        "N／Aな じゃない",
+        "N／Aな だった",
+        "Aい（không thêm だ）"
+      ],
+      "examples": [
+        {
+          "ja": "今日は休みだ。",
+          "vi": "Hôm nay được nghỉ."
+        },
+        {
+          "ja": "あの人は田中さんの弟だよ。",
+          "vi": "Người kia là em trai của Tanaka đấy."
+        },
+        {
+          "ja": "昨日は雨だった。",
+          "vi": "Hôm qua trời mưa."
+        },
+        {
+          "ja": "この部屋は静かじゃない。",
+          "vi": "Phòng này không yên tĩnh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "このカレーはおいしいだ。",
+          "right": "このカレーはおいしい。",
+          "noteVi": "Tính từ đuôi い đã là thể thông thường, không thêm だ."
+        },
+        {
+          "wrong": "明日は休みだか。",
+          "right": "明日は休み？",
+          "noteVi": "Câu hỏi thân mật không dùng だか: bỏ だ và か, lên giọng ở cuối câu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mae-ni",
+      "titleVi": "〜前に: trước khi…, trước…",
+      "summaryVi": "V（thể từ điển）前に / N の前に: trước khi làm V / trước N.",
+      "explanationVi": [
+        "**V（thể từ điển）+ 前に** = \"trước khi V\": 「寝る前に、歯を磨きます」 (Tôi đánh răng trước khi đi ngủ). Động từ trước 前に **luôn ở thể từ điển**, kể cả khi cả câu nói về quá khứ: 「日本へ来る前に、日本語を勉強しました」.",
+        "**N の 前に** = \"trước N\", với danh từ chỉ hoạt động hay sự kiện: 「授業の前に」 (trước giờ học), 「テストの前に」. Khoảng thời gian + 前に (không có の) = \"cách đây…\": 「3年前に日本へ来ました」 (Tôi đến Nhật cách đây 3 năm).",
+        "Trật tự ngược với tiếng Việt: tiếng Việt nói \"trước khi ngủ\", tiếng Nhật nói 「寝る前に」: động từ đứng trước, **前に** đứng sau. Thì của cả câu do động từ ở cuối câu quyết định."
+      ],
+      "patterns": [
+        "V（thể từ điển）前に、…",
+        "N の 前に、…",
+        "Khoảng thời gian + 前に"
+      ],
+      "examples": [
+        {
+          "ja": "寝る前に、歯を磨きます。",
+          "vi": "Tôi đánh răng trước khi đi ngủ."
+        },
+        {
+          "ja": "日本へ来る前に、日本語を勉強しました。",
+          "vi": "Trước khi sang Nhật, tôi đã học tiếng Nhật."
+        },
+        {
+          "ja": "授業の前に、宿題を出してください。",
+          "vi": "Hãy nộp bài tập trước giờ học."
+        },
+        {
+          "ja": "3年前に、ハノイで田中さんに会いました。",
+          "vi": "Cách đây 3 năm, tôi đã gặp anh Tanaka ở Hà Nội."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "前に寝る、歯を磨きます。",
+          "right": "寝る前に、歯を磨きます。",
+          "noteVi": "Theo thói quen tiếng Việt (\"trước khi ngủ\") dễ đặt 前に lên đầu. Trong tiếng Nhật 前に đứng sau động từ."
+        },
+        {
+          "wrong": "寝ます前に、歯を磨きます。",
+          "right": "寝る前に、歯を磨きます。",
+          "noteVi": "Trước 前に dùng thể từ điển, không dùng thể ます."
+        },
+        {
+          "wrong": "日本へ来ました前に、日本語を勉強しました。",
+          "right": "日本へ来る前に、日本語を勉強しました。",
+          "noteVi": "Dù câu nói về quá khứ, động từ trước 前に vẫn ở thể từ điển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-22-e01",
+      "type": "choice",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "promptVi": "Chọn thể từ điển của động từ này.",
+      "ja": "書きます",
+      "options": [
+        "書く",
+        "書いて",
+        "書かない"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-22-e02",
+      "type": "fill",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "before": "毎晩11時に",
+      "after": "。",
+      "answers": [
+        "寝る",
+        "ねる"
+      ],
+      "vi": "Tối nào tớ cũng đi ngủ lúc 11 giờ. (thân mật)",
+      "explainVi": "寝ます là nhóm II (âm e trước ます): bỏ ます, thêm る."
+    },
+    {
+      "id": "n5-22-e03",
+      "type": "fill",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "before": "明日、友達が家へ",
+      "after": "。",
+      "answers": [
+        "来る",
+        "くる"
+      ],
+      "vi": "Ngày mai bạn tớ đến nhà. (thân mật)",
+      "explainVi": "来ます là nhóm III: thể từ điển là 来る (くる)."
+    },
+    {
+      "id": "n5-22-e04",
+      "type": "choice",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "promptVi": "Động từ nào thuộc nhóm I?",
+      "options": [
+        "見る",
+        "帰る",
+        "食べる"
+      ],
+      "answer": 1,
+      "explainVi": "帰る có đuôi -eru nhưng là nhóm I: 帰ります, 帰って. 見る và 食べる là nhóm II."
+    },
+    {
+      "id": "n5-22-e05",
+      "type": "choice",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "promptVi": "Động từ nào thuộc nhóm II?",
+      "options": [
+        "入る",
+        "切る",
+        "入れる"
+      ],
+      "answer": 2,
+      "explainVi": "入れる (入れます) là nhóm II; 入る (入ります) và 切る (切ります) là nhóm I."
+    },
+    {
+      "id": "n5-22-e06",
+      "type": "match",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "promptVi": "Ghép thể ます với thể từ điển",
+      "pairs": [
+        [
+          "飲みます",
+          "飲む"
+        ],
+        [
+          "します",
+          "する"
+        ],
+        [
+          "待ちます",
+          "待つ"
+        ],
+        [
+          "泳ぎます",
+          "泳ぐ"
+        ]
+      ]
+    },
+    {
+      "id": "n5-22-e07",
+      "type": "order",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "vi": "Tối nay tớ làm bài tập. (thân mật)",
+      "tiles": [
+        "今晩",
+        "宿題",
+        "を",
+        "やる"
+      ],
+      "answers": [
+        "今晩宿題をやる",
+        "宿題を今晩やる"
+      ]
+    },
+    {
+      "id": "n5-22-e08",
+      "type": "choice",
+      "grammar": [
+        "da"
+      ],
+      "promptVi": "Chọn thể thông thường của câu này.",
+      "ja": "今日は休みです。",
+      "options": [
+        "今日は休みだ。",
+        "今日は休みだです。",
+        "今日は休む。"
+      ],
+      "answer": 0,
+      "explainVi": "Sau danh từ, です thành だ. 休む là động từ (nghỉ), nghĩa khác."
+    },
+    {
+      "id": "n5-22-e09",
+      "type": "choice",
+      "grammar": [
+        "da"
+      ],
+      "promptVi": "Câu thân mật nào đúng?",
+      "options": [
+        "この部屋は広いだ。",
+        "この部屋は広い。",
+        "この部屋は広くだ。"
+      ],
+      "answer": 1,
+      "explainVi": "Tính từ đuôi い không thêm だ."
+    },
+    {
+      "id": "n5-22-e10",
+      "type": "fill",
+      "grammar": [
+        "da"
+      ],
+      "before": "昨日は雨",
+      "after": "。",
+      "answers": [
+        "だった"
+      ],
+      "options": [
+        "だ",
+        "だった",
+        "じゃない"
+      ],
+      "vi": "Hôm qua trời mưa. (thân mật)"
+    },
+    {
+      "id": "n5-22-e11",
+      "type": "fill",
+      "grammar": [
+        "da"
+      ],
+      "before": "あの人は先生",
+      "after": "よ。",
+      "answers": [
+        "じゃない"
+      ],
+      "options": [
+        "だ",
+        "じゃない",
+        "だった"
+      ],
+      "vi": "Người kia không phải là giáo viên đâu. (thân mật)"
+    },
+    {
+      "id": "n5-22-e12",
+      "type": "match",
+      "grammar": [
+        "da"
+      ],
+      "promptVi": "Ghép thể lịch sự với thể thông thường",
+      "pairs": [
+        [
+          "学生です",
+          "学生だ"
+        ],
+        [
+          "学生じゃありません",
+          "学生じゃない"
+        ],
+        [
+          "学生でした",
+          "学生だった"
+        ],
+        [
+          "高いです",
+          "高い"
+        ]
+      ]
+    },
+    {
+      "id": "n5-22-e13",
+      "type": "choice",
+      "grammar": [
+        "da"
+      ],
+      "promptVi": "Hỏi bạn thân \"Mai cậu nghỉ à?\". Câu nào tự nhiên?",
+      "options": [
+        "明日、休み？",
+        "明日、休みだか。",
+        "明日は休みじゃない。"
+      ],
+      "answer": 0,
+      "explainVi": "Câu hỏi thân mật bỏ だ và か, chỉ lên giọng ở cuối câu."
+    },
+    {
+      "id": "n5-22-e14",
+      "type": "fill",
+      "grammar": [
+        "mae-ni"
+      ],
+      "before": "ご飯を",
+      "after": "前に、手を洗います。",
+      "answers": [
+        "食べる"
+      ],
+      "options": [
+        "食べる",
+        "食べます",
+        "食べて"
+      ],
+      "vi": "Tôi rửa tay trước khi ăn cơm.",
+      "explainVi": "Trước 前に dùng thể từ điển."
+    },
+    {
+      "id": "n5-22-e15",
+      "type": "order",
+      "grammar": [
+        "mae-ni"
+      ],
+      "vi": "Tôi đánh răng trước khi đi ngủ.",
+      "tiles": [
+        "寝る",
+        "前に",
+        "歯を",
+        "磨きます"
+      ],
+      "answers": [
+        "寝る前に歯を磨きます"
+      ]
+    },
+    {
+      "id": "n5-22-e16",
+      "type": "choice",
+      "grammar": [
+        "mae-ni"
+      ],
+      "promptVi": "Chọn câu đúng: \"Trước khi sang Nhật, tôi đã học tiếng Nhật.\"",
+      "options": [
+        "日本へ来る前に、日本語を勉強しました。",
+        "日本へ来ました前に、日本語を勉強しました。",
+        "前に日本へ来る、日本語を勉強しました。"
+      ],
+      "answer": 0,
+      "explainVi": "Động từ trước 前に luôn ở thể từ điển, và 前に đứng sau động từ."
+    },
+    {
+      "id": "n5-22-e17",
+      "type": "fill",
+      "grammar": [
+        "mae-ni"
+      ],
+      "before": "授業",
+      "after": "前に、宿題を出してください。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "に",
+        "へ"
+      ],
+      "vi": "Hãy nộp bài tập trước giờ học.",
+      "explainVi": "Danh từ + の + 前に."
+    },
+    {
+      "id": "n5-22-e18",
+      "type": "choice",
+      "grammar": [
+        "mae-ni"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "3年前に日本へ来ました。",
+      "options": [
+        "Tôi đến Nhật cách đây 3 năm.",
+        "Tôi sẽ đến Nhật sau 3 năm nữa.",
+        "Tôi đã ở Nhật được 3 năm."
+      ],
+      "answer": 0,
+      "explainVi": "Khoảng thời gian + 前に = cách đây..."
+    },
+    {
+      "id": "n5-22-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "砂糖",
+          "đường"
+        ],
+        [
+          "塩",
+          "muối"
+        ],
+        [
+          "しょうゆ",
+          "xì dầu"
+        ],
+        [
+          "バター",
+          "bơ"
+        ]
+      ]
+    },
+    {
+      "id": "n5-22-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "はし",
+          "đũa"
+        ],
+        [
+          "ナイフ",
+          "dao"
+        ],
+        [
+          "フォーク",
+          "nĩa"
+        ],
+        [
+          "スプーン",
+          "thìa"
+        ]
+      ]
+    },
+    {
+      "id": "n5-22-e21",
+      "type": "choice",
+      "promptVi": "Chọn động từ đúng: \"Tôi cắt thịt bằng dao.\"",
+      "ja": "ナイフで肉を＿。",
+      "options": [
+        "切ります",
+        "入れます",
+        "売ります"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-22-e22",
+      "type": "fill",
+      "before": "コーヒーに砂糖を",
+      "after": "か。",
+      "answers": [
+        "入れます"
+      ],
+      "options": [
+        "入れます",
+        "作ります",
+        "磨きます"
+      ],
+      "vi": "Anh có cho đường vào cà phê không?"
+    },
+    {
+      "id": "n5-22-e23",
+      "type": "fill",
+      "before": "グエンさんは日本語",
+      "after": "できます。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "を",
+        "と"
+      ],
+      "vi": "Anh Nguyễn biết tiếng Nhật.",
+      "explainVi": "できる đi với が: N が できます."
+    },
+    {
+      "id": "n5-22-e24",
+      "type": "choice",
+      "promptVi": "Đó không phải ô của anh Tanaka. Bạn trả lời lịch sự thế nào?",
+      "ja": "これは田中さんの傘ですか。",
+      "options": [
+        "いいえ、違います。",
+        "はい、違います。",
+        "いいえ、違いません。"
+      ],
+      "answer": 0,
+      "explainVi": "「いいえ、違います」 = Không, không phải ạ."
+    },
+    {
+      "id": "n5-22-e25",
+      "type": "choice",
+      "promptVi": "Nói thân mật với bạn bè, 「あちら」 thành từ nào?",
+      "options": [
+        "あっち",
+        "こっち",
+        "そっち"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-22-e26",
+      "type": "translate",
+      "grammar": [
+        "mae-ni",
+        "x-dictionary-form"
+      ],
+      "vi": "Trước khi ra khỏi nhà, tôi đánh răng.",
+      "answers": [
+        "(私は)[家を出る|出かける]前(に)、歯を磨きます。",
+        "[家を出る|出かける]前(に)、私は歯を磨きます。"
+      ],
+      "examples": [
+        {
+          "answer": "いえをでるまえに、はをみがきます",
+          "score": 100
+        },
+        {
+          "answer": "家を出る前に、歯お磨きます。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "寝る前に、歯を磨きます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-22-e27",
+      "type": "translate",
+      "grammar": [
+        "da"
+      ],
+      "vi": "Thị trấn này không nhộn nhịp. (nói thân mật)",
+      "answers": [
+        "この町はにぎやか[じゃない|ではない]。",
+        "この町はにぎやか[じゃありません|ではありません|じゃないです|ではないです]。"
+      ],
+      "examples": [
+        {
+          "answer": "このまちはにぎやかじゃない",
+          "score": 100
+        },
+        {
+          "answer": "この町はにぎやかくない。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "この町はにぎやかだ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-22-e28",
+      "type": "translate",
+      "grammar": [
+        "da"
+      ],
+      "vi": "Hôm qua là sinh nhật tớ. (nói thân mật)",
+      "answers": [
+        "昨日は(私の)誕生日だった。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはわたしのたんじょうびだった",
+          "score": 100
+        },
+        {
+          "answer": "きのうわわたしのたんじょうびだった",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "昨日は私の誕生日だ。",
+          "score": 0
+        },
+        {
+          "answer": "明日は私の誕生日だ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-22-e29",
+      "type": "question",
+      "grammar": [
+        "x-dictionary-form"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "毎朝何時に起きる？",
+        "promptVi": "Bạn thân hỏi: “Sáng nào cậu cũng dậy lúc mấy giờ?” Hãy trả lời thân mật: tớ dậy lúc 6 giờ.",
+        "answers": [
+          "[(毎朝)6時に起きる|6時(だ)]。"
+        ],
+        "examples": [
+          {
+            "answer": "ろくじにおきる",
+            "score": 100
+          },
+          {
+            "answer": "6時起きる。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ]
+          },
+          {
+            "answer": "7時に起きる。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-22-e30",
+      "type": "question",
+      "grammar": [
+        "x-position"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "塩はどこにありますか。",
+        "promptVi": "Muối ở đâu? Hãy trả lời: ở trên bàn.",
+        "picture": "🧂",
+        "expected": {
+          "places": [
+            "テーブル",
+            "机"
+          ],
+          "position": "上",
+          "sentence": "塩はテーブルの上にあります。"
+        },
+        "examples": [
+          {
+            "answer": "テーブルのうえにあります",
+            "score": 100
+          },
+          {
+            "answer": "上のテーブルにあります。",
+            "score": 80,
+            "issues": [
+              "position_order"
+            ]
+          },
+          {
+            "answer": "冷蔵庫の中にあります。",
+            "score": 20
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "グエンさんは日本語ができます。": "グエンさんは{日本|にほん}{語|ご}ができます。",
+    "ご飯ができましたよ。": "ご{飯|はん}ができましたよ。",
+    "毎朝、歯を磨きます。": "{毎|まい}{朝|あさ}、{歯|は}を{磨|みが}きます。",
+    "寝る前に、歯を磨きます。": "{寝|ね}る{前|まえ}に、{歯|は}を{磨|みが}きます。",
+    "父は毎週、靴を磨きます。": "{父|ちち}は{毎|まい}{週|しゅう}、{靴|くつ}を{磨|みが}きます。",
+    "お弁当は自分で作ります。": "お{弁|べん}{当|とう}は{自|じ}{分|ぶん}で{作|つく}ります。",
+    "自分の部屋を掃除してください。": "{自|じ}{分|ぶん}の{部屋|へや}を{掃|そう}{除|じ}してください。",
+    "あの店は古い本を売っています。": "あの{店|みせ}は{古|ふる}い{本|ほん}を{売|う}っています。",
+    "この自転車を売りたいです。": "この{自|じ}{転|てん}{車|しゃ}を{売|う}りたいです。",
+    "いいえ、違います。": "いいえ、{違|ちが}います。",
+    "日本語と中国語は違います。": "{日本|にほん}{語|ご}と{中国語|ちゅうごくご}は{違|ちが}います。",
+    "今晩、宿題をやる。": "{今|こん}{晩|ばん}、{宿|しゅく}{題|だい}をやる。",
+    "一緒にやりましょう。": "{一|いっ}{緒|しょ}にやりましょう。",
+    "ほんとうですか。": "ほんとうですか。",
+    "このカレーはほんとうにおいしいです。": "このカレーはほんとうにおいしいです。",
+    "みんなで晩ご飯を作ります。": "みんなで{晩|ばん}ご{飯|はん}を{作|つく}ります。",
+    "クラスのみんなは元気です。": "クラスのみんなは{元|げん}{気|き}です。",
+    "じゃ、また明日。": "じゃ、また{明日|あした}。",
+    "じゃ、これをください。": "じゃ、これをください。",
+    "こっちへ来て。": "こっちへ{来|き}て。",
+    "こっちが私の部屋だよ。": "こっちが{私|わたし}の{部屋|へや}だよ。",
+    "そっちの天気はどう？": "そっちの{天|てん}{気|き}はどう？",
+    "駅はあっちだよ。": "{駅|えき}はあっちだよ。",
+    "雨は嫌ですね。": "{雨|あめ}は{嫌|いや}ですね。",
+    "嫌だよ。まだ帰りたくない。": "{嫌|いや}だよ。まだ{帰|かえ}りたくない。",
+    "母は毎朝お弁当を作ります。": "{母|はは}は{毎|まい}{朝|あさ}お{弁|べん}{当|とう}を{作|つく}ります。",
+    "日曜日はいつも自分で料理を作る。": "{日|にち}{曜|よう}{日|び}はいつも{自|じ}{分|ぶん}で{料|りょう}{理|り}を{作|つく}る。",
+    "ナイフで肉を切ります。": "ナイフで{肉|にく}を{切|き}ります。",
+    "野菜を小さく切ってください。": "{野|や}{菜|さい}を{小|ちい}さく{切|き}ってください。",
+    "コーヒーに砂糖を入れますか。": "コーヒーに{砂|さ}{糖|とう}を{入|い}れますか。",
+    "お茶を入れましょうか。": "お{茶|ちゃ}を{入|い}れましょうか。",
+    "いいえ、砂糖は入れません。": "いいえ、{砂|さ}{糖|とう}は{入|い}れません。",
+    "塩を少し入れてください。": "{塩|しお}を{少|すこ}し{入|い}れてください。",
+    "魚にしょうゆをかけて食べます。": "{魚|さかな}にしょうゆをかけて{食|た}べます。",
+    "パンにバターをつけて食べます。": "パンにバターをつけて{食|た}べます。",
+    "はしでご飯を食べます。": "はしでご{飯|はん}を{食|た}べます。",
+    "ナイフとフォークをください。": "ナイフとフォークをください。",
+    "はしは難しいですから、フォークで食べます。": "はしは{難|むずか}しいですから、フォークで{食|た}べます。",
+    "スプーンでカレーを食べます。": "スプーンでカレーを{食|た}べます。",
+    "毎朝6時に起きる。": "{毎|まい}{朝|あさ}6{時|じ}に{起|お}きる。",
+    "明日、友達と映画を見る。": "{明日|あした}、{友|とも}{達|だち}と{映|えい}{画|が}を{見|み}る。",
+    "日曜日はいつも家で本を読む。": "{日|にち}{曜|よう}{日|び}はいつも{家|いえ}で{本|ほん}を{読|よ}む。",
+    "来月、グエンさんが日本へ来る。": "{来|らい}{月|げつ}、グエンさんが{日本|にほん}へ{来|く}る。",
+    "毎朝6時に起く。": "{毎|まい}{朝|あさ}6{時|じ}に{起|お}く。",
+    "6時に家へ帰ります。": "6{時|じ}に{家|いえ}へ{帰|かえ}ります。",
+    "6時に家へ帰ます。": "6{時|じ}に{家|いえ}へ{帰|かえ}ます。",
+    "明日、映画を見ます。": "{明日|あした}、{映|えい}{画|が}を{見|み}ます。",
+    "明日、映画を見るます。": "{明日|あした}、{映|えい}{画|が}を{見|み}るます。",
+    "今日は休みだ。": "{今日|きょう}は{休|やす}みだ。",
+    "あの人は田中さんの弟だよ。": "あの{人|ひと}は{田中|たなか}さんの{弟|おとうと}だよ。",
+    "昨日は雨だった。": "{昨日|きのう}は{雨|あめ}だった。",
+    "この部屋は静かじゃない。": "この{部屋|へや}は{静|しず}かじゃない。",
+    "このカレーはおいしい。": "このカレーはおいしい。",
+    "このカレーはおいしいだ。": "このカレーはおいしいだ。",
+    "明日は休み？": "{明日|あした}は{休|やす}み？",
+    "明日は休みだか。": "{明日|あした}は{休|やす}みだか。",
+    "日本へ来る前に、日本語を勉強しました。": "{日本|にほん}へ{来|く}る{前|まえ}に、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しました。",
+    "授業の前に、宿題を出してください。": "{授|じゅ}{業|ぎょう}の{前|まえ}に、{宿|しゅく}{題|だい}を{出|だ}してください。",
+    "3年前に、ハノイで田中さんに会いました。": "3{年|ねん}{前|まえ}に、ハノイで{田中|たなか}さんに{会|あ}いました。",
+    "前に寝る、歯を磨きます。": "{前|まえ}に{寝|ね}る、{歯|は}を{磨|みが}きます。",
+    "寝ます前に、歯を磨きます。": "{寝|ね}ます{前|まえ}に、{歯|は}を{磨|みが}きます。",
+    "日本へ来ました前に、日本語を勉強しました。": "{日本|にほん}へ{来|き}ました{前|まえ}に、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しました。",
+    "書きます": "{書|か}きます",
+    "書く": "{書|か}く",
+    "書いて": "{書|か}いて",
+    "書かない": "{書|か}かない",
+    "毎晩11時に寝る。": "{毎|まい}{晩|ばん}11{時|じ}に{寝|ね}る。",
+    "寝る": "{寝|ね}る",
+    "ねる": "ねる",
+    "明日、友達が家へ来る。": "{明日|あした}、{友|とも}{達|だち}が{家|いえ}へ{来|く}る。",
+    "来る": "{来|く}る",
+    "くる": "くる",
+    "見る": "{見|み}る",
+    "帰る": "{帰|かえ}る",
+    "食べる": "{食|た}べる",
+    "入る": "{入|はい}る",
+    "切る": "{切|き}る",
+    "入れる": "{入|い}れる",
+    "飲みます": "{飲|の}みます",
+    "飲む": "{飲|の}む",
+    "します": "します",
+    "する": "する",
+    "待ちます": "{待|ま}ちます",
+    "待つ": "{待|ま}つ",
+    "泳ぎます": "{泳|およ}ぎます",
+    "泳ぐ": "{泳|およ}ぐ",
+    "今晩": "{今|こん}{晩|ばん}",
+    "宿題": "{宿|しゅく}{題|だい}",
+    "を": "を",
+    "やる": "やる",
+    "今晩宿題をやる": "{今|こん}{晩|ばん}{宿|しゅく}{題|だい}をやる",
+    "宿題を今晩やる": "{宿|しゅく}{題|だい}を{今|こん}{晩|ばん}やる",
+    "今日は休みです。": "{今日|きょう}は{休|やす}みです。",
+    "今日は休みだです。": "{今日|きょう}は{休|やす}みだです。",
+    "今日は休む。": "{今日|きょう}は{休|やす}む。",
+    "この部屋は広いだ。": "この{部屋|へや}は{広|ひろ}いだ。",
+    "この部屋は広い。": "この{部屋|へや}は{広|ひろ}い。",
+    "この部屋は広くだ。": "この{部屋|へや}は{広|ひろ}くだ。",
+    "だった": "だった",
+    "だ": "だ",
+    "じゃない": "じゃない",
+    "あの人は先生じゃないよ。": "あの{人|ひと}は{先|せん}{生|せい}じゃないよ。",
+    "学生です": "{学|がく}{生|せい}です",
+    "学生だ": "{学|がく}{生|せい}だ",
+    "学生じゃありません": "{学|がく}{生|せい}じゃありません",
+    "学生じゃない": "{学|がく}{生|せい}じゃない",
+    "学生でした": "{学|がく}{生|せい}でした",
+    "学生だった": "{学|がく}{生|せい}だった",
+    "高いです": "{高|たか}いです",
+    "高い": "{高|たか}い",
+    "明日、休み？": "{明日|あした}、{休|やす}み？",
+    "明日、休みだか。": "{明日|あした}、{休|やす}みだか。",
+    "明日は休みじゃない。": "{明日|あした}は{休|やす}みじゃない。",
+    "ご飯を食べる前に、手を洗います。": "ご{飯|はん}を{食|た}べる{前|まえ}に、{手|て}を{洗|あら}います。",
+    "食べます": "{食|た}べます",
+    "食べて": "{食|た}べて",
+    "前に": "{前|まえ}に",
+    "歯を": "{歯|は}を",
+    "磨きます": "{磨|みが}きます",
+    "寝る前に歯を磨きます": "{寝|ね}る{前|まえ}に{歯|は}を{磨|みが}きます",
+    "前に日本へ来る、日本語を勉強しました。": "{前|まえ}に{日本|にほん}へ{来|く}る、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しました。",
+    "の": "の",
+    "に": "に",
+    "へ": "へ",
+    "3年前に日本へ来ました。": "3{年|ねん}{前|まえ}に{日本|にほん}へ{来|き}ました。",
+    "砂糖": "{砂|さ}{糖|とう}",
+    "塩": "{塩|しお}",
+    "しょうゆ": "しょうゆ",
+    "バター": "バター",
+    "はし": "はし",
+    "ナイフ": "ナイフ",
+    "フォーク": "フォーク",
+    "スプーン": "スプーン",
+    "ナイフで肉を＿。": "ナイフで{肉|にく}を＿。",
+    "切ります": "{切|き}ります",
+    "入れます": "{入|い}れます",
+    "売ります": "{売|う}ります",
+    "作ります": "{作|つく}ります",
+    "が": "が",
+    "と": "と",
+    "これは田中さんの傘ですか。": "これは{田中|たなか}さんの{傘|かさ}ですか。",
+    "はい、違います。": "はい、{違|ちが}います。",
+    "いいえ、違いません。": "いいえ、{違|ちが}いません。",
+    "あっち": "あっち",
+    "こっち": "こっち",
+    "そっち": "そっち",
+    "私は家を出る前に、歯を磨きます。": "{私|わたし}は{家|いえ}を{出|で}る{前|まえ}に、{歯|は}を{磨|みが}きます。",
+    "家を出る前に、私は歯を磨きます。": "{家|いえ}を{出|で}る{前|まえ}に、{私|わたし}は{歯|は}を{磨|みが}きます。",
+    "この町はにぎやかじゃない。": "この{町|まち}はにぎやかじゃない。",
+    "この町はにぎやかじゃありません。": "この{町|まち}はにぎやかじゃありません。",
+    "昨日は私の誕生日だった。": "{昨日|きのう}は{私|わたし}の{誕|たん}{生|じょう}{日|び}だった。",
+    "毎朝何時に起きる？": "{毎|まい}{朝|あさ}{何時|なんじ}に{起|お}きる？",
+    "塩はどこにありますか。": "{塩|しお}はどこにありますか。",
+    "塩はテーブルの上にあります。": "{塩|しお}はテーブルの{上|うえ}にあります。"
+  }
+}

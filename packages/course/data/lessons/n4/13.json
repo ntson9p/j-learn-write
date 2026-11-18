@@ -1,0 +1,1206 @@
+{
+  "id": "n4-13",
+  "goalsVi": [
+    "Nói điều mình đoán qua vẻ bề ngoài: このパンはおいしそうです、雨が降りそうです",
+    "Truyền đạt lại điều nghe được: 明日は雨だそうです、田中さんは来月結婚するそうです",
+    "Nói điều mình nghe đâu, đoán được qua thông tin: 田中さんは今日休みらしいです",
+    "Nói về thời tiết, mùa và cảm xúc: 台風、天気予報、悲しい、寂しい、怖い、恥ずかしい"
+  ],
+  "words": [
+    {
+      "no": 1019,
+      "word": "そう",
+      "meaningsVi": [
+        "trông có vẻ, có vẻ sắp (sau dạng ます bỏ ます, tính từ)",
+        "nghe nói (sau thể thông thường)"
+      ],
+      "noteVi": "Trợ động từ (xem ngữ pháp bài này): 降りそう (trông như sắp mưa), 降るそう (nghe nói sẽ mưa). Khác với そう \"như thế\" đã học: そうです (Đúng vậy).",
+      "examples": [
+        {
+          "ja": "空が暗いですね。雨が降りそうです。",
+          "vi": "Trời tối quá nhỉ. Trông như sắp mưa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 733,
+      "word": "うまい",
+      "meaningsVi": [
+        "ngon",
+        "giỏi, khéo"
+      ],
+      "noteVi": "Nghĩa \"ngon\": thân mật, nam giới hay dùng; lịch sự hơn là おいしい. Nghĩa \"giỏi\": 歌がうまい = 歌が上手.",
+      "examples": [
+        {
+          "ja": "このカレー、うまいね。",
+          "vi": "Món cà ri này ngon nhỉ."
+        },
+        {
+          "ja": "田中さんは歌がうまいです。",
+          "vi": "Anh Tanaka hát hay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 805,
+      "word": "かっこう",
+      "meaningsVi": [
+        "dáng vẻ, cách ăn mặc"
+      ],
+      "noteVi": "Kanji: 格好. Từ かっこいい (đẹp, ngầu) cũng bắt nguồn từ đây.",
+      "examples": [
+        {
+          "ja": "そんなかっこうで寒くないですか。",
+          "vi": "Ăn mặc như thế không lạnh à?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 818,
+      "word": "乾く",
+      "meaningsVi": [
+        "khô"
+      ],
+      "noteVi": "Tự động từ: シャツが乾く. Khát nước là のどが渇く (cùng cách đọc かわく, khác chữ).",
+      "examples": [
+        {
+          "ja": "シャツがもう乾きました。",
+          "vi": "Áo sơ mi đã khô rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 856,
+      "word": "雲",
+      "meaningsVi": [
+        "mây"
+      ],
+      "noteVi": "Âm Hán Việt \"vân\".",
+      "examples": [
+        {
+          "ja": "今日は雲が多いです。",
+          "vi": "Hôm nay nhiều mây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1039,
+      "word": "台風",
+      "meaningsVi": [
+        "bão"
+      ],
+      "noteVi": "Âm Hán Việt \"đài phong\". Bão đến: 台風が来る.",
+      "examples": [
+        {
+          "ja": "台風が来るそうです。",
+          "vi": "Nghe nói bão sắp đến."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1093,
+      "word": "天気予報",
+      "meaningsVi": [
+        "dự báo thời tiết"
+      ],
+      "noteVi": "Âm Hán Việt \"thiên khí dự báo\". Theo dự báo thời tiết: 天気予報によると.",
+      "examples": [
+        {
+          "ja": "毎朝、テレビで天気予報を見ます。",
+          "vi": "Sáng nào tôi cũng xem dự báo thời tiết trên tivi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1166,
+      "word": "番組",
+      "meaningsVi": [
+        "chương trình (truyền hình, phát thanh)"
+      ],
+      "noteVi": "Chương trình tivi: テレビ番組. Chương trình học, kế hoạch không dùng 番組.",
+      "examples": [
+        {
+          "ja": "好きなテレビ番組は何ですか。",
+          "vi": "Chương trình tivi bạn thích là gì?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1214,
+      "word": "放送",
+      "meaningsVi": [
+        "phát sóng, phát thanh"
+      ],
+      "noteVi": "Âm Hán Việt \"phóng tống\". Động từ: 放送する. Thông báo qua loa ở nhà ga, trường học cũng gọi là 放送.",
+      "examples": [
+        {
+          "ja": "その番組は毎週土曜日に放送しています。",
+          "vi": "Chương trình đó phát sóng vào thứ Bảy hằng tuần."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1172,
+      "word": "冷える",
+      "meaningsVi": [
+        "lạnh đi, trở lạnh"
+      ],
+      "noteVi": "Tự động từ: trời trở lạnh (今夜は冷えます), đồ uống được làm lạnh (お茶が冷えています). Tính từ \"lạnh (khi chạm)\" là 冷たい.",
+      "examples": [
+        {
+          "ja": "今夜はずいぶん冷えますね。",
+          "vi": "Tối nay trời lạnh quá nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1138,
+      "word": "ぬれる",
+      "meaningsVi": [
+        "bị ướt"
+      ],
+      "noteVi": "Kanji: 濡れる. Tự động từ: 服がぬれる.",
+      "examples": [
+        {
+          "ja": "雨で服がぬれてしまいました。",
+          "vi": "Quần áo bị ướt mưa mất rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1267,
+      "word": "止む",
+      "meaningsVi": [
+        "(mưa, gió) tạnh, ngừng"
+      ],
+      "noteVi": "Dùng cho mưa, gió, tiếng ồn tự ngừng. Xe, máy dừng lại thì dùng 止まる.",
+      "examples": [
+        {
+          "ja": "雨がやっと止みました。",
+          "vi": "Cuối cùng mưa cũng tạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1143,
+      "word": "眠い",
+      "meaningsVi": [
+        "buồn ngủ"
+      ],
+      "examples": [
+        {
+          "ja": "昨夜あまり寝なかったから、とても眠いです。",
+          "vi": "Đêm qua tôi ngủ ít nên buồn ngủ quá."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1263,
+      "word": "優しい",
+      "meaningsVi": [
+        "hiền, tốt bụng, dịu dàng"
+      ],
+      "noteVi": "Cùng cách đọc với やさしい (易しい, dễ). Nói về người: 優しい; nói về bài tập: やさしい.",
+      "examples": [
+        {
+          "ja": "田中先生はとても優しいです。",
+          "vi": "Thầy Tanaka rất hiền."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1224,
+      "word": "まじめ",
+      "meaningsVi": [
+        "nghiêm túc, chăm chỉ, đứng đắn"
+      ],
+      "noteVi": "Tính từ đuôi な: まじめな学生. Kanji: 真面目.",
+      "examples": [
+        {
+          "ja": "彼はまじめな学生です。",
+          "vi": "Cậu ấy là sinh viên chăm chỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1177,
+      "word": "ひげ",
+      "meaningsVi": [
+        "râu"
+      ],
+      "examples": [
+        {
+          "ja": "あのひげの人は誰ですか。",
+          "vi": "Người có râu kia là ai vậy?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1262,
+      "word": "焼ける",
+      "meaningsVi": [
+        "(được) nướng chín",
+        "cháy",
+        "rám nắng"
+      ],
+      "noteVi": "Tự động từ: パンが焼ける (bánh mì nướng xong). Tha động từ \"nướng\" là 焼く. 日に焼ける: rám nắng.",
+      "examples": [
+        {
+          "ja": "パンが焼けましたよ。",
+          "vi": "Bánh mì nướng xong rồi đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1119,
+      "word": "亡くなる",
+      "meaningsVi": [
+        "qua đời, mất"
+      ],
+      "noteVi": "Cách nói nhẹ nhàng, lịch sự của 死ぬ. Cùng cách đọc với なくなる (mất, hết đồ vật).",
+      "examples": [
+        {
+          "ja": "おじいさんは去年亡くなりました。",
+          "vi": "Ông tôi mất năm ngoái."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 762,
+      "word": "落ちる",
+      "meaningsVi": [
+        "rơi, rớt",
+        "thi trượt"
+      ],
+      "noteVi": "Tự động từ: 財布が落ちる. Làm rơi: 落とす. Thi trượt: 試験に落ちる.",
+      "examples": [
+        {
+          "ja": "かばんから財布が落ちました。",
+          "vi": "Cái ví rơi ra từ trong túi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 913,
+      "word": "今夜",
+      "meaningsVi": [
+        "tối nay, đêm nay"
+      ],
+      "noteVi": "Âm Hán Việt \"kim dạ\". Gần nghĩa 今晩; hay gặp trong dự báo thời tiết.",
+      "examples": [
+        {
+          "ja": "今夜は雪が降るそうです。",
+          "vi": "Nghe nói đêm nay tuyết rơi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 831,
+      "word": "季節",
+      "meaningsVi": [
+        "mùa"
+      ],
+      "noteVi": "Âm Hán Việt \"quý tiết\". Bốn mùa: 春, 夏, 秋, 冬.",
+      "examples": [
+        {
+          "ja": "どの季節が一番好きですか。",
+          "vi": "Bạn thích mùa nào nhất?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 860,
+      "word": "毛",
+      "meaningsVi": [
+        "lông",
+        "tóc"
+      ],
+      "noteVi": "Lông động vật, lông trên người. Tóc trên đầu thường nói 髪 (かみ).",
+      "examples": [
+        {
+          "ja": "この犬は毛が長いです。",
+          "vi": "Con chó này lông dài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 807,
+      "word": "悲しい",
+      "meaningsVi": [
+        "buồn, đau buồn"
+      ],
+      "examples": [
+        {
+          "ja": "悲しい映画を見て、泣いてしまいました。",
+          "vi": "Xem phim buồn, tôi đã bật khóc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 924,
+      "word": "寂しい",
+      "meaningsVi": [
+        "cô đơn, buồn (vì vắng người)",
+        "vắng vẻ"
+      ],
+      "noteVi": "Buồn vì xa người thân, vì một mình; khác 悲しい (buồn vì chuyện đau lòng).",
+      "examples": [
+        {
+          "ja": "家族に会えなくて、寂しいです。",
+          "vi": "Không gặp được gia đình nên tôi thấy buồn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 907,
+      "word": "怖い",
+      "meaningsVi": [
+        "sợ",
+        "đáng sợ"
+      ],
+      "noteVi": "Vừa là \"tôi sợ\" (犬が怖い), vừa là \"đáng sợ\" (怖い映画).",
+      "examples": [
+        {
+          "ja": "犬が怖いです。",
+          "vi": "Tôi sợ chó."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1159,
+      "word": "恥ずかしい",
+      "meaningsVi": [
+        "xấu hổ, ngượng, ngại"
+      ],
+      "examples": [
+        {
+          "ja": "日本語を間違えて、恥ずかしかったです。",
+          "vi": "Tôi nói sai tiếng Nhật, xấu hổ quá."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "台",
+      "meaningVi": "bệ, đài",
+      "noteVi": "Gặp trong 台風 (たいふう), 台所 (だいどころ). Sau số đếm là trợ số từ cho máy móc, xe: 車が2台.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "風",
+      "meaningVi": "gió",
+      "noteVi": "Gặp trong 風 (かぜ), 台風. Khác 風邪 (かぜ, cảm lạnh) có thêm chữ 邪.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "新",
+      "meaningVi": "mới",
+      "noteVi": "Gặp trong 新しい (あたらしい), 新聞 (しんぶん). Bên phải là 斤 (cái rìu).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "春",
+      "meaningVi": "mùa xuân",
+      "noteVi": "Gặp trong 春 (はる). Dưới là chữ 日 (mặt trời).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "秋",
+      "meaningVi": "mùa thu",
+      "noteVi": "Gặp trong 秋 (あき). Bộ 禾 (lúa) + 火 (lửa): mùa gặt lúa.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "冬",
+      "meaningVi": "mùa đông",
+      "noteVi": "Gặp trong 冬 (ふゆ). Hai chấm dưới cùng như băng giá.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "sou-da-appearance",
+      "titleVi": "〜そうだ (vẻ bề ngoài): trông có vẻ, sắp …",
+      "summaryVi": "Đoán qua vẻ bề ngoài: おいしそうです (trông ngon), 雨が降りそうです (trông như sắp mưa).",
+      "explanationVi": [
+        "**〜そうです** nói điều người nói **đoán qua những gì nhìn thấy**: 「このパンはおいしそうです」 (Bánh mì này trông ngon). Với động từ, nghĩa là **sắp xảy ra**: 「雨が降りそうです」 (Trông như sắp mưa), 「かばんが落ちそうです」 (Cái túi sắp rơi).",
+        "Cách ghép: **động từ** dạng ます bỏ ます + そう: 降ります → 降りそう. **Tính từ đuôi い** bỏ い + そう: おいしい → おいしそう, 高い → 高そう. **Tính từ đuôi な** + そう: 元気そう, まじめそう. Ngoại lệ: いい → **よさそう**, ない → **なさそう**. Danh từ không dùng cách này.",
+        "そう chia như tính từ đuôi な: trước danh từ là **そうな** (まじめそうな人), trước động từ là **そうに** (楽しそうに話しています).",
+        "Không dùng khi nhìn là biết ngay: thấy cô ấy đẹp thì nói 「きれいです」. Chú ý: **かわいそう** là \"đáng thương\", không phải \"trông dễ thương\"."
+      ],
+      "patterns": [
+        "V (bỏ ます) + そうです",
+        "Aい (bỏ い) + そうです",
+        "Aな + そうです",
+        "〜そうな + N; 〜そうに + V"
+      ],
+      "examples": [
+        {
+          "ja": "このパンはおいしそうですね。",
+          "vi": "Bánh mì này trông ngon nhỉ."
+        },
+        {
+          "ja": "あ、かばんが落ちそうですよ。",
+          "vi": "Ơ, cái túi sắp rơi kìa."
+        },
+        {
+          "ja": "田中さんは楽しそうに話しています。",
+          "vi": "Anh Tanaka đang nói chuyện có vẻ rất vui."
+        },
+        {
+          "ja": "まじめそうな人ですね。",
+          "vi": "Trông là người nghiêm túc nhỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "このパンはおいしいそうですね。",
+          "right": "このパンはおいしそうですね。",
+          "noteVi": "\"Trông ngon\": bỏ い rồi thêm そう. おいしいそうです (giữ い) lại là \"nghe nói ngon\"."
+        },
+        {
+          "wrong": "空が暗いですね。雨が降るそうです。",
+          "right": "空が暗いですね。雨が降りそうです。",
+          "noteVi": "Nhìn trời mà đoán: dạng ます bỏ ます + そう (降りそう). 降るそう là \"nghe nói sẽ mưa\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "sou-da-hearsay",
+      "titleVi": "〜そうだ (nghe nói): nghe nói, nghe bảo",
+      "summaryVi": "Thể thông thường + そうです: truyền đạt lại điều nghe hoặc đọc được: 明日は雨だそうです.",
+      "explanationVi": [
+        "**Thể thông thường + そうです** dùng để **truyền đạt lại** thông tin mình nghe, đọc được, giống \"nghe nói\", \"nghe bảo\": 「田中さんは来月結婚するそうです」 (Nghe nói tháng sau anh Tanaka cưới vợ). Nguồn tin nói bằng 〜によると: 「天気予報によると、明日は雨だそうです」.",
+        "Cách ghép: động từ, tính từ đuôi い ở **thể thông thường** (hiện tại, quá khứ, phủ định đều được): 降るそうです, 降らないそうです, 降ったそうです, 高いそうです. Danh từ và tính từ đuôi な thêm **だ**: 雨だそうです, 静かだそうです.",
+        "Phân biệt với そう (vẻ bề ngoài): 「降りそうです」 (trông như sắp mưa) và 「降るそうです」 (nghe nói sẽ mưa); 「おいしそうです」 (trông ngon) và 「おいしいそうです」 (nghe nói ngon). そう (nghe nói) không đứng trước danh từ và không chia quá khứ: không nói そうでした."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + そうです",
+        "N / Aな + だそうです",
+        "〜によると、〜そうです"
+      ],
+      "examples": [
+        {
+          "ja": "天気予報によると、明日は雨だそうです。",
+          "vi": "Theo dự báo thời tiết thì mai trời mưa."
+        },
+        {
+          "ja": "田中さんは来月結婚するそうです。",
+          "vi": "Nghe nói tháng sau anh Tanaka cưới vợ."
+        },
+        {
+          "ja": "あの店のカレーはとてもおいしいそうです。",
+          "vi": "Nghe nói món cà ri của quán đó rất ngon."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は雨そうです。",
+          "right": "明日は雨だそうです。",
+          "noteVi": "Danh từ (và tính từ đuôi な) cần だ trước そう (nghe nói)."
+        },
+        {
+          "wrong": "田中さんはもう帰りましたそうです。",
+          "right": "田中さんはもう帰ったそうです。",
+          "noteVi": "Trước そう dùng thể thông thường (帰った), không dùng thể ます. Lịch sự nằm ở です cuối câu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "rashii",
+      "titleVi": "〜らしい: hình như, nghe đâu; đúng kiểu",
+      "summaryVi": "Thể thông thường + らしいです: điều nghe được hoặc đoán qua thông tin, không chắc chắn: 田中さんは今日休みらしいです.",
+      "explanationVi": [
+        "**〜らしい** nói điều người nói **nghe đâu, đoán được** dựa vào thông tin nghe hay thấy, nhưng **không chắc chắn**, giống \"hình như\", \"nghe đâu\": 「田中さんは今日休みらしいです」 (Nghe đâu hôm nay anh Tanaka nghỉ).",
+        "Cách ghép: động từ, tính từ đuôi い ở thể thông thường + らしい: 来るらしい, 来ないらしい, 高いらしい. Danh từ và tính từ đuôi な thêm thẳng, **không có だ**: 休みらしい, 静からしい. らしい chia như tính từ đuôi い: らしいです, らしかった.",
+        "So với そうだ (nghe nói): そうだ truyền lại rõ ràng điều đã nghe; らしい mơ hồ hơn, có thêm phán đoán của người nói. Ngoài ra, **N + らしい** còn có nghĩa \"đúng kiểu, ra dáng\": 「春らしい天気」 (thời tiết đúng kiểu mùa xuân)."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + らしいです",
+        "N / Aな + らしいです",
+        "N + らしい + N (đúng kiểu N)"
+      ],
+      "examples": [
+        {
+          "ja": "田中さんは今日休みらしいです。",
+          "vi": "Nghe đâu hôm nay anh Tanaka nghỉ."
+        },
+        {
+          "ja": "あのレストランはとても高いらしいです。",
+          "vi": "Hình như nhà hàng đó rất đắt."
+        },
+        {
+          "ja": "台風が来るらしいです。",
+          "vi": "Nghe đâu sắp có bão."
+        },
+        {
+          "ja": "今日は春らしい天気ですね。",
+          "vi": "Hôm nay thời tiết đúng kiểu mùa xuân nhỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は雨だらしいです。",
+          "right": "明日は雨らしいです。",
+          "noteVi": "Danh từ đi thẳng với らしい, không có だ (khác với だそうです)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-13-e01",
+      "type": "choice",
+      "grammar": [
+        "sou-da-appearance"
+      ],
+      "promptVi": "Nhìn chiếc bánh mì vừa nướng, bạn nói: \"Trông ngon quá!\"",
+      "options": [
+        "おいしそうですね。",
+        "おいしいそうですね。",
+        "おいしいらしいですね。"
+      ],
+      "answer": 0,
+      "explainVi": "Đoán qua vẻ ngoài: bỏ い + そう. おいしいそう là \"nghe nói ngon\"."
+    },
+    {
+      "id": "n4-13-e02",
+      "type": "fill",
+      "grammar": [
+        "sou-da-appearance"
+      ],
+      "before": "空が暗いですね。雨が降り",
+      "after": "ですね。",
+      "answers": [
+        "そう"
+      ],
+      "options": [
+        "そう",
+        "らしい",
+        "たい"
+      ],
+      "vi": "Trời tối quá nhỉ. Trông như sắp mưa."
+    },
+    {
+      "id": "n4-13-e03",
+      "type": "choice",
+      "grammar": [
+        "sou-da-appearance"
+      ],
+      "promptVi": "Chọn từ đúng điền vào chỗ trống: \"Trông là người nghiêm túc nhỉ.\"",
+      "ja": "まじめ＿人ですね。",
+      "options": [
+        "そうな",
+        "そうの",
+        "そうに"
+      ],
+      "answer": 0,
+      "explainVi": "Trước danh từ: そうな."
+    },
+    {
+      "id": "n4-13-e04",
+      "type": "order",
+      "grammar": [
+        "sou-da-appearance"
+      ],
+      "vi": "Anh Tanaka đang nói chuyện có vẻ rất vui.",
+      "tiles": [
+        "田中さんは",
+        "楽しそうに",
+        "話して",
+        "います"
+      ],
+      "answers": [
+        "田中さんは楽しそうに話しています"
+      ]
+    },
+    {
+      "id": "n4-13-e05",
+      "type": "fill",
+      "grammar": [
+        "sou-da-hearsay"
+      ],
+      "before": "天気予報によると、明日は雨",
+      "after": "です。",
+      "answers": [
+        "だそう"
+      ],
+      "options": [
+        "だそう",
+        "そう",
+        "の"
+      ],
+      "vi": "Theo dự báo thời tiết thì mai trời mưa."
+    },
+    {
+      "id": "n4-13-e06",
+      "type": "choice",
+      "grammar": [
+        "sou-da-hearsay"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Nghe nói tháng sau anh Tanaka cưới vợ\"?",
+      "options": [
+        "田中さんは来月結婚するそうです。",
+        "田中さんは来月結婚しそうです。",
+        "田中さんは来月結婚しますそうです。"
+      ],
+      "answer": 0,
+      "explainVi": "Nghe nói: thể thông thường (結婚する) + そうです."
+    },
+    {
+      "id": "n4-13-e07",
+      "type": "choice",
+      "grammar": [
+        "sou-da-hearsay"
+      ],
+      "promptVi": "\"Nghe nói mùa đông năm nay sẽ lạnh.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "今年の冬は＿そうです。",
+      "options": [
+        "寒い",
+        "寒",
+        "寒く"
+      ],
+      "answer": 0,
+      "explainVi": "Nghe nói: giữ nguyên 寒い + そう. 寒そう là \"trông có vẻ lạnh\"."
+    },
+    {
+      "id": "n4-13-e08",
+      "type": "fill",
+      "grammar": [
+        "sou-da-hearsay"
+      ],
+      "before": "田中さんは昨日病院へ",
+      "after": "そうです。",
+      "answers": [
+        "行った"
+      ],
+      "options": [
+        "行った",
+        "行く",
+        "行きました"
+      ],
+      "vi": "Nghe nói hôm qua anh Tanaka đã đi bệnh viện.",
+      "explainVi": "Trước そう (nghe nói) dùng thể thông thường; việc hôm qua dùng thể た."
+    },
+    {
+      "id": "n4-13-e09",
+      "type": "choice",
+      "grammar": [
+        "rashii"
+      ],
+      "promptVi": "\"Nghe đâu hôm nay anh Tanaka nghỉ.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "田中さんは今日休み＿です。",
+      "options": [
+        "らしい",
+        "だらしい",
+        "のらしい"
+      ],
+      "answer": 0,
+      "explainVi": "Danh từ + らしい, không có だ."
+    },
+    {
+      "id": "n4-13-e10",
+      "type": "order",
+      "grammar": [
+        "rashii"
+      ],
+      "vi": "Nghe đâu sắp có bão.",
+      "tiles": [
+        "台風が",
+        "来る",
+        "らしい",
+        "です"
+      ],
+      "answers": [
+        "台風が来るらしいです"
+      ]
+    },
+    {
+      "id": "n4-13-e11",
+      "type": "choice",
+      "grammar": [
+        "rashii"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "今日は春らしい天気ですね。",
+      "options": [
+        "Hôm nay thời tiết đúng kiểu mùa xuân nhỉ.",
+        "Nghe nói hôm nay là thời tiết mùa xuân.",
+        "Hôm nay có vẻ sắp sang xuân nhỉ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-13-e12",
+      "type": "choice",
+      "grammar": [
+        "sou-da-hearsay",
+        "sou-da-appearance"
+      ],
+      "promptVi": "Câu nào là truyền đạt lại điều nghe được (\"nghe nói\")?",
+      "options": [
+        "雨が降るそうです。",
+        "雨が降りそうです。",
+        "雨が降っています。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-13-e13",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "悲しい",
+          "buồn"
+        ],
+        [
+          "寂しい",
+          "cô đơn"
+        ],
+        [
+          "怖い",
+          "sợ"
+        ],
+        [
+          "恥ずかしい",
+          "xấu hổ"
+        ],
+        [
+          "眠い",
+          "buồn ngủ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-13-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "雲",
+          "mây"
+        ],
+        [
+          "台風",
+          "bão"
+        ],
+        [
+          "天気予報",
+          "dự báo thời tiết"
+        ],
+        [
+          "季節",
+          "mùa"
+        ],
+        [
+          "今夜",
+          "tối nay"
+        ]
+      ]
+    },
+    {
+      "id": "n4-13-e15",
+      "type": "choice",
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "田中先生はとても優しいです。",
+      "options": [
+        "Thầy Tanaka rất hiền.",
+        "Bài của thầy Tanaka rất dễ.",
+        "Thầy Tanaka rất nghiêm khắc."
+      ],
+      "answer": 0,
+      "explainVi": "優しい (hiền) cùng cách đọc với やさしい (dễ)."
+    },
+    {
+      "id": "n4-13-e16",
+      "type": "choice",
+      "promptVi": "\"Mưa đã tạnh.\" Chọn từ đúng.",
+      "ja": "雨が＿。",
+      "options": [
+        "止みました",
+        "止まりました",
+        "落ちました"
+      ],
+      "answer": 0,
+      "explainVi": "Mưa, gió tạnh: 止む. Xe, máy dừng: 止まる."
+    },
+    {
+      "id": "n4-13-e17",
+      "type": "choice",
+      "promptVi": "Muốn nói câu này một cách nhẹ nhàng, lịch sự hơn thì nói thế nào?",
+      "options": [
+        "おじいさんが亡くなりました。",
+        "おじいさんがなくしました。",
+        "おじいさんが落ちました。"
+      ],
+      "answer": 0,
+      "ja": "おじいさんが死にました。"
+    },
+    {
+      "id": "n4-13-e18",
+      "type": "translate",
+      "grammar": [
+        "sou-da-appearance"
+      ],
+      "vi": "(Nhìn bầu trời) Trông như sắp mưa.",
+      "answers": [
+        "雨が降りそうです。",
+        "雨が降りそう(だ)(ね)。",
+        "雨が降りそうですね。"
+      ],
+      "examples": [
+        {
+          "answer": "あめがふりそうです",
+          "score": 100
+        },
+        {
+          "answer": "雨を降りそうです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "雨が降るそうです。",
+          "score": 0
+        },
+        {
+          "answer": "雪が降りそうです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-13-e19",
+      "type": "translate",
+      "grammar": [
+        "sou-da-appearance"
+      ],
+      "vi": "Cái bánh mì này trông ngon quá.",
+      "answers": [
+        "このパンはおいしそうです。",
+        "このパン[は|、][おいしそう|うまそう](です)(ね)。",
+        "このパンは[おいしそう|うまそう]ですね。"
+      ],
+      "examples": [
+        {
+          "answer": "このパンはおいしそうです",
+          "score": 100
+        },
+        {
+          "answer": "このぱんはおいしそうです",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ]
+        },
+        {
+          "answer": "このパンはまずそうです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-13-e20",
+      "type": "translate",
+      "grammar": [
+        "sou-da-hearsay"
+      ],
+      "vi": "Nghe nói tối nay bão sẽ đến.",
+      "answers": [
+        "今夜、台風が来るそうです。",
+        "今夜(は)(、)台風が来るそうです。"
+      ],
+      "examples": [
+        {
+          "answer": "こんや、たいふうがくるそうです",
+          "score": 100
+        },
+        {
+          "answer": "今夜、台風を来るそうです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "今夜、台風が来そうです。",
+          "score": 0
+        },
+        {
+          "answer": "今夜、台風が来ないそうです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-13-e21",
+      "type": "translate",
+      "grammar": [
+        "sou-da-hearsay"
+      ],
+      "vi": "Nghe nói ngày mai trời mưa.",
+      "answers": [
+        "明日は雨だそうです。",
+        "明日は雨が降るそうです。",
+        "明日は雨だそうです(よ)。"
+      ],
+      "examples": [
+        {
+          "answer": "あしたはあめだそうです",
+          "score": 100
+        },
+        {
+          "answer": "明日は雨そうです。",
+          "score": 0
+        },
+        {
+          "answer": "明日は晴れるそうです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-13-e22",
+      "type": "translate",
+      "grammar": [
+        "rashii"
+      ],
+      "vi": "Nghe đâu tháng sau anh Tanaka về nước. (dùng 〜らしい)",
+      "answers": [
+        "田中さんは来月国へ帰るらしいです。",
+        "田中さんは来月国[へ|に]帰るらしい(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "たなかさんはらいげつくにへかえるらしいです",
+          "score": 100
+        },
+        {
+          "answer": "田中さんは来月国で帰るらしいです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "田中さんは来月国へ帰らないらしいです。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "空が暗いですね。雨が降りそうです。": "{空|そら}が{暗|くら}いですね。{雨|あめ}が{降|ふ}りそうです。",
+    "このカレー、うまいね。": "このカレー、うまいね。",
+    "田中さんは歌がうまいです。": "{田中|たなか}さんは{歌|うた}がうまいです。",
+    "そんなかっこうで寒くないですか。": "そんなかっこうで{寒|さむ}くないですか。",
+    "シャツがもう乾きました。": "シャツがもう{乾|かわ}きました。",
+    "今日は雲が多いです。": "{今日|きょう}は{雲|くも}が{多|おお}いです。",
+    "台風が来るそうです。": "{台|たい}{風|ふう}が{来|く}るそうです。",
+    "毎朝、テレビで天気予報を見ます。": "{毎|まい}{朝|あさ}、テレビで{天|てん}{気|き}{予|よ}{報|ほう}を{見|み}ます。",
+    "好きなテレビ番組は何ですか。": "{好|す}きなテレビ{番|ばん}{組|ぐみ}は{何|なん}ですか。",
+    "その番組は毎週土曜日に放送しています。": "その{番|ばん}{組|ぐみ}は{毎|まい}{週|しゅう}{土|ど}{曜|よう}{日|び}に{放|ほう}{送|そう}しています。",
+    "今夜はずいぶん冷えますね。": "{今|こん}{夜|や}はずいぶん{冷|ひ}えますね。",
+    "雨で服がぬれてしまいました。": "{雨|あめ}で{服|ふく}がぬれてしまいました。",
+    "雨がやっと止みました。": "{雨|あめ}がやっと{止|や}みました。",
+    "昨夜あまり寝なかったから、とても眠いです。": "{昨夜|ゆうべ}あまり{寝|ね}なかったから、とても{眠|ねむ}いです。",
+    "田中先生はとても優しいです。": "{田中|たなか}{先|せん}{生|せい}はとても{優|やさ}しいです。",
+    "彼はまじめな学生です。": "{彼|かれ}はまじめな{学|がく}{生|せい}です。",
+    "あのひげの人は誰ですか。": "あのひげの{人|ひと}は{誰|だれ}ですか。",
+    "パンが焼けましたよ。": "パンが{焼|や}けましたよ。",
+    "おじいさんは去年亡くなりました。": "おじいさんは{去|きょ}{年|ねん}{亡|な}くなりました。",
+    "かばんから財布が落ちました。": "かばんから{財|さい}{布|ふ}が{落|お}ちました。",
+    "今夜は雪が降るそうです。": "{今|こん}{夜|や}は{雪|ゆき}が{降|ふ}るそうです。",
+    "どの季節が一番好きですか。": "どの{季|き}{節|せつ}が{一番|いちばん}{好|す}きですか。",
+    "この犬は毛が長いです。": "この{犬|いぬ}は{毛|け}が{長|なが}いです。",
+    "悲しい映画を見て、泣いてしまいました。": "{悲|かな}しい{映|えい}{画|が}を{見|み}て、{泣|な}いてしまいました。",
+    "家族に会えなくて、寂しいです。": "{家|か}{族|ぞく}に{会|あ}えなくて、{寂|さび}しいです。",
+    "犬が怖いです。": "{犬|いぬ}が{怖|こわ}いです。",
+    "日本語を間違えて、恥ずかしかったです。": "{日本|にほん}{語|ご}を{間|ま}{違|ちが}えて、{恥|は}ずかしかったです。",
+    "このパンはおいしそうですね。": "このパンはおいしそうですね。",
+    "あ、かばんが落ちそうですよ。": "あ、かばんが{落|お}ちそうですよ。",
+    "田中さんは楽しそうに話しています。": "{田中|たなか}さんは{楽|たの}しそうに{話|はな}しています。",
+    "まじめそうな人ですね。": "まじめそうな{人|ひと}ですね。",
+    "このパンはおいしいそうですね。": "このパンはおいしいそうですね。",
+    "空が暗いですね。雨が降るそうです。": "{空|そら}が{暗|くら}いですね。{雨|あめ}が{降|ふ}るそうです。",
+    "天気予報によると、明日は雨だそうです。": "{天|てん}{気|き}{予|よ}{報|ほう}によると、{明日|あした}は{雨|あめ}だそうです。",
+    "田中さんは来月結婚するそうです。": "{田中|たなか}さんは{来|らい}{月|げつ}{結|けっ}{婚|こん}するそうです。",
+    "あの店のカレーはとてもおいしいそうです。": "あの{店|みせ}のカレーはとてもおいしいそうです。",
+    "明日は雨だそうです。": "{明日|あした}は{雨|あめ}だそうです。",
+    "明日は雨そうです。": "{明日|あした}は{雨|あめ}そうです。",
+    "田中さんはもう帰ったそうです。": "{田中|たなか}さんはもう{帰|かえ}ったそうです。",
+    "田中さんはもう帰りましたそうです。": "{田中|たなか}さんはもう{帰|かえ}りましたそうです。",
+    "田中さんは今日休みらしいです。": "{田中|たなか}さんは{今日|きょう}{休|やす}みらしいです。",
+    "あのレストランはとても高いらしいです。": "あのレストランはとても{高|たか}いらしいです。",
+    "台風が来るらしいです。": "{台|たい}{風|ふう}が{来|く}るらしいです。",
+    "今日は春らしい天気ですね。": "{今日|きょう}は{春|はる}らしい{天|てん}{気|き}ですね。",
+    "明日は雨らしいです。": "{明日|あした}は{雨|あめ}らしいです。",
+    "明日は雨だらしいです。": "{明日|あした}は{雨|あめ}だらしいです。",
+    "おいしそうですね。": "おいしそうですね。",
+    "おいしいそうですね。": "おいしいそうですね。",
+    "おいしいらしいですね。": "おいしいらしいですね。",
+    "空が暗いですね。雨が降りそうですね。": "{空|そら}が{暗|くら}いですね。{雨|あめ}が{降|ふ}りそうですね。",
+    "そう": "そう",
+    "らしい": "らしい",
+    "たい": "たい",
+    "まじめ＿人ですね。": "まじめ＿{人|ひと}ですね。",
+    "そうな": "そうな",
+    "そうの": "そうの",
+    "そうに": "そうに",
+    "田中さんは": "{田中|たなか}さんは",
+    "楽しそうに": "{楽|たの}しそうに",
+    "話して": "{話|はな}して",
+    "います": "います",
+    "田中さんは楽しそうに話しています": "{田中|たなか}さんは{楽|たの}しそうに{話|はな}しています",
+    "だそう": "だそう",
+    "の": "の",
+    "田中さんは来月結婚しそうです。": "{田中|たなか}さんは{来|らい}{月|げつ}{結|けっ}{婚|こん}しそうです。",
+    "田中さんは来月結婚しますそうです。": "{田中|たなか}さんは{来|らい}{月|げつ}{結|けっ}{婚|こん}しますそうです。",
+    "今年の冬は＿そうです。": "{今年|ことし}の{冬|ふゆ}は＿そうです。",
+    "寒い": "{寒|さむ}い",
+    "寒": "{寒|さむ}",
+    "寒く": "{寒|さむ}く",
+    "田中さんは昨日病院へ行ったそうです。": "{田中|たなか}さんは{昨日|きのう}{病|びょう}{院|いん}へ{行|い}ったそうです。",
+    "行った": "{行|い}った",
+    "行く": "{行|い}く",
+    "行きました": "{行|い}きました",
+    "田中さんは今日休み＿です。": "{田中|たなか}さんは{今日|きょう}{休|やす}み＿です。",
+    "だらしい": "だらしい",
+    "のらしい": "のらしい",
+    "台風が": "{台|たい}{風|ふう}が",
+    "来る": "{来|く}る",
+    "です": "です",
+    "台風が来るらしいです": "{台|たい}{風|ふう}が{来|く}るらしいです",
+    "雨が降るそうです。": "{雨|あめ}が{降|ふ}るそうです。",
+    "雨が降りそうです。": "{雨|あめ}が{降|ふ}りそうです。",
+    "雨が降っています。": "{雨|あめ}が{降|ふ}っています。",
+    "悲しい": "{悲|かな}しい",
+    "寂しい": "{寂|さび}しい",
+    "怖い": "{怖|こわ}い",
+    "恥ずかしい": "{恥|は}ずかしい",
+    "眠い": "{眠|ねむ}い",
+    "雲": "{雲|くも}",
+    "台風": "{台|たい}{風|ふう}",
+    "天気予報": "{天|てん}{気|き}{予|よ}{報|ほう}",
+    "季節": "{季|き}{節|せつ}",
+    "今夜": "{今|こん}{夜|や}",
+    "雨が＿。": "{雨|あめ}が＿。",
+    "止みました": "{止|や}みました",
+    "止まりました": "{止|と}まりました",
+    "落ちました": "{落|お}ちました",
+    "おじいさんが死にました。": "おじいさんが{死|し}にました。",
+    "おじいさんが亡くなりました。": "おじいさんが{亡|な}くなりました。",
+    "おじいさんがなくしました。": "おじいさんがなくしました。",
+    "おじいさんが落ちました。": "おじいさんが{落|お}ちました。",
+    "雨が降りそうだね。": "{雨|あめ}が{降|ふ}りそうだね。",
+    "雨が降りそうですね。": "{雨|あめ}が{降|ふ}りそうですね。",
+    "このパンはおいしそうです。": "このパンはおいしそうです。",
+    "今夜、台風が来るそうです。": "{今|こん}{夜|や}、{台|たい}{風|ふう}が{来|く}るそうです。",
+    "今夜は、台風が来るそうです。": "{今|こん}{夜|や}は、{台|たい}{風|ふう}が{来|く}るそうです。",
+    "明日は雨が降るそうです。": "{明日|あした}は{雨|あめ}が{降|ふ}るそうです。",
+    "明日は雨だそうですよ。": "{明日|あした}は{雨|あめ}だそうですよ。",
+    "田中さんは来月国へ帰るらしいです。": "{田中|たなか}さんは{来|らい}{月|げつ}{国|くに}へ{帰|かえ}るらしいです。"
+  }
+}

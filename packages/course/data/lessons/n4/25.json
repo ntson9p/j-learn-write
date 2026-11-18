@@ -1,0 +1,1155 @@
+{
+  "id": "n4-25",
+  "goalsVi": [
+    "Hiểu khiêm nhường ngữ: hạ hành động của mình (và người nhóm mình) khi nói với người trên, khách hàng",
+    "Dùng các động từ khiêm nhường đặc biệt: まいる、申す、いたす、うかがう、拝見する: グエンと申します",
+    "Đề nghị giúp, làm việc cho người khác bằng お〜する / ご〜する: お持ちしましょうか、ご案内します",
+    "Hiểu cách nói rất lịch sự của nhân viên với khách: 売り場は3階でございます"
+  ],
+  "words": [
+    {
+      "no": 711,
+      "word": "いたす",
+      "meaningsVi": [
+        "làm (khiêm nhường)"
+      ],
+      "noteVi": "Khiêm nhường của する; dùng cho việc mình làm. Lời chào cuối thư, cuối bài phát biểu: 「よろしくお願いいたします」 (lịch sự hơn お願いします).",
+      "examples": [
+        {
+          "ja": "その仕事は私がいたします。",
+          "vi": "Việc đó để tôi làm ạ."
+        },
+        {
+          "ja": "明日、こちらからお電話いたします。",
+          "vi": "Ngày mai chúng tôi sẽ gọi điện cho anh/chị ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 722,
+      "word": "うかがう",
+      "meaningsVi": [
+        "đến thăm (khiêm nhường)",
+        "hỏi (khiêm nhường)",
+        "nghe (khiêm nhường)"
+      ],
+      "noteVi": "Kanji: 伺う. Khiêm nhường của 訪ねる (thăm), 聞く (hỏi, nghe). Mở lời hỏi đường lịch sự: ちょっとうかがいますが…",
+      "examples": [
+        {
+          "ja": "明日、お宅にうかがってもよろしいですか。",
+          "vi": "Ngày mai tôi đến thăm nhà anh/chị có được không ạ?"
+        },
+        {
+          "ja": "ちょっとうかがいますが、駅はどちらですか。",
+          "vi": "Cho tôi hỏi một chút, nhà ga ở hướng nào ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1222,
+      "word": "まいる",
+      "meaningsVi": [
+        "đi, đến (khiêm nhường)"
+      ],
+      "noteVi": "Kanji: 参る. Khiêm nhường của 行く, 来る. Ở ga tàu hay nghe 「電車がまいります」: ở đây まいる là cách nói rất lịch sự, không phải khiêm nhường.",
+      "examples": [
+        {
+          "ja": "はい、すぐにまいります。",
+          "vi": "Vâng, tôi đến ngay ạ."
+        },
+        {
+          "ja": "1番線に電車がまいります。",
+          "vi": "Tàu đang vào đường ray số 1. (thông báo ở ga)"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1250,
+      "word": "申す",
+      "meaningsVi": [
+        "nói (khiêm nhường)",
+        "tên là (khi tự giới thiệu)"
+      ],
+      "noteVi": "Khiêm nhường của 言う. Tự giới thiệu lịch sự: 〜と申します (không thêm さん vào tên mình).",
+      "examples": [
+        {
+          "ja": "はじめまして。グエンと申します。",
+          "vi": "Xin chào, tôi tên là Nguyễn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1249,
+      "word": "申し上げる",
+      "meaningsVi": [
+        "nói, thưa (khiêm nhường, rất lịch sự)"
+      ],
+      "noteVi": "Khiêm nhường hơn 申す; dùng khi nói với người trên, trong phát biểu, thư từ: お礼を申し上げます, お願い申し上げます.",
+      "examples": [
+        {
+          "ja": "心からお礼を申し上げます。",
+          "vi": "Tôi xin chân thành cảm ơn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1153,
+      "word": "拝見",
+      "meaningsVi": [
+        "xem (khiêm nhường)"
+      ],
+      "noteVi": "Âm Hán Việt \"bái kiến\". Dùng 拝見する: khiêm nhường của 見る (xem, đọc thứ của người trên). Người trên xem: ごらんになる.",
+      "examples": [
+        {
+          "ja": "お手紙を拝見しました。",
+          "vi": "Tôi đã đọc thư của anh/chị ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 970,
+      "word": "承知",
+      "meaningsVi": [
+        "hiểu, biết (khiêm nhường)",
+        "đồng ý, chấp nhận"
+      ],
+      "noteVi": "Âm Hán Việt \"thừa tri\". 承知しました là cách nói lịch sự của わかりました, dùng với cấp trên, khách hàng.",
+      "examples": [
+        {
+          "ja": "はい、承知しました。",
+          "vi": "Vâng, tôi hiểu rồi ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 806,
+      "word": "家内",
+      "meaningsVi": [
+        "vợ (tôi)"
+      ],
+      "noteVi": "Nam giới dùng khi nói với người ngoài về vợ mình; hơi cũ, ngày nay nhiều người nói 妻. Vợ người khác: 奥さん.",
+      "examples": [
+        {
+          "ja": "家内は今、出かけています。",
+          "vi": "Vợ tôi bây giờ đang đi vắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 701,
+      "word": "案内",
+      "meaningsVi": [
+        "hướng dẫn, dẫn đường",
+        "giới thiệu (nơi chốn)"
+      ],
+      "noteVi": "Âm Hán Việt \"án nội\". Dẫn ai đi đâu: N に場所を案内する. Quầy hướng dẫn: 案内所.",
+      "examples": [
+        {
+          "ja": "駅までご案内します。",
+          "vi": "Tôi xin dẫn anh/chị ra ga."
+        },
+        {
+          "ja": "友達に京都を案内しました。",
+          "vi": "Tôi đã dẫn bạn đi tham quan Kyoto."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1241,
+      "word": "迎える",
+      "meaningsVi": [
+        "đón, đón tiếp"
+      ],
+      "noteVi": "Đi đón: 迎えに行く; đến đón: 迎えに来る. Ngược nghĩa với 送る (tiễn).",
+      "examples": [
+        {
+          "ja": "空港までお客様を迎えに行きます。",
+          "vi": "Tôi đi đón khách ở sân bay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 683,
+      "word": "空く",
+      "meaningsVi": [
+        "(chỗ) trống, rảnh"
+      ],
+      "noteVi": "Đọc あく: 席が空く, 部屋が空く. Cùng chữ 空, đọc すく là \"vắng, đói\": 電車がすいている, おなかがすく.",
+      "examples": [
+        {
+          "ja": "すみません、この席は空いていますか。",
+          "vi": "Xin lỗi, chỗ này còn trống không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 735,
+      "word": "売り場",
+      "meaningsVi": [
+        "quầy bán, gian hàng"
+      ],
+      "noteVi": "Khu bán một loại hàng trong cửa hàng lớn: 靴売り場, 食料品売り場. Quầy bán vé: 切符売り場.",
+      "examples": [
+        {
+          "ja": "靴の売り場は何階ですか。",
+          "vi": "Quầy bán giày ở tầng mấy ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 752,
+      "word": "屋上",
+      "meaningsVi": [
+        "sân thượng"
+      ],
+      "noteVi": "Âm Hán Việt \"ốc thượng\" (trên mái nhà).",
+      "examples": [
+        {
+          "ja": "屋上から町がよく見えます。",
+          "vi": "Từ sân thượng nhìn rõ cả thị trấn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1212,
+      "word": "返事",
+      "meaningsVi": [
+        "trả lời, hồi âm",
+        "đáp lời (khi được gọi)"
+      ],
+      "noteVi": "Trả lời thư, lời mời: 返事をする, 返事を書く; lịch sự: お返事. Trả lời câu hỏi (bài tập) dùng 答える.",
+      "examples": [
+        {
+          "ja": "先生からまだ返事が来ません。",
+          "vi": "Thầy vẫn chưa trả lời."
+        },
+        {
+          "ja": "名前を呼ばれたら、返事をしてください。",
+          "vi": "Khi được gọi tên, hãy thưa \"Có\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 966,
+      "word": "紹介",
+      "meaningsVi": [
+        "giới thiệu"
+      ],
+      "noteVi": "Âm Hán Việt \"thiệu giới\" (ngược thứ tự với tiếng Việt). Giới thiệu A với B: A を B に紹介する. Khiêm nhường: ご紹介します.",
+      "examples": [
+        {
+          "ja": "友達を両親に紹介しました。",
+          "vi": "Tôi đã giới thiệu bạn với bố mẹ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 948,
+      "word": "品物",
+      "meaningsVi": [
+        "hàng hóa, đồ vật"
+      ],
+      "noteVi": "Âm Hán Việt \"phẩm vật\". Chỉ hàng hóa bày bán, quà tặng; nghĩa cụ thể hơn 物.",
+      "examples": [
+        {
+          "ja": "この店はいい品物が多いです。",
+          "vi": "Cửa hàng này có nhiều hàng tốt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1320,
+      "word": "おる",
+      "meaningsVi": [
+        "có, ở (khiêm nhường của いる)"
+      ],
+      "noteVi": "Khiêm nhường ngữ của いる: dùng khi nói về mình hoặc người trong nhóm mình với khách, người trên. 〜ております là cách nói khiêm nhường của 〜ています. Thường viết bằng hiragana.",
+      "examples": [
+        {
+          "ja": "父は今、家におります。",
+          "vi": "Bố tôi bây giờ đang ở nhà ạ."
+        },
+        {
+          "ja": "毎日、日本語を勉強しております。",
+          "vi": "Hằng ngày tôi vẫn đang học tiếng Nhật ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "売",
+      "meaningVi": "bán",
+      "noteVi": "Gặp trong 売る (bán), 売り場 (quầy bán). Đừng nhầm với 買 (mua).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "屋",
+      "meaningVi": "nhà, mái; cửa hàng",
+      "noteVi": "Gặp trong 部屋 (căn phòng), 屋上 (sân thượng), 八百屋 (hàng rau). 〜屋: cửa hàng.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "品",
+      "meaningVi": "hàng hóa, phẩm",
+      "noteVi": "Ba chữ 口 xếp chồng: nhiều món đồ. Gặp trong 品物, 食料品.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "知",
+      "meaningVi": "biết",
+      "noteVi": "Gặp trong 知る (biết), 承知 (hiểu), 知らせる (báo tin).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "待",
+      "meaningVi": "chờ, đợi",
+      "noteVi": "Bộ 彳 (bước đi) + 寺. Gặp trong 待つ, 招待 (mời).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "家",
+      "meaningVi": "nhà; gia đình",
+      "noteVi": "Bộ 宀 (mái nhà) + 豕 (con lợn). Gặp trong 家 (いえ), 家族, 家内, 家庭.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "kenjougo",
+      "titleVi": "Khiêm nhường ngữ (謙譲語): hạ hành động của mình",
+      "summaryVi": "Khi nói về việc mình (hoặc người nhóm mình) làm với người trên, khách hàng, dùng động từ khiêm nhường: まいる (đi, đến), 申す (nói, tên là), いたす (làm), うかがう (thăm, hỏi), 拝見する (xem)….",
+      "explanationVi": [
+        "**謙譲語** (khiêm nhường ngữ) là mặt kia của tôn kính ngữ (N4-24): thay vì nâng người kia lên, ta **hạ mình xuống** để tỏ lòng kính trọng. Dùng khi **chủ ngữ là mình** (hoặc người nhóm mình) và người nghe hay người liên quan là người trên, khách hàng: 「明日、10時にまいります」 (Ngày mai 10 giờ tôi xin đến ạ). Giống tiếng Việt xưng \"em\", \"cháu\", nói \"xin phép\", nhưng tiếng Nhật đổi hẳn động từ.",
+        "Một câu hỏi - đáp thường dùng cả hai: người trên làm → **tôn kính ngữ**; mình làm → **khiêm nhường ngữ**. 「先生は何時にいらっしゃいますか」 — 「私は10時にまいります」. Không bao giờ dùng khiêm nhường ngữ cho người trên: không nói 「先生はまいりますか」.",
+        "Bảng bên dưới so sánh động từ thường, tôn kính và khiêm nhường. **うかがう** có ba nghĩa: thăm (nhà, công ty người trên), hỏi, nghe. **申す** dùng để xưng tên: 「グエンと申します」, lịch sự hơn 〜といいます. いる → **おる** (おります), nên 〜ている thành **〜ております**: 「お待ちしております」 (Chúng tôi xin chờ quý khách), 「知っております」. Biết: 存じております.",
+        "**Trong và ngoài nhóm**: khi nói với người ngoài, việc của người nhóm mình (cấp trên công ty mình, người nhà) cũng nói bằng khiêm nhường ngữ, gọi tên không có さん: 「社長の田中がすぐにまいります」 (Giám đốc Tanaka của chúng tôi sẽ đến ngay ạ). Vợ, chồng mình: 家内, 主人 (không phải 奥さん, ご主人)."
+      ],
+      "patterns": [
+        "Thường: tôn kính (người trên làm) ／ khiêm nhường (mình làm)",
+        "行く・来る: いらっしゃる ／ まいる (đến thăm: うかがう)",
+        "いる: いらっしゃる ／ おる",
+        "言う: おっしゃる ／ 申す・申し上げる",
+        "する: なさる ／ いたす",
+        "食べる・飲む: 召し上がる ／ いただく",
+        "見る: ごらんになる ／ 拝見する",
+        "聞く・訪ねる: お聞きになる・お訪ねになる ／ うかがう",
+        "知っている: ご存じだ ／ 存じている",
+        "もらう: — ／ いただく; あげる: — ／ 差し上げる; くれる: くださる ／ —",
+        "わかる: — ／ 承知する (承知しました)"
+      ],
+      "examples": [
+        {
+          "ja": "はじめまして。グエンと申します。",
+          "vi": "Xin chào, tôi tên là Nguyễn."
+        },
+        {
+          "ja": "明日の10時にそちらへまいります。",
+          "vi": "10 giờ sáng mai tôi xin đến chỗ anh/chị ạ."
+        },
+        {
+          "ja": "お写真を拝見しました。",
+          "vi": "Tôi đã xem ảnh của anh/chị ạ."
+        },
+        {
+          "ja": "社長の田中がすぐにまいります。",
+          "vi": "Giám đốc Tanaka của chúng tôi sẽ đến ngay ạ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生は明日まいりますか。",
+          "right": "先生は明日いらっしゃいますか。",
+          "noteVi": "Hành động của người trên dùng tôn kính ngữ (いらっしゃる). まいる chỉ dùng cho mình, người nhóm mình."
+        },
+        {
+          "wrong": "はじめまして。グエンさんと申します。",
+          "right": "はじめまして。グエンと申します。",
+          "noteVi": "Không thêm さん vào tên mình."
+        },
+        {
+          "wrong": "その説明は私がなさいます。",
+          "right": "その説明は私がいたします。",
+          "noteVi": "なさる là tôn kính (người trên làm). Việc mình làm: いたす."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "o-suru",
+      "titleVi": "お〜する / ご〜する: (tôi) xin làm … cho anh/chị",
+      "summaryVi": "お + V (bỏ ます) + する (いたす): khiêm nhường việc mình làm cho người trên, khách hàng: お持ちします, ご案内します.",
+      "explanationVi": [
+        "**お + V (bỏ ます) + する** là cách chung để khiêm nhường khi động từ không có dạng đặc biệt. Dùng khi **mình làm một việc cho người trên, khách hàng** hoặc có liên quan đến họ: 「荷物をお持ちします」 (Để tôi mang hành lý cho anh/chị), 「後でお電話します」 (Lát nữa tôi sẽ gọi điện cho anh/chị).",
+        "Cách ghép: 持ちます → **お**持ち**します**, 待ちます → **お**待ち**します**, 送ります → **お**送り**します**. Danh từ gốc Hán + する dùng **ご**: 案内する → **ご**案内**します**, 説明する → **ご**説明**します**, 連絡する → **ご**連絡**します** (riêng 電話 dùng お: お電話します). Khiêm nhường hơn nữa: thay する bằng **いたす**: 「ご案内いたします」.",
+        "Chỉ dùng khi hành động **hướng tới người kia**. Việc riêng của mình thì không dùng (không nói 私は毎朝お起きします). Cũng không dùng cho hành động của người trên: 「先生がお書きしました」 là sai, phải là 「先生がお書きになりました」.",
+        "Hay đi với **〜ましょうか** khi **đề nghị giúp**: 「お手伝いしましょうか」 (Để tôi giúp nhé?). Tóm lại: **お〜になる** (người trên làm), **お〜する** (mình làm cho người trên), **お〜ください** (mời người trên làm)."
+      ],
+      "patterns": [
+        "お + V (bỏ ます) + する / いたす",
+        "ご + N (gốc Hán) + する / いたす: ご案内します",
+        "お + V (bỏ ます) + しましょうか (đề nghị giúp)"
+      ],
+      "examples": [
+        {
+          "ja": "重そうですね。荷物をお持ちしましょうか。",
+          "vi": "Trông nặng quá. Để tôi xách hành lý giúp anh/chị nhé?"
+        },
+        {
+          "ja": "会議室へご案内します。",
+          "vi": "Tôi xin dẫn anh/chị đến phòng họp."
+        },
+        {
+          "ja": "明日、こちらからお電話いたします。",
+          "vi": "Ngày mai chúng tôi sẽ gọi điện cho anh/chị ạ."
+        },
+        {
+          "ja": "駅までお送りします。",
+          "vi": "Tôi xin tiễn anh/chị ra ga."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生、荷物をお持ちになりましょうか。",
+          "right": "先生、荷物をお持ちしましょうか。",
+          "noteVi": "Đề nghị mình làm giúp: お〜する. お〜になる chỉ dùng cho hành động của người trên."
+        },
+        {
+          "wrong": "会議室へお案内します。",
+          "right": "会議室へご案内します。",
+          "noteVi": "Danh từ gốc Hán (案内, 説明, 連絡, 紹介) dùng ご."
+        },
+        {
+          "wrong": "先生がこの本をお書きしました。",
+          "right": "先生がこの本をお書きになりました。",
+          "noteVi": "Người trên làm: tôn kính お〜になる. お〜する chỉ dùng cho việc mình làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "de-gozaimasu",
+      "titleVi": "〜でございます: là (rất lịch sự)",
+      "summaryVi": "でございます là cách nói rất lịch sự của です, nhân viên dùng với khách ở cửa hàng, khách sạn, khi nghe điện thoại: 売り場は3階でございます.",
+      "explanationVi": [
+        "**でございます** = **です** ở mức lịch sự cao nhất. Nhân viên cửa hàng, khách sạn, nhà ga, tổng đài dùng khi nói với khách: 「お手洗いはあちらでございます」 (Nhà vệ sinh ở đằng kia ạ), 「靴の売り場は3階でございます」. Nghe điện thoại ở công ty: 「はい、山田でございます」.",
+        "Cách ghép: danh từ, tính từ đuôi な + でございます: 「こちらでございます」, 「静かでございます」. でございます đã thay cho です, không thêm です nữa. Hỏi về **người kia** thì dùng tôn kính **でいらっしゃいます**: 「田中様でいらっしゃいますか」 (Có phải ông Tanaka không ạ?).",
+        "**ございます** (không có で) là dạng lịch sự của **あります**: 「赤いのもございます」 (Chúng tôi cũng có màu đỏ ạ), 「何かご質問はございますか」. Ta đã gặp nó trong ありがとうございます, おはようございます. Người học chủ yếu cần **hiểu** khi nghe; tự mình nói です, ます lịch sự là đủ, trừ khi làm việc tiếp khách."
+      ],
+      "patterns": [
+        "N / Aな + でございます (= です)",
+        "Hỏi về người kia: N + でいらっしゃいますか",
+        "ございます (= あります, lịch sự)"
+      ],
+      "examples": [
+        {
+          "ja": "お手洗いはあちらでございます。",
+          "vi": "Nhà vệ sinh ở đằng kia ạ."
+        },
+        {
+          "ja": "靴の売り場は3階でございます。",
+          "vi": "Quầy bán giày ở tầng 3 ạ."
+        },
+        {
+          "ja": "はい、山田でございます。",
+          "vi": "Vâng, Yamada xin nghe ạ."
+        },
+        {
+          "ja": "こちらは特別な品物でございます。",
+          "vi": "Đây là món hàng đặc biệt ạ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "売り場は3階でございますです。",
+          "right": "売り場は3階でございます。",
+          "noteVi": "でございます đã thay cho です; không thêm です."
+        },
+        {
+          "wrong": "お客様は田中様でございますか。",
+          "right": "お客様は田中様でいらっしゃいますか。",
+          "noteVi": "Hỏi về khách nên dùng tôn kính でいらっしゃいます; でございます thường dùng cho điều phía mình nói. Câu bên trái vẫn hay nghe nhưng nhiều người coi là sai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-25-e01",
+      "type": "match",
+      "grammar": [
+        "kenjougo"
+      ],
+      "promptVi": "Ghép động từ thường với dạng khiêm nhường của nó",
+      "pairs": [
+        [
+          "行く・来る",
+          "まいる"
+        ],
+        [
+          "言う",
+          "申す"
+        ],
+        [
+          "する",
+          "いたす"
+        ],
+        [
+          "見る",
+          "拝見する"
+        ],
+        [
+          "聞く・訪ねる",
+          "うかがう"
+        ]
+      ]
+    },
+    {
+      "id": "n4-25-e02",
+      "type": "choice",
+      "grammar": [
+        "kenjougo"
+      ],
+      "promptVi": "Tự giới thiệu lịch sự: \"Tôi tên là Nguyễn.\"",
+      "options": [
+        "グエンと申します。",
+        "グエンとおっしゃいます。",
+        "グエンさんと申します。"
+      ],
+      "answer": 0,
+      "explainVi": "Mình nói: 申す. Không thêm さん vào tên mình."
+    },
+    {
+      "id": "n4-25-e03",
+      "type": "choice",
+      "grammar": [
+        "kenjougo"
+      ],
+      "promptVi": "Thầy hỏi: 「明日、何時に来ますか。」 Bạn trả lời thế nào?",
+      "options": [
+        "10時にまいります。",
+        "10時にいらっしゃいます。",
+        "10時においでになります。"
+      ],
+      "answer": 0,
+      "explainVi": "Mình đến: まいる (khiêm nhường). いらっしゃる, おいでになる là tôn kính."
+    },
+    {
+      "id": "n4-25-e04",
+      "type": "fill",
+      "grammar": [
+        "kenjougo"
+      ],
+      "before": "先生、明日お宅に",
+      "after": "もよろしいですか。",
+      "answers": [
+        "うかがって"
+      ],
+      "options": [
+        "うかがって",
+        "いらっしゃって",
+        "召し上がって"
+      ],
+      "vi": "Thưa thầy, ngày mai em đến thăm nhà thầy có được không ạ?"
+    },
+    {
+      "id": "n4-25-e05",
+      "type": "order",
+      "grammar": [
+        "kenjougo"
+      ],
+      "vi": "10 giờ sáng mai tôi xin đến chỗ anh/chị ạ.",
+      "tiles": [
+        "明日の",
+        "10時に",
+        "そちらへ",
+        "まいります"
+      ],
+      "answers": [
+        "明日の10時にそちらへまいります"
+      ]
+    },
+    {
+      "id": "n4-25-e06",
+      "type": "choice",
+      "grammar": [
+        "kenjougo"
+      ],
+      "promptVi": "Câu nào dùng kính ngữ đúng?",
+      "options": [
+        "先生、この写真を拝見してもよろしいですか。",
+        "先生、この写真を拝見してください。",
+        "先生はこの写真を拝見しましたか。"
+      ],
+      "answer": 0,
+      "explainVi": "拝見する là khiêm nhường: chỉ dùng cho việc mình xem."
+    },
+    {
+      "id": "n4-25-e07",
+      "type": "choice",
+      "grammar": [
+        "kenjougo"
+      ],
+      "promptVi": "Bạn là nhân viên, nói với khách: \"Giám đốc Tanaka của chúng tôi sẽ đến ngay ạ.\"",
+      "options": [
+        "社長の田中がすぐにまいります。",
+        "田中社長がすぐにいらっしゃいます。",
+        "社長の田中さんがすぐにいらっしゃいます。"
+      ],
+      "answer": 0,
+      "explainVi": "Nói với người ngoài về người trong công ty mình: khiêm nhường ngữ, không gọi さん."
+    },
+    {
+      "id": "n4-25-e08",
+      "type": "choice",
+      "grammar": [
+        "o-suru"
+      ],
+      "promptVi": "\"Để tôi xách hành lý giúp anh/chị nhé?\" Câu nào đúng?",
+      "options": [
+        "荷物をお持ちしましょうか。",
+        "荷物をお持ちになりましょうか。",
+        "荷物を持たせましょうか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-25-e09",
+      "type": "fill",
+      "grammar": [
+        "o-suru"
+      ],
+      "before": "会議室へ",
+      "after": "案内します。",
+      "answers": [
+        "ご"
+      ],
+      "options": [
+        "ご",
+        "お",
+        "を"
+      ],
+      "vi": "Tôi xin dẫn anh/chị đến phòng họp.",
+      "explainVi": "Danh từ gốc Hán 案内 dùng ご."
+    },
+    {
+      "id": "n4-25-e10",
+      "type": "choice",
+      "grammar": [
+        "o-suru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "駅までお送りします。",
+      "options": [
+        "Tôi xin tiễn anh/chị ra ga.",
+        "Xin anh/chị tiễn tôi ra ga.",
+        "Tôi gửi đồ ra ga."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-25-e11",
+      "type": "order",
+      "grammar": [
+        "o-suru"
+      ],
+      "vi": "Ngày mai chúng tôi sẽ gọi điện cho anh/chị ạ.",
+      "tiles": [
+        "明日",
+        "こちらから",
+        "お電話",
+        "いたします"
+      ],
+      "answers": [
+        "明日こちらからお電話いたします",
+        "こちらから明日お電話いたします"
+      ]
+    },
+    {
+      "id": "n4-25-e12",
+      "type": "choice",
+      "grammar": [
+        "o-suru"
+      ],
+      "promptVi": "Nói về việc thầy giáo đã viết cuốn sách này. Câu nào đúng?",
+      "options": [
+        "先生がこの本をお書きになりました。",
+        "先生がこの本をお書きしました。",
+        "先生がこの本をお書きいたしました。"
+      ],
+      "answer": 0,
+      "explainVi": "Người trên làm: お〜になる. お〜する, お〜いたす chỉ dùng cho việc mình làm."
+    },
+    {
+      "id": "n4-25-e13",
+      "type": "fill",
+      "grammar": [
+        "de-gozaimasu"
+      ],
+      "before": "靴の売り場は3階",
+      "after": "。",
+      "answers": [
+        "でございます"
+      ],
+      "options": [
+        "でございます",
+        "でいらっしゃいます",
+        "なさいます"
+      ],
+      "vi": "Quầy bán giày ở tầng 3 ạ. (nhân viên nói với khách)"
+    },
+    {
+      "id": "n4-25-e14",
+      "type": "choice",
+      "grammar": [
+        "de-gozaimasu"
+      ],
+      "promptVi": "Nhân viên nói với khách. Nói câu này lịch sự hơn thế nào?",
+      "ja": "お手洗いはあちらです。",
+      "options": [
+        "お手洗いはあちらでございます。",
+        "お手洗いはあちらでいらっしゃいます。",
+        "お手洗いはあちらだ。"
+      ],
+      "answer": 0,
+      "explainVi": "でございます = です rất lịch sự. でいらっしゃいます chỉ dùng cho người."
+    },
+    {
+      "id": "n4-25-e15",
+      "type": "order",
+      "grammar": [
+        "de-gozaimasu"
+      ],
+      "vi": "Đây là món hàng đặc biệt ạ.",
+      "tiles": [
+        "こちらは",
+        "特別な",
+        "品物",
+        "でございます"
+      ],
+      "answers": [
+        "こちらは特別な品物でございます"
+      ]
+    },
+    {
+      "id": "n4-25-e16",
+      "type": "choice",
+      "grammar": [
+        "de-gozaimasu"
+      ],
+      "promptVi": "Nghe điện thoại ở công ty, bạn (tên Yamada) nói câu nào?",
+      "options": [
+        "はい、山田でございます。",
+        "はい、山田様でございます。",
+        "はい、山田さんでいらっしゃいます。"
+      ],
+      "answer": 0,
+      "explainVi": "Tên mình không có さん, 様."
+    },
+    {
+      "id": "n4-25-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "家内",
+          "vợ (tôi)"
+        ],
+        [
+          "案内",
+          "hướng dẫn, dẫn đường"
+        ],
+        [
+          "返事",
+          "trả lời, hồi âm"
+        ],
+        [
+          "紹介",
+          "giới thiệu"
+        ],
+        [
+          "品物",
+          "hàng hóa"
+        ]
+      ]
+    },
+    {
+      "id": "n4-25-e18",
+      "type": "choice",
+      "promptVi": "Cấp trên giao việc, bạn trả lời lịch sự \"Vâng, tôi hiểu rồi ạ.\" Câu nào phù hợp nhất?",
+      "options": [
+        "はい、承知しました。",
+        "うん、わかった。",
+        "はい、ご存じです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-25-e19",
+      "type": "fill",
+      "before": "すみません、この席は",
+      "after": "いますか。",
+      "answers": [
+        "空いて"
+      ],
+      "options": [
+        "空いて",
+        "売って",
+        "迎えて"
+      ],
+      "vi": "Xin lỗi, chỗ này còn trống không ạ?"
+    },
+    {
+      "id": "n4-25-e20",
+      "type": "choice",
+      "promptVi": "屋上 là gì?",
+      "options": [
+        "sân thượng",
+        "tầng hầm",
+        "quầy bán hàng"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-25-e21",
+      "type": "translate",
+      "grammar": [
+        "kenjougo"
+      ],
+      "vi": "Xin chào, tôi tên là Nguyễn. (tự giới thiệu lịch sự, dùng khiêm nhường ngữ)",
+      "answers": [
+        "はじめまして。グエンと申します。",
+        "(はじめまして)(。)(私は)グエンと申します。"
+      ],
+      "examples": [
+        {
+          "answer": "はじめまして。グエンともうします",
+          "score": 100
+        },
+        {
+          "answer": "はじめまして。ぐえんともうします",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ]
+        },
+        {
+          "answer": "はじめまして。グエンさんと申します。",
+          "score": 0
+        },
+        {
+          "answer": "はじめまして。グエンとおっしゃいます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-25-e22",
+      "type": "translate",
+      "grammar": [
+        "kenjougo"
+      ],
+      "vi": "(Trả lời cấp trên) Ngày mai 10 giờ tôi sẽ đến ạ. (dùng khiêm nhường ngữ)",
+      "answers": [
+        "明日10時にまいります。",
+        "明日(の)10時に(そちら[へ|に])[まいります|うかがいます]。"
+      ],
+      "examples": [
+        {
+          "answer": "あした10じにまいります",
+          "score": 100
+        },
+        {
+          "answer": "明日10時でまいります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "明日10時にいらっしゃいます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-25-e23",
+      "type": "translate",
+      "grammar": [
+        "o-suru"
+      ],
+      "vi": "Để tôi xách hành lý giúp anh/chị nhé?",
+      "answers": [
+        "荷物をお持ちしましょうか。",
+        "(お)荷物を[お持ちしましょうか|お持ちいたしましょうか|持ちましょうか]。"
+      ],
+      "examples": [
+        {
+          "answer": "にもつをおもちしましょうか",
+          "score": 100
+        },
+        {
+          "answer": "荷物がお持ちしましょうか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "荷物をお持ちになりましょうか。",
+          "score": 0
+        },
+        {
+          "answer": "荷物をお持ちください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-25-e24",
+      "type": "translate",
+      "grammar": [
+        "o-suru"
+      ],
+      "vi": "Tôi xin dẫn anh/chị đến phòng họp. (dùng ご〜する)",
+      "answers": [
+        "会議室へご案内します。",
+        "会議室[へ|に|まで]ご案内[します|いたします]。"
+      ],
+      "examples": [
+        {
+          "answer": "かいぎしつへごあんないします",
+          "score": 100
+        },
+        {
+          "answer": "会議室でご案内します。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "会議室へご案内ください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-25-e25",
+      "type": "question",
+      "grammar": [
+        "de-gozaimasu"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "すみません、靴の売り場は何階ですか。",
+        "promptVi": "Bạn là nhân viên cửa hàng bách hóa. Khách hỏi quầy bán giày ở tầng mấy. Trả lời rằng ở tầng 3, dùng でございます.",
+        "answers": [
+          "靴の売り場は3階でございます。",
+          "(靴(の)売り場は)3階でございます。"
+        ],
+        "examples": [
+          {
+            "answer": "くつのうりばはさんがいでございます",
+            "score": 100
+          },
+          {
+            "answer": "3階でございます。",
+            "score": 100
+          },
+          {
+            "answer": "靴の売り場は4階でございます。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "その仕事は私がいたします。": "その{仕|し}{事|ごと}は{私|わたし}がいたします。",
+    "明日、こちらからお電話いたします。": "{明日|あした}、こちらからお{電|でん}{話|わ}いたします。",
+    "明日、お宅にうかがってもよろしいですか。": "{明日|あした}、お{宅|たく}にうかがってもよろしいですか。",
+    "ちょっとうかがいますが、駅はどちらですか。": "ちょっとうかがいますが、{駅|えき}はどちらですか。",
+    "はい、すぐにまいります。": "はい、すぐにまいります。",
+    "1番線に電車がまいります。": "1{番|ばん}{線|せん}に{電|でん}{車|しゃ}がまいります。",
+    "はじめまして。グエンと申します。": "はじめまして。グエンと{申|もう}します。",
+    "心からお礼を申し上げます。": "{心|こころ}からお{礼|れい}を{申|もう}し{上|あ}げます。",
+    "お手紙を拝見しました。": "お{手|て}{紙|がみ}を{拝|はい}{見|けん}しました。",
+    "はい、承知しました。": "はい、{承|しょう}{知|ち}しました。",
+    "家内は今、出かけています。": "{家|か}{内|ない}は{今|いま}、{出|で}かけています。",
+    "駅までご案内します。": "{駅|えき}までご{案|あん}{内|ない}します。",
+    "友達に京都を案内しました。": "{友|とも}{達|だち}に{京都|きょうと}を{案|あん}{内|ない}しました。",
+    "空港までお客様を迎えに行きます。": "{空|くう}{港|こう}までお{客|きゃく}{様|さま}を{迎|むか}えに{行|い}きます。",
+    "すみません、この席は空いていますか。": "すみません、この{席|せき}は{空|あ}いていますか。",
+    "靴の売り場は何階ですか。": "{靴|くつ}の{売|う}り{場|ば}は{何階|なんがい}ですか。",
+    "屋上から町がよく見えます。": "{屋|おく}{上|じょう}から{町|まち}がよく{見|み}えます。",
+    "先生からまだ返事が来ません。": "{先|せん}{生|せい}からまだ{返|へん}{事|じ}が{来|き}ません。",
+    "名前を呼ばれたら、返事をしてください。": "{名|な}{前|まえ}を{呼|よ}ばれたら、{返|へん}{事|じ}をしてください。",
+    "友達を両親に紹介しました。": "{友|とも}{達|だち}を{両|りょう}{親|しん}に{紹|しょう}{介|かい}しました。",
+    "この店はいい品物が多いです。": "この{店|みせ}はいい{品|しな}{物|もの}が{多|おお}いです。",
+    "父は今、家におります。": "{父|ちち}は{今|いま}、{家|いえ}におります。",
+    "毎日、日本語を勉強しております。": "{毎|まい}{日|にち}、{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しております。",
+    "明日の10時にそちらへまいります。": "{明日|あした}の10{時|じ}にそちらへまいります。",
+    "お写真を拝見しました。": "お{写|しゃ}{真|しん}を{拝|はい}{見|けん}しました。",
+    "社長の田中がすぐにまいります。": "{社|しゃ}{長|ちょう}の{田中|たなか}がすぐにまいります。",
+    "先生は明日いらっしゃいますか。": "{先|せん}{生|せい}は{明日|あした}いらっしゃいますか。",
+    "先生は明日まいりますか。": "{先|せん}{生|せい}は{明日|あした}まいりますか。",
+    "はじめまして。グエンさんと申します。": "はじめまして。グエンさんと{申|もう}します。",
+    "その説明は私がいたします。": "その{説|せつ}{明|めい}は{私|わたし}がいたします。",
+    "その説明は私がなさいます。": "その{説|せつ}{明|めい}は{私|わたし}がなさいます。",
+    "重そうですね。荷物をお持ちしましょうか。": "{重|おも}そうですね。{荷|に}{物|もつ}をお{持|も}ちしましょうか。",
+    "会議室へご案内します。": "{会|かい}{議|ぎ}{室|しつ}へご{案|あん}{内|ない}します。",
+    "駅までお送りします。": "{駅|えき}までお{送|おく}りします。",
+    "先生、荷物をお持ちしましょうか。": "{先|せん}{生|せい}、{荷|に}{物|もつ}をお{持|も}ちしましょうか。",
+    "先生、荷物をお持ちになりましょうか。": "{先|せん}{生|せい}、{荷|に}{物|もつ}をお{持|も}ちになりましょうか。",
+    "会議室へお案内します。": "{会|かい}{議|ぎ}{室|しつ}へお{案|あん}{内|ない}します。",
+    "先生がこの本をお書きになりました。": "{先|せん}{生|せい}がこの{本|ほん}をお{書|か}きになりました。",
+    "先生がこの本をお書きしました。": "{先|せん}{生|せい}がこの{本|ほん}をお{書|か}きしました。",
+    "お手洗いはあちらでございます。": "お{手|て}{洗|あら}いはあちらでございます。",
+    "靴の売り場は3階でございます。": "{靴|くつ}の{売|う}り{場|ば}は3{階|がい}でございます。",
+    "はい、山田でございます。": "はい、{山田|やまだ}でございます。",
+    "こちらは特別な品物でございます。": "こちらは{特|とく}{別|べつ}な{品|しな}{物|もの}でございます。",
+    "売り場は3階でございます。": "{売|う}り{場|ば}は3{階|がい}でございます。",
+    "売り場は3階でございますです。": "{売|う}り{場|ば}は3{階|がい}でございますです。",
+    "お客様は田中様でいらっしゃいますか。": "お{客|きゃく}{様|さま}は{田中|たなか}{様|さま}でいらっしゃいますか。",
+    "お客様は田中様でございますか。": "お{客|きゃく}{様|さま}は{田中|たなか}{様|さま}でございますか。",
+    "行く・来る": "{行|い}く・{来|く}る",
+    "まいる": "まいる",
+    "言う": "{言|い}う",
+    "申す": "{申|もう}す",
+    "する": "する",
+    "いたす": "いたす",
+    "見る": "{見|み}る",
+    "拝見する": "{拝|はい}{見|けん}する",
+    "聞く・訪ねる": "{聞|き}く・{訪|たず}ねる",
+    "うかがう": "うかがう",
+    "グエンと申します。": "グエンと{申|もう}します。",
+    "グエンとおっしゃいます。": "グエンとおっしゃいます。",
+    "グエンさんと申します。": "グエンさんと{申|もう}します。",
+    "10時にまいります。": "10{時|じ}にまいります。",
+    "10時にいらっしゃいます。": "10{時|じ}にいらっしゃいます。",
+    "10時においでになります。": "10{時|じ}においでになります。",
+    "先生、明日お宅にうかがってもよろしいですか。": "{先|せん}{生|せい}、{明日|あした}お{宅|たく}にうかがってもよろしいですか。",
+    "うかがって": "うかがって",
+    "いらっしゃって": "いらっしゃって",
+    "召し上がって": "{召|め}し{上|あ}がって",
+    "明日の": "{明日|あした}の",
+    "10時に": "10{時|じ}に",
+    "そちらへ": "そちらへ",
+    "まいります": "まいります",
+    "明日の10時にそちらへまいります": "{明日|あした}の10{時|じ}にそちらへまいります",
+    "先生、この写真を拝見してもよろしいですか。": "{先|せん}{生|せい}、この{写|しゃ}{真|しん}を{拝|はい}{見|けん}してもよろしいですか。",
+    "先生、この写真を拝見してください。": "{先|せん}{生|せい}、この{写|しゃ}{真|しん}を{拝|はい}{見|けん}してください。",
+    "先生はこの写真を拝見しましたか。": "{先|せん}{生|せい}はこの{写|しゃ}{真|しん}を{拝|はい}{見|けん}しましたか。",
+    "田中社長がすぐにいらっしゃいます。": "{田中|たなか}{社|しゃ}{長|ちょう}がすぐにいらっしゃいます。",
+    "社長の田中さんがすぐにいらっしゃいます。": "{社|しゃ}{長|ちょう}の{田中|たなか}さんがすぐにいらっしゃいます。",
+    "荷物をお持ちしましょうか。": "{荷|に}{物|もつ}をお{持|も}ちしましょうか。",
+    "荷物をお持ちになりましょうか。": "{荷|に}{物|もつ}をお{持|も}ちになりましょうか。",
+    "荷物を持たせましょうか。": "{荷|に}{物|もつ}を{持|も}たせましょうか。",
+    "ご": "ご",
+    "お": "お",
+    "を": "を",
+    "明日": "{明日|あした}",
+    "こちらから": "こちらから",
+    "お電話": "お{電|でん}{話|わ}",
+    "いたします": "いたします",
+    "明日こちらからお電話いたします": "{明日|あした}こちらからお{電|でん}{話|わ}いたします",
+    "こちらから明日お電話いたします": "こちらから{明日|あした}お{電|でん}{話|わ}いたします",
+    "先生がこの本をお書きいたしました。": "{先|せん}{生|せい}がこの{本|ほん}をお{書|か}きいたしました。",
+    "でございます": "でございます",
+    "でいらっしゃいます": "でいらっしゃいます",
+    "なさいます": "なさいます",
+    "お手洗いはあちらです。": "お{手|て}{洗|あら}いはあちらです。",
+    "お手洗いはあちらでいらっしゃいます。": "お{手|て}{洗|あら}いはあちらでいらっしゃいます。",
+    "お手洗いはあちらだ。": "お{手|て}{洗|あら}いはあちらだ。",
+    "こちらは": "こちらは",
+    "特別な": "{特|とく}{別|べつ}な",
+    "品物": "{品|しな}{物|もの}",
+    "こちらは特別な品物でございます": "こちらは{特|とく}{別|べつ}な{品|しな}{物|もの}でございます",
+    "はい、山田様でございます。": "はい、{山田|やまだ}{様|さま}でございます。",
+    "はい、山田さんでいらっしゃいます。": "はい、{山田|やまだ}さんでいらっしゃいます。",
+    "家内": "{家|か}{内|ない}",
+    "案内": "{案|あん}{内|ない}",
+    "返事": "{返|へん}{事|じ}",
+    "紹介": "{紹|しょう}{介|かい}",
+    "うん、わかった。": "うん、わかった。",
+    "はい、ご存じです。": "はい、ご{存|ぞん}じです。",
+    "空いて": "{空|あ}いて",
+    "売って": "{売|う}って",
+    "迎えて": "{迎|むか}えて",
+    "はじめまして。私はグエンと申します。": "はじめまして。{私|わたし}はグエンと{申|もう}します。",
+    "明日10時にまいります。": "{明日|あした}10{時|じ}にまいります。",
+    "お荷物をお持ちしましょうか。": "お{荷|に}{物|もつ}をお{持|も}ちしましょうか。",
+    "すみません、靴の売り場は何階ですか。": "すみません、{靴|くつ}の{売|う}り{場|ば}は{何階|なんがい}ですか。"
+  }
+}

@@ -1,0 +1,1230 @@
+{
+  "id": "n4-21",
+  "goalsVi": [
+    "Chia và dùng thể bị động 〜れる / 〜られる: 先生にほめられました、母にしかられました",
+    "Kể chuyện mình bị làm phiền: すりに財布を盗まれました、電車で足を踏まれました",
+    "Nói về việc được làm, được tổ chức: この寺は500年前に建てられました、会議が開かれます",
+    "Nhấn mạnh số lượng bằng も: 1時間も待ちました、お金が1円もありません",
+    "Nói về sản xuất, xuất nhập khẩu và vật liệu: 輸出、輸入、生産、産業、絹、木綿、米"
+  ],
+  "words": [
+    {
+      "no": 938,
+      "word": "しかる",
+      "meaningsVi": [
+        "mắng, la rầy (để dạy bảo)"
+      ],
+      "noteVi": "Kanji: 叱る. Người trên mắng người dưới để dạy bảo (bố mẹ, thầy cô, cấp trên). Hay dùng ở thể bị động: しかられる (bị mắng).",
+      "examples": [
+        {
+          "ja": "子供のとき、よく母にしかられました。",
+          "vi": "Hồi nhỏ tôi hay bị mẹ mắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1220,
+      "word": "ほめる",
+      "meaningsVi": [
+        "khen"
+      ],
+      "noteVi": "Kanji: 褒める. Khen ai: 人をほめる; khen cái gì của ai: 人の N をほめる. Được khen: ほめられる.",
+      "examples": [
+        {
+          "ja": "先生に作文をほめられました。",
+          "vi": "Tôi được thầy khen bài văn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1136,
+      "word": "盗む",
+      "meaningsVi": [
+        "lấy trộm, ăn cắp"
+      ],
+      "noteVi": "Âm Hán Việt \"đạo\" (trộm). Thể bị động 盗まれる: bị lấy trộm. Kẻ trộm: 泥棒 (どろぼう); kẻ móc túi: すり.",
+      "examples": [
+        {
+          "ja": "電車の中で財布を盗まれました。",
+          "vi": "Tôi bị lấy trộm ví trên tàu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1203,
+      "word": "踏む",
+      "meaningsVi": [
+        "giẫm, đạp lên"
+      ],
+      "noteVi": "Âm Hán Việt \"đạp\". Giẫm lên cái gì: N を踏む. Bị giẫm chân: 足を踏まれる.",
+      "examples": [
+        {
+          "ja": "電車で足を踏まれました。",
+          "vi": "Tôi bị giẫm vào chân trên tàu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 708,
+      "word": "いじめる",
+      "meaningsVi": [
+        "bắt nạt, ăn hiếp"
+      ],
+      "noteVi": "Kanji: 苛める. Bị bắt nạt: いじめられる. Danh từ いじめ: nạn bắt nạt (ở trường học).",
+      "examples": [
+        {
+          "ja": "弟をいじめてはいけません。",
+          "vi": "Không được bắt nạt em trai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 813,
+      "word": "かむ",
+      "meaningsVi": [
+        "cắn",
+        "nhai"
+      ],
+      "noteVi": "Kanji: 噛む. Thể て: かんで. Bị cắn: かまれる.",
+      "examples": [
+        {
+          "ja": "犬に手をかまれました。",
+          "vi": "Tôi bị chó cắn vào tay."
+        },
+        {
+          "ja": "よくかんで食べてください。",
+          "vi": "Hãy nhai kỹ rồi hãy ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 758,
+      "word": "怒る",
+      "meaningsVi": [
+        "giận, nổi giận",
+        "mắng (khi tức giận)"
+      ],
+      "noteVi": "Âm Hán Việt \"nộ\". 怒る là giận (cảm xúc); しかる là mắng để dạy bảo. Bị mắng: 怒られる (nói hằng ngày dùng nhiều hơn しかられる).",
+      "examples": [
+        {
+          "ja": "父はすぐ怒ります。",
+          "vi": "Bố tôi rất dễ nổi giận."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1003,
+      "word": "すり",
+      "meaningsVi": [
+        "kẻ móc túi"
+      ],
+      "noteVi": "Kẻ trộm nói chung: 泥棒. すりに財布を盗まれる: bị kẻ móc túi lấy mất ví.",
+      "examples": [
+        {
+          "ja": "駅ではすりに気をつけてください。",
+          "vi": "Ở nhà ga hãy cẩn thận với kẻ móc túi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1070,
+      "word": "捕まえる",
+      "meaningsVi": [
+        "bắt, bắt được"
+      ],
+      "noteVi": "Tha động từ: N を捕まえる (bắt người, con vật). Bị bắt: 捕まえられる.",
+      "examples": [
+        {
+          "ja": "警察がすりを捕まえました。",
+          "vi": "Cảnh sát đã bắt được kẻ móc túi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 969,
+      "word": "招待",
+      "meaningsVi": [
+        "mời (đến tiệc, đến nhà, sự kiện)"
+      ],
+      "noteVi": "Âm Hán Việt \"chiêu đãi\", nhưng nghĩa là **mời** (gửi lời mời), không phải \"đãi ăn\". Đãi ăn là ごちそうする. Mời ai đến đâu: 人を N に招待する.",
+      "examples": [
+        {
+          "ja": "田中さんのパーティーに招待されました。",
+          "vi": "Tôi được mời đến bữa tiệc của anh Tanaka."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 757,
+      "word": "行う",
+      "meaningsVi": [
+        "tiến hành, tổ chức"
+      ],
+      "noteVi": "Cách nói trang trọng của する, hay gặp trong thông báo, tin tức, thường ở thể bị động 行われる. Đừng nhầm với 行く: 行います (おこないます), 行きます (いきます).",
+      "examples": [
+        {
+          "ja": "会議は3階の会議室で行われます。",
+          "vi": "Cuộc họp được tiến hành ở phòng họp tầng 3."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1186,
+      "word": "開く",
+      "meaningsVi": [
+        "mở, tổ chức (tiệc, hội, triển lãm)",
+        "mở ra (sách, cửa hàng)"
+      ],
+      "noteVi": "Đọc ひらく. Cùng chữ với 開く (あく: cửa mở). ひらく dùng cho tổ chức sự kiện (パーティーを開く) và mở sách, mở ra.",
+      "examples": [
+        {
+          "ja": "来月、展覧会が開かれます。",
+          "vi": "Tháng sau sẽ có một cuộc triển lãm được tổ chức."
+        },
+        {
+          "ja": "本の10ページを開いてください。",
+          "vi": "Hãy mở sách ra trang 10."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1048,
+      "word": "建てる",
+      "meaningsVi": [
+        "xây (nhà, tòa nhà)"
+      ],
+      "noteVi": "Âm Hán Việt \"kiến\". Tha động từ: 家を建てる. Tòa nhà: 建物 (たてもの).",
+      "examples": [
+        {
+          "ja": "この寺は500年前に建てられました。",
+          "vi": "Ngôi chùa này được xây cách đây 500 năm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 834,
+      "word": "絹",
+      "meaningsVi": [
+        "lụa"
+      ],
+      "noteVi": "Âm Hán Việt \"quyên\". Làm bằng lụa: 絹で作る. Lụa của Việt Nam cũng nổi tiếng: ベトナムの絹.",
+      "examples": [
+        {
+          "ja": "このネクタイは絹で作られています。",
+          "vi": "Chiếc cà vạt này được làm bằng lụa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1256,
+      "word": "木綿",
+      "meaningsVi": [
+        "vải bông, cotton"
+      ],
+      "noteVi": "Âm Hán Việt \"mộc miên\". Đọc đặc biệt もめん. Ngày nay cũng hay nói コットン.",
+      "examples": [
+        {
+          "ja": "夏は木綿のシャツが涼しいです。",
+          "vi": "Mùa hè áo sơ mi vải bông mát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 716,
+      "word": "糸",
+      "meaningsVi": [
+        "sợi chỉ, sợi"
+      ],
+      "noteVi": "Âm Hán Việt \"mịch\". Chỉ khâu, sợi tơ, sợi len. Chữ 糸 cũng là bộ \"mịch\" trong nhiều chữ về vải, sợi.",
+      "examples": [
+        {
+          "ja": "絹の糸はとても細いです。",
+          "vi": "Sợi tơ lụa rất mảnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 904,
+      "word": "米",
+      "meaningsVi": [
+        "gạo"
+      ],
+      "noteVi": "Âm Hán Việt \"mễ\". 米 là gạo chưa nấu (và lúa); cơm đã nấu là ご飯. Nói lịch sự: お米.",
+      "examples": [
+        {
+          "ja": "ベトナムでは、米がたくさん作られています。",
+          "vi": "Ở Việt Nam, lúa gạo được trồng rất nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 951,
+      "word": "市民",
+      "meaningsVi": [
+        "người dân thành phố, thị dân"
+      ],
+      "noteVi": "Âm Hán Việt \"thị dân\". Người dân của một 市 (thành phố). Ví dụ: 市民プール (bể bơi thành phố).",
+      "examples": [
+        {
+          "ja": "このお祭りには市民がたくさん集まります。",
+          "vi": "Rất nhiều người dân thành phố tụ tập ở lễ hội này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1270,
+      "word": "輸出",
+      "meaningsVi": [
+        "xuất khẩu"
+      ],
+      "noteVi": "Âm Hán Việt \"thâu xuất\" (tiếng Việt: xuất khẩu). Động từ: 輸出する. Xuất sang đâu: N に輸出する.",
+      "examples": [
+        {
+          "ja": "日本の車はいろいろな国に輸出されています。",
+          "vi": "Ô tô Nhật được xuất khẩu sang nhiều nước."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1271,
+      "word": "輸入",
+      "meaningsVi": [
+        "nhập khẩu"
+      ],
+      "noteVi": "Âm Hán Việt \"thâu nhập\" (tiếng Việt: nhập khẩu). Nhập từ đâu: N から輸入する.",
+      "examples": [
+        {
+          "ja": "日本は外国からたくさんの食料品を輸入しています。",
+          "vi": "Nhật Bản nhập khẩu nhiều thực phẩm từ nước ngoài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1006,
+      "word": "生産",
+      "meaningsVi": [
+        "sản xuất"
+      ],
+      "noteVi": "Âm Hán Việt \"sinh sản\", nhưng nghĩa là **sản xuất** (hàng hóa, nông sản), không phải \"đẻ con\". Động từ: 生産する.",
+      "examples": [
+        {
+          "ja": "この工場では車を生産しています。",
+          "vi": "Nhà máy này sản xuất ô tô."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 930,
+      "word": "産業",
+      "meaningsVi": [
+        "công nghiệp, ngành sản xuất, ngành nghề"
+      ],
+      "noteVi": "Âm Hán Việt \"sản nghiệp\", nghĩa là ngành sản xuất, ngành kinh tế: 自動車産業 (ngành ô tô). Khác 工業 (công nghiệp chế tạo).",
+      "examples": [
+        {
+          "ja": "この町は昔から絹の産業が盛んです。",
+          "vi": "Thị trấn này từ xưa đã phát triển nghề làm lụa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 687,
+      "word": "アジア",
+      "meaningsVi": [
+        "châu Á"
+      ],
+      "examples": [
+        {
+          "ja": "日本もベトナムもアジアの国です。",
+          "vi": "Cả Nhật Bản và Việt Nam đều là nước châu Á."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 693,
+      "word": "アフリカ",
+      "meaningsVi": [
+        "châu Phi"
+      ],
+      "examples": [
+        {
+          "ja": "アフリカに行ったことがありますか。",
+          "vi": "Bạn đã từng đến châu Phi chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 694,
+      "word": "アメリカ",
+      "meaningsVi": [
+        "nước Mỹ",
+        "châu Mỹ"
+      ],
+      "noteVi": "Thường chỉ nước Mỹ. Người Mỹ: アメリカ人.",
+      "examples": [
+        {
+          "ja": "この映画はアメリカで作られました。",
+          "vi": "Bộ phim này được làm ở Mỹ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 789,
+      "word": "会場",
+      "meaningsVi": [
+        "hội trường, nơi tổ chức (sự kiện)"
+      ],
+      "noteVi": "Âm Hán Việt \"hội trường\". Nơi diễn ra buổi họp, buổi hòa nhạc, cuộc thi…",
+      "examples": [
+        {
+          "ja": "コンサートの会場は駅のすぐ前です。",
+          "vi": "Nơi tổ chức buổi hòa nhạc ở ngay trước ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1129,
+      "word": "二階建て",
+      "meaningsVi": [
+        "nhà hai tầng"
+      ],
+      "noteVi": "〜階建て: (tòa nhà) có … tầng: 3階建て, 10階建てのビル. 2階 là \"tầng 2\", còn 二階建て là \"nhà có 2 tầng\".",
+      "examples": [
+        {
+          "ja": "私の家は二階建てです。",
+          "vi": "Nhà tôi có hai tầng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "建",
+      "meaningVi": "xây",
+      "noteVi": "Gặp trong 建てる (たてる), 建物 (たてもの), 二階建て. Bộ 廴 (bước dài) ôm bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "業",
+      "meaningVi": "nghề, nghiệp",
+      "noteVi": "Gặp trong 授業 (じゅぎょう), 産業 (さんぎょう), 工業 (こうぎょう), 卒業 (そつぎょう).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "作",
+      "meaningVi": "làm, tạo ra",
+      "noteVi": "Gặp trong 作る (つくる), 作文 (さくぶん). Bộ 亻 (người) + 乍.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "古",
+      "meaningVi": "cũ, cổ",
+      "noteVi": "Gặp trong 古い (ふるい). 十 (mười) + 口 (miệng): chuyện truyền qua mười đời.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "足",
+      "meaningVi": "chân; đủ",
+      "noteVi": "Gặp trong 足 (あし), 足りる (たりる), 足す (たす). Hai nghĩa: chân và đủ, thêm.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "田",
+      "meaningVi": "ruộng",
+      "noteVi": "Gặp trong 田中 (たなか), 田舎 (いなか). Hình thửa ruộng chia ô.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "reru-rareru-passive",
+      "titleVi": "Thể bị động 〜れる / 〜られる: bị, được",
+      "summaryVi": "V (bị động) 〜れる / 〜られる: chủ ngữ chịu tác động của hành động người khác làm: 先生にほめられました, 財布を盗まれました.",
+      "explanationVi": [
+        "**Thể bị động** cho biết chủ ngữ **chịu tác động** của việc người khác làm, giống \"bị\" và \"được\" trong tiếng Việt. Người làm hành động đi với **に**: 「私は先生にほめられました」 (Tôi được thầy khen), 「私は母にしかられました」 (Tôi bị mẹ mắng). Tiếng Nhật không phân biệt \"bị\" hay \"được\": cùng một dạng 〜れる / 〜られる.",
+        "Cách chia: **Nhóm I**: đổi âm cuối hàng う sang hàng あ + **れる**: 書く → 書かれる, 読む → 読まれる, 踏む → 踏まれる, 言う → 言**わ**れる (う → わ). **Nhóm II**: bỏ る + **られる**: 食べる → 食べられる, ほめる → ほめられる (giống thể khả năng). **Nhóm III**: する → **される**, 来る → **来られる** (こられる). Động từ bị động chia như nhóm II: 書かれます, 書かれた, 書かれて.",
+        "**Bị động \"bị làm phiền\"**: khi người khác làm gì với **đồ vật, bộ phận cơ thể của mình**, chủ ngữ là người bị hại, đồ vật vẫn đi với **を**: 「私はすりに財布を盗まれました」 (Tôi bị kẻ móc túi lấy ví), 「電車で足を踏まれました」 (Tôi bị giẫm chân). Không nói 「私の足は踏まれました」.",
+        "**Bị động về sự vật, sự kiện** (không cần nói ai làm): 「この寺は500年前に建てられました」, 「会議は東京で開かれます」. Chú ý: khi được người khác giúp và muốn tỏ lòng biết ơn, tiếng Nhật dùng 〜てもらう chứ không dùng bị động: 「友達に手伝ってもらいました」 (Tôi được bạn giúp)."
+      ],
+      "patterns": [
+        "N1 は N2 に V (bị động)",
+        "N1 は N2 に N3 を V (bị động) (bị làm gì vào đồ của mình)",
+        "N (sự vật, sự kiện) が / は V (bị động)"
+      ],
+      "examples": [
+        {
+          "ja": "私は先生にほめられました。",
+          "vi": "Tôi được thầy khen."
+        },
+        {
+          "ja": "電車の中で、すりに財布を盗まれました。",
+          "vi": "Trên tàu tôi bị kẻ móc túi lấy mất ví."
+        },
+        {
+          "ja": "この寺は500年前に建てられました。",
+          "vi": "Ngôi chùa này được xây cách đây 500 năm."
+        },
+        {
+          "ja": "来月、東京で国際会議が開かれます。",
+          "vi": "Tháng sau, một hội nghị quốc tế sẽ được tổ chức ở Tokyo."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は先生がほめられました。",
+          "right": "私は先生にほめられました。",
+          "noteVi": "Trong câu bị động, người làm hành động (先生) đi với に, không đi với が."
+        },
+        {
+          "wrong": "私はすりに財布を盗みました。",
+          "right": "私はすりに財布を盗まれました。",
+          "noteVi": "\"Bị lấy\" phải dùng thể bị động 盗まれる. 盗みました là \"tôi đã lấy trộm\"."
+        },
+        {
+          "wrong": "電車で足を踏みられました。",
+          "right": "電車で足を踏まれました。",
+          "noteVi": "踏む là nhóm I: đổi む → ま + れる (踏まれる). られる chỉ dùng cho nhóm II và 来る."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mo-emphasis",
+      "titleVi": "〜も (nhấn mạnh): những, tới; không … một … nào",
+      "summaryVi": "Số lượng + も: nhấn mạnh là nhiều (3時間も待ちました); 1 + trợ số từ + も + phủ định: không có lấy một (1円もありません).",
+      "explanationVi": [
+        "**Số lượng + も** nhấn mạnh người nói thấy **nhiều**, giống \"những\", \"tới\" trong tiếng Việt: 「駅で1時間も待ちました」 (Tôi đã chờ ở ga những 1 tiếng). Chú ý vị trí: tiếng Việt \"những\" đứng **trước** số, còn も đứng **sau** số lượng.",
+        "**1 + trợ số từ + も + phủ định**: \"không … lấy một …\": 「お金が1円もありません」 (Không có lấy một yên), 「教室には一人もいません」 (Trong lớp không có một ai), 「一度も行ったことがありません」 (Chưa đi lần nào).",
+        "も thay cho が và を: 1時間待つ → 1時間も待つ; お金が1円ある → お金が1円もない. 何度も (bao nhiêu lần, nhiều lần) dùng với câu khẳng định: 「何度も電話しました」."
+      ],
+      "patterns": [
+        "Số + trợ số từ + も + V (khẳng định): những …",
+        "1 + trợ số từ + も + V (phủ định): không … một … nào",
+        "一度も + V (phủ định)"
+      ],
+      "examples": [
+        {
+          "ja": "駅で1時間も待ちました。",
+          "vi": "Tôi đã chờ ở ga những 1 tiếng."
+        },
+        {
+          "ja": "財布にお金が1円もありません。",
+          "vi": "Trong ví không có lấy một yên."
+        },
+        {
+          "ja": "この本は3回も読みました。",
+          "vi": "Quyển sách này tôi đã đọc tới 3 lần."
+        },
+        {
+          "ja": "アフリカには一度も行ったことがありません。",
+          "vi": "Tôi chưa đi châu Phi lần nào."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "お金が1円もあります。",
+          "right": "お金が1円もありません。",
+          "noteVi": "Nghĩa \"không có lấy một\": 1 + trợ số từ + も đi với phủ định."
+        },
+        {
+          "wrong": "教室には一人もいます。",
+          "right": "教室には一人もいません。",
+          "noteVi": "一人も (không một ai) luôn đi với động từ phủ định."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-21-e01",
+      "type": "fill",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "before": "私は先生",
+      "after": "ほめられました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "が",
+        "を"
+      ],
+      "vi": "Tôi được thầy khen.",
+      "explainVi": "Người làm hành động trong câu bị động: に."
+    },
+    {
+      "id": "n4-21-e02",
+      "type": "choice",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "promptVi": "\"Tôi bị lấy trộm ví.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "財布を＿。",
+      "options": [
+        "盗まれました",
+        "盗みました",
+        "盗んでいました"
+      ],
+      "answer": 0,
+      "explainVi": "Bị lấy trộm: thể bị động 盗まれる."
+    },
+    {
+      "id": "n4-21-e03",
+      "type": "match",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "promptVi": "Ghép động từ với thể bị động của nó",
+      "pairs": [
+        [
+          "書く",
+          "書かれる"
+        ],
+        [
+          "言う",
+          "言われる"
+        ],
+        [
+          "食べる",
+          "食べられる"
+        ],
+        [
+          "する",
+          "される"
+        ],
+        [
+          "来る",
+          "来られる"
+        ]
+      ]
+    },
+    {
+      "id": "n4-21-e04",
+      "type": "fill",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "before": "電車で足を",
+      "after": "。",
+      "answers": [
+        "踏まれました"
+      ],
+      "options": [
+        "踏まれました",
+        "踏みました",
+        "踏めました"
+      ],
+      "vi": "Trên tàu tôi bị giẫm vào chân."
+    },
+    {
+      "id": "n4-21-e05",
+      "type": "choice",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi bị mẹ mắng\"?",
+      "options": [
+        "私は母にしかられました。",
+        "私は母をしかりました。",
+        "母は私にしかられました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-21-e06",
+      "type": "choice",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "promptVi": "\"Tôi bị kẻ móc túi lấy mất ví.\" Chọn câu đúng.",
+      "options": [
+        "私はすりに財布を盗まれました。",
+        "私はすりを財布に盗まれました。",
+        "すりは私に財布を盗まれました。"
+      ],
+      "answer": 0,
+      "explainVi": "Người bị hại làm chủ ngữ, kẻ làm đi với に, đồ vật bị lấy vẫn đi với を."
+    },
+    {
+      "id": "n4-21-e07",
+      "type": "order",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "vi": "Ngôi chùa này được xây cách đây 500 năm.",
+      "tiles": [
+        "この寺は",
+        "500年前に",
+        "建てられました"
+      ],
+      "answers": [
+        "この寺は500年前に建てられました"
+      ]
+    },
+    {
+      "id": "n4-21-e08",
+      "type": "fill",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "before": "来月、東京で国際会議が",
+      "after": "。",
+      "answers": [
+        "開かれます"
+      ],
+      "options": [
+        "開かれます",
+        "開けます",
+        "開いています"
+      ],
+      "vi": "Tháng sau, một hội nghị quốc tế sẽ được tổ chức ở Tokyo."
+    },
+    {
+      "id": "n4-21-e09",
+      "type": "order",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "vi": "Tôi được mời đến bữa tiệc của anh Tanaka.",
+      "tiles": [
+        "田中さんの",
+        "パーティーに",
+        "招待されました"
+      ],
+      "answers": [
+        "田中さんのパーティーに招待されました"
+      ]
+    },
+    {
+      "id": "n4-21-e10",
+      "type": "choice",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "promptVi": "Bạn muốn nói \"Tôi được bạn giúp làm bài tập\" với ý biết ơn. Câu nào tự nhiên nhất?",
+      "options": [
+        "友達に宿題を手伝ってもらいました。",
+        "友達に宿題を手伝われました。",
+        "友達の宿題を手伝ってあげました。"
+      ],
+      "answer": 0,
+      "explainVi": "Được người khác giúp và biết ơn: 〜てもらう. Bị động 手伝われる nghe như bị làm phiền."
+    },
+    {
+      "id": "n4-21-e11",
+      "type": "fill",
+      "grammar": [
+        "mo-emphasis"
+      ],
+      "before": "駅で1時間",
+      "after": "待ちました。",
+      "answers": [
+        "も"
+      ],
+      "options": [
+        "も",
+        "しか",
+        "ずつ"
+      ],
+      "vi": "Tôi đã chờ ở ga những 1 tiếng.",
+      "explainVi": "Nhấn mạnh là nhiều: số lượng + も."
+    },
+    {
+      "id": "n4-21-e12",
+      "type": "choice",
+      "grammar": [
+        "mo-emphasis"
+      ],
+      "promptVi": "\"Trong ví không có lấy một yên.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "財布にお金が1円も＿。",
+      "options": [
+        "ありません",
+        "あります",
+        "ありました"
+      ],
+      "answer": 0,
+      "explainVi": "1 + trợ số từ + も đi với phủ định."
+    },
+    {
+      "id": "n4-21-e13",
+      "type": "choice",
+      "grammar": [
+        "mo-emphasis"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "この本は3回も読みました。",
+      "options": [
+        "Quyển sách này tôi đã đọc tới 3 lần.",
+        "Quyển sách này tôi chỉ đọc 3 lần.",
+        "Quyển sách này tôi cũng đọc 3 lần."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-21-e14",
+      "type": "order",
+      "grammar": [
+        "mo-emphasis"
+      ],
+      "vi": "Tôi chưa đi châu Phi lần nào.",
+      "tiles": [
+        "アフリカには",
+        "一度も",
+        "行ったことが",
+        "ありません"
+      ],
+      "answers": [
+        "アフリカには一度も行ったことがありません",
+        "一度もアフリカには行ったことがありません"
+      ]
+    },
+    {
+      "id": "n4-21-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "しかる",
+          "mắng"
+        ],
+        [
+          "ほめる",
+          "khen"
+        ],
+        [
+          "盗む",
+          "lấy trộm"
+        ],
+        [
+          "踏む",
+          "giẫm"
+        ],
+        [
+          "かむ",
+          "cắn"
+        ]
+      ]
+    },
+    {
+      "id": "n4-21-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "輸出",
+          "xuất khẩu"
+        ],
+        [
+          "輸入",
+          "nhập khẩu"
+        ],
+        [
+          "生産",
+          "sản xuất"
+        ],
+        [
+          "産業",
+          "ngành sản xuất"
+        ],
+        [
+          "市民",
+          "người dân thành phố"
+        ]
+      ]
+    },
+    {
+      "id": "n4-21-e17",
+      "type": "choice",
+      "promptVi": "\"Áo sơ mi vải bông\". Chọn từ đúng điền vào chỗ trống.",
+      "ja": "＿のシャツ",
+      "options": [
+        "木綿",
+        "絹",
+        "米"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-21-e18",
+      "type": "choice",
+      "promptVi": "\"Ở nhà ga hãy cẩn thận với kẻ móc túi.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "駅では＿に気をつけてください。",
+      "options": [
+        "すり",
+        "市民",
+        "会場"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-21-e19",
+      "type": "translate",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "vi": "Tôi được thầy giáo khen. (dùng thể bị động)",
+      "answers": [
+        "(私は)先生にほめられました。"
+      ],
+      "examples": [
+        {
+          "answer": "せんせいにほめられました",
+          "score": 100
+        },
+        {
+          "answer": "先生がほめられました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "先生にしかられました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-21-e20",
+      "type": "translate",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "vi": "Trên tàu tôi bị giẫm vào chân.",
+      "answers": [
+        "(私は)電車で足を踏まれました。",
+        "(私は)電車(の中)で(誰かに)足を踏まれました。"
+      ],
+      "examples": [
+        {
+          "answer": "でんしゃであしをふまれました",
+          "score": 100
+        },
+        {
+          "answer": "電車に足を踏まれました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "電車で足を踏みました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-21-e21",
+      "type": "translate",
+      "grammar": [
+        "reru-rareru-passive"
+      ],
+      "vi": "Ngôi nhà này được xây năm ngoái.",
+      "answers": [
+        "この家は去年建てられました。"
+      ],
+      "examples": [
+        {
+          "answer": "このいえはきょねんたてられました",
+          "score": 100
+        },
+        {
+          "answer": "この家は去年に建てられました。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "この家は今年建てられました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-21-e22",
+      "type": "translate",
+      "grammar": [
+        "mo-emphasis"
+      ],
+      "vi": "Tôi đã chờ những 2 tiếng.",
+      "answers": [
+        "(私は)2時間も待ちました。"
+      ],
+      "examples": [
+        {
+          "answer": "にじかんもまちました",
+          "score": 100
+        },
+        {
+          "answer": "も2時間待ちました。",
+          "score": 0
+        },
+        {
+          "answer": "2時間をも待ちました。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "3時間も待ちました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-21-e23",
+      "type": "question",
+      "grammar": [
+        "mo-emphasis"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "財布にお金がいくらありますか。",
+        "promptVi": "\"Trong ví có bao nhiêu tiền?\" Ví của bạn trống trơn. Hãy trả lời: không có lấy một yên.",
+        "answers": [
+          "1円もありません。",
+          "(お金は)1円もありません。",
+          "(財布に(は))(お金が)1円もありません。"
+        ],
+        "examples": [
+          {
+            "answer": "いちえんもありません",
+            "score": 100
+          },
+          {
+            "answer": "1円もあります。",
+            "score": 0
+          },
+          {
+            "answer": "100円あります。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "子供のとき、よく母にしかられました。": "{子|こ}{供|ども}のとき、よく{母|はは}にしかられました。",
+    "先生に作文をほめられました。": "{先|せん}{生|せい}に{作|さく}{文|ぶん}をほめられました。",
+    "電車の中で財布を盗まれました。": "{電|でん}{車|しゃ}の{中|なか}で{財|さい}{布|ふ}を{盗|ぬす}まれました。",
+    "電車で足を踏まれました。": "{電|でん}{車|しゃ}で{足|あし}を{踏|ふ}まれました。",
+    "弟をいじめてはいけません。": "{弟|おとうと}をいじめてはいけません。",
+    "犬に手をかまれました。": "{犬|いぬ}に{手|て}をかまれました。",
+    "よくかんで食べてください。": "よくかんで{食|た}べてください。",
+    "父はすぐ怒ります。": "{父|ちち}はすぐ{怒|おこ}ります。",
+    "駅ではすりに気をつけてください。": "{駅|えき}ではすりに{気|き}をつけてください。",
+    "警察がすりを捕まえました。": "{警|けい}{察|さつ}がすりを{捕|つか}まえました。",
+    "田中さんのパーティーに招待されました。": "{田中|たなか}さんのパーティーに{招|しょう}{待|たい}されました。",
+    "会議は3階の会議室で行われます。": "{会|かい}{議|ぎ}は3{階|がい}の{会|かい}{議|ぎ}{室|しつ}で{行|おこな}われます。",
+    "来月、展覧会が開かれます。": "{来|らい}{月|げつ}、{展|てん}{覧|らん}{会|かい}が{開|ひら}かれます。",
+    "本の10ページを開いてください。": "{本|ほん}の10ページを{開|ひら}いてください。",
+    "この寺は500年前に建てられました。": "この{寺|てら}は500{年|ねん}{前|まえ}に{建|た}てられました。",
+    "このネクタイは絹で作られています。": "このネクタイは{絹|きぬ}で{作|つく}られています。",
+    "夏は木綿のシャツが涼しいです。": "{夏|なつ}は{木綿|もめん}のシャツが{涼|すず}しいです。",
+    "絹の糸はとても細いです。": "{絹|きぬ}の{糸|いと}はとても{細|ほそ}いです。",
+    "ベトナムでは、米がたくさん作られています。": "ベトナムでは、{米|こめ}がたくさん{作|つく}られています。",
+    "このお祭りには市民がたくさん集まります。": "このお{祭|まつ}りには{市|し}{民|みん}がたくさん{集|あつ}まります。",
+    "日本の車はいろいろな国に輸出されています。": "{日本|にほん}の{車|くるま}はいろいろな{国|くに}に{輸|ゆ}{出|しゅつ}されています。",
+    "日本は外国からたくさんの食料品を輸入しています。": "{日本|にほん}は{外|がい}{国|こく}からたくさんの{食|しょく}{料|りょう}{品|ひん}を{輸|ゆ}{入|にゅう}しています。",
+    "この工場では車を生産しています。": "この{工|こう}{場|じょう}では{車|くるま}を{生|せい}{産|さん}しています。",
+    "この町は昔から絹の産業が盛んです。": "この{町|まち}は{昔|むかし}から{絹|きぬ}の{産|さん}{業|ぎょう}が{盛|さか}んです。",
+    "日本もベトナムもアジアの国です。": "{日本|にほん}もベトナムもアジアの{国|くに}です。",
+    "アフリカに行ったことがありますか。": "アフリカに{行|い}ったことがありますか。",
+    "この映画はアメリカで作られました。": "この{映|えい}{画|が}はアメリカで{作|つく}られました。",
+    "コンサートの会場は駅のすぐ前です。": "コンサートの{会|かい}{場|じょう}は{駅|えき}のすぐ{前|まえ}です。",
+    "私の家は二階建てです。": "{私|わたし}の{家|いえ}は{二|に}{階|かい}{建|だ}てです。",
+    "私は先生にほめられました。": "{私|わたし}は{先|せん}{生|せい}にほめられました。",
+    "電車の中で、すりに財布を盗まれました。": "{電|でん}{車|しゃ}の{中|なか}で、すりに{財|さい}{布|ふ}を{盗|ぬす}まれました。",
+    "来月、東京で国際会議が開かれます。": "{来|らい}{月|げつ}、{東京|とうきょう}で{国|こく}{際|さい}{会|かい}{議|ぎ}が{開|ひら}かれます。",
+    "私は先生がほめられました。": "{私|わたし}は{先|せん}{生|せい}がほめられました。",
+    "私はすりに財布を盗まれました。": "{私|わたし}はすりに{財|さい}{布|ふ}を{盗|ぬす}まれました。",
+    "私はすりに財布を盗みました。": "{私|わたし}はすりに{財|さい}{布|ふ}を{盗|ぬす}みました。",
+    "電車で足を踏みられました。": "{電|でん}{車|しゃ}で{足|あし}を{踏|ふ}みられました。",
+    "駅で1時間も待ちました。": "{駅|えき}で1{時間|じかん}も{待|ま}ちました。",
+    "財布にお金が1円もありません。": "{財|さい}{布|ふ}にお{金|かね}が1{円|えん}もありません。",
+    "この本は3回も読みました。": "この{本|ほん}は3{回|かい}も{読|よ}みました。",
+    "アフリカには一度も行ったことがありません。": "アフリカには{一|いち}{度|ど}も{行|い}ったことがありません。",
+    "お金が1円もありません。": "お{金|かね}が1{円|えん}もありません。",
+    "お金が1円もあります。": "お{金|かね}が1{円|えん}もあります。",
+    "教室には一人もいません。": "{教|きょう}{室|しつ}には{一人|ひとり}もいません。",
+    "教室には一人もいます。": "{教|きょう}{室|しつ}には{一人|ひとり}もいます。",
+    "に": "に",
+    "が": "が",
+    "を": "を",
+    "財布を＿。": "{財|さい}{布|ふ}を＿。",
+    "盗まれました": "{盗|ぬす}まれました",
+    "盗みました": "{盗|ぬす}みました",
+    "盗んでいました": "{盗|ぬす}んでいました",
+    "書く": "{書|か}く",
+    "書かれる": "{書|か}かれる",
+    "言う": "{言|い}う",
+    "言われる": "{言|い}われる",
+    "食べる": "{食|た}べる",
+    "食べられる": "{食|た}べられる",
+    "する": "する",
+    "される": "される",
+    "来る": "{来|く}る",
+    "来られる": "{来|こ}られる",
+    "踏まれました": "{踏|ふ}まれました",
+    "踏みました": "{踏|ふ}みました",
+    "踏めました": "{踏|ふ}めました",
+    "私は母にしかられました。": "{私|わたし}は{母|はは}にしかられました。",
+    "私は母をしかりました。": "{私|わたし}は{母|はは}をしかりました。",
+    "母は私にしかられました。": "{母|はは}は{私|わたし}にしかられました。",
+    "私はすりを財布に盗まれました。": "{私|わたし}はすりを{財|さい}{布|ふ}に{盗|ぬす}まれました。",
+    "すりは私に財布を盗まれました。": "すりは{私|わたし}に{財|さい}{布|ふ}を{盗|ぬす}まれました。",
+    "この寺は": "この{寺|てら}は",
+    "500年前に": "500{年|ねん}{前|まえ}に",
+    "建てられました": "{建|た}てられました",
+    "この寺は500年前に建てられました": "この{寺|てら}は500{年|ねん}{前|まえ}に{建|た}てられました",
+    "開かれます": "{開|ひら}かれます",
+    "開けます": "{開|あ}けます",
+    "開いています": "{開|あ}いています",
+    "田中さんの": "{田中|たなか}さんの",
+    "パーティーに": "パーティーに",
+    "招待されました": "{招|しょう}{待|たい}されました",
+    "田中さんのパーティーに招待されました": "{田中|たなか}さんのパーティーに{招|しょう}{待|たい}されました",
+    "友達に宿題を手伝ってもらいました。": "{友|とも}{達|だち}に{宿|しゅく}{題|だい}を{手伝|てつだ}ってもらいました。",
+    "友達に宿題を手伝われました。": "{友|とも}{達|だち}に{宿|しゅく}{題|だい}を{手伝|てつだ}われました。",
+    "友達の宿題を手伝ってあげました。": "{友|とも}{達|だち}の{宿|しゅく}{題|だい}を{手伝|てつだ}ってあげました。",
+    "も": "も",
+    "しか": "しか",
+    "ずつ": "ずつ",
+    "財布にお金が1円も＿。": "{財|さい}{布|ふ}にお{金|かね}が1{円|えん}も＿。",
+    "ありません": "ありません",
+    "あります": "あります",
+    "ありました": "ありました",
+    "アフリカには": "アフリカには",
+    "一度も": "{一|いち}{度|ど}も",
+    "行ったことが": "{行|い}ったことが",
+    "アフリカには一度も行ったことがありません": "アフリカには{一|いち}{度|ど}も{行|い}ったことがありません",
+    "一度もアフリカには行ったことがありません": "{一|いち}{度|ど}もアフリカには{行|い}ったことがありません",
+    "しかる": "しかる",
+    "ほめる": "ほめる",
+    "盗む": "{盗|ぬす}む",
+    "踏む": "{踏|ふ}む",
+    "かむ": "かむ",
+    "輸出": "{輸|ゆ}{出|しゅつ}",
+    "輸入": "{輸|ゆ}{入|にゅう}",
+    "生産": "{生|せい}{産|さん}",
+    "産業": "{産|さん}{業|ぎょう}",
+    "市民": "{市|し}{民|みん}",
+    "＿のシャツ": "＿のシャツ",
+    "木綿": "{木綿|もめん}",
+    "絹": "{絹|きぬ}",
+    "米": "{米|こめ}",
+    "駅では＿に気をつけてください。": "{駅|えき}では＿に{気|き}をつけてください。",
+    "すり": "すり",
+    "会場": "{会|かい}{場|じょう}",
+    "私は電車で足を踏まれました。": "{私|わたし}は{電|でん}{車|しゃ}で{足|あし}を{踏|ふ}まれました。",
+    "私は電車の中で誰かに足を踏まれました。": "{私|わたし}は{電|でん}{車|しゃ}の{中|なか}で{誰|だれ}かに{足|あし}を{踏|ふ}まれました。",
+    "この家は去年建てられました。": "この{家|いえ}は{去|きょ}{年|ねん}{建|た}てられました。",
+    "私は2時間も待ちました。": "{私|わたし}は2{時間|じかん}も{待|ま}ちました。",
+    "財布にお金がいくらありますか。": "{財|さい}{布|ふ}にお{金|かね}がいくらありますか。",
+    "1円もありません。": "1{円|えん}もありません。",
+    "お金は1円もありません。": "お{金|かね}は1{円|えん}もありません。",
+    "財布にはお金が1円もありません。": "{財|さい}{布|ふ}にはお{金|かね}が1{円|えん}もありません。"
+  }
+}

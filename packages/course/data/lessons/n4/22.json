@@ -1,0 +1,1197 @@
+{
+  "id": "n4-22",
+  "goalsVi": [
+    "Nói ai bắt hoặc cho phép ai làm gì bằng thể sai khiến: 母は子供に野菜を食べさせました",
+    "Xin phép được làm một việc: 少し休ませてください、その仕事は私にやらせてください",
+    "Than phiền mình bị bắt làm việc không muốn: 先輩にお酒を飲まされました",
+    "Nói về gia đình, trường học, giáo dục: 祖父、祖母、親、校長、中学校、数学"
+  ],
+  "words": [
+    {
+      "no": 682,
+      "word": "赤ん坊",
+      "meaningsVi": [
+        "em bé, trẻ sơ sinh"
+      ],
+      "noteVi": "Âm Hán Việt \"xích phường\" (赤: đỏ, vì trẻ mới sinh da đỏ hồng). Khi nói chuyện, nhẹ nhàng hơn là あかちゃん.",
+      "examples": [
+        {
+          "ja": "隣の部屋で赤ん坊が泣いています。",
+          "vi": "Ở phòng bên cạnh có em bé đang khóc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 680,
+      "word": "あかちゃん",
+      "meaningsVi": [
+        "em bé"
+      ],
+      "noteVi": "Kanji: 赤ちゃん. Cách nói thân thiện, hay dùng hơn 赤ん坊; nói về con của người khác cũng dùng あかちゃん.",
+      "examples": [
+        {
+          "ja": "姉にあかちゃんが生まれました。",
+          "vi": "Chị tôi vừa sinh em bé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 778,
+      "word": "親",
+      "meaningsVi": [
+        "bố mẹ, cha mẹ"
+      ],
+      "noteVi": "Chỉ cha mẹ nói chung (một người hay cả hai). 両親 là \"bố mẹ\" (cả hai người), trang trọng hơn khi nói về bố mẹ mình.",
+      "examples": [
+        {
+          "ja": "親を心配させたくないです。",
+          "vi": "Tôi không muốn làm bố mẹ lo lắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 877,
+      "word": "子",
+      "meaningsVi": [
+        "đứa trẻ, đứa bé",
+        "con (của ai)"
+      ],
+      "noteVi": "Thường đi với từ bổ nghĩa: この子 (đứa bé này), うちの子 (con nhà tôi), 男の子, 女の子. Đứng một mình thường nói 子供.",
+      "examples": [
+        {
+          "ja": "うちの子は野菜が嫌いです。",
+          "vi": "Con nhà tôi ghét rau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 885,
+      "word": "校長",
+      "meaningsVi": [
+        "hiệu trưởng"
+      ],
+      "noteVi": "Âm Hán Việt \"hiệu trưởng\". Học sinh gọi là 校長先生.",
+      "examples": [
+        {
+          "ja": "校長先生の話は長かったです。",
+          "vi": "Bài nói của thầy hiệu trưởng dài quá."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 845,
+      "word": "教育",
+      "meaningsVi": [
+        "giáo dục"
+      ],
+      "noteVi": "Âm Hán Việt \"giáo dục\", nghĩa giống tiếng Việt. Động từ: 教育する.",
+      "examples": [
+        {
+          "ja": "子供の教育にはお金がかかります。",
+          "vi": "Việc giáo dục con cái tốn tiền."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1021,
+      "word": "育てる",
+      "meaningsVi": [
+        "nuôi, nuôi dạy (con)",
+        "trồng (cây)"
+      ],
+      "noteVi": "Tha động từ: 子供を育てる. Dùng cho cả người, động vật, cây cối.",
+      "examples": [
+        {
+          "ja": "祖母は5人の子供を育てました。",
+          "vi": "Bà tôi đã nuôi lớn 5 người con."
+        },
+        {
+          "ja": "庭で野菜を育てています。",
+          "vi": "Tôi đang trồng rau trong vườn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 835,
+      "word": "厳しい",
+      "meaningsVi": [
+        "nghiêm khắc",
+        "khắc nghiệt (thời tiết, quy định)"
+      ],
+      "noteVi": "Âm Hán Việt \"nghiêm\". Dùng cho người (先生が厳しい), quy định (規則が厳しい), thời tiết (厳しい冬).",
+      "examples": [
+        {
+          "ja": "父は厳しくて、毎晩私に勉強させました。",
+          "vi": "Bố tôi nghiêm khắc, tối nào cũng bắt tôi học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1141,
+      "word": "ねっしん",
+      "meaningsVi": [
+        "nhiệt tình, chăm chỉ, say mê"
+      ],
+      "noteVi": "Kanji: 熱心 (Hán Việt \"nhiệt tâm\"). Tính từ đuôi な: ねっしんな先生; trước động từ: ねっしんに勉強する.",
+      "examples": [
+        {
+          "ja": "グエンさんはねっしんに日本語を勉強しています。",
+          "vi": "Anh Nguyễn đang chăm chỉ học tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1145,
+      "word": "残る",
+      "meaningsVi": [
+        "còn lại",
+        "ở lại"
+      ],
+      "noteVi": "Tự động từ: お金が残る (tiền còn lại). Để lại cái gì thì dùng 残す (tha động từ).",
+      "examples": [
+        {
+          "ja": "昨日は遅くまで会社に残りました。",
+          "vi": "Hôm qua tôi ở lại công ty đến khuya."
+        },
+        {
+          "ja": "ご飯が少し残っています。",
+          "vi": "Cơm còn lại một ít."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1155,
+      "word": "運ぶ",
+      "meaningsVi": [
+        "mang, chở, khuân (đồ)"
+      ],
+      "noteVi": "Âm Hán Việt \"vận\" (vận chuyển). Mang đồ từ chỗ này sang chỗ khác: 机を運ぶ, 荷物を運ぶ.",
+      "examples": [
+        {
+          "ja": "部長は私に重い荷物を運ばせました。",
+          "vi": "Trưởng phòng bắt tôi khuân hành lý nặng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1066,
+      "word": "中学校",
+      "meaningsVi": [
+        "trường trung học cơ sở (cấp 2)"
+      ],
+      "noteVi": "Âm Hán Việt \"trung học hiệu\" nhưng chỉ là cấp 2 (3 năm, sau 6 năm 小学校). Nói tắt: 中学. Lớp được đếm lại từ 1: 中学校の2年生 là năm thứ hai cấp 2.",
+      "examples": [
+        {
+          "ja": "妹は中学校の2年生です。",
+          "vi": "Em gái tôi học lớp 8 (năm thứ 2 trung học cơ sở)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 888,
+      "word": "高等学校",
+      "meaningsVi": [
+        "trường trung học phổ thông (cấp 3)"
+      ],
+      "noteVi": "Âm Hán Việt \"cao đẳng học hiệu\" nhưng **không phải** trường cao đẳng: đây là cấp 3 (3 năm). Thường nói tắt là 高校 (đã học).",
+      "examples": [
+        {
+          "ja": "兄は高等学校の先生です。",
+          "vi": "Anh trai tôi là giáo viên trường cấp 3."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 887,
+      "word": "講堂",
+      "meaningsVi": [
+        "hội trường (trong trường học)"
+      ],
+      "noteVi": "Âm Hán Việt \"giảng đường\" nhưng không phải phòng học: là hội trường lớn để làm lễ, nghe nói chuyện. Giảng đường đại học (phòng học lớn) là 教室.",
+      "examples": [
+        {
+          "ja": "朝、学生はみな講堂に集まりました。",
+          "vi": "Buổi sáng, học sinh tập trung hết ở hội trường."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 985,
+      "word": "数学",
+      "meaningsVi": [
+        "toán học, môn toán"
+      ],
+      "noteVi": "Âm Hán Việt \"số học\" nhưng chỉ toàn bộ môn toán.",
+      "examples": [
+        {
+          "ja": "数学の先生は毎日宿題を出します。",
+          "vi": "Thầy dạy toán ngày nào cũng giao bài tập."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1069,
+      "word": "地理",
+      "meaningsVi": [
+        "địa lý (môn học)"
+      ],
+      "noteVi": "Âm Hán Việt \"địa lý\", nghĩa giống tiếng Việt.",
+      "examples": [
+        {
+          "ja": "地理の授業で世界の地図を見ました。",
+          "vi": "Trong giờ địa lý chúng tôi đã xem bản đồ thế giới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1023,
+      "word": "祖父",
+      "meaningsVi": [
+        "ông (của mình)"
+      ],
+      "noteVi": "Dùng khi kể với người ngoài về ông mình. Gọi ông mình, hoặc nói về ông người khác: おじいさん.",
+      "examples": [
+        {
+          "ja": "祖父は毎朝公園を散歩します。",
+          "vi": "Sáng nào ông tôi cũng đi dạo công viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1025,
+      "word": "祖母",
+      "meaningsVi": [
+        "bà (của mình)"
+      ],
+      "noteVi": "Dùng khi kể với người ngoài về bà mình. Gọi bà, hoặc nói về bà người khác: おばあさん.",
+      "examples": [
+        {
+          "ja": "祖母はよく昔の話をしてくれます。",
+          "vi": "Bà tôi hay kể chuyện ngày xưa cho tôi nghe."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1033,
+      "word": "大学生",
+      "meaningsVi": [
+        "sinh viên đại học"
+      ],
+      "noteVi": "Tiếng Nhật phân biệt: 小学生 (học sinh tiểu học), 中学生, 高校生, 大学生. 学生 thường chỉ sinh viên.",
+      "examples": [
+        {
+          "ja": "兄は大学生で、医学を勉強しています。",
+          "vi": "Anh trai tôi là sinh viên, đang học y."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 883,
+      "word": "高校生",
+      "meaningsVi": [
+        "học sinh cấp 3"
+      ],
+      "examples": [
+        {
+          "ja": "高校生のとき、テニスをしていました。",
+          "vi": "Hồi học cấp 3, tôi chơi tennis."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 704,
+      "word": "医学",
+      "meaningsVi": [
+        "y học, ngành y"
+      ],
+      "noteVi": "Âm Hán Việt \"y học\". Học ngành y: 医学を勉強する.",
+      "examples": [
+        {
+          "ja": "医学の勉強は大変です。",
+          "vi": "Học y vất vả lắm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 945,
+      "word": "しっかり",
+      "meaningsVi": [
+        "chắc, chặt",
+        "chăm chỉ, kỹ càng",
+        "(người) chín chắn, đáng tin"
+      ],
+      "noteVi": "Trước động từ: しっかり持つ (cầm chặt), しっかり食べる (ăn đầy đủ). Nói về người: しっかりした人.",
+      "examples": [
+        {
+          "ja": "試験の前に、しっかり勉強してください。",
+          "vi": "Trước kỳ thi hãy học hành cho kỹ."
+        },
+        {
+          "ja": "田中さんはしっかりした人です。",
+          "vi": "Anh Tanaka là người chín chắn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 730,
+      "word": "写す",
+      "meaningsVi": [
+        "chép lại",
+        "chụp (ảnh)"
+      ],
+      "noteVi": "Chép theo bản gốc: ノートを写す. Chụp ảnh thường nói 写真を撮る; 写す nhấn mạnh việc ghi lại hình ảnh.",
+      "examples": [
+        {
+          "ja": "友達の宿題を写してはいけません。",
+          "vi": "Không được chép bài tập của bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1238,
+      "word": "みな",
+      "meaningsVi": [
+        "mọi người, tất cả"
+      ],
+      "noteVi": "Kanji: 皆. Như みんな nhưng trang trọng hơn. Chào nhiều người: 皆さん.",
+      "examples": [
+        {
+          "ja": "家族はみな元気です。",
+          "vi": "Cả nhà tôi đều khỏe."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "弟",
+      "meaningVi": "em trai",
+      "noteVi": "Gặp trong 弟 (おとうと), 兄弟 (きょうだい, anh em).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "姉",
+      "meaningVi": "chị gái",
+      "noteVi": "Bộ 女 (nữ) bên trái. Gặp trong 姉 (あね), お姉さん.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "妹",
+      "meaningVi": "em gái",
+      "noteVi": "Bộ 女 + 未. Gặp trong 妹 (いもうと). Đừng nhầm với 姉 (chị).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "堂",
+      "meaningVi": "gian nhà lớn, hội trường",
+      "noteVi": "Gặp trong 食堂 (nhà ăn), 講堂 (hội trường).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "教",
+      "meaningVi": "dạy",
+      "noteVi": "Gặp trong 教える (dạy), 教室 (lớp học), 教育 (giáo dục).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "公",
+      "meaningVi": "công, chung (của mọi người)",
+      "noteVi": "Gặp trong 公園 (công viên), 公務員 (công chức).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "seru-saseru",
+      "titleVi": "〜せる / 〜させる: bắt, cho (ai) làm",
+      "summaryVi": "Thể sai khiến: người trên bắt hoặc cho phép người khác làm gì: 母は子供に野菜を食べさせました.",
+      "explanationVi": [
+        "**Thể sai khiến** (〜せる / 〜させる) nói một người **bắt** hoặc **cho, để** người khác làm việc gì: 「母は子供に野菜を食べさせました」 (Mẹ bắt con ăn rau), 「父は私を一人で旅行させてくれました」 (Bố cho tôi đi du lịch một mình). Tiếng Việt có hai từ \"bắt\" và \"cho\", tiếng Nhật chỉ có một dạng: hiểu theo ngữ cảnh. Thể sai khiến còn dùng cho cảm xúc: 「母を心配させました」 (Tôi đã làm mẹ lo).",
+        "Cách chia: **Nhóm 1** đổi đuôi sang hàng あ + **せる**: 書く → 書か**せる**, 飲む → 飲ま**せる**, 待つ → 待た**せる**, 言う → 言わ**せる** (う → わ). **Nhóm 2** bỏ る + **させる**: 食べる → 食べ**させる**, 見る → 見**させる**. **Nhóm 3**: する → **させる**, 来る → **来させる** (こさせる). Động từ mới chia như nhóm 2: 書かせます, 書かせて, 書かせた, 書かせない. Mẹo nhớ: giống thể bị động, chỉ đổi れ thành せ (書かれる → 書かせる).",
+        "Trợ từ: khi động từ đã có tân ngữ với を, người bị bắt làm đi với **に**: 「先生は学生**に**作文**を**書かせました」 (một câu không có hai を). Khi động từ không có を (行く, 遊ぶ, 待つ…), người đó thường đi với **を**: 「子供**を**公園で遊ばせました」.",
+        "Người bắt hoặc cho phép thường là **người trên** (cha mẹ, thầy cô, cấp trên). Không dùng thể sai khiến khi người làm là người trên: không nói 「部長に説明させました」; muốn nhờ người trên thì dùng 〜ていただく (N4-03)."
+      ],
+      "patterns": [
+        "A は B に N を V-(さ)せる (động từ có を)",
+        "A は B を V-(さ)せる (động từ không có を)",
+        "Nhóm 1: 書く → 書かせる; Nhóm 2: 食べる → 食べさせる; する → させる; 来る → 来させる"
+      ],
+      "examples": [
+        {
+          "ja": "母は子供に野菜を食べさせました。",
+          "vi": "Mẹ bắt con ăn rau."
+        },
+        {
+          "ja": "先生は学生に作文を書かせました。",
+          "vi": "Thầy giáo bắt học sinh viết bài văn."
+        },
+        {
+          "ja": "日曜日は子供を公園で遊ばせます。",
+          "vi": "Chủ nhật tôi cho con chơi ở công viên."
+        },
+        {
+          "ja": "試験に落ちて、親を心配させました。",
+          "vi": "Tôi thi trượt, làm bố mẹ lo lắng."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生は学生を作文を書かせました。",
+          "right": "先生は学生に作文を書かせました。",
+          "noteVi": "Câu đã có 作文を thì người bị bắt làm đi với に; một câu không dùng hai を."
+        },
+        {
+          "wrong": "先生は学生に作文を書かさせました。",
+          "right": "先生は学生に作文を書かせました。",
+          "noteVi": "Nhóm 1 chỉ thêm せる vào hàng あ: 書か + せる. させる chỉ dùng cho nhóm 2 và する."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "sasete-kudasai",
+      "titleVi": "〜させてください: xin cho tôi được …",
+      "summaryVi": "Thể sai khiến dạng て + ください: xin người nghe cho phép mình làm việc gì: 今日は早く帰らせてください.",
+      "explanationVi": [
+        "**Thể sai khiến dạng て + ください** nghĩa là \"**xin cho tôi** …\", \"xin phép cho tôi được …\". Người nói xin người nghe cho phép **chính mình** làm một việc: 「少し休ませてください」 (Xin cho tôi nghỉ một chút).",
+        "Cách ghép: động từ → thể sai khiến → thể て + ください: 帰る → 帰らせる → 帰ら**せてください**; 考える → 考え**させてください**; 説明する → 説明**させてください**. Lịch sự hơn: **〜させていただけませんか**.",
+        "So với 〜てもいいですか (N5): 〜てもいいですか là **hỏi** xem có được không; 〜させてください là **xin**, cho thấy mình thật sự muốn làm, thường kèm lý do. Cũng dùng để xung phong lịch sự: 「その仕事は私にやらせてください」 (Việc đó xin để tôi làm).",
+        "Đừng nhầm: 「説明**して**ください」 là nhờ **người nghe** giải thích; 「説明**させて**ください」 là xin cho **mình** giải thích."
+      ],
+      "patterns": [
+        "V-(さ)せて + ください",
+        "V-(さ)せて + いただけませんか (lịch sự hơn)"
+      ],
+      "examples": [
+        {
+          "ja": "すみません、今日は早く帰らせてください。",
+          "vi": "Xin lỗi, hôm nay cho tôi về sớm."
+        },
+        {
+          "ja": "その仕事は私にやらせてください。",
+          "vi": "Việc đó xin hãy để tôi làm."
+        },
+        {
+          "ja": "少し考えさせてください。",
+          "vi": "Cho tôi suy nghĩ một chút."
+        },
+        {
+          "ja": "この写真を撮らせていただけませんか。",
+          "vi": "Cho phép tôi chụp bức ảnh này được không ạ?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "今日は早く帰りさせてください。",
+          "right": "今日は早く帰らせてください。",
+          "noteVi": "Không ghép させて vào dạng ます. 帰る là nhóm 1: 帰ら + せて."
+        },
+        {
+          "wrong": "熱があるので、少し休んでください。",
+          "right": "熱があるので、少し休ませてください。",
+          "noteVi": "Muốn xin cho mình nghỉ thì dùng 休ませてください. 休んでください là bảo người nghe nghỉ: câu đúng ngữ pháp nhưng sai ý."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "serareru-saserareru",
+      "titleVi": "〜せられる / 〜させられる: bị bắt phải …",
+      "summaryVi": "Thể bị động sai khiến: mình bị người khác bắt làm việc mình không muốn: 母に野菜を食べさせられました.",
+      "explanationVi": [
+        "**Thể bị động sai khiến** = sai khiến + bị động, nghĩa là \"**bị (ai) bắt phải** …\". Chủ ngữ là người **bị bắt làm**, người bắt đi với **に**. Câu thường mang ý **không muốn, than phiền**: 「私は母に野菜を食べさせられました」 (Tôi bị mẹ bắt ăn rau).",
+        "Cách chia: từ thể sai khiến, đổi る thành **られる**: 食べさせる → 食べさせ**られる**, させる → させ**られる**, 来させる → 来させ**られる**, 書かせる → 書かせ**られる**. Nhóm 1 (trừ động từ đuôi す) có **dạng rút gọn**, hay dùng hơn khi nói: hàng あ + **される**: 書かされる, 飲まされる, 待たされる. Động từ đuôi す chỉ có dạng dài: 話す → 話させられる.",
+        "So sánh: 「母は私に野菜を**食べさせました**」 (sai khiến: kể từ phía mẹ), 「私は母に野菜を**食べさせられました**」 (bị động sai khiến: kể từ phía mình, mình không muốn), 「私は母に野菜を**食べられました**」 (bị động: mẹ ăn mất rau của tôi). Tiếng Việt chỉ thêm \"bị … bắt\", tiếng Nhật đổi cả dạng động từ."
+      ],
+      "patterns": [
+        "(私は) A に N を V-(さ)せられる",
+        "Nhóm 1: 書かせられる = 書かされる; Nhóm 2: 食べさせられる",
+        "する → させられる; 来る → 来させられる"
+      ],
+      "examples": [
+        {
+          "ja": "子供のとき、母に野菜を食べさせられました。",
+          "vi": "Hồi nhỏ tôi bị mẹ bắt ăn rau."
+        },
+        {
+          "ja": "友達に駅で1時間も待たされました。",
+          "vi": "Tôi bị bạn bắt chờ ở ga những 1 tiếng."
+        },
+        {
+          "ja": "先輩にお酒を飲まされました。",
+          "vi": "Tôi bị đàn anh ép uống rượu."
+        },
+        {
+          "ja": "昨日は部長に重い荷物を運ばされました。",
+          "vi": "Hôm qua tôi bị trưởng phòng bắt khuân đồ nặng."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は母を野菜を食べさせられました。",
+          "right": "私は母に野菜を食べさせられました。",
+          "noteVi": "Người bắt mình làm đi với に."
+        },
+        {
+          "wrong": "先輩にお酒を飲まさせられました。",
+          "right": "先輩にお酒を飲まされました。",
+          "noteVi": "Dạng rút gọn: hàng あ + される (飲ま + される). Dạng dài: 飲ませられる. Không có 飲まさせられる."
+        },
+        {
+          "wrong": "子供のとき、母に野菜を食べさせました。",
+          "right": "子供のとき、母に野菜を食べさせられました。",
+          "noteVi": "食べさせました là \"tôi bắt mẹ ăn rau\", ngược nghĩa. Mình bị bắt thì dùng 食べさせられました."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-22-e01",
+      "type": "choice",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "promptVi": "Thể sai khiến của 書く là gì?",
+      "options": [
+        "書かせる",
+        "書かれる",
+        "書ける"
+      ],
+      "answer": 0,
+      "explainVi": "Nhóm 1: hàng あ + せる. 書かれる là bị động, 書ける là khả năng."
+    },
+    {
+      "id": "n4-22-e02",
+      "type": "choice",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "promptVi": "Thể sai khiến của 食べる là gì?",
+      "options": [
+        "食べさせる",
+        "食べられる",
+        "食べさせられる"
+      ],
+      "answer": 0,
+      "explainVi": "Nhóm 2: bỏ る + させる. 食べさせられる là bị động sai khiến."
+    },
+    {
+      "id": "n4-22-e03",
+      "type": "fill",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "before": "先生は学生",
+      "after": "作文を書かせました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "が"
+      ],
+      "vi": "Thầy giáo bắt học sinh viết bài văn.",
+      "explainVi": "Động từ đã có 作文を, nên người bị bắt làm đi với に."
+    },
+    {
+      "id": "n4-22-e04",
+      "type": "choice",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "子供に好きな物を食べさせます。",
+      "options": [
+        "Tôi cho con ăn món con thích.",
+        "Con cho tôi ăn món tôi thích.",
+        "Tôi được con nấu cho món tôi thích."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-22-e05",
+      "type": "order",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "vi": "Trưởng phòng bắt tôi khuân hành lý nặng.",
+      "tiles": [
+        "部長は",
+        "私に",
+        "重い荷物を",
+        "運ばせました"
+      ],
+      "answers": [
+        "部長は私に重い荷物を運ばせました"
+      ]
+    },
+    {
+      "id": "n4-22-e06",
+      "type": "choice",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "母を心配させました。",
+      "options": [
+        "Tôi đã làm mẹ lo lắng.",
+        "Mẹ đã làm tôi lo lắng.",
+        "Tôi đã lo cho mẹ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-22-e07",
+      "type": "choice",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "promptVi": "\"Mẹ bắt em gái dọn phòng.\" Câu nào đúng?",
+      "options": [
+        "母は妹に部屋を掃除させました。",
+        "母は妹に部屋を掃除されました。",
+        "母は妹に部屋を掃除しました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-22-e08",
+      "type": "fill",
+      "grammar": [
+        "sasete-kudasai"
+      ],
+      "before": "少し",
+      "after": "ください。",
+      "answers": [
+        "休ませて"
+      ],
+      "options": [
+        "休ませて",
+        "休んで",
+        "休まれて"
+      ],
+      "vi": "Xin cho tôi nghỉ một chút."
+    },
+    {
+      "id": "n4-22-e09",
+      "type": "choice",
+      "grammar": [
+        "sasete-kudasai"
+      ],
+      "promptVi": "Bạn bị sốt, muốn xin cấp trên cho về sớm. Bạn nói câu nào?",
+      "options": [
+        "今日は早く帰らせてください。",
+        "今日は早く帰ってください。",
+        "今日は早く帰らせました。"
+      ],
+      "answer": 0,
+      "explainVi": "Xin cho mình làm: thể sai khiến + てください. 帰ってください là bảo người nghe về."
+    },
+    {
+      "id": "n4-22-e10",
+      "type": "order",
+      "grammar": [
+        "sasete-kudasai"
+      ],
+      "vi": "Cho tôi giúp với.",
+      "tiles": [
+        "私にも",
+        "手伝わせて",
+        "ください"
+      ],
+      "answers": [
+        "私にも手伝わせてください"
+      ]
+    },
+    {
+      "id": "n4-22-e11",
+      "type": "choice",
+      "grammar": [
+        "sasete-kudasai"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "少し考えさせてください。",
+      "options": [
+        "Cho tôi suy nghĩ một chút.",
+        "Anh hãy suy nghĩ một chút.",
+        "Tôi bị bắt phải suy nghĩ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-22-e12",
+      "type": "fill",
+      "grammar": [
+        "serareru-saserareru"
+      ],
+      "before": "子供のとき、母に毎日ピアノを練習",
+      "after": "。",
+      "answers": [
+        "させられました"
+      ],
+      "options": [
+        "させられました",
+        "させました",
+        "されました"
+      ],
+      "vi": "Hồi nhỏ, ngày nào tôi cũng bị mẹ bắt tập piano."
+    },
+    {
+      "id": "n4-22-e13",
+      "type": "choice",
+      "grammar": [
+        "serareru-saserareru"
+      ],
+      "promptVi": "\"Tôi bị anh trai bắt chờ 1 tiếng.\" Câu nào đúng?",
+      "options": [
+        "兄に1時間待たされました。",
+        "兄を1時間待たせました。",
+        "兄に1時間待たれました。"
+      ],
+      "answer": 0,
+      "explainVi": "Bị bắt chờ: 待たされる (dạng rút gọn của 待たせられる)."
+    },
+    {
+      "id": "n4-22-e14",
+      "type": "choice",
+      "grammar": [
+        "serareru-saserareru"
+      ],
+      "promptVi": "Dạng rút gọn của 飲ませられる là gì?",
+      "options": [
+        "飲まされる",
+        "飲ませる",
+        "飲まれる"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-22-e15",
+      "type": "order",
+      "grammar": [
+        "serareru-saserareru"
+      ],
+      "vi": "Tôi bị đàn anh ép uống rượu.",
+      "tiles": [
+        "私は",
+        "先輩に",
+        "お酒を",
+        "飲まされました"
+      ],
+      "answers": [
+        "私は先輩にお酒を飲まされました",
+        "先輩に私はお酒を飲まされました"
+      ]
+    },
+    {
+      "id": "n4-22-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "祖父",
+          "ông (của mình)"
+        ],
+        [
+          "祖母",
+          "bà (của mình)"
+        ],
+        [
+          "親",
+          "bố mẹ"
+        ],
+        [
+          "校長",
+          "hiệu trưởng"
+        ],
+        [
+          "赤ん坊",
+          "em bé"
+        ]
+      ]
+    },
+    {
+      "id": "n4-22-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "数学",
+          "môn toán"
+        ],
+        [
+          "地理",
+          "địa lý"
+        ],
+        [
+          "医学",
+          "y học"
+        ],
+        [
+          "教育",
+          "giáo dục"
+        ],
+        [
+          "講堂",
+          "hội trường"
+        ]
+      ]
+    },
+    {
+      "id": "n4-22-e18",
+      "type": "choice",
+      "promptVi": "高等学校 là trường nào?",
+      "options": [
+        "trường cấp 3",
+        "trường cao đẳng",
+        "trường cấp 2"
+      ],
+      "answer": 0,
+      "explainVi": "Âm Hán Việt \"cao đẳng học hiệu\" nhưng là trường cấp 3, nói tắt 高校."
+    },
+    {
+      "id": "n4-22-e19",
+      "type": "fill",
+      "before": "友達のノートを",
+      "after": "。",
+      "answers": [
+        "写しました"
+      ],
+      "options": [
+        "写しました",
+        "運びました",
+        "残りました"
+      ],
+      "vi": "Tôi đã chép vở của bạn."
+    },
+    {
+      "id": "n4-22-e20",
+      "type": "translate",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "vi": "Thầy giáo đã bắt học sinh đọc sách.",
+      "answers": [
+        "先生は学生に本を読ませました。",
+        "先生は[学生|生徒]に本を読ませました。"
+      ],
+      "examples": [
+        {
+          "answer": "せんせいはがくせいにほんをよませました",
+          "score": 100
+        },
+        {
+          "answer": "先生は学生を本を読ませました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "先生は学生に本を読ませませんでした。",
+          "score": 0
+        },
+        {
+          "answer": "学生は先生に本を読ませました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-22-e21",
+      "type": "translate",
+      "grammar": [
+        "sasete-kudasai"
+      ],
+      "vi": "Xin cho tôi nghỉ một chút.",
+      "answers": [
+        "少し休ませてください。",
+        "([私に|私を])[少し|ちょっと]休ませて[ください|いただけませんか|くださいませんか]。"
+      ],
+      "examples": [
+        {
+          "answer": "すこしやすませてください",
+          "score": 100
+        },
+        {
+          "answer": "私に少し休ませてください。",
+          "score": 100
+        },
+        {
+          "answer": "少し休まさせてください。",
+          "score": 80,
+          "issues": [
+            "verb_form"
+          ]
+        },
+        {
+          "answer": "少し休んでください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-22-e22",
+      "type": "translate",
+      "grammar": [
+        "serareru-saserareru"
+      ],
+      "vi": "Hôm qua tôi bị anh trai bắt chờ 2 tiếng.",
+      "answers": [
+        "昨日、兄に2時間待たされました。",
+        "(私は)昨日(、)兄に2時間[待たされました|待たせられました]。"
+      ],
+      "examples": [
+        {
+          "answer": "きのう、あにに2じかんまたされました",
+          "score": 100
+        },
+        {
+          "answer": "昨日、兄を2時間待たされました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "昨日、兄を2時間待たせました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-22-e23",
+      "type": "translate",
+      "grammar": [
+        "seru-saseru"
+      ],
+      "vi": "Tôi đã làm mẹ lo lắng.",
+      "answers": [
+        "母を心配させました。",
+        "(私は)[母|お母さん]を心配させました。"
+      ],
+      "examples": [
+        {
+          "answer": "ははをしんぱいさせました",
+          "score": 100
+        },
+        {
+          "answer": "母を心配しました。",
+          "score": 0
+        },
+        {
+          "answer": "母が心配しました。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "隣の部屋で赤ん坊が泣いています。": "{隣|となり}の{部屋|へや}で{赤|あか}ん{坊|ぼう}が{泣|な}いています。",
+    "姉にあかちゃんが生まれました。": "{姉|あね}にあかちゃんが{生|う}まれました。",
+    "親を心配させたくないです。": "{親|おや}を{心|しん}{配|ぱい}させたくないです。",
+    "うちの子は野菜が嫌いです。": "うちの{子|こ}は{野|や}{菜|さい}が{嫌|きら}いです。",
+    "校長先生の話は長かったです。": "{校|こう}{長|ちょう}{先|せん}{生|せい}の{話|はなし}は{長|なが}かったです。",
+    "子供の教育にはお金がかかります。": "{子|こ}{供|ども}の{教|きょう}{育|いく}にはお{金|かね}がかかります。",
+    "祖母は5人の子供を育てました。": "{祖|そ}{母|ぼ}は5{人|にん}の{子|こ}{供|ども}を{育|そだ}てました。",
+    "庭で野菜を育てています。": "{庭|にわ}で{野|や}{菜|さい}を{育|そだ}てています。",
+    "父は厳しくて、毎晩私に勉強させました。": "{父|ちち}は{厳|きび}しくて、{毎|まい}{晩|ばん}{私|わたし}に{勉|べん}{強|きょう}させました。",
+    "グエンさんはねっしんに日本語を勉強しています。": "グエンさんはねっしんに{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しています。",
+    "昨日は遅くまで会社に残りました。": "{昨日|きのう}は{遅|おそ}くまで{会|かい}{社|しゃ}に{残|のこ}りました。",
+    "ご飯が少し残っています。": "ご{飯|はん}が{少|すこ}し{残|のこ}っています。",
+    "部長は私に重い荷物を運ばせました。": "{部|ぶ}{長|ちょう}は{私|わたし}に{重|おも}い{荷|に}{物|もつ}を{運|はこ}ばせました。",
+    "妹は中学校の2年生です。": "{妹|いもうと}は{中|ちゅう}{学|がっ}{校|こう}の2{年生|ねんせい}です。",
+    "兄は高等学校の先生です。": "{兄|あに}は{高|こう}{等|とう}{学|がっ}{校|こう}の{先|せん}{生|せい}です。",
+    "朝、学生はみな講堂に集まりました。": "{朝|あさ}、{学|がく}{生|せい}はみな{講|こう}{堂|どう}に{集|あつ}まりました。",
+    "数学の先生は毎日宿題を出します。": "{数|すう}{学|がく}の{先|せん}{生|せい}は{毎|まい}{日|にち}{宿|しゅく}{題|だい}を{出|だ}します。",
+    "地理の授業で世界の地図を見ました。": "{地|ち}{理|り}の{授|じゅ}{業|ぎょう}で{世|せ}{界|かい}の{地|ち}{図|ず}を{見|み}ました。",
+    "祖父は毎朝公園を散歩します。": "{祖|そ}{父|ふ}は{毎|まい}{朝|あさ}{公|こう}{園|えん}を{散|さん}{歩|ぽ}します。",
+    "祖母はよく昔の話をしてくれます。": "{祖|そ}{母|ぼ}はよく{昔|むかし}の{話|はなし}をしてくれます。",
+    "兄は大学生で、医学を勉強しています。": "{兄|あに}は{大|だい}{学|がく}{生|せい}で、{医|い}{学|がく}を{勉|べん}{強|きょう}しています。",
+    "高校生のとき、テニスをしていました。": "{高|こう}{校|こう}{生|せい}のとき、テニスをしていました。",
+    "医学の勉強は大変です。": "{医|い}{学|がく}の{勉|べん}{強|きょう}は{大変|たいへん}です。",
+    "試験の前に、しっかり勉強してください。": "{試|し}{験|けん}の{前|まえ}に、しっかり{勉|べん}{強|きょう}してください。",
+    "田中さんはしっかりした人です。": "{田中|たなか}さんはしっかりした{人|ひと}です。",
+    "友達の宿題を写してはいけません。": "{友|とも}{達|だち}の{宿|しゅく}{題|だい}を{写|うつ}してはいけません。",
+    "家族はみな元気です。": "{家|か}{族|ぞく}はみな{元|げん}{気|き}です。",
+    "母は子供に野菜を食べさせました。": "{母|はは}は{子|こ}{供|ども}に{野|や}{菜|さい}を{食|た}べさせました。",
+    "先生は学生に作文を書かせました。": "{先|せん}{生|せい}は{学|がく}{生|せい}に{作|さく}{文|ぶん}を{書|か}かせました。",
+    "日曜日は子供を公園で遊ばせます。": "{日|にち}{曜|よう}{日|び}は{子|こ}{供|ども}を{公|こう}{園|えん}で{遊|あそ}ばせます。",
+    "試験に落ちて、親を心配させました。": "{試|し}{験|けん}に{落|お}ちて、{親|おや}を{心|しん}{配|ぱい}させました。",
+    "先生は学生を作文を書かせました。": "{先|せん}{生|せい}は{学|がく}{生|せい}を{作|さく}{文|ぶん}を{書|か}かせました。",
+    "先生は学生に作文を書かさせました。": "{先|せん}{生|せい}は{学|がく}{生|せい}に{作|さく}{文|ぶん}を{書|か}かさせました。",
+    "すみません、今日は早く帰らせてください。": "すみません、{今日|きょう}は{早|はや}く{帰|かえ}らせてください。",
+    "その仕事は私にやらせてください。": "その{仕|し}{事|ごと}は{私|わたし}にやらせてください。",
+    "少し考えさせてください。": "{少|すこ}し{考|かんが}えさせてください。",
+    "この写真を撮らせていただけませんか。": "この{写|しゃ}{真|しん}を{撮|と}らせていただけませんか。",
+    "今日は早く帰らせてください。": "{今日|きょう}は{早|はや}く{帰|かえ}らせてください。",
+    "今日は早く帰りさせてください。": "{今日|きょう}は{早|はや}く{帰|かえ}りさせてください。",
+    "熱があるので、少し休ませてください。": "{熱|ねつ}があるので、{少|すこ}し{休|やす}ませてください。",
+    "熱があるので、少し休んでください。": "{熱|ねつ}があるので、{少|すこ}し{休|やす}んでください。",
+    "子供のとき、母に野菜を食べさせられました。": "{子|こ}{供|ども}のとき、{母|はは}に{野|や}{菜|さい}を{食|た}べさせられました。",
+    "友達に駅で1時間も待たされました。": "{友|とも}{達|だち}に{駅|えき}で1{時間|じかん}も{待|ま}たされました。",
+    "先輩にお酒を飲まされました。": "{先|せん}{輩|ぱい}にお{酒|さけ}を{飲|の}まされました。",
+    "昨日は部長に重い荷物を運ばされました。": "{昨日|きのう}は{部|ぶ}{長|ちょう}に{重|おも}い{荷|に}{物|もつ}を{運|はこ}ばされました。",
+    "私は母に野菜を食べさせられました。": "{私|わたし}は{母|はは}に{野|や}{菜|さい}を{食|た}べさせられました。",
+    "私は母を野菜を食べさせられました。": "{私|わたし}は{母|はは}を{野|や}{菜|さい}を{食|た}べさせられました。",
+    "先輩にお酒を飲まさせられました。": "{先|せん}{輩|ぱい}にお{酒|さけ}を{飲|の}まさせられました。",
+    "子供のとき、母に野菜を食べさせました。": "{子|こ}{供|ども}のとき、{母|はは}に{野|や}{菜|さい}を{食|た}べさせました。",
+    "書かせる": "{書|か}かせる",
+    "書かれる": "{書|か}かれる",
+    "書ける": "{書|か}ける",
+    "食べさせる": "{食|た}べさせる",
+    "食べられる": "{食|た}べられる",
+    "食べさせられる": "{食|た}べさせられる",
+    "に": "に",
+    "を": "を",
+    "が": "が",
+    "子供に好きな物を食べさせます。": "{子|こ}{供|ども}に{好|す}きな{物|もの}を{食|た}べさせます。",
+    "部長は": "{部|ぶ}{長|ちょう}は",
+    "私に": "{私|わたし}に",
+    "重い荷物を": "{重|おも}い{荷|に}{物|もつ}を",
+    "運ばせました": "{運|はこ}ばせました",
+    "部長は私に重い荷物を運ばせました": "{部|ぶ}{長|ちょう}は{私|わたし}に{重|おも}い{荷|に}{物|もつ}を{運|はこ}ばせました",
+    "母を心配させました。": "{母|はは}を{心|しん}{配|ぱい}させました。",
+    "母は妹に部屋を掃除させました。": "{母|はは}は{妹|いもうと}に{部屋|へや}を{掃|そう}{除|じ}させました。",
+    "母は妹に部屋を掃除されました。": "{母|はは}は{妹|いもうと}に{部屋|へや}を{掃|そう}{除|じ}されました。",
+    "母は妹に部屋を掃除しました。": "{母|はは}は{妹|いもうと}に{部屋|へや}を{掃|そう}{除|じ}しました。",
+    "少し休ませてください。": "{少|すこ}し{休|やす}ませてください。",
+    "休ませて": "{休|やす}ませて",
+    "休んで": "{休|やす}んで",
+    "休まれて": "{休|やす}まれて",
+    "今日は早く帰ってください。": "{今日|きょう}は{早|はや}く{帰|かえ}ってください。",
+    "今日は早く帰らせました。": "{今日|きょう}は{早|はや}く{帰|かえ}らせました。",
+    "私にも": "{私|わたし}にも",
+    "手伝わせて": "{手伝|てつだ}わせて",
+    "ください": "ください",
+    "私にも手伝わせてください": "{私|わたし}にも{手伝|てつだ}わせてください",
+    "子供のとき、母に毎日ピアノを練習させられました。": "{子|こ}{供|ども}のとき、{母|はは}に{毎|まい}{日|にち}ピアノを{練|れん}{習|しゅう}させられました。",
+    "させられました": "させられました",
+    "させました": "させました",
+    "されました": "されました",
+    "兄に1時間待たされました。": "{兄|あに}に1{時間|じかん}{待|ま}たされました。",
+    "兄を1時間待たせました。": "{兄|あに}を1{時間|じかん}{待|ま}たせました。",
+    "兄に1時間待たれました。": "{兄|あに}に1{時間|じかん}{待|ま}たれました。",
+    "飲まされる": "{飲|の}まされる",
+    "飲ませる": "{飲|の}ませる",
+    "飲まれる": "{飲|の}まれる",
+    "私は": "{私|わたし}は",
+    "先輩に": "{先|せん}{輩|ぱい}に",
+    "お酒を": "お{酒|さけ}を",
+    "飲まされました": "{飲|の}まされました",
+    "私は先輩にお酒を飲まされました": "{私|わたし}は{先|せん}{輩|ぱい}にお{酒|さけ}を{飲|の}まされました",
+    "先輩に私はお酒を飲まされました": "{先|せん}{輩|ぱい}に{私|わたし}はお{酒|さけ}を{飲|の}まされました",
+    "祖父": "{祖|そ}{父|ふ}",
+    "祖母": "{祖|そ}{母|ぼ}",
+    "親": "{親|おや}",
+    "校長": "{校|こう}{長|ちょう}",
+    "赤ん坊": "{赤|あか}ん{坊|ぼう}",
+    "数学": "{数|すう}{学|がく}",
+    "地理": "{地|ち}{理|り}",
+    "医学": "{医|い}{学|がく}",
+    "教育": "{教|きょう}{育|いく}",
+    "講堂": "{講|こう}{堂|どう}",
+    "友達のノートを写しました。": "{友|とも}{達|だち}のノートを{写|うつ}しました。",
+    "写しました": "{写|うつ}しました",
+    "運びました": "{運|はこ}びました",
+    "残りました": "{残|のこ}りました",
+    "先生は学生に本を読ませました。": "{先|せん}{生|せい}は{学|がく}{生|せい}に{本|ほん}を{読|よ}ませました。",
+    "私に少し休ませてください。": "{私|わたし}に{少|すこ}し{休|やす}ませてください。",
+    "昨日、兄に2時間待たされました。": "{昨日|きのう}、{兄|あに}に2{時間|じかん}{待|ま}たされました。",
+    "私は昨日、兄に2時間待たされました。": "{私|わたし}は{昨日|きのう}、{兄|あに}に2{時間|じかん}{待|ま}たされました。",
+    "私は母を心配させました。": "{私|わたし}は{母|はは}を{心|しん}{配|ぱい}させました。"
+  }
+}

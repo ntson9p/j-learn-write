@@ -1,0 +1,4 @@
+{
+  "_doc": "complete: every kana, word, kanji and grammar point of the level must be taught (checked by the tests); in_progress / planned: not yet.",
+  "levels": { "kana": "complete", "n5": "complete", "n4": "complete" }
+}

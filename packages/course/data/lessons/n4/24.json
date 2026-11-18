@@ -1,0 +1,1050 @@
+{
+  "id": "n4-24",
+  "goalsVi": [
+    "Hiểu ba lớp lịch sự của tiếng Nhật và khi nào dùng tôn kính ngữ: nâng hành động của người trên, khách hàng",
+    "Dùng các động từ tôn kính đặc biệt: いらっしゃる、おっしゃる、なさる、召し上がる、ごらんになる、ご存じ",
+    "Tôn kính các động từ khác bằng お〜になる và mời lịch sự bằng お〜ください: お帰りになりました、お座りください",
+    "Biết không dùng tôn kính ngữ cho mình và cho người trong nhóm mình khi nói với người ngoài"
+  ],
+  "words": [
+    {
+      "no": 720,
+      "word": "いらっしゃる",
+      "meaningsVi": [
+        "đi, đến (tôn kính)",
+        "có ở, ở (tôn kính)"
+      ],
+      "noteVi": "Tôn kính của 行く, 来る, いる; nghĩa theo ngữ cảnh. Dạng ます bất quy tắc: いらっしゃいます. Câu chào khách 「いらっしゃいませ」 cũng từ động từ này.",
+      "examples": [
+        {
+          "ja": "田中先生はいらっしゃいますか。",
+          "vi": "Thầy Tanaka có ở đây không ạ?"
+        },
+        {
+          "ja": "先生は何時にいらっしゃいますか。",
+          "vi": "Mấy giờ thầy đến ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 763,
+      "word": "おっしゃる",
+      "meaningsVi": [
+        "nói (tôn kính)"
+      ],
+      "noteVi": "Tôn kính của 言う. Dạng ます: おっしゃいます (không phải おっしゃります).",
+      "examples": [
+        {
+          "ja": "すみません、もう一度おっしゃってください。",
+          "vi": "Xin lỗi, xin anh/chị nói lại một lần nữa ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1122,
+      "word": "なさる",
+      "meaningsVi": [
+        "làm (tôn kính)"
+      ],
+      "noteVi": "Tôn kính của する: 何をなさいますか. Dạng ます: なさいます. 〜なさい (N4-10) chính là thể mệnh lệnh của động từ này.",
+      "examples": [
+        {
+          "ja": "日曜日は何をなさいますか。",
+          "vi": "Chủ nhật anh/chị làm gì ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1247,
+      "word": "召し上がる",
+      "meaningsVi": [
+        "ăn, uống (tôn kính)",
+        "dùng (bữa, đồ uống)"
+      ],
+      "noteVi": "Tôn kính của 食べる và 飲む. Không dùng cho mình: mình ăn thì khiêm nhường là いただく (いただきます).",
+      "examples": [
+        {
+          "ja": "何を召し上がりますか。",
+          "vi": "Anh/chị dùng gì ạ?"
+        },
+        {
+          "ja": "どうぞ、召し上がってください。",
+          "vi": "Xin mời anh/chị dùng ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 905,
+      "word": "ごらんになる",
+      "meaningsVi": [
+        "xem, nhìn (tôn kính)"
+      ],
+      "noteVi": "Kanji: ご覧になる. Tôn kính của 見る. Mời xem: 「ごらんください」 (Xin mời xem).",
+      "examples": [
+        {
+          "ja": "この写真をごらんになりましたか。",
+          "vi": "Anh/chị đã xem bức ảnh này chưa ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 745,
+      "word": "おいでになる",
+      "meaningsVi": [
+        "đi, đến, ở (tôn kính)"
+      ],
+      "noteVi": "Cùng nghĩa với いらっしゃる nhưng trang trọng hơn, hay gặp trong thông báo, thư từ.",
+      "examples": [
+        {
+          "ja": "社長は明日こちらへおいでになります。",
+          "vi": "Ngày mai giám đốc sẽ đến đây ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 894,
+      "word": "ご存じ",
+      "meaningsVi": [
+        "biết (tôn kính)"
+      ],
+      "noteVi": "Tôn kính của 知っている, dùng như danh từ: ご存じです, ご存じですか. Mình trả lời thì nói 知っています; không biết: 知りません (không nói 知っていません).",
+      "examples": [
+        {
+          "ja": "田中さんをご存じですか。",
+          "vi": "Anh/chị có biết anh Tanaka không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 761,
+      "word": "お宅",
+      "meaningsVi": [
+        "nhà (của người khác, kính trọng)"
+      ],
+      "noteVi": "Chỉ nhà của người khác. Nhà mình: うち, 家.",
+      "examples": [
+        {
+          "ja": "先生のお宅はどちらですか。",
+          "vi": "Nhà thầy ở đâu ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 892,
+      "word": "ご主人",
+      "meaningsVi": [
+        "chồng (của người khác)",
+        "chủ (quán, nhà)"
+      ],
+      "noteVi": "Chồng người khác: ご主人. Chồng mình, khi nói với người ngoài: 主人 hoặc 夫 (không có ご).",
+      "examples": [
+        {
+          "ja": "ご主人はお元気ですか。",
+          "vi": "Chồng chị có khỏe không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 760,
+      "word": "お嬢さん",
+      "meaningsVi": [
+        "con gái (của người khác)",
+        "cô gái trẻ, tiểu thư"
+      ],
+      "noteVi": "Gọi con gái của người khác một cách kính trọng. Con gái mình: 娘. Con trai người khác: 息子さん.",
+      "examples": [
+        {
+          "ja": "お嬢さんはおいくつですか。",
+          "vi": "Con gái anh/chị mấy tuổi rồi ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 842,
+      "word": "客",
+      "meaningsVi": [
+        "khách",
+        "khách hàng"
+      ],
+      "noteVi": "Âm Hán Việt \"khách\". Nói lịch sự: お客さん; với khách trực tiếp, nhân viên nói お客様.",
+      "examples": [
+        {
+          "ja": "今日は店に客が多いです。",
+          "vi": "Hôm nay cửa hàng đông khách."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1083,
+      "word": "丁寧",
+      "meaningsVi": [
+        "lịch sự, lễ phép",
+        "cẩn thận, chu đáo"
+      ],
+      "noteVi": "Âm Hán Việt \"đinh ninh\" nhưng nghĩa là lịch sự, cẩn thận. Tính từ đuôi な: 丁寧な言葉 (lời lẽ lịch sự), 丁寧に書く (viết cẩn thận).",
+      "examples": [
+        {
+          "ja": "田中さんはいつも丁寧に説明してくださいます。",
+          "vi": "Anh Tanaka lúc nào cũng giải thích cho tôi rất chu đáo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1285,
+      "word": "よろしい",
+      "meaningsVi": [
+        "được, tốt (lịch sự)"
+      ],
+      "noteVi": "Cách nói lịch sự của いい. Hỏi xin phép lịch sự: 〜てもよろしいですか, 〜てよろしいでしょうか.",
+      "examples": [
+        {
+          "ja": "この席でよろしいですか。",
+          "vi": "Chỗ ngồi này có được không ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1045,
+      "word": "訪ねる",
+      "meaningsVi": [
+        "đến thăm (người, nơi)"
+      ],
+      "noteVi": "Đừng nhầm với 尋ねる (hỏi), cùng cách đọc たずねる. Thăm ai, thăm nơi nào dùng を: 友達を訪ねる.",
+      "examples": [
+        {
+          "ja": "来週、先生のお宅を訪ねるつもりです。",
+          "vi": "Tuần sau tôi định đến thăm nhà thầy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 744,
+      "word": "遠慮",
+      "meaningsVi": [
+        "ngại, khách sáo",
+        "xin đừng (làm gì) (trên thông báo)"
+      ],
+      "noteVi": "Âm Hán Việt \"viễn lự\". 遠慮しないで: đừng khách sáo. Trên thông báo, 「ご遠慮ください」 là cách cấm rất lịch sự.",
+      "examples": [
+        {
+          "ja": "どうぞ遠慮しないで、たくさん召し上がってください。",
+          "vi": "Xin đừng ngại, anh chị cứ dùng nhiều vào ạ."
+        },
+        {
+          "ja": "ここではたばこはご遠慮ください。",
+          "vi": "Xin quý khách vui lòng không hút thuốc ở đây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1287,
+      "word": "利用",
+      "meaningsVi": [
+        "sử dụng, dùng"
+      ],
+      "noteVi": "Âm Hán Việt \"lợi dụng\" nhưng **không** có nghĩa xấu: chỉ là sử dụng (dịch vụ, phương tiện). Thông báo hay ghi 「ご利用ください」 (Xin mời sử dụng).",
+      "examples": [
+        {
+          "ja": "図書館を利用する時は、静かにしてください。",
+          "vi": "Khi sử dụng thư viện, xin giữ yên lặng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1010,
+      "word": "席",
+      "meaningsVi": [
+        "chỗ ngồi, ghế"
+      ],
+      "noteVi": "Âm Hán Việt \"tịch\" (chủ tịch, tại tịch). Chỗ ngồi ở nhà hàng, rạp, xe; cái ghế (đồ vật) là いす.",
+      "examples": [
+        {
+          "ja": "窓のそばの席に座りました。",
+          "vi": "Tôi đã ngồi chỗ cạnh cửa sổ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1104,
+      "word": "特別",
+      "meaningsVi": [
+        "đặc biệt"
+      ],
+      "noteVi": "Âm Hán Việt \"đặc biệt\". Tính từ đuôi な: 特別な日; trước động từ: 特別に (một cách đặc biệt).",
+      "examples": [
+        {
+          "ja": "今日は特別な日です。",
+          "vi": "Hôm nay là một ngày đặc biệt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "主",
+      "meaningVi": "chủ, chính",
+      "noteVi": "Gặp trong ご主人 (chồng người khác). Thêm 亻 thành 住 (ở), thêm 氵 thành 注.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "有",
+      "meaningVi": "có",
+      "noteVi": "Gặp trong 有名 (nổi tiếng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "族",
+      "meaningVi": "tộc, dòng họ",
+      "noteVi": "Gặp trong 家族 (gia đình).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "特",
+      "meaningVi": "đặc biệt",
+      "noteVi": "Bộ 牛 (bò) bên trái. Gặp trong 特別, 特急, 特に.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "方",
+      "meaningVi": "phía, hướng; người (lịch sự)",
+      "noteVi": "Gặp trong 方 (かた, vị, người: あの方), 〜の方 (ほう, phía), 夕方.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "茶",
+      "meaningVi": "trà",
+      "noteVi": "Bộ 艹 (cỏ) ở trên. Gặp trong お茶, 茶色, 紅茶, 喫茶店.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "sonkeigo",
+      "titleVi": "Tôn kính ngữ (尊敬語): nâng hành động của người khác",
+      "summaryVi": "Khi nói về hành động của người trên, khách hàng, người không thân, dùng động từ tôn kính: いらっしゃる (đi, đến, ở), おっしゃる (nói), 召し上がる (ăn, uống)….",
+      "explanationVi": [
+        "Tiếng Nhật lịch sự có ba lớp. **丁寧語** (です, ます, đã học): lịch sự với người nghe. **尊敬語** (tôn kính ngữ, bài này): **nâng** hành động của **người khác** (người trên, khách hàng, người không thân). **謙譲語** (khiêm nhường ngữ, bài sau): **hạ** hành động của **mình**. Tiếng Việt thể hiện kính trọng chủ yếu bằng xưng hô và từ đệm (thưa, ạ, bác, quý khách); tiếng Nhật đổi hẳn **động từ**.",
+        "Quy tắc quan trọng nhất: tôn kính ngữ chỉ dùng khi **chủ ngữ là người được tôn trọng**: 「先生は何時にいらっしゃいますか」 (Mấy giờ thầy đến ạ?), 「何を召し上がりますか」 (Anh/chị dùng gì ạ?). **Không bao giờ** dùng cho hành động của chính mình: không nói 「私は明日いらっしゃいます」.",
+        "Các động từ thường dùng có **dạng tôn kính riêng** (bảng bên dưới). いらっしゃる, おっしゃる, なさる, くださる có dạng ます bất quy tắc: いらっしゃ**い**ます, おっしゃ**い**ます, なさ**い**ます, くださ**い**ます. 〜ている thành **〜ていらっしゃる**: 「先生は本を読んでいらっしゃいます」. Động từ không có dạng riêng thì dùng お〜になる (điểm ngữ pháp sau).",
+        "**Trong và ngoài nhóm (ウチ / ソト)**: khi nói với **người ngoài** (khách hàng, người công ty khác), người trong nhóm mình (gia đình, đồng nghiệp, kể cả trưởng phòng, giám đốc của mình) được coi như \"mình\": **không** dùng tôn kính ngữ cho họ, gọi tên không có さん. Khách gọi điện hỏi trưởng phòng Tanaka, nhân viên trả lời 「田中は今いません」, không nói 「田中部長はいらっしゃいません」. Tiếng Việt thì vẫn kính trọng sếp mình trước mặt khách (\"Giám đốc chúng tôi đi vắng ạ\"), nên đây là chỗ người Việt hay sai."
+      ],
+      "patterns": [
+        "行く・来る・いる → いらっしゃる (おいでになる)",
+        "言う → おっしゃる",
+        "する → なさる",
+        "食べる・飲む → 召し上がる",
+        "見る → ごらんになる",
+        "知っている → ご存じだ",
+        "くれる → くださる",
+        "寝る → お休みになる",
+        "V-ている → V-ていらっしゃる"
+      ],
+      "examples": [
+        {
+          "ja": "先生は明日、学校にいらっしゃいますか。",
+          "vi": "Ngày mai thầy có đến trường không ạ?"
+        },
+        {
+          "ja": "社長は何とおっしゃいましたか。",
+          "vi": "Giám đốc đã nói gì ạ?"
+        },
+        {
+          "ja": "どうぞ、召し上がってください。",
+          "vi": "Xin mời anh/chị dùng ạ."
+        },
+        {
+          "ja": "先生は今、本を読んでいらっしゃいます。",
+          "vi": "Thầy đang đọc sách ạ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "私は明日、会社にいらっしゃいます。",
+          "right": "私は明日、会社に行きます。",
+          "noteVi": "Tôn kính ngữ không dùng cho hành động của chính mình. Với người trên, mình đi thì dùng 行きます (hoặc khiêm nhường ngữ, bài sau)."
+        },
+        {
+          "wrong": "先生は何とおっしゃりましたか。",
+          "right": "先生は何とおっしゃいましたか。",
+          "noteVi": "Dạng ます của おっしゃる là おっしゃいます (bất quy tắc), tương tự いらっしゃいます, なさいます."
+        },
+        {
+          "wrong": "田中部長は今いらっしゃいません。",
+          "right": "田中は今いません。",
+          "noteVi": "Khi nhân viên trả lời khách về trưởng phòng của công ty mình: không dùng tôn kính ngữ, không gọi chức vụ hay さん sau tên. Câu sai chỉ đúng khi người nói là người ngoài công ty."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "o-ni-naru",
+      "titleVi": "お〜になる: (người trên) làm …",
+      "summaryVi": "お + động từ dạng ます bỏ ます + になる: cách chung để tôn kính hành động của người khác: 部長はもうお帰りになりました.",
+      "explanationVi": [
+        "Động từ không có dạng tôn kính riêng thì dùng **お + V (bỏ ます) + になる**: 帰ります → **お**帰り**になります**, 待ちます → **お**待ち**になります**, 読みます → **お**読み**になります**: 「部長はもうお帰りになりました」 (Trưởng phòng đã về rồi ạ). Với danh từ gốc Hán + する, dùng **ご**: 利用する → **ご**利用**になる**.",
+        "Không dùng お〜になる với động từ có dạng tôn kính riêng hoặc có một âm trước ます (見ます, 寝ます, います, します, 来ます): dùng ごらんになる, お休みになる, いらっしゃる, なさる (xem bảng ở bài 尊敬語). Không nói お見になる, おしになる.",
+        "**お〜ください** là lời mời, đề nghị lịch sự hơn 〜てください, rất hay gặp ở cửa hàng, nhà ga, khách sạn: 「どうぞお座りください」 (Xin mời ngồi), 「少々お待ちください」 (Xin vui lòng chờ một chút), 「ご利用ください」 (Xin mời sử dụng).",
+        "Cách tôn kính nhẹ hơn: dùng **thể bị động** (N4-21) với nghĩa tôn kính: 「社長は何時に戻られますか」 (Mấy giờ giám đốc quay lại ạ?). Hay dùng trong công ty, nhưng お〜になる lịch sự hơn. Dựa vào ngữ cảnh để phân biệt với nghĩa bị động."
+      ],
+      "patterns": [
+        "お + V (bỏ ます) + になる",
+        "ご + N (danh từ gốc Hán + する) + になる: ご利用になる",
+        "お + V (bỏ ます) + ください (mời lịch sự)",
+        "V (bị động) — tôn kính nhẹ: 戻られる"
+      ],
+      "examples": [
+        {
+          "ja": "部長はもうお帰りになりました。",
+          "vi": "Trưởng phòng đã về rồi ạ."
+        },
+        {
+          "ja": "先生はこの本をお読みになりましたか。",
+          "vi": "Thầy đã đọc cuốn sách này chưa ạ?"
+        },
+        {
+          "ja": "どうぞ、こちらの席にお座りください。",
+          "vi": "Xin mời ngồi chỗ này ạ."
+        },
+        {
+          "ja": "社長は何時に戻られますか。",
+          "vi": "Mấy giờ giám đốc quay lại ạ?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "部長はもうお帰りなりました。",
+          "right": "部長はもうお帰りになりました。",
+          "noteVi": "Đừng quên に: お帰り **に** なる."
+        },
+        {
+          "wrong": "先生はこの写真をお見になりましたか。",
+          "right": "先生はこの写真をごらんになりましたか。",
+          "noteVi": "見る có dạng tôn kính riêng: ごらんになる. Không có お見になる."
+        },
+        {
+          "wrong": "お客様、こちらでお待ちしてください。",
+          "right": "お客様、こちらでお待ちください。",
+          "noteVi": "Mời người khác làm gì: お + V (bỏ ます) + ください. Không thêm して."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-24-e01",
+      "type": "match",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "promptVi": "Ghép động từ thường với dạng tôn kính của nó",
+      "pairs": [
+        [
+          "行く・来る・いる",
+          "いらっしゃる"
+        ],
+        [
+          "言う",
+          "おっしゃる"
+        ],
+        [
+          "する",
+          "なさる"
+        ],
+        [
+          "食べる・飲む",
+          "召し上がる"
+        ],
+        [
+          "見る",
+          "ごらんになる"
+        ]
+      ]
+    },
+    {
+      "id": "n4-24-e02",
+      "type": "choice",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "promptVi": "Hỏi thầy giáo một cách kính trọng: \"Thầy đã nói gì ạ?\"",
+      "options": [
+        "先生は何とおっしゃいましたか。",
+        "先生は何と言いましたか。",
+        "先生は何とおっしゃいますか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-24-e03",
+      "type": "fill",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "before": "先生、何を",
+      "after": "か。",
+      "answers": [
+        "召し上がります"
+      ],
+      "options": [
+        "召し上がります",
+        "いただきます",
+        "食べます"
+      ],
+      "vi": "Thầy dùng gì ạ?",
+      "explainVi": "Người trên ăn uống: 召し上がる. いただく dùng cho chính mình."
+    },
+    {
+      "id": "n4-24-e04",
+      "type": "choice",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "promptVi": "Câu nào đúng?",
+      "options": [
+        "先生は明日いらっしゃいますか。",
+        "私は明日いらっしゃいます。",
+        "先生は昨日いらっしゃいますか。"
+      ],
+      "answer": 0,
+      "explainVi": "Tôn kính ngữ không dùng cho mình; việc hôm qua phải dùng quá khứ."
+    },
+    {
+      "id": "n4-24-e05",
+      "type": "choice",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "promptVi": "Bạn là nhân viên công ty. Khách gọi điện hỏi trưởng phòng Tanaka (đang đi vắng). Bạn trả lời thế nào?",
+      "options": [
+        "田中は今いません。",
+        "田中さんは今いらっしゃいません。",
+        "田中部長は今いらっしゃいません。"
+      ],
+      "answer": 0,
+      "explainVi": "Nói với người ngoài về người trong công ty mình: không dùng tôn kính ngữ, không gọi さん hay chức vụ."
+    },
+    {
+      "id": "n4-24-e06",
+      "type": "order",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "vi": "Anh/chị có biết anh Tanaka không ạ?",
+      "tiles": [
+        "田中さんを",
+        "ご存じ",
+        "ですか"
+      ],
+      "answers": [
+        "田中さんをご存じですか"
+      ]
+    },
+    {
+      "id": "n4-24-e07",
+      "type": "fill",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "before": "先生はこの写真を",
+      "after": "か。",
+      "answers": [
+        "ごらんになりました"
+      ],
+      "options": [
+        "ごらんになりました",
+        "見せました",
+        "撮らせました"
+      ],
+      "vi": "Thầy đã xem bức ảnh này chưa ạ?"
+    },
+    {
+      "id": "n4-24-e08",
+      "type": "order",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "vi": "Chủ nhật anh/chị làm gì ạ?",
+      "tiles": [
+        "日曜日は",
+        "何を",
+        "なさいますか"
+      ],
+      "answers": [
+        "日曜日は何をなさいますか"
+      ]
+    },
+    {
+      "id": "n4-24-e09",
+      "type": "fill",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "before": "部長はもうお帰り",
+      "after": "なりました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "が"
+      ],
+      "vi": "Trưởng phòng đã về rồi ạ."
+    },
+    {
+      "id": "n4-24-e10",
+      "type": "choice",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "promptVi": "Dạng tôn kính (người trên chờ) của 待つ là gì?",
+      "options": [
+        "お待ちになる",
+        "お待ちする",
+        "待たせる"
+      ],
+      "answer": 0,
+      "explainVi": "Tôn kính: お + V (bỏ ます) + になる. お待ちする là khiêm nhường (bài sau), 待たせる là sai khiến."
+    },
+    {
+      "id": "n4-24-e11",
+      "type": "choice",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "どうぞ、お座りください。",
+      "options": [
+        "Xin mời ngồi ạ.",
+        "Tôi xin phép ngồi ạ.",
+        "Xin hãy đứng lên ạ."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-24-e12",
+      "type": "order",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "vi": "Thầy đã đọc cuốn sách này chưa ạ?",
+      "tiles": [
+        "先生は",
+        "この本を",
+        "お読みに",
+        "なりましたか"
+      ],
+      "answers": [
+        "先生はこの本をお読みになりましたか"
+      ]
+    },
+    {
+      "id": "n4-24-e13",
+      "type": "choice",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "promptVi": "Thông báo trong thư viện: \"Xin mời quý khách sử dụng.\" Câu nào đúng?",
+      "options": [
+        "どうぞご利用ください。",
+        "どうぞ利用させてください。",
+        "どうぞ利用されてください。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-24-e14",
+      "type": "choice",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "社長は何時に戻られますか。",
+      "options": [
+        "Mấy giờ giám đốc quay lại ạ?",
+        "Giám đốc bị bắt quay lại lúc mấy giờ?",
+        "Mấy giờ tôi được giám đốc cho quay lại?"
+      ],
+      "answer": 0,
+      "explainVi": "Thể bị động ở đây dùng với nghĩa tôn kính."
+    },
+    {
+      "id": "n4-24-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "ご主人",
+          "chồng (của người khác)"
+        ],
+        [
+          "お嬢さん",
+          "con gái (của người khác)"
+        ],
+        [
+          "お宅",
+          "nhà (của người khác)"
+        ],
+        [
+          "客",
+          "khách"
+        ],
+        [
+          "席",
+          "chỗ ngồi"
+        ]
+      ]
+    },
+    {
+      "id": "n4-24-e16",
+      "type": "choice",
+      "promptVi": "利用 nghĩa là gì?",
+      "options": [
+        "sử dụng",
+        "lợi dụng (nghĩa xấu)",
+        "lợi ích"
+      ],
+      "answer": 0,
+      "explainVi": "Âm Hán Việt \"lợi dụng\" nhưng nghĩa chỉ là sử dụng."
+    },
+    {
+      "id": "n4-24-e17",
+      "type": "choice",
+      "promptVi": "\"Tuần sau tôi định đến thăm nhà thầy.\" Chọn từ đúng.",
+      "ja": "来週、先生のお宅を＿つもりです。",
+      "options": [
+        "訪ねる",
+        "尋ねる",
+        "遠慮する"
+      ],
+      "answer": 0,
+      "explainVi": "訪ねる: thăm; 尋ねる (cùng cách đọc): hỏi."
+    },
+    {
+      "id": "n4-24-e18",
+      "type": "fill",
+      "before": "どうぞ",
+      "after": "しないで、召し上がってください。",
+      "answers": [
+        "遠慮"
+      ],
+      "options": [
+        "遠慮",
+        "利用",
+        "丁寧"
+      ],
+      "vi": "Xin đừng ngại, mời anh/chị dùng ạ."
+    },
+    {
+      "id": "n4-24-e19",
+      "type": "translate",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "vi": "(Gọi điện đến trường) Thầy Tanaka có ở đó không ạ? (dùng tôn kính ngữ)",
+      "answers": [
+        "田中先生はいらっしゃいますか。",
+        "田中先生は[いらっしゃいますか|おいでになりますか]。"
+      ],
+      "examples": [
+        {
+          "answer": "たなかせんせいはいらっしゃいますか",
+          "score": 100
+        },
+        {
+          "answer": "田中先生はいらっしゃりますか。",
+          "score": 0
+        },
+        {
+          "answer": "田中先生はいらっしゃいませんか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-24-e20",
+      "type": "translate",
+      "grammar": [
+        "sonkeigo"
+      ],
+      "vi": "(Hỏi khách) Anh/chị dùng gì ạ? (dùng tôn kính ngữ)",
+      "answers": [
+        "何を召し上がりますか。",
+        "何[を召し上がりますか|になさいますか]。"
+      ],
+      "examples": [
+        {
+          "answer": "なにをめしあがりますか",
+          "score": 100
+        },
+        {
+          "answer": "何が召し上がりますか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "何をいただきますか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-24-e21",
+      "type": "translate",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "vi": "Trưởng phòng đã về rồi ạ. (dùng お〜になる)",
+      "answers": [
+        "部長はもうお帰りになりました。",
+        "部長は(もう)お帰りになりました。"
+      ],
+      "examples": [
+        {
+          "answer": "ぶちょうはもうおかえりになりました",
+          "score": 100
+        },
+        {
+          "answer": "部長はもうお帰りしました。",
+          "score": 0
+        },
+        {
+          "answer": "部長はまだお帰りになりません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-24-e22",
+      "type": "translate",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "vi": "Thầy đã đọc cuốn sách này chưa ạ? (dùng tôn kính ngữ)",
+      "answers": [
+        "先生はこの本をもうお読みになりましたか。",
+        "(先生は)この本を(もう)[お読みになりましたか|読まれましたか]。",
+        "(先生は)もうこの本を[お読みになりましたか|読まれましたか]。"
+      ],
+      "examples": [
+        {
+          "answer": "せんせいはこのほんをもうおよみになりましたか",
+          "score": 100
+        },
+        {
+          "answer": "先生はこの本でもうお読みになりましたか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "先生はこの本をもうお書きになりましたか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-24-e23",
+      "type": "translate",
+      "grammar": [
+        "o-ni-naru"
+      ],
+      "vi": "(Mời khách) Xin mời ngồi ạ.",
+      "answers": [
+        "どうぞお座りください。",
+        "(どうぞ)(、)[お座りください|おかけください|座ってください]。"
+      ],
+      "examples": [
+        {
+          "answer": "どうぞおすわりください",
+          "score": 100
+        },
+        {
+          "answer": "どうぞお座ってください。",
+          "score": 0
+        },
+        {
+          "answer": "どうぞお立ちください。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "田中先生はいらっしゃいますか。": "{田中|たなか}{先|せん}{生|せい}はいらっしゃいますか。",
+    "先生は何時にいらっしゃいますか。": "{先|せん}{生|せい}は{何時|なんじ}にいらっしゃいますか。",
+    "すみません、もう一度おっしゃってください。": "すみません、もう{一|いち}{度|ど}おっしゃってください。",
+    "日曜日は何をなさいますか。": "{日|にち}{曜|よう}{日|び}は{何|なに}をなさいますか。",
+    "何を召し上がりますか。": "{何|なに}を{召|め}し{上|あ}がりますか。",
+    "どうぞ、召し上がってください。": "どうぞ、{召|め}し{上|あ}がってください。",
+    "この写真をごらんになりましたか。": "この{写|しゃ}{真|しん}をごらんになりましたか。",
+    "社長は明日こちらへおいでになります。": "{社|しゃ}{長|ちょう}は{明日|あした}こちらへおいでになります。",
+    "田中さんをご存じですか。": "{田中|たなか}さんをご{存|ぞん}じですか。",
+    "先生のお宅はどちらですか。": "{先|せん}{生|せい}のお{宅|たく}はどちらですか。",
+    "ご主人はお元気ですか。": "ご{主|しゅ}{人|じん}はお{元|げん}{気|き}ですか。",
+    "お嬢さんはおいくつですか。": "お{嬢|じょう}さんはおいくつですか。",
+    "今日は店に客が多いです。": "{今日|きょう}は{店|みせ}に{客|きゃく}が{多|おお}いです。",
+    "田中さんはいつも丁寧に説明してくださいます。": "{田中|たなか}さんはいつも{丁|てい}{寧|ねい}に{説|せつ}{明|めい}してくださいます。",
+    "この席でよろしいですか。": "この{席|せき}でよろしいですか。",
+    "来週、先生のお宅を訪ねるつもりです。": "{来|らい}{週|しゅう}、{先|せん}{生|せい}のお{宅|たく}を{訪|たず}ねるつもりです。",
+    "どうぞ遠慮しないで、たくさん召し上がってください。": "どうぞ{遠|えん}{慮|りょ}しないで、たくさん{召|め}し{上|あ}がってください。",
+    "ここではたばこはご遠慮ください。": "ここではたばこはご{遠|えん}{慮|りょ}ください。",
+    "図書館を利用する時は、静かにしてください。": "{図|と}{書|しょ}{館|かん}を{利|り}{用|よう}する{時|とき}は、{静|しず}かにしてください。",
+    "窓のそばの席に座りました。": "{窓|まど}のそばの{席|せき}に{座|すわ}りました。",
+    "今日は特別な日です。": "{今日|きょう}は{特|とく}{別|べつ}な{日|ひ}です。",
+    "先生は明日、学校にいらっしゃいますか。": "{先|せん}{生|せい}は{明日|あした}、{学|がっ}{校|こう}にいらっしゃいますか。",
+    "社長は何とおっしゃいましたか。": "{社|しゃ}{長|ちょう}は{何|なん}とおっしゃいましたか。",
+    "先生は今、本を読んでいらっしゃいます。": "{先|せん}{生|せい}は{今|いま}、{本|ほん}を{読|よ}んでいらっしゃいます。",
+    "私は明日、会社に行きます。": "{私|わたし}は{明日|あした}、{会|かい}{社|しゃ}に{行|い}きます。",
+    "私は明日、会社にいらっしゃいます。": "{私|わたし}は{明日|あした}、{会|かい}{社|しゃ}にいらっしゃいます。",
+    "先生は何とおっしゃいましたか。": "{先|せん}{生|せい}は{何|なん}とおっしゃいましたか。",
+    "先生は何とおっしゃりましたか。": "{先|せん}{生|せい}は{何|なん}とおっしゃりましたか。",
+    "田中は今いません。": "{田中|たなか}は{今|いま}いません。",
+    "田中部長は今いらっしゃいません。": "{田中|たなか}{部|ぶ}{長|ちょう}は{今|いま}いらっしゃいません。",
+    "部長はもうお帰りになりました。": "{部|ぶ}{長|ちょう}はもうお{帰|かえ}りになりました。",
+    "先生はこの本をお読みになりましたか。": "{先|せん}{生|せい}はこの{本|ほん}をお{読|よ}みになりましたか。",
+    "どうぞ、こちらの席にお座りください。": "どうぞ、こちらの{席|せき}にお{座|すわ}りください。",
+    "社長は何時に戻られますか。": "{社|しゃ}{長|ちょう}は{何時|なんじ}に{戻|もど}られますか。",
+    "部長はもうお帰りなりました。": "{部|ぶ}{長|ちょう}はもうお{帰|かえ}りなりました。",
+    "先生はこの写真をごらんになりましたか。": "{先|せん}{生|せい}はこの{写|しゃ}{真|しん}をごらんになりましたか。",
+    "先生はこの写真をお見になりましたか。": "{先|せん}{生|せい}はこの{写|しゃ}{真|しん}をお{見|み}になりましたか。",
+    "お客様、こちらでお待ちください。": "お{客|きゃく}{様|さま}、こちらでお{待|ま}ちください。",
+    "お客様、こちらでお待ちしてください。": "お{客|きゃく}{様|さま}、こちらでお{待|ま}ちしてください。",
+    "行く・来る・いる": "{行|い}く・{来|く}る・いる",
+    "いらっしゃる": "いらっしゃる",
+    "言う": "{言|い}う",
+    "おっしゃる": "おっしゃる",
+    "する": "する",
+    "なさる": "なさる",
+    "食べる・飲む": "{食|た}べる・{飲|の}む",
+    "召し上がる": "{召|め}し{上|あ}がる",
+    "見る": "{見|み}る",
+    "ごらんになる": "ごらんになる",
+    "先生は何と言いましたか。": "{先|せん}{生|せい}は{何|なん}と{言|い}いましたか。",
+    "先生は何とおっしゃいますか。": "{先|せん}{生|せい}は{何|なん}とおっしゃいますか。",
+    "先生、何を召し上がりますか。": "{先|せん}{生|せい}、{何|なに}を{召|め}し{上|あ}がりますか。",
+    "召し上がります": "{召|め}し{上|あ}がります",
+    "いただきます": "いただきます",
+    "食べます": "{食|た}べます",
+    "先生は明日いらっしゃいますか。": "{先|せん}{生|せい}は{明日|あした}いらっしゃいますか。",
+    "私は明日いらっしゃいます。": "{私|わたし}は{明日|あした}いらっしゃいます。",
+    "先生は昨日いらっしゃいますか。": "{先|せん}{生|せい}は{昨日|きのう}いらっしゃいますか。",
+    "田中さんは今いらっしゃいません。": "{田中|たなか}さんは{今|いま}いらっしゃいません。",
+    "田中さんを": "{田中|たなか}さんを",
+    "ご存じ": "ご{存|ぞん}じ",
+    "ですか": "ですか",
+    "田中さんをご存じですか": "{田中|たなか}さんをご{存|ぞん}じですか",
+    "ごらんになりました": "ごらんになりました",
+    "見せました": "{見|み}せました",
+    "撮らせました": "{撮|と}らせました",
+    "日曜日は": "{日|にち}{曜|よう}{日|び}は",
+    "何を": "{何|なに}を",
+    "なさいますか": "なさいますか",
+    "日曜日は何をなさいますか": "{日|にち}{曜|よう}{日|び}は{何|なに}をなさいますか",
+    "に": "に",
+    "を": "を",
+    "が": "が",
+    "お待ちになる": "お{待|ま}ちになる",
+    "お待ちする": "お{待|ま}ちする",
+    "待たせる": "{待|ま}たせる",
+    "どうぞ、お座りください。": "どうぞ、お{座|すわ}りください。",
+    "先生は": "{先|せん}{生|せい}は",
+    "この本を": "この{本|ほん}を",
+    "お読みに": "お{読|よ}みに",
+    "なりましたか": "なりましたか",
+    "先生はこの本をお読みになりましたか": "{先|せん}{生|せい}はこの{本|ほん}をお{読|よ}みになりましたか",
+    "どうぞご利用ください。": "どうぞご{利|り}{用|よう}ください。",
+    "どうぞ利用させてください。": "どうぞ{利|り}{用|よう}させてください。",
+    "どうぞ利用されてください。": "どうぞ{利|り}{用|よう}されてください。",
+    "ご主人": "ご{主|しゅ}{人|じん}",
+    "お嬢さん": "お{嬢|じょう}さん",
+    "お宅": "お{宅|たく}",
+    "客": "{客|きゃく}",
+    "席": "{席|せき}",
+    "来週、先生のお宅を＿つもりです。": "{来|らい}{週|しゅう}、{先|せん}{生|せい}のお{宅|たく}を＿つもりです。",
+    "訪ねる": "{訪|たず}ねる",
+    "尋ねる": "{尋|たず}ねる",
+    "遠慮する": "{遠|えん}{慮|りょ}する",
+    "どうぞ遠慮しないで、召し上がってください。": "どうぞ{遠|えん}{慮|りょ}しないで、{召|め}し{上|あ}がってください。",
+    "遠慮": "{遠|えん}{慮|りょ}",
+    "利用": "{利|り}{用|よう}",
+    "丁寧": "{丁|てい}{寧|ねい}",
+    "先生はこの本をもうお読みになりましたか。": "{先|せん}{生|せい}はこの{本|ほん}をもうお{読|よ}みになりましたか。",
+    "先生はもうこの本をお読みになりましたか。": "{先|せん}{生|せい}はもうこの{本|ほん}をお{読|よ}みになりましたか。",
+    "どうぞお座りください。": "どうぞお{座|すわ}りください。"
+  }
+}

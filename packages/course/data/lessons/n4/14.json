@@ -1,0 +1,1299 @@
+{
+  "id": "n4-14",
+  "goalsVi": [
+    "Đoán dựa vào điều mình thấy, nghe, ngửi: 誰か来たようです、外は寒いみたい",
+    "So sánh ví von: 夢のような話、子供みたいに笑う",
+    "Nói một khả năng có thể xảy ra: 明日は雪かもしれません",
+    "Phỏng đoán bằng thể thông thường: 明日は晴れるだろう、〜だろうと思います",
+    "Nói về tai nạn, thiên tai, sự cố: 地震、火事、事故、泥棒、警察"
+  ],
+  "words": [
+    {
+      "no": 766,
+      "word": "音",
+      "meaningsVi": [
+        "âm thanh, tiếng (động)"
+      ],
+      "noteVi": "Tiếng của đồ vật, máy móc, mưa gió: 音. Tiếng người nói, tiếng con vật kêu: 声. Có tiếng động: 音がする.",
+      "examples": [
+        {
+          "ja": "外で大きな音がしました。",
+          "vi": "Bên ngoài có tiếng động lớn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 796,
+      "word": "火事",
+      "meaningsVi": [
+        "hỏa hoạn, đám cháy"
+      ],
+      "noteVi": "Âm Hán Việt \"hỏa sự\". Có cháy: 火事がある; cháy nhà, cháy rừng đều gọi là 火事. Gọi cứu hỏa ở Nhật: số 119.",
+      "examples": [
+        {
+          "ja": "昨日の夜、近所で火事がありました。",
+          "vi": "Tối qua gần nhà tôi có cháy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 864,
+      "word": "警察",
+      "meaningsVi": [
+        "cảnh sát, công an (cơ quan)"
+      ],
+      "noteVi": "Âm Hán Việt \"cảnh sát\". Chỉ cơ quan, lực lượng; người cảnh sát là 警官 hoặc おまわりさん. Gọi cảnh sát ở Nhật: số 110.",
+      "examples": [
+        {
+          "ja": "事故を見たら、すぐ警察に電話してください。",
+          "vi": "Nếu thấy tai nạn thì hãy gọi điện ngay cho cảnh sát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 940,
+      "word": "事故",
+      "meaningsVi": [
+        "tai nạn",
+        "sự cố"
+      ],
+      "noteVi": "Âm Hán Việt \"sự cố\", nhưng nghĩa hay gặp nhất là \"tai nạn\" (xe cộ, tàu điện). Có tai nạn: 事故がある.",
+      "examples": [
+        {
+          "ja": "事故で電車が止まっています。",
+          "vi": "Tàu điện đang dừng vì tai nạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 941,
+      "word": "地震",
+      "meaningsVi": [
+        "động đất"
+      ],
+      "noteVi": "Âm Hán Việt \"địa chấn\". Có động đất: 地震がある. Nhật Bản có rất nhiều động đất.",
+      "examples": [
+        {
+          "ja": "昨夜、大きな地震がありました。",
+          "vi": "Đêm qua có một trận động đất lớn."
+        },
+        {
+          "ja": "日本は地震が多いです。",
+          "vi": "Nhật Bản có nhiều động đất."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1040,
+      "word": "倒れる",
+      "meaningsVi": [
+        "đổ, ngã (từ thế đứng)",
+        "ngã bệnh, gục ngã"
+      ],
+      "noteVi": "Tự động từ: 木が倒れる (cây đổ). Nói về người: ngã xuống, ngất đi, thường vì bệnh, mệt.",
+      "examples": [
+        {
+          "ja": "台風で木が倒れました。",
+          "vi": "Cây bị đổ vì bão."
+        },
+        {
+          "ja": "田中さんが会社で倒れたそうです。",
+          "vi": "Nghe nói anh Tanaka bị ngất ở công ty."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1112,
+      "word": "泥棒",
+      "meaningsVi": [
+        "kẻ trộm"
+      ],
+      "noteVi": "Trộm vào nhà: 泥棒が入る.",
+      "examples": [
+        {
+          "ja": "隣の家に泥棒が入ったそうです。",
+          "vi": "Nghe nói nhà bên cạnh bị trộm vào."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1127,
+      "word": "におい",
+      "meaningsVi": [
+        "mùi"
+      ],
+      "noteVi": "Có mùi: においがする. いいにおい: mùi thơm. Kanji: 匂い (mùi thơm), 臭い (mùi hôi).",
+      "examples": [
+        {
+          "ja": "台所からいいにおいがしますね。",
+          "vi": "Có mùi thơm từ trong bếp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1134,
+      "word": "似る",
+      "meaningsVi": [
+        "giống"
+      ],
+      "noteVi": "Giống ai: 〜に似ている (cũng nói 〜と似ている). Để chỉ sự giống nhau, gần như luôn dùng dạng ている: 母に似ています, không nói 母に似ます.",
+      "examples": [
+        {
+          "ja": "妹は母によく似ています。",
+          "vi": "Em gái tôi rất giống mẹ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1174,
+      "word": "光る",
+      "meaningsVi": [
+        "sáng, phát sáng, lấp lánh"
+      ],
+      "noteVi": "Tự động từ: 星が光る (sao sáng). Danh từ: 光 (ánh sáng).",
+      "examples": [
+        {
+          "ja": "空で何か光りました。",
+          "vi": "Có cái gì đó lóe sáng trên trời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1185,
+      "word": "ひどい",
+      "meaningsVi": [
+        "tệ, kinh khủng (mức độ nặng)",
+        "quá đáng, tàn nhẫn"
+      ],
+      "noteVi": "ひどい雨: mưa rất to; ひどい風邪: cảm nặng. Nói về người hay việc làm: quá đáng (ひどい人). Kanji: 酷い.",
+      "examples": [
+        {
+          "ja": "ひどい雨ですね。",
+          "vi": "Mưa kinh khủng quá nhỉ."
+        },
+        {
+          "ja": "それはひどいですね。",
+          "vi": "Thế thì tệ quá nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1211,
+      "word": "変",
+      "meaningsVi": [
+        "lạ, kỳ quặc"
+      ],
+      "noteVi": "Tính từ đuôi な: 変な音 (tiếng lạ). Âm Hán Việt \"biến\", nhưng nghĩa ở đây là \"lạ\". Nói người khác 変 nghe bất lịch sự.",
+      "examples": [
+        {
+          "ja": "さっきから変な音がします。",
+          "vi": "Từ nãy đến giờ có tiếng gì lạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1275,
+      "word": "揺れる",
+      "meaningsVi": [
+        "rung, lắc, đung đưa"
+      ],
+      "noteVi": "Tự động từ: 地震で家が揺れる (nhà rung vì động đất), 枝が風で揺れる (cành cây đung đưa trong gió).",
+      "examples": [
+        {
+          "ja": "地震で部屋が揺れました。",
+          "vi": "Căn phòng rung lên vì động đất."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 783,
+      "word": "折れる",
+      "meaningsVi": [
+        "gãy",
+        "bị gấp, bị gập"
+      ],
+      "noteVi": "Tự động từ: 枝が折れる (cành gãy). Bẻ gãy, gấp giấy: 折る (chưa học).",
+      "examples": [
+        {
+          "ja": "風で木の枝が折れました。",
+          "vi": "Cành cây bị gãy vì gió."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 843,
+      "word": "急",
+      "meaningsVi": [
+        "gấp, đột ngột",
+        "dốc (đứng)"
+      ],
+      "noteVi": "Tính từ đuôi な: 急な坂 (dốc đứng). 急に: đột nhiên. Âm Hán Việt \"cấp\" (khẩn cấp).",
+      "examples": [
+        {
+          "ja": "急に雨が降り出しました。",
+          "vi": "Đột nhiên trời đổ mưa."
+        },
+        {
+          "ja": "急な坂ですね。",
+          "vi": "Con dốc dựng đứng nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 749,
+      "word": "おかしい",
+      "meaningsVi": [
+        "lạ, bất thường, có vấn đề",
+        "buồn cười"
+      ],
+      "noteVi": "Hai nghĩa: không bình thường (このパソコンはおかしい: máy có vấn đề) và buồn cười (おかしい話). Gần nghĩa 変.",
+      "examples": [
+        {
+          "ja": "このパソコンはちょっとおかしいです。",
+          "vi": "Cái máy tính này hơi có vấn đề."
+        },
+        {
+          "ja": "田中さんの話がおかしくて、みんな笑いました。",
+          "vi": "Chuyện anh Tanaka kể buồn cười quá, ai cũng cười."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1229,
+      "word": "周り",
+      "meaningsVi": [
+        "xung quanh"
+      ],
+      "noteVi": "N の周り: xung quanh N (駅の周り). 周りの人: những người xung quanh.",
+      "examples": [
+        {
+          "ja": "駅の周りには店がたくさんあります。",
+          "vi": "Xung quanh nhà ga có nhiều cửa hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1217,
+      "word": "星",
+      "meaningsVi": [
+        "ngôi sao"
+      ],
+      "noteVi": "Âm Hán Việt \"tinh\". Ở thành phố lớn ít thấy sao; ở quê nhiều sao.",
+      "examples": [
+        {
+          "ja": "今夜は星がきれいですね。",
+          "vi": "Tối nay sao đẹp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 685,
+      "word": "浅い",
+      "meaningsVi": [
+        "nông, cạn"
+      ],
+      "noteVi": "Ngược nghĩa: 深い.",
+      "examples": [
+        {
+          "ja": "この川は浅いですから、子供も遊べます。",
+          "vi": "Con sông này nông nên trẻ con cũng chơi được."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1193,
+      "word": "深い",
+      "meaningsVi": [
+        "sâu"
+      ],
+      "noteVi": "Âm Hán Việt \"thâm\" (thâm sâu). Ngược nghĩa: 浅い.",
+      "examples": [
+        {
+          "ja": "この池は深いですから、気をつけてください。",
+          "vi": "Cái ao này sâu, hãy cẩn thận."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1173,
+      "word": "光",
+      "meaningsVi": [
+        "ánh sáng"
+      ],
+      "noteVi": "Danh từ của 光る.",
+      "examples": [
+        {
+          "ja": "窓から明るい光が入ってきます。",
+          "vi": "Ánh sáng chiếu vào qua cửa sổ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 742,
+      "word": "枝",
+      "meaningsVi": [
+        "cành cây"
+      ],
+      "noteVi": "Âm Hán Việt \"chi\" (cành). Thường nói 木の枝.",
+      "examples": [
+        {
+          "ja": "木の枝に鳥がいます。",
+          "vi": "Có con chim trên cành cây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "地",
+      "meaningVi": "đất, địa",
+      "noteVi": "Gặp trong 地震 (じしん), 地図 (ちず), 地下鉄 (ちかてつ). Bên trái là bộ 土 (đất).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "音",
+      "meaningVi": "âm, tiếng",
+      "noteVi": "Gặp trong 音 (おと), 音楽 (おんがく). Trên là 立, dưới là 日.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "悪",
+      "meaningVi": "xấu, ác",
+      "noteVi": "Gặp trong 悪い (わるい). Dưới là 心 (tim, lòng): lòng dạ xấu.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "死",
+      "meaningVi": "chết",
+      "noteVi": "Gặp trong 死ぬ (しぬ). Cách nói nhẹ nhàng hơn: 亡くなる.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "元",
+      "meaningVi": "gốc, nguyên",
+      "noteVi": "Gặp trong 元気 (げんき). Dưới là 儿 (hai chân người).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "赤",
+      "meaningVi": "đỏ",
+      "noteVi": "Gặp trong 赤い (あかい), 赤 (màu đỏ).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "you-da",
+      "titleVi": "〜ようだ: hình như, có vẻ (phán đoán qua điều quan sát)",
+      "summaryVi": "Phán đoán dựa vào những gì mình thấy, nghe, cảm nhận: 誰か来たようです (Hình như có ai đến).",
+      "explanationVi": [
+        "**〜ようです** nói điều người nói **tự phán đoán dựa vào dấu hiệu** mình thấy, nghe, ngửi, cảm nhận, giống \"hình như\", \"có vẻ như\" trong tiếng Việt: 「玄関で音がしました。誰か来たようです」 (Có tiếng ở cửa. Hình như có ai đến).",
+        "Cách ghép giống khi bổ nghĩa cho danh từ: **động từ, tính từ đuôi い** ở thể thông thường + ようです (来るようです, 来たようです, 来ないようです, 寒いようです); **tính từ đuôi な + な** + ようです (暇なようです); **danh từ + の** + ようです (雨のようです, 事故のようです).",
+        "So với các cách đã học: 〜そうです (vẻ bề ngoài) là ấn tượng ngay khi nhìn (おいしそう); 〜らしいです dựa nhiều vào điều nghe người khác nói; 〜ようです là **suy luận của chính mình** từ dấu hiệu, giọng hơi trang trọng. Nói chuyện thân mật thì người ta hay dùng 〜みたい.",
+        "ようだ còn dùng để **so sánh, ví von** (\"giống như\", \"như là\"): N の + **ような** + N (夢のような話: chuyện như mơ), N の + **ように** + V (子供のように笑う: cười như trẻ con)."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + ようです",
+        "Aな + な + ようです",
+        "N + の + ようです",
+        "N の + ような + N; N の + ように + V (giống như)"
+      ],
+      "examples": [
+        {
+          "ja": "玄関で音がしました。誰か来たようです。",
+          "vi": "Có tiếng ở cửa ra vào. Hình như có ai đến."
+        },
+        {
+          "ja": "駅の前で事故があったようです。",
+          "vi": "Hình như có tai nạn ở trước nhà ga."
+        },
+        {
+          "ja": "田中さんは今日は暇なようです。",
+          "vi": "Hình như hôm nay anh Tanaka rảnh."
+        },
+        {
+          "ja": "夢のような話ですね。",
+          "vi": "Chuyện cứ như mơ ấy nhỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "外は雨ようです。",
+          "right": "外は雨のようです。",
+          "noteVi": "Danh từ cần の trước ようです: 雨のようです."
+        },
+        {
+          "wrong": "田中さんは今日は暇ようです。",
+          "right": "田中さんは今日は暇なようです。",
+          "noteVi": "Tính từ đuôi な giữ な trước ようです, như khi đứng trước danh từ (暇な人)."
+        },
+        {
+          "wrong": "誰か来ましたようです。",
+          "right": "誰か来たようです。",
+          "noteVi": "Trước ようです dùng thể thông thường (来た), không dùng thể ます. Lịch sự nằm ở です cuối câu.",
+          "issue": "polite_in_clause"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mitai",
+      "titleVi": "〜みたいだ: hình như, giống như (thân mật)",
+      "summaryVi": "Cách nói thân mật của ようだ: 外は寒いみたい (Hình như ngoài trời lạnh), 子供みたい (giống trẻ con).",
+      "explanationVi": [
+        "**〜みたいだ** có nghĩa như 〜ようだ: **phán đoán** dựa vào điều mình thấy, nghe (\"hình như\") và **so sánh** (\"giống như\"). みたい dùng nhiều khi **nói chuyện thân mật**; trong văn viết, chỗ trang trọng thì dùng ようだ.",
+        "Cách ghép: động từ, tính từ đuôi い ở thể thông thường + みたい (来たみたい, 寒いみたい). **Danh từ và tính từ đuôi な ghép thẳng**, không có の, な: 雨みたい, 暇みたい. Đây là chỗ khác ようだ (雨のよう, 暇なよう).",
+        "Cuối câu: みたい, みたいだ (thân mật), みたいです (lịch sự). Trước danh từ: **みたいな** (夢みたいな話); trước động từ, tính từ: **みたいに** (子供みたいに笑う)."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + みたい(です)",
+        "N / Aな + みたい(です)",
+        "〜みたいな + N; 〜みたいに + V"
+      ],
+      "examples": [
+        {
+          "ja": "外は寒いみたいだね。",
+          "vi": "Hình như ngoài trời lạnh nhỉ."
+        },
+        {
+          "ja": "あれ、かぎがない。家に忘れたみたい。",
+          "vi": "Ơ, không thấy chìa khóa. Hình như tớ để quên ở nhà rồi."
+        },
+        {
+          "ja": "マイさんは日本人みたいに日本語を話します。",
+          "vi": "Chị Mai nói tiếng Nhật như người Nhật."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "外は雨のみたいです。",
+          "right": "外は雨みたいです。",
+          "noteVi": "Danh từ ghép thẳng với みたい, không có の (khác 雨のようです)."
+        },
+        {
+          "wrong": "田中さんは暇なみたいです。",
+          "right": "田中さんは暇みたいです。",
+          "noteVi": "Tính từ đuôi な ghép thẳng với みたい, không có な (khác 暇なようです)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kamo-shirenai",
+      "titleVi": "〜かもしれない: có lẽ, biết đâu, không chừng",
+      "summaryVi": "Nói một khả năng, có thể đúng có thể không: 明日は雨かもしれません (Mai có thể mưa).",
+      "explanationVi": [
+        "**〜かもしれません** (thân mật: かもしれない) nói **một khả năng**: có thể xảy ra, cũng có thể không, giống \"có lẽ\", \"biết đâu\", \"không chừng\". Mức chắc chắn thấp hơn でしょう: 「明日は雨でしょう」 (chắc là mưa) chắc hơn 「明日は雨かもしれません」 (có thể mưa).",
+        "Cách ghép: động từ, tính từ đuôi い ở **thể thông thường** + かもしれません (降るかもしれません, 降らないかもしれません, 降ったかもしれません, 寒いかもしれません). **Danh từ và tính từ đuôi な ghép thẳng, không có だ**: 雨かもしれません, 暇かもしれません.",
+        "Trước かもしれません không dùng thể ます: nói 「行くかもしれません」, không nói 行きますかもしれません. Phần lịch sự nằm ở cuối câu."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + かもしれません",
+        "N / Aな + かもしれません",
+        "(thân mật) 〜かもしれない"
+      ],
+      "examples": [
+        {
+          "ja": "明日は雨かもしれません。傘を持っていきましょう。",
+          "vi": "Mai có thể mưa. Mình mang ô theo đi."
+        },
+        {
+          "ja": "田中さんは今日来ないかもしれません。",
+          "vi": "Hôm nay có lẽ anh Tanaka không đến."
+        },
+        {
+          "ja": "財布は電車の中で落としたかもしれません。",
+          "vi": "Có lẽ tôi đánh rơi ví trên tàu điện."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は雨だかもしれません。",
+          "right": "明日は雨かもしれません。",
+          "noteVi": "Danh từ ghép thẳng với かもしれません, không có だ."
+        },
+        {
+          "wrong": "明日は雪が降りますかもしれません。",
+          "right": "明日は雪が降るかもしれません。",
+          "noteVi": "Trước かもしれません dùng thể thông thường (降る), không dùng thể ます."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "darou",
+      "titleVi": "〜だろう: chắc là, có lẽ (thể thông thường của でしょう)",
+      "summaryVi": "Phỏng đoán khá chắc chắn, thể thông thường của でしょう: 明日は晴れるだろう; nói lịch sự: 〜だろうと思います.",
+      "explanationVi": [
+        "**〜だろう** là thể thông thường của **でしょう** (đã học ở N5): phỏng đoán khá chắc, \"chắc là\", \"có lẽ\". Dùng khi nói thân mật (nam giới hay dùng hơn), khi nói một mình, trong nhật ký và văn viết.",
+        "Cách ghép như でしょう: động từ, tính từ đuôi い ở thể thông thường + だろう (来るだろう, 来ないだろう, 寒いだろう); **danh từ và tính từ đuôi な ghép thẳng**: 雨だろう, 静かだろう (không có な, の).",
+        "Khi nói lịch sự về ý kiến của mình, người Nhật rất hay dùng **〜だろうと思います** (tôi nghĩ chắc là …): 「田中さんは来ないだろうと思います」. Với người trên không nói だろう trống không mà dùng でしょう."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + だろう",
+        "N / Aな + だろう",
+        "〜だろうと思います (lịch sự)"
+      ],
+      "examples": [
+        {
+          "ja": "明日はたぶん晴れるだろう。",
+          "vi": "Mai chắc trời nắng."
+        },
+        {
+          "ja": "田中さんは来ないだろうと思います。",
+          "vi": "Tôi nghĩ chắc anh Tanaka không đến."
+        },
+        {
+          "ja": "山の上は寒いだろうな。",
+          "vi": "Trên núi chắc lạnh lắm đây."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "あの公園は夜は静かなだろう。",
+          "right": "あの公園は夜は静かだろう。",
+          "noteVi": "Tính từ đuôi な (và danh từ) ghép thẳng với だろう, không có な."
+        },
+        {
+          "wrong": "明日は晴れますだろう。",
+          "right": "明日は晴れるだろう。",
+          "noteVi": "Trước だろう dùng thể thông thường. Muốn lịch sự thì đổi だろう thành でしょう: 晴れるでしょう.",
+          "issue": "polite_in_clause"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-14-e01",
+      "type": "choice",
+      "grammar": [
+        "you-da"
+      ],
+      "promptVi": "Có tiếng động ở cửa ra vào. Bạn đoán: \"Hình như có ai đó đến.\" Chọn câu đúng.",
+      "options": [
+        "誰か来たようです。",
+        "誰か来たそうです。",
+        "誰か来そうです。"
+      ],
+      "answer": 0,
+      "explainVi": "Tự đoán từ tiếng động: ようです. 来たそうです là \"nghe nói có người đến\", 来そうです là \"trông như sắp có người đến\"."
+    },
+    {
+      "id": "n4-14-e02",
+      "type": "fill",
+      "grammar": [
+        "you-da"
+      ],
+      "before": "外は雨",
+      "after": "ようです。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "な",
+        "だ"
+      ],
+      "vi": "Hình như bên ngoài đang mưa.",
+      "explainVi": "Danh từ + の + ようです."
+    },
+    {
+      "id": "n4-14-e03",
+      "type": "fill",
+      "grammar": [
+        "you-da"
+      ],
+      "before": "田中さんは今日は暇",
+      "after": "ようです。",
+      "answers": [
+        "な"
+      ],
+      "options": [
+        "な",
+        "の",
+        "だ"
+      ],
+      "vi": "Hình như hôm nay anh Tanaka rảnh.",
+      "explainVi": "Tính từ đuôi な + な + ようです."
+    },
+    {
+      "id": "n4-14-e04",
+      "type": "order",
+      "grammar": [
+        "you-da"
+      ],
+      "vi": "Hình như có tai nạn ở trước nhà ga.",
+      "tiles": [
+        "駅の前で",
+        "事故が",
+        "あった",
+        "ようです"
+      ],
+      "answers": [
+        "駅の前で事故があったようです"
+      ]
+    },
+    {
+      "id": "n4-14-e05",
+      "type": "choice",
+      "grammar": [
+        "you-da"
+      ],
+      "promptVi": "Chọn từ đúng điền vào chỗ trống: \"Chuyện cứ như mơ ấy nhỉ.\"",
+      "ja": "夢の＿話ですね。",
+      "options": [
+        "ような",
+        "ように",
+        "ようで"
+      ],
+      "answer": 0,
+      "explainVi": "Trước danh từ (話) dùng ような; ように đứng trước động từ."
+    },
+    {
+      "id": "n4-14-e06",
+      "type": "choice",
+      "grammar": [
+        "mitai"
+      ],
+      "promptVi": "Nói với bạn: \"Hình như ngoài trời đang mưa đấy.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "外は雨＿だよ。",
+      "options": [
+        "みたい",
+        "のみたい",
+        "なみたい"
+      ],
+      "answer": 0,
+      "explainVi": "Danh từ ghép thẳng với みたい, không có の, な."
+    },
+    {
+      "id": "n4-14-e07",
+      "type": "fill",
+      "grammar": [
+        "mitai"
+      ],
+      "before": "あれ、かぎがない。家に",
+      "after": "みたい。",
+      "answers": [
+        "忘れた"
+      ],
+      "options": [
+        "忘れた",
+        "忘れます",
+        "忘れて"
+      ],
+      "vi": "Ơ, không thấy chìa khóa. Hình như tớ để quên ở nhà rồi.",
+      "explainVi": "Trước みたい dùng thể thông thường; việc đã xảy ra dùng thể た."
+    },
+    {
+      "id": "n4-14-e08",
+      "type": "order",
+      "grammar": [
+        "mitai"
+      ],
+      "vi": "Chị Mai nói tiếng Nhật như người Nhật.",
+      "tiles": [
+        "マイさんは",
+        "日本人",
+        "みたいに",
+        "日本語を",
+        "話します"
+      ],
+      "answers": [
+        "マイさんは日本人みたいに日本語を話します",
+        "マイさんは日本語を日本人みたいに話します"
+      ]
+    },
+    {
+      "id": "n4-14-e09",
+      "type": "choice",
+      "grammar": [
+        "kamo-shirenai"
+      ],
+      "promptVi": "\"Ngày mai có thể có tuyết.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "明日は雪＿。",
+      "options": [
+        "かもしれません",
+        "だかもしれません",
+        "のかもしれません"
+      ],
+      "answer": 0,
+      "explainVi": "Danh từ ghép thẳng với かもしれません, không có だ, の."
+    },
+    {
+      "id": "n4-14-e10",
+      "type": "fill",
+      "grammar": [
+        "kamo-shirenai"
+      ],
+      "before": "田中さんは今日",
+      "after": "かもしれません。",
+      "answers": [
+        "来ない"
+      ],
+      "options": [
+        "来ない",
+        "来ません",
+        "来なくて"
+      ],
+      "vi": "Hôm nay có lẽ anh Tanaka không đến.",
+      "explainVi": "Trước かもしれません dùng thể thông thường: 来ない."
+    },
+    {
+      "id": "n4-14-e11",
+      "type": "choice",
+      "grammar": [
+        "kamo-shirenai"
+      ],
+      "promptVi": "Bạn không chắc ví ở đâu. Câu nào nghĩa là \"Có lẽ tôi đánh rơi ví trên tàu điện\"?",
+      "options": [
+        "財布は電車の中で落としたかもしれません。",
+        "財布は電車の中で落とすかもしれません。",
+        "財布は電車の中で落としてしまいました。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc có thể đã xảy ra: thể た + かもしれません. 落としてしまいました là chắc chắn đã đánh rơi."
+    },
+    {
+      "id": "n4-14-e12",
+      "type": "order",
+      "grammar": [
+        "kamo-shirenai"
+      ],
+      "vi": "Ngày mai có thể tôi hơi bận.",
+      "tiles": [
+        "明日は",
+        "少し",
+        "忙しい",
+        "かも",
+        "しれません"
+      ],
+      "answers": [
+        "明日は少し忙しいかもしれません"
+      ]
+    },
+    {
+      "id": "n4-14-e13",
+      "type": "choice",
+      "grammar": [
+        "darou"
+      ],
+      "promptVi": "Viết nhật ký (thể thông thường): \"Mai chắc trời nắng.\" Chọn câu đúng.",
+      "options": [
+        "明日は晴れるだろう。",
+        "明日は晴れるだろうか。",
+        "明日は晴れるかな。"
+      ],
+      "answer": 0,
+      "explainVi": "だろう: chắc là. だろうか và かな là tự hỏi \"không biết có … không nhỉ\"."
+    },
+    {
+      "id": "n4-14-e14",
+      "type": "fill",
+      "grammar": [
+        "darou"
+      ],
+      "before": "山の上は寒い",
+      "after": "と思います。",
+      "answers": [
+        "だろう"
+      ],
+      "options": [
+        "だろう",
+        "でしょう",
+        "です"
+      ],
+      "vi": "Tôi nghĩ chắc trên núi lạnh.",
+      "explainVi": "Trước と思います dùng thể thông thường: だろうと思います."
+    },
+    {
+      "id": "n4-14-e15",
+      "type": "choice",
+      "grammar": [
+        "darou"
+      ],
+      "promptVi": "\"Công viên đó buổi tối chắc yên tĩnh.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "あの公園は夜は静か＿。",
+      "options": [
+        "だろう",
+        "なだろう",
+        "のだろう"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đuôi な ghép thẳng với だろう."
+    },
+    {
+      "id": "n4-14-e16",
+      "type": "choice",
+      "grammar": [
+        "darou",
+        "kamo-shirenai"
+      ],
+      "promptVi": "Trong ba câu sau, người nói nghĩ trời sẽ mưa với mức chắc chắn CAO NHẤT ở câu nào?",
+      "options": [
+        "雨が降るだろう。",
+        "雨が降るかもしれない。",
+        "雨が降るかな。"
+      ],
+      "answer": 0,
+      "explainVi": "だろう: chắc là (khá chắc). かもしれない: có thể. かな: tự hỏi, không biết."
+    },
+    {
+      "id": "n4-14-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "地震",
+          "động đất"
+        ],
+        [
+          "火事",
+          "hỏa hoạn"
+        ],
+        [
+          "事故",
+          "tai nạn"
+        ],
+        [
+          "泥棒",
+          "kẻ trộm"
+        ],
+        [
+          "警察",
+          "cảnh sát"
+        ]
+      ]
+    },
+    {
+      "id": "n4-14-e18",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "浅い",
+          "nông"
+        ],
+        [
+          "深い",
+          "sâu"
+        ],
+        [
+          "光る",
+          "phát sáng"
+        ],
+        [
+          "揺れる",
+          "rung, lắc"
+        ],
+        [
+          "折れる",
+          "gãy"
+        ]
+      ]
+    },
+    {
+      "id": "n4-14-e19",
+      "type": "choice",
+      "promptVi": "\"Có mùi lạ từ trong bếp.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "台所から変な＿がします。",
+      "options": [
+        "におい",
+        "音",
+        "光"
+      ],
+      "answer": 0,
+      "explainVi": "Mùi: におい. 音 là tiếng động, 光 là ánh sáng."
+    },
+    {
+      "id": "n4-14-e20",
+      "type": "choice",
+      "promptVi": "\"Em gái tôi rất giống mẹ.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "妹は母によく＿。",
+      "options": [
+        "似ています",
+        "似ます",
+        "見えます"
+      ],
+      "answer": 0,
+      "explainVi": "Trạng thái giống ai: 〜に似ている."
+    },
+    {
+      "id": "n4-14-e21",
+      "type": "translate",
+      "grammar": [
+        "you-da"
+      ],
+      "vi": "(Nghe tiếng động ở cửa) Hình như có ai đó đến. (dùng 〜ようです)",
+      "answers": [
+        "誰か(が)来たようです。"
+      ],
+      "examples": [
+        {
+          "answer": "だれかきたようです",
+          "score": 100
+        },
+        {
+          "answer": "誰か来ましたようです。",
+          "score": 85,
+          "issues": [
+            "polite_in_clause"
+          ]
+        },
+        {
+          "answer": "誰も来なかったようです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-14-e22",
+      "type": "translate",
+      "grammar": [
+        "mitai"
+      ],
+      "vi": "(Nói với bạn) Hình như ngoài trời lạnh đấy.",
+      "answers": [
+        "外は寒いみたい(だ)(よ)。",
+        "外[は|、]寒いみたい(だ)(ね)。",
+        "外、寒いみたい(だ)(よ)。"
+      ],
+      "examples": [
+        {
+          "answer": "そとはさむいみたいだよ",
+          "score": 100
+        },
+        {
+          "answer": "外わ寒いみたいだよ。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "外は暑いみたいだよ。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-14-e23",
+      "type": "translate",
+      "grammar": [
+        "kamo-shirenai"
+      ],
+      "vi": "Ngày mai có thể sẽ có tuyết.",
+      "answers": [
+        "明日は雪が降るかもしれません。",
+        "明日(は)(、)雪が降るかもしれません。",
+        "明日(は)(、)雪かもしれません。"
+      ],
+      "examples": [
+        {
+          "answer": "あしたはゆきがふるかもしれません",
+          "score": 100
+        },
+        {
+          "answer": "明日は雪だかもしれません。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "明日は雪が降らないかもしれません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-14-e24",
+      "type": "translate",
+      "grammar": [
+        "darou"
+      ],
+      "vi": "Tôi nghĩ chắc anh Tanaka sẽ không đến. (dùng だろう)",
+      "answers": [
+        "(私は)田中さんは来ないだろうと思います。"
+      ],
+      "examples": [
+        {
+          "answer": "たなかさんはこないだろうとおもいます",
+          "score": 100
+        },
+        {
+          "answer": "田中さんは来ませんだろうと思います。",
+          "score": 85,
+          "issues": [
+            "polite_in_clause"
+          ]
+        },
+        {
+          "answer": "田中さんは来るだろうと思います。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-14-e25",
+      "type": "question",
+      "grammar": [
+        "kamo-shirenai"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "田中さんは明日のパーティーに来ますか。",
+        "promptVi": "\"Ngày mai anh Tanaka có đến bữa tiệc không?\" Bạn không chắc. Hãy trả lời: có lẽ anh ấy không đến (dùng かもしれません).",
+        "answers": [
+          "来ないかもしれません。",
+          "(田中さんは)(明日は)(パーティーに)来ないかもしれません。"
+        ],
+        "examples": [
+          {
+            "answer": "こないかもしれません",
+            "score": 100
+          },
+          {
+            "answer": "来ませんかもしれません。",
+            "score": 85,
+            "issues": [
+              "polite_in_clause"
+            ]
+          },
+          {
+            "answer": "来るかもしれません。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "外で大きな音がしました。": "{外|そと}で{大|おお}きな{音|おと}がしました。",
+    "昨日の夜、近所で火事がありました。": "{昨日|きのう}の{夜|よる}、{近|きん}{所|じょ}で{火|か}{事|じ}がありました。",
+    "事故を見たら、すぐ警察に電話してください。": "{事|じ}{故|こ}を{見|み}たら、すぐ{警|けい}{察|さつ}に{電|でん}{話|わ}してください。",
+    "事故で電車が止まっています。": "{事|じ}{故|こ}で{電|でん}{車|しゃ}が{止|と}まっています。",
+    "昨夜、大きな地震がありました。": "{昨夜|ゆうべ}、{大|おお}きな{地|じ}{震|しん}がありました。",
+    "日本は地震が多いです。": "{日本|にほん}は{地|じ}{震|しん}が{多|おお}いです。",
+    "台風で木が倒れました。": "{台|たい}{風|ふう}で{木|き}が{倒|たお}れました。",
+    "田中さんが会社で倒れたそうです。": "{田中|たなか}さんが{会|かい}{社|しゃ}で{倒|たお}れたそうです。",
+    "隣の家に泥棒が入ったそうです。": "{隣|となり}の{家|いえ}に{泥|どろ}{棒|ぼう}が{入|はい}ったそうです。",
+    "台所からいいにおいがしますね。": "{台|だい}{所|どころ}からいいにおいがしますね。",
+    "妹は母によく似ています。": "{妹|いもうと}は{母|はは}によく{似|に}ています。",
+    "空で何か光りました。": "{空|そら}で{何|なに}か{光|ひか}りました。",
+    "ひどい雨ですね。": "ひどい{雨|あめ}ですね。",
+    "それはひどいですね。": "それはひどいですね。",
+    "さっきから変な音がします。": "さっきから{変|へん}な{音|おと}がします。",
+    "地震で部屋が揺れました。": "{地|じ}{震|しん}で{部屋|へや}が{揺|ゆ}れました。",
+    "風で木の枝が折れました。": "{風|かぜ}で{木|き}の{枝|えだ}が{折|お}れました。",
+    "急に雨が降り出しました。": "{急|きゅう}に{雨|あめ}が{降|ふ}り{出|だ}しました。",
+    "急な坂ですね。": "{急|きゅう}な{坂|さか}ですね。",
+    "このパソコンはちょっとおかしいです。": "このパソコンはちょっとおかしいです。",
+    "田中さんの話がおかしくて、みんな笑いました。": "{田中|たなか}さんの{話|はなし}がおかしくて、みんな{笑|わら}いました。",
+    "駅の周りには店がたくさんあります。": "{駅|えき}の{周|まわ}りには{店|みせ}がたくさんあります。",
+    "今夜は星がきれいですね。": "{今|こん}{夜|や}は{星|ほし}がきれいですね。",
+    "この川は浅いですから、子供も遊べます。": "この{川|かわ}は{浅|あさ}いですから、{子|こ}{供|ども}も{遊|あそ}べます。",
+    "この池は深いですから、気をつけてください。": "この{池|いけ}は{深|ふか}いですから、{気|き}をつけてください。",
+    "窓から明るい光が入ってきます。": "{窓|まど}から{明|あか}るい{光|ひかり}が{入|はい}ってきます。",
+    "木の枝に鳥がいます。": "{木|き}の{枝|えだ}に{鳥|とり}がいます。",
+    "玄関で音がしました。誰か来たようです。": "{玄|げん}{関|かん}で{音|おと}がしました。{誰|だれ}か{来|き}たようです。",
+    "駅の前で事故があったようです。": "{駅|えき}の{前|まえ}で{事|じ}{故|こ}があったようです。",
+    "田中さんは今日は暇なようです。": "{田中|たなか}さんは{今日|きょう}は{暇|ひま}なようです。",
+    "夢のような話ですね。": "{夢|ゆめ}のような{話|はなし}ですね。",
+    "外は雨のようです。": "{外|そと}は{雨|あめ}のようです。",
+    "外は雨ようです。": "{外|そと}は{雨|あめ}ようです。",
+    "田中さんは今日は暇ようです。": "{田中|たなか}さんは{今日|きょう}は{暇|ひま}ようです。",
+    "誰か来たようです。": "{誰|だれ}か{来|き}たようです。",
+    "誰か来ましたようです。": "{誰|だれ}か{来|き}ましたようです。",
+    "外は寒いみたいだね。": "{外|そと}は{寒|さむ}いみたいだね。",
+    "あれ、かぎがない。家に忘れたみたい。": "あれ、かぎがない。{家|いえ}に{忘|わす}れたみたい。",
+    "マイさんは日本人みたいに日本語を話します。": "マイさんは{日本|にほん}{人|じん}みたいに{日本|にほん}{語|ご}を{話|はな}します。",
+    "外は雨みたいです。": "{外|そと}は{雨|あめ}みたいです。",
+    "外は雨のみたいです。": "{外|そと}は{雨|あめ}のみたいです。",
+    "田中さんは暇みたいです。": "{田中|たなか}さんは{暇|ひま}みたいです。",
+    "田中さんは暇なみたいです。": "{田中|たなか}さんは{暇|ひま}なみたいです。",
+    "明日は雨かもしれません。傘を持っていきましょう。": "{明日|あした}は{雨|あめ}かもしれません。{傘|かさ}を{持|も}っていきましょう。",
+    "田中さんは今日来ないかもしれません。": "{田中|たなか}さんは{今日|きょう}{来|こ}ないかもしれません。",
+    "財布は電車の中で落としたかもしれません。": "{財布|さいふ}は{電車|でんしゃ}の{中|なか}で{落|お}としたかもしれません。",
+    "明日は雨かもしれません。": "{明日|あした}は{雨|あめ}かもしれません。",
+    "明日は雨だかもしれません。": "{明日|あした}は{雨|あめ}だかもしれません。",
+    "明日は雪が降るかもしれません。": "{明日|あした}は{雪|ゆき}が{降|ふ}るかもしれません。",
+    "明日は雪が降りますかもしれません。": "{明日|あした}は{雪|ゆき}が{降|ふ}りますかもしれません。",
+    "明日はたぶん晴れるだろう。": "{明日|あした}はたぶん{晴|は}れるだろう。",
+    "田中さんは来ないだろうと思います。": "{田中|たなか}さんは{来|こ}ないだろうと{思|おも}います。",
+    "山の上は寒いだろうな。": "{山|やま}の{上|うえ}は{寒|さむ}いだろうな。",
+    "あの公園は夜は静かだろう。": "あの{公|こう}{園|えん}は{夜|よる}は{静|しず}かだろう。",
+    "あの公園は夜は静かなだろう。": "あの{公|こう}{園|えん}は{夜|よる}は{静|しず}かなだろう。",
+    "明日は晴れるだろう。": "{明日|あした}は{晴|は}れるだろう。",
+    "明日は晴れますだろう。": "{明日|あした}は{晴|は}れますだろう。",
+    "誰か来たそうです。": "{誰|だれ}か{来|き}たそうです。",
+    "誰か来そうです。": "{誰|だれ}か{来|き}そうです。",
+    "の": "の",
+    "な": "な",
+    "だ": "だ",
+    "駅の前で": "{駅|えき}の{前|まえ}で",
+    "事故が": "{事|じ}{故|こ}が",
+    "あった": "あった",
+    "ようです": "ようです",
+    "駅の前で事故があったようです": "{駅|えき}の{前|まえ}で{事|じ}{故|こ}があったようです",
+    "夢の＿話ですね。": "{夢|ゆめ}の＿{話|はなし}ですね。",
+    "ような": "ような",
+    "ように": "ように",
+    "ようで": "ようで",
+    "外は雨＿だよ。": "{外|そと}は{雨|あめ}＿だよ。",
+    "みたい": "みたい",
+    "のみたい": "のみたい",
+    "なみたい": "なみたい",
+    "忘れた": "{忘|わす}れた",
+    "忘れます": "{忘|わす}れます",
+    "忘れて": "{忘|わす}れて",
+    "マイさんは": "マイさんは",
+    "日本人": "{日本|にほん}{人|じん}",
+    "みたいに": "みたいに",
+    "日本語を": "{日本|にほん}{語|ご}を",
+    "話します": "{話|はな}します",
+    "マイさんは日本人みたいに日本語を話します": "マイさんは{日本|にほん}{人|じん}みたいに{日本|にほん}{語|ご}を{話|はな}します",
+    "マイさんは日本語を日本人みたいに話します": "マイさんは{日本|にほん}{語|ご}を{日本|にほん}{人|じん}みたいに{話|はな}します",
+    "明日は雪＿。": "{明日|あした}は{雪|ゆき}＿。",
+    "かもしれません": "かもしれません",
+    "だかもしれません": "だかもしれません",
+    "のかもしれません": "のかもしれません",
+    "来ない": "{来|こ}ない",
+    "来ません": "{来|き}ません",
+    "来なくて": "{来|こ}なくて",
+    "財布は電車の中で落とすかもしれません。": "{財布|さいふ}は{電車|でんしゃ}の{中|なか}で{落|お}とすかもしれません。",
+    "財布は電車の中で落としてしまいました。": "{財布|さいふ}は{電車|でんしゃ}の{中|なか}で{落|お}としてしまいました。",
+    "明日は": "{明日|あした}は",
+    "少し": "{少|すこ}し",
+    "忙しい": "{忙|いそが}しい",
+    "かも": "かも",
+    "しれません": "しれません",
+    "明日は少し忙しいかもしれません": "{明日|あした}は{少|すこ}し{忙|いそが}しいかもしれません",
+    "明日は晴れるだろうか。": "{明日|あした}は{晴|は}れるだろうか。",
+    "明日は晴れるかな。": "{明日|あした}は{晴|は}れるかな。",
+    "山の上は寒いだろうと思います。": "{山|やま}の{上|うえ}は{寒|さむ}いだろうと{思|おも}います。",
+    "だろう": "だろう",
+    "でしょう": "でしょう",
+    "です": "です",
+    "あの公園は夜は静か＿。": "あの{公|こう}{園|えん}は{夜|よる}は{静|しず}か＿。",
+    "なだろう": "なだろう",
+    "のだろう": "のだろう",
+    "雨が降るだろう。": "{雨|あめ}が{降|ふ}るだろう。",
+    "雨が降るかもしれない。": "{雨|あめ}が{降|ふ}るかもしれない。",
+    "雨が降るかな。": "{雨|あめ}が{降|ふ}るかな。",
+    "地震": "{地|じ}{震|しん}",
+    "火事": "{火|か}{事|じ}",
+    "事故": "{事|じ}{故|こ}",
+    "泥棒": "{泥|どろ}{棒|ぼう}",
+    "警察": "{警|けい}{察|さつ}",
+    "浅い": "{浅|あさ}い",
+    "深い": "{深|ふか}い",
+    "光る": "{光|ひか}る",
+    "揺れる": "{揺|ゆ}れる",
+    "折れる": "{折|お}れる",
+    "台所から変な＿がします。": "{台|だい}{所|どころ}から{変|へん}な＿がします。",
+    "におい": "におい",
+    "音": "{音|おと}",
+    "光": "{光|ひかり}",
+    "妹は母によく＿。": "{妹|いもうと}は{母|はは}によく＿。",
+    "似ています": "{似|に}ています",
+    "似ます": "{似|に}ます",
+    "見えます": "{見|み}えます",
+    "誰かが来たようです。": "{誰|だれ}かが{来|き}たようです。",
+    "外は寒いみたいだよ。": "{外|そと}は{寒|さむ}いみたいだよ。",
+    "外、寒いみたいだよ。": "{外|そと}、{寒|さむ}いみたいだよ。",
+    "明日は、雪が降るかもしれません。": "{明日|あした}は、{雪|ゆき}が{降|ふ}るかもしれません。",
+    "明日は、雪かもしれません。": "{明日|あした}は、{雪|ゆき}かもしれません。",
+    "私は田中さんは来ないだろうと思います。": "{私|わたし}は{田中|たなか}さんは{来|こ}ないだろうと{思|おも}います。",
+    "田中さんは明日のパーティーに来ますか。": "{田中|たなか}さんは{明日|あした}のパーティーに{来|き}ますか。",
+    "来ないかもしれません。": "{来|こ}ないかもしれません。",
+    "田中さんは明日はパーティーに来ないかもしれません。": "{田中|たなか}さんは{明日|あした}はパーティーに{来|こ}ないかもしれません。"
+  }
+}

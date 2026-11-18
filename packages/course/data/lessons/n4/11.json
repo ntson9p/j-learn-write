@@ -1,0 +1,1205 @@
+{
+  "id": "n4-11",
+  "goalsVi": [
+    "Nói việc đã làm xong hết hoặc lỡ làm (tiếc nuối): 全部食べてしまいました、財布をなくしちゃった",
+    "Nói việc làm sẵn để chuẩn bị: パーティーの前に、飲み物を買っておきます",
+    "Nói làm thử: この服を着てみてもいいですか",
+    "Tả trạng thái do ai đó cố ý tạo ra: 壁にカレンダーが貼ってあります; gọi tên đồ vật trong phòng: 棚、引き出し、押し入れ、布団"
+  ],
+  "words": [
+    {
+      "no": 721,
+      "word": "植える",
+      "meaningsVi": [
+        "trồng (cây, hoa)"
+      ],
+      "examples": [
+        {
+          "ja": "庭に木を植えました。",
+          "vi": "Tôi đã trồng cây trong vườn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 734,
+      "word": "裏",
+      "meaningsVi": [
+        "mặt sau, mặt trái",
+        "phía sau"
+      ],
+      "noteVi": "Mặt sau của tờ giấy, tấm ảnh: 紙の裏. Phía sau nhà: 家の裏. Ngược nghĩa: 表.",
+      "examples": [
+        {
+          "ja": "紙の裏に地図を書きました。",
+          "vi": "Tôi đã vẽ bản đồ ở mặt sau tờ giấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 777,
+      "word": "表",
+      "meaningsVi": [
+        "mặt trước, mặt phải",
+        "bên ngoài"
+      ],
+      "noteVi": "Cùng chữ 表 đọc ひょう là \"bảng biểu\". Mặt trước của bưu thiếp (はがきの表) là mặt ghi địa chỉ.",
+      "examples": [
+        {
+          "ja": "はがきの表に住所を書きます。",
+          "vi": "Viết địa chỉ ở mặt trước bưu thiếp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 759,
+      "word": "押し入れ",
+      "meaningsVi": [
+        "tủ âm tường (kiểu Nhật)"
+      ],
+      "noteVi": "Tủ có cửa lùa trong phòng chiếu tatami, ban ngày cất chăn nệm (布団) vào đây.",
+      "examples": [
+        {
+          "ja": "布団は押し入れにしまってあります。",
+          "vi": "Chăn nệm đã được cất trong tủ âm tường."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 785,
+      "word": "カーテン",
+      "meaningsVi": [
+        "rèm cửa"
+      ],
+      "examples": [
+        {
+          "ja": "部屋が暗いから、カーテンを開けましょう。",
+          "vi": "Phòng tối quá, mình kéo rèm ra đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 794,
+      "word": "鏡",
+      "meaningsVi": [
+        "gương"
+      ],
+      "noteVi": "Âm Hán Việt \"kính\", nhưng 鏡 là cái gương; kính đeo mắt là めがね, kính cửa sổ là ガラス.",
+      "examples": [
+        {
+          "ja": "出かける前に、鏡を見ます。",
+          "vi": "Trước khi ra ngoài, tôi soi gương."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 795,
+      "word": "飾る",
+      "meaningsVi": [
+        "trang trí, bày (cho đẹp)"
+      ],
+      "examples": [
+        {
+          "ja": "玄関に花を飾りました。",
+          "vi": "Tôi đã cắm hoa trang trí ở lối vào."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 802,
+      "word": "片付ける",
+      "meaningsVi": [
+        "dọn dẹp, cất gọn"
+      ],
+      "noteVi": "Xếp đồ về chỗ cho gọn; lau chùi cho sạch là 掃除する.",
+      "examples": [
+        {
+          "ja": "早く部屋を片付けなさい。",
+          "vi": "Mau dọn phòng đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 815,
+      "word": "ガラス",
+      "meaningsVi": [
+        "kính, thủy tinh"
+      ],
+      "noteVi": "Gốc tiếng Hà Lan (glas). Kính cửa sổ: 窓のガラス. Cái cốc là コップ.",
+      "examples": [
+        {
+          "ja": "窓のガラスが割れています。",
+          "vi": "Kính cửa sổ bị vỡ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 908,
+      "word": "壊す",
+      "meaningsVi": [
+        "làm hỏng, làm vỡ, phá"
+      ],
+      "noteVi": "Tha động từ: (ai) 〜を壊す. Tự hỏng: 〜が壊れる.",
+      "examples": [
+        {
+          "ja": "弟が私のカメラを壊してしまいました。",
+          "vi": "Em trai tôi lỡ làm hỏng máy ảnh của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 944,
+      "word": "支度",
+      "meaningsVi": [
+        "sửa soạn, chuẩn bị (việc hằng ngày)"
+      ],
+      "noteVi": "Dùng cho việc thường ngày: 食事の支度 (nấu cơm), 出かける支度 (sửa soạn đi ra ngoài). Việc lớn, trang trọng hơn dùng 準備.",
+      "examples": [
+        {
+          "ja": "母は晩ご飯の支度をしています。",
+          "vi": "Mẹ tôi đang chuẩn bị bữa tối."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 965,
+      "word": "準備",
+      "meaningsVi": [
+        "chuẩn bị"
+      ],
+      "noteVi": "Âm Hán Việt \"chuẩn bị\", nghĩa như tiếng Việt. 準備する; 準備ができる (chuẩn bị xong).",
+      "examples": [
+        {
+          "ja": "旅行の準備はもうできましたか。",
+          "vi": "Anh chuẩn bị cho chuyến đi xong chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1001,
+      "word": "隅",
+      "meaningsVi": [
+        "góc (bên trong)"
+      ],
+      "noteVi": "Góc phía trong: 部屋の隅. Góc nhìn từ bên ngoài, góc phố là 角.",
+      "examples": [
+        {
+          "ja": "部屋の隅に机を置きました。",
+          "vi": "Tôi đặt cái bàn ở góc phòng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 993,
+      "word": "すっかり",
+      "meaningsVi": [
+        "hoàn toàn, hẳn, sạch"
+      ],
+      "noteVi": "Hay đi với 忘れる, 変わる, 〜てしまう: すっかり忘れてしまった (quên sạch mất).",
+      "examples": [
+        {
+          "ja": "すっかり忘れてしまいました。",
+          "vi": "Tôi quên sạch mất rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1047,
+      "word": "畳",
+      "meaningsVi": [
+        "chiếu tatami"
+      ],
+      "noteVi": "Âm Hán Việt \"điệp\". Phòng kiểu Nhật lát chiếu: 畳の部屋. Diện tích phòng cũng tính bằng số chiếu.",
+      "examples": [
+        {
+          "ja": "畳の部屋で寝たことがありますか。",
+          "vi": "Bạn đã bao giờ ngủ trong phòng trải chiếu tatami chưa?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1051,
+      "word": "棚",
+      "meaningsVi": [
+        "kệ, giá (để đồ)"
+      ],
+      "noteVi": "Giá sách: 本棚 (ほんだな).",
+      "examples": [
+        {
+          "ja": "その本は棚の上に置いてください。",
+          "vi": "Hãy để quyển sách đó lên trên kệ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1072,
+      "word": "付く",
+      "meaningsVi": [
+        "dính, bám",
+        "có gắn, đi kèm"
+      ],
+      "noteVi": "Tự động từ: 〜が付く. このかばんにはポケットが付いています: túi này có gắn túi nhỏ.",
+      "examples": [
+        {
+          "ja": "このかばんにはポケットが付いています。",
+          "vi": "Cái túi này có túi nhỏ (gắn ở ngoài)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1094,
+      "word": "電灯",
+      "meaningsVi": [
+        "đèn điện"
+      ],
+      "noteVi": "Âm Hán Việt \"điện đăng\". Hơi cũ; nói chuyện hằng ngày thường gọi là 電気.",
+      "examples": [
+        {
+          "ja": "部屋の電灯が消えています。",
+          "vi": "Đèn trong phòng đang tắt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1137,
+      "word": "塗る",
+      "meaningsVi": [
+        "sơn, quét",
+        "bôi, phết"
+      ],
+      "noteVi": "Sơn tường, bôi thuốc, phết bơ đều dùng 塗る: パンにバターを塗る.",
+      "examples": [
+        {
+          "ja": "壁を白く塗りました。",
+          "vi": "Tôi đã sơn tường màu trắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1175,
+      "word": "引き出し",
+      "meaningsVi": [
+        "ngăn kéo"
+      ],
+      "examples": [
+        {
+          "ja": "かぎは机の引き出しに入れておきました。",
+          "vi": "Tôi đã để sẵn chìa khóa trong ngăn kéo bàn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1200,
+      "word": "布団",
+      "meaningsVi": [
+        "chăn nệm kiểu Nhật (futon)"
+      ],
+      "noteVi": "Âm Hán Việt \"bố đoàn\". Tối trải ra chiếu để ngủ, sáng gấp lại cất vào 押し入れ.",
+      "examples": [
+        {
+          "ja": "毎朝、布団を押し入れにしまいます。",
+          "vi": "Sáng nào tôi cũng cất chăn nệm vào tủ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1232,
+      "word": "真ん中",
+      "meaningsVi": [
+        "chính giữa"
+      ],
+      "examples": [
+        {
+          "ja": "部屋の真ん中にテーブルがあります。",
+          "vi": "Ở chính giữa phòng có cái bàn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1277,
+      "word": "用意",
+      "meaningsVi": [
+        "chuẩn bị sẵn (đồ dùng)"
+      ],
+      "noteVi": "Âm Hán Việt \"dụng ý\" nhưng nghĩa khác tiếng Việt: 用意 là chuẩn bị sẵn đồ vật (飲み物を用意する), không phải \"ý đồ\".",
+      "examples": [
+        {
+          "ja": "飲み物は私が用意します。",
+          "vi": "Đồ uống để tôi chuẩn bị."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1279,
+      "word": "汚れる",
+      "meaningsVi": [
+        "bị bẩn"
+      ],
+      "noteVi": "Động từ: trở nên bẩn (〜が汚れる). Tính từ \"bẩn\" là 汚い.",
+      "examples": [
+        {
+          "ja": "服が汚れてしまいました。",
+          "vi": "Quần áo bị bẩn mất rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1304,
+      "word": "割れる",
+      "meaningsVi": [
+        "vỡ (thủy tinh, đồ sứ)"
+      ],
+      "noteVi": "Tự động từ: コップが割れる. Đồ vật hỏng, không chạy: 壊れる.",
+      "examples": [
+        {
+          "ja": "コップが割れてしまいました。",
+          "vi": "Cái cốc bị vỡ mất rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 810,
+      "word": "壁",
+      "meaningsVi": [
+        "tường"
+      ],
+      "noteVi": "Âm Hán Việt \"bích\" (như \"bích họa\": tranh tường).",
+      "examples": [
+        {
+          "ja": "壁にカレンダーが貼ってあります。",
+          "vi": "Trên tường có dán tờ lịch."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1319,
+      "word": "しまう",
+      "meaningsVi": [
+        "cất (vào chỗ)",
+        "(sau thể て) … mất, … xong hết"
+      ],
+      "noteVi": "Nghĩa gốc: cất đồ vào chỗ. Sau thể て là trợ động từ 〜てしまう (xem ngữ pháp bài này).",
+      "examples": [
+        {
+          "ja": "使った物は棚にしまってください。",
+          "vi": "Đồ dùng xong thì cất lên kệ nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "意",
+      "meaningVi": "ý, ý nghĩ",
+      "noteVi": "Gặp trong 意味 (いみ, ý nghĩa), 用意 (ようい). Trên 音 (âm thanh), dưới 心 (lòng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "真",
+      "meaningVi": "thật, chính",
+      "noteVi": "Gặp trong 写真 (しゃしん), 真ん中 (まんなか, chính giữa).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "写",
+      "meaningVi": "chép, chụp",
+      "noteVi": "Gặp trong 写真 (しゃしん, ảnh), 写す (chép, chụp).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "図",
+      "meaningVi": "hình vẽ, bản đồ",
+      "noteVi": "Gặp trong 地図 (ちず), 図書館 (としょかん).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "紙",
+      "meaningVi": "giấy",
+      "noteVi": "Gặp trong 紙 (かみ), 手紙 (てがみ, thư). Bộ 糸 (sợi tơ) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "開",
+      "meaningVi": "mở",
+      "noteVi": "Gặp trong 開ける (あける), 開く (あく). Bộ 門 (cổng) bao ngoài; ngược nghĩa với 閉 (đóng).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "te-shimau-chau",
+      "titleVi": "〜てしまう / 〜ちゃう: làm xong hết; lỡ làm mất",
+      "summaryVi": "V-て + しまう: làm xong hoàn toàn, hoặc lỡ làm điều đáng tiếc: 財布をなくしてしまいました.",
+      "explanationVi": [
+        "**V-て + しまう** có hai nghĩa chính. (1) **Làm xong hết, làm trọn**: 「宿題を全部してしまいました」 (Tôi làm xong hết bài tập rồi). (2) **Lỡ làm, … mất rồi**: việc xảy ra ngoài ý muốn, người nói thấy **tiếc, ân hận**: 「財布をなくしてしまいました」 (Tôi lỡ làm mất ví rồi).",
+        "Tiếng Việt diễn tả nghĩa (2) bằng \"lỡ\", \"mất\", \"mất rồi\": \"quên mất rồi\" = 「忘れてしまいました」. Cách ghép: thể て + しまう, chia như động từ thường: しまいます, しまいました, しまった.",
+        "Khi nói chuyện thân mật, 〜てしまう rút gọn thành **〜ちゃう**, 〜でしまう thành **〜じゃう**: 「食べてしまった → 食べちゃった」, 「飲んでしまった → 飲んじゃった」, 「忘れてしまった → 忘れちゃった」."
+      ],
+      "patterns": [
+        "V-て + しまう／しまいました",
+        "V-てしまう → V-ちゃう; V-でしまう → V-じゃう"
+      ],
+      "examples": [
+        {
+          "ja": "お菓子を全部食べてしまいました。",
+          "vi": "Tôi đã ăn hết sạch bánh kẹo rồi."
+        },
+        {
+          "ja": "財布をなくしてしまいました。",
+          "vi": "Tôi lỡ làm mất ví rồi."
+        },
+        {
+          "ja": "電車の中に傘を忘れてしまいました。",
+          "vi": "Tôi để quên ô trên tàu mất rồi."
+        },
+        {
+          "ja": "宿題を忘れちゃった。",
+          "vi": "Tớ quên mất bài tập rồi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "傘を忘れたしまいました。",
+          "right": "傘を忘れてしまいました。",
+          "noteVi": "しまう đi sau thể て, không đi sau thể た."
+        },
+        {
+          "wrong": "全部飲んちゃった。",
+          "right": "全部飲んじゃった。",
+          "noteVi": "Thể て tận cùng bằng で (飲んで) thì rút gọn thành じゃう, không phải ちゃう."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-oku",
+      "titleVi": "〜ておく: làm sẵn, làm trước; để nguyên",
+      "summaryVi": "V-て + おく: làm trước để chuẩn bị cho việc sau, hoặc để nguyên trạng thái: 飲み物を買っておきます.",
+      "explanationVi": [
+        "**V-て + おく** (おく: đặt, để) nghĩa là **làm sẵn, làm trước** để chuẩn bị cho việc sau: 「パーティーの前に、飲み物を買っておきます」 (Trước bữa tiệc, tôi mua sẵn đồ uống). Tiếng Việt hay nói \"sẵn\", \"trước\".",
+        "Nghĩa thứ hai: **để nguyên** một trạng thái, không thay đổi: 「窓を開けておいてください」 (Cứ để cửa sổ mở nhé).",
+        "Cách ghép: thể て + おく, chia như động từ thường: おきます, おきました, おいてください. Thường dùng với tha động từ (động từ có を): 買う, 開ける, 入れる. Khi nói nhanh, 〜ておく thành 〜とく (買っとく)."
+      ],
+      "patterns": [
+        "V-て + おく／おきます",
+        "V-て + おいてください"
+      ],
+      "examples": [
+        {
+          "ja": "パーティーの前に、飲み物を買っておきます。",
+          "vi": "Trước bữa tiệc, tôi sẽ mua sẵn đồ uống."
+        },
+        {
+          "ja": "使ったお皿は洗っておきました。",
+          "vi": "Đĩa dùng rồi tôi đã rửa sẵn."
+        },
+        {
+          "ja": "ここに名前を書いておいてください。",
+          "vi": "Hãy viết sẵn tên vào đây."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "窓が開いておきます。",
+          "right": "窓を開けておきます。",
+          "noteVi": "ておく là việc người ta cố ý làm, nên đi với tha động từ: 窓を開ける, không đi với 窓が開く."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-miru",
+      "titleVi": "〜てみる: làm thử",
+      "summaryVi": "V-て + みる: làm thử để xem thế nào: この服を着てみてもいいですか.",
+      "explanationVi": [
+        "**V-て + みる** nghĩa là **làm thử** để biết kết quả, xem thế nào: 「この服を着てみてもいいですか」 (Tôi mặc thử cái áo này được không?). Giống \"thử\" trong tiếng Việt, nhưng \"thử\" đứng trước động từ, còn みる đứng sau.",
+        "Cách ghép: thể て + みる, chia như động từ 見る: みます, みました, みたい, みてください. Viết bằng kana: みる.",
+        "Hay dùng: 〜てみたい (muốn thử), 〜てみてください (anh thử … xem), 〜てみます (tôi sẽ thử)."
+      ],
+      "patterns": [
+        "V-て + みる／みます",
+        "V-て + みたい(です)",
+        "V-て + みてください"
+      ],
+      "examples": [
+        {
+          "ja": "この服を着てみてもいいですか。",
+          "vi": "Tôi mặc thử cái áo này được không?"
+        },
+        {
+          "ja": "おいしいですよ。食べてみてください。",
+          "vi": "Ngon lắm. Anh ăn thử xem."
+        },
+        {
+          "ja": "京都へ行ってみたいです。",
+          "vi": "Tôi muốn đi Kyoto thử một lần."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "このペンで書くみてもいいですか。",
+          "right": "このペンで書いてみてもいいですか。",
+          "noteVi": "みる đi sau thể て của động từ (書いて), không đi sau thể từ điển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-aru",
+      "titleVi": "〜てある: đã được làm sẵn (trạng thái còn lại)",
+      "summaryVi": "N が + V-て (tha động từ) + ある: trạng thái còn lại do ai đó đã cố ý làm: 壁にカレンダーが貼ってあります.",
+      "explanationVi": [
+        "**N が + V-て + ある** nói **trạng thái** còn lại sau khi **ai đó đã cố ý làm** một việc: 「壁にカレンダーが貼ってあります」 (Trên tường có dán tờ lịch: có người đã dán). Người làm không được nói ra; đồ vật đi với **が** (hoặc は).",
+        "Chỉ dùng với **tha động từ** (động từ có を): 貼る, 書く, 開ける, 消す. So sánh: 「窓が開いています」 chỉ tả cửa đang mở (tự động từ 開く + ている); 「窓が開けてあります」 cho biết có người đã mở, thường là có mục đích.",
+        "てある hay đi cùng ておく: làm sẵn (ておく) thì kết quả là đã được làm sẵn (てある): 「飲み物は冷蔵庫に入れておきました」 → 「飲み物は冷蔵庫に入れてあります」."
+      ],
+      "patterns": [
+        "N が V-て (tha động từ) + あります",
+        "Nơi chốn に N が V-て + あります"
+      ],
+      "examples": [
+        {
+          "ja": "壁にカレンダーが貼ってあります。",
+          "vi": "Trên tường có dán tờ lịch."
+        },
+        {
+          "ja": "テーブルの上に花が飾ってあります。",
+          "vi": "Trên bàn có hoa được cắm trang trí."
+        },
+        {
+          "ja": "飲み物は冷蔵庫に入れてあります。",
+          "vi": "Đồ uống đã được để sẵn trong tủ lạnh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "窓が開いてあります。",
+          "right": "窓が開けてあります。",
+          "noteVi": "てある chỉ đi với tha động từ (開ける). Với tự động từ 開く thì dùng ている: 窓が開いています."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-11-e01",
+      "type": "choice",
+      "grammar": [
+        "te-shimau-chau"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi lỡ làm mất ví rồi\"?",
+      "options": [
+        "財布をなくしてしまいました。",
+        "財布をなくしておきました。",
+        "財布をなくしてみました。"
+      ],
+      "answer": 0,
+      "explainVi": "Lỡ làm, tiếc nuối: 〜てしまう."
+    },
+    {
+      "id": "n4-11-e02",
+      "type": "choice",
+      "grammar": [
+        "te-shimau-chau"
+      ],
+      "promptVi": "Cách nói thân mật của câu này là gì?",
+      "options": [
+        "飲んじゃった",
+        "飲んだ",
+        "飲んでみた"
+      ],
+      "answer": 0,
+      "explainVi": "〜でしまう rút gọn thành 〜じゃう.",
+      "ja": "飲んでしまった。"
+    },
+    {
+      "id": "n4-11-e03",
+      "type": "order",
+      "grammar": [
+        "te-shimau-chau"
+      ],
+      "vi": "Tôi quên sạch bài tập mất rồi.",
+      "tiles": [
+        "宿題を",
+        "すっかり",
+        "忘れて",
+        "しまいました"
+      ],
+      "answers": [
+        "宿題をすっかり忘れてしまいました",
+        "すっかり宿題を忘れてしまいました"
+      ]
+    },
+    {
+      "id": "n4-11-e04",
+      "type": "fill",
+      "grammar": [
+        "te-oku"
+      ],
+      "before": "友達が来る前に、部屋を片付けて",
+      "after": "ます。",
+      "answers": [
+        "おき"
+      ],
+      "options": [
+        "おき",
+        "しまい",
+        "み"
+      ],
+      "vi": "Trước khi bạn đến, tôi sẽ dọn phòng sẵn."
+    },
+    {
+      "id": "n4-11-e05",
+      "type": "choice",
+      "grammar": [
+        "te-oku"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Cứ để cửa sổ mở nhé (đừng đóng)\"?",
+      "options": [
+        "窓を開けておいてください。",
+        "窓を開けてみてください。",
+        "窓を開けてしまってください。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-11-e06",
+      "type": "order",
+      "grammar": [
+        "te-oku"
+      ],
+      "vi": "Trước chuyến đi, tôi sẽ đặt sẵn khách sạn.",
+      "tiles": [
+        "旅行の前に",
+        "ホテルを",
+        "予約して",
+        "おきます"
+      ],
+      "answers": [
+        "旅行の前にホテルを予約しておきます",
+        "ホテルを旅行の前に予約しておきます"
+      ]
+    },
+    {
+      "id": "n4-11-e07",
+      "type": "fill",
+      "grammar": [
+        "te-miru"
+      ],
+      "before": "おいしいですよ。食べて",
+      "after": "ください。",
+      "answers": [
+        "みて"
+      ],
+      "options": [
+        "みて",
+        "あって",
+        "しまって"
+      ],
+      "vi": "Ngon lắm. Anh ăn thử xem."
+    },
+    {
+      "id": "n4-11-e08",
+      "type": "choice",
+      "grammar": [
+        "te-miru"
+      ],
+      "promptVi": "Ở cửa hàng quần áo, bạn hỏi: \"Tôi mặc thử được không?\"",
+      "options": [
+        "着てみてもいいですか。",
+        "着てしまってもいいですか。",
+        "着てあってもいいですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-11-e09",
+      "type": "order",
+      "grammar": [
+        "te-miru"
+      ],
+      "vi": "Tôi muốn ăn thử món ăn Nhật.",
+      "tiles": [
+        "日本の",
+        "料理を",
+        "食べて",
+        "みたいです"
+      ],
+      "answers": [
+        "日本の料理を食べてみたいです"
+      ]
+    },
+    {
+      "id": "n4-11-e10",
+      "type": "choice",
+      "grammar": [
+        "te-aru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Cửa sổ đã được (ai đó) mở sẵn\"?",
+      "options": [
+        "窓が開けてあります。",
+        "窓が開いてあります。",
+        "窓を開けてみます。"
+      ],
+      "answer": 0,
+      "explainVi": "てある đi với tha động từ: 開ける → 開けてあります."
+    },
+    {
+      "id": "n4-11-e11",
+      "type": "fill",
+      "grammar": [
+        "te-aru"
+      ],
+      "before": "壁にカレンダーが貼って",
+      "after": "ます。",
+      "answers": [
+        "あり"
+      ],
+      "options": [
+        "あり",
+        "おき",
+        "み"
+      ],
+      "vi": "Trên tường có dán tờ lịch."
+    },
+    {
+      "id": "n4-11-e12",
+      "type": "choice",
+      "grammar": [
+        "te-aru"
+      ],
+      "promptVi": "Chọn từ đúng điền vào chỗ trống: \"Đèn trong phòng đã được tắt.\"",
+      "ja": "部屋の電気が＿あります。",
+      "options": [
+        "消して",
+        "消えて",
+        "消し"
+      ],
+      "answer": 0,
+      "explainVi": "てある đi với tha động từ 消す (tắt), không đi với 消える (tự tắt)."
+    },
+    {
+      "id": "n4-11-e13",
+      "type": "choice",
+      "grammar": [
+        "te-aru"
+      ],
+      "promptVi": "Khách sắp đến. Bạn nói: \"Đồ uống đã được để sẵn trong tủ lạnh rồi.\"",
+      "options": [
+        "飲み物は冷蔵庫に入れてあります。",
+        "飲み物は冷蔵庫に入っておきます。",
+        "飲み物は冷蔵庫に入れてみます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-11-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "鏡",
+          "gương"
+        ],
+        [
+          "棚",
+          "kệ, giá"
+        ],
+        [
+          "壁",
+          "tường"
+        ],
+        [
+          "引き出し",
+          "ngăn kéo"
+        ],
+        [
+          "布団",
+          "chăn nệm"
+        ]
+      ]
+    },
+    {
+      "id": "n4-11-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "表",
+          "mặt trước"
+        ],
+        [
+          "裏",
+          "mặt sau"
+        ],
+        [
+          "隅",
+          "góc"
+        ],
+        [
+          "真ん中",
+          "chính giữa"
+        ]
+      ]
+    },
+    {
+      "id": "n4-11-e16",
+      "type": "choice",
+      "promptVi": "\"Cái cốc bị vỡ.\" Chọn từ đúng.",
+      "ja": "コップが＿。",
+      "options": [
+        "割れました",
+        "壊しました",
+        "植えました"
+      ],
+      "answer": 0,
+      "explainVi": "〜が割れる: tự vỡ. 壊す là tha động từ (〜を壊す)."
+    },
+    {
+      "id": "n4-11-e17",
+      "type": "choice",
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "飲み物は私が用意します。",
+      "options": [
+        "Đồ uống để tôi chuẩn bị.",
+        "Đồ uống là dụng ý của tôi.",
+        "Tôi sẽ dùng đồ uống."
+      ],
+      "answer": 0,
+      "explainVi": "Âm Hán Việt \"dụng ý\" nhưng 用意 là chuẩn bị sẵn."
+    },
+    {
+      "id": "n4-11-e18",
+      "type": "translate",
+      "grammar": [
+        "te-shimau-chau"
+      ],
+      "vi": "Tôi lỡ làm mất ví rồi. (dùng 〜てしまう)",
+      "answers": [
+        "(私は)財布をなくしてしまいました。",
+        "(私は)財布をなくし[てしまった|ちゃいました|ちゃった]。"
+      ],
+      "examples": [
+        {
+          "answer": "さいふをなくしてしまいました",
+          "score": 100
+        },
+        {
+          "answer": "財布がなくしてしまいました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "財布を買ってしまいました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-11-e19",
+      "type": "translate",
+      "grammar": [
+        "te-oku"
+      ],
+      "vi": "Trước bữa tiệc, tôi sẽ mua sẵn đồ uống.",
+      "answers": [
+        "パーティーの前に、飲み物を買っておきます。",
+        "(私は)[パーティーの前に、飲み物を|飲み物をパーティーの前に]買っておきます。"
+      ],
+      "examples": [
+        {
+          "answer": "パーティーのまえに、のみものをかっておきます",
+          "score": 100
+        },
+        {
+          "answer": "パーティーの前で、飲み物を買っておきます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "パーティーの後で、飲み物を買っておきます。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-11-e20",
+      "type": "translate",
+      "grammar": [
+        "te-miru"
+      ],
+      "vi": "Tôi muốn ăn thử món ăn Nhật.",
+      "answers": [
+        "(私は)日本の料理を食べてみたいです。",
+        "(私は)[日本の料理|日本料理]を食べてみたい(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんのりょうりをたべてみたいです",
+          "score": 100
+        },
+        {
+          "answer": "日本の料理が食べてみたいです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "日本の料理を作ってみたいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-11-e21",
+      "type": "translate",
+      "grammar": [
+        "te-aru"
+      ],
+      "vi": "Trên tường có dán bản đồ (ai đó đã dán).",
+      "answers": [
+        "壁に地図が貼ってあります。",
+        "[壁に地図[が|は]|地図[が|は]壁に]貼ってある(よ)。",
+        "[壁に地図[が|は]|地図[が|は]壁に]貼ってあります(よ)。"
+      ],
+      "examples": [
+        {
+          "answer": "かべにちずがはってあります",
+          "score": 100
+        },
+        {
+          "answer": "壁で地図が貼ってあります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "壁に写真が貼ってあります。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "庭に木を植えました。": "{庭|にわ}に{木|き}を{植|う}えました。",
+    "紙の裏に地図を書きました。": "{紙|かみ}の{裏|うら}に{地|ち}{図|ず}を{書|か}きました。",
+    "はがきの表に住所を書きます。": "はがきの{表|おもて}に{住|じゅう}{所|しょ}を{書|か}きます。",
+    "布団は押し入れにしまってあります。": "{布|ふ}{団|とん}は{押|お}し{入|い}れにしまってあります。",
+    "部屋が暗いから、カーテンを開けましょう。": "{部屋|へや}が{暗|くら}いから、カーテンを{開|あ}けましょう。",
+    "出かける前に、鏡を見ます。": "{出|で}かける{前|まえ}に、{鏡|かがみ}を{見|み}ます。",
+    "玄関に花を飾りました。": "{玄|げん}{関|かん}に{花|はな}を{飾|かざ}りました。",
+    "早く部屋を片付けなさい。": "{早|はや}く{部屋|へや}を{片|かた}{付|づ}けなさい。",
+    "窓のガラスが割れています。": "{窓|まど}のガラスが{割|わ}れています。",
+    "弟が私のカメラを壊してしまいました。": "{弟|おとうと}が{私|わたし}のカメラを{壊|こわ}してしまいました。",
+    "母は晩ご飯の支度をしています。": "{母|はは}は{晩|ばん}ご{飯|はん}の{支|し}{度|たく}をしています。",
+    "旅行の準備はもうできましたか。": "{旅|りょ}{行|こう}の{準|じゅん}{備|び}はもうできましたか。",
+    "部屋の隅に机を置きました。": "{部屋|へや}の{隅|すみ}に{机|つくえ}を{置|お}きました。",
+    "すっかり忘れてしまいました。": "すっかり{忘|わす}れてしまいました。",
+    "畳の部屋で寝たことがありますか。": "{畳|たたみ}の{部屋|へや}で{寝|ね}たことがありますか。",
+    "その本は棚の上に置いてください。": "その{本|ほん}は{棚|たな}の{上|うえ}に{置|お}いてください。",
+    "このかばんにはポケットが付いています。": "このかばんにはポケットが{付|つ}いています。",
+    "部屋の電灯が消えています。": "{部屋|へや}の{電|でん}{灯|とう}が{消|き}えています。",
+    "壁を白く塗りました。": "{壁|かべ}を{白|しろ}く{塗|ぬ}りました。",
+    "かぎは机の引き出しに入れておきました。": "かぎは{机|つくえ}の{引|ひ}き{出|だ}しに{入|い}れておきました。",
+    "毎朝、布団を押し入れにしまいます。": "{毎|まい}{朝|あさ}、{布|ふ}{団|とん}を{押|お}し{入|い}れにしまいます。",
+    "部屋の真ん中にテーブルがあります。": "{部屋|へや}の{真|ま}ん{中|なか}にテーブルがあります。",
+    "飲み物は私が用意します。": "{飲|の}み{物|もの}は{私|わたし}が{用|よう}{意|い}します。",
+    "服が汚れてしまいました。": "{服|ふく}が{汚|よご}れてしまいました。",
+    "コップが割れてしまいました。": "コップが{割|わ}れてしまいました。",
+    "壁にカレンダーが貼ってあります。": "{壁|かべ}にカレンダーが{貼|は}ってあります。",
+    "使った物は棚にしまってください。": "{使|つか}った{物|もの}は{棚|たな}にしまってください。",
+    "お菓子を全部食べてしまいました。": "お{菓|か}{子|し}を{全|ぜん}{部|ぶ}{食|た}べてしまいました。",
+    "財布をなくしてしまいました。": "{財|さい}{布|ふ}をなくしてしまいました。",
+    "電車の中に傘を忘れてしまいました。": "{電|でん}{車|しゃ}の{中|なか}に{傘|かさ}を{忘|わす}れてしまいました。",
+    "宿題を忘れちゃった。": "{宿|しゅく}{題|だい}を{忘|わす}れちゃった。",
+    "傘を忘れてしまいました。": "{傘|かさ}を{忘|わす}れてしまいました。",
+    "傘を忘れたしまいました。": "{傘|かさ}を{忘|わす}れたしまいました。",
+    "全部飲んじゃった。": "{全|ぜん}{部|ぶ}{飲|の}んじゃった。",
+    "全部飲んちゃった。": "{全|ぜん}{部|ぶ}{飲|の}んちゃった。",
+    "パーティーの前に、飲み物を買っておきます。": "パーティーの{前|まえ}に、{飲|の}み{物|もの}を{買|か}っておきます。",
+    "使ったお皿は洗っておきました。": "{使|つか}ったお{皿|さら}は{洗|あら}っておきました。",
+    "ここに名前を書いておいてください。": "ここに{名|な}{前|まえ}を{書|か}いておいてください。",
+    "窓を開けておきます。": "{窓|まど}を{開|あ}けておきます。",
+    "窓が開いておきます。": "{窓|まど}が{開|あ}いておきます。",
+    "この服を着てみてもいいですか。": "この{服|ふく}を{着|き}てみてもいいですか。",
+    "おいしいですよ。食べてみてください。": "おいしいですよ。{食|た}べてみてください。",
+    "京都へ行ってみたいです。": "{京都|きょうと}へ{行|い}ってみたいです。",
+    "このペンで書いてみてもいいですか。": "このペンで{書|か}いてみてもいいですか。",
+    "このペンで書くみてもいいですか。": "このペンで{書|か}くみてもいいですか。",
+    "テーブルの上に花が飾ってあります。": "テーブルの{上|うえ}に{花|はな}が{飾|かざ}ってあります。",
+    "飲み物は冷蔵庫に入れてあります。": "{飲|の}み{物|もの}は{冷|れい}{蔵|ぞう}{庫|こ}に{入|い}れてあります。",
+    "窓が開けてあります。": "{窓|まど}が{開|あ}けてあります。",
+    "窓が開いてあります。": "{窓|まど}が{開|あ}いてあります。",
+    "財布をなくしておきました。": "{財|さい}{布|ふ}をなくしておきました。",
+    "財布をなくしてみました。": "{財|さい}{布|ふ}をなくしてみました。",
+    "飲んでしまった。": "{飲|の}んでしまった。",
+    "飲んじゃった": "{飲|の}んじゃった",
+    "飲んだ": "{飲|の}んだ",
+    "飲んでみた": "{飲|の}んでみた",
+    "宿題を": "{宿|しゅく}{題|だい}を",
+    "すっかり": "すっかり",
+    "忘れて": "{忘|わす}れて",
+    "しまいました": "しまいました",
+    "宿題をすっかり忘れてしまいました": "{宿|しゅく}{題|だい}をすっかり{忘|わす}れてしまいました",
+    "すっかり宿題を忘れてしまいました": "すっかり{宿|しゅく}{題|だい}を{忘|わす}れてしまいました",
+    "友達が来る前に、部屋を片付けておきます。": "{友|とも}{達|だち}が{来|く}る{前|まえ}に、{部屋|へや}を{片|かた}{付|づ}けておきます。",
+    "おき": "おき",
+    "しまい": "しまい",
+    "み": "み",
+    "窓を開けておいてください。": "{窓|まど}を{開|あ}けておいてください。",
+    "窓を開けてみてください。": "{窓|まど}を{開|あ}けてみてください。",
+    "窓を開けてしまってください。": "{窓|まど}を{開|あ}けてしまってください。",
+    "旅行の前に": "{旅|りょ}{行|こう}の{前|まえ}に",
+    "ホテルを": "ホテルを",
+    "予約して": "{予|よ}{約|やく}して",
+    "おきます": "おきます",
+    "旅行の前にホテルを予約しておきます": "{旅|りょ}{行|こう}の{前|まえ}にホテルを{予|よ}{約|やく}しておきます",
+    "ホテルを旅行の前に予約しておきます": "ホテルを{旅|りょ}{行|こう}の{前|まえ}に{予|よ}{約|やく}しておきます",
+    "みて": "みて",
+    "あって": "あって",
+    "しまって": "しまって",
+    "着てみてもいいですか。": "{着|き}てみてもいいですか。",
+    "着てしまってもいいですか。": "{着|き}てしまってもいいですか。",
+    "着てあってもいいですか。": "{着|き}てあってもいいですか。",
+    "日本の": "{日本|にほん}の",
+    "料理を": "{料|りょう}{理|り}を",
+    "食べて": "{食|た}べて",
+    "みたいです": "みたいです",
+    "日本の料理を食べてみたいです": "{日本|にほん}の{料|りょう}{理|り}を{食|た}べてみたいです",
+    "窓を開けてみます。": "{窓|まど}を{開|あ}けてみます。",
+    "あり": "あり",
+    "部屋の電気が＿あります。": "{部屋|へや}の{電|でん}{気|き}が＿あります。",
+    "消して": "{消|け}して",
+    "消えて": "{消|き}えて",
+    "消し": "{消|け}し",
+    "飲み物は冷蔵庫に入っておきます。": "{飲|の}み{物|もの}は{冷|れい}{蔵|ぞう}{庫|こ}に{入|はい}っておきます。",
+    "飲み物は冷蔵庫に入れてみます。": "{飲|の}み{物|もの}は{冷|れい}{蔵|ぞう}{庫|こ}に{入|い}れてみます。",
+    "鏡": "{鏡|かがみ}",
+    "棚": "{棚|たな}",
+    "壁": "{壁|かべ}",
+    "引き出し": "{引|ひ}き{出|だ}し",
+    "布団": "{布|ふ}{団|とん}",
+    "表": "{表|おもて}",
+    "裏": "{裏|うら}",
+    "隅": "{隅|すみ}",
+    "真ん中": "{真|ま}ん{中|なか}",
+    "コップが＿。": "コップが＿。",
+    "割れました": "{割|わ}れました",
+    "壊しました": "{壊|こわ}しました",
+    "植えました": "{植|う}えました",
+    "私は財布をなくしてしまいました。": "{私|わたし}は{財|さい}{布|ふ}をなくしてしまいました。",
+    "私は財布をなくしてしまった。": "{私|わたし}は{財|さい}{布|ふ}をなくしてしまった。",
+    "私はパーティーの前に、飲み物を買っておきます。": "{私|わたし}はパーティーの{前|まえ}に、{飲|の}み{物|もの}を{買|か}っておきます。",
+    "私は日本の料理を食べてみたいです。": "{私|わたし}は{日本|にほん}の{料|りょう}{理|り}を{食|た}べてみたいです。",
+    "壁に地図が貼ってあります。": "{壁|かべ}に{地|ち}{図|ず}が{貼|は}ってあります。",
+    "壁に地図が貼ってあるよ。": "{壁|かべ}に{地|ち}{図|ず}が{貼|は}ってあるよ。",
+    "壁に地図が貼ってありますよ。": "{壁|かべ}に{地|ち}{図|ず}が{貼|は}ってありますよ。"
+  }
+}

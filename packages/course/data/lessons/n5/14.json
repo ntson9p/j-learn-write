@@ -1,0 +1,1472 @@
+{
+  "id": "n5-14",
+  "goalsVi": [
+    "Nói ở đâu có gì, có ai: 部屋にテレビがあります、庭に犬がいます",
+    "Phân biệt あります (đồ vật, cây cối) và います (người, động vật)",
+    "Nói vị trí đồ vật bằng 上、下、中、前、後ろ、隣…: 机の上に本があります",
+    "Hỏi 何が／誰が… có ở đó, và hỏi người, vật ở đâu: 猫はどこにいますか"
+  ],
+  "words": [
+    {
+      "no": 76,
+      "word": "上",
+      "meaningsVi": [
+        "trên, phía trên"
+      ],
+      "noteVi": "Đứng sau N + の: 机の上 (trên bàn). Trật tự ngược với tiếng Việt: \"trên bàn\" là 机の上, không phải 上の机.",
+      "examples": [
+        {
+          "ja": "机の上に本があります。",
+          "vi": "Trên bàn có quyển sách."
+        },
+        {
+          "ja": "かばんはテーブルの上です。",
+          "vi": "Cái cặp ở trên bàn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 281,
+      "word": "下",
+      "meaningsVi": [
+        "dưới, phía dưới"
+      ],
+      "noteVi": "上 (trên) ↔ 下 (dưới). Chữ 下 cũng có trong 下手 (へた, kém).",
+      "examples": [
+        {
+          "ja": "いすの下に猫がいます。",
+          "vi": "Dưới ghế có con mèo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 447,
+      "word": "中",
+      "meaningsVi": [
+        "trong, bên trong",
+        "giữa"
+      ],
+      "noteVi": "Âm Hán Việt \"trung\" (giữa), nhưng 中 (なか) thường nghĩa là \"bên trong\": かばんの中 (trong cặp).",
+      "examples": [
+        {
+          "ja": "かばんの中に何がありますか。",
+          "vi": "Trong cặp có gì?"
+        },
+        {
+          "ja": "冷蔵庫の中に牛乳があります。",
+          "vi": "Trong tủ lạnh có sữa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 579,
+      "word": "前",
+      "meaningsVi": [
+        "trước, phía trước",
+        "trước (thời gian)"
+      ],
+      "noteVi": "Chỉ vị trí: 駅の前 (trước nhà ga). Sau một khoảng thời gian, 前 nghĩa là \"cách đây\": 3年前 (3 năm trước).",
+      "examples": [
+        {
+          "ja": "駅の前に銀行があります。",
+          "vi": "Trước nhà ga có ngân hàng."
+        },
+        {
+          "ja": "3年前に日本へ来ました。",
+          "vi": "Tôi đến Nhật 3 năm trước."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 77,
+      "word": "後ろ",
+      "meaningsVi": [
+        "sau, phía sau"
+      ],
+      "noteVi": "後ろ chỉ vị trí (phía sau lưng). \"Sau\" về thời gian là 後 (あと), sẽ học ở bài sau.",
+      "examples": [
+        {
+          "ja": "家の後ろに庭があります。",
+          "vi": "Phía sau nhà có khu vườn."
+        },
+        {
+          "ja": "グエンさんは田中さんの後ろにいます。",
+          "vi": "Anh Nguyễn ở phía sau chị Tanaka."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 435,
+      "word": "隣",
+      "meaningsVi": [
+        "bên cạnh, sát bên",
+        "(nhà, phòng, người) bên cạnh"
+      ],
+      "noteVi": "隣 dùng cho hai thứ cùng loại đứng sát nhau: nhà với nhà, người với người, ghế với ghế. Hai thứ khác loại thường dùng 横.",
+      "examples": [
+        {
+          "ja": "銀行の隣に郵便局があります。",
+          "vi": "Bên cạnh ngân hàng có bưu điện."
+        },
+        {
+          "ja": "隣の部屋に誰がいますか。",
+          "vi": "Ở phòng bên cạnh có ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 642,
+      "word": "横",
+      "meaningsVi": [
+        "bên cạnh, phía bên"
+      ],
+      "noteVi": "横 chỉ phía bên trái hoặc bên phải của một vật, không cần cùng loại: 「テレビの横」 (bên cạnh cái TV).",
+      "examples": [
+        {
+          "ja": "ベッドの横に机があります。",
+          "vi": "Bên cạnh giường có cái bàn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 378,
+      "word": "近く",
+      "meaningsVi": [
+        "chỗ gần, gần",
+        "khu vực quanh đây"
+      ],
+      "noteVi": "近く là danh từ: 駅の近く (gần ga, chỗ gần ga). 近い là tính từ (bài 11): 駅は近いです (ga thì gần).",
+      "examples": [
+        {
+          "ja": "田中さんの家は駅の近くです。",
+          "vi": "Nhà chị Tanaka ở gần ga."
+        },
+        {
+          "ja": "この近くで昼ご飯を食べましょう。",
+          "vi": "Mình ăn trưa ở quanh đây nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 593,
+      "word": "右",
+      "meaningsVi": [
+        "bên phải"
+      ],
+      "noteVi": "Hán Việt \"hữu\" (phải), như trong \"tả hữu\" (trái phải).",
+      "examples": [
+        {
+          "ja": "お手洗いは右にあります。",
+          "vi": "Nhà vệ sinh ở bên phải."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 524,
+      "word": "左",
+      "meaningsVi": [
+        "bên trái"
+      ],
+      "noteVi": "左 và 右 dễ nhầm: 左 có chữ 工 bên dưới, 右 có chữ 口.",
+      "examples": [
+        {
+          "ja": "銀行は駅の左にあります。",
+          "vi": "Ngân hàng ở bên trái nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 343,
+      "word": "外",
+      "meaningsVi": [
+        "bên ngoài, ngoài trời"
+      ],
+      "noteVi": "Trái nghĩa với 中 (bên trong). Chữ 外 cũng có trong 外国人 (người nước ngoài).",
+      "examples": [
+        {
+          "ja": "外は寒いです。",
+          "vi": "Bên ngoài trời lạnh."
+        },
+        {
+          "ja": "子供は外にいます。",
+          "vi": "Bọn trẻ ở ngoài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 556,
+      "word": "部屋",
+      "meaningsVi": [
+        "phòng, căn phòng"
+      ],
+      "noteVi": "Âm Hán Việt \"bộ ốc\" không giúp đoán nghĩa; cả cụm 部屋 đọc là へや.",
+      "examples": [
+        {
+          "ja": "私の部屋にテレビがあります。",
+          "vi": "Trong phòng tôi có TV."
+        },
+        {
+          "ja": "部屋に誰がいますか。",
+          "vi": "Trong phòng có ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 355,
+      "word": "台所",
+      "meaningsVi": [
+        "nhà bếp, gian bếp"
+      ],
+      "noteVi": "台所 là gian bếp trong nhà ở.",
+      "examples": [
+        {
+          "ja": "マイさんは台所にいます。",
+          "vi": "Chị Mai ở trong bếp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 470,
+      "word": "庭",
+      "meaningsVi": [
+        "vườn, sân (của nhà)"
+      ],
+      "noteVi": "庭 là sân, vườn của một ngôi nhà; công viên công cộng là 公園.",
+      "examples": [
+        {
+          "ja": "庭に子供がいます。",
+          "vi": "Ngoài vườn có trẻ con."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 389,
+      "word": "机",
+      "meaningsVi": [
+        "bàn (bàn học, bàn làm việc)"
+      ],
+      "noteVi": "机 là bàn học, bàn làm việc; bàn ăn, bàn uống nước thường gọi là テーブル.",
+      "examples": [
+        {
+          "ja": "机の上にノートがあります。",
+          "vi": "Trên bàn có quyển vở."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 53,
+      "word": "いす",
+      "meaningsVi": [
+        "ghế"
+      ],
+      "noteVi": "Kanji là 椅子 nhưng thường viết bằng hiragana.",
+      "examples": [
+        {
+          "ja": "いすの下にかばんがあります。",
+          "vi": "Dưới ghế có cái cặp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 554,
+      "word": "ベッド",
+      "meaningsVi": [
+        "giường"
+      ],
+      "examples": [
+        {
+          "ja": "ベッドの上に猫がいます。",
+          "vi": "Trên giường có con mèo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 398,
+      "word": "テーブル",
+      "meaningsVi": [
+        "bàn (bàn ăn, bàn uống nước)"
+      ],
+      "noteVi": "Từ tiếng Anh \"table\". Bàn học, bàn làm việc là 机.",
+      "examples": [
+        {
+          "ja": "テーブルの上に果物があります。",
+          "vi": "Trên bàn có hoa quả."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 571,
+      "word": "本棚",
+      "meaningsVi": [
+        "giá sách, kệ sách"
+      ],
+      "noteVi": "本 (sách) + 棚 (giá, kệ). Trong từ này 棚 (たな) đọc thành だな: ほんだな.",
+      "examples": [
+        {
+          "ja": "本棚に辞書があります。",
+          "vi": "Trên giá sách có quyển từ điển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 661,
+      "word": "冷蔵庫",
+      "meaningsVi": [
+        "tủ lạnh"
+      ],
+      "noteVi": "Âm Hán Việt \"lãnh tàng khố\": kho cất giữ đồ lạnh.",
+      "examples": [
+        {
+          "ja": "冷蔵庫に卵と牛乳があります。",
+          "vi": "Trong tủ lạnh có trứng và sữa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 247,
+      "word": "子供",
+      "meaningsVi": [
+        "trẻ em, trẻ con",
+        "con (của ai đó)"
+      ],
+      "noteVi": "Âm Hán Việt \"tử cung\" trùng với một từ tiếng Việt nhưng không liên quan: 子供 là trẻ con. 子供 cũng là \"con\" của mình: 子供が2人います (tôi có 2 đứa con).",
+      "examples": [
+        {
+          "ja": "公園に子供がたくさんいます。",
+          "vi": "Ở công viên có nhiều trẻ con."
+        },
+        {
+          "ja": "子供が2人います。",
+          "vi": "Tôi có 2 đứa con."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 65,
+      "word": "犬",
+      "meaningsVi": [
+        "con chó"
+      ],
+      "noteVi": "Người và động vật dùng います: 犬がいます (có con chó).",
+      "examples": [
+        {
+          "ja": "庭に犬がいます。",
+          "vi": "Ngoài vườn có con chó."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 474,
+      "word": "猫",
+      "meaningsVi": [
+        "con mèo"
+      ],
+      "examples": [
+        {
+          "ja": "猫はどこにいますか。",
+          "vi": "Con mèo ở đâu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 441,
+      "word": "鳥",
+      "meaningsVi": [
+        "con chim"
+      ],
+      "examples": [
+        {
+          "ja": "木の上に鳥がいます。",
+          "vi": "Trên cây có con chim."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 177,
+      "word": "木",
+      "meaningsVi": [
+        "cây",
+        "gỗ"
+      ],
+      "noteVi": "Cây cối không tự di chuyển nên dùng あります: 木があります. Chữ 木 cũng có trong 木曜日 (thứ Năm).",
+      "examples": [
+        {
+          "ja": "庭に大きい木があります。",
+          "vi": "Trong vườn có một cái cây to."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "上",
+      "meaningVi": "trên; lên",
+      "noteVi": "Nét ngang dưới cùng là mặt đất, nét dọc chỉ lên phía trên. Gặp trong 上 (うえ), 上手 (じょうず, giỏi).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "中",
+      "meaningVi": "trong; giữa",
+      "noteVi": "Một nét dọc xuyên qua chính giữa ô vuông. Gặp trong 中 (なか, bên trong), 中国 (ちゅうごく, Trung Quốc).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "下",
+      "meaningVi": "dưới; xuống",
+      "noteVi": "Ngược với 上: nét dọc chỉ xuống dưới mặt đất. Gặp trong 下 (した), 下手 (へた, kém).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "木",
+      "meaningVi": "cây; gỗ",
+      "noteVi": "Hình cái cây: thân, cành và rễ. Gặp trong 木 (き), 木曜日 (もくようび, thứ Năm).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ga-aru-ga-iru",
+      "titleVi": "あります / います: có",
+      "summaryVi": "N が あります (đồ vật, cây cối) / N が います (người, động vật): có N.",
+      "explanationVi": [
+        "Tiếng Việt chỉ có một chữ **\"có\"**, nhưng tiếng Nhật chia làm hai: **あります** cho đồ vật, cây cối và những thứ không tự cử động; **います** cho **người và động vật**. 「テレビがあります」 (có cái TV), 「猫がいます」 (có con mèo).",
+        "Thứ \"có\" được đánh dấu bằng **が**: 「N が あります／います」. Phủ định là **ありません／いません**, quá khứ là **ありました／いました**.",
+        "あります còn dùng để nói mình **có** (sở hữu) một thứ, có thời gian, có việc: 「明日、時間がありますか」 (Ngày mai bạn có thời gian không?)."
+      ],
+      "patterns": [
+        "N が あります",
+        "N が います",
+        "N が ありません／いません"
+      ],
+      "examples": [
+        {
+          "ja": "教室に先生がいます。",
+          "vi": "Trong lớp có giáo viên."
+        },
+        {
+          "ja": "明日、時間がありますか。",
+          "vi": "Ngày mai bạn có thời gian không?"
+        },
+        {
+          "ja": "私の部屋にテレビがありません。",
+          "vi": "Phòng tôi không có TV."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "部屋に猫があります。",
+          "right": "部屋に猫がいます。",
+          "noteVi": "Mèo là động vật nên dùng います. Tiếng Việt chỉ có một chữ \"có\" nên dễ dùng あります cho cả người và con vật."
+        },
+        {
+          "wrong": "庭に木がいます。",
+          "right": "庭に木があります。",
+          "noteVi": "Cây là sinh vật nhưng không tự di chuyển: dùng あります."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ga-subject",
+      "titleVi": "Trợ từ が: chủ ngữ mang thông tin mới",
+      "summaryVi": "が đánh dấu chủ ngữ khi đó là thông tin mới; từ để hỏi làm chủ ngữ luôn đi với が.",
+      "explanationVi": [
+        "**が** đứng sau danh từ để đánh dấu **chủ ngữ**, nhất là khi đó là **thông tin mới** mà người nghe chưa biết: 「庭に犬がいます」 (ngoài vườn có một con chó).",
+        "**Từ để hỏi** (何, 誰, どれ…) làm chủ ngữ thì luôn đi với **が**, không dùng は: 「教室に誰がいますか」. Câu trả lời cũng dùng が: 「田中さんがいます」.",
+        "So sánh với **は**: は nêu một điều đã biết làm chủ đề, phần quan trọng nằm **sau** は; が làm nổi bật chính danh từ **trước** nó. 「猫はどこにいますか」 (con mèo ở đâu?) và 「いすの下に何がいますか」 (dưới ghế có con gì?)."
+      ],
+      "patterns": [
+        "Nơi に N が あります／います",
+        "何／誰／どれ が …か"
+      ],
+      "examples": [
+        {
+          "ja": "教室に誰がいますか。",
+          "vi": "Trong lớp có ai?"
+        },
+        {
+          "ja": "どれがグエンさんのかばんですか。",
+          "vi": "Cái nào là cặp của anh Nguyễn?"
+        },
+        {
+          "ja": "木の上に何がいますか。",
+          "vi": "Trên cây có con gì?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "誰は来ましたか。",
+          "right": "誰が来ましたか。",
+          "noteVi": "Từ để hỏi làm chủ ngữ không đi với は; dùng が."
+        },
+        {
+          "wrong": "どれはあなたの傘ですか。",
+          "right": "どれがあなたの傘ですか。",
+          "noteVi": "どれ, 何, 誰 làm chủ ngữ luôn đi với が."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-location",
+      "titleVi": "Trợ từ に: nơi người, vật có mặt",
+      "summaryVi": "Nơi に N が あります／います: ở nơi đó có N. N は nơi に あります／います: N ở nơi đó.",
+      "explanationVi": [
+        "**に** đứng sau từ chỉ nơi chốn để nói người, vật **ở đâu**. Có hai cách nói, tùy điều mình muốn nói tới. 「Nơi に N が あります」 nói về một nơi và ở đó có gì (N là thông tin mới): 「庭に木があります」 (trong vườn có cây). 「N は Nơi に あります」 nói N (đã biết) ở đâu: 「辞書は本棚にあります」 (quyển từ điển ở trên giá sách).",
+        "Tiếng Việt dùng \"ở\" cho cả hai nghĩa, còn tiếng Nhật phân biệt: nơi người, vật **có mặt** (あります, います) dùng **に**; nơi **diễn ra hành động** dùng **で** (bài 9): 「図書館に本があります」 nhưng 「図書館で本を読みます」.",
+        "「N は Nơi に あります」 có thể nói ngắn là 「N は Nơi です」 (bài 3): 「お手洗いはあそこです」."
+      ],
+      "patterns": [
+        "Nơi に N が あります／います",
+        "N は Nơi に あります／います"
+      ],
+      "examples": [
+        {
+          "ja": "台所に冷蔵庫があります。",
+          "vi": "Trong bếp có tủ lạnh."
+        },
+        {
+          "ja": "辞書は本棚にあります。",
+          "vi": "Quyển từ điển ở trên giá sách."
+        },
+        {
+          "ja": "田中さんはどこにいますか。",
+          "vi": "Chị Tanaka ở đâu?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "公園で子供がいます。",
+          "right": "公園に子供がいます。",
+          "noteVi": "Với あります／います, nơi chốn dùng に. で chỉ dùng cho nơi diễn ra hành động: 公園で散歩します."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "x-position",
+      "titleVi": "Từ chỉ vị trí: N の 上／下／中／前…",
+      "summaryVi": "N の + từ vị trí (上, 下, 中, 前, 後ろ, 隣, 横…) chỉ vị trí so với N: 机の上 = trên bàn.",
+      "explanationVi": [
+        "Muốn nói \"trên bàn\", \"trước nhà ga\", tiếng Nhật đặt **vật làm mốc trước**, rồi **の**, rồi **từ chỉ vị trí**: 「机の上」 (bàn – の – trên), 「駅の前」 (ga – の – trước). Trật tự này **ngược với tiếng Việt**.",
+        "Các từ vị trí: 上 (trên), 下 (dưới), 中 (trong), 外 (ngoài), 前 (trước), 後ろ (sau), 右 (phải), 左 (trái), 隣 và 横 (bên cạnh), 近く (gần). **隣** dùng cho hai thứ cùng loại đứng sát nhau (nhà – nhà, người – người); **横** chỉ phía bên cạnh nói chung.",
+        "Cụm 「N の + từ vị trí」 là một danh từ chỉ nơi chốn, nên đi được với **に** (có ở đâu), **です** và **で** (làm gì ở đâu): 「駅の前で友達を待ちます」."
+      ],
+      "patterns": [
+        "N1 の 上／下／中／前／後ろ／隣／横 に N2 が あります／います",
+        "N2 は N1 の 上 に あります／います"
+      ],
+      "examples": [
+        {
+          "ja": "駅の前に銀行があります。",
+          "vi": "Trước nhà ga có ngân hàng."
+        },
+        {
+          "ja": "猫はいすの下にいます。",
+          "vi": "Con mèo ở dưới ghế."
+        },
+        {
+          "ja": "駅の前で友達を待ちます。",
+          "vi": "Tôi đợi bạn ở trước nhà ga."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "上の机に本があります。",
+          "right": "机の上に本があります。",
+          "noteVi": "Dịch từng chữ \"trên bàn\" thành 上の机 là sai trật tự: 上の机 nghĩa là \"cái bàn ở trên\". Vật làm mốc đứng trước: 机の上."
+        },
+        {
+          "wrong": "いす下に猫がいます。",
+          "right": "いすの下に猫がいます。",
+          "noteVi": "Giữa vật làm mốc và từ chỉ vị trí phải có の."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-14-e01",
+      "type": "choice",
+      "grammar": [
+        "ga-aru-ga-iru"
+      ],
+      "promptVi": "Chọn từ đúng: \"Ngoài vườn có con chó.\"",
+      "ja": "庭に犬が＿。",
+      "options": [
+        "あります",
+        "います",
+        "です"
+      ],
+      "answer": 1,
+      "explainVi": "Chó là động vật: dùng います."
+    },
+    {
+      "id": "n5-14-e02",
+      "type": "choice",
+      "grammar": [
+        "ga-aru-ga-iru"
+      ],
+      "promptVi": "Chọn từ đúng: \"Trong vườn có cái cây.\"",
+      "ja": "庭に木が＿。",
+      "options": [
+        "あります",
+        "います",
+        "です"
+      ],
+      "answer": 0,
+      "explainVi": "Cây không tự di chuyển: dùng あります."
+    },
+    {
+      "id": "n5-14-e03",
+      "type": "fill",
+      "grammar": [
+        "ga-aru-ga-iru"
+      ],
+      "before": "部屋にテレビが",
+      "after": "。",
+      "answers": [
+        "ありません"
+      ],
+      "options": [
+        "ありません",
+        "いません",
+        "ではありません"
+      ],
+      "vi": "Trong phòng không có TV."
+    },
+    {
+      "id": "n5-14-e04",
+      "type": "fill",
+      "grammar": [
+        "ga-subject"
+      ],
+      "before": "教室に誰",
+      "after": "いますか。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "は",
+        "が",
+        "を"
+      ],
+      "vi": "Trong lớp có ai?",
+      "explainVi": "Từ để hỏi làm chủ ngữ đi với が."
+    },
+    {
+      "id": "n5-14-e05",
+      "type": "choice",
+      "grammar": [
+        "ga-subject",
+        "ga-aru-ga-iru"
+      ],
+      "promptVi": "Trả lời câu hỏi: \"Trên cây có con gì?\" — \"Có con chim.\"",
+      "ja": "木の上に何がいますか。",
+      "options": [
+        "鳥がいます。",
+        "鳥があります。",
+        "鳥をいます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-14-e06",
+      "type": "fill",
+      "grammar": [
+        "ga-subject"
+      ],
+      "before": "どれ",
+      "after": "グエンさんのかばんですか。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "は",
+        "が",
+        "を"
+      ],
+      "vi": "Cái nào là cặp của anh Nguyễn?"
+    },
+    {
+      "id": "n5-14-e07",
+      "type": "fill",
+      "grammar": [
+        "ni-location"
+      ],
+      "before": "冷蔵庫",
+      "after": "牛乳があります。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "で",
+        "を"
+      ],
+      "vi": "Trong tủ lạnh có sữa."
+    },
+    {
+      "id": "n5-14-e08",
+      "type": "choice",
+      "grammar": [
+        "ni-location"
+      ],
+      "promptVi": "Câu nào đúng? (\"Ở công viên có trẻ con.\")",
+      "options": [
+        "公園に子供がいます。",
+        "公園で子供がいます。",
+        "公園を子供がいます。"
+      ],
+      "answer": 0,
+      "explainVi": "Với います, nơi chốn dùng に."
+    },
+    {
+      "id": "n5-14-e09",
+      "type": "order",
+      "grammar": [
+        "ni-location",
+        "x-position"
+      ],
+      "vi": "Trước nhà ga có ngân hàng.",
+      "tiles": [
+        "銀行",
+        "の",
+        "あります",
+        "駅",
+        "が",
+        "前",
+        "に"
+      ],
+      "answers": [
+        "駅の前に銀行があります",
+        "銀行が駅の前にあります"
+      ]
+    },
+    {
+      "id": "n5-14-e10",
+      "type": "order",
+      "grammar": [
+        "ni-location",
+        "x-position"
+      ],
+      "vi": "Con mèo ở dưới ghế.",
+      "tiles": [
+        "下",
+        "います",
+        "猫",
+        "の",
+        "は",
+        "に",
+        "いす"
+      ],
+      "answers": [
+        "猫はいすの下にいます"
+      ]
+    },
+    {
+      "id": "n5-14-e11",
+      "type": "choice",
+      "grammar": [
+        "x-position"
+      ],
+      "promptVi": "Cách nói nào nghĩa là \"trên bàn\"?",
+      "options": [
+        "机の上",
+        "上の机",
+        "机に上"
+      ],
+      "answer": 0,
+      "explainVi": "Vật làm mốc + の + từ vị trí. 上の机 là \"cái bàn ở trên\"."
+    },
+    {
+      "id": "n5-14-e12",
+      "type": "choice",
+      "grammar": [
+        "x-position"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Ngân hàng ở phía sau bưu điện\"?",
+      "options": [
+        "銀行は郵便局の後ろにあります。",
+        "郵便局は銀行の後ろにあります。",
+        "銀行は郵便局の前にあります。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-14-e13",
+      "type": "fill",
+      "grammar": [
+        "x-position"
+      ],
+      "before": "かばんの",
+      "after": "に辞書があります。",
+      "answers": [
+        "中",
+        "なか"
+      ],
+      "vi": "Trong cặp có quyển từ điển."
+    },
+    {
+      "id": "n5-14-e14",
+      "type": "choice",
+      "grammar": [
+        "x-position"
+      ],
+      "promptVi": "Chọn từ đúng: \"Gần nhà có công viên.\"",
+      "ja": "家の＿に公園があります。",
+      "options": [
+        "近く",
+        "近い",
+        "遠い"
+      ],
+      "answer": 0,
+      "explainVi": "近く là danh từ (chỗ gần), đứng sau の; 近い là tính từ."
+    },
+    {
+      "id": "n5-14-e15",
+      "type": "choice",
+      "grammar": [
+        "ni-location"
+      ],
+      "promptVi": "Chọn câu trả lời đúng.",
+      "ja": "猫はどこにいますか。",
+      "options": [
+        "ベッドの上にいます。",
+        "ベッドの上があります。",
+        "ベッドの上でいます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-14-e16",
+      "type": "fill",
+      "grammar": [
+        "ga-aru-ga-iru"
+      ],
+      "before": "明日、時間が",
+      "after": "か。",
+      "answers": [
+        "あります"
+      ],
+      "options": [
+        "あります",
+        "います",
+        "です"
+      ],
+      "vi": "Ngày mai bạn có thời gian không?"
+    },
+    {
+      "id": "n5-14-e17",
+      "type": "order",
+      "grammar": [
+        "ga-subject",
+        "x-position"
+      ],
+      "vi": "Trong tủ lạnh có gì?",
+      "tiles": [
+        "何",
+        "中",
+        "あります",
+        "冷蔵庫",
+        "に",
+        "か",
+        "が",
+        "の"
+      ],
+      "answers": [
+        "冷蔵庫の中に何がありますか",
+        "何が冷蔵庫の中にありますか"
+      ]
+    },
+    {
+      "id": "n5-14-e18",
+      "type": "choice",
+      "grammar": [
+        "ga-subject"
+      ],
+      "promptVi": "Câu nào đúng? (\"Ai đã đến?\")",
+      "options": [
+        "誰が来ましたか。",
+        "誰は来ましたか。",
+        "誰を来ましたか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-14-e19",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "上",
+          "trên"
+        ],
+        [
+          "下",
+          "dưới"
+        ],
+        [
+          "中",
+          "trong"
+        ],
+        [
+          "前",
+          "trước"
+        ],
+        [
+          "後ろ",
+          "sau"
+        ],
+        [
+          "外",
+          "ngoài"
+        ]
+      ]
+    },
+    {
+      "id": "n5-14-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "部屋",
+          "phòng"
+        ],
+        [
+          "台所",
+          "nhà bếp"
+        ],
+        [
+          "庭",
+          "vườn"
+        ],
+        [
+          "本棚",
+          "giá sách"
+        ],
+        [
+          "冷蔵庫",
+          "tủ lạnh"
+        ]
+      ]
+    },
+    {
+      "id": "n5-14-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "犬",
+          "con chó"
+        ],
+        [
+          "猫",
+          "con mèo"
+        ],
+        [
+          "鳥",
+          "con chim"
+        ],
+        [
+          "木",
+          "cây"
+        ],
+        [
+          "子供",
+          "trẻ con"
+        ]
+      ]
+    },
+    {
+      "id": "n5-14-e22",
+      "type": "choice",
+      "promptVi": "Từ nào trái nghĩa với từ này?",
+      "ja": "右",
+      "options": [
+        "左",
+        "横",
+        "隣"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-14-e23",
+      "type": "question",
+      "grammar": [
+        "x-position",
+        "ni-location",
+        "ga-aru-ga-iru"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "犬はどこにいますか。",
+        "promptVi": "Con chó ở đâu? Trả lời: ở dưới gốc cây.",
+        "expected": {
+          "places": [
+            "木"
+          ],
+          "position": "下",
+          "sentence": "犬は木の下にいます。"
+        },
+        "examples": [
+          {
+            "answer": "きのしたにいます。",
+            "score": 100
+          },
+          {
+            "answer": "犬は木の下にあります。",
+            "score": 80,
+            "issues": [
+              "aru_iru"
+            ]
+          },
+          {
+            "answer": "下の木にいます。",
+            "score": 80,
+            "issues": [
+              "position_order"
+            ]
+          },
+          {
+            "answer": "木の上にいます。",
+            "score": 20
+          },
+          {
+            "answer": "犬がいます。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-14-e24",
+      "type": "question",
+      "grammar": [
+        "x-position",
+        "ni-location"
+      ],
+      "question": {
+        "type": "location",
+        "prompt": "辞書はどこにありますか。",
+        "promptVi": "Quyển từ điển ở đâu? Trả lời: ở trên bàn.",
+        "expected": {
+          "places": [
+            "机"
+          ],
+          "position": "上",
+          "sentence": "辞書は机の上にあります。"
+        },
+        "examples": [
+          {
+            "answer": "つくえのうえにあります。",
+            "score": 100
+          },
+          {
+            "answer": "辞書は机の上にいます。",
+            "score": 80,
+            "issues": [
+              "aru_iru"
+            ]
+          },
+          {
+            "answer": "机にあります。",
+            "score": 80,
+            "issues": [
+              "missing_position"
+            ]
+          },
+          {
+            "answer": "机の下にあります。",
+            "score": 20
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-14-e25",
+      "type": "question",
+      "grammar": [
+        "ga-aru-ga-iru"
+      ],
+      "question": {
+        "type": "count",
+        "prompt": "庭に子供が何人いますか。",
+        "promptVi": "Trong vườn có mấy đứa trẻ? Trả lời: ba đứa.",
+        "picture": "🧒🧒🧒",
+        "expected": {
+          "number": 3,
+          "noun": "子供",
+          "counter": "人",
+          "sentence": "庭に子供が3人います。"
+        },
+        "examples": [
+          {
+            "answer": "さんにんいます。",
+            "score": 100
+          },
+          {
+            "answer": "3つです。",
+            "score": 80,
+            "issues": [
+              "wrong_counter"
+            ]
+          },
+          {
+            "answer": "3です。",
+            "score": 80,
+            "issues": [
+              "missing_counter"
+            ]
+          },
+          {
+            "answer": "2人います。",
+            "score": 20
+          },
+          {
+            "answer": "子供がいます。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-14-e26",
+      "type": "translate",
+      "grammar": [
+        "ga-aru-ga-iru",
+        "ni-location"
+      ],
+      "vi": "Trong phòng tôi có giường và bàn.",
+      "answers": [
+        "私の部屋にベッドと机があります。",
+        "私の部屋に(は)[ベッドと机|机とベッド]があります。"
+      ],
+      "examples": [
+        {
+          "answer": "わたしのへやにベッドとつくえがあります。",
+          "score": 100
+        },
+        {
+          "answer": "私の部屋でベッドと机があります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "私の部屋にベッドと机がいます。",
+          "score": 80,
+          "issues": [
+            "aru_iru"
+          ]
+        },
+        {
+          "answer": "私の部屋にベッドといすがあります。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-14-e27",
+      "type": "translate",
+      "grammar": [
+        "ga-subject",
+        "ga-aru-ga-iru"
+      ],
+      "vi": "Trong vườn có ai?",
+      "answers": [
+        "[庭に誰が|誰が庭に]いますか。"
+      ],
+      "examples": [
+        {
+          "answer": "にわにだれがいますか。",
+          "score": 100
+        },
+        {
+          "answer": "庭に誰はいますか。",
+          "score": 80,
+          "issues": [
+            "wh_wa"
+          ]
+        },
+        {
+          "answer": "庭で誰がいますか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "庭に何がいますか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-14-e28",
+      "type": "translate",
+      "grammar": [
+        "x-position",
+        "ni-location",
+        "ga-aru-ga-iru"
+      ],
+      "vi": "Bên cạnh ngân hàng có bưu điện.",
+      "answers": [
+        "銀行の[隣|横]に郵便局があります。",
+        "郵便局は銀行の[隣|横]にあります。"
+      ],
+      "examples": [
+        {
+          "answer": "ぎんこうのとなりにゆうびんきょくがあります。",
+          "score": 100
+        },
+        {
+          "answer": "銀行の隣で郵便局があります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "銀行の隣に郵便局がいます。",
+          "score": 80,
+          "issues": [
+            "aru_iru"
+          ]
+        },
+        {
+          "answer": "郵便局の隣に銀行があります。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "机の上に本があります。": "{机|つくえ}の{上|うえ}に{本|ほん}があります。",
+    "かばんはテーブルの上です。": "かばんはテーブルの{上|うえ}です。",
+    "いすの下に猫がいます。": "いすの{下|した}に{猫|ねこ}がいます。",
+    "かばんの中に何がありますか。": "かばんの{中|なか}に{何|なに}がありますか。",
+    "冷蔵庫の中に牛乳があります。": "{冷|れい}{蔵|ぞう}{庫|こ}の{中|なか}に{牛|ぎゅう}{乳|にゅう}があります。",
+    "駅の前に銀行があります。": "{駅|えき}の{前|まえ}に{銀|ぎん}{行|こう}があります。",
+    "3年前に日本へ来ました。": "3{年|ねん}{前|まえ}に{日本|にほん}へ{来|き}ました。",
+    "家の後ろに庭があります。": "{家|いえ}の{後|うし}ろに{庭|にわ}があります。",
+    "グエンさんは田中さんの後ろにいます。": "グエンさんは{田中|たなか}さんの{後|うし}ろにいます。",
+    "銀行の隣に郵便局があります。": "{銀|ぎん}{行|こう}の{隣|となり}に{郵|ゆう}{便|びん}{局|きょく}があります。",
+    "隣の部屋に誰がいますか。": "{隣|となり}の{部屋|へや}に{誰|だれ}がいますか。",
+    "ベッドの横に机があります。": "ベッドの{横|よこ}に{机|つくえ}があります。",
+    "田中さんの家は駅の近くです。": "{田中|たなか}さんの{家|いえ}は{駅|えき}の{近|ちか}くです。",
+    "この近くで昼ご飯を食べましょう。": "この{近|ちか}くで{昼|ひる}ご{飯|はん}を{食|た}べましょう。",
+    "お手洗いは右にあります。": "お{手|て}{洗|あら}いは{右|みぎ}にあります。",
+    "銀行は駅の左にあります。": "{銀|ぎん}{行|こう}は{駅|えき}の{左|ひだり}にあります。",
+    "外は寒いです。": "{外|そと}は{寒|さむ}いです。",
+    "子供は外にいます。": "{子|こ}{供|ども}は{外|そと}にいます。",
+    "私の部屋にテレビがあります。": "{私|わたし}の{部屋|へや}にテレビがあります。",
+    "部屋に誰がいますか。": "{部屋|へや}に{誰|だれ}がいますか。",
+    "マイさんは台所にいます。": "マイさんは{台|だい}{所|どころ}にいます。",
+    "庭に子供がいます。": "{庭|にわ}に{子|こ}{供|ども}がいます。",
+    "机の上にノートがあります。": "{机|つくえ}の{上|うえ}にノートがあります。",
+    "いすの下にかばんがあります。": "いすの{下|した}にかばんがあります。",
+    "ベッドの上に猫がいます。": "ベッドの{上|うえ}に{猫|ねこ}がいます。",
+    "テーブルの上に果物があります。": "テーブルの{上|うえ}に{果物|くだもの}があります。",
+    "本棚に辞書があります。": "{本|ほん}{棚|だな}に{辞|じ}{書|しょ}があります。",
+    "冷蔵庫に卵と牛乳があります。": "{冷|れい}{蔵|ぞう}{庫|こ}に{卵|たまご}と{牛|ぎゅう}{乳|にゅう}があります。",
+    "公園に子供がたくさんいます。": "{公|こう}{園|えん}に{子|こ}{供|ども}がたくさんいます。",
+    "子供が2人います。": "{子|こ}{供|ども}が{2人|ふたり}います。",
+    "庭に犬がいます。": "{庭|にわ}に{犬|いぬ}がいます。",
+    "猫はどこにいますか。": "{猫|ねこ}はどこにいますか。",
+    "木の上に鳥がいます。": "{木|き}の{上|うえ}に{鳥|とり}がいます。",
+    "庭に大きい木があります。": "{庭|にわ}に{大|おお}きい{木|き}があります。",
+    "教室に先生がいます。": "{教|きょう}{室|しつ}に{先|せん}{生|せい}がいます。",
+    "明日、時間がありますか。": "{明日|あした}、{時|じ}{間|かん}がありますか。",
+    "私の部屋にテレビがありません。": "{私|わたし}の{部屋|へや}にテレビがありません。",
+    "部屋に猫がいます。": "{部屋|へや}に{猫|ねこ}がいます。",
+    "部屋に猫があります。": "{部屋|へや}に{猫|ねこ}があります。",
+    "庭に木があります。": "{庭|にわ}に{木|き}があります。",
+    "庭に木がいます。": "{庭|にわ}に{木|き}がいます。",
+    "教室に誰がいますか。": "{教|きょう}{室|しつ}に{誰|だれ}がいますか。",
+    "どれがグエンさんのかばんですか。": "どれがグエンさんのかばんですか。",
+    "木の上に何がいますか。": "{木|き}の{上|うえ}に{何|なに}がいますか。",
+    "誰が来ましたか。": "{誰|だれ}が{来|き}ましたか。",
+    "誰は来ましたか。": "{誰|だれ}は{来|き}ましたか。",
+    "どれがあなたの傘ですか。": "どれがあなたの{傘|かさ}ですか。",
+    "どれはあなたの傘ですか。": "どれはあなたの{傘|かさ}ですか。",
+    "台所に冷蔵庫があります。": "{台|だい}{所|どころ}に{冷|れい}{蔵|ぞう}{庫|こ}があります。",
+    "辞書は本棚にあります。": "{辞|じ}{書|しょ}は{本|ほん}{棚|だな}にあります。",
+    "田中さんはどこにいますか。": "{田中|たなか}さんはどこにいますか。",
+    "公園に子供がいます。": "{公|こう}{園|えん}に{子|こ}{供|ども}がいます。",
+    "公園で子供がいます。": "{公|こう}{園|えん}で{子|こ}{供|ども}がいます。",
+    "猫はいすの下にいます。": "{猫|ねこ}はいすの{下|した}にいます。",
+    "駅の前で友達を待ちます。": "{駅|えき}の{前|まえ}で{友|とも}{達|だち}を{待|ま}ちます。",
+    "上の机に本があります。": "{上|うえ}の{机|つくえ}に{本|ほん}があります。",
+    "いす下に猫がいます。": "いす{下|した}に{猫|ねこ}がいます。",
+    "庭に犬が＿。": "{庭|にわ}に{犬|いぬ}が＿。",
+    "あります": "あります",
+    "います": "います",
+    "です": "です",
+    "庭に木が＿。": "{庭|にわ}に{木|き}が＿。",
+    "部屋にテレビがありません。": "{部屋|へや}にテレビがありません。",
+    "ありません": "ありません",
+    "いません": "いません",
+    "ではありません": "ではありません",
+    "が": "が",
+    "は": "は",
+    "を": "を",
+    "鳥がいます。": "{鳥|とり}がいます。",
+    "鳥があります。": "{鳥|とり}があります。",
+    "鳥をいます。": "{鳥|とり}をいます。",
+    "冷蔵庫に牛乳があります。": "{冷|れい}{蔵|ぞう}{庫|こ}に{牛|ぎゅう}{乳|にゅう}があります。",
+    "に": "に",
+    "で": "で",
+    "公園を子供がいます。": "{公|こう}{園|えん}を{子|こ}{供|ども}がいます。",
+    "銀行": "{銀|ぎん}{行|こう}",
+    "の": "の",
+    "駅": "{駅|えき}",
+    "前": "{前|まえ}",
+    "駅の前に銀行があります": "{駅|えき}の{前|まえ}に{銀|ぎん}{行|こう}があります",
+    "銀行が駅の前にあります": "{銀|ぎん}{行|こう}が{駅|えき}の{前|まえ}にあります",
+    "下": "{下|した}",
+    "猫": "{猫|ねこ}",
+    "いす": "いす",
+    "猫はいすの下にいます": "{猫|ねこ}はいすの{下|した}にいます",
+    "机の上": "{机|つくえ}の{上|うえ}",
+    "上の机": "{上|うえ}の{机|つくえ}",
+    "机に上": "{机|つくえ}に{上|うえ}",
+    "銀行は郵便局の後ろにあります。": "{銀|ぎん}{行|こう}は{郵|ゆう}{便|びん}{局|きょく}の{後|うし}ろにあります。",
+    "郵便局は銀行の後ろにあります。": "{郵|ゆう}{便|びん}{局|きょく}は{銀|ぎん}{行|こう}の{後|うし}ろにあります。",
+    "銀行は郵便局の前にあります。": "{銀|ぎん}{行|こう}は{郵|ゆう}{便|びん}{局|きょく}の{前|まえ}にあります。",
+    "かばんの中に辞書があります。": "かばんの{中|なか}に{辞|じ}{書|しょ}があります。",
+    "中": "{中|なか}",
+    "なか": "なか",
+    "家の＿に公園があります。": "{家|いえ}の＿に{公|こう}{園|えん}があります。",
+    "近く": "{近|ちか}く",
+    "近い": "{近|ちか}い",
+    "遠い": "{遠|とお}い",
+    "ベッドの上にいます。": "ベッドの{上|うえ}にいます。",
+    "ベッドの上があります。": "ベッドの{上|うえ}があります。",
+    "ベッドの上でいます。": "ベッドの{上|うえ}でいます。",
+    "何": "{何|なに}",
+    "冷蔵庫": "{冷|れい}{蔵|ぞう}{庫|こ}",
+    "か": "か",
+    "冷蔵庫の中に何がありますか": "{冷|れい}{蔵|ぞう}{庫|こ}の{中|なか}に{何|なに}がありますか",
+    "何が冷蔵庫の中にありますか": "{何|なに}が{冷|れい}{蔵|ぞう}{庫|こ}の{中|なか}にありますか",
+    "誰を来ましたか。": "{誰|だれ}を{来|き}ましたか。",
+    "上": "{上|うえ}",
+    "後ろ": "{後|うし}ろ",
+    "外": "{外|そと}",
+    "部屋": "{部屋|へや}",
+    "台所": "{台|だい}{所|どころ}",
+    "庭": "{庭|にわ}",
+    "本棚": "{本|ほん}{棚|だな}",
+    "犬": "{犬|いぬ}",
+    "鳥": "{鳥|とり}",
+    "木": "{木|き}",
+    "子供": "{子|こ}{供|ども}",
+    "右": "{右|みぎ}",
+    "左": "{左|ひだり}",
+    "横": "{横|よこ}",
+    "隣": "{隣|となり}",
+    "犬はどこにいますか。": "{犬|いぬ}はどこにいますか。",
+    "犬は木の下にいます。": "{犬|いぬ}は{木|き}の{下|した}にいます。",
+    "辞書はどこにありますか。": "{辞|じ}{書|しょ}はどこにありますか。",
+    "辞書は机の上にあります。": "{辞|じ}{書|しょ}は{机|つくえ}の{上|うえ}にあります。",
+    "庭に子供が何人いますか。": "{庭|にわ}に{子|こ}{供|ども}が{何人|なんにん}いますか。",
+    "庭に子供が3人います。": "{庭|にわ}に{子|こ}{供|ども}が3{人|にん}います。",
+    "私の部屋にベッドと机があります。": "{私|わたし}の{部屋|へや}にベッドと{机|つくえ}があります。",
+    "私の部屋にはベッドと机があります。": "{私|わたし}の{部屋|へや}にはベッドと{机|つくえ}があります。",
+    "庭に誰がいますか。": "{庭|にわ}に{誰|だれ}がいますか。",
+    "郵便局は銀行の隣にあります。": "{郵|ゆう}{便|びん}{局|きょく}は{銀|ぎん}{行|こう}の{隣|となり}にあります。"
+  }
+}

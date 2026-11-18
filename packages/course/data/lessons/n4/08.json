@@ -1,0 +1,1290 @@
+{
+  "id": "n4-08",
+  "goalsVi": [
+    "Nêu điều kiện bằng thể ば: 急げば、間に合います、安ければ、買います",
+    "Nói lời tiếc nuối bằng 〜ばよかった: もっと早く起きればよかった",
+    "Nói \"nếu …\", \"khi … xong thì …\" bằng 〜たら: 駅に着いたら、電話してください",
+    "Khuyên nhẹ nhàng bằng 〜たらどうですか: 少し休んだらどうですか",
+    "Nói về đồ đánh rơi, bị hỏng, tìm kiếm và sửa chữa: 落とす、拾う、探す、見つかる、壊れる、直す"
+  ],
+  "words": [
+    {
+      "no": 750,
+      "word": "お金持ち",
+      "meaningsVi": [
+        "người giàu"
+      ],
+      "noteVi": "お金 (tiền) + 持ち (người có). Người giàu có thì dùng お金持ち, không nói 金持ちな人.",
+      "examples": [
+        {
+          "ja": "お金持ちになったら、大きい家を買いたいです。",
+          "vi": "Nếu trở nên giàu, tôi muốn mua một căn nhà lớn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 767,
+      "word": "落とす",
+      "meaningsVi": [
+        "đánh rơi, làm rơi",
+        "làm mất (do đánh rơi)"
+      ],
+      "noteVi": "Tha động từ: N を落とす. Ngược nghĩa: 拾う (nhặt). Nhóm I: 落として.",
+      "examples": [
+        {
+          "ja": "駅で財布を落としました。",
+          "vi": "Tôi đã đánh rơi ví ở nhà ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 826,
+      "word": "機会",
+      "meaningsVi": [
+        "cơ hội, dịp"
+      ],
+      "noteVi": "Âm Hán Việt \"cơ hội\". Hay dùng: 〜機会がある (có dịp …). Đừng nhầm với 機械 (máy móc), cùng đọc きかい.",
+      "examples": [
+        {
+          "ja": "機会があれば、また日本へ行きたいです。",
+          "vi": "Nếu có dịp, tôi muốn lại đi Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 868,
+      "word": "消しゴム",
+      "meaningsVi": [
+        "cục tẩy"
+      ],
+      "noteVi": "消し (xóa) + ゴム (cao su).",
+      "examples": [
+        {
+          "ja": "消しゴムを貸してください。",
+          "vi": "Cho tôi mượn cục tẩy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 893,
+      "word": "故障",
+      "meaningsVi": [
+        "hỏng hóc, trục trặc (máy móc)"
+      ],
+      "noteVi": "Âm Hán Việt \"cố chướng\". Dùng cho máy móc, xe cộ: 故障する (bị hỏng). Đồ vật bị vỡ thì dùng 壊れる.",
+      "examples": [
+        {
+          "ja": "エレベーターが故障しています。",
+          "vi": "Thang máy đang bị hỏng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 909,
+      "word": "壊れる",
+      "meaningsVi": [
+        "hỏng, vỡ"
+      ],
+      "noteVi": "Tự động từ: N が壊れる. Dùng cho cả máy móc lẫn đồ vật bị vỡ. Nhóm II: 壊れて.",
+      "examples": [
+        {
+          "ja": "時計が壊れました。",
+          "vi": "Đồng hồ bị hỏng rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 918,
+      "word": "探す",
+      "meaningsVi": [
+        "tìm, tìm kiếm"
+      ],
+      "noteVi": "Tìm một thứ chưa thấy: N を探す. Khi đã tìm thấy thì dùng 見つける / 見つかる.",
+      "examples": [
+        {
+          "ja": "かぎを探していますが、見つかりません。",
+          "vi": "Tôi đang tìm chìa khóa mà không thấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 946,
+      "word": "失敗",
+      "meaningsVi": [
+        "thất bại",
+        "làm hỏng, sai sót"
+      ],
+      "noteVi": "Âm Hán Việt \"thất bại\". Dùng cả cho lỗi nhỏ hằng ngày. Việc bị hỏng đi với に: 料理に失敗する. Ngược nghĩa: 成功 (thành công).",
+      "examples": [
+        {
+          "ja": "料理に失敗しました。",
+          "vi": "Tôi đã nấu hỏng món ăn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 947,
+      "word": "辞典",
+      "meaningsVi": [
+        "từ điển"
+      ],
+      "noteVi": "Âm Hán Việt \"từ điển\". Nghĩa gần như 辞書, nhưng trang trọng hơn, hay dùng trong tên sách.",
+      "examples": [
+        {
+          "ja": "この辞典はとても便利です。",
+          "vi": "Cuốn từ điển này rất tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1002,
+      "word": "済む",
+      "meaningsVi": [
+        "xong, kết thúc",
+        "(chỉ cần …) là xong, là đủ"
+      ],
+      "noteVi": "Tự động từ: N が済む. Cùng đọc すむ với 住む (sống) nhưng khác chữ.",
+      "examples": [
+        {
+          "ja": "仕事が済んだら、飲みに行きましょう。",
+          "vi": "Xong việc thì đi uống nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 976,
+      "word": "調べる",
+      "meaningsVi": [
+        "tìm hiểu, tra cứu",
+        "kiểm tra, điều tra"
+      ],
+      "noteVi": "N を調べる. Tra từ điển: 辞典で調べる (hoặc 辞書を引く).",
+      "examples": [
+        {
+          "ja": "駅までの道を地図で調べました。",
+          "vi": "Tôi đã tra đường đến ga trên bản đồ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1111,
+      "word": "取り替える",
+      "meaningsVi": [
+        "đổi, thay (lấy cái khác)"
+      ],
+      "noteVi": "A を B と取り替える: đổi A lấy B. Hay dùng khi đổi hàng, thay đồ cũ, đồ hỏng.",
+      "examples": [
+        {
+          "ja": "すみません、このシャツを大きいのと取り替えてください。",
+          "vi": "Xin lỗi, đổi giúp tôi cái áo này lấy cái cỡ to hơn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1114,
+      "word": "直す",
+      "meaningsVi": [
+        "sửa, chữa",
+        "sửa (lỗi sai)"
+      ],
+      "noteVi": "Tha động từ: N を直す. Tự động từ: 直る (được sửa).",
+      "examples": [
+        {
+          "ja": "父が壊れた時計を直しました。",
+          "vi": "Bố tôi đã sửa cái đồng hồ bị hỏng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1116,
+      "word": "直る",
+      "meaningsVi": [
+        "được sửa, chạy lại bình thường"
+      ],
+      "noteVi": "Tự động từ: N が直る. Bệnh khỏi viết bằng chữ khác: 治る (học sau).",
+      "examples": [
+        {
+          "ja": "テレビが直りました。",
+          "vi": "Tivi đã sửa xong (chạy lại rồi)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1120,
+      "word": "なくなる",
+      "meaningsVi": [
+        "mất, biến mất",
+        "hết"
+      ],
+      "noteVi": "Tự động từ: N がなくなる. So sánh なくす (làm mất): 財布をなくしました.",
+      "examples": [
+        {
+          "ja": "財布がなくなりました。",
+          "vi": "Cái ví biến mất rồi."
+        },
+        {
+          "ja": "冷蔵庫の牛乳がなくなりました。",
+          "vi": "Sữa trong tủ lạnh hết rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1142,
+      "word": "寝坊",
+      "meaningsVi": [
+        "ngủ quên, dậy muộn",
+        "người hay dậy muộn"
+      ],
+      "noteVi": "Âm Hán Việt \"tẩm phường\". 寝坊する: dậy muộn đến mức lỡ giờ.",
+      "examples": [
+        {
+          "ja": "今朝、寝坊して、授業に間に合いませんでした。",
+          "vi": "Sáng nay tôi ngủ quên nên không kịp giờ học."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1150,
+      "word": "場合",
+      "meaningsVi": [
+        "trường hợp"
+      ],
+      "noteVi": "V（thể từ điển / た / ない）/ N の + 場合(は): trong trường hợp … Trang trọng hơn 〜たら, hay gặp trong hướng dẫn.",
+      "examples": [
+        {
+          "ja": "わからない場合は、先生に聞いてください。",
+          "vi": "Trường hợp không hiểu thì hãy hỏi giáo viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1176,
+      "word": "引き出す",
+      "meaningsVi": [
+        "rút (tiền)",
+        "kéo ra"
+      ],
+      "noteVi": "引く (kéo) + 出す (ra). お金を引き出す: rút tiền.",
+      "examples": [
+        {
+          "ja": "銀行でお金を引き出しました。",
+          "vi": "Tôi đã rút tiền ở ngân hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1190,
+      "word": "拾う",
+      "meaningsVi": [
+        "nhặt, lượm"
+      ],
+      "noteVi": "Ngược nghĩa: 落とす (đánh rơi), 捨てる (vứt). Nhóm I: 拾って.",
+      "examples": [
+        {
+          "ja": "道で財布を拾いました。",
+          "vi": "Tôi đã nhặt được một cái ví trên đường."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1227,
+      "word": "間違える",
+      "meaningsVi": [
+        "nhầm, làm sai"
+      ],
+      "noteVi": "Tha động từ: N を間違える (nhầm cái gì): 電車を間違える (lên nhầm tàu), 漢字を間違える (viết sai chữ Hán).",
+      "examples": [
+        {
+          "ja": "電車を間違えて、遅くなりました。",
+          "vi": "Tôi lên nhầm tàu nên bị muộn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1236,
+      "word": "見つかる",
+      "meaningsVi": [
+        "được tìm thấy, tìm ra"
+      ],
+      "noteVi": "Tự động từ: N が見つかる. Tha động từ: N を見つける.",
+      "examples": [
+        {
+          "ja": "なくした財布が見つかりました。",
+          "vi": "Đã tìm thấy cái ví bị mất."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1237,
+      "word": "見つける",
+      "meaningsVi": [
+        "tìm thấy, tìm ra"
+      ],
+      "noteVi": "Tha động từ: N を見つける. Khác 探す (đang tìm, chưa thấy).",
+      "examples": [
+        {
+          "ja": "駅の近くでいいアパートを見つけました。",
+          "vi": "Tôi đã tìm được một căn hộ tốt gần ga."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1252,
+      "word": "もし",
+      "meaningsVi": [
+        "nếu, giả sử"
+      ],
+      "noteVi": "Đứng đầu vế điều kiện để nhấn mạnh ý giả định, nhưng không thay được たら / ば: vẫn phải có 〜たら, 〜ば ở cuối vế.",
+      "examples": [
+        {
+          "ja": "もし雨が降ったら、家で映画を見ます。",
+          "vi": "Nếu trời mưa thì tôi xem phim ở nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1301,
+      "word": "忘れ物",
+      "meaningsVi": [
+        "đồ bỏ quên"
+      ],
+      "noteVi": "忘れ物をする: để quên đồ. Câu hay nghe: 忘れ物はありませんか (Có quên gì không?).",
+      "examples": [
+        {
+          "ja": "電車に忘れ物をしました。",
+          "vi": "Tôi để quên đồ trên tàu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1209,
+      "word": "別",
+      "meaningsVi": [
+        "khác, riêng"
+      ],
+      "noteVi": "別の + N: một N khác (別の日, 別の店). Âm Hán Việt \"biệt\" như trong \"khác biệt\".",
+      "examples": [
+        {
+          "ja": "この店は高いですから、別の店へ行きましょう。",
+          "vi": "Cửa hàng này đắt, mình sang cửa hàng khác đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "問",
+      "meaningVi": "hỏi; vấn đề",
+      "noteVi": "Gặp trong 問題 (もんだい, vấn đề, câu hỏi), 質問 (しつもん). Cửa 門 + miệng 口: đứng ở cửa mà hỏi.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "題",
+      "meaningVi": "đề, đầu đề",
+      "noteVi": "Gặp trong 問題 (もんだい), 宿題 (しゅくだい, bài tập về nhà).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "持",
+      "meaningVi": "cầm, có",
+      "noteVi": "Gặp trong 持つ (もつ, cầm, mang), お金持ち (người giàu). Bộ 扌 (tay) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "別",
+      "meaningVi": "khác, riêng; chia ra",
+      "noteVi": "Gặp trong 別 (べつ, khác), 別の店 (cửa hàng khác).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "銀",
+      "meaningVi": "bạc",
+      "noteVi": "Gặp trong 銀行 (ぎんこう, ngân hàng). Bộ 金 (kim loại) bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "借",
+      "meaningVi": "mượn, vay",
+      "noteVi": "Gặp trong 借りる (かりる, mượn). Bộ 亻 (người) bên trái. Đừng nhầm với 貸 (cho mượn).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "貸",
+      "meaningVi": "cho mượn, cho vay",
+      "noteVi": "Gặp trong 貸す (かす, cho mượn). Bên dưới là 貝 (vỏ sò, ngày xưa dùng làm tiền).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ba",
+      "titleVi": "Thể ば: nếu … (thì …)",
+      "summaryVi": "Thể ば nêu điều kiện để có kết quả ở vế sau: 急げば、間に合います; 安ければ、買います.",
+      "explanationVi": [
+        "**Thể ば** nêu **điều kiện**: nếu điều kiện đó xảy ra thì có kết quả ở vế sau. Hay dùng để nói điều kiện **cần** để đạt được điều gì: 「急げば、間に合います」 (Nhanh lên thì sẽ kịp).",
+        "Cách chia: **động từ** đổi âm cuối sang **hàng え** rồi thêm **ば**: 行く → 行けば, 待つ → 待てば, 読む → 読めば, 急ぐ → 急げば; nhóm II: 食べる → 食べれば; する → **すれば**, 来る → **来れば** (くれば). **Phủ định**: 〜ない → 〜**なければ** (行かなければ). **Tính từ đuôi い**: bỏ い, thêm **ければ**: 安い → 安ければ; いい → **よければ**. Tính từ đuôi な và danh từ dùng なら (bài sau).",
+        "Khi vế ば là một **hành động** (行けば, 着けば), vế sau thường **không** là lời nhờ, lời rủ: nói 「駅に着いたら、電話してください」 chứ không nói 着けば. Nếu vế ば là trạng thái (ある, いる, tính từ) thì được: 「時間があれば、来てください」.",
+        "Tiếng Việt có \"nếu … thì\"; tiếng Nhật không có từ riêng cho \"thì\". Muốn nhấn mạnh ý giả định, thêm **もし** ở đầu câu: 「もし時間があれば…」."
+      ],
+      "patterns": [
+        "V（hàng え）+ ば",
+        "V ない → V なければ",
+        "Aい → 〜ければ (いい → よければ)",
+        "(もし) 〜ば、…"
+      ],
+      "examples": [
+        {
+          "ja": "急げば、電車に間に合います。",
+          "vi": "Nhanh lên thì sẽ kịp tàu."
+        },
+        {
+          "ja": "時間があれば、一緒に食事しませんか。",
+          "vi": "Nếu có thời gian, mình đi ăn cùng nhau không?"
+        },
+        {
+          "ja": "安ければ、買います。",
+          "vi": "Nếu rẻ thì tôi mua."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "急ぐば、電車に間に合います。",
+          "right": "急げば、電車に間に合います。",
+          "noteVi": "Không gắn ば vào thể từ điển: đổi âm cuối sang hàng え rồi thêm ば (急ぐ → 急げば)."
+        },
+        {
+          "wrong": "安いければ、買います。",
+          "right": "安ければ、買います。",
+          "noteVi": "Tính từ đuôi い: bỏ い rồi mới thêm ければ."
+        },
+        {
+          "wrong": "天気がいければ、出かけます。",
+          "right": "天気がよければ、出かけます。",
+          "noteVi": "いい là ngoại lệ: よければ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ba-yokatta",
+      "titleVi": "〜ばよかった: giá mà … (tiếc nuối)",
+      "summaryVi": "V ば + よかった: giá mà đã làm …; V なければよかった: giá mà đừng làm … (tiếc vì việc đã qua).",
+      "explanationVi": [
+        "**V ば + よかった** = \"giá mà (đã) làm V thì tốt\": nói **tiếc nuối** vì mình đã không làm: 「もっと勉強すればよかった」 (Giá mà mình học nhiều hơn). Tiếng Việt: \"giá mà\", \"phải chi\", \"lẽ ra nên\".",
+        "**V なければよかった** = \"giá mà đừng V\": tiếc vì đã lỡ làm: 「お酒を飲まなければよかった」 (Giá mà đừng uống rượu).",
+        "Thường nói một mình hoặc với bạn bè: 〜ばよかった; lịch sự: 〜ばよかったです. Nói với người khác 「〜ばよかったですね」 nghĩa là \"lẽ ra bạn nên … nhỉ\", nghe có thể như trách, nên cẩn thận. Cùng nghĩa: 〜たらよかった."
+      ],
+      "patterns": [
+        "V ば + よかった",
+        "V なければ + よかった",
+        "〜ばよかったです (lịch sự)"
+      ],
+      "examples": [
+        {
+          "ja": "もっと早く起きればよかった。",
+          "vi": "Giá mà mình dậy sớm hơn."
+        },
+        {
+          "ja": "雨ですね。傘を持ってくればよかったです。",
+          "vi": "Mưa rồi nhỉ. Giá mà tôi mang ô theo."
+        },
+        {
+          "ja": "あの時、お酒を飲まなければよかった。",
+          "vi": "Giá mà lúc đó mình đừng uống rượu."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "もっと勉強すればいいでした。",
+          "right": "もっと勉強すればよかったです。",
+          "noteVi": "Quá khứ của いい là よかった; không nói いいでした."
+        },
+        {
+          "wrong": "お酒を飲まないばよかった。",
+          "right": "お酒を飲まなければよかった。",
+          "noteVi": "Phủ định: 〜ない → 〜なければ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "tara",
+      "titleVi": "〜たら: nếu …; khi … (xong) thì …",
+      "summaryVi": "Thể た + ら: nếu … (giả định); khi … xong thì … (việc chắc chắn xảy ra). Vế sau dùng được cả lời nhờ, lời rủ.",
+      "explanationVi": [
+        "**〜たら** là cách nói điều kiện dùng nhiều nhất trong hội thoại. Tạo rất dễ: lấy **thể た** rồi thêm **ら**: 行った → 行ったら, 食べた → 食べたら, 行かなかった → 行かなかったら, 安かった → 安かったら, 雨だった → 雨だったら.",
+        "Hai nghĩa: (1) **giả định** \"nếu\": 「雨が降ったら、出かけません」, hay đi với **もし**; (2) **khi … (xong) thì**, với việc **chắc chắn sẽ xảy ra**: 「駅に着いたら、電話してください」 (Đến ga thì gọi cho tôi). Nghĩa (2) không dùng もし.",
+        "Khác thể ば, vế sau của たら dùng được **mọi loại câu**: nhờ, rủ, ý muốn: 「時間があったら、遊びに来てください」. Thể たら không mang nghĩa quá khứ: thì của câu do vế sau quyết định."
+      ],
+      "patterns": [
+        "V た + ら",
+        "V ない → V なかったら",
+        "Aい → 〜かったら",
+        "Aな / N → 〜だったら",
+        "(もし) 〜たら、…"
+      ],
+      "examples": [
+        {
+          "ja": "駅に着いたら、電話してください。",
+          "vi": "Đến ga thì gọi điện cho tôi nhé."
+        },
+        {
+          "ja": "時間があったら、遊びに来てください。",
+          "vi": "Nếu có thời gian thì đến chơi nhé."
+        },
+        {
+          "ja": "明日、雨だったら、出かけません。",
+          "vi": "Nếu mai trời mưa thì tôi không ra ngoài."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "駅に着くたら、電話してください。",
+          "right": "駅に着いたら、電話してください。",
+          "noteVi": "たら gắn vào thể た (着いた), không gắn vào thể từ điển."
+        },
+        {
+          "wrong": "明日、雨だたら、出かけません。",
+          "right": "明日、雨だったら、出かけません。",
+          "noteVi": "Danh từ: 雨だった + ら."
+        },
+        {
+          "wrong": "もし駅に着いたら、電話してください。",
+          "right": "駅に着いたら、電話してください。",
+          "noteVi": "Câu không sai ngữ pháp nhưng kém tự nhiên: với việc chắc chắn sẽ xảy ra (sẽ đến ga), もし làm câu nghe như \"lỡ mà đến được ga\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "tara-dou",
+      "titleVi": "〜たらどうですか: thử … xem sao? (khuyên)",
+      "summaryVi": "V た + らどうですか / らどう？: khuyên nhẹ nhàng \"(bạn) thử … xem sao?\": 少し休んだらどうですか.",
+      "explanationVi": [
+        "**V た + らどうですか** = \"(bạn) thử … xem sao?\", \"hay là … đi\": đưa ra **lời khuyên** cho người nghe: 「少し休んだらどうですか」 (Bạn nghỉ một chút đi).",
+        "Thân mật: **〜たらどう？**; lịch sự hơn: **〜たらいかがですか**. Mẫu này dùng với bạn bè, người ngang hàng hay dưới mình; khuyên người trên bằng 〜たらどう？ nghe thiếu lễ độ.",
+        "Cách ghép giống 〜たら: lấy thể た rồi thêm らどう: 調べた → 調べたらどう, 聞いた → 聞いたらどう. Tiếng Việt hay nói \"hay là …\", \"thử … xem\"."
+      ],
+      "patterns": [
+        "V た + らどうですか",
+        "V た + らどう？ (thân mật)",
+        "V た + らいかがですか (lịch sự)"
+      ],
+      "examples": [
+        {
+          "ja": "少し休んだらどうですか。",
+          "vi": "Bạn nghỉ một chút đi thì hơn."
+        },
+        {
+          "ja": "わからない言葉は、辞典で調べたらどう？",
+          "vi": "Từ nào không hiểu thì tra từ điển xem sao?"
+        },
+        {
+          "ja": "先生に聞いたらどうですか。",
+          "vi": "Hay là bạn hỏi thầy xem sao?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "少し休むらどうですか。",
+          "right": "少し休んだらどうですか。",
+          "noteVi": "らどう gắn vào thể た: 休んだ → 休んだら."
+        },
+        {
+          "wrong": "先生、少し休んだらどう？",
+          "right": "先生、少し休んだらいかがですか。",
+          "noteVi": "Với người trên, không dùng thể thân mật 〜たらどう？; nếu cần khuyên thì nói lịch sự 〜たらいかがですか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-08-e01",
+      "type": "choice",
+      "grammar": [
+        "ba"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Nhanh lên thì sẽ kịp tàu\"?",
+      "options": [
+        "急げば、電車に間に合います。",
+        "急がなければ、電車に間に合います。",
+        "急げば、電車に間に合いません。"
+      ],
+      "answer": 0,
+      "explainVi": "急ぐ: đổi ぐ → げ rồi thêm ば. 急がなければ = nếu không nhanh."
+    },
+    {
+      "id": "n4-08-e02",
+      "type": "fill",
+      "grammar": [
+        "ba"
+      ],
+      "before": "天気が",
+      "after": "、出かけましょう。",
+      "answers": [
+        "よければ"
+      ],
+      "options": [
+        "よければ",
+        "よくて",
+        "いい"
+      ],
+      "vi": "Nếu trời đẹp thì mình ra ngoài đi.",
+      "explainVi": "いい là ngoại lệ: よければ."
+    },
+    {
+      "id": "n4-08-e03",
+      "type": "match",
+      "grammar": [
+        "ba"
+      ],
+      "promptVi": "Ghép thể từ điển với thể ば",
+      "pairs": [
+        [
+          "行く",
+          "行けば"
+        ],
+        [
+          "食べる",
+          "食べれば"
+        ],
+        [
+          "する",
+          "すれば"
+        ],
+        [
+          "安い",
+          "安ければ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-08-e04",
+      "type": "order",
+      "grammar": [
+        "ba"
+      ],
+      "vi": "Nếu có thời gian, mình đi ăn cùng nhau không?",
+      "tiles": [
+        "食事しませんか",
+        "時間が",
+        "一緒に",
+        "あれば"
+      ],
+      "answers": [
+        "時間があれば一緒に食事しませんか"
+      ]
+    },
+    {
+      "id": "n4-08-e05",
+      "type": "choice",
+      "grammar": [
+        "ba-yokatta"
+      ],
+      "promptVi": "Bạn ngủ quên và bị trễ học. Bạn tiếc: \"Giá mà mình dậy sớm hơn.\" Chọn câu đúng.",
+      "options": [
+        "もっと早く起きればよかったです。",
+        "もっと早く起きればいいでした。",
+        "もっと早く起きたらどうですか。"
+      ],
+      "answer": 0,
+      "explainVi": "Tiếc nuối: V ば + よかった. 〜たらどうですか là lời khuyên người khác."
+    },
+    {
+      "id": "n4-08-e06",
+      "type": "fill",
+      "grammar": [
+        "ba-yokatta"
+      ],
+      "before": "雨が降っています。傘を持ってくれば",
+      "after": "。",
+      "answers": [
+        "よかった"
+      ],
+      "options": [
+        "よかった",
+        "いいでした",
+        "よかったら"
+      ],
+      "vi": "Trời đang mưa. Giá mà mình mang ô theo."
+    },
+    {
+      "id": "n4-08-e07",
+      "type": "fill",
+      "grammar": [
+        "ba-yokatta"
+      ],
+      "before": "おなかが痛いです。たくさん",
+      "after": "よかった。",
+      "answers": [
+        "食べなければ"
+      ],
+      "options": [
+        "食べなければ",
+        "食べれば",
+        "食べた"
+      ],
+      "vi": "Đau bụng quá. Giá mà mình đừng ăn nhiều thế."
+    },
+    {
+      "id": "n4-08-e08",
+      "type": "choice",
+      "grammar": [
+        "tara"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Đến ga thì gọi điện cho tôi nhé\"?",
+      "options": [
+        "駅に着いたら、電話してください。",
+        "駅に着いたら、電話しました。",
+        "駅に着く前に、電話してください。"
+      ],
+      "answer": 0,
+      "explainVi": "Việc chắc chắn sẽ xảy ra (đến ga) + lời nhờ: 〜たら、〜てください."
+    },
+    {
+      "id": "n4-08-e09",
+      "type": "fill",
+      "grammar": [
+        "tara"
+      ],
+      "before": "もし明日雨",
+      "after": "、出かけません。",
+      "answers": [
+        "だったら"
+      ],
+      "options": [
+        "だったら",
+        "だった",
+        "だ"
+      ],
+      "vi": "Nếu mai trời mưa thì tôi không ra ngoài."
+    },
+    {
+      "id": "n4-08-e10",
+      "type": "order",
+      "grammar": [
+        "tara"
+      ],
+      "vi": "Nếu có thời gian thì hãy đến chơi nhé.",
+      "tiles": [
+        "来てください",
+        "時間が",
+        "遊びに",
+        "あったら"
+      ],
+      "answers": [
+        "時間があったら遊びに来てください"
+      ]
+    },
+    {
+      "id": "n4-08-e11",
+      "type": "choice",
+      "grammar": [
+        "tara"
+      ],
+      "promptVi": "Chọn từ đúng: \"Xong việc thì đi uống nhé.\"",
+      "ja": "仕事が＿、飲みに行きましょう。",
+      "options": [
+        "済んだら",
+        "済んだ",
+        "済む"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-08-e12",
+      "type": "choice",
+      "grammar": [
+        "tara-dou"
+      ],
+      "promptVi": "Bạn của bạn bị mệt. Bạn khuyên: \"Nghỉ một chút đi.\" Chọn câu đúng.",
+      "options": [
+        "少し休んだらどうですか。",
+        "少し休んだらよかったです。",
+        "少し休みませんでした。"
+      ],
+      "answer": 0,
+      "explainVi": "Khuyên người nghe: V た + らどうですか. 〜たらよかった là tiếc nuối."
+    },
+    {
+      "id": "n4-08-e13",
+      "type": "fill",
+      "grammar": [
+        "tara-dou"
+      ],
+      "before": "わからない言葉は、辞典で",
+      "after": "どう？",
+      "answers": [
+        "調べたら"
+      ],
+      "options": [
+        "調べたら",
+        "調べて",
+        "調べた"
+      ],
+      "vi": "Từ nào không hiểu thì tra từ điển xem sao?"
+    },
+    {
+      "id": "n4-08-e14",
+      "type": "order",
+      "grammar": [
+        "tara-dou"
+      ],
+      "vi": "Hay là bạn hỏi thầy giáo xem sao?",
+      "tiles": [
+        "どうですか",
+        "先生に",
+        "聞いたら"
+      ],
+      "answers": [
+        "先生に聞いたらどうですか"
+      ]
+    },
+    {
+      "id": "n4-08-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "落とす",
+          "đánh rơi"
+        ],
+        [
+          "拾う",
+          "nhặt"
+        ],
+        [
+          "探す",
+          "tìm"
+        ],
+        [
+          "見つける",
+          "tìm thấy"
+        ]
+      ]
+    },
+    {
+      "id": "n4-08-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "故障",
+          "hỏng hóc (máy)"
+        ],
+        [
+          "失敗",
+          "thất bại"
+        ],
+        [
+          "寝坊",
+          "ngủ quên"
+        ],
+        [
+          "忘れ物",
+          "đồ bỏ quên"
+        ]
+      ]
+    },
+    {
+      "id": "n4-08-e17",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng.",
+      "ja": "テレビが＿。",
+      "options": [
+        "直りました",
+        "直しました",
+        "取り替えました"
+      ],
+      "answer": 0,
+      "explainVi": "が + tự động từ 直る (được sửa); を + tha động từ 直す."
+    },
+    {
+      "id": "n4-08-e18",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng.",
+      "ja": "なくした財布が＿。",
+      "options": [
+        "見つかりました",
+        "見つけました",
+        "探しました"
+      ],
+      "answer": 0,
+      "explainVi": "が + tự động từ 見つかる; を + tha động từ 見つける."
+    },
+    {
+      "id": "n4-08-e19",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Tôi đã rút tiền ở ngân hàng.\"",
+      "ja": "銀行でお金を＿。",
+      "options": [
+        "引き出しました",
+        "拾いました",
+        "落としました"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-08-e20",
+      "type": "translate",
+      "grammar": [
+        "ba"
+      ],
+      "vi": "Nếu có thời gian thì tôi sẽ đi.",
+      "answers": [
+        "(もし)時間があれば、(私は)行きます。",
+        "(もし)時間があったら、(私は)行きます。"
+      ],
+      "examples": [
+        {
+          "answer": "じかんがあれば、いきます",
+          "score": 100
+        },
+        {
+          "answer": "時間をあれば、行きます。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "時間があれば、行きません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-08-e21",
+      "type": "translate",
+      "grammar": [
+        "ba-yokatta"
+      ],
+      "vi": "Giá mà tôi học nhiều hơn.",
+      "answers": [
+        "もっと勉強すればよかった(です)。",
+        "もっと勉強(を)[すれば|したら]よかった(です)。"
+      ],
+      "examples": [
+        {
+          "answer": "もっとべんきょうすればよかった",
+          "score": 100
+        },
+        {
+          "answer": "もっと勉強すればいいでした。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "もっと勉強しなければよかった。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-08-e22",
+      "type": "translate",
+      "grammar": [
+        "tara"
+      ],
+      "vi": "Về đến nhà thì gọi điện cho tôi nhé.",
+      "answers": [
+        "家に帰ったら、電話してください。",
+        "[家|うち]に帰ったら、(私に)電話(を)して(ください)。"
+      ],
+      "examples": [
+        {
+          "answer": "いえにかえったら、でんわしてください",
+          "score": 100
+        },
+        {
+          "answer": "家に帰りたら、電話してください。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ]
+        },
+        {
+          "answer": "家を帰ったら、電話してください。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "家に帰ったら、電話しないでください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-08-e23",
+      "type": "question",
+      "grammar": [
+        "tara-dou"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "頭が痛いんです。",
+        "promptVi": "Bạn của bạn nói: “Tớ bị đau đầu.” Hãy khuyên bạn ấy uống thuốc, dùng 〜たらどう.",
+        "answers": [
+          "薬を飲んだらどうですか。",
+          "薬を飲んだらどう？",
+          "薬を飲んだらいかがですか。"
+        ],
+        "examples": [
+          {
+            "answer": "くすりをのんだらどうですか",
+            "score": 100
+          },
+          {
+            "answer": "薬を飲みたらどうですか。",
+            "score": 80,
+            "issues": [
+              "te_form"
+            ]
+          },
+          {
+            "answer": "薬を飲まなかったらどうですか。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "お金持ちになったら、大きい家を買いたいです。": "お{金|かね}{持|も}ちになったら、{大|おお}きい{家|いえ}を{買|か}いたいです。",
+    "駅で財布を落としました。": "{駅|えき}で{財|さい}{布|ふ}を{落|お}としました。",
+    "機会があれば、また日本へ行きたいです。": "{機|き}{会|かい}があれば、また{日本|にほん}へ{行|い}きたいです。",
+    "消しゴムを貸してください。": "{消|け}しゴムを{貸|か}してください。",
+    "エレベーターが故障しています。": "エレベーターが{故|こ}{障|しょう}しています。",
+    "時計が壊れました。": "{時計|とけい}が{壊|こわ}れました。",
+    "かぎを探していますが、見つかりません。": "かぎを{探|さが}していますが、{見|み}つかりません。",
+    "料理に失敗しました。": "{料|りょう}{理|り}に{失|しっ}{敗|ぱい}しました。",
+    "この辞典はとても便利です。": "この{辞|じ}{典|てん}はとても{便|べん}{利|り}です。",
+    "仕事が済んだら、飲みに行きましょう。": "{仕|し}{事|ごと}が{済|す}んだら、{飲|の}みに{行|い}きましょう。",
+    "駅までの道を地図で調べました。": "{駅|えき}までの{道|みち}を{地|ち}{図|ず}で{調|しら}べました。",
+    "すみません、このシャツを大きいのと取り替えてください。": "すみません、このシャツを{大|おお}きいのと{取|と}り{替|か}えてください。",
+    "父が壊れた時計を直しました。": "{父|ちち}が{壊|こわ}れた{時計|とけい}を{直|なお}しました。",
+    "テレビが直りました。": "テレビが{直|なお}りました。",
+    "財布がなくなりました。": "{財|さい}{布|ふ}がなくなりました。",
+    "冷蔵庫の牛乳がなくなりました。": "{冷|れい}{蔵|ぞう}{庫|こ}の{牛|ぎゅう}{乳|にゅう}がなくなりました。",
+    "今朝、寝坊して、授業に間に合いませんでした。": "{今朝|けさ}、{寝|ね}{坊|ぼう}して、{授|じゅ}{業|ぎょう}に{間|ま}に{合|あ}いませんでした。",
+    "わからない場合は、先生に聞いてください。": "わからない{場|ば}{合|あい}は、{先|せん}{生|せい}に{聞|き}いてください。",
+    "銀行でお金を引き出しました。": "{銀|ぎん}{行|こう}でお{金|かね}を{引|ひ}き{出|だ}しました。",
+    "道で財布を拾いました。": "{道|みち}で{財|さい}{布|ふ}を{拾|ひろ}いました。",
+    "電車を間違えて、遅くなりました。": "{電|でん}{車|しゃ}を{間|ま}{違|ちが}えて、{遅|おそ}くなりました。",
+    "なくした財布が見つかりました。": "なくした{財|さい}{布|ふ}が{見|み}つかりました。",
+    "駅の近くでいいアパートを見つけました。": "{駅|えき}の{近|ちか}くでいいアパートを{見|み}つけました。",
+    "もし雨が降ったら、家で映画を見ます。": "もし{雨|あめ}が{降|ふ}ったら、{家|いえ}で{映|えい}{画|が}を{見|み}ます。",
+    "電車に忘れ物をしました。": "{電|でん}{車|しゃ}に{忘|わす}れ{物|もの}をしました。",
+    "この店は高いですから、別の店へ行きましょう。": "この{店|みせ}は{高|たか}いですから、{別|べつ}の{店|みせ}へ{行|い}きましょう。",
+    "急げば、電車に間に合います。": "{急|いそ}げば、{電|でん}{車|しゃ}に{間|ま}に{合|あ}います。",
+    "時間があれば、一緒に食事しませんか。": "{時|じ}{間|かん}があれば、{一|いっ}{緒|しょ}に{食|しょく}{事|じ}しませんか。",
+    "安ければ、買います。": "{安|やす}ければ、{買|か}います。",
+    "急ぐば、電車に間に合います。": "{急|いそ}ぐば、{電|でん}{車|しゃ}に{間|ま}に{合|あ}います。",
+    "安いければ、買います。": "{安|やす}いければ、{買|か}います。",
+    "天気がよければ、出かけます。": "{天|てん}{気|き}がよければ、{出|で}かけます。",
+    "天気がいければ、出かけます。": "{天|てん}{気|き}がいければ、{出|で}かけます。",
+    "もっと早く起きればよかった。": "もっと{早|はや}く{起|お}きればよかった。",
+    "雨ですね。傘を持ってくればよかったです。": "{雨|あめ}ですね。{傘|かさ}を{持|も}ってくればよかったです。",
+    "あの時、お酒を飲まなければよかった。": "あの{時|とき}、お{酒|さけ}を{飲|の}まなければよかった。",
+    "もっと勉強すればよかったです。": "もっと{勉|べん}{強|きょう}すればよかったです。",
+    "もっと勉強すればいいでした。": "もっと{勉|べん}{強|きょう}すればいいでした。",
+    "お酒を飲まなければよかった。": "お{酒|さけ}を{飲|の}まなければよかった。",
+    "お酒を飲まないばよかった。": "お{酒|さけ}を{飲|の}まないばよかった。",
+    "駅に着いたら、電話してください。": "{駅|えき}に{着|つ}いたら、{電|でん}{話|わ}してください。",
+    "時間があったら、遊びに来てください。": "{時|じ}{間|かん}があったら、{遊|あそ}びに{来|き}てください。",
+    "明日、雨だったら、出かけません。": "{明日|あした}、{雨|あめ}だったら、{出|で}かけません。",
+    "駅に着くたら、電話してください。": "{駅|えき}に{着|つ}くたら、{電|でん}{話|わ}してください。",
+    "明日、雨だたら、出かけません。": "{明日|あした}、{雨|あめ}だたら、{出|で}かけません。",
+    "もし駅に着いたら、電話してください。": "もし{駅|えき}に{着|つ}いたら、{電|でん}{話|わ}してください。",
+    "少し休んだらどうですか。": "{少|すこ}し{休|やす}んだらどうですか。",
+    "わからない言葉は、辞典で調べたらどう？": "わからない{言|こと}{葉|ば}は、{辞|じ}{典|てん}で{調|しら}べたらどう？",
+    "先生に聞いたらどうですか。": "{先|せん}{生|せい}に{聞|き}いたらどうですか。",
+    "少し休むらどうですか。": "{少|すこ}し{休|やす}むらどうですか。",
+    "先生、少し休んだらいかがですか。": "{先|せん}{生|せい}、{少|すこ}し{休|やす}んだらいかがですか。",
+    "先生、少し休んだらどう？": "{先|せん}{生|せい}、{少|すこ}し{休|やす}んだらどう？",
+    "急がなければ、電車に間に合います。": "{急|いそ}がなければ、{電|でん}{車|しゃ}に{間|ま}に{合|あ}います。",
+    "急げば、電車に間に合いません。": "{急|いそ}げば、{電|でん}{車|しゃ}に{間|ま}に{合|あ}いません。",
+    "天気がよければ、出かけましょう。": "{天|てん}{気|き}がよければ、{出|で}かけましょう。",
+    "よければ": "よければ",
+    "よくて": "よくて",
+    "いい": "いい",
+    "行く": "{行|い}く",
+    "行けば": "{行|い}けば",
+    "食べる": "{食|た}べる",
+    "食べれば": "{食|た}べれば",
+    "する": "する",
+    "すれば": "すれば",
+    "安い": "{安|やす}い",
+    "安ければ": "{安|やす}ければ",
+    "食事しませんか": "{食|しょく}{事|じ}しませんか",
+    "時間が": "{時|じ}{間|かん}が",
+    "一緒に": "{一|いっ}{緒|しょ}に",
+    "あれば": "あれば",
+    "時間があれば一緒に食事しませんか": "{時|じ}{間|かん}があれば{一|いっ}{緒|しょ}に{食|しょく}{事|じ}しませんか",
+    "もっと早く起きればよかったです。": "もっと{早|はや}く{起|お}きればよかったです。",
+    "もっと早く起きればいいでした。": "もっと{早|はや}く{起|お}きればいいでした。",
+    "もっと早く起きたらどうですか。": "もっと{早|はや}く{起|お}きたらどうですか。",
+    "雨が降っています。傘を持ってくればよかった。": "{雨|あめ}が{降|ふ}っています。{傘|かさ}を{持|も}ってくればよかった。",
+    "よかった": "よかった",
+    "いいでした": "いいでした",
+    "よかったら": "よかったら",
+    "おなかが痛いです。たくさん食べなければよかった。": "おなかが{痛|いた}いです。たくさん{食|た}べなければよかった。",
+    "食べなければ": "{食|た}べなければ",
+    "食べた": "{食|た}べた",
+    "駅に着いたら、電話しました。": "{駅|えき}に{着|つ}いたら、{電|でん}{話|わ}しました。",
+    "駅に着く前に、電話してください。": "{駅|えき}に{着|つ}く{前|まえ}に、{電|でん}{話|わ}してください。",
+    "もし明日雨だったら、出かけません。": "もし{明日|あした}{雨|あめ}だったら、{出|で}かけません。",
+    "だったら": "だったら",
+    "だった": "だった",
+    "だ": "だ",
+    "来てください": "{来|き}てください",
+    "遊びに": "{遊|あそ}びに",
+    "あったら": "あったら",
+    "時間があったら遊びに来てください": "{時|じ}{間|かん}があったら{遊|あそ}びに{来|き}てください",
+    "仕事が＿、飲みに行きましょう。": "{仕|し}{事|ごと}が＿、{飲|の}みに{行|い}きましょう。",
+    "済んだら": "{済|す}んだら",
+    "済んだ": "{済|す}んだ",
+    "済む": "{済|す}む",
+    "少し休んだらよかったです。": "{少|すこ}し{休|やす}んだらよかったです。",
+    "少し休みませんでした。": "{少|すこ}し{休|やす}みませんでした。",
+    "調べたら": "{調|しら}べたら",
+    "調べて": "{調|しら}べて",
+    "調べた": "{調|しら}べた",
+    "どうですか": "どうですか",
+    "先生に": "{先|せん}{生|せい}に",
+    "聞いたら": "{聞|き}いたら",
+    "先生に聞いたらどうですか": "{先|せん}{生|せい}に{聞|き}いたらどうですか",
+    "落とす": "{落|お}とす",
+    "拾う": "{拾|ひろ}う",
+    "探す": "{探|さが}す",
+    "見つける": "{見|み}つける",
+    "故障": "{故|こ}{障|しょう}",
+    "失敗": "{失|しっ}{敗|ぱい}",
+    "寝坊": "{寝|ね}{坊|ぼう}",
+    "忘れ物": "{忘|わす}れ{物|もの}",
+    "テレビが＿。": "テレビが＿。",
+    "直りました": "{直|なお}りました",
+    "直しました": "{直|なお}しました",
+    "取り替えました": "{取|と}り{替|か}えました",
+    "なくした財布が＿。": "なくした{財|さい}{布|ふ}が＿。",
+    "見つかりました": "{見|み}つかりました",
+    "見つけました": "{見|み}つけました",
+    "探しました": "{探|さが}しました",
+    "銀行でお金を＿。": "{銀|ぎん}{行|こう}でお{金|かね}を＿。",
+    "引き出しました": "{引|ひ}き{出|だ}しました",
+    "拾いました": "{拾|ひろ}いました",
+    "落としました": "{落|お}としました",
+    "もし時間があれば、私は行きます。": "もし{時|じ}{間|かん}があれば、{私|わたし}は{行|い}きます。",
+    "もし時間があったら、私は行きます。": "もし{時|じ}{間|かん}があったら、{私|わたし}は{行|い}きます。",
+    "もっと勉強をすればよかったです。": "もっと{勉|べん}{強|きょう}をすればよかったです。",
+    "家に帰ったら、電話してください。": "{家|いえ}に{帰|かえ}ったら、{電|でん}{話|わ}してください。",
+    "家に帰ったら、私に電話をしてください。": "{家|いえ}に{帰|かえ}ったら、{私|わたし}に{電|でん}{話|わ}をしてください。",
+    "頭が痛いんです。": "{頭|あたま}が{痛|いた}いんです。",
+    "薬を飲んだらどうですか。": "{薬|くすり}を{飲|の}んだらどうですか。",
+    "薬を飲んだらどう？": "{薬|くすり}を{飲|の}んだらどう？",
+    "薬を飲んだらいかがですか。": "{薬|くすり}を{飲|の}んだらいかがですか。"
+  }
+}

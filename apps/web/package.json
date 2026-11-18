@@ -1,0 +1,35 @@
+{
+  "name": "@j-learn-write/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Web app (PWA) for learning Japanese (kana, JLPT N5-N4) in Vietnamese.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run",
+    "e2e": "vite build && vitest run --config vitest.e2e.config.ts",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "dependencies": {
+    "@j-learn-write/course": "*",
+    "@j-learn-write/grader": "*",
+    "@preact/signals": "2.11.4",
+    "idb": "8.0.4",
+    "preact": "10.29.8",
+    "ts-fsrs": "6.0.0",
+    "hanzi-writer": "3.7.3",
+    "wanakana": "5.3.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.10.6",
+    "@testing-library/preact": "3.2.6",
+    "axe-core": "4.14.0",
+    "fake-indexeddb": "6.2.7",
+    "playwright": "1.63.0",
+    "vite-plugin-pwa": "2.0.0"
+  }
+}

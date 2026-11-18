@@ -1,0 +1,1106 @@
+{
+  "id": "n4-01",
+  "goalsVi": [
+    "Nói chuyện thân mật với bạn bè bằng thể thông thường: うん、行くよ",
+    "Giải thích lý do, hỏi chuyện bằng 〜んです: どうしたんですか、頭が痛いんです",
+    "Nối ý bằng けど (nhưng), し (vừa … vừa …) và tự hỏi bằng かな"
+  ],
+  "words": [
+    {
+      "no": 675,
+      "word": "あ",
+      "meaningsVi": [
+        "a, á, ồ (khi chợt nhận ra)"
+      ],
+      "examples": [
+        {
+          "ja": "あ、雨だ。",
+          "vi": "Á, mưa rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 676,
+      "word": "ああ",
+      "meaningsVi": [
+        "như thế kia, như vậy"
+      ],
+      "noteVi": "Chỉ điều ở xa người nói và người nghe, như あれ, あの (こう, そう, ああ, どう).",
+      "examples": [
+        {
+          "ja": "田中さんはいつもああです。",
+          "vi": "Anh Tanaka lúc nào cũng thế."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 737,
+      "word": "うん",
+      "meaningsVi": [
+        "ừ"
+      ],
+      "noteVi": "Cách nói thân mật của はい; không dùng với người trên.",
+      "examples": [
+        {
+          "ja": "うん、行くよ。",
+          "vi": "Ừ, tớ đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1216,
+      "word": "僕",
+      "meaningsVi": [
+        "tôi, tớ (nam giới)"
+      ],
+      "noteVi": "Nam giới dùng khi nói chuyện thân mật; trong công việc nói 私.",
+      "examples": [
+        {
+          "ja": "僕は学生です。",
+          "vi": "Tớ là sinh viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 838,
+      "word": "君",
+      "meaningsVi": [
+        "cậu, em (gọi người ngang hàng hoặc dưới mình)"
+      ],
+      "noteVi": "Không dùng với người trên. Cùng chữ 君, đọc くん là hậu tố sau tên (田中君).",
+      "examples": [
+        {
+          "ja": "君も行く？",
+          "vi": "Cậu cũng đi chứ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 816,
+      "word": "彼",
+      "meaningsVi": [
+        "anh ấy, ông ấy",
+        "bạn trai"
+      ],
+      "noteVi": "Ngoài nghĩa \"anh ấy\", 彼 còn có nghĩa là \"bạn trai\" (người yêu).",
+      "examples": [
+        {
+          "ja": "彼は私の友達です。",
+          "vi": "Anh ấy là bạn tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 809,
+      "word": "彼女",
+      "meaningsVi": [
+        "cô ấy, bà ấy",
+        "bạn gái"
+      ],
+      "noteVi": "Ngoài nghĩa \"cô ấy\", 彼女 còn có nghĩa là \"bạn gái\" (người yêu). Người Nhật thường gọi tên + さん hơn là 彼, 彼女.",
+      "examples": [
+        {
+          "ja": "彼女は先生です。",
+          "vi": "Cô ấy là giáo viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 817,
+      "word": "彼ら",
+      "meaningsVi": [
+        "họ, bọn họ"
+      ],
+      "examples": [
+        {
+          "ja": "彼らは留学生です。",
+          "vi": "Họ là du học sinh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1064,
+      "word": "ちゃん",
+      "meaningsVi": [
+        "bé, em (hậu tố thân mật sau tên)"
+      ],
+      "noteVi": "Gắn sau tên trẻ em, bạn gái thân, người trong nhà; thân mật hơn さん.",
+      "examples": [
+        {
+          "ja": "マイちゃん、おはよう。",
+          "vi": "Chào bé Mai (buổi sáng)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1030,
+      "word": "そんな",
+      "meaningsVi": [
+        "như thế, như vậy (trước danh từ)"
+      ],
+      "noteVi": "Luôn đứng trước danh từ: そんな本. Chỉ điều người nghe vừa nói hoặc ở gần người nghe.",
+      "examples": [
+        {
+          "ja": "そんな本は読みません。",
+          "vi": "Tôi không đọc loại sách như thế."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 700,
+      "word": "あんな",
+      "meaningsVi": [
+        "như thế kia (trước danh từ)"
+      ],
+      "examples": [
+        {
+          "ja": "あんな人は嫌いです。",
+          "vi": "Tôi ghét người như thế kia."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1041,
+      "word": "だから",
+      "meaningsVi": [
+        "vì vậy, cho nên"
+      ],
+      "noteVi": "Đứng đầu câu sau, nối với câu trước. Lịch sự hơn: ですから.",
+      "examples": [
+        {
+          "ja": "雨です。だから、行きません。",
+          "vi": "Trời mưa. Vì vậy tôi không đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1027,
+      "word": "それに",
+      "meaningsVi": [
+        "thêm nữa, hơn nữa"
+      ],
+      "examples": [
+        {
+          "ja": "この部屋は広いです。それに、安いです。",
+          "vi": "Căn phòng này rộng. Hơn nữa lại rẻ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 871,
+      "word": "けれど",
+      "meaningsVi": [
+        "nhưng, tuy nhiên"
+      ],
+      "noteVi": "Đứng đầu câu sau như しかし, nhưng mềm hơn; cũng đứng cuối câu trước: 高いけれど (xem ngữ pháp けど).",
+      "examples": [
+        {
+          "ja": "高いです。けれど、おいしいです。",
+          "vi": "Đắt. Nhưng ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 726,
+      "word": "うそ",
+      "meaningsVi": [
+        "lời nói dối",
+        "không thể nào! (ngạc nhiên)"
+      ],
+      "noteVi": "Nói 「うそ！」 khi ngạc nhiên là cách nói thân mật, không có ý buộc tội người kia nói dối.",
+      "examples": [
+        {
+          "ja": "うそでしょう？",
+          "vi": "Không thể nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 991,
+      "word": "すごい",
+      "meaningsVi": [
+        "tuyệt, giỏi quá, ghê",
+        "rất, cực kỳ"
+      ],
+      "examples": [
+        {
+          "ja": "すごいですね。",
+          "vi": "Giỏi quá nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 736,
+      "word": "うれしい",
+      "meaningsVi": [
+        "vui, mừng"
+      ],
+      "noteVi": "Nói về cảm xúc của chính mình. Nói về người khác dùng うれしそうです (học sau).",
+      "examples": [
+        {
+          "ja": "とてもうれしいです。",
+          "vi": "Tôi rất vui."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 923,
+      "word": "さっき",
+      "meaningsVi": [
+        "lúc nãy, vừa nãy"
+      ],
+      "examples": [
+        {
+          "ja": "さっき田中さんに会いました。",
+          "vi": "Lúc nãy tôi đã gặp anh Tanaka."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 900,
+      "word": "このごろ",
+      "meaningsVi": [
+        "dạo này, gần đây"
+      ],
+      "examples": [
+        {
+          "ja": "このごろ忙しいです。",
+          "vi": "Dạo này tôi bận."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 914,
+      "word": "最近",
+      "meaningsVi": [
+        "gần đây, dạo này"
+      ],
+      "noteVi": "Âm Hán Việt \"tối cận\". Dùng cả cho việc vừa xảy ra (最近、結婚しました), còn このごろ chỉ tình trạng kéo dài.",
+      "examples": [
+        {
+          "ja": "最近、日本語の勉強が楽しいです。",
+          "vi": "Gần đây việc học tiếng Nhật thú vị."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1179,
+      "word": "久しぶり",
+      "meaningsVi": [
+        "lâu rồi mới …",
+        "lâu quá không gặp"
+      ],
+      "noteVi": "Câu chào khi gặp lại người quen sau một thời gian dài. Thân mật: 久しぶり！",
+      "examples": [
+        {
+          "ja": "久しぶりですね。",
+          "vi": "Lâu quá không gặp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 689,
+      "word": "遊び",
+      "meaningsVi": [
+        "sự vui chơi, trò chơi"
+      ],
+      "noteVi": "Danh từ của 遊ぶ. 遊びに行く/来る: đi chơi, đến chơi (nhà ai đó).",
+      "examples": [
+        {
+          "ja": "日曜日に遊びに行きます。",
+          "vi": "Chủ nhật tôi đi chơi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 697,
+      "word": "アルバイト",
+      "meaningsVi": [
+        "việc làm thêm"
+      ],
+      "noteVi": "Gốc tiếng Đức (Arbeit). Nói tắt: バイト. Thường nói về sinh viên làm thêm.",
+      "examples": [
+        {
+          "ja": "毎晩、レストランでアルバイトをしています。",
+          "vi": "Tối nào tôi cũng làm thêm ở nhà hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1151,
+      "word": "パート",
+      "meaningsVi": [
+        "việc làm bán thời gian"
+      ],
+      "noteVi": "Thường nói về người lớn (nhiều khi là các bà nội trợ) làm theo giờ; sinh viên thì nói アルバイト.",
+      "examples": [
+        {
+          "ja": "母は近所の店でパートをしています。",
+          "vi": "Mẹ tôi làm bán thời gian ở cửa hàng gần nhà."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 849,
+      "word": "近所",
+      "meaningsVi": [
+        "khu xung quanh nhà, hàng xóm"
+      ],
+      "noteVi": "Âm Hán Việt \"cận sở\". Người hàng xóm: 近所の人.",
+      "examples": [
+        {
+          "ja": "近所に公園があります。",
+          "vi": "Gần nhà có công viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 869,
+      "word": "下宿",
+      "meaningsVi": [
+        "nhà trọ (ở cùng chủ nhà)",
+        "ở trọ"
+      ],
+      "examples": [
+        {
+          "ja": "私は下宿に住んでいます。",
+          "vi": "Tôi sống ở nhà trọ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1202,
+      "word": "不便",
+      "meaningsVi": [
+        "bất tiện"
+      ],
+      "noteVi": "Âm Hán Việt \"bất tiện\", nghĩa như tiếng Việt. Ngược nghĩa: 便利.",
+      "examples": [
+        {
+          "ja": "この町はバスがなくて不便です。",
+          "vi": "Thị trấn này không có xe buýt nên bất tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "私",
+      "meaningVi": "riêng, tư; tôi",
+      "noteVi": "Gặp trong 私 (わたし, tôi). Bên trái là bộ 禾 (lúa).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "自",
+      "meaningVi": "tự, bản thân",
+      "noteVi": "Gặp trong 自分 (じぶん, bản thân), 自転車 (xe đạp).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "近",
+      "meaningVi": "gần",
+      "noteVi": "Gặp trong 近い (ちかい), 近所 (きんじょ). Bộ 辶 (bước đi) như trong 道.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "不",
+      "meaningVi": "không, bất",
+      "noteVi": "Đứng trước để phủ định: 不便 (bất tiện).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "住",
+      "meaningVi": "ở, cư trú",
+      "noteVi": "Gặp trong 住む (すむ, sống ở). Bộ 亻 (người) + 主.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "同",
+      "meaningVi": "giống, cùng",
+      "noteVi": "Gặp trong 同じ (おなじ, giống nhau).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "言",
+      "meaningVi": "nói, lời",
+      "noteVi": "Gặp trong 言う (いう, nói); là bộ thủ của nhiều chữ về lời nói: 話, 語, 読.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n-desu-no-desu",
+      "titleVi": "〜んです: giải thích, hỏi lý do",
+      "summaryVi": "Thể thông thường + んです dùng khi giải thích hoặc hỏi để hiểu tình huống: どうしたんですか (có chuyện gì vậy?).",
+      "explanationVi": [
+        "**〜んです** (văn viết: 〜のです) gắn sau thể thông thường để **giải thích lý do, hoàn cảnh** hoặc **hỏi** để hiểu chuyện gì đang xảy ra. 「頭が痛いんです」 = \"(Là vì) tôi bị đau đầu\".",
+        "Cách ghép: động từ, tính từ đuôi い ở thể thông thường + んです (行くんです, 行ったんです, 高いんです); danh từ và tính từ đuôi な thêm **な**: 休みなんです, 静かなんです.",
+        "Hỏi: 「どうしたんですか」 (Có chuyện gì vậy?) khi thấy điều gì khác thường. Hỏi người trên bằng 〜んですか quá nhiều có thể nghe như chất vấn."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + んです",
+        "N / Aな + なんです",
+        "どうしたんですか"
+      ],
+      "examples": [
+        {
+          "ja": "どうしたんですか。",
+          "vi": "Có chuyện gì vậy?"
+        },
+        {
+          "ja": "頭が痛いんです。",
+          "vi": "Tôi bị đau đầu (nên…)."
+        },
+        {
+          "ja": "明日は休みなんです。",
+          "vi": "Mai là ngày nghỉ mà."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は休みんです。",
+          "right": "明日は休みなんです。",
+          "noteVi": "Sau danh từ (và tính từ đuôi な) phải có な: 休みなんです."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kedo-keredomo",
+      "titleVi": "〜けど / 〜けれども: nhưng (nhẹ nhàng)",
+      "summaryVi": "Nối hai ý trái ngược, thân mật hơn が: 高いけど、おいしいです.",
+      "explanationVi": [
+        "**けど** (trang trọng hơn: **けれども**, **けれど**) nghĩa là \"nhưng\", giống が (bài N5-13), hay dùng khi nói chuyện.",
+        "Đặt ngay sau câu thứ nhất, thể lịch sự hay thông thường đều được: 「行きたいけど、時間がありません」.",
+        "Đặt ở cuối câu, けど làm lời nói **mềm đi**, phần sau để người nghe tự hiểu: 「すみません、ちょっと聞きたいんですけど」 (Xin lỗi, tôi muốn hỏi một chút ạ)."
+      ],
+      "patterns": [
+        "Câu 1 + けど、Câu 2",
+        "〜んですけど (mở lời nhẹ nhàng)"
+      ],
+      "examples": [
+        {
+          "ja": "高いけど、おいしいです。",
+          "vi": "Đắt nhưng ngon."
+        },
+        {
+          "ja": "行きたいけど、時間がありません。",
+          "vi": "Tôi muốn đi nhưng không có thời gian."
+        },
+        {
+          "ja": "すみません、ちょっと聞きたいんですけど。",
+          "vi": "Xin lỗi, tôi muốn hỏi một chút ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "shi",
+      "titleVi": "〜し: … mà lại …, vừa … vừa … (nêu lý do)",
+      "summaryVi": "Liệt kê nhiều lý do: この部屋は広いし、明るいし、いいですね.",
+      "explanationVi": [
+        "**し** đặt sau thể thông thường để **liệt kê lý do**, ngầm hiểu còn có lý do khác: 「安いし、近いし、いつもこの店で買います」.",
+        "Danh từ và tính từ đuôi な dùng **だ** trước し: 静かだし, 雨だし.",
+        "Khác với 〜て (chỉ nối hai ý), し nhấn mạnh rằng các ý đều là lý do cho kết luận ở cuối câu."
+      ],
+      "patterns": [
+        "A し、B し、(kết luận)",
+        "N / Aな + だし"
+      ],
+      "examples": [
+        {
+          "ja": "この部屋は広いし、明るいし、いいですね。",
+          "vi": "Căn phòng này vừa rộng vừa sáng, tốt nhỉ."
+        },
+        {
+          "ja": "今日は雨だし、寒いし、出かけません。",
+          "vi": "Hôm nay vừa mưa vừa lạnh, tôi không ra ngoài."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "静かし、便利です。",
+          "right": "静かだし、便利です。",
+          "noteVi": "Tính từ đuôi な và danh từ cần だ trước し."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "kana-kashira",
+      "titleVi": "〜かな / 〜かしら: không biết … nhỉ (tự hỏi)",
+      "summaryVi": "Tự hỏi, phỏng đoán: 明日は雨かな (Không biết mai có mưa không nhỉ).",
+      "explanationVi": [
+        "**かな** đặt cuối câu thể thông thường khi **tự hỏi** hoặc đoán, giống \"không biết … nhỉ\". Dùng khi nói một mình hoặc với bạn bè.",
+        "**かしら** cùng nghĩa, trước đây chủ yếu phụ nữ dùng; ngày nay nghe hơi cũ.",
+        "Danh từ và tính từ đuôi な đi thẳng với かな, không có だ: 雨かな, 静かかな."
+      ],
+      "patterns": [
+        "Câu thể thông thường + かな / かしら",
+        "N / Aな + かな"
+      ],
+      "examples": [
+        {
+          "ja": "明日は雨かな。",
+          "vi": "Không biết mai có mưa không nhỉ."
+        },
+        {
+          "ja": "田中さんは来るかな。",
+          "vi": "Không biết anh Tanaka có đến không nhỉ."
+        },
+        {
+          "ja": "このかばん、高いかしら。",
+          "vi": "Cái túi này có đắt không nhỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日は雨だかな。",
+          "right": "明日は雨かな。",
+          "noteVi": "Không dùng だ trước かな."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-01-e01",
+      "type": "fill",
+      "grammar": [
+        "n-desu-no-desu"
+      ],
+      "promptVi": "Hỏi \"Có chuyện gì vậy?\": chọn từ điền vào chỗ trống.",
+      "before": "どうした",
+      "after": "ですか。",
+      "answers": [
+        "ん"
+      ],
+      "options": [
+        "ん",
+        "な",
+        "か"
+      ]
+    },
+    {
+      "id": "n4-01-e02",
+      "type": "choice",
+      "grammar": [
+        "n-desu-no-desu"
+      ],
+      "promptVi": "Đổi câu sau sang dạng 〜んです (giải thích):",
+      "ja": "明日は休みです。",
+      "options": [
+        "明日は休みなんです。",
+        "明日は休みんです。",
+        "明日は休みだんです。"
+      ],
+      "answer": 0,
+      "explainVi": "Sau danh từ phải có な: 休みなんです."
+    },
+    {
+      "id": "n4-01-e03",
+      "type": "choice",
+      "grammar": [
+        "kedo-keredomo"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Đắt nhưng ngon\"?",
+      "options": [
+        "高いし、おいしいです。",
+        "高いけど、おいしいです。",
+        "高いから、おいしいです。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n4-01-e04",
+      "type": "fill",
+      "grammar": [
+        "shi"
+      ],
+      "before": "この町は静かだ",
+      "after": "、便利です。",
+      "answers": [
+        "し"
+      ],
+      "options": [
+        "し",
+        "けど",
+        "か"
+      ],
+      "vi": "Thị trấn này vừa yên tĩnh lại vừa tiện."
+    },
+    {
+      "id": "n4-01-e05",
+      "type": "choice",
+      "grammar": [
+        "shi"
+      ],
+      "promptVi": "Chọn từ điền vào chỗ trống.",
+      "ja": "この部屋は静か＿し、明るいです。",
+      "options": [
+        "だ",
+        "な",
+        "の"
+      ],
+      "answer": 0,
+      "explainVi": "Tính từ đuôi な cần だ trước し."
+    },
+    {
+      "id": "n4-01-e06",
+      "type": "choice",
+      "grammar": [
+        "kana-kashira"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Không biết mai có mưa không nhỉ\"?",
+      "options": [
+        "明日は雨だかな。",
+        "明日は雨ですかな。",
+        "明日は雨かな。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n4-01-e07",
+      "type": "order",
+      "grammar": [
+        "kedo-keredomo"
+      ],
+      "vi": "Tôi muốn đi nhưng không có thời gian.",
+      "tiles": [
+        "時間が",
+        "行きたい",
+        "ありません",
+        "けど"
+      ],
+      "answers": [
+        "行きたいけど時間がありません"
+      ]
+    },
+    {
+      "id": "n4-01-e08",
+      "type": "order",
+      "grammar": [
+        "shi"
+      ],
+      "vi": "Quán này vừa rẻ vừa gần nên tôi hay đến.",
+      "tiles": [
+        "よく来ます",
+        "安いし",
+        "この店は",
+        "近いし"
+      ],
+      "answers": [
+        "この店は安いし近いしよく来ます"
+      ]
+    },
+    {
+      "id": "n4-01-e09",
+      "type": "order",
+      "grammar": [
+        "n-desu-no-desu"
+      ],
+      "vi": "Có chuyện gì vậy?",
+      "tiles": [
+        "ですか",
+        "どう",
+        "した",
+        "ん"
+      ],
+      "answers": [
+        "どうしたんですか"
+      ]
+    },
+    {
+      "id": "n4-01-e10",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "僕",
+          "tôi, tớ (nam giới)"
+        ],
+        [
+          "君",
+          "cậu, em"
+        ],
+        [
+          "彼",
+          "anh ấy"
+        ],
+        [
+          "彼女",
+          "cô ấy"
+        ]
+      ]
+    },
+    {
+      "id": "n4-01-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "うれしい",
+          "vui, mừng"
+        ],
+        [
+          "すごい",
+          "giỏi quá, tuyệt"
+        ],
+        [
+          "不便",
+          "bất tiện"
+        ],
+        [
+          "近所",
+          "khu gần nhà"
+        ]
+      ]
+    },
+    {
+      "id": "n4-01-e12",
+      "type": "choice",
+      "promptVi": "Gặp lại người quen sau một thời gian dài, bạn nói câu nào?",
+      "options": [
+        "はじめまして。",
+        "久しぶりですね。",
+        "お願いします。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n4-01-e13",
+      "type": "choice",
+      "promptVi": "うん trong câu này nghĩa là gì?",
+      "ja": "うん、行くよ。",
+      "options": [
+        "ừ",
+        "không",
+        "à"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-01-e14",
+      "type": "choice",
+      "promptVi": "Nói với bạn thân, câu nào là thể thông thường (thân mật)?",
+      "options": [
+        "はい、わかりました。",
+        "うん、わかった。",
+        "はい、わかりましたか。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n4-01-e15",
+      "type": "fill",
+      "grammar": [
+        "kana-kashira"
+      ],
+      "before": "田中さんは来る",
+      "after": "。",
+      "answers": [
+        "かな"
+      ],
+      "options": [
+        "かな",
+        "けど",
+        "んです"
+      ],
+      "vi": "Không biết anh Tanaka có đến không nhỉ."
+    },
+    {
+      "id": "n4-01-e16",
+      "type": "translate",
+      "grammar": [
+        "n-desu-no-desu"
+      ],
+      "vi": "Tôi bị đau đầu. (giải thích lý do, dùng 〜んです)",
+      "answers": [
+        "頭が痛いんです。",
+        "頭が痛いのです。"
+      ],
+      "examples": [
+        {
+          "answer": "あたまがいたいんです",
+          "score": 100
+        },
+        {
+          "answer": "頭が痛くないんです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-01-e17",
+      "type": "translate",
+      "grammar": [
+        "kedo-keredomo"
+      ],
+      "vi": "Tiếng Nhật khó nhưng thú vị.",
+      "answers": [
+        "日本語は難しいけど、おもしろいです。",
+        "日本語は難しい[けど|けれど|けれども]、おもしろい(です)。",
+        "日本語は難しいですが、おもしろいです。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんごはむずかしいけど、おもしろいです",
+          "score": 100
+        },
+        {
+          "answer": "日本語わ難しいけど、おもしろいです。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "日本語はやさしいけど、おもしろいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-01-e18",
+      "type": "translate",
+      "grammar": [
+        "shi"
+      ],
+      "vi": "Căn phòng này vừa rộng vừa sáng.",
+      "answers": [
+        "この部屋は広いし、明るいです。",
+        "この部屋は広いし、明るい。",
+        "この部屋は広くて、明るいです。"
+      ],
+      "examples": [
+        {
+          "answer": "このへやはひろいし、あかるいです",
+          "score": 100
+        },
+        {
+          "answer": "この部屋は狭いし、暗いです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-01-e19",
+      "type": "translate",
+      "grammar": [
+        "kana-kashira"
+      ],
+      "vi": "Không biết anh Tanaka có đến không nhỉ.",
+      "answers": [
+        "田中さんは来るかな。",
+        "田中さんは来るかしら。"
+      ],
+      "examples": [
+        {
+          "answer": "たなかさんはくるかな",
+          "score": 100
+        },
+        {
+          "answer": "田中さんは来ないかな。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "あ、雨だ。": "あ、{雨|あめ}だ。",
+    "田中さんはいつもああです。": "{田中|たなか}さんはいつもああです。",
+    "うん、行くよ。": "うん、{行|い}くよ。",
+    "僕は学生です。": "{僕|ぼく}は{学|がく}{生|せい}です。",
+    "君も行く？": "{君|きみ}も{行|い}く？",
+    "彼は私の友達です。": "{彼|かれ}は{私|わたし}の{友|とも}{達|だち}です。",
+    "彼女は先生です。": "{彼|かの}{女|じょ}は{先|せん}{生|せい}です。",
+    "彼らは留学生です。": "{彼|かれ}らは{留|りゅう}{学|がく}{生|せい}です。",
+    "マイちゃん、おはよう。": "マイちゃん、おはよう。",
+    "そんな本は読みません。": "そんな{本|ほん}は{読|よ}みません。",
+    "あんな人は嫌いです。": "あんな{人|ひと}は{嫌|きら}いです。",
+    "雨です。だから、行きません。": "{雨|あめ}です。だから、{行|い}きません。",
+    "この部屋は広いです。それに、安いです。": "この{部屋|へや}は{広|ひろ}いです。それに、{安|やす}いです。",
+    "高いです。けれど、おいしいです。": "{高|たか}いです。けれど、おいしいです。",
+    "うそでしょう？": "うそでしょう？",
+    "すごいですね。": "すごいですね。",
+    "とてもうれしいです。": "とてもうれしいです。",
+    "さっき田中さんに会いました。": "さっき{田中|たなか}さんに{会|あ}いました。",
+    "このごろ忙しいです。": "このごろ{忙|いそが}しいです。",
+    "最近、日本語の勉強が楽しいです。": "{最|さい}{近|きん}、{日本|にほん}{語|ご}の{勉|べん}{強|きょう}が{楽|たの}しいです。",
+    "久しぶりですね。": "{久|ひさ}しぶりですね。",
+    "日曜日に遊びに行きます。": "{日|にち}{曜|よう}{日|び}に{遊|あそ}びに{行|い}きます。",
+    "毎晩、レストランでアルバイトをしています。": "{毎|まい}{晩|ばん}、レストランでアルバイトをしています。",
+    "母は近所の店でパートをしています。": "{母|はは}は{近|きん}{所|じょ}の{店|みせ}でパートをしています。",
+    "近所に公園があります。": "{近|きん}{所|じょ}に{公|こう}{園|えん}があります。",
+    "私は下宿に住んでいます。": "{私|わたし}は{下|げ}{宿|しゅく}に{住|す}んでいます。",
+    "この町はバスがなくて不便です。": "この{町|まち}はバスがなくて{不|ふ}{便|べん}です。",
+    "どうしたんですか。": "どうしたんですか。",
+    "頭が痛いんです。": "{頭|あたま}が{痛|いた}いんです。",
+    "明日は休みなんです。": "{明日|あした}は{休|やす}みなんです。",
+    "明日は休みんです。": "{明日|あした}は{休|やす}みんです。",
+    "高いけど、おいしいです。": "{高|たか}いけど、おいしいです。",
+    "行きたいけど、時間がありません。": "{行|い}きたいけど、{時|じ}{間|かん}がありません。",
+    "すみません、ちょっと聞きたいんですけど。": "すみません、ちょっと{聞|き}きたいんですけど。",
+    "この部屋は広いし、明るいし、いいですね。": "この{部屋|へや}は{広|ひろ}いし、{明|あか}るいし、いいですね。",
+    "今日は雨だし、寒いし、出かけません。": "{今日|きょう}は{雨|あめ}だし、{寒|さむ}いし、{出|で}かけません。",
+    "静かだし、便利です。": "{静|しず}かだし、{便|べん}{利|り}です。",
+    "静かし、便利です。": "{静|しず}かし、{便|べん}{利|り}です。",
+    "明日は雨かな。": "{明日|あした}は{雨|あめ}かな。",
+    "田中さんは来るかな。": "{田中|たなか}さんは{来|く}るかな。",
+    "このかばん、高いかしら。": "このかばん、{高|たか}いかしら。",
+    "明日は雨だかな。": "{明日|あした}は{雨|あめ}だかな。",
+    "ん": "ん",
+    "な": "な",
+    "か": "か",
+    "明日は休みです。": "{明日|あした}は{休|やす}みです。",
+    "明日は休みだんです。": "{明日|あした}は{休|やす}みだんです。",
+    "高いし、おいしいです。": "{高|たか}いし、おいしいです。",
+    "高いから、おいしいです。": "{高|たか}いから、おいしいです。",
+    "この町は静かだし、便利です。": "この{町|まち}は{静|しず}かだし、{便|べん}{利|り}です。",
+    "し": "し",
+    "けど": "けど",
+    "この部屋は静か＿し、明るいです。": "この{部屋|へや}は{静|しず}か＿し、{明|あか}るいです。",
+    "だ": "だ",
+    "の": "の",
+    "明日は雨ですかな。": "{明日|あした}は{雨|あめ}ですかな。",
+    "時間が": "{時|じ}{間|かん}が",
+    "行きたい": "{行|い}きたい",
+    "ありません": "ありません",
+    "行きたいけど時間がありません": "{行|い}きたいけど{時|じ}{間|かん}がありません",
+    "よく来ます": "よく{来|き}ます",
+    "安いし": "{安|やす}いし",
+    "この店は": "この{店|みせ}は",
+    "近いし": "{近|ちか}いし",
+    "この店は安いし近いしよく来ます": "この{店|みせ}は{安|やす}いし{近|ちか}いしよく{来|き}ます",
+    "ですか": "ですか",
+    "どう": "どう",
+    "した": "した",
+    "どうしたんですか": "どうしたんですか",
+    "僕": "{僕|ぼく}",
+    "君": "{君|きみ}",
+    "彼": "{彼|かれ}",
+    "彼女": "{彼|かの}{女|じょ}",
+    "うれしい": "うれしい",
+    "すごい": "すごい",
+    "不便": "{不|ふ}{便|べん}",
+    "近所": "{近|きん}{所|じょ}",
+    "はじめまして。": "はじめまして。",
+    "お願いします。": "お{願|ねが}いします。",
+    "はい、わかりました。": "はい、わかりました。",
+    "うん、わかった。": "うん、わかった。",
+    "はい、わかりましたか。": "はい、わかりましたか。",
+    "かな": "かな",
+    "んです": "んです",
+    "頭が痛いのです。": "{頭|あたま}が{痛|いた}いのです。",
+    "日本語は難しいけど、おもしろいです。": "{日本|にほん}{語|ご}は{難|むずか}しいけど、おもしろいです。",
+    "日本語は難しいですが、おもしろいです。": "{日本|にほん}{語|ご}は{難|むずか}しいですが、おもしろいです。",
+    "この部屋は広いし、明るいです。": "この{部屋|へや}は{広|ひろ}いし、{明|あか}るいです。",
+    "この部屋は広いし、明るい。": "この{部屋|へや}は{広|ひろ}いし、{明|あか}るい。",
+    "この部屋は広くて、明るいです。": "この{部屋|へや}は{広|ひろ}くて、{明|あか}るいです。",
+    "田中さんは来るかしら。": "{田中|たなか}さんは{来|く}るかしら。"
+  }
+}

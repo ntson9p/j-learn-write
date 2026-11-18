@@ -1,0 +1,15 @@
+{
+  "_doc": "Grammar points the course adds to the OpenJLPT lists (allowed by docs/plan.md, 3.2): what Vietnamese beginners need taught explicitly. counters = counters (data of the grader) a sentence may use once the point is taught. DRAFT: to be reviewed by a Japanese teacher.",
+  "points": [
+    { "id": "x-numbers", "level": "n5", "pattern": "数字（いち、に、さん…）", "titleVi": "Số đếm" },
+    { "id": "x-counters-basic", "level": "n5", "pattern": "〜つ / 〜人 / 〜歳 / 〜円", "titleVi": "Đếm đồ vật, người, tuổi, tiền", "counters": ["つ", "人", "歳", "円"] },
+    { "id": "x-counters", "level": "n5", "pattern": "〜本 / 〜枚 / 〜冊 / 〜台 / 〜匹 / 〜個 / 〜杯", "titleVi": "Trợ số từ (助数詞)", "counters": ["本", "枚", "冊", "台", "匹", "個", "杯", "回", "階", "番", "足"] },
+    { "id": "x-time", "level": "n5", "pattern": "〜時 / 〜分 / 〜時間", "titleVi": "Giờ và phút", "counters": ["時", "分", "時間"] },
+    { "id": "x-dates", "level": "n5", "pattern": "〜月 / 〜日 / 〜年 / 〜週間 / 〜か月", "titleVi": "Ngày, tháng, năm", "counters": ["月", "日", "年", "週間", "か月", "年間"] },
+    { "id": "x-position", "level": "n5", "pattern": "Nの上 / 中 / 下 / 前 / 後ろ / 隣", "titleVi": "Từ chỉ vị trí" },
+    { "id": "x-i-adjective", "level": "n5", "pattern": "〜い（い-adjective）", "titleVi": "Tính từ đuôi い" },
+    { "id": "x-te-form", "level": "n5", "pattern": "〜て形の作り方", "titleVi": "Cách chia thể て" },
+    { "id": "x-dictionary-form", "level": "n5", "pattern": "辞書形（nhóm động từ）", "titleVi": "Thể từ điển và ba nhóm động từ" },
+    { "id": "x-counters-n4", "level": "n4", "pattern": "〜泊 / 〜軒 / 〜着 / 〜番目 / 〜度", "titleVi": "Trợ số từ (bổ sung)", "counters": ["泊", "軒", "着", "番目", "度"] }
+  ]
+}

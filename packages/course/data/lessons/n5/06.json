@@ -1,0 +1,1363 @@
+{
+  "id": "n5-06",
+  "goalsVi": [
+    "Nói thứ trong tuần, ngày, tháng, năm: 今日は5月10日です",
+    "Hỏi và trả lời về sinh nhật, ngày nghỉ với いつ, 何月何日",
+    "Nói về quá khứ với でした, ではありませんでした",
+    "Hẹn thời điểm với に: 月曜日の10時にお願いします"
+  ],
+  "words": [
+    {
+      "no": 1316,
+      "word": "何曜日",
+      "meaningsVi": [
+        "thứ mấy"
+      ],
+      "noteVi": "Trả lời bằng tên thứ: 「月曜日です」. Hỏi ngày (mùng mấy) dùng 何日 (なんにち).",
+      "examples": [
+        {
+          "ja": "今日は何曜日ですか。",
+          "vi": "Hôm nay là thứ mấy?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 224,
+      "word": "月曜日",
+      "meaningsVi": [
+        "thứ Hai"
+      ],
+      "noteVi": "Tên các thứ trong tuần theo mặt trăng, mặt trời và ngũ hành: 月 (trăng) thứ Hai, 火 (hỏa) thứ Ba, 水 (thủy) thứ Tư, 木 (mộc) thứ Năm, 金 (kim) thứ Sáu, 土 (thổ) thứ Bảy, 日 (mặt trời) Chủ nhật.",
+      "examples": [
+        {
+          "ja": "今日は月曜日です。",
+          "vi": "Hôm nay là thứ Hai."
+        },
+        {
+          "ja": "授業は月曜日から金曜日までです。",
+          "vi": "Giờ học từ thứ Hai đến thứ Sáu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 167,
+      "word": "火曜日",
+      "meaningsVi": [
+        "thứ Ba"
+      ],
+      "noteVi": "火 là lửa (Hán Việt \"hỏa\").",
+      "examples": [
+        {
+          "ja": "明日は火曜日ですね。",
+          "vi": "Ngày mai là thứ Ba nhỉ."
+        },
+        {
+          "ja": "火曜日の授業は9時からです。",
+          "vi": "Giờ học thứ Ba bắt đầu từ 9 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 307,
+      "word": "水曜日",
+      "meaningsVi": [
+        "thứ Tư"
+      ],
+      "noteVi": "水 là nước (Hán Việt \"thủy\").",
+      "examples": [
+        {
+          "ja": "図書館の休みは水曜日です。",
+          "vi": "Thư viện nghỉ vào thứ Tư."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 617,
+      "word": "木曜日",
+      "meaningsVi": [
+        "thứ Năm"
+      ],
+      "noteVi": "木 là cây, gỗ (Hán Việt \"mộc\").",
+      "examples": [
+        {
+          "ja": "木曜日の午後は仕事です。",
+          "vi": "Chiều thứ Năm tôi đi làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 202,
+      "word": "金曜日",
+      "meaningsVi": [
+        "thứ Sáu"
+      ],
+      "noteVi": "金 là vàng, kim loại (Hán Việt \"kim\").",
+      "examples": [
+        {
+          "ja": "昨日は金曜日でした。",
+          "vi": "Hôm qua là thứ Sáu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 440,
+      "word": "土曜日",
+      "meaningsVi": [
+        "thứ Bảy"
+      ],
+      "noteVi": "土 là đất (Hán Việt \"thổ\").",
+      "examples": [
+        {
+          "ja": "土曜日も授業ですか。",
+          "vi": "Thứ Bảy cũng có giờ học à?"
+        },
+        {
+          "ja": "いいえ、土曜日は休みです。",
+          "vi": "Không, thứ Bảy được nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 467,
+      "word": "日曜日",
+      "meaningsVi": [
+        "Chủ nhật"
+      ],
+      "noteVi": "日 là mặt trời (Hán Việt \"nhật\"). Tiếng Việt gọi là Chủ nhật, không gọi theo số như các thứ khác.",
+      "examples": [
+        {
+          "ja": "日曜日にお願いします。",
+          "vi": "Xin hẹn vào Chủ nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 545,
+      "word": "二日",
+      "meaningsVi": [
+        "ngày mùng 2",
+        "2 ngày"
+      ],
+      "noteVi": "Ngày 1–10 trong tháng có cách đọc riêng (ふつか, みっか, よっか…), không đọc theo kiểu số + にち. Khi viết ngang thường dùng chữ số: 2日 (vẫn đọc ふつか).",
+      "examples": [
+        {
+          "ja": "明日は二日です。",
+          "vi": "Ngày mai là mùng 2."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 599,
+      "word": "三日",
+      "meaningsVi": [
+        "ngày mùng 3",
+        "3 ngày"
+      ],
+      "noteVi": "Đọc みっか (có âm ngắt っ). Viết ngang: 3日.",
+      "examples": [
+        {
+          "ja": "授業は三日からです。",
+          "vi": "Giờ học bắt đầu từ ngày mùng 3."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 643,
+      "word": "四日",
+      "meaningsVi": [
+        "ngày mùng 4",
+        "4 ngày"
+      ],
+      "noteVi": "Đọc よっか; rất dễ nhầm với 八日 ようか (mùng 8). Viết ngang: 4日.",
+      "examples": [
+        {
+          "ja": "四日は火曜日ですね。",
+          "vi": "Mùng 4 là thứ Ba nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 61,
+      "word": "五日",
+      "meaningsVi": [
+        "ngày mùng 5",
+        "5 ngày"
+      ],
+      "noteVi": "Đọc いつか, giống cách đếm 五つ (いつつ). Viết ngang: 5日.",
+      "examples": [
+        {
+          "ja": "五月五日は休みです。",
+          "vi": "Ngày 5 tháng 5 là ngày nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 607,
+      "word": "六日",
+      "meaningsVi": [
+        "ngày mùng 6",
+        "6 ngày"
+      ],
+      "noteVi": "Đọc むいか (không phải ろくにち). Viết ngang: 6日.",
+      "examples": [
+        {
+          "ja": "六日の午後は仕事です。",
+          "vi": "Chiều mùng 6 tôi đi làm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 456,
+      "word": "七日",
+      "meaningsVi": [
+        "ngày mùng 7",
+        "7 ngày"
+      ],
+      "noteVi": "Đọc なのか. Viết ngang: 7日.",
+      "examples": [
+        {
+          "ja": "誕生日は七日です。",
+          "vi": "Sinh nhật (tôi) là ngày mùng 7."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 639,
+      "word": "八日",
+      "meaningsVi": [
+        "ngày mùng 8",
+        "8 ngày"
+      ],
+      "noteVi": "Đọc ようか; đừng nhầm với 四日 よっか (mùng 4). Viết ngang: 8日.",
+      "examples": [
+        {
+          "ja": "休みは八日までです。",
+          "vi": "Kỳ nghỉ đến hết ngày mùng 8."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 237,
+      "word": "九日",
+      "meaningsVi": [
+        "ngày mùng 9",
+        "9 ngày"
+      ],
+      "noteVi": "Đọc ここのか; khác với 九つ ここのつ (9 cái). Viết ngang: 9日.",
+      "examples": [
+        {
+          "ja": "九日は金曜日ですか。",
+          "vi": "Mùng 9 là thứ Sáu phải không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 424,
+      "word": "十日",
+      "meaningsVi": [
+        "ngày mùng 10",
+        "10 ngày"
+      ],
+      "noteVi": "Đọc とおか (âm o dài viết bằng お). Viết ngang: 10日.",
+      "examples": [
+        {
+          "ja": "十日は休みですか。",
+          "vi": "Mùng 10 có được nghỉ không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 501,
+      "word": "二十日",
+      "meaningsVi": [
+        "ngày 20",
+        "20 ngày"
+      ],
+      "noteVi": "Đọc đặc biệt はつか, không đọc にじゅうにち. Viết ngang: 20日.",
+      "examples": [
+        {
+          "ja": "二十日は私の誕生日です。",
+          "vi": "Ngày 20 là sinh nhật của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 372,
+      "word": "誕生日",
+      "meaningsVi": [
+        "sinh nhật"
+      ],
+      "noteVi": "Hán Việt \"đản sinh nhật\" (ngày ra đời). Khi hỏi người khác có thể thêm お cho lịch sự: お誕生日.",
+      "examples": [
+        {
+          "ja": "誕生日はいつですか。",
+          "vi": "Sinh nhật (của bạn) là khi nào?"
+        },
+        {
+          "ja": "誕生日は8月9日です。",
+          "vi": "Sinh nhật (tôi) là ngày 9 tháng 8."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 60,
+      "word": "いつ",
+      "meaningsVi": [
+        "khi nào, bao giờ"
+      ],
+      "noteVi": "Dùng cho cả quá khứ lẫn tương lai. Không thêm に sau いつ.",
+      "examples": [
+        {
+          "ja": "休みはいつからですか。",
+          "vi": "Kỳ nghỉ bắt đầu từ khi nào?"
+        },
+        {
+          "ja": "誕生日はいつですか。",
+          "vi": "Sinh nhật (của bạn) là khi nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 254,
+      "word": "今月",
+      "meaningsVi": [
+        "tháng này"
+      ],
+      "noteVi": "今 \"kim\" = nay, bây giờ. Không dùng に sau 今月.",
+      "examples": [
+        {
+          "ja": "授業は今月の15日までです。",
+          "vi": "Giờ học kéo dài đến ngày 15 tháng này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 333,
+      "word": "先月",
+      "meaningsVi": [
+        "tháng trước"
+      ],
+      "noteVi": "先 \"tiên\" ở đây nghĩa là trước (như trong 先生, người sinh ra trước).",
+      "examples": [
+        {
+          "ja": "先月の10日は日曜日でした。",
+          "vi": "Ngày 10 tháng trước là Chủ nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 650,
+      "word": "来月",
+      "meaningsVi": [
+        "tháng sau, tháng tới"
+      ],
+      "noteVi": "来 \"lai\" = đến, tới (như \"tương lai\").",
+      "examples": [
+        {
+          "ja": "誕生日は来月です。",
+          "vi": "Sinh nhật (tôi) vào tháng sau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 245,
+      "word": "今年",
+      "meaningsVi": [
+        "năm nay"
+      ],
+      "noteVi": "Đọc đặc biệt ことし, không đọc こんねん.",
+      "examples": [
+        {
+          "ja": "今年の休みは12月20日からです。",
+          "vi": "Kỳ nghỉ năm nay bắt đầu từ ngày 20 tháng 12."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 195,
+      "word": "去年",
+      "meaningsVi": [
+        "năm ngoái, năm trước"
+      ],
+      "noteVi": "Hán Việt \"khứ niên\" (năm đã qua).",
+      "examples": [
+        {
+          "ja": "去年は学生でした。",
+          "vi": "Năm ngoái tôi là sinh viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 652,
+      "word": "来年",
+      "meaningsVi": [
+        "năm sau, sang năm"
+      ],
+      "examples": [
+        {
+          "ja": "来年の誕生日は土曜日です。",
+          "vi": "Sinh nhật năm sau (của tôi) vào thứ Bảy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 173,
+      "word": "カレンダー",
+      "meaningsVi": [
+        "lịch (treo tường, để bàn)"
+      ],
+      "noteVi": "Lịch trên điện thoại cũng gọi là カレンダー.",
+      "examples": [
+        {
+          "ja": "これは来年のカレンダーです。",
+          "vi": "Đây là lịch năm sau."
+        },
+        {
+          "ja": "そのカレンダーはいくらですか。",
+          "vi": "Cuốn lịch đó giá bao nhiêu?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "月",
+      "meaningVi": "mặt trăng; tháng",
+      "noteVi": "Đọc がつ trong tên tháng (5月 ごがつ), げつ trong 月曜日, 今月, 先月; một mình đọc つき (mặt trăng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "火",
+      "meaningVi": "lửa",
+      "noteVi": "Hình ngọn lửa có hai đốm lửa bắn ra hai bên. Gặp trong 火曜日 (thứ Ba).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "土",
+      "meaningVi": "đất",
+      "noteVi": "Đừng nhầm với 士 (sĩ): ở 土 nét ngang dưới dài hơn nét trên. Gặp trong 土曜日 (thứ Bảy).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "年",
+      "meaningVi": "năm",
+      "noteVi": "Sau số đọc ねん: 2026年; trong 去年, 来年 cũng đọc ねん. Một mình đọc とし (năm); 今年 đọc đặc biệt là ことし.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "x-dates",
+      "titleVi": "Ngày, tháng, năm",
+      "summaryVi": "Nói theo thứ tự năm → tháng → ngày: 2026年5月10日. Tháng = số + 月 (がつ), ngày = số + 日.",
+      "explanationVi": [
+        "Tiếng Nhật nói ngày tháng theo thứ tự **năm → tháng → ngày**, ngược với tiếng Việt: 「2026年5月10日」 = ngày 10 tháng 5 năm 2026. Năm là số + **年** (ねん), tháng là số + **月** (がつ): 1月 いちがつ … 12月 じゅうにがつ. Chú ý: 4月 **しがつ**, 7月 **しちがつ**, 9月 **くがつ**.",
+        "Ngày là số + **日**. Ngày 1–10 và một số ngày khác có cách đọc riêng: 1日 **ついたち**, 2日 ふつか, 3日 みっか, 4日 よっか, 5日 いつか, 6日 むいか, 7日 なのか, 8日 ようか, 9日 ここのか, 10日 とおか, 14日 じゅうよっか, 20日 **はつか**, 24日 にじゅうよっか. Các ngày còn lại đọc số + にち: 11日 じゅういちにち, 17日 じゅうしちにち, 19日 じゅうくにち.",
+        "Câu hỏi: 「何月」 (tháng mấy), 「何日」 (ngày mấy), 「何年」 (năm nào), 「何曜日」 (thứ mấy), 「いつ」 (khi nào). Trả lời bằng ngày tháng + です: 「誕生日は何月何日ですか」 「5月10日です」.",
+        "Nói **khoảng thời gian** thì dùng 〜週間 (tuần), 〜か月 (tháng), 〜年 (năm): 「2週間」 = 2 tuần, 「3か月」 = 3 tháng. Đừng nhầm **3月** (tháng Ba) với **3か月** (ba tháng). Từ 2日 đến 10日 vừa là ngày trong tháng vừa là số ngày: 「二日」 = mùng 2 hoặc 2 ngày."
+      ],
+      "patterns": [
+        "〜年〜月〜日",
+        "N は 何月何日 ですか",
+        "〜週間 / 〜か月"
+      ],
+      "examples": [
+        {
+          "ja": "今日は5月10日です。",
+          "vi": "Hôm nay là ngày 10 tháng 5."
+        },
+        {
+          "ja": "誕生日は何月何日ですか。",
+          "vi": "Sinh nhật (bạn) là ngày mấy tháng mấy?"
+        },
+        {
+          "ja": "休みは12月20日から1月5日までです。",
+          "vi": "Kỳ nghỉ từ ngày 20 tháng 12 đến ngày 5 tháng 1."
+        },
+        {
+          "ja": "休みは2週間です。",
+          "vi": "Kỳ nghỉ dài 2 tuần."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "誕生日は10日5月です。",
+          "right": "誕生日は5月10日です。",
+          "noteVi": "Tháng đứng trước, ngày đứng sau (năm → tháng → ngày), ngược với thứ tự \"ngày 10 tháng 5\" của tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-time",
+      "titleVi": "に: vào lúc, vào ngày (thời điểm)",
+      "summaryVi": "Đặt に sau thời điểm có số hoặc thứ: 10時に, 5日に, 月曜日に = vào lúc, vào ngày đó.",
+      "explanationVi": [
+        "**に** đặt sau một **thời điểm cụ thể** để nói việc diễn ra vào lúc đó, giống \"lúc, vào\" của tiếng Việt: 「10時に」 (lúc 10 giờ), 「5日に」 (vào mùng 5), 「2026年に」 (vào năm 2026). Sau thứ trong tuần có thể có hoặc không có に: 「日曜日に」, 「日曜日」.",
+        "Những từ chỉ thời gian **tính từ lúc nói** thì **không** dùng に: 今, 今日, 明日, 昨日, 毎日, 今月, 先月, 来月, 今年, 去年, 来年. Muốn ghép những từ này với giờ, ngày thì nối bằng の: 「明日の10時に」, 「今月の20日に」.",
+        "に chỉ thời điểm của một **hành động**. Bài này chưa học động từ nên ta dùng nó khi hẹn giờ với 「お願いします」: 「月曜日の10時にお願いします」. Từ bài 7, に sẽ đứng trước động từ (thức dậy lúc 6 giờ, bắt đầu lúc 9 giờ…).",
+        "Câu \"N は (thời gian) です\" **không** có に: 「誕生日は5月10日です」, dù tiếng Việt nói \"sinh nhật **vào** ngày 10 tháng 5\"."
+      ],
+      "patterns": [
+        "N (thời điểm) に V",
+        "N (thời điểm) に お願いします"
+      ],
+      "examples": [
+        {
+          "ja": "月曜日の10時にお願いします。",
+          "vi": "Xin hẹn vào 10 giờ thứ Hai."
+        },
+        {
+          "ja": "では、5日にお願いします。",
+          "vi": "Vậy thì xin hẹn vào ngày mùng 5."
+        },
+        {
+          "ja": "電話は夜8時ごろにお願いします。",
+          "vi": "Xin hãy gọi điện vào khoảng 8 giờ tối."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "誕生日は5月10日にです。",
+          "right": "誕生日は5月10日です。",
+          "noteVi": "Trước です không dùng に. Chữ \"vào\" trong \"sinh nhật vào ngày 10 tháng 5\" không dịch thành に."
+        },
+        {
+          "wrong": "明日に10時にお願いします。",
+          "right": "明日の10時にお願いします。",
+          "noteVi": "明日 (và 今日, 来月…) không đi với に; ghép với giờ bằng の: 明日の10時に."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "deshita",
+      "titleVi": "でした: đã là (quá khứ của です)",
+      "summaryVi": "N でした = (khi đó) là N; phủ định quá khứ: N ではありませんでした.",
+      "explanationVi": [
+        "**でした** là dạng quá khứ của です: 「昨日は日曜日でした」 (Hôm qua là Chủ nhật). Tiếng Việt chỉ cần có \"hôm qua\", chữ \"là\" không đổi; tiếng Nhật thì **phải** đổi です thành でした khi nói về quá khứ.",
+        "Phủ định ở quá khứ: **ではありませんでした** (khi nói chuyện: じゃありませんでした) = khi đó không phải là: 「昨日は休みではありませんでした」.",
+        "Câu hỏi thêm か: 「昨日は休みでしたか」. Trả lời: 「はい、休みでした」 hoặc 「いいえ、休みではありませんでした」."
+      ],
+      "patterns": [
+        "N1 は N2 でした",
+        "N1 は N2 ではありませんでした"
+      ],
+      "examples": [
+        {
+          "ja": "昨日は日曜日でした。",
+          "vi": "Hôm qua là Chủ nhật."
+        },
+        {
+          "ja": "先月の20日は休みでした。",
+          "vi": "Ngày 20 tháng trước là ngày nghỉ."
+        },
+        {
+          "ja": "去年は学生でした。",
+          "vi": "Năm ngoái tôi là sinh viên."
+        },
+        {
+          "ja": "昨日は休みじゃありませんでした。",
+          "vi": "Hôm qua không phải ngày nghỉ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "昨日は日曜日です。",
+          "right": "昨日は日曜日でした。",
+          "noteVi": "Nói về quá khứ (昨日, 先月, 去年) thì です phải đổi thành でした; tiếng Việt không đổi nên rất dễ quên."
+        },
+        {
+          "wrong": "昨日は休みでしたではありません。",
+          "right": "昨日は休みではありませんでした。",
+          "noteVi": "Phủ định quá khứ là ではありません + でした, không ghép でした với ではありません."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-06-e01",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Hôm nay là ngày 10 tháng 5. Chọn câu đúng.",
+      "options": [
+        "今日は5月10日です。",
+        "今日は10日5月です。",
+        "今日は10月5日です。"
+      ],
+      "answer": 0,
+      "explainVi": "Tháng trước, ngày sau: 5月10日."
+    },
+    {
+      "id": "n5-06-e02",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Ngày mùng 8 đọc là gì?",
+      "options": [
+        "よっか",
+        "ようか",
+        "やっつ"
+      ],
+      "answer": 1,
+      "explainVi": "8日 ようか; 4日 よっか; やっつ là 8 cái."
+    },
+    {
+      "id": "n5-06-e03",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Ngày 20 đọc là gì?",
+      "options": [
+        "ふつか",
+        "とおか",
+        "はつか"
+      ],
+      "answer": 2,
+      "explainVi": "20日 đọc đặc biệt はつか; ふつか là mùng 2, とおか là mùng 10."
+    },
+    {
+      "id": "n5-06-e04",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Ngày mùng 1 trong tháng đọc là gì?",
+      "options": [
+        "ついたち",
+        "いちにち",
+        "ひとつ"
+      ],
+      "answer": 0,
+      "explainVi": "Mùng 1 là ついたち; いちにち là \"1 ngày\" (khoảng thời gian)."
+    },
+    {
+      "id": "n5-06-e05",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Hỏi \"Sinh nhật của bạn là khi nào?\"",
+      "options": [
+        "誕生日はいつですか。",
+        "誕生日は何時ですか。",
+        "誕生日はどこですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-06-e06",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Kỳ nghỉ dài 2 tuần\"?",
+      "options": [
+        "休みは2週間です。",
+        "休みは2月です。",
+        "休みは2日です。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-06-e07",
+      "type": "choice",
+      "grammar": [
+        "x-dates"
+      ],
+      "promptVi": "Hỏi \"Hôm nay là ngày mấy?\"",
+      "options": [
+        "今日は何日ですか。",
+        "今日は何月ですか。",
+        "誕生日は何日ですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-06-e08",
+      "type": "order",
+      "grammar": [
+        "x-dates"
+      ],
+      "vi": "Sinh nhật của tôi là ngày 20 tháng 10.",
+      "tiles": [
+        "です",
+        "誕生日",
+        "20日",
+        "の",
+        "私",
+        "10月",
+        "は"
+      ],
+      "answers": [
+        "私の誕生日は10月20日です"
+      ]
+    },
+    {
+      "id": "n5-06-e09",
+      "type": "order",
+      "grammar": [
+        "x-dates"
+      ],
+      "vi": "Kỳ nghỉ từ ngày 20 tháng 12 đến ngày 5 tháng 1.",
+      "tiles": [
+        "まで",
+        "休み",
+        "1月5日",
+        "から",
+        "は",
+        "です",
+        "12月20日"
+      ],
+      "answers": [
+        "休みは12月20日から1月5日までです"
+      ]
+    },
+    {
+      "id": "n5-06-e10",
+      "type": "fill",
+      "grammar": [
+        "ni-time"
+      ],
+      "before": "月曜日の10時",
+      "after": "お願いします。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "は",
+        "の"
+      ],
+      "vi": "Xin hẹn vào 10 giờ thứ Hai."
+    },
+    {
+      "id": "n5-06-e11",
+      "type": "fill",
+      "grammar": [
+        "ni-time"
+      ],
+      "before": "では、5日",
+      "after": "お願いします。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "の",
+        "か"
+      ],
+      "vi": "Vậy thì xin hẹn vào ngày mùng 5."
+    },
+    {
+      "id": "n5-06-e12",
+      "type": "choice",
+      "grammar": [
+        "ni-time"
+      ],
+      "promptVi": "Chọn câu đúng: \"Sinh nhật tôi vào ngày 10 tháng 5.\"",
+      "options": [
+        "誕生日は5月10日にです。",
+        "誕生日は5月10日です。",
+        "誕生日に5月10日です。"
+      ],
+      "answer": 1,
+      "explainVi": "Trước です không dùng に."
+    },
+    {
+      "id": "n5-06-e13",
+      "type": "choice",
+      "grammar": [
+        "ni-time"
+      ],
+      "promptVi": "Chọn câu đúng: \"Xin hẹn vào 3 giờ hôm nay.\"",
+      "options": [
+        "今日に3時にお願いします。",
+        "今日の3時にお願いします。",
+        "今日3時のお願いします。"
+      ],
+      "answer": 1,
+      "explainVi": "今日 không đi với に; nối với giờ bằng の."
+    },
+    {
+      "id": "n5-06-e14",
+      "type": "choice",
+      "grammar": [
+        "ni-time"
+      ],
+      "promptVi": "Từ nào KHÔNG dùng với に?",
+      "options": [
+        "5日",
+        "月曜日",
+        "来月"
+      ],
+      "answer": 2,
+      "explainVi": "来月 (tháng sau) tính từ lúc nói nên không có に."
+    },
+    {
+      "id": "n5-06-e15",
+      "type": "choice",
+      "grammar": [
+        "deshita"
+      ],
+      "promptVi": "Chọn câu đúng: \"Hôm qua là Chủ nhật.\"",
+      "options": [
+        "昨日は日曜日です。",
+        "昨日は日曜日でした。",
+        "明日は日曜日でした。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-06-e16",
+      "type": "fill",
+      "grammar": [
+        "deshita"
+      ],
+      "before": "先月の10日は休み",
+      "after": "。",
+      "answers": [
+        "でした"
+      ],
+      "options": [
+        "でした",
+        "です",
+        "ではありません"
+      ],
+      "vi": "Ngày 10 tháng trước là ngày nghỉ."
+    },
+    {
+      "id": "n5-06-e17",
+      "type": "order",
+      "grammar": [
+        "deshita"
+      ],
+      "vi": "Hôm qua không phải là ngày nghỉ.",
+      "tiles": [
+        "休み",
+        "ではありませんでした",
+        "昨日",
+        "は"
+      ],
+      "answers": [
+        "昨日は休みではありませんでした"
+      ]
+    },
+    {
+      "id": "n5-06-e18",
+      "type": "choice",
+      "grammar": [
+        "deshita"
+      ],
+      "promptVi": "Trả lời \"Không\" cho câu hỏi này:",
+      "ja": "昨日は休みでしたか。",
+      "options": [
+        "いいえ、休みでした。",
+        "いいえ、休みではありませんでした。",
+        "はい、休みではありません。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-06-e19",
+      "type": "match",
+      "promptVi": "Ghép thứ với nghĩa",
+      "pairs": [
+        [
+          "月曜日",
+          "thứ Hai"
+        ],
+        [
+          "水曜日",
+          "thứ Tư"
+        ],
+        [
+          "金曜日",
+          "thứ Sáu"
+        ],
+        [
+          "土曜日",
+          "thứ Bảy"
+        ],
+        [
+          "日曜日",
+          "Chủ nhật"
+        ]
+      ]
+    },
+    {
+      "id": "n5-06-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "先月",
+          "tháng trước"
+        ],
+        [
+          "来月",
+          "tháng sau"
+        ],
+        [
+          "去年",
+          "năm ngoái"
+        ],
+        [
+          "今年",
+          "năm nay"
+        ]
+      ]
+    },
+    {
+      "id": "n5-06-e21",
+      "type": "translate",
+      "grammar": [
+        "x-dates"
+      ],
+      "vi": "Sinh nhật của tôi là ngày 3 tháng 5.",
+      "answers": [
+        "(私の)誕生日は5月3日です。"
+      ],
+      "examples": [
+        {
+          "answer": "わたしのたんじょうびはごがつみっかです",
+          "score": 100
+        },
+        {
+          "answer": "誕生日はごがつさんにちです",
+          "score": 90,
+          "issues": [
+            "counter_reading"
+          ],
+          "note": "Ngày 3 đọc là みっか."
+        },
+        {
+          "answer": "誕生日は5月3日にです。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ],
+          "note": "Không dùng に trước です."
+        },
+        {
+          "answer": "私の誕生日は5月4日です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-06-e22",
+      "type": "translate",
+      "grammar": [
+        "deshita"
+      ],
+      "vi": "Hôm qua là thứ Bảy.",
+      "answers": [
+        "昨日は土曜日でした。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはどようびでした",
+          "score": 100
+        },
+        {
+          "answer": "きのうわどようびでした",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "昨日土曜日でした。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "昨日は土曜日です。",
+          "score": 0,
+          "note": "Nói về hôm qua thì dùng thì quá khứ でした."
+        },
+        {
+          "answer": "昨日は日曜日でした。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-06-e23",
+      "type": "translate",
+      "grammar": [
+        "deshita"
+      ],
+      "vi": "Hôm qua không phải là ngày nghỉ. (lịch sự)",
+      "answers": [
+        "昨日は休み[ではありませんでした|じゃありませんでした|ではなかったです|じゃなかったです]。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはやすみではありませんでした",
+          "score": 100
+        },
+        {
+          "answer": "きのうはやすみじゃなかったです",
+          "score": 100
+        },
+        {
+          "answer": "昨日休みではありませんでした。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu trợ từ は."
+        },
+        {
+          "answer": "昨日は休みではありません。",
+          "score": 0,
+          "note": "Nói về hôm qua thì dùng thì quá khứ: ではありませんでした."
+        },
+        {
+          "answer": "昨日は休みでした。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-06-e24",
+      "type": "question",
+      "grammar": [
+        "x-dates"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "誕生日はいつですか。",
+        "promptVi": "Sinh nhật của bạn là ngày 4 tháng 9. Hãy trả lời câu hỏi.",
+        "answers": [
+          "((私の)誕生日は)9月4日です。"
+        ],
+        "examples": [
+          {
+            "answer": "くがつよっかです",
+            "score": 100
+          },
+          {
+            "answer": "くがつよんにちです",
+            "score": 90,
+            "issues": [
+              "counter_reading"
+            ],
+            "note": "Ngày 4 đọc là よっか."
+          },
+          {
+            "answer": "9月4日にです。",
+            "score": 85,
+            "issues": [
+              "extra_word"
+            ],
+            "note": "Không dùng に trước です."
+          },
+          {
+            "answer": "9月14日です。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-06-e25",
+      "type": "translate",
+      "grammar": [
+        "ni-time"
+      ],
+      "vi": "Xin hẹn vào 3 giờ chiều thứ Sáu.",
+      "answers": [
+        "金曜日の(午後)3時にお願いします。"
+      ],
+      "examples": [
+        {
+          "answer": "きんようびのごごさんじにおねがいします",
+          "score": 100
+        },
+        {
+          "answer": "金曜日に午後3時にお願いします。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Thứ và giờ nối bằng の (金曜日の午後3時), chỉ một に ở cuối."
+        },
+        {
+          "answer": "金曜日の午後3時お願いします。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ],
+          "note": "Thiếu に sau giờ."
+        },
+        {
+          "answer": "木曜日の午後3時にお願いします。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-06-e26",
+      "type": "question",
+      "grammar": [
+        "x-dates"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "今日は何曜日ですか。",
+        "promptVi": "Hôm nay là thứ Tư. Hãy trả lời câu hỏi.",
+        "answers": [
+          "(今日は)水曜日です。"
+        ],
+        "examples": [
+          {
+            "answer": "きょうはすいようびです",
+            "score": 100
+          },
+          {
+            "answer": "きょうわすいようびです",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "水曜日。",
+            "score": 100,
+            "issues": [
+              "politeness_mix"
+            ],
+            "note": "Thiếu です."
+          },
+          {
+            "answer": "木曜日です。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "今日は何曜日ですか。": "{今日|きょう}は{何|なん}{曜|よう}{日|び}ですか。",
+    "今日は月曜日です。": "{今日|きょう}は{月|げつ}{曜|よう}{日|び}です。",
+    "授業は月曜日から金曜日までです。": "{授|じゅ}{業|ぎょう}は{月|げつ}{曜|よう}{日|び}から{金|きん}{曜|よう}{日|び}までです。",
+    "明日は火曜日ですね。": "{明日|あした}は{火|か}{曜|よう}{日|び}ですね。",
+    "火曜日の授業は9時からです。": "{火|か}{曜|よう}{日|び}の{授|じゅ}{業|ぎょう}は{9時|くじ}からです。",
+    "図書館の休みは水曜日です。": "{図|と}{書|しょ}{館|かん}の{休|やす}みは{水|すい}{曜|よう}{日|び}です。",
+    "木曜日の午後は仕事です。": "{木|もく}{曜|よう}{日|び}の{午|ご}{後|ご}は{仕|し}{事|ごと}です。",
+    "昨日は金曜日でした。": "{昨日|きのう}は{金|きん}{曜|よう}{日|び}でした。",
+    "土曜日も授業ですか。": "{土|ど}{曜|よう}{日|び}も{授|じゅ}{業|ぎょう}ですか。",
+    "いいえ、土曜日は休みです。": "いいえ、{土|ど}{曜|よう}{日|び}は{休|やす}みです。",
+    "日曜日にお願いします。": "{日|にち}{曜|よう}{日|び}にお{願|ねが}いします。",
+    "明日は二日です。": "{明日|あした}は{二日|ふつか}です。",
+    "授業は三日からです。": "{授|じゅ}{業|ぎょう}は{三|みっ}{日|か}からです。",
+    "四日は火曜日ですね。": "{四|よっ}{日|か}は{火|か}{曜|よう}{日|び}ですね。",
+    "五月五日は休みです。": "{五月|ごがつ}{五|いつ}{日|か}は{休|やす}みです。",
+    "六日の午後は仕事です。": "{六|むい}{日|か}の{午|ご}{後|ご}は{仕|し}{事|ごと}です。",
+    "誕生日は七日です。": "{誕|たん}{生|じょう}{日|び}は{七|なの}{日|か}です。",
+    "休みは八日までです。": "{休|やす}みは{八|よう}{日|か}までです。",
+    "九日は金曜日ですか。": "{九|ここの}{日|か}は{金|きん}{曜|よう}{日|び}ですか。",
+    "十日は休みですか。": "{十|とお}{日|か}は{休|やす}みですか。",
+    "二十日は私の誕生日です。": "{二十日|はつか}は{私|わたし}の{誕|たん}{生|じょう}{日|び}です。",
+    "誕生日はいつですか。": "{誕|たん}{生|じょう}{日|び}はいつですか。",
+    "誕生日は8月9日です。": "{誕|たん}{生|じょう}{日|び}は8{月|がつ}{9日|ここのか}です。",
+    "休みはいつからですか。": "{休|やす}みはいつからですか。",
+    "授業は今月の15日までです。": "{授|じゅ}{業|ぎょう}は{今|こん}{月|げつ}の15{日|にち}までです。",
+    "先月の10日は日曜日でした。": "{先|せん}{月|げつ}の{10日|とおか}は{日|にち}{曜|よう}{日|び}でした。",
+    "誕生日は来月です。": "{誕|たん}{生|じょう}{日|び}は{来|らい}{月|げつ}です。",
+    "今年の休みは12月20日からです。": "{今年|ことし}の{休|やす}みは12{月|がつ}{20日|はつか}からです。",
+    "去年は学生でした。": "{去|きょ}{年|ねん}は{学|がく}{生|せい}でした。",
+    "来年の誕生日は土曜日です。": "{来|らい}{年|ねん}の{誕|たん}{生|じょう}{日|び}は{土|ど}{曜|よう}{日|び}です。",
+    "これは来年のカレンダーです。": "これは{来|らい}{年|ねん}のカレンダーです。",
+    "そのカレンダーはいくらですか。": "そのカレンダーはいくらですか。",
+    "今日は5月10日です。": "{今日|きょう}は5{月|がつ}{10日|とおか}です。",
+    "誕生日は何月何日ですか。": "{誕|たん}{生|じょう}{日|び}は{何月|なんがつ}{何日|なんにち}ですか。",
+    "休みは12月20日から1月5日までです。": "{休|やす}みは12{月|がつ}{20日|はつか}から1{月|がつ}{5日|いつか}までです。",
+    "休みは2週間です。": "{休|やす}みは2{週間|しゅうかん}です。",
+    "誕生日は5月10日です。": "{誕|たん}{生|じょう}{日|び}は5{月|がつ}{10日|とおか}です。",
+    "誕生日は10日5月です。": "{誕|たん}{生|じょう}{日|び}は{10日|とおか}5{月|がつ}です。",
+    "月曜日の10時にお願いします。": "{月|げつ}{曜|よう}{日|び}の10{時|じ}にお{願|ねが}いします。",
+    "では、5日にお願いします。": "では、{5日|いつか}にお{願|ねが}いします。",
+    "電話は夜8時ごろにお願いします。": "{電|でん}{話|わ}は{夜|よる}8{時|じ}ごろにお{願|ねが}いします。",
+    "誕生日は5月10日にです。": "{誕|たん}{生|じょう}{日|び}は5{月|がつ}{10日|とおか}にです。",
+    "明日の10時にお願いします。": "{明日|あした}の10{時|じ}にお{願|ねが}いします。",
+    "明日に10時にお願いします。": "{明日|あした}に10{時|じ}にお{願|ねが}いします。",
+    "昨日は日曜日でした。": "{昨日|きのう}は{日|にち}{曜|よう}{日|び}でした。",
+    "先月の20日は休みでした。": "{先|せん}{月|げつ}の{20日|はつか}は{休|やす}みでした。",
+    "昨日は休みじゃありませんでした。": "{昨日|きのう}は{休|やす}みじゃありませんでした。",
+    "昨日は日曜日です。": "{昨日|きのう}は{日|にち}{曜|よう}{日|び}です。",
+    "昨日は休みではありませんでした。": "{昨日|きのう}は{休|やす}みではありませんでした。",
+    "昨日は休みでしたではありません。": "{昨日|きのう}は{休|やす}みでしたではありません。",
+    "今日は10日5月です。": "{今日|きょう}は{10日|とおか}5{月|がつ}です。",
+    "今日は10月5日です。": "{今日|きょう}は10{月|がつ}{5日|いつか}です。",
+    "よっか": "よっか",
+    "ようか": "ようか",
+    "やっつ": "やっつ",
+    "ふつか": "ふつか",
+    "とおか": "とおか",
+    "はつか": "はつか",
+    "ついたち": "ついたち",
+    "いちにち": "いちにち",
+    "ひとつ": "ひとつ",
+    "誕生日は何時ですか。": "{誕|たん}{生|じょう}{日|び}は{何時|なんじ}ですか。",
+    "誕生日はどこですか。": "{誕|たん}{生|じょう}{日|び}はどこですか。",
+    "休みは2月です。": "{休|やす}みは2{月|がつ}です。",
+    "休みは2日です。": "{休|やす}みは{2日|ふつか}です。",
+    "今日は何日ですか。": "{今日|きょう}は{何日|なんにち}ですか。",
+    "今日は何月ですか。": "{今日|きょう}は{何月|なんがつ}ですか。",
+    "誕生日は何日ですか。": "{誕|たん}{生|じょう}{日|び}は{何日|なんにち}ですか。",
+    "です": "です",
+    "誕生日": "{誕|たん}{生|じょう}{日|び}",
+    "20日": "{20日|はつか}",
+    "の": "の",
+    "私": "{私|わたし}",
+    "10月": "10{月|がつ}",
+    "は": "は",
+    "私の誕生日は10月20日です": "{私|わたし}の{誕|たん}{生|じょう}{日|び}は10{月|がつ}{20日|はつか}です",
+    "まで": "まで",
+    "休み": "{休|やす}み",
+    "1月5日": "1{月|がつ}{5日|いつか}",
+    "から": "から",
+    "12月20日": "12{月|がつ}{20日|はつか}",
+    "休みは12月20日から1月5日までです": "{休|やす}みは12{月|がつ}{20日|はつか}から1{月|がつ}{5日|いつか}までです",
+    "に": "に",
+    "か": "か",
+    "誕生日に5月10日です。": "{誕|たん}{生|じょう}{日|び}に5{月|がつ}{10日|とおか}です。",
+    "今日に3時にお願いします。": "{今日|きょう}に3{時|じ}にお{願|ねが}いします。",
+    "今日の3時にお願いします。": "{今日|きょう}の3{時|じ}にお{願|ねが}いします。",
+    "今日3時のお願いします。": "{今日|きょう}3{時|じ}のお{願|ねが}いします。",
+    "5日": "{5日|いつか}",
+    "月曜日": "{月|げつ}{曜|よう}{日|び}",
+    "来月": "{来|らい}{月|げつ}",
+    "明日は日曜日でした。": "{明日|あした}は{日|にち}{曜|よう}{日|び}でした。",
+    "先月の10日は休みでした。": "{先|せん}{月|げつ}の{10日|とおか}は{休|やす}みでした。",
+    "でした": "でした",
+    "ではありません": "ではありません",
+    "ではありませんでした": "ではありませんでした",
+    "昨日": "{昨日|きのう}",
+    "昨日は休みではありませんでした": "{昨日|きのう}は{休|やす}みではありませんでした",
+    "昨日は休みでしたか。": "{昨日|きのう}は{休|やす}みでしたか。",
+    "いいえ、休みでした。": "いいえ、{休|やす}みでした。",
+    "いいえ、休みではありませんでした。": "いいえ、{休|やす}みではありませんでした。",
+    "はい、休みではありません。": "はい、{休|やす}みではありません。",
+    "水曜日": "{水|すい}{曜|よう}{日|び}",
+    "金曜日": "{金|きん}{曜|よう}{日|び}",
+    "土曜日": "{土|ど}{曜|よう}{日|び}",
+    "日曜日": "{日|にち}{曜|よう}{日|び}",
+    "先月": "{先|せん}{月|げつ}",
+    "去年": "{去|きょ}{年|ねん}",
+    "今年": "{今年|ことし}",
+    "私の誕生日は5月3日です。": "{私|わたし}の{誕|たん}{生|じょう}{日|び}は5{月|がつ}{3日|みっか}です。",
+    "昨日は土曜日でした。": "{昨日|きのう}は{土|ど}{曜|よう}{日|び}でした。",
+    "私の誕生日は9月4日です。": "{私|わたし}の{誕|たん}{生|じょう}{日|び}は{9月|くがつ}{4日|よっか}です。",
+    "金曜日の午後3時にお願いします。": "{金|きん}{曜|よう}{日|び}の{午|ご}{後|ご}3{時|じ}にお{願|ねが}いします。",
+    "今日は水曜日です。": "{今日|きょう}は{水|すい}{曜|よう}{日|び}です。"
+  }
+}

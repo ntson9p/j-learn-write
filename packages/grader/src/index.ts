@@ -1,0 +1,14 @@
+export type * from './core/types.ts';
+export { expandPattern, PatternError } from './core/patterns.ts';
+export { validateQuestion } from './core/validate.ts';
+export { segments, type Segment } from './highlight.ts';
+export { normalizeJa, type JaNormalized } from './lang/ja/normalize.ts';
+export { hasJapanese, hasKanji, isAllKana, isHiragana, isKana, isKanji, isKatakana, toHiragana, toKatakana } from './lang/ja/kana.ts';
+export { conjClassOf, conjugate, type ConjClass, type ConjForm } from './lang/ja/conjugate.ts';
+export { COUNTERS, counterReadings, findCounter, numberReading, numberValue, type Counter, type CounterGroup } from './lang/ja/numbers.ts';
+export { FUNCTION_WORDS, JaLexicon, type Analysis, type FunctionRole, type FunctionWord, type NameEntry as JaName, type WordEntry } from './lang/ja/lexicon.ts';
+export { hasKanjiToken, isUnknown, tokenize, type Token, type TokenAnalysis } from './lang/ja/tokenize.ts';
+export { COURSE_WORDS, courseLexicon } from './lang/ja/words.ts';
+export { grade } from './grade.ts';
+export { checkJaSentence, gradeJa, gradeJaCount, gradeJaLocation, gradeJaModel, JA_DEFAULT_PENALTIES, JA_ISSUE_LABELS_VI, type JaIssueCode, type SentenceCheck } from './lang/ja/index.ts';
+export { COURSE_NAMES, graderLexicon } from './lang/ja/words.ts';

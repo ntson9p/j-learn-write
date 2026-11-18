@@ -1,0 +1,1291 @@
+{
+  "id": "n5-12",
+  "goalsVi": [
+    "Miêu tả người và nơi chốn bằng tính từ đuôi な: 静かな町, この町はにぎやかです",
+    "Nói phủ định và quá khứ của tính từ: 高くないです, 寒かったです, 暇でした",
+    "Hỏi thăm sức khỏe và mời lịch sự: お元気ですか, お茶はいかがですか"
+  ],
+  "words": [
+    {
+      "no": 199,
+      "word": "きれい",
+      "meaningsVi": [
+        "đẹp",
+        "sạch, sạch sẽ"
+      ],
+      "noteVi": "Kết thúc bằng い nhưng là tính từ đuôi な: きれいな町, きれいではありません (không nói きれくありません). Kanji 綺麗 ít dùng.",
+      "examples": [
+        {
+          "ja": "きれいな町ですね。",
+          "vi": "Thị trấn đẹp nhỉ."
+        },
+        {
+          "ja": "この教室はいつもきれいです。",
+          "vi": "Lớp học này lúc nào cũng sạch sẽ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 280,
+      "word": "静か",
+      "meaningsVi": [
+        "yên tĩnh"
+      ],
+      "noteVi": "Âm Hán Việt \"tĩnh\" (yên tĩnh).",
+      "examples": [
+        {
+          "ja": "図書館はとても静かです。",
+          "vi": "Thư viện rất yên tĩnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 464,
+      "word": "にぎやか",
+      "meaningsVi": [
+        "náo nhiệt, nhộn nhịp, đông vui"
+      ],
+      "noteVi": "Nghĩa tích cực: phố xá đông vui, bữa tiệc vui vẻ; khác うるさい (ồn đến khó chịu). Thường viết bằng hiragana (chữ Hán 賑やか ngoài bảng thường dụng).",
+      "examples": [
+        {
+          "ja": "ホーチミンはとてもにぎやかです。",
+          "vi": "Thành phố Hồ Chí Minh rất nhộn nhịp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 636,
+      "word": "有名",
+      "meaningsVi": [
+        "nổi tiếng"
+      ],
+      "noteVi": "Âm Hán Việt \"hữu danh\" (có tiếng).",
+      "examples": [
+        {
+          "ja": "ここは有名なレストランです。",
+          "vi": "Đây là một nhà hàng nổi tiếng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 560,
+      "word": "便利",
+      "meaningsVi": [
+        "tiện lợi"
+      ],
+      "noteVi": "Âm Hán Việt \"tiện lợi\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "この辞書はとても便利です。",
+          "vi": "Cuốn từ điển này rất tiện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 226,
+      "word": "元気",
+      "meaningsVi": [
+        "khỏe, khỏe mạnh",
+        "hăng hái, nhiều sức sống"
+      ],
+      "noteVi": "Âm Hán Việt \"nguyên khí\". 「お元気ですか」 dùng để hỏi thăm người lâu ngày không gặp, không dùng khi gặp nhau hằng ngày.",
+      "examples": [
+        {
+          "ja": "お元気ですか。",
+          "vi": "Anh/chị có khỏe không?"
+        },
+        {
+          "ja": "ナムさんはいつも元気ですね。",
+          "vi": "Anh Nam lúc nào cũng tràn đầy sức sống nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 529,
+      "word": "暇",
+      "meaningsVi": [
+        "rảnh, rỗi",
+        "thời gian rảnh"
+      ],
+      "noteVi": "Âm Hán Việt \"hạ\" (nhàn hạ). Hỏi thẳng người trên 「暇ですか」 là không lịch sự.",
+      "examples": [
+        {
+          "ja": "明日は暇ですか。",
+          "vi": "Ngày mai bạn có rảnh không?"
+        },
+        {
+          "ja": "昨日は暇でした。",
+          "vi": "Hôm qua tôi rảnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 354,
+      "word": "大切",
+      "meaningsVi": [
+        "quan trọng",
+        "quý giá, quý"
+      ],
+      "noteVi": "Dùng cho người, vật mình trân trọng: 大切な人 (người quan trọng với mình), 大切な写真 (bức ảnh quý).",
+      "examples": [
+        {
+          "ja": "これは大切な写真です。",
+          "vi": "Đây là bức ảnh quý giá của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 356,
+      "word": "たいへん",
+      "meaningsVi": [
+        "vất vả, khó khăn",
+        "rất (trang trọng)"
+      ],
+      "noteVi": "Là tính từ đuôi な: 「仕事はたいへんです」 = công việc vất vả. Nghe ai kể chuyện khó khăn, nói 「たいへんですね」 để tỏ ý thông cảm. Làm phó từ, たいへん nghĩa là \"rất\", trang trọng hơn とても. Kanji: 大変.",
+      "examples": [
+        {
+          "ja": "日本語の勉強はたいへんですか。",
+          "vi": "Học tiếng Nhật có vất vả không?"
+        },
+        {
+          "ja": "昨日はたいへん忙しかったです。",
+          "vi": "Hôm qua tôi rất bận."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 75,
+      "word": "いろいろ",
+      "meaningsVi": [
+        "nhiều loại, đủ thứ, khác nhau"
+      ],
+      "noteVi": "Trước danh từ dùng いろいろな: いろいろな国 (nhiều nước khác nhau). Kanji 色々 cũng hay gặp.",
+      "examples": [
+        {
+          "ja": "デパートでいろいろな食べ物を買いました。",
+          "vi": "Tôi đã mua đủ loại đồ ăn ở cửa hàng bách hóa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 584,
+      "word": "町",
+      "meaningsVi": [
+        "thị trấn, thành phố",
+        "khu phố, phố xá"
+      ],
+      "noteVi": "Âm Hán Việt \"đinh\". 町 là nơi có phố xá, nhà cửa; thường nhỏ hơn thành phố lớn (市).",
+      "examples": [
+        {
+          "ja": "私の町は小さいです。",
+          "vi": "Thị trấn của tôi nhỏ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 428,
+      "word": "所",
+      "meaningsVi": [
+        "nơi, chỗ"
+      ],
+      "noteVi": "Âm Hán Việt \"sở\" (nơi chốn). Hay đi sau tính từ: 静かな所 (nơi yên tĩnh), いい所 (nơi đẹp, nơi tốt).",
+      "examples": [
+        {
+          "ja": "ダナンはいい所ですよ。",
+          "vi": "Đà Nẵng là nơi tuyệt lắm đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 364,
+      "word": "楽しい",
+      "meaningsVi": [
+        "vui, vui vẻ"
+      ],
+      "noteVi": "Nói về việc, hoạt động làm mình thấy vui: bữa tiệc, chuyến đi, giờ học. Âm Hán Việt \"lạc\" (lạc quan).",
+      "examples": [
+        {
+          "ja": "パーティーはとても楽しかったです。",
+          "vi": "Bữa tiệc rất vui."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 668,
+      "word": "若い",
+      "meaningsVi": [
+        "trẻ"
+      ],
+      "noteVi": "Âm Hán Việt \"nhược\" nhưng không có nghĩa \"yếu\" (yếu là 弱い). Dùng cho người, con vật.",
+      "examples": [
+        {
+          "ja": "田中先生は若いです。",
+          "vi": "Thầy Tanaka còn trẻ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 535,
+      "word": "広い",
+      "meaningsVi": [
+        "rộng"
+      ],
+      "noteVi": "Âm Hán Việt \"quảng\" (quảng trường).",
+      "examples": [
+        {
+          "ja": "この公園は広いですね。",
+          "vi": "Công viên này rộng nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 330,
+      "word": "狭い",
+      "meaningsVi": [
+        "chật, hẹp"
+      ],
+      "noteVi": "Dùng cho phòng, đường, nơi chốn; trái nghĩa với 広い.",
+      "examples": [
+        {
+          "ja": "この教室は狭いです。",
+          "vi": "Lớp học này chật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 84,
+      "word": "うるさい",
+      "meaningsVi": [
+        "ồn ào",
+        "phiền, khó chịu"
+      ],
+      "noteVi": "Nghĩa tiêu cực: ồn đến mức khó chịu. Nói thẳng 「うるさい！」 với người khác là rất bất lịch sự. Nơi đông vui thì dùng にぎやか.",
+      "examples": [
+        {
+          "ja": "この喫茶店はちょっとうるさいですね。",
+          "vi": "Quán cà phê này hơi ồn nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 47,
+      "word": "いかが",
+      "meaningsVi": [
+        "thế nào (lịch sự)"
+      ],
+      "noteVi": "Cách nói lịch sự của どう. Dùng để mời: 「コーヒーはいかがですか」 = Anh/chị dùng cà phê nhé?, hoặc để hỏi cảm nhận của người khác một cách lịch sự.",
+      "examples": [
+        {
+          "ja": "お茶はいかがですか。",
+          "vi": "Anh/chị dùng trà nhé?"
+        },
+        {
+          "ja": "京都はいかがでしたか。",
+          "vi": "Kyoto thế nào ạ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 175,
+      "word": "かわいい",
+      "meaningsVi": [
+        "dễ thương, đáng yêu, xinh"
+      ],
+      "noteVi": "Dùng rất rộng: cho trẻ em, con vật, đồ vật nhỏ xinh.",
+      "examples": [
+        {
+          "ja": "かわいい傘ですね。",
+          "vi": "Cái ô dễ thương nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 115,
+      "word": "男",
+      "meaningsVi": [
+        "đàn ông, nam"
+      ],
+      "noteVi": "Nói về một người cụ thể thì dùng 男の人 (người đàn ông); 男 một mình nghe suồng sã.",
+      "examples": [
+        {
+          "ja": "あの男の人は誰ですか。",
+          "vi": "Người đàn ông kia là ai?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 138,
+      "word": "女",
+      "meaningsVi": [
+        "phụ nữ, nữ"
+      ],
+      "noteVi": "Nói về một người cụ thể thì dùng 女の人 (người phụ nữ); 女 một mình nghe suồng sã.",
+      "examples": [
+        {
+          "ja": "あの女の人は先生です。",
+          "vi": "Người phụ nữ kia là giáo viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 116,
+      "word": "男の子",
+      "meaningsVi": [
+        "cậu bé, bé trai"
+      ],
+      "examples": [
+        {
+          "ja": "あの男の子はとても元気です。",
+          "vi": "Cậu bé kia rất hiếu động."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 139,
+      "word": "女の子",
+      "meaningsVi": [
+        "cô bé, bé gái"
+      ],
+      "examples": [
+        {
+          "ja": "かわいい女の子ですね。",
+          "vi": "Cô bé dễ thương nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "男",
+      "meaningVi": "nam, đàn ông",
+      "noteVi": "Ruộng (田) + sức lực (力): người dùng sức làm ruộng. Có trong 男, 男の子.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "女",
+      "meaningVi": "nữ, phụ nữ",
+      "noteVi": "Hình người phụ nữ ngồi quỳ, hai tay đan trước ngực. Có trong 女, 女の子.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "子",
+      "meaningVi": "con, đứa trẻ",
+      "noteVi": "Hình đứa bé quấn tã, dang hai tay. Đọc こ trong 男の子, 女の子.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "na-na-adjective",
+      "titleVi": "Tính từ đuôi な",
+      "summaryVi": "Tính từ đuôi な thêm な trước danh từ (静かな町); ở cuối câu chia như danh từ: 静かです, 静かではありません, 静かでした.",
+      "explanationVi": [
+        "Tính từ đuôi な (静か, 有名, 便利, 元気…) **thêm な khi đứng trước danh từ**: 「静か**な**町」 = thị trấn yên tĩnh, 「有名**な**人」 = người nổi tiếng. Như tính từ đuôi い, nó đứng **trước** danh từ, ngược với tiếng Việt.",
+        "Ở **cuối câu**, tính từ đuôi な **bỏ な** và chia giống danh từ: 「この町は静かです」; phủ định 「静か**ではありません**」 (hoặc じゃありません); quá khứ 「静か**でした**」; quá khứ phủ định 「静か**ではありませんでした**」.",
+        "Chú ý: **きれい** kết thúc bằng い nhưng là tính từ đuôi な: 「きれいな町」, 「きれいではありません」. Còn 楽しい, 広い… là tính từ đuôi い. Khi học từ mới, nhớ luôn nó thuộc loại nào."
+      ],
+      "patterns": [
+        "A-な N",
+        "N は A です",
+        "N は A ではありません",
+        "N は A でした"
+      ],
+      "examples": [
+        {
+          "ja": "ここは静かな町です。",
+          "vi": "Đây là một thị trấn yên tĩnh."
+        },
+        {
+          "ja": "この辞書は便利です。",
+          "vi": "Cuốn từ điển này tiện lợi."
+        },
+        {
+          "ja": "この町はにぎやかではありません。",
+          "vi": "Thị trấn này không nhộn nhịp."
+        },
+        {
+          "ja": "先週はとても暇でした。",
+          "vi": "Tuần trước tôi rất rảnh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "静か町です。",
+          "right": "静かな町です。",
+          "noteVi": "Trước danh từ, tính từ đuôi な phải có な."
+        },
+        {
+          "wrong": "有名の人です。",
+          "right": "有名な人です。",
+          "noteVi": "Tính từ đuôi な nối với danh từ bằng な, không phải の."
+        },
+        {
+          "wrong": "この町は静かなです。",
+          "right": "この町は静かです。",
+          "noteVi": "Ở cuối câu, bỏ な trước です."
+        },
+        {
+          "wrong": "この教室はきれくありません。",
+          "right": "この教室はきれいではありません。",
+          "noteVi": "きれい là tính từ đuôi な nên phủ định là きれいではありません, không chia như tính từ đuôi い."
+        },
+        {
+          "wrong": "高いな時計です。",
+          "right": "高い時計です。",
+          "noteVi": "Tính từ đuôi い nối thẳng với danh từ, không thêm な."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ku-nai-katta-ku-nakatta",
+      "titleVi": "Tính từ đuôi い: 〜くない, 〜かった, 〜くなかった",
+      "summaryVi": "Phủ định và quá khứ của tính từ đuôi い: 高くないです (không đắt), 高かったです (đã đắt), 高くなかったです (đã không đắt).",
+      "explanationVi": [
+        "Tính từ đuôi い **tự chia** như động từ: bỏ い cuối rồi thêm **くない** (không …), **かった** (quá khứ), **くなかった** (quá khứ phủ định). Thêm です để lịch sự: 「高くないです」, 「高かったです」, 「高くなかったです」.",
+        "「高くないです」 cùng nghĩa với 「高くありません」 (bài trước) nhưng hay dùng hơn khi nói chuyện. Quá khứ phủ định cũng có hai cách: 「高くなかったです」 = 「高くありませんでした」.",
+        "**いい** chia từ よい: よくないです, よかったです, よくなかったです (không nói いかった).",
+        "Không dùng でした sau tính từ đuôi い: 「寒いでした」 là **sai**, phải nói 「寒かったです」. Danh từ và tính từ đuôi な thì ngược lại, dùng でした: 「学生でした」, 「暇でした」."
+      ],
+      "patterns": [
+        "A-くないです",
+        "A-かったです",
+        "A-くなかったです"
+      ],
+      "examples": [
+        {
+          "ja": "このかばんは高くないです。",
+          "vi": "Cái cặp này không đắt."
+        },
+        {
+          "ja": "昨日はとても寒かったです。",
+          "vi": "Hôm qua rất lạnh."
+        },
+        {
+          "ja": "その映画はおもしろくなかったです。",
+          "vi": "Bộ phim đó không hay."
+        },
+        {
+          "ja": "パーティーはよかったです。",
+          "vi": "Bữa tiệc tuyệt lắm."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "昨日は寒いでした。",
+          "right": "昨日は寒かったです。",
+          "noteVi": "Quá khứ của tính từ đuôi い là 〜かったです; không thêm でした sau い."
+        },
+        {
+          "wrong": "このかばんは高いじゃないです。",
+          "right": "このかばんは高くないです。",
+          "noteVi": "じゃない dùng cho danh từ và tính từ đuôi な. Với tính từ đuôi い, đổi い thành く rồi thêm ないです."
+        },
+        {
+          "wrong": "パーティーはいかったです。",
+          "right": "パーティーはよかったです。",
+          "noteVi": "いい chia từ よい: よかったです, không phải いかったです."
+        },
+        {
+          "wrong": "昨日は暇かったです。",
+          "right": "昨日は暇でした。",
+          "noteVi": "暇 là tính từ đuôi な nên quá khứ dùng でした; chỉ tính từ đuôi い mới chia 〜かった."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-12-e01",
+      "type": "fill",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "before": "ここは静か",
+      "after": "町です。",
+      "answers": [
+        "な"
+      ],
+      "options": [
+        "な",
+        "の",
+        "で"
+      ],
+      "vi": "Đây là một thị trấn yên tĩnh."
+    },
+    {
+      "id": "n5-12-e02",
+      "type": "choice",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "promptVi": "Chọn câu đúng: \"Anh Tanaka là người nổi tiếng.\"",
+      "options": [
+        "田中さんは有名な人です。",
+        "田中さんは有名の人です。",
+        "田中さんは有名なです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e03",
+      "type": "choice",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "promptVi": "Từ nào là tính từ đuôi な?",
+      "options": [
+        "きれい",
+        "おいしい",
+        "大きい"
+      ],
+      "answer": 0,
+      "explainVi": "きれい kết thúc bằng い nhưng là tính từ đuôi な: きれいな + danh từ."
+    },
+    {
+      "id": "n5-12-e04",
+      "type": "order",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "vi": "Kyoto là một nơi nổi tiếng.",
+      "tiles": [
+        "所",
+        "京都は",
+        "です",
+        "有名な"
+      ],
+      "answers": [
+        "京都は有名な所です"
+      ]
+    },
+    {
+      "id": "n5-12-e05",
+      "type": "fill",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "before": "先週は",
+      "after": "でした。",
+      "answers": [
+        "暇"
+      ],
+      "options": [
+        "暇",
+        "暇な",
+        "暇の"
+      ],
+      "vi": "Tuần trước tôi rảnh."
+    },
+    {
+      "id": "n5-12-e06",
+      "type": "choice",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "promptVi": "Chọn dạng phủ định của câu này:",
+      "ja": "このかばんは高いです。",
+      "options": [
+        "このかばんは高くないです。",
+        "このかばんは高いじゃないです。",
+        "このかばんは高いではありません。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e07",
+      "type": "choice",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Hôm qua rất lạnh\"?",
+      "options": [
+        "昨日はとても寒かったです。",
+        "昨日はとても寒いでした。",
+        "昨日はとても寒くないです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e08",
+      "type": "fill",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "before": "昨日のパーティーはとても",
+      "after": "です。",
+      "answers": [
+        "楽しかった"
+      ],
+      "options": [
+        "楽しかった",
+        "楽しくなかった",
+        "楽しいでした"
+      ],
+      "vi": "Bữa tiệc hôm qua rất vui."
+    },
+    {
+      "id": "n5-12-e09",
+      "type": "fill",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "before": "昨日の映画はあまりおもしろく",
+      "after": "です。",
+      "answers": [
+        "なかった"
+      ],
+      "options": [
+        "なかった",
+        "ないでした",
+        "ありません"
+      ],
+      "vi": "Bộ phim hôm qua không hay lắm."
+    },
+    {
+      "id": "n5-12-e10",
+      "type": "choice",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "promptVi": "Câu nào đúng: \"Bữa tiệc tuyệt lắm.\"",
+      "options": [
+        "パーティーはとてもよかったです。",
+        "パーティーはとてもいいでした。",
+        "パーティーはとてもよくないでした。"
+      ],
+      "answer": 0,
+      "explainVi": "いい → よかったです."
+    },
+    {
+      "id": "n5-12-e11",
+      "type": "order",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "vi": "Nhà tôi không rộng.",
+      "tiles": [
+        "ないです",
+        "私の家は",
+        "広く"
+      ],
+      "answers": [
+        "私の家は広くないです"
+      ]
+    },
+    {
+      "id": "n5-12-e12",
+      "type": "order",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "vi": "Hôm qua tôi rất bận.",
+      "tiles": [
+        "忙しかった",
+        "とても",
+        "です",
+        "昨日は"
+      ],
+      "answers": [
+        "昨日はとても忙しかったです"
+      ]
+    },
+    {
+      "id": "n5-12-e13",
+      "type": "choice",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "promptVi": "Chọn câu đúng: \"Thị trấn này (hồi đó) yên tĩnh.\"",
+      "options": [
+        "この町は静かでした。",
+        "この町は静かなでした。",
+        "この町は静かなです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e14",
+      "type": "match",
+      "promptVi": "Ghép tính từ đuôi な với nghĩa",
+      "pairs": [
+        [
+          "静か",
+          "yên tĩnh"
+        ],
+        [
+          "にぎやか",
+          "nhộn nhịp"
+        ],
+        [
+          "有名",
+          "nổi tiếng"
+        ],
+        [
+          "便利",
+          "tiện lợi"
+        ],
+        [
+          "暇",
+          "rảnh"
+        ],
+        [
+          "大切",
+          "quan trọng, quý giá"
+        ]
+      ]
+    },
+    {
+      "id": "n5-12-e15",
+      "type": "match",
+      "promptVi": "Ghép tính từ với nghĩa",
+      "pairs": [
+        [
+          "広い",
+          "rộng"
+        ],
+        [
+          "狭い",
+          "chật, hẹp"
+        ],
+        [
+          "若い",
+          "trẻ"
+        ],
+        [
+          "楽しい",
+          "vui"
+        ],
+        [
+          "うるさい",
+          "ồn ào"
+        ],
+        [
+          "かわいい",
+          "dễ thương"
+        ]
+      ]
+    },
+    {
+      "id": "n5-12-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "男の人",
+          "người đàn ông"
+        ],
+        [
+          "女の人",
+          "người phụ nữ"
+        ],
+        [
+          "男の子",
+          "bé trai"
+        ],
+        [
+          "女の子",
+          "bé gái"
+        ]
+      ]
+    },
+    {
+      "id": "n5-12-e17",
+      "type": "choice",
+      "promptVi": "Mời khách uống trà một cách lịch sự:",
+      "options": [
+        "お茶はいかがですか。",
+        "お茶は何ですか。",
+        "お茶はどこですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e18",
+      "type": "choice",
+      "promptVi": "Gặp lại thầy giáo cũ sau nhiều năm, bạn hỏi thăm sức khỏe thầy:",
+      "options": [
+        "先生、お元気ですか。",
+        "先生、暇ですか。",
+        "先生、はじめまして。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e19",
+      "type": "fill",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "before": "昨日の授業は",
+      "after": "。",
+      "answers": [
+        "難しくなかったです"
+      ],
+      "options": [
+        "難しくなかったです",
+        "難しいじゃなかったです",
+        "難しいでした"
+      ],
+      "vi": "Giờ học hôm qua không khó."
+    },
+    {
+      "id": "n5-12-e20",
+      "type": "order",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "vi": "Đây là bức ảnh quý giá của tôi.",
+      "tiles": [
+        "写真です",
+        "大切な",
+        "これは",
+        "私の"
+      ],
+      "answers": [
+        "これは私の大切な写真です",
+        "これは大切な私の写真です"
+      ]
+    },
+    {
+      "id": "n5-12-e21",
+      "type": "choice",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "promptVi": "Phủ định của いいです là:",
+      "options": [
+        "よくないです。",
+        "いいではありません。",
+        "いいじゃないです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-12-e22",
+      "type": "fill",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "before": "ここは",
+      "after": "所ですね。",
+      "answers": [
+        "にぎやかな"
+      ],
+      "options": [
+        "にぎやかな",
+        "にぎやかの",
+        "にぎやか"
+      ],
+      "vi": "Ở đây là một nơi nhộn nhịp nhỉ."
+    },
+    {
+      "id": "n5-12-e23",
+      "type": "translate",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "vi": "Kyoto là một thành phố đẹp.",
+      "answers": [
+        "京都はきれいな町です。"
+      ],
+      "examples": [
+        {
+          "answer": "京都はきれいなまちです。",
+          "score": 100
+        },
+        {
+          "answer": "京都は綺麗な町です。",
+          "score": 100
+        },
+        {
+          "answer": "京都はきれい町です。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "京都はきれいの町です。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "京都はにぎやかな町です。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12-e24",
+      "type": "translate",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "vi": "Kỳ nghỉ tuần trước rất vui.",
+      "answers": [
+        "先週の休みはとても楽しかったです。"
+      ],
+      "examples": [
+        {
+          "answer": "せんしゅうのやすみはとてもたのしかったです。",
+          "score": 100
+        },
+        {
+          "answer": "先週の休みはとても楽しいでした。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "先週の休みはとても楽しいです。",
+          "score": 0
+        },
+        {
+          "answer": "先週の休みはあまり楽しくなかったです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12-e25",
+      "type": "translate",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "vi": "Thị trấn này không yên tĩnh.",
+      "answers": [
+        "この町は静か[ではありません|じゃありません|ではないです|じゃないです]。"
+      ],
+      "examples": [
+        {
+          "answer": "このまちはしずかではありません。",
+          "score": 100
+        },
+        {
+          "answer": "このまちはしずかじゃないです。",
+          "score": 100
+        },
+        {
+          "answer": "この町は静かくないです。",
+          "score": 80,
+          "issues": [
+            "adjective_form"
+          ]
+        },
+        {
+          "answer": "この町は静かなではありません。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "この町はにぎやかではありません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-12-e26",
+      "type": "question",
+      "grammar": [
+        "ku-nai-katta-ku-nakatta"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "昨日の映画はどうでしたか。",
+        "promptVi": "Bộ phim hôm qua thế nào? Trả lời: không hay lắm.",
+        "answers": [
+          "あまりおもしろくなかったです。",
+          "(昨日の映画は)あまりおもしろく[なかったです|ありませんでした]。"
+        ],
+        "examples": [
+          {
+            "answer": "あまりおもしろくなかったです。",
+            "score": 100
+          },
+          {
+            "answer": "あまり面白くありませんでした。",
+            "score": 100
+          },
+          {
+            "answer": "あまりおもしろいではありませんでした。",
+            "score": 80,
+            "issues": [
+              "adjective_form"
+            ]
+          },
+          {
+            "answer": "あまりおもしろくないです。",
+            "score": 0
+          },
+          {
+            "answer": "とてもおもしろかったです。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-12-e27",
+      "type": "question",
+      "grammar": [
+        "na-na-adjective"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "ハノイはにぎやかですか。",
+        "promptVi": "Hà Nội có nhộn nhịp không? Trả lời: \"Vâng, rất nhộn nhịp.\"",
+        "answers": [
+          "はい、とてもにぎやかです。",
+          "([はい|ええ]、)(ハノイは)とてもにぎやかです。"
+        ],
+        "examples": [
+          {
+            "answer": "はい、とてもにぎやかです。",
+            "score": 100
+          },
+          {
+            "answer": "ええ、とても賑やかです。",
+            "score": 100
+          },
+          {
+            "answer": "はい、とてもにぎやかなです。",
+            "score": 85,
+            "issues": [
+              "extra_word"
+            ]
+          },
+          {
+            "answer": "はい、とても静かです。",
+            "score": 0
+          }
+        ]
+      }
+    }
+  ],
+  "ruby": {
+    "きれいな町ですね。": "きれいな{町|まち}ですね。",
+    "この教室はいつもきれいです。": "この{教|きょう}{室|しつ}はいつもきれいです。",
+    "図書館はとても静かです。": "{図|と}{書|しょ}{館|かん}はとても{静|しず}かです。",
+    "ホーチミンはとてもにぎやかです。": "ホーチミンはとてもにぎやかです。",
+    "ここは有名なレストランです。": "ここは{有|ゆう}{名|めい}なレストランです。",
+    "この辞書はとても便利です。": "この{辞|じ}{書|しょ}はとても{便|べん}{利|り}です。",
+    "お元気ですか。": "お{元|げん}{気|き}ですか。",
+    "ナムさんはいつも元気ですね。": "ナムさんはいつも{元|げん}{気|き}ですね。",
+    "明日は暇ですか。": "{明日|あした}は{暇|ひま}ですか。",
+    "昨日は暇でした。": "{昨日|きのう}は{暇|ひま}でした。",
+    "これは大切な写真です。": "これは{大|たい}{切|せつ}な{写|しゃ}{真|しん}です。",
+    "日本語の勉強はたいへんですか。": "{日本|にほん}{語|ご}の{勉|べん}{強|きょう}はたいへんですか。",
+    "昨日はたいへん忙しかったです。": "{昨日|きのう}はたいへん{忙|いそが}しかったです。",
+    "デパートでいろいろな食べ物を買いました。": "デパートでいろいろな{食|た}べ{物|もの}を{買|か}いました。",
+    "私の町は小さいです。": "{私|わたし}の{町|まち}は{小|ちい}さいです。",
+    "ダナンはいい所ですよ。": "ダナンはいい{所|ところ}ですよ。",
+    "パーティーはとても楽しかったです。": "パーティーはとても{楽|たの}しかったです。",
+    "田中先生は若いです。": "{田中|たなか}{先|せん}{生|せい}は{若|わか}いです。",
+    "この公園は広いですね。": "この{公|こう}{園|えん}は{広|ひろ}いですね。",
+    "この教室は狭いです。": "この{教|きょう}{室|しつ}は{狭|せま}いです。",
+    "この喫茶店はちょっとうるさいですね。": "この{喫|きっ}{茶|さ}{店|てん}はちょっとうるさいですね。",
+    "お茶はいかがですか。": "お{茶|ちゃ}はいかがですか。",
+    "京都はいかがでしたか。": "{京都|きょうと}はいかがでしたか。",
+    "かわいい傘ですね。": "かわいい{傘|かさ}ですね。",
+    "あの男の人は誰ですか。": "あの{男|おとこ}の{人|ひと}は{誰|だれ}ですか。",
+    "あの女の人は先生です。": "あの{女|おんな}の{人|ひと}は{先|せん}{生|せい}です。",
+    "あの男の子はとても元気です。": "あの{男|おとこ}の{子|こ}はとても{元|げん}{気|き}です。",
+    "かわいい女の子ですね。": "かわいい{女|おんな}の{子|こ}ですね。",
+    "ここは静かな町です。": "ここは{静|しず}かな{町|まち}です。",
+    "この辞書は便利です。": "この{辞|じ}{書|しょ}は{便|べん}{利|り}です。",
+    "この町はにぎやかではありません。": "この{町|まち}はにぎやかではありません。",
+    "先週はとても暇でした。": "{先|せん}{週|しゅう}はとても{暇|ひま}でした。",
+    "静かな町です。": "{静|しず}かな{町|まち}です。",
+    "静か町です。": "{静|しず}か{町|まち}です。",
+    "有名な人です。": "{有|ゆう}{名|めい}な{人|ひと}です。",
+    "有名の人です。": "{有|ゆう}{名|めい}の{人|ひと}です。",
+    "この町は静かです。": "この{町|まち}は{静|しず}かです。",
+    "この町は静かなです。": "この{町|まち}は{静|しず}かなです。",
+    "この教室はきれいではありません。": "この{教|きょう}{室|しつ}はきれいではありません。",
+    "この教室はきれくありません。": "この{教|きょう}{室|しつ}はきれくありません。",
+    "高い時計です。": "{高|たか}い{時計|とけい}です。",
+    "高いな時計です。": "{高|たか}いな{時計|とけい}です。",
+    "このかばんは高くないです。": "このかばんは{高|たか}くないです。",
+    "昨日はとても寒かったです。": "{昨日|きのう}はとても{寒|さむ}かったです。",
+    "その映画はおもしろくなかったです。": "その{映|えい}{画|が}はおもしろくなかったです。",
+    "パーティーはよかったです。": "パーティーはよかったです。",
+    "昨日は寒かったです。": "{昨日|きのう}は{寒|さむ}かったです。",
+    "昨日は寒いでした。": "{昨日|きのう}は{寒|さむ}いでした。",
+    "このかばんは高いじゃないです。": "このかばんは{高|たか}いじゃないです。",
+    "パーティーはいかったです。": "パーティーはいかったです。",
+    "昨日は暇かったです。": "{昨日|きのう}は{暇|ひま}かったです。",
+    "な": "な",
+    "の": "の",
+    "で": "で",
+    "田中さんは有名な人です。": "{田中|たなか}さんは{有|ゆう}{名|めい}な{人|ひと}です。",
+    "田中さんは有名の人です。": "{田中|たなか}さんは{有|ゆう}{名|めい}の{人|ひと}です。",
+    "田中さんは有名なです。": "{田中|たなか}さんは{有|ゆう}{名|めい}なです。",
+    "きれい": "きれい",
+    "おいしい": "おいしい",
+    "大きい": "{大|おお}きい",
+    "所": "{所|ところ}",
+    "京都は": "{京都|きょうと}は",
+    "です": "です",
+    "有名な": "{有|ゆう}{名|めい}な",
+    "京都は有名な所です": "{京都|きょうと}は{有|ゆう}{名|めい}な{所|ところ}です",
+    "先週は暇でした。": "{先|せん}{週|しゅう}は{暇|ひま}でした。",
+    "暇": "{暇|ひま}",
+    "暇な": "{暇|ひま}な",
+    "暇の": "{暇|ひま}の",
+    "このかばんは高いです。": "このかばんは{高|たか}いです。",
+    "このかばんは高いではありません。": "このかばんは{高|たか}いではありません。",
+    "昨日はとても寒いでした。": "{昨日|きのう}はとても{寒|さむ}いでした。",
+    "昨日はとても寒くないです。": "{昨日|きのう}はとても{寒|さむ}くないです。",
+    "昨日のパーティーはとても楽しかったです。": "{昨日|きのう}のパーティーはとても{楽|たの}しかったです。",
+    "楽しかった": "{楽|たの}しかった",
+    "楽しくなかった": "{楽|たの}しくなかった",
+    "楽しいでした": "{楽|たの}しいでした",
+    "昨日の映画はあまりおもしろくなかったです。": "{昨日|きのう}の{映|えい}{画|が}はあまりおもしろくなかったです。",
+    "なかった": "なかった",
+    "ないでした": "ないでした",
+    "ありません": "ありません",
+    "パーティーはとてもよかったです。": "パーティーはとてもよかったです。",
+    "パーティーはとてもいいでした。": "パーティーはとてもいいでした。",
+    "パーティーはとてもよくないでした。": "パーティーはとてもよくないでした。",
+    "ないです": "ないです",
+    "私の家は": "{私|わたし}の{家|いえ}は",
+    "広く": "{広|ひろ}く",
+    "私の家は広くないです": "{私|わたし}の{家|いえ}は{広|ひろ}くないです",
+    "忙しかった": "{忙|いそが}しかった",
+    "とても": "とても",
+    "昨日は": "{昨日|きのう}は",
+    "昨日はとても忙しかったです": "{昨日|きのう}はとても{忙|いそが}しかったです",
+    "この町は静かでした。": "この{町|まち}は{静|しず}かでした。",
+    "この町は静かなでした。": "この{町|まち}は{静|しず}かなでした。",
+    "静か": "{静|しず}か",
+    "にぎやか": "にぎやか",
+    "有名": "{有|ゆう}{名|めい}",
+    "便利": "{便|べん}{利|り}",
+    "大切": "{大|たい}{切|せつ}",
+    "広い": "{広|ひろ}い",
+    "狭い": "{狭|せま}い",
+    "若い": "{若|わか}い",
+    "楽しい": "{楽|たの}しい",
+    "うるさい": "うるさい",
+    "かわいい": "かわいい",
+    "男の人": "{男|おとこ}の{人|ひと}",
+    "女の人": "{女|おんな}の{人|ひと}",
+    "男の子": "{男|おとこ}の{子|こ}",
+    "女の子": "{女|おんな}の{子|こ}",
+    "お茶は何ですか。": "お{茶|ちゃ}は{何|なん}ですか。",
+    "お茶はどこですか。": "お{茶|ちゃ}はどこですか。",
+    "先生、お元気ですか。": "{先|せん}{生|せい}、お{元|げん}{気|き}ですか。",
+    "先生、暇ですか。": "{先|せん}{生|せい}、{暇|ひま}ですか。",
+    "先生、はじめまして。": "{先|せん}{生|せい}、はじめまして。",
+    "昨日の授業は難しくなかったです。": "{昨日|きのう}の{授|じゅ}{業|ぎょう}は{難|むずか}しくなかったです。",
+    "難しくなかったです": "{難|むずか}しくなかったです",
+    "難しいじゃなかったです": "{難|むずか}しいじゃなかったです",
+    "難しいでした": "{難|むずか}しいでした",
+    "写真です": "{写|しゃ}{真|しん}です",
+    "大切な": "{大|たい}{切|せつ}な",
+    "これは": "これは",
+    "私の": "{私|わたし}の",
+    "これは私の大切な写真です": "これは{私|わたし}の{大|たい}{切|せつ}な{写|しゃ}{真|しん}です",
+    "これは大切な私の写真です": "これは{大|たい}{切|せつ}な{私|わたし}の{写|しゃ}{真|しん}です",
+    "よくないです。": "よくないです。",
+    "いいではありません。": "いいではありません。",
+    "いいじゃないです。": "いいじゃないです。",
+    "ここはにぎやかな所ですね。": "ここはにぎやかな{所|ところ}ですね。",
+    "にぎやかな": "にぎやかな",
+    "にぎやかの": "にぎやかの",
+    "京都はきれいな町です。": "{京都|きょうと}はきれいな{町|まち}です。",
+    "先週の休みはとても楽しかったです。": "{先|せん}{週|しゅう}の{休|やす}みはとても{楽|たの}しかったです。",
+    "この町は静かではありません。": "この{町|まち}は{静|しず}かではありません。",
+    "昨日の映画はどうでしたか。": "{昨日|きのう}の{映|えい}{画|が}はどうでしたか。",
+    "あまりおもしろくなかったです。": "あまりおもしろくなかったです。",
+    "ハノイはにぎやかですか。": "ハノイはにぎやかですか。",
+    "はい、とてもにぎやかです。": "はい、とてもにぎやかです。",
+    "はい、ハノイはとてもにぎやかです。": "はい、ハノイはとてもにぎやかです。"
+  }
+}

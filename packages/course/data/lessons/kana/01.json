@@ -1,0 +1,315 @@
+{
+  "id": "kana-01",
+  "goalsVi": [
+    "Đọc và viết được 5 nguyên âm あ い う え お",
+    "Đọc và viết được hàng か: か き く け こ",
+    "Đọc được các từ đơn giản như あき (mùa thu), いえ (nhà)"
+  ],
+  "practice": [
+    {
+      "ja": "あい",
+      "vi": "tình yêu"
+    },
+    {
+      "ja": "いえ",
+      "vi": "ngôi nhà"
+    },
+    {
+      "ja": "うえ",
+      "vi": "phía trên"
+    },
+    {
+      "ja": "え",
+      "vi": "bức tranh"
+    },
+    {
+      "ja": "あお",
+      "vi": "màu xanh"
+    },
+    {
+      "ja": "かお",
+      "vi": "khuôn mặt"
+    },
+    {
+      "ja": "あき",
+      "vi": "mùa thu"
+    },
+    {
+      "ja": "えき",
+      "vi": "nhà ga"
+    },
+    {
+      "ja": "きく",
+      "vi": "nghe"
+    },
+    {
+      "ja": "かく",
+      "vi": "viết"
+    },
+    {
+      "ja": "いく",
+      "vi": "đi"
+    },
+    {
+      "ja": "こえ",
+      "vi": "giọng nói"
+    },
+    {
+      "ja": "いけ",
+      "vi": "cái ao"
+    },
+    {
+      "ja": "ここ",
+      "vi": "chỗ này"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "kana-01-e01",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"a\"?",
+      "options": [
+        "あ",
+        "お",
+        "め"
+      ],
+      "answer": 0,
+      "explainVi": "あ có ba nét; お có nét chấm ở góc trên bên phải."
+    },
+    {
+      "id": "kana-01-e02",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"o\"?",
+      "options": [
+        "あ",
+        "お",
+        "の"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "kana-01-e03",
+      "type": "choice",
+      "promptVi": "Chữ い đọc là gì?",
+      "options": [
+        "i",
+        "ri",
+        "u"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-01-e04",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ki\"?",
+      "options": [
+        "さ",
+        "き",
+        "ち"
+      ],
+      "answer": 1,
+      "explainVi": "き có hai nét ngang; さ chỉ có một."
+    },
+    {
+      "id": "kana-01-e05",
+      "type": "choice",
+      "promptVi": "Chữ く đọc là gì?",
+      "options": [
+        "ku",
+        "ko",
+        "he"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-01-e06",
+      "type": "choice",
+      "promptVi": "Chữ nào đọc là \"ke\"?",
+      "options": [
+        "け",
+        "は",
+        "に"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-01-e07",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "あ",
+          "a"
+        ],
+        [
+          "い",
+          "i"
+        ],
+        [
+          "う",
+          "u"
+        ],
+        [
+          "え",
+          "e"
+        ],
+        [
+          "お",
+          "o"
+        ]
+      ]
+    },
+    {
+      "id": "kana-01-e08",
+      "type": "match",
+      "promptVi": "Ghép chữ với cách đọc",
+      "pairs": [
+        [
+          "か",
+          "ka"
+        ],
+        [
+          "き",
+          "ki"
+        ],
+        [
+          "く",
+          "ku"
+        ],
+        [
+          "け",
+          "ke"
+        ],
+        [
+          "こ",
+          "ko"
+        ]
+      ]
+    },
+    {
+      "id": "kana-01-e09",
+      "type": "choice",
+      "promptVi": "\"aki\" (mùa thu) viết thế nào?",
+      "options": [
+        "あき",
+        "あさ",
+        "おき"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-01-e10",
+      "type": "choice",
+      "promptVi": "Từ かお nghĩa là gì?",
+      "options": [
+        "khuôn mặt",
+        "nhà ga",
+        "giọng nói"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "kana-01-e11",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "いえ",
+          "ngôi nhà"
+        ],
+        [
+          "えき",
+          "nhà ga"
+        ],
+        [
+          "こえ",
+          "giọng nói"
+        ],
+        [
+          "うえ",
+          "phía trên"
+        ]
+      ]
+    },
+    {
+      "id": "kana-01-e12",
+      "type": "order",
+      "vi": "Ghép thành từ \"eki\" (nhà ga)",
+      "tiles": [
+        "き",
+        "え"
+      ],
+      "answers": [
+        "えき"
+      ]
+    },
+    {
+      "id": "kana-01-e13",
+      "type": "order",
+      "vi": "Ghép thành từ \"kao\" (khuôn mặt)",
+      "tiles": [
+        "お",
+        "か"
+      ],
+      "answers": [
+        "かお"
+      ]
+    },
+    {
+      "id": "kana-01-e14",
+      "type": "order",
+      "vi": "Ghép thành từ \"ike\" (cái ao)",
+      "tiles": [
+        "け",
+        "い"
+      ],
+      "answers": [
+        "いけ"
+      ]
+    },
+    {
+      "id": "kana-01-e15",
+      "type": "choice",
+      "promptVi": "Từ nào nghĩa là \"nghe\"?",
+      "options": [
+        "きく",
+        "かく",
+        "いく"
+      ],
+      "answer": 0
+    }
+  ],
+  "ruby": {
+    "あい": "あい",
+    "いえ": "いえ",
+    "うえ": "うえ",
+    "え": "え",
+    "あお": "あお",
+    "かお": "かお",
+    "あき": "あき",
+    "えき": "えき",
+    "きく": "きく",
+    "かく": "かく",
+    "いく": "いく",
+    "こえ": "こえ",
+    "いけ": "いけ",
+    "ここ": "ここ",
+    "あ": "あ",
+    "お": "お",
+    "め": "め",
+    "の": "の",
+    "さ": "さ",
+    "き": "き",
+    "ち": "ち",
+    "け": "け",
+    "は": "は",
+    "に": "に",
+    "い": "い",
+    "う": "う",
+    "か": "か",
+    "く": "く",
+    "こ": "こ",
+    "あさ": "あさ",
+    "おき": "おき"
+  }
+}

@@ -1,0 +1,1178 @@
+{
+  "id": "n5-20",
+  "goalsVi": [
+    "Xin phép với 〜てもいいですか và trả lời: ええ、どうぞ／すみません、ちょっと…",
+    "Nói điều bị cấm, nội quy với 〜てはいけません: 廊下を走ってはいけません",
+    "Phân biệt các cặp động từ: 窓を開けます／窓が開きます, 電気を消します／電気が消えます"
+  ],
+  "words": [
+    {
+      "no": 9,
+      "word": "開ける",
+      "meaningsVi": [
+        "mở (cửa, cửa sổ, hộp…)"
+      ],
+      "noteVi": "Tha động từ: người mở một vật, dùng を: 窓を開けます. Tự động từ tương ứng là 開く (あく): 窓が開きます. Nhóm II: 開けます → 開けて.",
+      "examples": [
+        {
+          "ja": "暑いですから、窓を開けてもいいですか。",
+          "vi": "Nóng quá, tôi mở cửa sổ được không?"
+        },
+        {
+          "ja": "ドアを開けてください。",
+          "vi": "Anh chị mở cửa giúp tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 291,
+      "word": "閉める",
+      "meaningsVi": [
+        "đóng (cửa, cửa sổ…)"
+      ],
+      "noteVi": "Tha động từ, dùng を: ドアを閉めます. Tự động từ tương ứng: 閉まる (ドアが閉まります). Đọc giống 締める (thắt cà vạt) nhưng khác chữ.",
+      "examples": [
+        {
+          "ja": "寒いですから、窓を閉めてください。",
+          "vi": "Lạnh quá, anh chị đóng cửa sổ giúp tôi."
+        },
+        {
+          "ja": "ドアを閉めてください。",
+          "vi": "Xin đóng cửa lại."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 8,
+      "word": "開く",
+      "meaningsVi": [
+        "mở ra (tự động từ)",
+        "(cửa hàng) mở cửa"
+      ],
+      "noteVi": "Tự động từ: nói về vật (cửa tự mở ra, cửa hàng mở cửa), dùng が: ドアが開きます. 窓が開いています: cửa sổ đang mở (trạng thái). Ở đây 開く đọc là あく; Nhóm I: 開きます → 開いて.",
+      "examples": [
+        {
+          "ja": "窓が開いています。",
+          "vi": "Cửa sổ đang mở."
+        },
+        {
+          "ja": "銀行は9時に開きます。",
+          "vi": "Ngân hàng mở cửa lúc 9 giờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 289,
+      "word": "閉まる",
+      "meaningsVi": [
+        "đóng lại (tự động từ)",
+        "(cửa hàng) đóng cửa"
+      ],
+      "noteVi": "Tự động từ, dùng が: ドアが閉まります. 閉まっています: đang đóng (trạng thái). Nhóm I: 閉まります → 閉まって.",
+      "examples": [
+        {
+          "ja": "ドアが閉まります。",
+          "vi": "Cửa sắp đóng. (thông báo trên tàu)"
+        },
+        {
+          "ja": "店はもう閉まっています。",
+          "vi": "Cửa hàng đã đóng cửa rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 391,
+      "word": "つける",
+      "meaningsVi": [
+        "bật (đèn, tivi, máy)"
+      ],
+      "noteVi": "Bật đèn, bật tivi: 電気をつけます, テレビをつけます. Ngược nghĩa là 消します. Chữ Hán: 点ける. Nhóm II.",
+      "examples": [
+        {
+          "ja": "テレビをつけてもいいですか。",
+          "vi": "Tôi bật tivi được không?"
+        },
+        {
+          "ja": "電気をつけてください。",
+          "vi": "Anh chị bật đèn lên giúp tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 221,
+      "word": "消す",
+      "meaningsVi": [
+        "tắt (đèn, tivi, máy)",
+        "xóa (chữ)"
+      ],
+      "noteVi": "Tha động từ, dùng を: 電気を消します. Xóa chữ cũng là 消します. Tự động từ tương ứng: 消える. Nhóm I: 消します → 消して.",
+      "examples": [
+        {
+          "ja": "テレビを消して、宿題をします。",
+          "vi": "Tôi tắt tivi rồi làm bài tập."
+        },
+        {
+          "ja": "電気を消してください。",
+          "vi": "Anh chị tắt đèn giúp tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 180,
+      "word": "消える",
+      "meaningsVi": [
+        "tắt (tự tắt)",
+        "biến mất"
+      ],
+      "noteVi": "Tự động từ, dùng が: 電気が消えます (đèn tắt). Nhóm II: 消えます → 消えて.",
+      "examples": [
+        {
+          "ja": "部屋の電気が消えています。",
+          "vi": "Đèn trong phòng đang tắt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 411,
+      "word": "電気",
+      "meaningsVi": [
+        "điện",
+        "đèn điện"
+      ],
+      "noteVi": "Âm Hán Việt \"điện khí\". Trong nhà, 電気 thường là đèn: 電気をつけます (bật đèn), 電気を消します (tắt đèn).",
+      "examples": [
+        {
+          "ja": "電気をつけてもいいですか。",
+          "vi": "Tôi bật đèn được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 588,
+      "word": "窓",
+      "meaningsVi": [
+        "cửa sổ"
+      ],
+      "noteVi": "Âm Hán Việt \"song\" (như trong \"song cửa\").",
+      "examples": [
+        {
+          "ja": "窓を開けてもいいですか。",
+          "vi": "Tôi mở cửa sổ được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 415,
+      "word": "ドア",
+      "meaningsVi": [
+        "cửa (cửa phòng, cửa xe, cửa tàu)"
+      ],
+      "noteVi": "ドア là cửa có cánh kiểu Tây: cửa phòng, cửa xe, cửa tàu. Cửa sổ là 窓.",
+      "examples": [
+        {
+          "ja": "田中さんはドアの前に立っています。",
+          "vi": "Anh Tanaka đang đứng trước cửa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 665,
+      "word": "廊下",
+      "meaningsVi": [
+        "hành lang"
+      ],
+      "noteVi": "Âm Hán Việt \"lang hạ\". Nội quy trường Nhật hay có câu 「廊下を走ってはいけません」.",
+      "examples": [
+        {
+          "ja": "トイレは廊下の右にあります。",
+          "vi": "Nhà vệ sinh ở bên phải hành lang."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 495,
+      "word": "走る",
+      "meaningsVi": [
+        "chạy"
+      ],
+      "noteVi": "Đường chạy, nơi chạy qua dùng を: 公園を走ります, 廊下を走ります. Nhóm I (dù trông giống nhóm II): 走ります → 走って.",
+      "examples": [
+        {
+          "ja": "毎朝、公園を走っています。",
+          "vi": "Sáng nào tôi cũng chạy bộ ở công viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 324,
+      "word": "座る",
+      "meaningsVi": [
+        "ngồi"
+      ],
+      "noteVi": "Chỗ ngồi dùng に: いすに座ります. Nhóm I: 座ります → 座って.",
+      "examples": [
+        {
+          "ja": "ここに座ってもいいですか。",
+          "vi": "Tôi ngồi đây được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 361,
+      "word": "立つ",
+      "meaningsVi": [
+        "đứng, đứng dậy"
+      ],
+      "noteVi": "Nhóm I: 立ちます → 立って. 立っています: đang đứng (trạng thái).",
+      "examples": [
+        {
+          "ja": "皆さん、立ってください。",
+          "vi": "Mời mọi người đứng dậy."
+        },
+        {
+          "ja": "田中さんはドアの前に立っています。",
+          "vi": "Anh Tanaka đang đứng trước cửa."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 385,
+      "word": "使う",
+      "meaningsVi": [
+        "dùng, sử dụng"
+      ],
+      "noteVi": "Nhóm I: 使います → 使って. Mượn dùng tại chỗ một lúc: 「〜を使ってもいいですか」.",
+      "examples": [
+        {
+          "ja": "このペンを使ってもいいですか。",
+          "vi": "Tôi dùng cái bút này được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 232,
+      "word": "声",
+      "meaningsVi": [
+        "giọng, tiếng (người, con vật)"
+      ],
+      "noteVi": "Nói to: 大きい声で話します (\"bằng giọng to\", dùng で). Tiếng động của đồ vật là 音 (おと), không phải 声.",
+      "examples": [
+        {
+          "ja": "大きい声で話してください。",
+          "vi": "Anh chị nói to lên giúp tôi."
+        },
+        {
+          "ja": "図書館では小さい声で話してください。",
+          "vi": "Trong thư viện xin nói nhỏ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 366,
+      "word": "たばこ",
+      "meaningsVi": [
+        "thuốc lá"
+      ],
+      "noteVi": "Hút thuốc: たばこを吸います. Thuốc chữa bệnh là 薬 (くすり), một từ khác hẳn.",
+      "examples": [
+        {
+          "ja": "ここでたばこを吸ってもいいですか。",
+          "vi": "Tôi hút thuốc ở đây được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 308,
+      "word": "吸う",
+      "meaningsVi": [
+        "hút (thuốc)",
+        "hít (không khí)"
+      ],
+      "noteVi": "Nhóm I: 吸います → 吸って.",
+      "examples": [
+        {
+          "ja": "父はたばこを吸いません。",
+          "vi": "Bố tôi không hút thuốc."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 326,
+      "word": "生徒",
+      "meaningsVi": [
+        "học sinh (trung học)",
+        "học viên (của một lớp, một thầy)"
+      ],
+      "noteVi": "Âm Hán Việt \"sinh đồ\". 生徒 thường chỉ học sinh cấp 2, cấp 3 hoặc học viên của một lớp học; sinh viên đại học là 学生.",
+      "examples": [
+        {
+          "ja": "このクラスには生徒が30人います。",
+          "vi": "Lớp này có 30 học sinh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 213,
+      "word": "クラス",
+      "meaningsVi": [
+        "lớp (học)"
+      ],
+      "noteVi": "クラス là lớp (nhóm người học cùng nhau); phòng học là 教室.",
+      "examples": [
+        {
+          "ja": "私のクラスにはベトナム人が5人います。",
+          "vi": "Lớp tôi có 5 người Việt Nam."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 558,
+      "word": "ペン",
+      "meaningsVi": [
+        "bút (mực)"
+      ],
+      "noteVi": "ペン là bút viết mực nói chung; bút bi là ボールペン.",
+      "examples": [
+        {
+          "ja": "ペンで書いてください。",
+          "vi": "Hãy viết bằng bút mực."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 250,
+      "word": "コピーする",
+      "meaningsVi": [
+        "sao chụp, photo"
+      ],
+      "noteVi": "Như \"photo\" trong tiếng Việt. コピー cũng là danh từ: bản photo, bản sao.",
+      "examples": [
+        {
+          "ja": "この紙をコピーしてもいいですか。",
+          "vi": "Tôi photo tờ giấy này được không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 143,
+      "word": "階段",
+      "meaningsVi": [
+        "cầu thang (bộ)"
+      ],
+      "noteVi": "Âm Hán Việt \"giai đoạn\" nhưng nghĩa là cầu thang (giai: bậc), không phải \"giai đoạn\" như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "階段で2階に行ってください。",
+          "vi": "Anh chị đi cầu thang bộ lên tầng 2."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 92,
+      "word": "エレベーター",
+      "meaningsVi": [
+        "thang máy"
+      ],
+      "noteVi": "Đi bằng thang máy dùng で: エレベーターで行きます.",
+      "examples": [
+        {
+          "ja": "エレベーターで5階に行きます。",
+          "vi": "Tôi đi thang máy lên tầng 5."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "電",
+      "meaningVi": "điện",
+      "noteVi": "Bộ 雨 (mưa) ở trên: tia chớp trong cơn mưa. Từ: 電気 (điện, đèn), 電車 (tàu điện), 電話 (điện thoại).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "te-mo-ii",
+      "titleVi": "〜てもいいです: được phép…",
+      "summaryVi": "V てもいいです: được làm…; V てもいいですか: (tôi) … được không?",
+      "explanationVi": [
+        "Thể て + **もいいです** nghĩa là \"làm … cũng được, được phép …\": 「この部屋を使ってもいいです」 (anh chị dùng phòng này cũng được).",
+        "Muốn xin phép thì hỏi **〜てもいいですか**, giống \"… được không?\" trong tiếng Việt: 「窓を開けてもいいですか」 (tôi mở cửa sổ được không?). Chú ý trợ từ vẫn theo động từ: nơi làm việc gì dùng で (ここで写真を撮っても…), nơi ngồi dùng に (ここに座っても…).",
+        "Trả lời đồng ý: 「はい、いいですよ」, 「ええ、どうぞ」. Từ chối lịch sự: 「すみません、ちょっと…」 (người Nhật thường bỏ lửng câu, không nói thẳng \"không\"). Trả lời bằng 〜てはいけません (mẫu sau) nghe rất nghiêm."
+      ],
+      "patterns": [
+        "V て も いいです",
+        "V て も いいですか"
+      ],
+      "examples": [
+        {
+          "ja": "ここで写真を撮ってもいいですか。",
+          "vi": "Tôi chụp ảnh ở đây được không?"
+        },
+        {
+          "ja": "暑いですから、窓を開けてもいいですか。",
+          "vi": "Nóng quá, tôi mở cửa sổ được không?"
+        },
+        {
+          "ja": "この部屋を使ってもいいです。",
+          "vi": "Anh chị dùng phòng này cũng được."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ここにたばこを吸ってもいいですか。",
+          "right": "ここでたばこを吸ってもいいですか。",
+          "noteVi": "Nơi làm một hành động dùng で, không dùng に như \"ở\" trong \"ở đây\". に dùng với 座ります, 住んでいます…"
+        },
+        {
+          "wrong": "写真を撮りてもいいですか。",
+          "right": "写真を撮ってもいいですか。",
+          "noteVi": "撮ります là nhóm I (trước ます là り) nên thể て là 撮って."
+        },
+        {
+          "wrong": "窓を開けますもいいですか。",
+          "right": "窓を開けてもいいですか。",
+          "noteVi": "もいいです đi sau thể て, không đi sau thể ます."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "te-wa-ikenai",
+      "titleVi": "〜てはいけません: không được…",
+      "summaryVi": "V てはいけません: không được làm (điều cấm, nội quy, lời nhắc nghiêm).",
+      "explanationVi": [
+        "Thể て + **はいけません** nghĩa là \"không được …\", dùng để nói **điều cấm**, nội quy: 「ここでたばこを吸ってはいけません」 (ở đây không được hút thuốc). Chữ は ở đây đọc là **wa**.",
+        "Tiếng Việt đặt \"không được, cấm\" trước động từ; tiếng Nhật đặt いけません ở **cuối câu**, sau động từ thể て + は.",
+        "Câu này nghe nghiêm: thầy cô, bố mẹ, biển báo, nội quy hay dùng. Khi người khác xin phép mình (〜てもいいですか), từ chối nhẹ nhàng bằng 「すみません、ちょっと…」 thì lịch sự hơn."
+      ],
+      "patterns": [
+        "V て は いけません",
+        "N で V て は いけません"
+      ],
+      "examples": [
+        {
+          "ja": "廊下を走ってはいけません。",
+          "vi": "Không được chạy ngoài hành lang."
+        },
+        {
+          "ja": "ここでたばこを吸ってはいけません。",
+          "vi": "Ở đây không được hút thuốc."
+        },
+        {
+          "ja": "図書館では大きい声で話してはいけません。",
+          "vi": "Trong thư viện không được nói to."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ここで写真を撮ってもいいじゃありません。",
+          "right": "ここで写真を撮ってはいけません。",
+          "noteVi": "\"Không được\" không phải là phủ định của 〜てもいいです; dùng mẫu riêng 〜てはいけません."
+        },
+        {
+          "wrong": "いけません、廊下を走って。",
+          "right": "廊下を走ってはいけません。",
+          "noteVi": "いけません đứng cuối câu, sau thể て + は, không đứng đầu câu như \"cấm\" trong tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-20-e01",
+      "type": "fill",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "before": "このペンを",
+      "after": "もいいですか。",
+      "answers": [
+        "使って"
+      ],
+      "options": [
+        "使います",
+        "使って",
+        "使いて"
+      ],
+      "vi": "Tôi dùng cái bút này được không?",
+      "explainVi": "もいいですか đi sau thể て: 使います → 使って."
+    },
+    {
+      "id": "n5-20-e02",
+      "type": "choice",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "promptVi": "Bạn muốn xin phép ngồi ở đây. Nói câu nào?",
+      "options": [
+        "ここに座ってください。",
+        "ここに座っています。",
+        "ここに座ってもいいですか。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-20-e03",
+      "type": "order",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "vi": "Tôi mở cửa sổ được không?",
+      "tiles": [
+        "いいですか",
+        "開けて",
+        "窓を",
+        "も"
+      ],
+      "answers": [
+        "窓を開けてもいいですか"
+      ]
+    },
+    {
+      "id": "n5-20-e04",
+      "type": "choice",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "promptVi": "Bạn đồng ý. Trả lời thế nào?",
+      "ja": "写真を撮ってもいいですか。",
+      "options": [
+        "すみません、ちょっと…。",
+        "ええ、どうぞ。",
+        "いいえ、まだです。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-20-e05",
+      "type": "choice",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "promptVi": "Bạn muốn từ chối một cách lịch sự. Trả lời thế nào?",
+      "ja": "このかばんを使ってもいいですか。",
+      "options": [
+        "ええ、どうぞ。",
+        "はい、いいですよ。",
+        "すみません、ちょっと…。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-20-e06",
+      "type": "fill",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "before": "ここ",
+      "after": "たばこを吸ってもいいですか。",
+      "answers": [
+        "で"
+      ],
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "vi": "Tôi hút thuốc ở đây được không?",
+      "explainVi": "Nơi làm một hành động dùng で."
+    },
+    {
+      "id": "n5-20-e07",
+      "type": "order",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "vi": "Tôi photo tờ giấy này được không?",
+      "tiles": [
+        "も",
+        "紙を",
+        "いいですか",
+        "この",
+        "コピーして"
+      ],
+      "answers": [
+        "この紙をコピーしてもいいですか"
+      ]
+    },
+    {
+      "id": "n5-20-e08",
+      "type": "choice",
+      "grammar": [
+        "te-wa-ikenai"
+      ],
+      "promptVi": "Nội quy thư viện: \"Không được nói to\". Câu nào đúng?",
+      "options": [
+        "図書館では大きい声で話してもいいです。",
+        "図書館では大きい声で話してはいけません。",
+        "図書館では大きい声で話してください。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-20-e09",
+      "type": "order",
+      "grammar": [
+        "te-wa-ikenai"
+      ],
+      "vi": "Không được chạy ngoài hành lang.",
+      "tiles": [
+        "は",
+        "走って",
+        "いけません",
+        "廊下を"
+      ],
+      "answers": [
+        "廊下を走ってはいけません"
+      ]
+    },
+    {
+      "id": "n5-20-e10",
+      "type": "fill",
+      "grammar": [
+        "te-wa-ikenai"
+      ],
+      "before": "ここでたばこを吸って",
+      "after": "いけません。",
+      "answers": [
+        "は"
+      ],
+      "options": [
+        "も",
+        "は",
+        "を"
+      ],
+      "vi": "Ở đây không được hút thuốc."
+    },
+    {
+      "id": "n5-20-e11",
+      "type": "choice",
+      "grammar": [
+        "te-wa-ikenai"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Không được dùng thang máy\"?",
+      "options": [
+        "エレベーターを使ってもいいです。",
+        "エレベーターを使ってください。",
+        "エレベーターを使ってはいけません。"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "n5-20-e12",
+      "type": "fill",
+      "grammar": [
+        "te-iru"
+      ],
+      "before": "部屋の電気",
+      "after": "消えています。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "を",
+        "が",
+        "で"
+      ],
+      "vi": "Đèn trong phòng đang tắt.",
+      "explainVi": "消えます là tự động từ (đèn tự tắt): dùng が. 電気を消します mới dùng を."
+    },
+    {
+      "id": "n5-20-e13",
+      "type": "choice",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "promptVi": "Hãy tắt tivi. Chọn động từ đúng.",
+      "ja": "テレビを＿ください。",
+      "options": [
+        "消えて",
+        "消して",
+        "つけて"
+      ],
+      "answer": 1,
+      "explainVi": "Tắt một vật (dùng を) là 消します; 消えます là tự động từ."
+    },
+    {
+      "id": "n5-20-e14",
+      "type": "choice",
+      "grammar": [
+        "te-iru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Cửa sổ đang mở\"?",
+      "options": [
+        "窓が開いています。",
+        "窓を開けています。",
+        "窓が閉まっています。"
+      ],
+      "answer": 0,
+      "explainVi": "Trạng thái của vật: tự động từ + が + ています. 窓を開けています là \"(ai đó) đang mở cửa sổ\"."
+    },
+    {
+      "id": "n5-20-e15",
+      "type": "match",
+      "promptVi": "Ghép câu với nghĩa",
+      "pairs": [
+        [
+          "窓を開けます",
+          "mở cửa sổ"
+        ],
+        [
+          "窓が開きます",
+          "cửa sổ mở ra"
+        ],
+        [
+          "電気を消します",
+          "tắt đèn"
+        ],
+        [
+          "電気が消えます",
+          "đèn tắt"
+        ]
+      ]
+    },
+    {
+      "id": "n5-20-e16",
+      "type": "match",
+      "promptVi": "Ghép động từ với nghĩa",
+      "pairs": [
+        [
+          "開けます",
+          "mở"
+        ],
+        [
+          "閉めます",
+          "đóng"
+        ],
+        [
+          "つけます",
+          "bật"
+        ],
+        [
+          "消します",
+          "tắt"
+        ]
+      ]
+    },
+    {
+      "id": "n5-20-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "廊下",
+          "hành lang"
+        ],
+        [
+          "階段",
+          "cầu thang"
+        ],
+        [
+          "窓",
+          "cửa sổ"
+        ],
+        [
+          "声",
+          "giọng nói"
+        ],
+        [
+          "生徒",
+          "học sinh"
+        ]
+      ]
+    },
+    {
+      "id": "n5-20-e18",
+      "type": "choice",
+      "promptVi": "Trên tàu điện, loa thông báo cửa sắp đóng. Loa nói câu nào?",
+      "options": [
+        "ドアが閉まります。",
+        "ドアを閉めてもいいですか。",
+        "ドアが開いています。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-20-e19",
+      "type": "choice",
+      "grammar": [
+        "te-kudasai"
+      ],
+      "promptVi": "Bạn muốn người kia nói to lên. Nói câu nào?",
+      "options": [
+        "小さい声で話してください。",
+        "大きい声で話してください。",
+        "大きい声で話してもいいです。"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "n5-20-e20",
+      "type": "translate",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "vi": "Tôi bật đèn được không?",
+      "answers": [
+        "電気をつけて(も)いいですか。"
+      ],
+      "examples": [
+        {
+          "answer": "でんきをつけてもいいですか",
+          "score": 100
+        },
+        {
+          "answer": "電気がつけてもいいですか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "つけます là ngoại động từ: 電気をつけます."
+        },
+        {
+          "answer": "電気を消してもいいですか。",
+          "score": 0,
+          "note": "Sai nghĩa: 消す là tắt."
+        }
+      ]
+    },
+    {
+      "id": "n5-20-e21",
+      "type": "translate",
+      "grammar": [
+        "te-wa-ikenai"
+      ],
+      "vi": "Trong lớp học không được ăn.",
+      "answers": [
+        "教室で食べてはいけません。",
+        "教室では食べてはいけません。"
+      ],
+      "examples": [
+        {
+          "answer": "きょうしつでたべてはいけません",
+          "score": 100
+        },
+        {
+          "answer": "教室に食べてはいけません。",
+          "score": 80,
+          "issues": [
+            "ni_de"
+          ],
+          "note": "Nơi diễn ra hành động dùng で."
+        },
+        {
+          "answer": "教室で食べてもいいです。",
+          "score": 0,
+          "note": "Sai nghĩa: てもいい là được phép."
+        }
+      ]
+    },
+    {
+      "id": "n5-20-e22",
+      "type": "question",
+      "grammar": [
+        "te-wa-ikenai",
+        "te-mo-ii"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "この部屋でたばこを吸ってもいいですか。",
+        "promptVi": "Tôi hút thuốc trong phòng này được không? (Hãy trả lời: Không, không được hút.)",
+        "answers": [
+          "いいえ、吸ってはいけません。",
+          "(いいえ、)(この部屋で(は))(たばこを)吸ってはいけません。",
+          "いいえ、いけません。"
+        ],
+        "examples": [
+          {
+            "answer": "いいえ、すってはいけません",
+            "score": 100
+          },
+          {
+            "answer": "いいえ、吸いてはいけません。",
+            "score": 80,
+            "issues": [
+              "te_form"
+            ],
+            "note": "吸います → 吸って."
+          },
+          {
+            "answer": "はい、吸ってもいいです。",
+            "score": 0,
+            "note": "Sai nội dung: phải trả lời không được."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-20-e23",
+      "type": "question",
+      "grammar": [
+        "te-mo-ii"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "エレベーターを使ってもいいですか。",
+        "promptVi": "Tôi dùng thang máy được không? (Hãy trả lời: Vâng, được.)",
+        "answers": [
+          "はい、使ってもいいです。",
+          "([はい|ええ]、)(エレベーターを)使って(も)いいです。",
+          "[はい|ええ]、いいです。",
+          "([はい|ええ]、)どうぞ。",
+          "([はい|ええ]、)(どうぞ、)使ってください。"
+        ],
+        "examples": [
+          {
+            "answer": "はい、つかってもいいです",
+            "score": 100
+          },
+          {
+            "answer": "はい、使いてもいいです。",
+            "score": 80,
+            "issues": [
+              "te_form"
+            ],
+            "note": "使います → 使って."
+          },
+          {
+            "answer": "いいえ、使ってはいけません。",
+            "score": 0,
+            "note": "Sai nội dung: phải trả lời được."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-20-e24",
+      "type": "translate",
+      "grammar": [
+        "te-wa-ikenai"
+      ],
+      "vi": "Không được ngồi ở đây.",
+      "answers": [
+        "ここに座ってはいけません。"
+      ],
+      "examples": [
+        {
+          "answer": "ここにすわってはいけません",
+          "score": 100
+        },
+        {
+          "answer": "ここに座りてはいけません。",
+          "score": 80,
+          "issues": [
+            "te_form"
+          ],
+          "note": "座ります → 座って."
+        },
+        {
+          "answer": "ここで座ってはいけません。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Ngồi vào chỗ nào: ここに座ります."
+        },
+        {
+          "answer": "ここに座ってもいいです。",
+          "score": 0,
+          "note": "Sai nghĩa: てもいい là được phép."
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "暑いですから、窓を開けてもいいですか。": "{暑|あつ}いですから、{窓|まど}を{開|あ}けてもいいですか。",
+    "ドアを開けてください。": "ドアを{開|あ}けてください。",
+    "寒いですから、窓を閉めてください。": "{寒|さむ}いですから、{窓|まど}を{閉|し}めてください。",
+    "ドアを閉めてください。": "ドアを{閉|し}めてください。",
+    "窓が開いています。": "{窓|まど}が{開|あ}いています。",
+    "銀行は9時に開きます。": "{銀|ぎん}{行|こう}は{9時|くじ}に{開|あ}きます。",
+    "ドアが閉まります。": "ドアが{閉|し}まります。",
+    "店はもう閉まっています。": "{店|みせ}はもう{閉|し}まっています。",
+    "テレビをつけてもいいですか。": "テレビをつけてもいいですか。",
+    "電気をつけてください。": "{電|でん}{気|き}をつけてください。",
+    "テレビを消して、宿題をします。": "テレビを{消|け}して、{宿|しゅく}{題|だい}をします。",
+    "電気を消してください。": "{電|でん}{気|き}を{消|け}してください。",
+    "部屋の電気が消えています。": "{部屋|へや}の{電|でん}{気|き}が{消|き}えています。",
+    "電気をつけてもいいですか。": "{電|でん}{気|き}をつけてもいいですか。",
+    "窓を開けてもいいですか。": "{窓|まど}を{開|あ}けてもいいですか。",
+    "田中さんはドアの前に立っています。": "{田中|たなか}さんはドアの{前|まえ}に{立|た}っています。",
+    "トイレは廊下の右にあります。": "トイレは{廊|ろう}{下|か}の{右|みぎ}にあります。",
+    "毎朝、公園を走っています。": "{毎|まい}{朝|あさ}、{公|こう}{園|えん}を{走|はし}っています。",
+    "ここに座ってもいいですか。": "ここに{座|すわ}ってもいいですか。",
+    "皆さん、立ってください。": "{皆|みな}さん、{立|た}ってください。",
+    "このペンを使ってもいいですか。": "このペンを{使|つか}ってもいいですか。",
+    "大きい声で話してください。": "{大|おお}きい{声|こえ}で{話|はな}してください。",
+    "図書館では小さい声で話してください。": "{図|と}{書|しょ}{館|かん}では{小|ちい}さい{声|こえ}で{話|はな}してください。",
+    "ここでたばこを吸ってもいいですか。": "ここでたばこを{吸|す}ってもいいですか。",
+    "父はたばこを吸いません。": "{父|ちち}はたばこを{吸|す}いません。",
+    "このクラスには生徒が30人います。": "このクラスには{生|せい}{徒|と}が30{人|にん}います。",
+    "私のクラスにはベトナム人が5人います。": "{私|わたし}のクラスにはベトナム{人|じん}が5{人|にん}います。",
+    "ペンで書いてください。": "ペンで{書|か}いてください。",
+    "この紙をコピーしてもいいですか。": "この{紙|かみ}をコピーしてもいいですか。",
+    "階段で2階に行ってください。": "{階|かい}{段|だん}で2{階|かい}に{行|い}ってください。",
+    "エレベーターで5階に行きます。": "エレベーターで5{階|かい}に{行|い}きます。",
+    "ここで写真を撮ってもいいですか。": "ここで{写|しゃ}{真|しん}を{撮|と}ってもいいですか。",
+    "この部屋を使ってもいいです。": "この{部屋|へや}を{使|つか}ってもいいです。",
+    "ここにたばこを吸ってもいいですか。": "ここにたばこを{吸|す}ってもいいですか。",
+    "写真を撮ってもいいですか。": "{写|しゃ}{真|しん}を{撮|と}ってもいいですか。",
+    "写真を撮りてもいいですか。": "{写|しゃ}{真|しん}を{撮|と}りてもいいですか。",
+    "窓を開けますもいいですか。": "{窓|まど}を{開|あ}けますもいいですか。",
+    "廊下を走ってはいけません。": "{廊|ろう}{下|か}を{走|はし}ってはいけません。",
+    "ここでたばこを吸ってはいけません。": "ここでたばこを{吸|す}ってはいけません。",
+    "図書館では大きい声で話してはいけません。": "{図|と}{書|しょ}{館|かん}では{大|おお}きい{声|こえ}で{話|はな}してはいけません。",
+    "ここで写真を撮ってはいけません。": "ここで{写|しゃ}{真|しん}を{撮|と}ってはいけません。",
+    "ここで写真を撮ってもいいじゃありません。": "ここで{写|しゃ}{真|しん}を{撮|と}ってもいいじゃありません。",
+    "いけません、廊下を走って。": "いけません、{廊|ろう}{下|か}を{走|はし}って。",
+    "使って": "{使|つか}って",
+    "使います": "{使|つか}います",
+    "使いて": "{使|つか}いて",
+    "ここに座ってください。": "ここに{座|すわ}ってください。",
+    "ここに座っています。": "ここに{座|すわ}っています。",
+    "いいですか": "いいですか",
+    "開けて": "{開|あ}けて",
+    "窓を": "{窓|まど}を",
+    "も": "も",
+    "窓を開けてもいいですか": "{窓|まど}を{開|あ}けてもいいですか",
+    "すみません、ちょっと…。": "すみません、ちょっと…。",
+    "ええ、どうぞ。": "ええ、どうぞ。",
+    "いいえ、まだです。": "いいえ、まだです。",
+    "このかばんを使ってもいいですか。": "このかばんを{使|つか}ってもいいですか。",
+    "はい、いいですよ。": "はい、いいですよ。",
+    "で": "で",
+    "に": "に",
+    "を": "を",
+    "紙を": "{紙|かみ}を",
+    "この": "この",
+    "コピーして": "コピーして",
+    "この紙をコピーしてもいいですか": "この{紙|かみ}をコピーしてもいいですか",
+    "図書館では大きい声で話してもいいです。": "{図|と}{書|しょ}{館|かん}では{大|おお}きい{声|こえ}で{話|はな}してもいいです。",
+    "図書館では大きい声で話してください。": "{図|と}{書|しょ}{館|かん}では{大|おお}きい{声|こえ}で{話|はな}してください。",
+    "は": "は",
+    "走って": "{走|はし}って",
+    "いけません": "いけません",
+    "廊下を": "{廊|ろう}{下|か}を",
+    "廊下を走ってはいけません": "{廊|ろう}{下|か}を{走|はし}ってはいけません",
+    "エレベーターを使ってもいいです。": "エレベーターを{使|つか}ってもいいです。",
+    "エレベーターを使ってください。": "エレベーターを{使|つか}ってください。",
+    "エレベーターを使ってはいけません。": "エレベーターを{使|つか}ってはいけません。",
+    "が": "が",
+    "テレビを＿ください。": "テレビを＿ください。",
+    "消えて": "{消|き}えて",
+    "消して": "{消|け}して",
+    "つけて": "つけて",
+    "窓を開けています。": "{窓|まど}を{開|あ}けています。",
+    "窓が閉まっています。": "{窓|まど}が{閉|し}まっています。",
+    "窓を開けます": "{窓|まど}を{開|あ}けます",
+    "窓が開きます": "{窓|まど}が{開|あ}きます",
+    "電気を消します": "{電|でん}{気|き}を{消|け}します",
+    "電気が消えます": "{電|でん}{気|き}が{消|き}えます",
+    "開けます": "{開|あ}けます",
+    "閉めます": "{閉|し}めます",
+    "つけます": "つけます",
+    "消します": "{消|け}します",
+    "廊下": "{廊|ろう}{下|か}",
+    "階段": "{階|かい}{段|だん}",
+    "窓": "{窓|まど}",
+    "声": "{声|こえ}",
+    "生徒": "{生|せい}{徒|と}",
+    "ドアを閉めてもいいですか。": "ドアを{閉|し}めてもいいですか。",
+    "ドアが開いています。": "ドアが{開|あ}いています。",
+    "小さい声で話してください。": "{小|ちい}さい{声|こえ}で{話|はな}してください。",
+    "大きい声で話してもいいです。": "{大|おお}きい{声|こえ}で{話|はな}してもいいです。",
+    "教室で食べてはいけません。": "{教|きょう}{室|しつ}で{食|た}べてはいけません。",
+    "教室では食べてはいけません。": "{教|きょう}{室|しつ}では{食|た}べてはいけません。",
+    "この部屋でたばこを吸ってもいいですか。": "この{部屋|へや}でたばこを{吸|す}ってもいいですか。",
+    "いいえ、吸ってはいけません。": "いいえ、{吸|す}ってはいけません。",
+    "いいえ、この部屋ではたばこを吸ってはいけません。": "いいえ、この{部屋|へや}ではたばこを{吸|す}ってはいけません。",
+    "いいえ、いけません。": "いいえ、いけません。",
+    "エレベーターを使ってもいいですか。": "エレベーターを{使|つか}ってもいいですか。",
+    "はい、使ってもいいです。": "はい、{使|つか}ってもいいです。",
+    "はい、エレベーターを使ってもいいです。": "はい、エレベーターを{使|つか}ってもいいです。",
+    "はい、いいです。": "はい、いいです。",
+    "はい、どうぞ。": "はい、どうぞ。",
+    "はい、どうぞ、使ってください。": "はい、どうぞ、{使|つか}ってください。",
+    "ここに座ってはいけません。": "ここに{座|すわ}ってはいけません。"
+  }
+}

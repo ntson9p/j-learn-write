@@ -1,0 +1,1431 @@
+{
+  "id": "n5-16",
+  "goalsVi": [
+    "So sánh hai thứ: 電車はバスより速いです",
+    "Hỏi và trả lời \"cái nào hơn\": コーヒーと紅茶とどちらが好きですか",
+    "Nói cái gì \"nhất\" trong một nhóm: スポーツの中で何がいちばん好きですか",
+    "Nói về bốn mùa và thời tiết: 春は暖かいです、雨が降ります"
+  ],
+  "words": [
+    {
+      "no": 1317,
+      "word": "方",
+      "meaningsVi": [
+        "phía, bên (khi so sánh: 〜の方が)"
+      ],
+      "noteVi": "Đọc ほう. Cùng chữ 方, đọc かた là \"vị, người\" (lịch sự) hoặc \"cách làm\"; sẽ học sau.",
+      "examples": [
+        {
+          "ja": "電車の方が速いです。",
+          "vi": "Tàu điện nhanh hơn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 508,
+      "word": "春",
+      "meaningsVi": [
+        "mùa xuân"
+      ],
+      "noteVi": "Bốn mùa 春, 夏, 秋, 冬 đọc theo âm Nhật: はる, なつ, あき, ふゆ.",
+      "examples": [
+        {
+          "ja": "日本の春は暖かいです。",
+          "vi": "Mùa xuân ở Nhật ấm áp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 452,
+      "word": "夏",
+      "meaningsVi": [
+        "mùa hè"
+      ],
+      "examples": [
+        {
+          "ja": "ベトナムの夏はとても暑いです。",
+          "vi": "Mùa hè ở Việt Nam rất nóng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 7,
+      "word": "秋",
+      "meaningsVi": [
+        "mùa thu"
+      ],
+      "examples": [
+        {
+          "ja": "秋は果物がおいしいです。",
+          "vi": "Mùa thu hoa quả ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 547,
+      "word": "冬",
+      "meaningsVi": [
+        "mùa đông"
+      ],
+      "examples": [
+        {
+          "ja": "ハノイの冬は寒いです。",
+          "vi": "Mùa đông ở Hà Nội lạnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 37,
+      "word": "雨",
+      "meaningsVi": [
+        "mưa"
+      ],
+      "noteVi": "\"Trời mưa\" nói là 雨が降ります (mưa rơi). Nói về thời tiết của một ngày thì dùng です: 今日は雨です.",
+      "examples": [
+        {
+          "ja": "昨日は雨でした。",
+          "vi": "Hôm qua trời mưa."
+        },
+        {
+          "ja": "6月は雨が多いです。",
+          "vi": "Tháng 6 mưa nhiều."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 637,
+      "word": "雪",
+      "meaningsVi": [
+        "tuyết"
+      ],
+      "examples": [
+        {
+          "ja": "ハノイは雪が降りません。",
+          "vi": "Ở Hà Nội tuyết không rơi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 510,
+      "word": "晴れ",
+      "meaningsVi": [
+        "trời nắng, trời quang"
+      ],
+      "noteVi": "晴れ là danh từ, nên nói 明日は晴れです (ngày mai trời nắng), quá khứ là 晴れでした.",
+      "examples": [
+        {
+          "ja": "明日は晴れです。",
+          "vi": "Ngày mai trời nắng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 210,
+      "word": "曇り",
+      "meaningsVi": [
+        "trời nhiều mây, trời âm u"
+      ],
+      "noteVi": "Danh từ, dùng giống 晴れ: 今日は曇りです.",
+      "examples": [
+        {
+          "ja": "今日は朝から曇りです。",
+          "vi": "Hôm nay trời âm u từ sáng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 155,
+      "word": "風",
+      "meaningsVi": [
+        "gió"
+      ],
+      "examples": [
+        {
+          "ja": "秋の風は涼しいです。",
+          "vi": "Gió mùa thu mát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 18,
+      "word": "暖かい",
+      "meaningsVi": [
+        "ấm, ấm áp"
+      ],
+      "noteVi": "Dùng cho thời tiết, không khí, căn phòng. Thời tiết: 暑い (nóng) – 暖かい (ấm) – 涼しい (mát) – 寒い (lạnh).",
+      "examples": [
+        {
+          "ja": "今日は暖かいですね。",
+          "vi": "Hôm nay trời ấm nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 315,
+      "word": "涼しい",
+      "meaningsVi": [
+        "mát, mát mẻ"
+      ],
+      "noteVi": "Mát dễ chịu (thời tiết, gió, căn phòng). Đồ ăn, đồ uống lạnh khi chạm vào dùng 冷たい (bài sau).",
+      "examples": [
+        {
+          "ja": "この部屋は涼しいです。",
+          "vi": "Căn phòng này mát."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 548,
+      "word": "降る",
+      "meaningsVi": [
+        "rơi (mưa, tuyết)"
+      ],
+      "noteVi": "Tiếng Việt nói \"trời mưa\", tiếng Nhật nói \"mưa rơi\": 雨が降ります. 降ります cũng có thể là thể ます của 降りる (おりる, xuống xe), học ở bài sau.",
+      "examples": [
+        {
+          "ja": "明日は雨が降りますか。",
+          "vi": "Ngày mai có mưa không?"
+        },
+        {
+          "ja": "昨日は雪が降りました。",
+          "vi": "Hôm qua tuyết rơi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 59,
+      "word": "いちばん",
+      "meaningsVi": [
+        "nhất",
+        "thứ nhất, số một"
+      ],
+      "noteVi": "Đặt trước tính từ để nói \"nhất\": いちばん好き (thích nhất). Kanji là 一番.",
+      "examples": [
+        {
+          "ja": "私は夏がいちばん好きです。",
+          "vi": "Tôi thích mùa hè nhất."
+        },
+        {
+          "ja": "この店のパンがいちばんおいしいです。",
+          "vi": "Bánh mì của tiệm này ngon nhất."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 647,
+      "word": "より",
+      "meaningsVi": [
+        "hơn (so với)"
+      ],
+      "noteVi": "Đứng sau thứ được đem ra làm mốc so sánh: バスより = so với xe buýt.",
+      "examples": [
+        {
+          "ja": "電車はバスより速いです。",
+          "vi": "Tàu điện nhanh hơn xe buýt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 432,
+      "word": "どっち",
+      "meaningsVi": [
+        "cái nào, bên nào (trong hai)"
+      ],
+      "noteVi": "Cách nói thân mật của どちら; dùng với bạn bè, người trong nhà.",
+      "examples": [
+        {
+          "ja": "コーヒーと紅茶とどっちがいいですか。",
+          "vi": "Cà phê với hồng trà, bạn chọn cái nào?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 230,
+      "word": "紅茶",
+      "meaningsVi": [
+        "hồng trà, trà đen"
+      ],
+      "noteVi": "Hán Việt \"hồng trà\": trà đen kiểu phương Tây, hay uống với sữa hoặc đường. お茶 thường là trà xanh Nhật.",
+      "examples": [
+        {
+          "ja": "私はコーヒーより紅茶が好きです。",
+          "vi": "Tôi thích hồng trà hơn cà phê."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 507,
+      "word": "速い",
+      "meaningsVi": [
+        "nhanh (tốc độ)"
+      ],
+      "noteVi": "Cùng đọc はやい với 早い (sớm, bài sau): 速い là nhanh, 早い là sớm.",
+      "examples": [
+        {
+          "ja": "この電車はとても速いです。",
+          "vi": "Chuyến tàu này rất nhanh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 110,
+      "word": "遅い",
+      "meaningsVi": [
+        "chậm",
+        "muộn, trễ"
+      ],
+      "noteVi": "Trái nghĩa với cả 速い (nhanh) và 早い (sớm).",
+      "examples": [
+        {
+          "ja": "このバスは遅いです。",
+          "vi": "Xe buýt này chậm."
+        },
+        {
+          "ja": "田中さんはいつも遅いです。",
+          "vi": "Anh Tanaka lúc nào cũng đến muộn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 448,
+      "word": "長い",
+      "meaningsVi": [
+        "dài"
+      ],
+      "examples": [
+        {
+          "ja": "この映画は長いです。",
+          "vi": "Bộ phim này dài."
+        },
+        {
+          "ja": "冬は夜が長いです。",
+          "vi": "Mùa đông đêm dài."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 594,
+      "word": "短い",
+      "meaningsVi": [
+        "ngắn"
+      ],
+      "examples": [
+        {
+          "ja": "夏は夜が短いです。",
+          "vi": "Mùa hè đêm ngắn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 522,
+      "word": "低い",
+      "meaningsVi": [
+        "thấp"
+      ],
+      "noteVi": "Trái nghĩa với 高い (cao). 高い còn nghĩa là \"đắt\", nhưng \"rẻ\" là 安い, không phải 低い.",
+      "examples": [
+        {
+          "ja": "このいすは低いです。",
+          "vi": "Cái ghế này thấp."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 95,
+      "word": "多い",
+      "meaningsVi": [
+        "nhiều"
+      ],
+      "noteVi": "多い thường làm vị ngữ: 東京は人が多いです (Tokyo đông người). Không đặt 多い trước danh từ như \"nhiều người\" trong tiếng Việt; khi đó dùng たくさん: 人がたくさんいます.",
+      "examples": [
+        {
+          "ja": "東京は人が多いです。",
+          "vi": "Tokyo đông người."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 312,
+      "word": "少ない",
+      "meaningsVi": [
+        "ít"
+      ],
+      "noteVi": "Giống 多い, thường làm vị ngữ: 店が少ないです (ít cửa hàng).",
+      "examples": [
+        {
+          "ja": "この町は店が少ないです。",
+          "vi": "Thị trấn này ít cửa hàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 121,
+      "word": "同じ",
+      "meaningsVi": [
+        "giống nhau, như nhau",
+        "cùng (một)"
+      ],
+      "noteVi": "Đứng ngay trước danh từ, không thêm の hay な: 同じ大学 (cùng trường đại học). \"A và B giống nhau\": AとBは同じです.",
+      "examples": [
+        {
+          "ja": "グエンさんと私は同じ大学の学生です。",
+          "vi": "Anh Nguyễn và tôi là sinh viên cùng trường đại học."
+        },
+        {
+          "ja": "このかばんとそのかばんは同じです。",
+          "vi": "Cái cặp này và cái cặp đó giống nhau."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 577,
+      "word": "毎年",
+      "meaningsVi": [
+        "mỗi năm, hằng năm"
+      ],
+      "noteVi": "Đọc まいねん hoặc まいとし; cả hai đều thông dụng.",
+      "examples": [
+        {
+          "ja": "毎年、夏に京都へ行きます。",
+          "vi": "Năm nào tôi cũng đi Kyoto vào mùa hè."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "雨",
+      "meaningVi": "mưa",
+      "noteVi": "Hình bầu trời với những hạt mưa rơi. Nhiều chữ về thời tiết có 雨 ở trên: 雪 (tuyết), 曇 (mây).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "天",
+      "meaningVi": "trời",
+      "noteVi": "Gặp trong 天気 (てんき, thời tiết). Dễ nhầm với 夫: ở 天 nét ngang trên ngắn hơn và nét dọc không nhô lên.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "長",
+      "meaningVi": "dài; người đứng đầu",
+      "noteVi": "Đọc なが trong 長い (dài). Âm Hán Việt \"trường\" (dài) hoặc \"trưởng\" (người đứng đầu, như trong \"hiệu trưởng\").",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "yori",
+      "titleVi": "より: so sánh hơn",
+      "summaryVi": "A は B より Adj です: A Adj hơn B.",
+      "explanationVi": [
+        "Để so sánh hai thứ, tiếng Nhật đặt **より** sau thứ được đem ra làm **mốc so sánh**: 「A は B より Adj です」 = A Adj hơn B. 「電車はバスより速いです」 (tàu điện nhanh hơn xe buýt).",
+        "Tiếng Việt nói \"nhanh **hơn** xe buýt\" (tính từ trước, mốc so sánh sau). Tiếng Nhật ngược lại: **mốc so sánh + より đứng trước**, tính từ đứng sau và **giữ nguyên**, không có chữ nào như \"hơn\" gắn vào tính từ.",
+        "より dùng được với tính từ đuôi い, đuôi な và với 好き, 上手…: 「私は夏より冬が好きです」."
+      ],
+      "patterns": [
+        "A は B より Adj です"
+      ],
+      "examples": [
+        {
+          "ja": "電車はバスより速いです。",
+          "vi": "Tàu điện nhanh hơn xe buýt."
+        },
+        {
+          "ja": "ハノイはホーチミンより寒いです。",
+          "vi": "Hà Nội lạnh hơn Thành phố Hồ Chí Minh."
+        },
+        {
+          "ja": "私は夏より冬が好きです。",
+          "vi": "Tôi thích mùa đông hơn mùa hè."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "ハノイは寒いよりホーチミンです。",
+          "right": "ハノイはホーチミンより寒いです。",
+          "noteVi": "Không dịch từng chữ \"lạnh hơn Sài Gòn\": より đứng ngay sau mốc so sánh (ホーチミンより), tính từ đứng cuối, trước です."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "no-hou-ga-yori",
+      "titleVi": "A の方が B より: A mới là bên … hơn",
+      "summaryVi": "A の方が (B より) Adj です: A Adj hơn (B); hay dùng để trả lời câu hỏi \"cái nào hơn\".",
+      "explanationVi": [
+        "「A の方(ほう)が B より Adj です」 cũng là so sánh hơn, nhưng **nhấn mạnh A** là bên hơn: 「電車の方がバスより速いです」 (tàu điện mới là cái nhanh hơn xe buýt). 方 ở đây đọc là **ほう**, nghĩa là \"phía, bên\": \"bên A thì … hơn\".",
+        "Mẫu này hay dùng để **trả lời câu hỏi** 「どちらが…か」 (cái nào hơn?). Khi đã rõ so sánh với gì thì bỏ 「B より」: 「紅茶の方が好きです」. Cũng có thể đảo: 「B より A の方が…」.",
+        "Cách nói gọn hơn là bỏ 方: 「B より A が Adj です」: 「バスより電車が速いです」, 「コーヒーより紅茶が好きです」. A là thông tin chính nên đi với **が**."
+      ],
+      "patterns": [
+        "A の方が B より Adj です",
+        "B より A の方が Adj です",
+        "B より A が Adj です"
+      ],
+      "examples": [
+        {
+          "ja": "電車の方がバスより速いです。",
+          "vi": "Tàu điện nhanh hơn xe buýt."
+        },
+        {
+          "ja": "コーヒーより紅茶の方が好きです。",
+          "vi": "Tôi thích hồng trà hơn cà phê."
+        },
+        {
+          "ja": "冬はハノイよりダナンの方が暖かいです。",
+          "vi": "Mùa đông, Đà Nẵng ấm hơn Hà Nội."
+        },
+        {
+          "ja": "バスより電車が速いです。",
+          "vi": "Tàu điện nhanh hơn xe buýt. (cách nói gọn, không có 方)"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "コーヒーより紅茶の方を好きです。",
+          "right": "コーヒーより紅茶の方が好きです。",
+          "noteVi": "好き là tính từ, thứ được thích đi với が (bài 13), kể cả khi so sánh."
+        },
+        {
+          "wrong": "電車の方がバスより速いの方です。",
+          "right": "電車の方がバスより速いです。",
+          "noteVi": "方 chỉ đứng sau danh từ được chọn (電車の方が), không đứng cuối câu như chữ \"hơn\" trong tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "to-to-dochira-ga",
+      "titleVi": "A と B と どちらが…: A hay B, cái nào … hơn?",
+      "summaryVi": "A と B と どちらが Adj ですか: A và B, cái nào Adj hơn?",
+      "explanationVi": [
+        "Để hỏi **trong hai thứ, thứ nào hơn**, nói 「A と B と どちらが Adj ですか」: 「コーヒーと紅茶とどちらが好きですか」 (cà phê và hồng trà, bạn thích cái nào hơn?). **どちら** dùng khi chọn **giữa hai** thứ (người, vật, nơi chốn, mùa…); nói thân mật là **どっち**.",
+        "どちら là từ để hỏi làm chủ ngữ nên đi với **が**, không dùng は. Trả lời: 「A の方(ほう)が Adj です」 hoặc 「A が Adj です」; nếu cả hai như nhau: 「どちらも Adj です」 (cả hai đều…)."
+      ],
+      "patterns": [
+        "A と B と どちらが Adj ですか",
+        "A と B と どっちが Adj ですか (thân mật)"
+      ],
+      "examples": [
+        {
+          "ja": "コーヒーと紅茶とどちらが好きですか。",
+          "vi": "Cà phê và hồng trà, bạn thích cái nào hơn?"
+        },
+        {
+          "ja": "バスと電車とどちらが速いですか。",
+          "vi": "Xe buýt và tàu điện, cái nào nhanh hơn?"
+        },
+        {
+          "ja": "どちらも好きです。",
+          "vi": "Tôi thích cả hai."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "コーヒーと紅茶とどちらは好きですか。",
+          "right": "コーヒーと紅茶とどちらが好きですか。",
+          "noteVi": "どちら là từ để hỏi làm chủ ngữ: dùng が, không dùng は."
+        },
+        {
+          "wrong": "コーヒーと紅茶と何が好きですか。",
+          "right": "コーヒーと紅茶とどちらが好きですか。",
+          "noteVi": "Chọn giữa hai thứ thì dùng どちら (どっち), không dùng 何."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "no-naka-de-ga-ichiban",
+      "titleVi": "N の中で … が いちばん: … nhất trong N",
+      "summaryVi": "Nhóm の中で X が いちばん Adj です: trong nhóm đó, X Adj nhất.",
+      "explanationVi": [
+        "Để nói thứ gì **nhất trong một nhóm** (từ ba thứ trở lên), dùng 「Nhóm の中で X が いちばん Adj です」: 「家族の中で妹がいちばん若いです」 (trong nhà, em gái tôi trẻ nhất). いちばん đứng ngay trước tính từ, giống \"nhất\" đứng sau tính từ trong tiếng Việt.",
+        "Câu hỏi: 「Nhóm の中で 何／誰／どこ／いつ が いちばん Adj ですか」. Chọn từ để hỏi theo loại: **何** (đồ vật, món ăn, môn thể thao…), **誰** (người), **どこ** (nơi chốn), **いつ** (thời gian, mùa). Từ để hỏi đi với **が**. Không dùng どちら, vì どちら chỉ dùng khi chọn giữa hai thứ.",
+        "Với nơi chốn hay khoảng thời gian, thường dùng **で** thay cho の中で: 「ベトナムでどこがいちばんきれいですか」, 「1年で何月がいちばん暑いですか」."
+      ],
+      "patterns": [
+        "Nhóm の中で X が いちばん Adj です",
+        "Nhóm の中で 何／誰／どこ／いつ が いちばん Adj ですか"
+      ],
+      "examples": [
+        {
+          "ja": "家族の中で妹がいちばん若いです。",
+          "vi": "Trong nhà, em gái tôi trẻ nhất."
+        },
+        {
+          "ja": "スポーツの中で何がいちばん好きですか。",
+          "vi": "Trong các môn thể thao, bạn thích môn nào nhất?"
+        },
+        {
+          "ja": "1年で何月がいちばん暑いですか。",
+          "vi": "Trong một năm, tháng mấy nóng nhất?"
+        },
+        {
+          "ja": "8月がいちばん暑いです。",
+          "vi": "Tháng 8 nóng nhất."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "スポーツの中でどちらがいちばん好きですか。",
+          "right": "スポーツの中で何がいちばん好きですか。",
+          "noteVi": "どちら chỉ dùng khi chọn giữa hai thứ; với cả một nhóm dùng 何, 誰, どこ, いつ."
+        },
+        {
+          "wrong": "家族の中で誰はいちばん若いですか。",
+          "right": "家族の中で誰がいちばん若いですか。",
+          "noteVi": "Từ để hỏi làm chủ ngữ đi với が, không dùng は."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-16-e01",
+      "type": "fill",
+      "grammar": [
+        "yori"
+      ],
+      "before": "電車はバス",
+      "after": "速いです。",
+      "answers": [
+        "より"
+      ],
+      "options": [
+        "より",
+        "から",
+        "まで"
+      ],
+      "vi": "Tàu điện nhanh hơn xe buýt."
+    },
+    {
+      "id": "n5-16-e02",
+      "type": "order",
+      "grammar": [
+        "yori"
+      ],
+      "vi": "Hà Nội lạnh hơn Thành phố Hồ Chí Minh.",
+      "tiles": [
+        "寒い",
+        "ホーチミン",
+        "は",
+        "です",
+        "ハノイ",
+        "より"
+      ],
+      "answers": [
+        "ハノイはホーチミンより寒いです"
+      ]
+    },
+    {
+      "id": "n5-16-e03",
+      "type": "choice",
+      "grammar": [
+        "yori"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "バスは電車より遅いです。",
+      "options": [
+        "Xe buýt chậm hơn tàu điện.",
+        "Tàu điện chậm hơn xe buýt.",
+        "Xe buýt nhanh hơn tàu điện."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e04",
+      "type": "choice",
+      "grammar": [
+        "yori"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tháng 2 ngắn hơn tháng 3\"?",
+      "options": [
+        "2月は3月より短いです。",
+        "3月は2月より短いです。",
+        "2月より3月は短いです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e05",
+      "type": "fill",
+      "grammar": [
+        "no-hou-ga-yori"
+      ],
+      "before": "コーヒーより紅茶の方",
+      "after": "好きです。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "を",
+        "より"
+      ],
+      "vi": "Tôi thích hồng trà hơn cà phê."
+    },
+    {
+      "id": "n5-16-e06",
+      "type": "order",
+      "grammar": [
+        "no-hou-ga-yori"
+      ],
+      "vi": "Tôi thích mùa đông hơn mùa hè.",
+      "tiles": [
+        "好き",
+        "冬の方",
+        "より",
+        "です",
+        "夏",
+        "が"
+      ],
+      "answers": [
+        "夏より冬の方が好きです",
+        "冬の方が夏より好きです"
+      ]
+    },
+    {
+      "id": "n5-16-e07",
+      "type": "choice",
+      "grammar": [
+        "no-hou-ga-yori",
+        "to-to-dochira-ga"
+      ],
+      "promptVi": "Trả lời câu hỏi: \"Tàu điện nhanh hơn.\"",
+      "ja": "バスと電車とどちらが速いですか。",
+      "options": [
+        "電車の方が速いです。",
+        "電車は速いです。",
+        "電車より速いです。"
+      ],
+      "answer": 0,
+      "explainVi": "Trả lời câu hỏi có どちらが bằng 「〜の方が」 (hoặc 〜が). 電車より速いです là \"nhanh hơn tàu điện\"."
+    },
+    {
+      "id": "n5-16-e08",
+      "type": "fill",
+      "grammar": [
+        "to-to-dochira-ga"
+      ],
+      "before": "コーヒーと紅茶と",
+      "after": "が好きですか。",
+      "answers": [
+        "どちら"
+      ],
+      "options": [
+        "どちら",
+        "何",
+        "どこ"
+      ],
+      "vi": "Cà phê và hồng trà, bạn thích cái nào hơn?"
+    },
+    {
+      "id": "n5-16-e09",
+      "type": "fill",
+      "grammar": [
+        "to-to-dochira-ga"
+      ],
+      "before": "春と秋とどちら",
+      "after": "好きですか。",
+      "answers": [
+        "が"
+      ],
+      "options": [
+        "が",
+        "は",
+        "を"
+      ],
+      "vi": "Mùa xuân và mùa thu, bạn thích mùa nào hơn?"
+    },
+    {
+      "id": "n5-16-e10",
+      "type": "order",
+      "grammar": [
+        "to-to-dochira-ga"
+      ],
+      "vi": "Hà Nội và Đà Nẵng, nơi nào nóng hơn?",
+      "tiles": [
+        "どちら",
+        "と",
+        "暑い",
+        "ダナン",
+        "が",
+        "です",
+        "ハノイ",
+        "か",
+        "と"
+      ],
+      "answers": [
+        "ハノイとダナンとどちらが暑いですか",
+        "ダナンとハノイとどちらが暑いですか"
+      ]
+    },
+    {
+      "id": "n5-16-e11",
+      "type": "choice",
+      "grammar": [
+        "to-to-dochira-ga"
+      ],
+      "promptVi": "Trả lời: \"Tôi thích cả hai.\"",
+      "ja": "春と秋とどちらが好きですか。",
+      "options": [
+        "どちらも好きです。",
+        "どちらが好きです。",
+        "どちらは好きです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e12",
+      "type": "fill",
+      "grammar": [
+        "no-naka-de-ga-ichiban"
+      ],
+      "before": "スポーツの中で",
+      "after": "がいちばん好きですか。",
+      "answers": [
+        "何"
+      ],
+      "options": [
+        "何",
+        "どちら",
+        "誰"
+      ],
+      "vi": "Trong các môn thể thao, bạn thích môn nào nhất?"
+    },
+    {
+      "id": "n5-16-e13",
+      "type": "choice",
+      "grammar": [
+        "no-naka-de-ga-ichiban"
+      ],
+      "promptVi": "Hỏi \"Trong nhà, ai trẻ nhất?\": chọn từ điền vào chỗ trống.",
+      "ja": "家族の中で＿がいちばん若いですか。",
+      "options": [
+        "誰",
+        "何",
+        "どこ"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e14",
+      "type": "order",
+      "grammar": [
+        "no-naka-de-ga-ichiban"
+      ],
+      "vi": "Trong một năm, tháng mấy nóng nhất?",
+      "tiles": [
+        "いちばん",
+        "1年",
+        "暑い",
+        "が",
+        "か",
+        "何月",
+        "です",
+        "で"
+      ],
+      "answers": [
+        "1年で何月がいちばん暑いですか"
+      ]
+    },
+    {
+      "id": "n5-16-e15",
+      "type": "choice",
+      "grammar": [
+        "no-naka-de-ga-ichiban"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Ở Việt Nam, nơi nào đẹp nhất?\"",
+      "options": [
+        "ベトナムでどこがいちばんきれいですか。",
+        "ベトナムでどこはいちばんきれいですか。",
+        "ベトナムよりどこがきれいですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e16",
+      "type": "fill",
+      "promptVi": "Chọn từ đúng.",
+      "before": "明日は雪が",
+      "after": "か。",
+      "answers": [
+        "降ります"
+      ],
+      "options": [
+        "降ります",
+        "あります",
+        "します"
+      ],
+      "vi": "Ngày mai tuyết có rơi không?"
+    },
+    {
+      "id": "n5-16-e17",
+      "type": "choice",
+      "promptVi": "Chọn từ đúng: \"Ngày mai trời nắng.\"",
+      "ja": "明日は＿です。",
+      "options": [
+        "晴れ",
+        "雨",
+        "雪"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e18",
+      "type": "choice",
+      "promptVi": "Chọn cách nói đúng: \"cùng trường đại học\"",
+      "options": [
+        "同じ大学",
+        "同じの大学",
+        "同じな大学"
+      ],
+      "answer": 0,
+      "explainVi": "同じ đứng ngay trước danh từ, không thêm の hay な."
+    },
+    {
+      "id": "n5-16-e19",
+      "type": "choice",
+      "promptVi": "Từ nào trái nghĩa với từ này?",
+      "ja": "多い",
+      "options": [
+        "少ない",
+        "低い",
+        "短い"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-16-e20",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "春",
+          "mùa xuân"
+        ],
+        [
+          "夏",
+          "mùa hè"
+        ],
+        [
+          "秋",
+          "mùa thu"
+        ],
+        [
+          "冬",
+          "mùa đông"
+        ]
+      ]
+    },
+    {
+      "id": "n5-16-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "雨",
+          "mưa"
+        ],
+        [
+          "雪",
+          "tuyết"
+        ],
+        [
+          "晴れ",
+          "trời nắng"
+        ],
+        [
+          "曇り",
+          "trời nhiều mây"
+        ],
+        [
+          "風",
+          "gió"
+        ]
+      ]
+    },
+    {
+      "id": "n5-16-e22",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "速い",
+          "nhanh"
+        ],
+        [
+          "遅い",
+          "chậm"
+        ],
+        [
+          "長い",
+          "dài"
+        ],
+        [
+          "短い",
+          "ngắn"
+        ],
+        [
+          "低い",
+          "thấp"
+        ]
+      ]
+    },
+    {
+      "id": "n5-16-e23",
+      "type": "translate",
+      "grammar": [
+        "yori",
+        "no-hou-ga-yori"
+      ],
+      "vi": "Tiếng Nhật khó hơn tiếng Anh.",
+      "answers": [
+        "日本語は英語より難しいです。",
+        "日本語の方が英語より難しいです。",
+        "英語より日本語の方が難しいです。",
+        "英語より日本語が難しいです。"
+      ],
+      "examples": [
+        {
+          "answer": "にほんごはえいごよりむずかしいです",
+          "score": 100
+        },
+        {
+          "answer": "にほんごわえいごよりむずかしいです",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "日本語は難しいより英語です。",
+          "score": 0,
+          "note": "Trật tự tiếng Việt: より đứng sau từ được so sánh (英語より)."
+        },
+        {
+          "answer": "日本語は英語よりやさしいです。",
+          "score": 0,
+          "note": "Sai nghĩa: やさしい là dễ."
+        }
+      ]
+    },
+    {
+      "id": "n5-16-e24",
+      "type": "translate",
+      "grammar": [
+        "yori",
+        "no-hou-ga-yori"
+      ],
+      "vi": "Hôm nay ấm hơn hôm qua.",
+      "answers": [
+        "今日は昨日より暖かいです。",
+        "今日の方が昨日より暖かいです。",
+        "昨日より今日の方が暖かいです。",
+        "昨日より今日が暖かいです。"
+      ],
+      "examples": [
+        {
+          "answer": "きょうはきのうよりあたたかいです",
+          "score": 100
+        },
+        {
+          "answer": "今日わ昨日より暖かいです。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "今日は昨日より寒いです。",
+          "score": 0,
+          "note": "Sai nghĩa: 寒い là lạnh."
+        }
+      ]
+    },
+    {
+      "id": "n5-16-e25",
+      "type": "question",
+      "grammar": [
+        "to-to-dochira-ga",
+        "no-hou-ga-yori"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "肉と魚とどちらが好きですか。",
+        "promptVi": "Bạn thích thịt hay cá hơn? (Hãy trả lời: thích cá hơn.)",
+        "answers": [
+          "魚の方が好きです。",
+          "(私は)肉より魚の方が好きです。",
+          "(私は)肉より魚が好きです。",
+          "(私は)魚が好きです。",
+          "魚(の方)です。"
+        ],
+        "examples": [
+          {
+            "answer": "さかなのほうがすきです",
+            "score": 100
+          },
+          {
+            "answer": "魚の方を好きです。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ],
+            "note": "好き dùng が, không dùng を."
+          },
+          {
+            "answer": "肉の方が好きです。",
+            "score": 0,
+            "note": "Sai nội dung: thích thịt hơn."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-16-e26",
+      "type": "translate",
+      "grammar": [
+        "no-naka-de-ga-ichiban"
+      ],
+      "vi": "Trong các loại đồ uống, tôi thích cà phê nhất.",
+      "answers": [
+        "(私は)飲み物の中でコーヒーがいちばん好きです。"
+      ],
+      "examples": [
+        {
+          "answer": "のみもののなかでコーヒーがいちばんすきです",
+          "score": 100
+        },
+        {
+          "answer": "のみもののなかでこーひーがいちばんすきです",
+          "score": 95,
+          "issues": [
+            "kana_script"
+          ],
+          "note": "Từ mượn viết bằng katakana: コーヒー."
+        },
+        {
+          "answer": "飲み物の中でコーヒーをいちばん好きです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "飲み物の中でお茶がいちばん好きです。",
+          "score": 0,
+          "note": "Sai nội dung: お茶 là trà."
+        }
+      ]
+    },
+    {
+      "id": "n5-16-e27",
+      "type": "question",
+      "grammar": [
+        "no-naka-de-ga-ichiban"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "家族の中で誰がいちばん若いですか。",
+        "promptVi": "Trong gia đình bạn, ai trẻ nhất? (Hãy trả lời: em trai tôi.)",
+        "answers": [
+          "弟がいちばん若いです。",
+          "(家族の中で)(私の)弟がいちばん若いです。",
+          "(私の)弟です。"
+        ],
+        "examples": [
+          {
+            "answer": "おとうとがいちばんわかいです",
+            "score": 100
+          },
+          {
+            "answer": "弟はいちばん若いです。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ],
+            "note": "Trả lời câu hỏi 誰が… thì dùng が."
+          },
+          {
+            "answer": "妹がいちばん若いです。",
+            "score": 0,
+            "note": "Sai nội dung: 妹 là em gái."
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-16-e28",
+      "type": "translate",
+      "grammar": [
+        "to-to-dochira-ga"
+      ],
+      "vi": "Tháng 7 và tháng 8, tháng nào nóng hơn?",
+      "answers": [
+        "7月と8月と[どちら|どっち]が暑いですか。"
+      ],
+      "examples": [
+        {
+          "answer": "しちがつとはちがつとどちらがあついですか",
+          "score": 100
+        },
+        {
+          "answer": "なながつとはちがつとどちらがあついですか",
+          "score": 90,
+          "issues": [
+            "counter_reading"
+          ],
+          "note": "7月 đọc là しちがつ."
+        },
+        {
+          "answer": "7月と8月とどちらは暑いですか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ],
+          "note": "Từ để hỏi どちら làm chủ ngữ thì dùng が."
+        },
+        {
+          "answer": "7月と8月とどちらが寒いですか。",
+          "score": 0,
+          "note": "Sai nghĩa: 寒い là lạnh."
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "電車の方が速いです。": "{電|でん}{車|しゃ}の{方|ほう}が{速|はや}いです。",
+    "日本の春は暖かいです。": "{日本|にほん}の{春|はる}は{暖|あたた}かいです。",
+    "ベトナムの夏はとても暑いです。": "ベトナムの{夏|なつ}はとても{暑|あつ}いです。",
+    "秋は果物がおいしいです。": "{秋|あき}は{果物|くだもの}がおいしいです。",
+    "ハノイの冬は寒いです。": "ハノイの{冬|ふゆ}は{寒|さむ}いです。",
+    "昨日は雨でした。": "{昨日|きのう}は{雨|あめ}でした。",
+    "6月は雨が多いです。": "6{月|がつ}は{雨|あめ}が{多|おお}いです。",
+    "ハノイは雪が降りません。": "ハノイは{雪|ゆき}が{降|ふ}りません。",
+    "明日は晴れです。": "{明日|あした}は{晴|は}れです。",
+    "今日は朝から曇りです。": "{今日|きょう}は{朝|あさ}から{曇|くも}りです。",
+    "秋の風は涼しいです。": "{秋|あき}の{風|かぜ}は{涼|すず}しいです。",
+    "今日は暖かいですね。": "{今日|きょう}は{暖|あたた}かいですね。",
+    "この部屋は涼しいです。": "この{部屋|へや}は{涼|すず}しいです。",
+    "明日は雨が降りますか。": "{明日|あした}は{雨|あめ}が{降|ふ}りますか。",
+    "昨日は雪が降りました。": "{昨日|きのう}は{雪|ゆき}が{降|ふ}りました。",
+    "私は夏がいちばん好きです。": "{私|わたし}は{夏|なつ}がいちばん{好|す}きです。",
+    "この店のパンがいちばんおいしいです。": "この{店|みせ}のパンがいちばんおいしいです。",
+    "電車はバスより速いです。": "{電|でん}{車|しゃ}はバスより{速|はや}いです。",
+    "コーヒーと紅茶とどっちがいいですか。": "コーヒーと{紅|こう}{茶|ちゃ}とどっちがいいですか。",
+    "私はコーヒーより紅茶が好きです。": "{私|わたし}はコーヒーより{紅|こう}{茶|ちゃ}が{好|す}きです。",
+    "この電車はとても速いです。": "この{電|でん}{車|しゃ}はとても{速|はや}いです。",
+    "このバスは遅いです。": "このバスは{遅|おそ}いです。",
+    "田中さんはいつも遅いです。": "{田中|たなか}さんはいつも{遅|おそ}いです。",
+    "この映画は長いです。": "この{映|えい}{画|が}は{長|なが}いです。",
+    "冬は夜が長いです。": "{冬|ふゆ}は{夜|よる}が{長|なが}いです。",
+    "夏は夜が短いです。": "{夏|なつ}は{夜|よる}が{短|みじか}いです。",
+    "このいすは低いです。": "このいすは{低|ひく}いです。",
+    "東京は人が多いです。": "{東京|とうきょう}は{人|ひと}が{多|おお}いです。",
+    "この町は店が少ないです。": "この{町|まち}は{店|みせ}が{少|すく}ないです。",
+    "グエンさんと私は同じ大学の学生です。": "グエンさんと{私|わたし}は{同|おな}じ{大|だい}{学|がく}の{学|がく}{生|せい}です。",
+    "このかばんとそのかばんは同じです。": "このかばんとそのかばんは{同|おな}じです。",
+    "毎年、夏に京都へ行きます。": "{毎|まい}{年|ねん}、{夏|なつ}に{京都|きょうと}へ{行|い}きます。",
+    "ハノイはホーチミンより寒いです。": "ハノイはホーチミンより{寒|さむ}いです。",
+    "私は夏より冬が好きです。": "{私|わたし}は{夏|なつ}より{冬|ふゆ}が{好|す}きです。",
+    "ハノイは寒いよりホーチミンです。": "ハノイは{寒|さむ}いよりホーチミンです。",
+    "電車の方がバスより速いです。": "{電|でん}{車|しゃ}の{方|ほう}がバスより{速|はや}いです。",
+    "コーヒーより紅茶の方が好きです。": "コーヒーより{紅|こう}{茶|ちゃ}の{方|ほう}が{好|す}きです。",
+    "冬はハノイよりダナンの方が暖かいです。": "{冬|ふゆ}はハノイよりダナンの{方|ほう}が{暖|あたた}かいです。",
+    "バスより電車が速いです。": "バスより{電|でん}{車|しゃ}が{速|はや}いです。",
+    "コーヒーより紅茶の方を好きです。": "コーヒーより{紅|こう}{茶|ちゃ}の{方|ほう}を{好|す}きです。",
+    "電車の方がバスより速いの方です。": "{電|でん}{車|しゃ}の{方|ほう}がバスより{速|はや}いの{方|ほう}です。",
+    "コーヒーと紅茶とどちらが好きですか。": "コーヒーと{紅|こう}{茶|ちゃ}とどちらが{好|す}きですか。",
+    "バスと電車とどちらが速いですか。": "バスと{電|でん}{車|しゃ}とどちらが{速|はや}いですか。",
+    "どちらも好きです。": "どちらも{好|す}きです。",
+    "コーヒーと紅茶とどちらは好きですか。": "コーヒーと{紅|こう}{茶|ちゃ}とどちらは{好|す}きですか。",
+    "コーヒーと紅茶と何が好きですか。": "コーヒーと{紅|こう}{茶|ちゃ}と{何|なに}が{好|す}きですか。",
+    "家族の中で妹がいちばん若いです。": "{家|か}{族|ぞく}の{中|なか}で{妹|いもうと}がいちばん{若|わか}いです。",
+    "スポーツの中で何がいちばん好きですか。": "スポーツの{中|なか}で{何|なに}がいちばん{好|す}きですか。",
+    "1年で何月がいちばん暑いですか。": "1{年|ねん}で{何月|なんがつ}がいちばん{暑|あつ}いですか。",
+    "8月がいちばん暑いです。": "8{月|がつ}がいちばん{暑|あつ}いです。",
+    "スポーツの中でどちらがいちばん好きですか。": "スポーツの{中|なか}でどちらがいちばん{好|す}きですか。",
+    "家族の中で誰がいちばん若いですか。": "{家|か}{族|ぞく}の{中|なか}で{誰|だれ}がいちばん{若|わか}いですか。",
+    "家族の中で誰はいちばん若いですか。": "{家|か}{族|ぞく}の{中|なか}で{誰|だれ}はいちばん{若|わか}いですか。",
+    "より": "より",
+    "から": "から",
+    "まで": "まで",
+    "寒い": "{寒|さむ}い",
+    "ホーチミン": "ホーチミン",
+    "は": "は",
+    "です": "です",
+    "ハノイ": "ハノイ",
+    "ハノイはホーチミンより寒いです": "ハノイはホーチミンより{寒|さむ}いです",
+    "バスは電車より遅いです。": "バスは{電|でん}{車|しゃ}より{遅|おそ}いです。",
+    "2月は3月より短いです。": "2{月|がつ}は3{月|がつ}より{短|みじか}いです。",
+    "3月は2月より短いです。": "3{月|がつ}は2{月|がつ}より{短|みじか}いです。",
+    "2月より3月は短いです。": "2{月|がつ}より3{月|がつ}は{短|みじか}いです。",
+    "が": "が",
+    "を": "を",
+    "好き": "{好|す}き",
+    "冬の方": "{冬|ふゆ}の{方|ほう}",
+    "夏": "{夏|なつ}",
+    "夏より冬の方が好きです": "{夏|なつ}より{冬|ふゆ}の{方|ほう}が{好|す}きです",
+    "冬の方が夏より好きです": "{冬|ふゆ}の{方|ほう}が{夏|なつ}より{好|す}きです",
+    "電車は速いです。": "{電|でん}{車|しゃ}は{速|はや}いです。",
+    "電車より速いです。": "{電|でん}{車|しゃ}より{速|はや}いです。",
+    "どちら": "どちら",
+    "何": "{何|なに}",
+    "どこ": "どこ",
+    "春と秋とどちらが好きですか。": "{春|はる}と{秋|あき}とどちらが{好|す}きですか。",
+    "と": "と",
+    "暑い": "{暑|あつ}い",
+    "ダナン": "ダナン",
+    "か": "か",
+    "ハノイとダナンとどちらが暑いですか": "ハノイとダナンとどちらが{暑|あつ}いですか",
+    "ダナンとハノイとどちらが暑いですか": "ダナンとハノイとどちらが{暑|あつ}いですか",
+    "どちらが好きです。": "どちらが{好|す}きです。",
+    "どちらは好きです。": "どちらは{好|す}きです。",
+    "誰": "{誰|だれ}",
+    "家族の中で＿がいちばん若いですか。": "{家|か}{族|ぞく}の{中|なか}で＿がいちばん{若|わか}いですか。",
+    "いちばん": "いちばん",
+    "1年": "1{年|ねん}",
+    "何月": "{何月|なんがつ}",
+    "で": "で",
+    "1年で何月がいちばん暑いですか": "1{年|ねん}で{何月|なんがつ}がいちばん{暑|あつ}いですか",
+    "ベトナムでどこがいちばんきれいですか。": "ベトナムでどこがいちばんきれいですか。",
+    "ベトナムでどこはいちばんきれいですか。": "ベトナムでどこはいちばんきれいですか。",
+    "ベトナムよりどこがきれいですか。": "ベトナムよりどこがきれいですか。",
+    "明日は雪が降りますか。": "{明日|あした}は{雪|ゆき}が{降|ふ}りますか。",
+    "降ります": "{降|ふ}ります",
+    "あります": "あります",
+    "します": "します",
+    "明日は＿です。": "{明日|あした}は＿です。",
+    "晴れ": "{晴|は}れ",
+    "雨": "{雨|あめ}",
+    "雪": "{雪|ゆき}",
+    "同じ大学": "{同|おな}じ{大|だい}{学|がく}",
+    "同じの大学": "{同|おな}じの{大|だい}{学|がく}",
+    "同じな大学": "{同|おな}じな{大|だい}{学|がく}",
+    "多い": "{多|おお}い",
+    "少ない": "{少|すく}ない",
+    "低い": "{低|ひく}い",
+    "短い": "{短|みじか}い",
+    "春": "{春|はる}",
+    "秋": "{秋|あき}",
+    "冬": "{冬|ふゆ}",
+    "曇り": "{曇|くも}り",
+    "風": "{風|かぜ}",
+    "速い": "{速|はや}い",
+    "遅い": "{遅|おそ}い",
+    "長い": "{長|なが}い",
+    "日本語は英語より難しいです。": "{日本|にほん}{語|ご}は{英|えい}{語|ご}より{難|むずか}しいです。",
+    "日本語の方が英語より難しいです。": "{日本|にほん}{語|ご}の{方|ほう}が{英|えい}{語|ご}より{難|むずか}しいです。",
+    "英語より日本語の方が難しいです。": "{英|えい}{語|ご}より{日本|にほん}{語|ご}の{方|ほう}が{難|むずか}しいです。",
+    "英語より日本語が難しいです。": "{英|えい}{語|ご}より{日本|にほん}{語|ご}が{難|むずか}しいです。",
+    "今日は昨日より暖かいです。": "{今日|きょう}は{昨日|きのう}より{暖|あたた}かいです。",
+    "今日の方が昨日より暖かいです。": "{今日|きょう}の{方|ほう}が{昨日|きのう}より{暖|あたた}かいです。",
+    "昨日より今日の方が暖かいです。": "{昨日|きのう}より{今日|きょう}の{方|ほう}が{暖|あたた}かいです。",
+    "昨日より今日が暖かいです。": "{昨日|きのう}より{今日|きょう}が{暖|あたた}かいです。",
+    "肉と魚とどちらが好きですか。": "{肉|にく}と{魚|さかな}とどちらが{好|す}きですか。",
+    "魚の方が好きです。": "{魚|さかな}の{方|ほう}が{好|す}きです。",
+    "私は肉より魚の方が好きです。": "{私|わたし}は{肉|にく}より{魚|さかな}の{方|ほう}が{好|す}きです。",
+    "私は肉より魚が好きです。": "{私|わたし}は{肉|にく}より{魚|さかな}が{好|す}きです。",
+    "私は魚が好きです。": "{私|わたし}は{魚|さかな}が{好|す}きです。",
+    "魚の方です。": "{魚|さかな}の{方|ほう}です。",
+    "私は飲み物の中でコーヒーがいちばん好きです。": "{私|わたし}は{飲|の}み{物|もの}の{中|なか}でコーヒーがいちばん{好|す}きです。",
+    "弟がいちばん若いです。": "{弟|おとうと}がいちばん{若|わか}いです。",
+    "家族の中で私の弟がいちばん若いです。": "{家|か}{族|ぞく}の{中|なか}で{私|わたし}の{弟|おとうと}がいちばん{若|わか}いです。",
+    "私の弟です。": "{私|わたし}の{弟|おとうと}です。",
+    "7月と8月とどちらが暑いですか。": "{7月|しちがつ}と8{月|がつ}とどちらが{暑|あつ}いですか。"
+  }
+}

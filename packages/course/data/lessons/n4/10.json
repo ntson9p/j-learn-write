@@ -1,0 +1,1261 @@
+{
+  "id": "n4-10",
+  "goalsVi": [
+    "Khuyên nên hoặc không nên: 早く寝たほうがいいですよ、無理をしないほうがいいです",
+    "Nói việc phải làm khi nói chuyện: 薬を飲まないといけません、もう帰らなくちゃ",
+    "Nói làm việc gì mà không làm việc kia: 朝ごはんを食べないで出かけました",
+    "Ra lệnh nhẹ như cha mẹ, thầy cô: 早く寝なさい; nói về sức khỏe, bệnh viện: 熱がある、入院する、お大事に"
+  ],
+  "words": [
+    {
+      "no": 732,
+      "word": "腕",
+      "meaningsVi": [
+        "cánh tay"
+      ],
+      "noteVi": "Phần từ vai đến cổ tay; bàn tay là 手. 腕時計: đồng hồ đeo tay.",
+      "examples": [
+        {
+          "ja": "テニスをして、腕が痛くなりました。",
+          "vi": "Chơi quần vợt xong, tôi bị đau cánh tay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 772,
+      "word": "お見舞い",
+      "meaningsVi": [
+        "việc đi thăm người ốm",
+        "quà thăm người ốm"
+      ],
+      "noteVi": "Hay dùng: お見舞いに行く (đi thăm người ốm, người nằm viện). Âm Hán Việt \"kiến vũ\" không gợi nghĩa.",
+      "examples": [
+        {
+          "ja": "明日、田中さんのお見舞いに行きます。",
+          "vi": "Ngày mai tôi đi thăm anh Tanaka (đang ốm)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 823,
+      "word": "看護婦",
+      "meaningsVi": [
+        "nữ y tá"
+      ],
+      "noteVi": "Từ cũ chỉ y tá nữ. Ngày nay tên gọi chính thức cho cả nam và nữ là 看護師 (かんごし). Gọi y tá: 看護婦さん.",
+      "examples": [
+        {
+          "ja": "姉は病院で看護婦をしています。",
+          "vi": "Chị tôi làm y tá ở bệnh viện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 836,
+      "word": "気分",
+      "meaningsVi": [
+        "cảm giác trong người",
+        "tâm trạng"
+      ],
+      "noteVi": "気分が悪い thường là \"thấy khó chịu, buồn nôn\" (cơ thể), cũng có thể là \"bực mình\". 気分がいい: thấy dễ chịu.",
+      "examples": [
+        {
+          "ja": "ちょっと気分が悪いんです。",
+          "vi": "Tôi thấy hơi khó chịu trong người."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 850,
+      "word": "具合",
+      "meaningsVi": [
+        "tình trạng (sức khỏe, máy móc)"
+      ],
+      "noteVi": "具合が悪い: không khỏe, (máy) trục trặc. Hỏi thăm người ốm: 具合はどうですか.",
+      "examples": [
+        {
+          "ja": "体の具合はどうですか。",
+          "vi": "Sức khỏe anh thế nào rồi?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 855,
+      "word": "首",
+      "meaningsVi": [
+        "cổ"
+      ],
+      "noteVi": "Âm Hán Việt \"thủ\" (thủ = đầu) dễ gây nhầm: 首 là cái cổ; đầu là 頭.",
+      "examples": [
+        {
+          "ja": "朝から首が痛いです。",
+          "vi": "Tôi bị đau cổ từ sáng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 866,
+      "word": "けがする",
+      "meaningsVi": [
+        "bị thương"
+      ],
+      "noteVi": "Danh từ けが: vết thương. Hay nói 足をけがする (bị thương ở chân) hoặc けがをする. Bị ốm thì nói 病気になる.",
+      "examples": [
+        {
+          "ja": "階段で足をけがしました。",
+          "vi": "Tôi bị thương ở chân khi đi cầu thang."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 980,
+      "word": "心配",
+      "meaningsVi": [
+        "lo lắng",
+        "sự lo lắng"
+      ],
+      "noteVi": "Âm Hán Việt \"tâm phối\". Động từ: 心配する (lo); tính từ đuôi な: 心配な (đáng lo). Trấn an: 心配しないでください.",
+      "examples": [
+        {
+          "ja": "心配しないでください。すぐ治りますよ。",
+          "vi": "Đừng lo. Sẽ khỏi ngay thôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1012,
+      "word": "背中",
+      "meaningsVi": [
+        "lưng"
+      ],
+      "noteVi": "Cái lưng (phía sau cơ thể). 背 (せ) thường là chiều cao: 背が高い.",
+      "examples": [
+        {
+          "ja": "背中が痛いから、重い物は持てません。",
+          "vi": "Tôi đau lưng nên không xách được đồ nặng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1032,
+      "word": "退院",
+      "meaningsVi": [
+        "ra viện, xuất viện"
+      ],
+      "noteVi": "Âm Hán Việt \"thoái viện\". Động từ: 退院する. Ngược nghĩa: 入院.",
+      "examples": [
+        {
+          "ja": "父は来週退院します。",
+          "vi": "Tuần sau bố tôi ra viện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1034,
+      "word": "大事",
+      "meaningsVi": [
+        "quan trọng, quý giá",
+        "giữ gìn (sức khỏe)"
+      ],
+      "noteVi": "Âm Hán Việt \"đại sự\" nhưng nghĩa gần 大切 (quan trọng, quý). お大事に: lời chúc người ốm \"Giữ gìn sức khỏe nhé, mau khỏe nhé\".",
+      "examples": [
+        {
+          "ja": "どうぞお大事に。",
+          "vi": "Anh giữ gìn sức khỏe nhé."
+        },
+        {
+          "ja": "これは大事な写真です。",
+          "vi": "Đây là tấm ảnh quý của tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1056,
+      "word": "だめ",
+      "meaningsVi": [
+        "không được",
+        "hỏng, vô ích"
+      ],
+      "noteVi": "〜てはだめです: không được làm (thân mật hơn 〜てはいけません). Nói một mình: だめ！ (Không được!).",
+      "examples": [
+        {
+          "ja": "病院でたばこを吸ってはだめですよ。",
+          "vi": "Không được hút thuốc trong bệnh viện đâu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1060,
+      "word": "血",
+      "meaningsVi": [
+        "máu"
+      ],
+      "noteVi": "Chảy máu: 血が出る.",
+      "examples": [
+        {
+          "ja": "指から血が出ています。",
+          "vi": "Ngón tay đang chảy máu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1067,
+      "word": "注射",
+      "meaningsVi": [
+        "tiêm, mũi tiêm"
+      ],
+      "noteVi": "Âm Hán Việt \"chú xạ\". Bác sĩ tiêm: 注射をする; được tiêm: 注射をしてもらう.",
+      "examples": [
+        {
+          "ja": "病院で注射をしてもらいました。",
+          "vi": "Tôi đã được tiêm ở bệnh viện."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1086,
+      "word": "できるだけ",
+      "meaningsVi": [
+        "hết mức có thể, càng … càng tốt"
+      ],
+      "noteVi": "Gần nghĩa なるべく, nhưng mạnh hơn một chút: cố hết sức có thể.",
+      "examples": [
+        {
+          "ja": "できるだけ野菜を食べたほうがいいですよ。",
+          "vi": "Nên ăn rau càng nhiều càng tốt đấy."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1124,
+      "word": "なるべく",
+      "meaningsVi": [
+        "cố gắng (nếu được)"
+      ],
+      "noteVi": "\"Nếu có thể thì …\", nhẹ hơn できるだけ. Hay đi với 〜ようにする, 〜てください.",
+      "examples": [
+        {
+          "ja": "夜はなるべく早く寝るようにしています。",
+          "vi": "Buổi tối tôi cố gắng đi ngủ sớm."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 808,
+      "word": "必ず",
+      "meaningsVi": [
+        "nhất định, chắc chắn",
+        "lúc nào cũng"
+      ],
+      "noteVi": "Âm Hán Việt \"tất\". Dùng cho việc chắc chắn làm, quy tắc, lời hứa: 必ず来てください (Nhất định phải đến nhé).",
+      "examples": [
+        {
+          "ja": "この薬は毎日必ず飲んでください。",
+          "vi": "Thuốc này nhất định phải uống mỗi ngày."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1132,
+      "word": "入院",
+      "meaningsVi": [
+        "nhập viện, nằm viện"
+      ],
+      "noteVi": "Âm Hán Việt \"nhập viện\", nghĩa như tiếng Việt. Đang nằm viện: 入院しています.",
+      "examples": [
+        {
+          "ja": "田中さんは先週から入院しています。",
+          "vi": "Anh Tanaka nằm viện từ tuần trước."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1140,
+      "word": "熱",
+      "meaningsVi": [
+        "sốt",
+        "nhiệt, sức nóng"
+      ],
+      "noteVi": "Bị sốt: 熱がある (không nói 熱です). Hết sốt: 熱が下がる.",
+      "examples": [
+        {
+          "ja": "熱があるから、今日は休みます。",
+          "vi": "Tôi bị sốt nên hôm nay xin nghỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1144,
+      "word": "眠る",
+      "meaningsVi": [
+        "ngủ, ngủ say"
+      ],
+      "noteVi": "寝る là đi ngủ, nằm xuống; 眠る là trạng thái đang ngủ. Không ngủ được: 眠れない.",
+      "examples": [
+        {
+          "ja": "昨夜はよく眠れませんでした。",
+          "vi": "Đêm qua tôi không ngủ ngon được."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1146,
+      "word": "のど",
+      "meaningsVi": [
+        "họng, cổ họng"
+      ],
+      "noteVi": "Kanji: 喉. Khát nước: のどが渇く.",
+      "examples": [
+        {
+          "ja": "風邪でのどが痛いです。",
+          "vi": "Tôi bị cảm nên đau họng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1154,
+      "word": "歯医者",
+      "meaningsVi": [
+        "nha sĩ",
+        "phòng khám nha khoa"
+      ],
+      "noteVi": "Âm Hán Việt \"xỉ y giả\". 歯医者に行く: đi khám răng.",
+      "examples": [
+        {
+          "ja": "歯が痛いから、歯医者に行かないといけません。",
+          "vi": "Răng đau nên tôi phải đi nha sĩ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1246,
+      "word": "無理",
+      "meaningsVi": [
+        "không thể, quá sức",
+        "cố quá sức"
+      ],
+      "noteVi": "Âm Hán Việt \"vô lý\" nhưng nghĩa khác tiếng Việt: 無理です = không làm được. 無理をする: cố quá sức.",
+      "examples": [
+        {
+          "ja": "無理をしないでくださいね。",
+          "vi": "Đừng cố quá sức nhé."
+        },
+        {
+          "ja": "明日は無理です。",
+          "vi": "Ngày mai thì không được."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1115,
+      "word": "治る",
+      "meaningsVi": [
+        "khỏi (bệnh), lành (vết thương)"
+      ],
+      "noteVi": "Khỏi bệnh: 治る. Đồ vật được sửa xong: 直る (cùng cách đọc なおる).",
+      "examples": [
+        {
+          "ja": "風邪はもう治りました。",
+          "vi": "Tôi khỏi cảm rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1272,
+      "word": "指",
+      "meaningsVi": [
+        "ngón tay, ngón chân"
+      ],
+      "noteVi": "Ngón chân nói rõ: 足の指.",
+      "examples": [
+        {
+          "ja": "ナイフで指を切りました。",
+          "vi": "Tôi bị dao cắt vào ngón tay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 825,
+      "word": "気",
+      "meaningsVi": [
+        "tinh thần, tâm trí, cảm giác"
+      ],
+      "noteVi": "Ít dùng một mình; thường nằm trong cụm từ: 気をつける (cẩn thận), 気分, 元気, 病気.",
+      "examples": [
+        {
+          "ja": "車に気をつけてください。",
+          "vi": "Hãy cẩn thận xe cộ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "者",
+      "meaningVi": "người (làm việc gì)",
+      "noteVi": "Đứng sau để chỉ người, như \"giả\" trong \"tác giả\": 医者 (いしゃ), 歯医者 (はいしゃ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "体",
+      "meaningVi": "thân thể",
+      "noteVi": "Gặp trong 体 (からだ, cơ thể). Bộ 亻 (người) + 本 (gốc).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "院",
+      "meaningVi": "viện",
+      "noteVi": "Gặp trong 病院, 入院, 退院. Bộ 阝 bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "病",
+      "meaningVi": "bệnh",
+      "noteVi": "Gặp trong 病気 (びょうき), 病院. Bộ 疒 (bệnh tật) bao bên ngoài, như trong 痛 (đau).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "医",
+      "meaningVi": "y, chữa bệnh",
+      "noteVi": "Gặp trong 医者 (いしゃ), 歯医者.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "心",
+      "meaningVi": "tim, lòng",
+      "noteVi": "Gặp trong 心配 (しんぱい). Đứng một mình đọc こころ (tấm lòng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "目",
+      "meaningVi": "mắt",
+      "noteVi": "Gặp trong 目 (め, mắt). Hình con mắt dựng đứng; khác 日 (mặt trời) ở hai nét ngang bên trong.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "hou-ga-ii",
+      "titleVi": "〜たほうがいい / 〜ないほうがいい: nên, không nên",
+      "summaryVi": "Khuyên ai đó nên hoặc không nên làm gì: 早く寝たほうがいいですよ.",
+      "explanationVi": [
+        "**〜ほうがいい** dùng để **khuyên**: \"nên …\", \"… thì hơn\". 「ほう」 là \"phía, cách\" (như trong 〜のほうが…より): làm theo cách đó thì tốt hơn.",
+        "Cách ghép: khuyên **nên làm** → động từ **thể た** + ほうがいい: 「寝る → 寝たほうがいい」, 「行く → 行ったほうがいい」. Khuyên **không nên làm** → **thể ない** + ほうがいい: 「飲まないほうがいい」 (không dùng 飲まなかった). Dù dùng thể た, câu vẫn nói về việc sắp làm.",
+        "Lời khuyên với ほうがいい khá rõ ràng, thường khi có lý do (sức khỏe, an toàn): 「熱があるなら、休んだほうがいいですよ」. Nói với người trên thì dễ nghe như dạy bảo, giống \"Bác nên …\" trong tiếng Việt; gợi ý nhẹ hơn thì dùng 〜たらどうですか (N4-08)."
+      ],
+      "patterns": [
+        "V-た + ほうがいい(です)",
+        "V-ない + ほうがいい(です)"
+      ],
+      "examples": [
+        {
+          "ja": "熱があるなら、早く寝たほうがいいですよ。",
+          "vi": "Nếu bị sốt thì nên đi ngủ sớm đấy."
+        },
+        {
+          "ja": "お酒はあまり飲まないほうがいいですよ。",
+          "vi": "Không nên uống nhiều rượu đâu."
+        },
+        {
+          "ja": "たばこは吸わないほうがいいです。",
+          "vi": "Không nên hút thuốc."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "たばこは吸わなかったほうがいいです。",
+          "right": "たばこは吸わないほうがいいです。",
+          "noteVi": "Khuyên không nên: dùng thể ない (吸わない), không dùng thể quá khứ なかった."
+        },
+        {
+          "wrong": "早く寝るほうがいいですよ。",
+          "right": "早く寝たほうがいいですよ。",
+          "noteVi": "Không sai hẳn, nhưng khi khuyên một người cụ thể, người Nhật thường dùng thể た: 寝たほうがいい."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "nai-to-ikenai-nakucha",
+      "titleVi": "〜ないといけない / 〜なくちゃ: phải (văn nói)",
+      "summaryVi": "Nói việc phải làm, cách nói hằng ngày của 〜なければなりません: 薬を飲まないといけません.",
+      "explanationVi": [
+        "Ở N5 đã học 〜なければなりません / 〜なくてはいけません (phải). Khi nói chuyện, người Nhật hay dùng **〜ないといけない** (lịch sự: 〜ないといけません). Nghĩa đen: \"không làm thì không được\", tức là \"phải làm\".",
+        "Cách ghép: **thể ない + といけない**: 「飲む → 飲まない → 飲まないといけない」, 「する → しないといけない」, 「来る → 来ないといけない」.",
+        "Thân mật hơn: 〜なくては rút gọn thành **〜なくちゃ**: 「飲まなくちゃ」, 「行かなくちゃいけない」. Thường bỏ luôn phần sau: 「もう帰らなくちゃ」 (Phải về thôi). Chỉ dùng với bạn bè, người nhà. (Cũng hay nghe 〜なきゃ, rút gọn của 〜なければ.)",
+        "Tiếng Việt nói khẳng định \"phải đi\", còn tiếng Nhật nói bằng hai lần phủ định \"không đi thì không được\". Đừng quên ない ở động từ và いけない ở cuối."
+      ],
+      "patterns": [
+        "V-ない + と いけない／いけません",
+        "V-ない → V-なくちゃ (いけない)"
+      ],
+      "examples": [
+        {
+          "ja": "明日までにレポートを出さないといけません。",
+          "vi": "Tôi phải nộp báo cáo trước ngày mai."
+        },
+        {
+          "ja": "この薬は毎日飲まないといけないんです。",
+          "vi": "Thuốc này phải uống hằng ngày."
+        },
+        {
+          "ja": "あ、もう9時だ。帰らなくちゃ。",
+          "vi": "Ôi, 9 giờ rồi. Phải về thôi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日、病院に行くといけません。",
+          "right": "明日、病院に行かないといけません。",
+          "noteVi": "Thiếu ない thì nghĩa ngược hẳn: 行くといけません = đi thì không được."
+        },
+        {
+          "wrong": "明日、病院に行かないといけます。",
+          "right": "明日、病院に行かないといけません。",
+          "noteVi": "Phần cuối luôn là phủ định: いけない / いけません."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "naide",
+      "titleVi": "〜ないで: mà không …, thay vì …",
+      "summaryVi": "V1-ないで V2: làm V2 mà không làm V1, hoặc làm V2 thay cho V1: 朝ごはんを食べないで出かけました.",
+      "explanationVi": [
+        "**V1-ないで V2** nghĩa là \"làm V2 **mà không** V1\": 「朝ごはんを食べないで出かけました」 (Tôi ra khỏi nhà mà không ăn sáng). Cách ghép: **thể ない + で**: 食べないで, 持たないで, しないで.",
+        "Cũng dùng khi nói \"**thay vì** V1, làm V2\": 「エレベーターに乗らないで、階段を使います」 (Tôi đi cầu thang bộ thay vì đi thang máy).",
+        "Ở N5 đã gặp 〜ないでください (xin đừng …). ないで ở đây nối hai hành động trong một câu. Đừng nhầm với **〜なくて**, dùng để nêu lý do: 「時間がなくて、行けませんでした」 (Vì không có thời gian nên tôi không đi được)."
+      ],
+      "patterns": [
+        "V1-ないで V2",
+        "V1-ないで、V2 (thay vì V1)"
+      ],
+      "examples": [
+        {
+          "ja": "今朝は朝ごはんを食べないで出かけました。",
+          "vi": "Sáng nay tôi ra ngoài mà không ăn sáng."
+        },
+        {
+          "ja": "エレベーターに乗らないで、階段を使いましょう。",
+          "vi": "Mình đi cầu thang bộ thay vì đi thang máy đi."
+        },
+        {
+          "ja": "昨夜は寝ないで勉強しました。",
+          "vi": "Đêm qua tôi thức trắng học bài."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "砂糖を入れなくて、コーヒーを飲みます。",
+          "right": "砂糖を入れないで、コーヒーを飲みます。",
+          "noteVi": "Nói cách làm (uống cà phê không cho đường) dùng ないで; なくて chỉ lý do."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "nasai",
+      "titleVi": "〜なさい: hãy … (cha mẹ, thầy cô ra lệnh)",
+      "summaryVi": "V (bỏ ます) + なさい: mệnh lệnh nhẹ của người trên với người dưới: 早く寝なさい.",
+      "explanationVi": [
+        "**〜なさい** là mệnh lệnh, nhưng nhẹ hơn thể mệnh lệnh (học sau). Cha mẹ nói với con, thầy cô nói với học sinh: 「早く寝なさい」 (Đi ngủ sớm đi con), 「静かにしなさい」 (Trật tự nào).",
+        "Cách ghép: dạng ます **bỏ ます** + なさい: 「飲みます → 飲みなさい」, 「食べます → 食べなさい」, 「します → しなさい」, 「来ます → 来なさい」.",
+        "Chỉ người trên dùng với người dưới, thường là trẻ con. Không dùng với người trên, người lạ, khách: khi đó nói 〜てください. Câu hỏi trong đề thi cũng hay dùng なさい: 「正しいものを選びなさい」 (Hãy chọn đáp án đúng)."
+      ],
+      "patterns": [
+        "V (bỏ ます) + なさい"
+      ],
+      "examples": [
+        {
+          "ja": "早く寝なさい。",
+          "vi": "Đi ngủ sớm đi con."
+        },
+        {
+          "ja": "野菜も食べなさい。",
+          "vi": "Ăn cả rau nữa đi."
+        },
+        {
+          "ja": "熱があるから、今日は学校を休みなさい。",
+          "vi": "Con bị sốt, hôm nay nghỉ học đi."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "先生、ここに座りなさい。",
+          "right": "先生、ここに座ってください。",
+          "noteVi": "Câu sai về cách dùng: なさい là lời người trên nói với người dưới. Mời thầy cô, khách thì dùng 〜てください."
+        },
+        {
+          "wrong": "早く寝るなさい。",
+          "right": "早く寝なさい。",
+          "noteVi": "なさい gắn vào dạng ます bỏ ます (寝ます → 寝), không gắn vào thể từ điển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-10-e01",
+      "type": "choice",
+      "grammar": [
+        "hou-ga-ii"
+      ],
+      "promptVi": "Bạn của bạn bị cảm. Bạn khuyên: \"Cậu nên uống thuốc đấy.\" Câu nào đúng?",
+      "options": [
+        "薬を飲んだほうがいいですよ。",
+        "薬を飲まないほうがいいですよ。",
+        "薬を飲んだほうがよかったです。"
+      ],
+      "answer": 0,
+      "explainVi": "Khuyên nên làm: thể た + ほうがいい."
+    },
+    {
+      "id": "n4-10-e02",
+      "type": "fill",
+      "grammar": [
+        "hou-ga-ii"
+      ],
+      "before": "たばこは吸わない",
+      "after": "がいいですよ。",
+      "answers": [
+        "ほう"
+      ],
+      "options": [
+        "ほう",
+        "より",
+        "から"
+      ],
+      "vi": "Không nên hút thuốc đâu."
+    },
+    {
+      "id": "n4-10-e03",
+      "type": "choice",
+      "grammar": [
+        "hou-ga-ii"
+      ],
+      "promptVi": "\"Không nên làm quá sức.\" Chọn dạng đúng điền vào chỗ trống.",
+      "ja": "無理を＿ほうがいいです。",
+      "options": [
+        "しない",
+        "しなかった",
+        "する"
+      ],
+      "answer": 0,
+      "explainVi": "Khuyên không nên: thể ない + ほうがいい, không dùng なかった."
+    },
+    {
+      "id": "n4-10-e04",
+      "type": "fill",
+      "grammar": [
+        "nai-to-ikenai-nakucha"
+      ],
+      "before": "明日までにレポートを出さない",
+      "after": "いけません。",
+      "answers": [
+        "と"
+      ],
+      "options": [
+        "と",
+        "で",
+        "て"
+      ],
+      "vi": "Tôi phải nộp báo cáo trước ngày mai."
+    },
+    {
+      "id": "n4-10-e05",
+      "type": "choice",
+      "grammar": [
+        "nai-to-ikenai-nakucha"
+      ],
+      "promptVi": "Nói với bạn thân: \"Muộn rồi, tớ phải về thôi.\" Câu nào đúng?",
+      "options": [
+        "もう遅いから、帰らなくちゃ。",
+        "もう遅いから、帰らないで。",
+        "もう遅いから、帰ったほうがいいです。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-10-e06",
+      "type": "order",
+      "grammar": [
+        "nai-to-ikenai-nakucha"
+      ],
+      "vi": "Tôi phải uống thuốc mỗi ngày.",
+      "tiles": [
+        "毎日",
+        "薬を",
+        "飲まないと",
+        "いけません"
+      ],
+      "answers": [
+        "毎日薬を飲まないといけません",
+        "薬を毎日飲まないといけません"
+      ]
+    },
+    {
+      "id": "n4-10-e07",
+      "type": "choice",
+      "grammar": [
+        "nai-to-ikenai-nakucha"
+      ],
+      "promptVi": "Câu này cùng nghĩa với câu nào?",
+      "options": [
+        "行かなくてはいけない。",
+        "行かなくてもいい。",
+        "行かないでください。"
+      ],
+      "answer": 0,
+      "explainVi": "なくちゃ là cách nói rút gọn của なくては: phải đi.",
+      "ja": "行かなくちゃ。"
+    },
+    {
+      "id": "n4-10-e08",
+      "type": "fill",
+      "grammar": [
+        "naide"
+      ],
+      "before": "今朝は朝ごはんを食べ",
+      "after": "出かけました。",
+      "answers": [
+        "ないで"
+      ],
+      "options": [
+        "ないで",
+        "なくて",
+        "ないと"
+      ],
+      "vi": "Sáng nay tôi ra ngoài mà không ăn sáng."
+    },
+    {
+      "id": "n4-10-e09",
+      "type": "choice",
+      "grammar": [
+        "naide"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi đi cầu thang bộ thay vì đi thang máy\"?",
+      "options": [
+        "エレベーターに乗らないで、階段を使います。",
+        "エレベーターに乗らなくて、階段を使います。",
+        "エレベーターに乗って、階段を使います。"
+      ],
+      "answer": 0,
+      "explainVi": "\"Thay vì / mà không\": ないで. なくて chỉ lý do."
+    },
+    {
+      "id": "n4-10-e10",
+      "type": "order",
+      "grammar": [
+        "naide"
+      ],
+      "vi": "Đêm qua tôi thức trắng học tiếng Nhật.",
+      "tiles": [
+        "昨夜は",
+        "寝ないで",
+        "日本語を",
+        "勉強しました"
+      ],
+      "answers": [
+        "昨夜は寝ないで日本語を勉強しました"
+      ]
+    },
+    {
+      "id": "n4-10-e11",
+      "type": "fill",
+      "grammar": [
+        "nasai"
+      ],
+      "promptVi": "Mẹ nói với con: \"11 giờ rồi đấy. Đi ngủ ngay đi con.\"",
+      "before": "もう11時ですよ。早く寝",
+      "after": "。",
+      "answers": [
+        "なさい"
+      ],
+      "options": [
+        "なさい",
+        "たい",
+        "ないで"
+      ]
+    },
+    {
+      "id": "n4-10-e12",
+      "type": "choice",
+      "grammar": [
+        "nasai"
+      ],
+      "promptVi": "Ai nói câu này là tự nhiên?",
+      "ja": "宿題をしなさい。",
+      "options": [
+        "Mẹ nói với con",
+        "Nhân viên nói với khách",
+        "Học sinh nói với thầy giáo"
+      ],
+      "answer": 0,
+      "explainVi": "なさい là lời người trên (cha mẹ, thầy cô) nói với người dưới."
+    },
+    {
+      "id": "n4-10-e13",
+      "type": "choice",
+      "grammar": [
+        "nasai"
+      ],
+      "promptVi": "Chọn dạng đúng điền vào chỗ trống.",
+      "ja": "野菜も＿なさい。",
+      "options": [
+        "食べ",
+        "食べる",
+        "食べて"
+      ],
+      "answer": 0,
+      "explainVi": "Dạng ます bỏ ます + なさい: 食べます → 食べなさい."
+    },
+    {
+      "id": "n4-10-e14",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "腕",
+          "cánh tay"
+        ],
+        [
+          "首",
+          "cổ"
+        ],
+        [
+          "背中",
+          "lưng"
+        ],
+        [
+          "指",
+          "ngón tay"
+        ],
+        [
+          "のど",
+          "họng"
+        ]
+      ]
+    },
+    {
+      "id": "n4-10-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "入院",
+          "nhập viện"
+        ],
+        [
+          "退院",
+          "ra viện"
+        ],
+        [
+          "注射",
+          "tiêm"
+        ],
+        [
+          "熱",
+          "sốt"
+        ],
+        [
+          "歯医者",
+          "nha sĩ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-10-e16",
+      "type": "choice",
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "明日は無理です。",
+      "options": [
+        "Ngày mai thì không được.",
+        "Ngày mai thì vô lý.",
+        "Ngày mai thì không sao."
+      ],
+      "answer": 0,
+      "explainVi": "Âm Hán Việt \"vô lý\" nhưng 無理です nghĩa là không làm được."
+    },
+    {
+      "id": "n4-10-e17",
+      "type": "choice",
+      "promptVi": "Đi thăm người ốm, lúc ra về bạn nói câu nào?",
+      "options": [
+        "どうぞお大事に。",
+        "いただきます。",
+        "はじめまして。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-10-e18",
+      "type": "choice",
+      "promptVi": "\"Tôi đã khỏi cảm.\" Chọn từ đúng.",
+      "ja": "風邪が＿。",
+      "options": [
+        "治りました",
+        "直りました",
+        "壊れました"
+      ],
+      "answer": 0,
+      "explainVi": "Khỏi bệnh: 治る. Đồ vật được sửa xong: 直る."
+    },
+    {
+      "id": "n4-10-e19",
+      "type": "translate",
+      "grammar": [
+        "hou-ga-ii"
+      ],
+      "vi": "Không nên uống nhiều rượu.",
+      "answers": [
+        "お酒はあまり飲まないほうがいいです。",
+        "お酒[は|を][あまり|たくさん]飲まないほうがいい(です)(よ)。"
+      ],
+      "examples": [
+        {
+          "answer": "おさけはあまりのまないほうがいいです",
+          "score": 100
+        },
+        {
+          "answer": "お酒はあまり飲まないのほうがいいです。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "お酒はあまり飲まなかったほうがいいです。",
+          "score": 0
+        },
+        {
+          "answer": "お酒はたくさん飲んだほうがいいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-10-e20",
+      "type": "translate",
+      "grammar": [
+        "nai-to-ikenai-nakucha"
+      ],
+      "vi": "Tôi phải uống thuốc mỗi ngày.",
+      "answers": [
+        "(私は)毎日薬を飲まないといけません。",
+        "(私は)[毎日薬を|薬を毎日]飲まないと[いけません|いけない]。",
+        "(私は)[毎日薬を|薬を毎日]飲まなくちゃ(いけない)。",
+        "(私は)[毎日薬を|薬を毎日]飲まなければ[なりません|ならない|いけません|いけない]。",
+        "(私は)[毎日薬を|薬を毎日]飲まなくては[いけません|いけない|なりません|ならない]。"
+      ],
+      "examples": [
+        {
+          "answer": "まいにちくすりをのまないといけません",
+          "score": 100
+        },
+        {
+          "answer": "毎日薬が飲まないといけません。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "毎日薬を飲むといけません。",
+          "score": 0
+        },
+        {
+          "answer": "毎日薬を飲まなくてもいいです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-10-e21",
+      "type": "translate",
+      "grammar": [
+        "naide"
+      ],
+      "vi": "Sáng nay tôi đi học mà không ăn sáng.",
+      "answers": [
+        "(私は)今朝(は)朝ごはんを食べないで学校へ行きました。",
+        "(私は)今朝(は)朝ごはんを食べないで学校[へ|に]行きました。"
+      ],
+      "examples": [
+        {
+          "answer": "けさはあさごはんをたべないでがっこうへいきました",
+          "score": 100
+        },
+        {
+          "answer": "今朝は朝ごはんを食べないで学校で行きました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "今朝は朝ごはんを食べなくて学校へ行きました。",
+          "score": 0
+        },
+        {
+          "answer": "今朝は朝ごはんを食べて学校へ行きました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-10-e22",
+      "type": "translate",
+      "grammar": [
+        "nasai"
+      ],
+      "vi": "(Mẹ nói với con, dùng 〜なさい) Uống thuốc đi con.",
+      "answers": [
+        "薬を飲みなさい。"
+      ],
+      "examples": [
+        {
+          "answer": "くすりをのみなさい",
+          "score": 100
+        },
+        {
+          "answer": "薬が飲みなさい。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "薬を飲むなさい。",
+          "score": 0
+        },
+        {
+          "answer": "薬を飲まないでください。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "テニスをして、腕が痛くなりました。": "テニスをして、{腕|うで}が{痛|いた}くなりました。",
+    "明日、田中さんのお見舞いに行きます。": "{明日|あした}、{田中|たなか}さんのお{見|み}{舞|ま}いに{行|い}きます。",
+    "姉は病院で看護婦をしています。": "{姉|あね}は{病|びょう}{院|いん}で{看|かん}{護|ご}{婦|ふ}をしています。",
+    "ちょっと気分が悪いんです。": "ちょっと{気|き}{分|ぶん}が{悪|わる}いんです。",
+    "体の具合はどうですか。": "{体|からだ}の{具|ぐ}{合|あい}はどうですか。",
+    "朝から首が痛いです。": "{朝|あさ}から{首|くび}が{痛|いた}いです。",
+    "階段で足をけがしました。": "{階|かい}{段|だん}で{足|あし}をけがしました。",
+    "心配しないでください。すぐ治りますよ。": "{心|しん}{配|ぱい}しないでください。すぐ{治|なお}りますよ。",
+    "背中が痛いから、重い物は持てません。": "{背|せ}{中|なか}が{痛|いた}いから、{重|おも}い{物|もの}は{持|も}てません。",
+    "父は来週退院します。": "{父|ちち}は{来|らい}{週|しゅう}{退|たい}{院|いん}します。",
+    "どうぞお大事に。": "どうぞお{大|だい}{事|じ}に。",
+    "これは大事な写真です。": "これは{大|だい}{事|じ}な{写|しゃ}{真|しん}です。",
+    "病院でたばこを吸ってはだめですよ。": "{病|びょう}{院|いん}でたばこを{吸|す}ってはだめですよ。",
+    "指から血が出ています。": "{指|ゆび}から{血|ち}が{出|で}ています。",
+    "病院で注射をしてもらいました。": "{病|びょう}{院|いん}で{注|ちゅう}{射|しゃ}をしてもらいました。",
+    "できるだけ野菜を食べたほうがいいですよ。": "できるだけ{野|や}{菜|さい}を{食|た}べたほうがいいですよ。",
+    "夜はなるべく早く寝るようにしています。": "{夜|よる}はなるべく{早|はや}く{寝|ね}るようにしています。",
+    "この薬は毎日必ず飲んでください。": "この{薬|くすり}は{毎|まい}{日|にち}{必|かなら}ず{飲|の}んでください。",
+    "田中さんは先週から入院しています。": "{田中|たなか}さんは{先|せん}{週|しゅう}から{入|にゅう}{院|いん}しています。",
+    "熱があるから、今日は休みます。": "{熱|ねつ}があるから、{今日|きょう}は{休|やす}みます。",
+    "昨夜はよく眠れませんでした。": "{昨夜|ゆうべ}はよく{眠|ねむ}れませんでした。",
+    "風邪でのどが痛いです。": "{風邪|かぜ}でのどが{痛|いた}いです。",
+    "歯が痛いから、歯医者に行かないといけません。": "{歯|は}が{痛|いた}いから、{歯|は}{医|い}{者|しゃ}に{行|い}かないといけません。",
+    "無理をしないでくださいね。": "{無|む}{理|り}をしないでくださいね。",
+    "明日は無理です。": "{明日|あした}は{無|む}{理|り}です。",
+    "風邪はもう治りました。": "{風邪|かぜ}はもう{治|なお}りました。",
+    "ナイフで指を切りました。": "ナイフで{指|ゆび}を{切|き}りました。",
+    "車に気をつけてください。": "{車|くるま}に{気|き}をつけてください。",
+    "熱があるなら、早く寝たほうがいいですよ。": "{熱|ねつ}があるなら、{早|はや}く{寝|ね}たほうがいいですよ。",
+    "お酒はあまり飲まないほうがいいですよ。": "お{酒|さけ}はあまり{飲|の}まないほうがいいですよ。",
+    "たばこは吸わないほうがいいです。": "たばこは{吸|す}わないほうがいいです。",
+    "たばこは吸わなかったほうがいいです。": "たばこは{吸|す}わなかったほうがいいです。",
+    "早く寝たほうがいいですよ。": "{早|はや}く{寝|ね}たほうがいいですよ。",
+    "早く寝るほうがいいですよ。": "{早|はや}く{寝|ね}るほうがいいですよ。",
+    "明日までにレポートを出さないといけません。": "{明日|あした}までにレポートを{出|だ}さないといけません。",
+    "この薬は毎日飲まないといけないんです。": "この{薬|くすり}は{毎|まい}{日|にち}{飲|の}まないといけないんです。",
+    "あ、もう9時だ。帰らなくちゃ。": "あ、もう{9時|くじ}だ。{帰|かえ}らなくちゃ。",
+    "明日、病院に行かないといけません。": "{明日|あした}、{病|びょう}{院|いん}に{行|い}かないといけません。",
+    "明日、病院に行くといけません。": "{明日|あした}、{病|びょう}{院|いん}に{行|い}くといけません。",
+    "明日、病院に行かないといけます。": "{明日|あした}、{病|びょう}{院|いん}に{行|い}かないといけます。",
+    "今朝は朝ごはんを食べないで出かけました。": "{今朝|けさ}は{朝|あさ}ごはんを{食|た}べないで{出|で}かけました。",
+    "エレベーターに乗らないで、階段を使いましょう。": "エレベーターに{乗|の}らないで、{階|かい}{段|だん}を{使|つか}いましょう。",
+    "昨夜は寝ないで勉強しました。": "{昨夜|ゆうべ}は{寝|ね}ないで{勉|べん}{強|きょう}しました。",
+    "砂糖を入れないで、コーヒーを飲みます。": "{砂|さ}{糖|とう}を{入|い}れないで、コーヒーを{飲|の}みます。",
+    "砂糖を入れなくて、コーヒーを飲みます。": "{砂|さ}{糖|とう}を{入|い}れなくて、コーヒーを{飲|の}みます。",
+    "早く寝なさい。": "{早|はや}く{寝|ね}なさい。",
+    "野菜も食べなさい。": "{野|や}{菜|さい}も{食|た}べなさい。",
+    "熱があるから、今日は学校を休みなさい。": "{熱|ねつ}があるから、{今日|きょう}は{学|がっ}{校|こう}を{休|やす}みなさい。",
+    "先生、ここに座ってください。": "{先|せん}{生|せい}、ここに{座|すわ}ってください。",
+    "先生、ここに座りなさい。": "{先|せん}{生|せい}、ここに{座|すわ}りなさい。",
+    "早く寝るなさい。": "{早|はや}く{寝|ね}るなさい。",
+    "薬を飲んだほうがいいですよ。": "{薬|くすり}を{飲|の}んだほうがいいですよ。",
+    "薬を飲まないほうがいいですよ。": "{薬|くすり}を{飲|の}まないほうがいいですよ。",
+    "薬を飲んだほうがよかったです。": "{薬|くすり}を{飲|の}んだほうがよかったです。",
+    "たばこは吸わないほうがいいですよ。": "たばこは{吸|す}わないほうがいいですよ。",
+    "ほう": "ほう",
+    "より": "より",
+    "から": "から",
+    "無理を＿ほうがいいです。": "{無|む}{理|り}を＿ほうがいいです。",
+    "しない": "しない",
+    "しなかった": "しなかった",
+    "する": "する",
+    "と": "と",
+    "で": "で",
+    "て": "て",
+    "もう遅いから、帰らなくちゃ。": "もう{遅|おそ}いから、{帰|かえ}らなくちゃ。",
+    "もう遅いから、帰らないで。": "もう{遅|おそ}いから、{帰|かえ}らないで。",
+    "もう遅いから、帰ったほうがいいです。": "もう{遅|おそ}いから、{帰|かえ}ったほうがいいです。",
+    "毎日": "{毎|まい}{日|にち}",
+    "薬を": "{薬|くすり}を",
+    "飲まないと": "{飲|の}まないと",
+    "いけません": "いけません",
+    "毎日薬を飲まないといけません": "{毎|まい}{日|にち}{薬|くすり}を{飲|の}まないといけません",
+    "薬を毎日飲まないといけません": "{薬|くすり}を{毎|まい}{日|にち}{飲|の}まないといけません",
+    "行かなくちゃ。": "{行|い}かなくちゃ。",
+    "行かなくてはいけない。": "{行|い}かなくてはいけない。",
+    "行かなくてもいい。": "{行|い}かなくてもいい。",
+    "行かないでください。": "{行|い}かないでください。",
+    "ないで": "ないで",
+    "なくて": "なくて",
+    "ないと": "ないと",
+    "エレベーターに乗らないで、階段を使います。": "エレベーターに{乗|の}らないで、{階|かい}{段|だん}を{使|つか}います。",
+    "エレベーターに乗らなくて、階段を使います。": "エレベーターに{乗|の}らなくて、{階|かい}{段|だん}を{使|つか}います。",
+    "エレベーターに乗って、階段を使います。": "エレベーターに{乗|の}って、{階|かい}{段|だん}を{使|つか}います。",
+    "昨夜は": "{昨夜|ゆうべ}は",
+    "寝ないで": "{寝|ね}ないで",
+    "日本語を": "{日本|にほん}{語|ご}を",
+    "勉強しました": "{勉|べん}{強|きょう}しました",
+    "昨夜は寝ないで日本語を勉強しました": "{昨夜|ゆうべ}は{寝|ね}ないで{日本|にほん}{語|ご}を{勉|べん}{強|きょう}しました",
+    "もう11時ですよ。早く寝なさい。": "もう11{時|じ}ですよ。{早|はや}く{寝|ね}なさい。",
+    "なさい": "なさい",
+    "たい": "たい",
+    "宿題をしなさい。": "{宿|しゅく}{題|だい}をしなさい。",
+    "野菜も＿なさい。": "{野|や}{菜|さい}も＿なさい。",
+    "食べ": "{食|た}べ",
+    "食べる": "{食|た}べる",
+    "食べて": "{食|た}べて",
+    "腕": "{腕|うで}",
+    "首": "{首|くび}",
+    "背中": "{背|せ}{中|なか}",
+    "指": "{指|ゆび}",
+    "のど": "のど",
+    "入院": "{入|にゅう}{院|いん}",
+    "退院": "{退|たい}{院|いん}",
+    "注射": "{注|ちゅう}{射|しゃ}",
+    "熱": "{熱|ねつ}",
+    "歯医者": "{歯|は}{医|い}{者|しゃ}",
+    "いただきます。": "いただきます。",
+    "はじめまして。": "はじめまして。",
+    "風邪が＿。": "{風邪|かぜ}が＿。",
+    "治りました": "{治|なお}りました",
+    "直りました": "{直|なお}りました",
+    "壊れました": "{壊|こわ}れました",
+    "お酒はあまり飲まないほうがいいです。": "お{酒|さけ}はあまり{飲|の}まないほうがいいです。",
+    "私は毎日薬を飲まないといけません。": "{私|わたし}は{毎|まい}{日|にち}{薬|くすり}を{飲|の}まないといけません。",
+    "私は毎日薬を飲まなくちゃいけない。": "{私|わたし}は{毎|まい}{日|にち}{薬|くすり}を{飲|の}まなくちゃいけない。",
+    "私は毎日薬を飲まなければなりません。": "{私|わたし}は{毎|まい}{日|にち}{薬|くすり}を{飲|の}まなければなりません。",
+    "私は毎日薬を飲まなくてはいけません。": "{私|わたし}は{毎|まい}{日|にち}{薬|くすり}を{飲|の}まなくてはいけません。",
+    "私は今朝は朝ごはんを食べないで学校へ行きました。": "{私|わたし}は{今朝|けさ}は{朝|あさ}ごはんを{食|た}べないで{学|がっ}{校|こう}へ{行|い}きました。",
+    "薬を飲みなさい。": "{薬|くすり}を{飲|の}みなさい。"
+  }
+}

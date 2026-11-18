@@ -1,0 +1,1284 @@
+{
+  "id": "n4-20",
+  "goalsVi": [
+    "Nói \"có … hay không\" bằng 〜かどうか: 明日晴れるかどうかわかりません",
+    "Lồng câu hỏi có từ để hỏi vào câu: コンサートが何時に始まるか知っていますか",
+    "Biến hành động thành danh từ bằng 〜の / 〜こと: 歩くのが好きです、趣味は写真を撮ることです",
+    "Nói \"có lúc, đôi khi\" bằng 〜ことがある: 時々朝ご飯を食べないことがあります",
+    "Nói về tham quan, thiên nhiên, văn hóa: 美術館、神社、寺、湖、景色、美しい、珍しい"
+  ],
+  "words": [
+    {
+      "no": 713,
+      "word": "一度",
+      "meaningsVi": [
+        "một lần",
+        "thử một lần (一度〜てみたい)"
+      ],
+      "noteVi": "Âm Hán Việt \"nhất độ\". 一度 lịch sự hơn 1回. 一度〜てみたい: muốn thử (làm gì) một lần.",
+      "examples": [
+        {
+          "ja": "一度京都に行ってみたいです。",
+          "vi": "Tôi muốn thử đến Kyoto một lần."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 862,
+      "word": "経験",
+      "meaningsVi": [
+        "kinh nghiệm",
+        "trải nghiệm, trải qua (経験する)"
+      ],
+      "noteVi": "Âm Hán Việt \"kinh nghiệm\". Có kinh nghiệm: 経験がある. Động từ 経験する: trải qua (地震を経験する).",
+      "examples": [
+        {
+          "ja": "日本で働いた経験があります。",
+          "vi": "Tôi có kinh nghiệm làm việc ở Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1180,
+      "word": "美術館",
+      "meaningsVi": [
+        "bảo tàng mỹ thuật"
+      ],
+      "noteVi": "Âm Hán Việt \"mỹ thuật quán\": nơi trưng bày tranh, tượng. Bảo tàng lịch sử, khoa học là 博物館 (ngoài bài).",
+      "examples": [
+        {
+          "ja": "日曜日に美術館へ行きました。",
+          "vi": "Chủ nhật tôi đã đi bảo tàng mỹ thuật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1096,
+      "word": "展覧会",
+      "meaningsVi": [
+        "triển lãm"
+      ],
+      "noteVi": "Âm Hán Việt \"triển lãm hội\". Thường là triển lãm tranh, ảnh, đồ mỹ nghệ.",
+      "examples": [
+        {
+          "ja": "美術館で写真の展覧会をしています。",
+          "vi": "Ở bảo tàng mỹ thuật đang có triển lãm ảnh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1100,
+      "word": "動物園",
+      "meaningsVi": [
+        "sở thú, vườn bách thú"
+      ],
+      "noteVi": "Âm Hán Việt \"động vật viên\".",
+      "examples": [
+        {
+          "ja": "子供と動物園へ行きました。",
+          "vi": "Tôi đã đi sở thú với con."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 910,
+      "word": "コンサート",
+      "meaningsVi": [
+        "buổi hòa nhạc, buổi biểu diễn ca nhạc"
+      ],
+      "examples": [
+        {
+          "ja": "昨日のコンサートはすばらしかったです。",
+          "vi": "Buổi hòa nhạc hôm qua thật tuyệt vời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 978,
+      "word": "神社",
+      "meaningsVi": [
+        "đền (Thần đạo)"
+      ],
+      "noteVi": "Âm Hán Việt \"thần xã\". Đền thờ thần của đạo Shinto, có cổng 鳥居 (torii) màu đỏ. Khác với chùa (寺) của đạo Phật.",
+      "examples": [
+        {
+          "ja": "近くに古い神社があります。",
+          "vi": "Gần đây có một ngôi đền cổ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1090,
+      "word": "寺",
+      "meaningsVi": [
+        "chùa"
+      ],
+      "noteVi": "Âm Hán Việt \"tự\". Thường nói お寺. Trong tên riêng đọc じ: 金閣寺 (きんかくじ).",
+      "examples": [
+        {
+          "ja": "京都には古いお寺がたくさんあります。",
+          "vi": "Ở Kyoto có rất nhiều ngôi chùa cổ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 846,
+      "word": "教会",
+      "meaningsVi": [
+        "nhà thờ (Thiên Chúa giáo, Tin Lành)"
+      ],
+      "noteVi": "Âm Hán Việt \"giáo hội\", nhưng nghĩa thường gặp là \"nhà thờ\" (tòa nhà).",
+      "examples": [
+        {
+          "ja": "日曜日は教会へ行きます。",
+          "vi": "Chủ nhật tôi đi nhà thờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 719,
+      "word": "祈る",
+      "meaningsVi": [
+        "cầu nguyện",
+        "cầu chúc"
+      ],
+      "noteVi": "Cầu cho điều gì: N を祈る. Câu chúc trong thư: ご成功をお祈りします (Chúc anh thành công).",
+      "examples": [
+        {
+          "ja": "教会で祈っている人がいます。",
+          "vi": "Có người đang cầu nguyện trong nhà thờ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 950,
+      "word": "島",
+      "meaningsVi": [
+        "đảo, hòn đảo"
+      ],
+      "noteVi": "Âm Hán Việt \"đảo\". Trong tên riêng có khi đọc じま: 宮島 (みやじま).",
+      "examples": [
+        {
+          "ja": "日本には島がたくさんあります。",
+          "vi": "Nhật Bản có rất nhiều hòn đảo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1234,
+      "word": "湖",
+      "meaningsVi": [
+        "hồ"
+      ],
+      "noteVi": "Âm Hán Việt \"hồ\". Hồ lớn, tự nhiên. Ao nhỏ là 池.",
+      "examples": [
+        {
+          "ja": "湖のそばのホテルに泊まりました。",
+          "vi": "Tôi đã ở khách sạn bên cạnh hồ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 786,
+      "word": "海岸",
+      "meaningsVi": [
+        "bờ biển"
+      ],
+      "noteVi": "Âm Hán Việt \"hải ngạn\". Đi dọc bờ biển: 海岸を歩く (dùng を chỉ nơi đi qua).",
+      "examples": [
+        {
+          "ja": "夕方、海岸を散歩しました。",
+          "vi": "Buổi chiều tôi đã đi dạo trên bờ biển."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1239,
+      "word": "港",
+      "meaningsVi": [
+        "cảng, bến cảng"
+      ],
+      "noteVi": "Âm Hán Việt \"cảng\". Sân bay là 空港 (くうこう: không cảng).",
+      "examples": [
+        {
+          "ja": "港の近くに魚がおいしい店があります。",
+          "vi": "Gần cảng có một quán cá ngon."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1258,
+      "word": "森",
+      "meaningsVi": [
+        "rừng"
+      ],
+      "noteVi": "Rừng lớn, cây rậm. Chữ có ba chữ 木 (cây). Rừng nhỏ, lùm cây: 林.",
+      "examples": [
+        {
+          "ja": "森の中を歩くのが好きです。",
+          "vi": "Tôi thích đi bộ trong rừng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1164,
+      "word": "林",
+      "meaningsVi": [
+        "rừng nhỏ, lùm cây"
+      ],
+      "noteVi": "Hai chữ 木: nhỏ hơn 森. Cũng là họ người Nhật: 林さん (はやしさん).",
+      "examples": [
+        {
+          "ja": "家の裏に小さい林があります。",
+          "vi": "Sau nhà có một khu rừng nhỏ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 867,
+      "word": "景色",
+      "meaningsVi": [
+        "phong cảnh, cảnh"
+      ],
+      "noteVi": "Âm Hán Việt \"cảnh sắc\". Cảnh thiên nhiên nhìn bằng mắt. Cách đọc đặc biệt: 景 đọc け, 色 đọc しき (không phải いろ).",
+      "examples": [
+        {
+          "ja": "山の上から見る景色はすばらしいです。",
+          "vi": "Phong cảnh nhìn từ trên núi thật tuyệt vời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 729,
+      "word": "美しい",
+      "meaningsVi": [
+        "đẹp"
+      ],
+      "noteVi": "Âm Hán Việt \"mỹ\". Trang trọng, văn viết hơn きれい; hay dùng cho cảnh, âm thanh, tấm lòng. Nói chuyện hằng ngày thường dùng きれい.",
+      "examples": [
+        {
+          "ja": "美しい湖ですね。",
+          "vi": "Hồ đẹp quá nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 999,
+      "word": "すばらしい",
+      "meaningsVi": [
+        "tuyệt vời"
+      ],
+      "noteVi": "Khen điều rất tốt, rất đẹp. Kanji: 素晴らしい.",
+      "examples": [
+        {
+          "ja": "すばらしいコンサートでした。",
+          "vi": "Đó là một buổi hòa nhạc tuyệt vời."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1248,
+      "word": "珍しい",
+      "meaningsVi": [
+        "hiếm, lạ",
+        "ít khi có, hiếm thấy"
+      ],
+      "noteVi": "Âm Hán Việt \"trân\" (quý). Vật hiếm thấy hoặc việc ít khi xảy ra.",
+      "examples": [
+        {
+          "ja": "この島には珍しい鳥がいます。",
+          "vi": "Trên đảo này có loài chim hiếm."
+        },
+        {
+          "ja": "田中さんが遅れるのは珍しいですね。",
+          "vi": "Anh Tanaka đến muộn là chuyện hiếm đấy nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 768,
+      "word": "踊り",
+      "meaningsVi": [
+        "điệu múa, điệu nhảy"
+      ],
+      "noteVi": "Danh từ của 踊る. Múa truyền thống ở lễ hội mùa hè: 盆踊り (ngoài bài).",
+      "examples": [
+        {
+          "ja": "お祭りで日本の踊りを見ました。",
+          "vi": "Tôi đã xem điệu múa Nhật Bản ở lễ hội."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 769,
+      "word": "踊る",
+      "meaningsVi": [
+        "nhảy, múa"
+      ],
+      "noteVi": "Tự động từ nhóm I: 踊ります, 踊って.",
+      "examples": [
+        {
+          "ja": "みんなで踊るのは楽しいです。",
+          "vi": "Nhảy cùng mọi người thật vui."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1206,
+      "word": "文化",
+      "meaningsVi": [
+        "văn hóa"
+      ],
+      "noteVi": "Âm Hán Việt \"văn hóa\", nghĩa như tiếng Việt.",
+      "examples": [
+        {
+          "ja": "日本の文化に興味があります。",
+          "vi": "Tôi quan tâm đến văn hóa Nhật Bản."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1053,
+      "word": "楽しむ",
+      "meaningsVi": [
+        "tận hưởng, vui chơi, thưởng thức"
+      ],
+      "noteVi": "Động từ (N を楽しむ), khác tính từ 楽しい (vui). Thể て: 楽しんで.",
+      "examples": [
+        {
+          "ja": "旅行を楽しんでください。",
+          "vi": "Chúc bạn có chuyến đi vui vẻ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1103,
+      "word": "特に",
+      "meaningsVi": [
+        "đặc biệt là, nhất là"
+      ],
+      "noteVi": "Âm Hán Việt \"đặc\". 特にありません: Không có gì đặc biệt (khi được hỏi có ý kiến gì không).",
+      "examples": [
+        {
+          "ja": "果物が好きです。特にぶどうが好きです。",
+          "vi": "Tôi thích hoa quả, nhất là nho."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "館",
+      "meaningVi": "tòa nhà lớn, quán",
+      "noteVi": "Gặp trong 図書館 (としょかん), 美術館 (びじゅつかん), 映画館 (えいがかん). Bộ 食 bên trái.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "海",
+      "meaningVi": "biển",
+      "noteVi": "Gặp trong 海 (うみ), 海岸 (かいがん). Bộ 氵 (nước) + 毎.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "色",
+      "meaningVi": "màu",
+      "noteVi": "Gặp trong 色 (いろ), 景色 (けしき), 茶色 (ちゃいろ).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "度",
+      "meaningVi": "lần, độ",
+      "noteVi": "Gặp trong 一度 (いちど), 今度 (こんど), 38度. Bộ 广 (mái nhà).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "映",
+      "meaningVi": "chiếu, phản chiếu",
+      "noteVi": "Gặp trong 映画 (えいが), 映画館. Bộ 日 (mặt trời) + 央.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "質",
+      "meaningVi": "chất",
+      "noteVi": "Gặp trong 質問 (しつもん: câu hỏi). Dưới là 貝 (vỏ sò).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "文",
+      "meaningVi": "câu, văn",
+      "noteVi": "Gặp trong 文化 (ぶんか), 作文 (さくぶん), 文章 (ぶんしょう), 文法 (ぶんぽう).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "ka-dou-ka",
+      "titleVi": "〜かどうか: có … hay không",
+      "summaryVi": "Thể thông thường + かどうか: lồng câu hỏi \"có … không\" vào câu: 明日晴れるかどうかわかりません.",
+      "explanationVi": [
+        "**〜かどうか** lồng một câu hỏi **có / không** vào trong câu, giống \"**có … hay không**\": 「明日晴れるかどうかわかりません」 (Tôi không biết ngày mai có nắng hay không). Câu hỏi gốc: 「明日晴れますか」.",
+        "Cách ghép: động từ, tính từ đuôi い ở **thể thông thường** + かどうか: 来るかどうか, 来ないかどうか, おいしいかどうか. Danh từ và tính từ đuôi な **bỏ だ**: ほんとうかどうか, 静かかどうか.",
+        "Sau かどうか thường là わかる, 知る, 聞く, 調べる, 教える, 考える: 「田中さんが来るかどうか聞いてみます」 (Tôi sẽ thử hỏi xem anh Tanaka có đến không). Nếu câu hỏi có **từ để hỏi** (何, どこ, いつ…) thì không dùng かどうか mà chỉ dùng か (xem mẫu tiếp theo)."
+      ],
+      "patterns": [
+        "V / Aい (thể thông thường) + かどうか + V",
+        "N / Aな + かどうか"
+      ],
+      "examples": [
+        {
+          "ja": "明日晴れるかどうか、まだわかりません。",
+          "vi": "Vẫn chưa biết ngày mai có nắng hay không."
+        },
+        {
+          "ja": "田中さんがパーティーに来るかどうか聞いてみます。",
+          "vi": "Tôi sẽ thử hỏi xem anh Tanaka có đến bữa tiệc không."
+        },
+        {
+          "ja": "この話がほんとうかどうかわかりません。",
+          "vi": "Tôi không biết câu chuyện này có thật hay không."
+        },
+        {
+          "ja": "おいしいかどうか、食べてみてください。",
+          "vi": "Bạn ăn thử xem có ngon không."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "明日晴れますかどうかわかりません。",
+          "right": "明日晴れるかどうかわかりません。",
+          "noteVi": "Trước かどうか dùng thể thông thường (晴れる), không dùng thể ます."
+        },
+        {
+          "wrong": "この話がほんとうだかどうかわかりません。",
+          "right": "この話がほんとうかどうかわかりません。",
+          "noteVi": "Danh từ, tính từ đuôi な bỏ だ trước かどうか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ka-embedded-question",
+      "titleVi": "Câu hỏi lồng: từ để hỏi + 〜か",
+      "summaryVi": "Từ để hỏi + thể thông thường + か + V: lồng câu hỏi có 何, どこ, いつ, 誰… vào câu: 何時に始まるか知っていますか.",
+      "explanationVi": [
+        "Câu hỏi có **từ để hỏi** (何, どこ, いつ, 誰, どの, どうして…) có thể đặt vào trong câu lớn, kết thúc bằng **か**: 「コンサートが何時に始まるか知っていますか」 (Bạn có biết buổi hòa nhạc bắt đầu lúc mấy giờ không?).",
+        "Cách ghép giống かどうか: động từ, tính từ ở **thể thông thường** + か; danh từ, tính từ đuôi な **bỏ だ**: 「あの人が誰か知りません」 (Tôi không biết người kia là ai). Sau đó là 知る, わかる, 教える, 聞く, 覚える, 忘れる…",
+        "Tiếng Việt chỉ cần ghép câu: \"Tôi không biết anh ấy sống ở đâu\". Tiếng Nhật phải đổi câu hỏi sang thể thông thường, thêm か, rồi đặt **trước** động từ chính: 「田中さんがどこに住んでいるか知りません」. Chủ ngữ trong câu hỏi lồng thường dùng **が**."
+      ],
+      "patterns": [
+        "Từ để hỏi … V / Aい (thể thông thường) + か + V",
+        "Từ để hỏi … N / Aな + か + V"
+      ],
+      "examples": [
+        {
+          "ja": "コンサートが何時に始まるか知っていますか。",
+          "vi": "Bạn có biết buổi hòa nhạc bắt đầu lúc mấy giờ không?"
+        },
+        {
+          "ja": "田中さんがどこに住んでいるか知りません。",
+          "vi": "Tôi không biết anh Tanaka sống ở đâu."
+        },
+        {
+          "ja": "誰が来るか、まだわかりません。",
+          "vi": "Vẫn chưa biết ai sẽ đến."
+        },
+        {
+          "ja": "どの寺がいちばん古いか教えてください。",
+          "vi": "Hãy cho tôi biết ngôi chùa nào cổ nhất."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "田中さんがどこに住んでいますか知りません。",
+          "right": "田中さんがどこに住んでいるか知りません。",
+          "noteVi": "Câu hỏi lồng dùng thể thông thường (住んでいる) + か, không dùng thể ます."
+        },
+        {
+          "wrong": "何時に始まるかどうか知っていますか。",
+          "right": "何時に始まるか知っていますか。",
+          "noteVi": "Đã có từ để hỏi (何時) thì chỉ dùng か, không dùng かどうか."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "no-koto-nominalizer",
+      "titleVi": "〜の / 〜こと: biến hành động thành danh từ",
+      "summaryVi": "V (thể thông thường) + の / こと: dùng một hành động như danh từ: 歩くのが好きです, 趣味は写真を撮ることです.",
+      "explanationVi": [
+        "Muốn dùng một **hành động** như một **danh từ** (làm chủ ngữ, tân ngữ), thêm **の** hoặc **こと** sau động từ ở thể thông thường: 歩く → 「歩くのが好きです」 (Tôi thích đi bộ). Tiếng Việt chỉ cần đặt động từ vào (\"thích đi bộ\"), tiếng Nhật **bắt buộc** có の hoặc こと.",
+        "Sau の / こと là trợ từ như sau danh từ: 〜のが好き / 上手 / 嫌い, 〜のは難しい / 楽しい, 〜のを忘れる. Ở những chỗ này dùng の hay こと đều được; の thân mật hơn: 「日本語を話すのは難しいです」.",
+        "**Chỉ dùng こと**: trước です ở cuối câu kiểu 「趣味は写真を撮ることです」, và trong các mẫu cố định 〜ことができる, 〜ことがある, 〜ことにする. **Chỉ dùng の**: với động từ cảm nhận 見る, 聞く, 見える, 聞こえる: 「子供が踊っているのを見ました」 (Tôi thấy bọn trẻ đang nhảy)."
+      ],
+      "patterns": [
+        "V (thể thông thường) + の / こと + が / は / を",
+        "N は V ことです",
+        "V の + を見る / 聞く"
+      ],
+      "examples": [
+        {
+          "ja": "森の中を歩くのが好きです。",
+          "vi": "Tôi thích đi bộ trong rừng."
+        },
+        {
+          "ja": "私の趣味は写真を撮ることです。",
+          "vi": "Sở thích của tôi là chụp ảnh."
+        },
+        {
+          "ja": "日本の文化を知ることは大切です。",
+          "vi": "Hiểu văn hóa Nhật Bản là điều quan trọng."
+        },
+        {
+          "ja": "子供が踊っているのを見ました。",
+          "vi": "Tôi đã thấy bọn trẻ đang nhảy."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "泳ぐが好きです。",
+          "right": "泳ぐのが好きです。",
+          "noteVi": "Động từ không làm danh từ được nếu thiếu の (hoặc こと): 泳ぐのが好き."
+        },
+        {
+          "wrong": "私の趣味は写真を撮るのです。",
+          "right": "私の趣味は写真を撮ることです。",
+          "noteVi": "Cuối câu \"N は … です\" (sở thích, công việc, ước mơ là…) dùng こと."
+        },
+        {
+          "wrong": "子供が踊っていることを見ました。",
+          "right": "子供が踊っているのを見ました。",
+          "noteVi": "Với 見る, 聞く (thấy, nghe sự việc đang diễn ra) dùng の, không dùng こと."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "koto-ga-aru",
+      "titleVi": "〜ことがある: có lúc, đôi khi",
+      "summaryVi": "V (thể từ điển / ない) + ことがあります: thỉnh thoảng có lúc xảy ra việc đó: 時々朝ご飯を食べないことがあります.",
+      "explanationVi": [
+        "**V (thể từ điển / thể ない) + ことがある** nghĩa là \"**có lúc, đôi khi** …\": việc không thường xuyên nhưng thỉnh thoảng có xảy ra: 「時々、朝ご飯を食べないことがあります」 (Thỉnh thoảng có hôm tôi không ăn sáng).",
+        "Phân biệt với **V た + ことがある** (đã học: đã từng): 「京都に行ったことがあります」 (Tôi đã từng đi Kyoto) — 「京都に行くことがあります」 (Thỉnh thoảng tôi có đi Kyoto).",
+        "Hay đi với 時々, たまに: 「この電車はたまに遅れることがあります」. Tính từ cũng dùng được: 「4月でも寒いことがあります」 (Có khi tháng 4 vẫn lạnh)."
+      ],
+      "patterns": [
+        "V (thể từ điển) + ことがあります",
+        "V ない + ことがあります",
+        "Aい + ことがあります"
+      ],
+      "examples": [
+        {
+          "ja": "時々、朝ご飯を食べないことがあります。",
+          "vi": "Thỉnh thoảng có hôm tôi không ăn sáng."
+        },
+        {
+          "ja": "日曜日も会社へ行くことがあります。",
+          "vi": "Có khi Chủ nhật tôi cũng đến công ty."
+        },
+        {
+          "ja": "この電車はたまに遅れることがあります。",
+          "vi": "Tàu này thỉnh thoảng có lúc bị trễ."
+        },
+        {
+          "ja": "4月でも寒いことがあります。",
+          "vi": "Có khi tháng 4 vẫn lạnh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "時々、朝ご飯を食べないことがいます。",
+          "right": "時々、朝ご飯を食べないことがあります。",
+          "noteVi": "ことがある luôn dùng ある, không dùng いる."
+        },
+        {
+          "wrong": "子供の時、京都に行くことがあります。",
+          "right": "子供の時、京都に行ったことがあります。",
+          "noteVi": "Kể kinh nghiệm \"đã từng\": thể た + ことがある. Thể từ điển + ことがある là \"thỉnh thoảng có lúc\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-20-e01",
+      "type": "fill",
+      "grammar": [
+        "ka-dou-ka"
+      ],
+      "before": "明日晴れる",
+      "after": "、まだわかりません。",
+      "answers": [
+        "かどうか"
+      ],
+      "options": [
+        "かどうか",
+        "ことが",
+        "のを"
+      ],
+      "vi": "Vẫn chưa biết ngày mai có nắng hay không."
+    },
+    {
+      "id": "n4-20-e02",
+      "type": "choice",
+      "grammar": [
+        "ka-dou-ka"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi không biết câu chuyện này có thật hay không\"?",
+      "options": [
+        "この話がほんとうかどうかわかりません。",
+        "この話がほんとうだとわかりました。",
+        "この話がどうしてほんとうかわかりません。"
+      ],
+      "answer": 0,
+      "explainVi": "Có … hay không: ほんとう + かどうか (danh từ bỏ だ)."
+    },
+    {
+      "id": "n4-20-e03",
+      "type": "order",
+      "grammar": [
+        "ka-dou-ka"
+      ],
+      "vi": "Tôi sẽ thử hỏi xem anh Tanaka có đến bữa tiệc không.",
+      "tiles": [
+        "田中さんが",
+        "パーティーに",
+        "来るかどうか",
+        "聞いてみます"
+      ],
+      "answers": [
+        "田中さんがパーティーに来るかどうか聞いてみます"
+      ]
+    },
+    {
+      "id": "n4-20-e04",
+      "type": "fill",
+      "grammar": [
+        "ka-embedded-question"
+      ],
+      "before": "コンサートが何時に",
+      "after": "知っていますか。",
+      "answers": [
+        "始まるか"
+      ],
+      "options": [
+        "始まるか",
+        "始まりますか",
+        "始まるかどうか"
+      ],
+      "vi": "Bạn có biết buổi hòa nhạc bắt đầu lúc mấy giờ không?",
+      "explainVi": "Có từ để hỏi (何時): thể thông thường + か."
+    },
+    {
+      "id": "n4-20-e05",
+      "type": "choice",
+      "grammar": [
+        "ka-embedded-question"
+      ],
+      "promptVi": "\"Tôi không biết anh Tanaka sống ở đâu.\" Chọn câu đúng.",
+      "options": [
+        "田中さんがどこに住んでいるか知りません。",
+        "田中さんがどこに住んでいるかどうか知りません。",
+        "田中さんはどこに住んでいるのを知りません。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-20-e06",
+      "type": "order",
+      "grammar": [
+        "ka-embedded-question"
+      ],
+      "vi": "Hãy cho tôi biết ngôi chùa nào cổ nhất.",
+      "tiles": [
+        "どの寺が",
+        "いちばん",
+        "古いか",
+        "教えてください"
+      ],
+      "answers": [
+        "どの寺がいちばん古いか教えてください"
+      ]
+    },
+    {
+      "id": "n4-20-e07",
+      "type": "choice",
+      "grammar": [
+        "ka-embedded-question",
+        "ka-dou-ka"
+      ],
+      "promptVi": "\"Vẫn chưa biết ai sẽ đến bữa tiệc.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "パーティーに誰が来る＿まだわかりません。",
+      "options": [
+        "か",
+        "かどうか",
+        "の"
+      ],
+      "answer": 0,
+      "explainVi": "Có từ để hỏi (誰) thì chỉ dùng か."
+    },
+    {
+      "id": "n4-20-e08",
+      "type": "fill",
+      "grammar": [
+        "no-koto-nominalizer"
+      ],
+      "before": "私の趣味は写真を撮る",
+      "after": "です。",
+      "answers": [
+        "こと"
+      ],
+      "options": [
+        "こと",
+        "の",
+        "もの"
+      ],
+      "vi": "Sở thích của tôi là chụp ảnh.",
+      "explainVi": "Cuối câu \"N は … です\": dùng こと."
+    },
+    {
+      "id": "n4-20-e09",
+      "type": "fill",
+      "grammar": [
+        "no-koto-nominalizer"
+      ],
+      "before": "子供が踊っている",
+      "after": "を見ました。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "こと",
+        "もの"
+      ],
+      "vi": "Tôi đã thấy bọn trẻ đang nhảy.",
+      "explainVi": "Với 見る, 聞く: dùng の."
+    },
+    {
+      "id": "n4-20-e10",
+      "type": "choice",
+      "grammar": [
+        "no-koto-nominalizer"
+      ],
+      "promptVi": "Chọn câu đúng: \"Tôi thích đi bộ trong rừng.\"",
+      "options": [
+        "森の中を歩くのが好きです。",
+        "森の中を歩くが好きです。",
+        "森の中を歩いたが好きです。"
+      ],
+      "answer": 0,
+      "explainVi": "Động từ cần の (hoặc こと) mới đứng trước が như danh từ được."
+    },
+    {
+      "id": "n4-20-e11",
+      "type": "order",
+      "grammar": [
+        "no-koto-nominalizer"
+      ],
+      "vi": "Học thuộc chữ Hán thì khó nhưng thú vị.",
+      "tiles": [
+        "漢字を",
+        "覚えるのは",
+        "難しいですが",
+        "おもしろいです"
+      ],
+      "answers": [
+        "漢字を覚えるのは難しいですがおもしろいです"
+      ]
+    },
+    {
+      "id": "n4-20-e12",
+      "type": "choice",
+      "grammar": [
+        "koto-ga-aru"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Thỉnh thoảng có hôm tôi không ăn sáng\"?",
+      "options": [
+        "時々、朝ご飯を食べないことがあります。",
+        "朝ご飯を食べなかったことがあります。",
+        "朝ご飯を食べないことにしました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-20-e13",
+      "type": "fill",
+      "grammar": [
+        "koto-ga-aru"
+      ],
+      "before": "この電車はたまに",
+      "after": "ことがあります。",
+      "answers": [
+        "遅れる"
+      ],
+      "options": [
+        "遅れる",
+        "遅れた",
+        "遅れて"
+      ],
+      "vi": "Tàu này thỉnh thoảng có lúc bị trễ.",
+      "explainVi": "Có lúc: thể từ điển + ことがある. Thể た + ことがある là \"đã từng\"."
+    },
+    {
+      "id": "n4-20-e14",
+      "type": "choice",
+      "grammar": [
+        "koto-ga-aru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "京都に行くことがあります。",
+      "options": [
+        "Thỉnh thoảng tôi có đi Kyoto.",
+        "Tôi đã từng đi Kyoto.",
+        "Tôi có thể đi Kyoto."
+      ],
+      "answer": 0,
+      "explainVi": "Thể từ điển + ことがある: có lúc. 行ったことがある: đã từng đi. 行くことができる: có thể đi."
+    },
+    {
+      "id": "n4-20-e15",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "美術館",
+          "bảo tàng mỹ thuật"
+        ],
+        [
+          "動物園",
+          "sở thú"
+        ],
+        [
+          "神社",
+          "đền Thần đạo"
+        ],
+        [
+          "寺",
+          "chùa"
+        ],
+        [
+          "教会",
+          "nhà thờ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-20-e16",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "島",
+          "đảo"
+        ],
+        [
+          "湖",
+          "hồ"
+        ],
+        [
+          "海岸",
+          "bờ biển"
+        ],
+        [
+          "港",
+          "cảng"
+        ],
+        [
+          "森",
+          "rừng"
+        ]
+      ]
+    },
+    {
+      "id": "n4-20-e17",
+      "type": "choice",
+      "promptVi": "\"Trên đảo này có loài chim hiếm.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "この島には＿鳥がいます。",
+      "options": [
+        "珍しい",
+        "美しい",
+        "すばらしい"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-20-e18",
+      "type": "choice",
+      "promptVi": "\"Chúc bạn có chuyến đi vui vẻ.\" Chọn từ đúng điền vào chỗ trống.",
+      "ja": "旅行を＿ください。",
+      "options": [
+        "楽しんで",
+        "楽しくて",
+        "楽しみで"
+      ],
+      "answer": 0,
+      "explainVi": "楽しむ (động từ): tận hưởng. 楽しい là tính từ."
+    },
+    {
+      "id": "n4-20-e19",
+      "type": "translate",
+      "grammar": [
+        "ka-dou-ka"
+      ],
+      "vi": "Tôi không biết ngày mai trời có mưa hay không.",
+      "answers": [
+        "明日雨が降るかどうかわかりません。",
+        "(私は)明日(は)雨が降るかどうか(まだ)わかりません。",
+        "(私は)明日(は)雨かどうか(まだ)わかりません。"
+      ],
+      "examples": [
+        {
+          "answer": "あしたあめがふるかどうかわかりません",
+          "score": 100
+        },
+        {
+          "answer": "明日雨を降るかどうかわかりません。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "明日雪が降るかどうかわかりません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-20-e20",
+      "type": "translate",
+      "grammar": [
+        "ka-embedded-question"
+      ],
+      "vi": "Bạn có biết ga ở đâu không?",
+      "answers": [
+        "駅がどこにあるか知っていますか。",
+        "駅[が|は]どこ(にある)か[知っていますか|わかりますか]。"
+      ],
+      "examples": [
+        {
+          "answer": "えきがどこにあるかしっていますか",
+          "score": 100
+        },
+        {
+          "answer": "駅がどこであるか知っていますか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "駅がどこにあるか知りません。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-20-e21",
+      "type": "translate",
+      "grammar": [
+        "no-koto-nominalizer"
+      ],
+      "vi": "Sở thích của tôi là xem phim.",
+      "answers": [
+        "(私の)趣味は映画を見ることです。"
+      ],
+      "examples": [
+        {
+          "answer": "しゅみはえいがをみることです",
+          "score": 100
+        },
+        {
+          "answer": "趣味は映画が見ることです。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "趣味は本を読むことです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-20-e22",
+      "type": "translate",
+      "grammar": [
+        "no-koto-nominalizer"
+      ],
+      "vi": "Tôi thích nhảy.",
+      "answers": [
+        "(私は)踊るのが好きです。",
+        "(私は)踊ることが好きです。",
+        "(私は)踊りが好きです。"
+      ],
+      "examples": [
+        {
+          "answer": "おどるのがすきです",
+          "score": 100
+        },
+        {
+          "answer": "踊るが好きです。",
+          "score": 85,
+          "issues": [
+            "missing_word"
+          ]
+        },
+        {
+          "answer": "踊るのが嫌いです。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-20-e23",
+      "type": "translate",
+      "grammar": [
+        "koto-ga-aru"
+      ],
+      "vi": "Thỉnh thoảng có hôm tôi không ăn sáng.",
+      "answers": [
+        "(私は)時々朝ご飯を食べないことがあります。",
+        "(私は)([時々|たまに])(、)朝ご飯を食べないことがあります。"
+      ],
+      "examples": [
+        {
+          "answer": "ときどきあさごはんをたべないことがあります",
+          "score": 100
+        },
+        {
+          "answer": "時々朝ご飯が食べないことがあります。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "時々朝ご飯を食べることがあります。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "一度京都に行ってみたいです。": "{一|いち}{度|ど}{京都|きょうと}に{行|い}ってみたいです。",
+    "日本で働いた経験があります。": "{日本|にほん}で{働|はたら}いた{経|けい}{験|けん}があります。",
+    "日曜日に美術館へ行きました。": "{日|にち}{曜|よう}{日|び}に{美|び}{術|じゅつ}{館|かん}へ{行|い}きました。",
+    "美術館で写真の展覧会をしています。": "{美|び}{術|じゅつ}{館|かん}で{写|しゃ}{真|しん}の{展|てん}{覧|らん}{会|かい}をしています。",
+    "子供と動物園へ行きました。": "{子|こ}{供|ども}と{動|どう}{物|ぶつ}{園|えん}へ{行|い}きました。",
+    "昨日のコンサートはすばらしかったです。": "{昨日|きのう}のコンサートはすばらしかったです。",
+    "近くに古い神社があります。": "{近|ちか}くに{古|ふる}い{神|じん}{社|じゃ}があります。",
+    "京都には古いお寺がたくさんあります。": "{京都|きょうと}には{古|ふる}いお{寺|てら}がたくさんあります。",
+    "日曜日は教会へ行きます。": "{日|にち}{曜|よう}{日|び}は{教|きょう}{会|かい}へ{行|い}きます。",
+    "教会で祈っている人がいます。": "{教|きょう}{会|かい}で{祈|いの}っている{人|ひと}がいます。",
+    "日本には島がたくさんあります。": "{日本|にほん}には{島|しま}がたくさんあります。",
+    "湖のそばのホテルに泊まりました。": "{湖|みずうみ}のそばのホテルに{泊|と}まりました。",
+    "夕方、海岸を散歩しました。": "{夕|ゆう}{方|がた}、{海|かい}{岸|がん}を{散|さん}{歩|ぽ}しました。",
+    "港の近くに魚がおいしい店があります。": "{港|みなと}の{近|ちか}くに{魚|さかな}がおいしい{店|みせ}があります。",
+    "森の中を歩くのが好きです。": "{森|もり}の{中|なか}を{歩|ある}くのが{好|す}きです。",
+    "家の裏に小さい林があります。": "{家|いえ}の{裏|うら}に{小|ちい}さい{林|はやし}があります。",
+    "山の上から見る景色はすばらしいです。": "{山|やま}の{上|うえ}から{見|み}る{景色|けしき}はすばらしいです。",
+    "美しい湖ですね。": "{美|うつく}しい{湖|みずうみ}ですね。",
+    "すばらしいコンサートでした。": "すばらしいコンサートでした。",
+    "この島には珍しい鳥がいます。": "この{島|しま}には{珍|めずら}しい{鳥|とり}がいます。",
+    "田中さんが遅れるのは珍しいですね。": "{田中|たなか}さんが{遅|おく}れるのは{珍|めずら}しいですね。",
+    "お祭りで日本の踊りを見ました。": "お{祭|まつ}りで{日本|にほん}の{踊|おど}りを{見|み}ました。",
+    "みんなで踊るのは楽しいです。": "みんなで{踊|おど}るのは{楽|たの}しいです。",
+    "日本の文化に興味があります。": "{日本|にほん}の{文|ぶん}{化|か}に{興|きょう}{味|み}があります。",
+    "旅行を楽しんでください。": "{旅|りょ}{行|こう}を{楽|たの}しんでください。",
+    "果物が好きです。特にぶどうが好きです。": "{果物|くだもの}が{好|す}きです。{特|とく}にぶどうが{好|す}きです。",
+    "明日晴れるかどうか、まだわかりません。": "{明日|あした}{晴|は}れるかどうか、まだわかりません。",
+    "田中さんがパーティーに来るかどうか聞いてみます。": "{田中|たなか}さんがパーティーに{来|く}るかどうか{聞|き}いてみます。",
+    "この話がほんとうかどうかわかりません。": "この{話|はなし}がほんとうかどうかわかりません。",
+    "おいしいかどうか、食べてみてください。": "おいしいかどうか、{食|た}べてみてください。",
+    "明日晴れるかどうかわかりません。": "{明日|あした}{晴|は}れるかどうかわかりません。",
+    "明日晴れますかどうかわかりません。": "{明日|あした}{晴|は}れますかどうかわかりません。",
+    "この話がほんとうだかどうかわかりません。": "この{話|はなし}がほんとうだかどうかわかりません。",
+    "コンサートが何時に始まるか知っていますか。": "コンサートが{何時|なんじ}に{始|はじ}まるか{知|し}っていますか。",
+    "田中さんがどこに住んでいるか知りません。": "{田中|たなか}さんがどこに{住|す}んでいるか{知|し}りません。",
+    "誰が来るか、まだわかりません。": "{誰|だれ}が{来|く}るか、まだわかりません。",
+    "どの寺がいちばん古いか教えてください。": "どの{寺|てら}がいちばん{古|ふる}いか{教|おし}えてください。",
+    "田中さんがどこに住んでいますか知りません。": "{田中|たなか}さんがどこに{住|す}んでいますか{知|し}りません。",
+    "何時に始まるか知っていますか。": "{何時|なんじ}に{始|はじ}まるか{知|し}っていますか。",
+    "何時に始まるかどうか知っていますか。": "{何時|なんじ}に{始|はじ}まるかどうか{知|し}っていますか。",
+    "私の趣味は写真を撮ることです。": "{私|わたし}の{趣|しゅ}{味|み}は{写|しゃ}{真|しん}を{撮|と}ることです。",
+    "日本の文化を知ることは大切です。": "{日本|にほん}の{文|ぶん}{化|か}を{知|し}ることは{大|たい}{切|せつ}です。",
+    "子供が踊っているのを見ました。": "{子|こ}{供|ども}が{踊|おど}っているのを{見|み}ました。",
+    "泳ぐのが好きです。": "{泳|およ}ぐのが{好|す}きです。",
+    "泳ぐが好きです。": "{泳|およ}ぐが{好|す}きです。",
+    "私の趣味は写真を撮るのです。": "{私|わたし}の{趣|しゅ}{味|み}は{写|しゃ}{真|しん}を{撮|と}るのです。",
+    "子供が踊っていることを見ました。": "{子|こ}{供|ども}が{踊|おど}っていることを{見|み}ました。",
+    "時々、朝ご飯を食べないことがあります。": "{時|とき}{々|どき}、{朝|あさ}ご{飯|はん}を{食|た}べないことがあります。",
+    "日曜日も会社へ行くことがあります。": "{日|にち}{曜|よう}{日|び}も{会|かい}{社|しゃ}へ{行|い}くことがあります。",
+    "この電車はたまに遅れることがあります。": "この{電|でん}{車|しゃ}はたまに{遅|おく}れることがあります。",
+    "4月でも寒いことがあります。": "{4月|しがつ}でも{寒|さむ}いことがあります。",
+    "時々、朝ご飯を食べないことがいます。": "{時|とき}{々|どき}、{朝|あさ}ご{飯|はん}を{食|た}べないことがいます。",
+    "子供の時、京都に行ったことがあります。": "{子|こ}{供|ども}の{時|とき}、{京都|きょうと}に{行|い}ったことがあります。",
+    "子供の時、京都に行くことがあります。": "{子|こ}{供|ども}の{時|とき}、{京都|きょうと}に{行|い}くことがあります。",
+    "かどうか": "かどうか",
+    "ことが": "ことが",
+    "のを": "のを",
+    "この話がほんとうだとわかりました。": "この{話|はなし}がほんとうだとわかりました。",
+    "この話がどうしてほんとうかわかりません。": "この{話|はなし}がどうしてほんとうかわかりません。",
+    "田中さんが": "{田中|たなか}さんが",
+    "パーティーに": "パーティーに",
+    "来るかどうか": "{来|く}るかどうか",
+    "聞いてみます": "{聞|き}いてみます",
+    "田中さんがパーティーに来るかどうか聞いてみます": "{田中|たなか}さんがパーティーに{来|く}るかどうか{聞|き}いてみます",
+    "始まるか": "{始|はじ}まるか",
+    "始まりますか": "{始|はじ}まりますか",
+    "始まるかどうか": "{始|はじ}まるかどうか",
+    "田中さんがどこに住んでいるかどうか知りません。": "{田中|たなか}さんがどこに{住|す}んでいるかどうか{知|し}りません。",
+    "田中さんはどこに住んでいるのを知りません。": "{田中|たなか}さんはどこに{住|す}んでいるのを{知|し}りません。",
+    "どの寺が": "どの{寺|てら}が",
+    "いちばん": "いちばん",
+    "古いか": "{古|ふる}いか",
+    "教えてください": "{教|おし}えてください",
+    "どの寺がいちばん古いか教えてください": "どの{寺|てら}がいちばん{古|ふる}いか{教|おし}えてください",
+    "パーティーに誰が来る＿まだわかりません。": "パーティーに{誰|だれ}が{来|く}る＿まだわかりません。",
+    "か": "か",
+    "の": "の",
+    "こと": "こと",
+    "もの": "もの",
+    "森の中を歩くが好きです。": "{森|もり}の{中|なか}を{歩|ある}くが{好|す}きです。",
+    "森の中を歩いたが好きです。": "{森|もり}の{中|なか}を{歩|ある}いたが{好|す}きです。",
+    "漢字を": "{漢|かん}{字|じ}を",
+    "覚えるのは": "{覚|おぼ}えるのは",
+    "難しいですが": "{難|むずか}しいですが",
+    "おもしろいです": "おもしろいです",
+    "漢字を覚えるのは難しいですがおもしろいです": "{漢|かん}{字|じ}を{覚|おぼ}えるのは{難|むずか}しいですがおもしろいです",
+    "朝ご飯を食べなかったことがあります。": "{朝|あさ}ご{飯|はん}を{食|た}べなかったことがあります。",
+    "朝ご飯を食べないことにしました。": "{朝|あさ}ご{飯|はん}を{食|た}べないことにしました。",
+    "遅れる": "{遅|おく}れる",
+    "遅れた": "{遅|おく}れた",
+    "遅れて": "{遅|おく}れて",
+    "京都に行くことがあります。": "{京都|きょうと}に{行|い}くことがあります。",
+    "美術館": "{美|び}{術|じゅつ}{館|かん}",
+    "動物園": "{動|どう}{物|ぶつ}{園|えん}",
+    "神社": "{神|じん}{社|じゃ}",
+    "寺": "{寺|てら}",
+    "教会": "{教|きょう}{会|かい}",
+    "島": "{島|しま}",
+    "湖": "{湖|みずうみ}",
+    "海岸": "{海|かい}{岸|がん}",
+    "港": "{港|みなと}",
+    "森": "{森|もり}",
+    "この島には＿鳥がいます。": "この{島|しま}には＿{鳥|とり}がいます。",
+    "珍しい": "{珍|めずら}しい",
+    "美しい": "{美|うつく}しい",
+    "すばらしい": "すばらしい",
+    "旅行を＿ください。": "{旅|りょ}{行|こう}を＿ください。",
+    "楽しんで": "{楽|たの}しんで",
+    "楽しくて": "{楽|たの}しくて",
+    "楽しみで": "{楽|たの}しみで",
+    "明日雨が降るかどうかわかりません。": "{明日|あした}{雨|あめ}が{降|ふ}るかどうかわかりません。",
+    "私は明日は雨が降るかどうかまだわかりません。": "{私|わたし}は{明日|あした}は{雨|あめ}が{降|ふ}るかどうかまだわかりません。",
+    "私は明日は雨かどうかまだわかりません。": "{私|わたし}は{明日|あした}は{雨|あめ}かどうかまだわかりません。",
+    "駅がどこにあるか知っていますか。": "{駅|えき}がどこにあるか{知|し}っていますか。",
+    "私の趣味は映画を見ることです。": "{私|わたし}の{趣|しゅ}{味|み}は{映|えい}{画|が}を{見|み}ることです。",
+    "私は踊るのが好きです。": "{私|わたし}は{踊|おど}るのが{好|す}きです。",
+    "私は踊ることが好きです。": "{私|わたし}は{踊|おど}ることが{好|す}きです。",
+    "私は踊りが好きです。": "{私|わたし}は{踊|おど}りが{好|す}きです。",
+    "私は時々朝ご飯を食べないことがあります。": "{私|わたし}は{時|とき}{々|どき}{朝|あさ}ご{飯|はん}を{食|た}べないことがあります。",
+    "私は時々、朝ご飯を食べないことがあります。": "{私|わたし}は{時|とき}{々|どき}、{朝|あさ}ご{飯|はん}を{食|た}べないことがあります。"
+  }
+}

@@ -1,0 +1,1521 @@
+{
+  "id": "n4-26",
+  "goalsVi": [
+    "Nói cách làm một việc bằng 〜方: 漢字の読み方、泳ぎ方",
+    "Nói đang trong lúc làm gì, suốt cả … bằng 〜中: 会議中、一日中、世界中",
+    "Liệt kê ví dụ bằng 〜とか〜とか (văn nói) và 〜や〜など; mời nhẹ nhàng bằng 〜でも: お茶でも飲みませんか",
+    "Nói về kích thước, mức độ bằng 〜さ (重さ、広さ) và về mùi, tiếng, vị bằng 〜がする: いいにおいがします"
+  ],
+  "words": [
+    {
+      "no": 779,
+      "word": "泳ぎ方",
+      "meaningsVi": [
+        "cách bơi, kiểu bơi"
+      ],
+      "noteVi": "泳ぐ + 方 (cách). Xem ngữ pháp 〜方 trong bài này.",
+      "examples": [
+        {
+          "ja": "父に泳ぎ方を教えてもらいました。",
+          "vi": "Tôi được bố dạy cho cách bơi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 937,
+      "word": "仕方",
+      "meaningsVi": [
+        "cách làm"
+      ],
+      "noteVi": "仕方 = する + 方 (cách làm). Rất hay dùng: 仕方がない / 仕方がありません: đành vậy, không còn cách nào khác.",
+      "examples": [
+        {
+          "ja": "いい勉強の仕方を教えてください。",
+          "vi": "Xin chỉ cho tôi cách học hiệu quả."
+        },
+        {
+          "ja": "バスが来ないから、仕方がありません。歩きましょう。",
+          "vi": "Xe buýt không đến nên đành vậy. Đi bộ thôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1050,
+      "word": "例えば",
+      "meaningsVi": [
+        "ví dụ như, chẳng hạn"
+      ],
+      "noteVi": "Hay đi với 〜や〜など, 〜とか〜とか để đưa ví dụ.",
+      "examples": [
+        {
+          "ja": "スポーツ、例えばテニスや水泳などが好きです。",
+          "vi": "Tôi thích thể thao, chẳng hạn như tennis, bơi lội."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 990,
+      "word": "スクリーン",
+      "meaningsVi": [
+        "màn chiếu, màn ảnh (rạp phim)"
+      ],
+      "noteVi": "Màn hình điện thoại, máy tính thường gọi là 画面 (がめん).",
+      "examples": [
+        {
+          "ja": "この映画館のスクリーンはとても大きいです。",
+          "vi": "Màn chiếu của rạp phim này rất lớn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 994,
+      "word": "すっと",
+      "meaningsVi": [
+        "nhẹ nhõm, dễ chịu (すっとする)",
+        "(đi, đứng dậy) nhanh, nhẹ nhàng, lặng lẽ"
+      ],
+      "noteVi": "すっとする: cảm giác nhẹ nhõm, sảng khoái (sau khi hết khó chịu, hoặc khi được nói điều mình muốn nói).",
+      "examples": [
+        {
+          "ja": "薬を飲んだら、頭がすっとしました。",
+          "vi": "Uống thuốc xong, đầu óc thấy nhẹ nhõm."
+        },
+        {
+          "ja": "田中さんはすっと部屋を出ていきました。",
+          "vi": "Anh Tanaka lặng lẽ đi ra khỏi phòng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 997,
+      "word": "ステレオ",
+      "meaningsVi": [
+        "dàn âm thanh, máy nghe nhạc stereo"
+      ],
+      "examples": [
+        {
+          "ja": "新しいステレオで音楽を聞きます。",
+          "vi": "Tôi nghe nhạc bằng dàn âm thanh mới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 998,
+      "word": "砂",
+      "meaningsVi": [
+        "cát"
+      ],
+      "noteVi": "Âm Hán Việt \"sa\" (sa mạc).",
+      "examples": [
+        {
+          "ja": "靴の中に砂が入りました。",
+          "vi": "Cát vào trong giày rồi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1024,
+      "word": "ソフト",
+      "meaningsVi": [
+        "mềm, nhẹ nhàng",
+        "phần mềm (máy tính)"
+      ],
+      "noteVi": "Tính từ đuôi な: ソフトな声 (giọng nhẹ nhàng). Danh từ: phần mềm (nói tắt của ソフトウェア).",
+      "examples": [
+        {
+          "ja": "このパンはソフトでおいしいです。",
+          "vi": "Bánh mì này mềm và ngon."
+        },
+        {
+          "ja": "パソコンに新しいソフトを入れました。",
+          "vi": "Tôi đã cài phần mềm mới vào máy tính."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1037,
+      "word": "タイプ",
+      "meaningsVi": [
+        "kiểu, loại",
+        "tuýp người"
+      ],
+      "noteVi": "私のタイプ: tuýp người mình thích. Nghĩa cũ: đánh máy (タイプする).",
+      "examples": [
+        {
+          "ja": "このタイプのかばんが欲しいです。",
+          "vi": "Tôi muốn cái túi kiểu này."
+        },
+        {
+          "ja": "田中さんは私の好きなタイプです。",
+          "vi": "Anh Tanaka là tuýp người tôi thích."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1085,
+      "word": "適当",
+      "meaningsVi": [
+        "thích hợp, phù hợp",
+        "qua loa, tùy tiện (văn nói)"
+      ],
+      "noteVi": "Âm Hán Việt \"thích đương\". Trong đề thi: \"thích hợp\". Khi nói chuyện thường mang nghĩa xấu \"qua loa, làm cho có\": 適当にやる.",
+      "examples": [
+        {
+          "ja": "適当な言葉を選んでください。",
+          "vi": "Hãy chọn từ thích hợp."
+        },
+        {
+          "ja": "そんな適当な答えではだめです。",
+          "vi": "Câu trả lời qua loa như thế thì không được."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1095,
+      "word": "電報",
+      "meaningsVi": [
+        "điện báo"
+      ],
+      "noteVi": "Âm Hán Việt \"điện báo\". Ngày nay ở Nhật chủ yếu dùng để chúc mừng đám cưới, chia buồn.",
+      "examples": [
+        {
+          "ja": "昔は電報で結婚のお祝いを送りました。",
+          "vi": "Ngày xưa người ta gửi lời chúc mừng đám cưới bằng điện báo."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1097,
+      "word": "都",
+      "meaningsVi": [
+        "Tokyo (đơn vị hành chính: đô)",
+        "thủ đô"
+      ],
+      "noteVi": "Đọc と: đơn vị hành chính chỉ riêng Tokyo (東京都), tương đương 県 (tỉnh). Báo chí, người Tokyo gọi tắt là 都.",
+      "examples": [
+        {
+          "ja": "都の人口は今も増えています。",
+          "vi": "Dân số Tokyo hiện vẫn đang tăng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1149,
+      "word": "葉",
+      "meaningsVi": [
+        "lá (cây)"
+      ],
+      "noteVi": "Âm Hán Việt \"diệp\". Hay nói 葉っぱ (はっぱ) khi nói chuyện. 言葉 (lời, từ) cũng có chữ này.",
+      "examples": [
+        {
+          "ja": "秋になると、木の葉が赤や黄色になります。",
+          "vi": "Sang thu, lá cây chuyển sang màu đỏ, màu vàng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 853,
+      "word": "草",
+      "meaningsVi": [
+        "cỏ"
+      ],
+      "noteVi": "Âm Hán Việt \"thảo\". Nhổ cỏ: 草を取る.",
+      "examples": [
+        {
+          "ja": "日曜日に庭の草を取りました。",
+          "vi": "Chủ nhật tôi đã nhổ cỏ trong vườn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1243,
+      "word": "虫",
+      "meaningsVi": [
+        "côn trùng, sâu bọ"
+      ],
+      "noteVi": "Âm Hán Việt \"trùng\". Dùng chung cho côn trùng, sâu bọ nhỏ. Sâu răng: 虫歯.",
+      "examples": [
+        {
+          "ja": "夏の夜は虫の声がします。",
+          "vi": "Đêm hè nghe thấy tiếng côn trùng kêu."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 898,
+      "word": "小鳥",
+      "meaningsVi": [
+        "chim nhỏ, chim non"
+      ],
+      "examples": [
+        {
+          "ja": "庭に小鳥が来ています。",
+          "vi": "Có con chim nhỏ đang đến vườn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1071,
+      "word": "つき",
+      "meaningsVi": [
+        "mặt trăng"
+      ],
+      "noteVi": "Kanji: 月, cùng chữ với 月曜日, 〜月 (tháng). Trăng tròn: 満月 (まんげつ).",
+      "examples": [
+        {
+          "ja": "今夜はつきがきれいですね。",
+          "vi": "Tối nay trăng đẹp nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1181,
+      "word": "非常に",
+      "meaningsVi": [
+        "cực kỳ, vô cùng"
+      ],
+      "noteVi": "Trang trọng hơn とても; hay gặp trong tin tức, văn viết. 非常口: lối thoát hiểm.",
+      "examples": [
+        {
+          "ja": "今年の夏は非常に暑いです。",
+          "vi": "Mùa hè năm nay cực kỳ nóng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1254,
+      "word": "もっとも",
+      "meaningsVi": [
+        "nhất (văn viết)"
+      ],
+      "noteVi": "Kanji: 最も. Nghĩa giống いちばん nhưng trang trọng, dùng trong văn viết.",
+      "examples": [
+        {
+          "ja": "これは世界でもっとも古い建物の一つです。",
+          "vi": "Đây là một trong những tòa nhà cổ nhất thế giới."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1226,
+      "word": "または",
+      "meaningsVi": [
+        "hoặc, hay là"
+      ],
+      "noteVi": "Trang trọng hơn か; hay gặp trên giấy tờ, đề thi, thông báo.",
+      "examples": [
+        {
+          "ja": "黒または青のペンで書いてください。",
+          "vi": "Hãy viết bằng bút màu đen hoặc xanh."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1296,
+      "word": "ワープロ",
+      "meaningsVi": [
+        "máy đánh chữ điện tử (word processor)"
+      ],
+      "noteVi": "Từ cũ (thập niên 80-90); nay dùng パソコン.",
+      "examples": [
+        {
+          "ja": "昔はワープロで手紙を書きました。",
+          "vi": "Ngày xưa tôi viết thư bằng máy đánh chữ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1178,
+      "word": "飛行場",
+      "meaningsVi": [
+        "sân bay"
+      ],
+      "noteVi": "Âm Hán Việt \"phi hành trường\". Nghĩa như 空港, nghe hơi cũ hoặc chỉ sân bay nhỏ.",
+      "examples": [
+        {
+          "ja": "飛行場まで車で1時間かかります。",
+          "vi": "Đi ô tô ra sân bay mất 1 tiếng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 878,
+      "word": "こう",
+      "meaningsVi": [
+        "như thế này, thế này"
+      ],
+      "noteVi": "Bộ こう・そう・ああ・どう (giống この・その・あの・どの). Vừa nói vừa làm mẫu: こうしてください.",
+      "examples": [
+        {
+          "ja": "この漢字は、こう書きます。",
+          "vi": "Chữ Hán này viết như thế này."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 801,
+      "word": "形",
+      "meaningsVi": [
+        "hình dạng, hình"
+      ],
+      "noteVi": "Có hình gì: N の形をしている. Âm Hán Việt \"hình\".",
+      "examples": [
+        {
+          "ja": "この雲は犬の形をしていますね。",
+          "vi": "Đám mây này có hình con chó nhỉ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 781,
+      "word": "折る",
+      "meaningsVi": [
+        "bẻ, làm gẫy",
+        "gấp (giấy)"
+      ],
+      "noteVi": "Tha động từ: 枝を折る. Tự động từ (bị gẫy): 折れる.",
+      "examples": [
+        {
+          "ja": "紙で鳥を折りました。",
+          "vi": "Tôi đã gấp con chim bằng giấy."
+        },
+        {
+          "ja": "木の枝を折らないでください。",
+          "vi": "Xin đừng bẻ cành cây."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1225,
+      "word": "まず",
+      "meaningsVi": [
+        "trước tiên, trước hết"
+      ],
+      "noteVi": "Nói thứ tự: まず…、それから…、最後に….",
+      "examples": [
+        {
+          "ja": "まず、手を洗ってください。",
+          "vi": "Trước tiên hãy rửa tay."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "鳥",
+      "meaningVi": "chim",
+      "noteVi": "Gặp trong 鳥 (とり), 小鳥. Bốn chấm ở dưới là chân và đuôi; đừng nhầm với 島 (đảo).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "歌",
+      "meaningVi": "bài hát, hát",
+      "noteVi": "Gặp trong 歌 (うた), 歌う. Bên phải là 欠 (há miệng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "飯",
+      "meaningVi": "cơm, bữa ăn",
+      "noteVi": "Bộ 食 (ăn) bên trái. Gặp trong ご飯, 朝ご飯, 昼ご飯.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "黒",
+      "meaningVi": "đen",
+      "noteVi": "Gặp trong 黒い, 黒. Bốn chấm ở dưới là lửa (灬): khói lửa làm đen.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "重",
+      "meaningVi": "nặng; quan trọng",
+      "noteVi": "Gặp trong 重い (nặng), 重さ (độ nặng).",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "犬",
+      "meaningVi": "chó",
+      "noteVi": "Gặp trong 犬 (いぬ). Giống 大 nhưng có thêm một chấm.",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "kata",
+      "titleVi": "〜方: cách làm …",
+      "summaryVi": "Động từ dạng ます bỏ ます + 方 (かた): cách làm việc đó: 読み方 (cách đọc), 使い方 (cách dùng).",
+      "explanationVi": [
+        "**V (bỏ ます) + 方** tạo danh từ nghĩa là \"**cách** làm V\": 読みます → 読み**方** (cách đọc), 使います → 使い**方** (cách dùng), 作ります → 作り**方** (cách làm, cách nấu), 泳ぎます → 泳ぎ**方** (cách bơi). Đọc là **かた**.",
+        "Vì đã thành danh từ, tân ngữ không đi với を mà đi với **の**: 漢字**を**読む → 漢字**の**読み方; 切符**を**買う → 切符**の**買い方. Danh từ + する thì dùng **N の仕方**: 勉強の仕方 (cách học), 説明の仕方.",
+        "Tiếng Việt nói \"cách + động từ\" (cách đọc chữ Hán), tiếng Nhật đảo lại thành \"chữ Hán の cách đọc\": 「この漢字の読み方を教えてください」."
+      ],
+      "patterns": [
+        "V (bỏ ます) + 方: 読み方, 使い方",
+        "N の + V (bỏ ます) + 方: 漢字の読み方",
+        "N の仕方: 勉強の仕方"
+      ],
+      "examples": [
+        {
+          "ja": "この漢字の読み方を教えてください。",
+          "vi": "Xin chỉ cho tôi cách đọc chữ Hán này."
+        },
+        {
+          "ja": "すみません、切符の買い方がわかりません。",
+          "vi": "Xin lỗi, tôi không biết cách mua vé."
+        },
+        {
+          "ja": "母にカレーの作り方を習いました。",
+          "vi": "Tôi đã học mẹ cách nấu cà ri."
+        },
+        {
+          "ja": "このカメラの使い方は簡単です。",
+          "vi": "Cách dùng chiếc máy ảnh này đơn giản."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この漢字を読み方を教えてください。",
+          "right": "この漢字の読み方を教えてください。",
+          "noteVi": "読み方 là danh từ nên tân ngữ đi với の: 漢字の読み方."
+        },
+        {
+          "wrong": "この漢字の読む方を教えてください。",
+          "right": "この漢字の読み方を教えてください。",
+          "noteVi": "方 (cách) gắn sau dạng ます bỏ ます (読み), không gắn sau thể từ điển. 読む方 là \"người đọc\" hoặc \"phía đọc\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "chuu-juu",
+      "titleVi": "〜中 (ちゅう / じゅう): đang trong lúc …; suốt cả …",
+      "summaryVi": "N + 中 (ちゅう): đang trong lúc làm N (会議中, 授業中); N + 中 (じゅう): suốt cả, khắp cả (一日中, 世界中).",
+      "explanationVi": [
+        "**N + 中 (ちゅう)**: **đang trong lúc** làm việc gì: 会議**中** (đang họp), 授業**中** (đang trong giờ học), 電話**中** (đang nghe điện thoại), 食事**中** (đang ăn). Hay gặp trên biển treo cửa và khi trả lời điện thoại: 「田中は今、会議中です」. Với từ chỉ thời gian, ちゅう là **trong khoảng** đó: 今週**中**に (trong tuần này), 午前**中** (trong buổi sáng).",
+        "**N + 中 (じゅう)**: **suốt cả** thời gian hoặc **khắp cả** nơi chốn: 一日**中** (suốt cả ngày), 一年**中** (quanh năm), 世界**中** (khắp thế giới), 日本**中** (khắp nước Nhật). Không thêm に: 「一日中勉強しました」.",
+        "Tiếng Việt nói \"đang trong giờ học\", người Việt dễ dịch thành 授業の中 (bên trong giờ học). 中 (なか) là bên trong một vật, một nơi (箱の中); với hoạt động, thời gian thì gắn thẳng 中 (ちゅう/じゅう) vào danh từ: 授業中, 一日中."
+      ],
+      "patterns": [
+        "N (hoạt động) + 中 (ちゅう): 会議中, 授業中",
+        "N (thời gian) + 中 (ちゅう) + に: 今週中に",
+        "N (thời gian, nơi chốn) + 中 (じゅう): 一日中, 世界中"
+      ],
+      "examples": [
+        {
+          "ja": "田中は今、会議中です。",
+          "vi": "Anh Tanaka bây giờ đang họp ạ."
+        },
+        {
+          "ja": "授業中は寝てはいけません。",
+          "vi": "Không được ngủ trong giờ học."
+        },
+        {
+          "ja": "昨日は一日中雨でした。",
+          "vi": "Hôm qua trời mưa suốt cả ngày."
+        },
+        {
+          "ja": "この歌は世界中の人が知っています。",
+          "vi": "Bài hát này người khắp thế giới đều biết."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "今、授業の中です。",
+          "right": "今、授業中です。",
+          "noteVi": "Đang trong giờ học: 授業中 (ちゅう). 授業の中 nghe như \"bên trong giờ học\"."
+        },
+        {
+          "wrong": "昨日は一日中に勉強しました。",
+          "right": "昨日は一日中勉強しました。",
+          "noteVi": "一日中 (じゅう: suốt cả ngày) không đi với に."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "toka-toka",
+      "titleVi": "〜とか〜とか: nào là … nào là … (văn nói)",
+      "summaryVi": "N1 とか N2 とか: nêu vài ví dụ trong nhiều thứ, thân mật, hay dùng khi nói chuyện: 映画とか買い物とか.",
+      "explanationVi": [
+        "**N1 とか N2 とか** nêu **vài ví dụ** trong nhiều thứ, giống \"nào là … nào là …\", \"… này, … này\": 「休みの日は映画とか買い物とかに行きます」. Nghĩa như 〜や〜など nhưng **thân mật**, chủ yếu dùng khi nói chuyện.",
+        "Trợ từ (に, を, が…) đặt **sau とか cuối cùng**, hoặc bỏ đi: 映画とか買い物とか**に**行く. Có thể chỉ nêu một ví dụ: 「コーヒーとか飲みませんか」. とか cũng đi sau động từ thể từ điển: 「休みの日は本を読むとか、音楽を聞くとかしています」.",
+        "So sánh: 「AとB」 là đủ cả danh sách (chỉ A và B); 「AやB(など)」, 「AとかBとか」 là còn những thứ khác. Viết văn, nói trang trọng dùng や…など."
+      ],
+      "patterns": [
+        "N1 とか N2 とか (+ trợ từ)",
+        "V (thể từ điển) とか V とか する"
+      ],
+      "examples": [
+        {
+          "ja": "休みの日は映画とか買い物とかに行きます。",
+          "vi": "Ngày nghỉ tôi đi nào là xem phim, nào là mua sắm."
+        },
+        {
+          "ja": "駅の近くにはレストランとか喫茶店とかがあります。",
+          "vi": "Gần ga có nhà hàng, quán cà phê các kiểu."
+        },
+        {
+          "ja": "日曜日は掃除とか洗濯とかで忙しいです。",
+          "vi": "Chủ nhật tôi bận nào là dọn dẹp, nào là giặt giũ."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "日曜日は掃除をとか洗濯をとかします。",
+          "right": "日曜日は掃除とか洗濯とかをします。",
+          "noteVi": "とか đứng ngay sau danh từ; trợ từ を đặt sau とか cuối cùng."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "nado",
+      "titleVi": "〜など: … v.v., như là …",
+      "summaryVi": "N1 や N2 など: nêu ví dụ, ngầm hiểu còn thứ khác (như \"v.v.\"); N など còn làm lời mời mềm hơn: お茶などいかがですか.",
+      "explanationVi": [
+        "**など** đặt **sau danh từ cuối** của danh sách để nói còn những thứ khác nữa, giống \"v.v.\", \"như là\": 「デパートで服や靴などを買いました」. Thường đi với や: **N1 や N2 など**. Trợ từ đặt **sau** など: 服や靴など**を**, 本など**が**.",
+        "Khác tiếng Việt: \"v.v.\" đứng cuối câu, còn など đứng **ngay sau danh từ**, trước trợ từ và động từ. Không nói 「パンや牛乳を買いましたなど」.",
+        "N + など cũng dùng để nêu một ví dụ cho **lời mời, gợi ý** mềm hơn: 「お茶などいかがですか」 (Anh/chị dùng chút trà nhé?). など trang trọng hơn とか; viết văn, nói lịch sự dùng など."
+      ],
+      "patterns": [
+        "N1 や N2 など (+ trợ từ)",
+        "N1、N2、N3 など",
+        "N など + いかがですか (mời)"
+      ],
+      "examples": [
+        {
+          "ja": "デパートで服や靴などを買いました。",
+          "vi": "Tôi đã mua quần áo, giày dép v.v. ở bách hóa."
+        },
+        {
+          "ja": "この店では、テレビ、ステレオ、パソコンなどを売っています。",
+          "vi": "Cửa hàng này bán tivi, dàn âm thanh, máy tính v.v."
+        },
+        {
+          "ja": "お茶などいかがですか。",
+          "vi": "Anh/chị dùng chút trà nhé?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "パンや牛乳を買いましたなど。",
+          "right": "パンや牛乳などを買いました。",
+          "noteVi": "など đứng ngay sau danh từ cuối của danh sách, không đặt cuối câu như \"v.v.\" trong tiếng Việt."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "de-mo-suggestion",
+      "titleVi": "N + でも: … hay gì đó (mời, gợi ý nhẹ nhàng)",
+      "summaryVi": "N + でも làm lời mời, gợi ý nhẹ nhàng, ngầm hiểu thứ khác cũng được: お茶でも飲みませんか (Uống trà hay gì đó nhé?).",
+      "explanationVi": [
+        "**N + でも** trong lời **mời, gợi ý, nhờ** cho thấy N chỉ là **một ví dụ**, thứ khác cũng được, nên lời nói **nhẹ nhàng**, không ép: 「お茶でも飲みませんか」 (Mình uống trà hay gì đó nhé?), 「映画でも見に行きませんか」.",
+        "でも **thay cho** を, が: お茶**を**飲む → お茶**でも**飲む (không nói お茶をでも). Với に, で… thì giữ trợ từ: 「公園にでも行きましょうか」. Hay đi với 〜ませんか, 〜ましょうか, 〜てください, 〜たらどうですか.",
+        "Phân biệt với các でも đã học: でも đầu câu là \"nhưng\"; 〜ても/〜でも (N4-09) là \"dù … cũng\"; 何でも, 誰でも là \"bất cứ\"."
+      ],
+      "patterns": [
+        "N + でも + V-ませんか / V-ましょうか",
+        "N + に/で + でも (giữ trợ từ)"
+      ],
+      "examples": [
+        {
+          "ja": "暑いですね。冷たい物でも飲みませんか。",
+          "vi": "Nóng nhỉ. Mình uống gì đó mát mát nhé?"
+        },
+        {
+          "ja": "時間があったら、映画でも見に行きませんか。",
+          "vi": "Nếu có thời gian, đi xem phim hay gì đó không?"
+        },
+        {
+          "ja": "待っている間、雑誌でも読んでいてください。",
+          "vi": "Trong lúc chờ, anh/chị cứ đọc tạp chí hay gì đó nhé."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "お茶をでも飲みませんか。",
+          "right": "お茶でも飲みませんか。",
+          "noteVi": "でも thay cho を, không dùng cả hai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "sa",
+      "titleVi": "〜さ: độ … (danh từ chỉ mức độ)",
+      "summaryVi": "Tính từ bỏ い (hoặc tính từ đuôi な) + さ thành danh từ chỉ mức độ: 高さ (chiều cao), 重さ (độ nặng), 広さ (diện tích).",
+      "explanationVi": [
+        "**Tính từ đuôi い bỏ い + さ** thành danh từ chỉ **mức độ**: 高い → 高**さ** (chiều cao, độ cao), 長い → 長**さ** (chiều dài), 重い → 重**さ** (cân nặng), 広い → 広**さ** (diện tích), 暑い → 暑**さ** (cái nóng). Đặc biệt: いい → **よさ** (cái hay, điểm tốt).",
+        "**Tính từ đuôi な + さ**: 便利**さ** (sự tiện lợi), 静か**さ** (sự yên tĩnh), 大切**さ** (tầm quan trọng).",
+        "Tiếng Việt thêm \"độ\", \"chiều\", \"sự\" (độ nặng, chiều cao); tiếng Nhật thay い bằng さ. Hay dùng khi hỏi số đo: 「この箱の重さはどのくらいですか」, và khi nói cảm nhận: 「日本の夏の暑さに驚きました」."
+      ],
+      "patterns": [
+        "Aい (bỏ い) + さ: 高さ, 重さ; いい → よさ",
+        "Aな + さ: 便利さ, 静かさ",
+        "N の Aさ は どのくらいですか"
+      ],
+      "examples": [
+        {
+          "ja": "この箱の重さは5キロです。",
+          "vi": "Cái hộp này nặng 5 cân."
+        },
+        {
+          "ja": "この部屋の広さはどのくらいですか。",
+          "vi": "Diện tích căn phòng này khoảng bao nhiêu?"
+        },
+        {
+          "ja": "日本の夏の暑さに驚きました。",
+          "vi": "Tôi ngạc nhiên vì cái nóng của mùa hè Nhật Bản."
+        },
+        {
+          "ja": "この町のよさは静かなところです。",
+          "vi": "Điểm hay của thị trấn này là yên tĩnh."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "この箱の重いは5キロです。",
+          "right": "この箱の重さは5キロです。",
+          "noteVi": "Tính từ không làm chủ ngữ trực tiếp như danh từ; đổi thành danh từ bằng さ (重さ)."
+        },
+        {
+          "wrong": "この町のいいさは静かなところです。",
+          "right": "この町のよさは静かなところです。",
+          "noteVi": "いい đổi thành よさ (như よくない, よかった)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ga-suru",
+      "titleVi": "N + がする: nghe thấy (tiếng), ngửi thấy (mùi), có (vị), có cảm giác",
+      "summaryVi": "においがする, 音がする, 声がする, 味がする: diễn tả điều cảm nhận được bằng giác quan: いいにおいがします.",
+      "explanationVi": [
+        "**N + がする** nói về điều ta **cảm nhận** được một cách tự nhiên bằng giác quan: **におい** (mùi), **音** (âm thanh), **声** (tiếng người, tiếng kêu), **味** (vị): 「台所からいいにおいがします」 (Có mùi thơm từ bếp), 「隣の部屋で変な音がしました」.",
+        "Tiếng Việt nói \"**có** mùi\", \"**có** tiếng\", nên người Việt hay dùng あります: 「いいにおいがあります」 là sai. Tiếng Nhật dùng **がする**. Không dùng を: không nói におい**を**する.",
+        "**気がする**: có cảm giác (là …): 「明日は雨が降るような気がします」 (Tôi có cảm giác mai trời sẽ mưa). Muốn nói chủ động ngửi, nghe thì dùng động từ khác: においをかぐ, 音を聞く."
+      ],
+      "patterns": [
+        "N (におい / 音 / 声 / 味) + がする",
+        "〜ような気がする (có cảm giác)"
+      ],
+      "examples": [
+        {
+          "ja": "台所からいいにおいがします。",
+          "vi": "Từ trong bếp có mùi thơm."
+        },
+        {
+          "ja": "隣の部屋で変な音がしました。",
+          "vi": "Ở phòng bên cạnh có tiếng động lạ."
+        },
+        {
+          "ja": "このケーキはお酒の味がします。",
+          "vi": "Cái bánh này có vị rượu."
+        },
+        {
+          "ja": "明日は雨が降るような気がします。",
+          "vi": "Tôi có cảm giác mai trời sẽ mưa."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "台所からいいにおいがあります。",
+          "right": "台所からいいにおいがします。",
+          "noteVi": "\"Có mùi\" trong tiếng Nhật là においがする, không dùng ある."
+        },
+        {
+          "wrong": "外で子供の声をしました。",
+          "right": "外で子供の声がしました。",
+          "noteVi": "Trợ từ là が: 声がする."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n4-26-e01",
+      "type": "fill",
+      "grammar": [
+        "kata"
+      ],
+      "before": "この漢字",
+      "after": "読み方を教えてください。",
+      "answers": [
+        "の"
+      ],
+      "options": [
+        "の",
+        "を",
+        "が"
+      ],
+      "vi": "Xin chỉ cho tôi cách đọc chữ Hán này.",
+      "explainVi": "読み方 là danh từ: 漢字の読み方."
+    },
+    {
+      "id": "n4-26-e02",
+      "type": "choice",
+      "grammar": [
+        "kata"
+      ],
+      "promptVi": "\"Cách dùng\" (của 使う) nói thế nào?",
+      "options": [
+        "使い方",
+        "使う方",
+        "使った方"
+      ],
+      "answer": 0,
+      "explainVi": "V (bỏ ます) + 方: 使い方."
+    },
+    {
+      "id": "n4-26-e03",
+      "type": "order",
+      "grammar": [
+        "kata"
+      ],
+      "vi": "Xin lỗi, xin chỉ cho tôi cách mua vé.",
+      "tiles": [
+        "すみません",
+        "切符の",
+        "買い方を",
+        "教えてください"
+      ],
+      "answers": [
+        "すみません切符の買い方を教えてください"
+      ]
+    },
+    {
+      "id": "n4-26-e04",
+      "type": "choice",
+      "grammar": [
+        "chuu-juu"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "昨日は一日中勉強しました。",
+      "options": [
+        "Hôm qua tôi học suốt cả ngày.",
+        "Hôm qua tôi học trong một ngày.",
+        "Hôm qua tôi học ngày một chút."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-26-e05",
+      "type": "fill",
+      "grammar": [
+        "chuu-juu"
+      ],
+      "before": "田中は今、会議",
+      "after": "です。",
+      "answers": [
+        "中"
+      ],
+      "options": [
+        "中",
+        "間",
+        "前"
+      ],
+      "vi": "Anh Tanaka bây giờ đang họp ạ."
+    },
+    {
+      "id": "n4-26-e06",
+      "type": "choice",
+      "grammar": [
+        "chuu-juu"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "レポートは今週中に出してください。",
+      "options": [
+        "Hãy nộp báo cáo trong tuần này.",
+        "Hãy nộp báo cáo vào giữa tuần.",
+        "Hãy viết báo cáo suốt cả tuần."
+      ],
+      "answer": 0,
+      "explainVi": "Thời gian + 中 (ちゅう) に: trong khoảng thời gian đó."
+    },
+    {
+      "id": "n4-26-e07",
+      "type": "order",
+      "grammar": [
+        "toka-toka"
+      ],
+      "vi": "Ngày nghỉ tôi đi nào là xem phim, nào là mua sắm.",
+      "tiles": [
+        "休みの日は",
+        "映画とか",
+        "買い物とかに",
+        "行きます"
+      ],
+      "answers": [
+        "休みの日は映画とか買い物とかに行きます"
+      ]
+    },
+    {
+      "id": "n4-26-e08",
+      "type": "fill",
+      "grammar": [
+        "toka-toka"
+      ],
+      "before": "駅の近くにはレストラン",
+      "after": "喫茶店とかがあります。",
+      "answers": [
+        "とか"
+      ],
+      "options": [
+        "とか",
+        "など",
+        "でも"
+      ],
+      "vi": "Gần ga có nhà hàng, quán cà phê các kiểu."
+    },
+    {
+      "id": "n4-26-e09",
+      "type": "choice",
+      "grammar": [
+        "toka-toka",
+        "nado"
+      ],
+      "promptVi": "Hai câu cùng nghĩa \"Tôi đã mua bánh mì, sữa v.v.\" Câu nào là văn nói thân mật?",
+      "options": [
+        "パンとか牛乳とか買ったよ。",
+        "パンや牛乳などを買いました。"
+      ],
+      "answer": 0,
+      "explainVi": "とか…とか: văn nói, thân mật. や…など: lịch sự, văn viết."
+    },
+    {
+      "id": "n4-26-e10",
+      "type": "fill",
+      "grammar": [
+        "nado"
+      ],
+      "before": "デパートで服や靴",
+      "after": "を買いました。",
+      "answers": [
+        "など"
+      ],
+      "options": [
+        "など",
+        "まで",
+        "より"
+      ],
+      "vi": "Tôi đã mua quần áo, giày dép v.v. ở bách hóa."
+    },
+    {
+      "id": "n4-26-e11",
+      "type": "choice",
+      "grammar": [
+        "nado"
+      ],
+      "promptVi": "\"Tôi đã mua thịt, rau v.v.\" Câu nào đúng?",
+      "options": [
+        "肉や野菜などを買いました。",
+        "肉や野菜を買いましたなど。",
+        "肉や野菜だけを買いました。"
+      ],
+      "answer": 0,
+      "explainVi": "など đứng ngay sau danh từ cuối, trước trợ từ."
+    },
+    {
+      "id": "n4-26-e12",
+      "type": "fill",
+      "grammar": [
+        "de-mo-suggestion"
+      ],
+      "before": "暑いですね。冷たい物",
+      "after": "飲みませんか。",
+      "answers": [
+        "でも"
+      ],
+      "options": [
+        "でも",
+        "より",
+        "へ"
+      ],
+      "vi": "Nóng nhỉ. Mình uống gì đó mát mát nhé?"
+    },
+    {
+      "id": "n4-26-e13",
+      "type": "choice",
+      "grammar": [
+        "de-mo-suggestion"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "映画でも見に行きませんか。",
+      "options": [
+        "Đi xem phim hay gì đó không?",
+        "Đến phim cũng không đi xem à?",
+        "Nhưng mà có đi xem phim không?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-26-e14",
+      "type": "order",
+      "grammar": [
+        "de-mo-suggestion"
+      ],
+      "vi": "Trong lúc chờ, anh/chị cứ đọc tạp chí hay gì đó nhé.",
+      "tiles": [
+        "待っている間",
+        "雑誌でも",
+        "読んでいて",
+        "ください"
+      ],
+      "answers": [
+        "待っている間雑誌でも読んでいてください"
+      ]
+    },
+    {
+      "id": "n4-26-e15",
+      "type": "choice",
+      "grammar": [
+        "sa"
+      ],
+      "promptVi": "Danh từ \"độ nặng\" của 重い là gì?",
+      "options": [
+        "重さ",
+        "重い",
+        "重く"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-26-e16",
+      "type": "fill",
+      "grammar": [
+        "sa"
+      ],
+      "before": "この部屋の",
+      "after": "はどのくらいですか。",
+      "answers": [
+        "広さ"
+      ],
+      "options": [
+        "広さ",
+        "広い",
+        "広く"
+      ],
+      "vi": "Diện tích căn phòng này khoảng bao nhiêu?"
+    },
+    {
+      "id": "n4-26-e17",
+      "type": "choice",
+      "grammar": [
+        "sa"
+      ],
+      "promptVi": "Danh từ của いい (cái hay, điểm tốt) là gì?",
+      "options": [
+        "よさ",
+        "よく",
+        "よかった"
+      ],
+      "answer": 0,
+      "explainVi": "いい → よさ (như よくない, よかった)."
+    },
+    {
+      "id": "n4-26-e18",
+      "type": "fill",
+      "grammar": [
+        "ga-suru"
+      ],
+      "before": "台所からいいにおいが",
+      "after": "。",
+      "answers": [
+        "します"
+      ],
+      "options": [
+        "します",
+        "あります",
+        "なります"
+      ],
+      "vi": "Từ trong bếp có mùi thơm.",
+      "explainVi": "\"Có mùi\": においがする."
+    },
+    {
+      "id": "n4-26-e19",
+      "type": "choice",
+      "grammar": [
+        "ga-suru"
+      ],
+      "promptVi": "\"Tôi nghe thấy tiếng ai đó.\" Câu nào đúng?",
+      "options": [
+        "誰かの声がしました。",
+        "誰かの声をしました。",
+        "誰かの声にしました。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-26-e20",
+      "type": "choice",
+      "grammar": [
+        "ga-suru"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "このケーキはお酒の味がします。",
+      "options": [
+        "Cái bánh này có vị rượu.",
+        "Cái bánh này làm bằng rượu.",
+        "Cái bánh này ăn kèm rượu."
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n4-26-e21",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "葉",
+          "lá"
+        ],
+        [
+          "草",
+          "cỏ"
+        ],
+        [
+          "虫",
+          "côn trùng"
+        ],
+        [
+          "砂",
+          "cát"
+        ],
+        [
+          "小鳥",
+          "chim nhỏ"
+        ]
+      ]
+    },
+    {
+      "id": "n4-26-e22",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "例えば",
+          "ví dụ như"
+        ],
+        [
+          "まず",
+          "trước tiên"
+        ],
+        [
+          "または",
+          "hoặc"
+        ],
+        [
+          "非常に",
+          "cực kỳ"
+        ],
+        [
+          "こう",
+          "như thế này"
+        ]
+      ]
+    },
+    {
+      "id": "n4-26-e23",
+      "type": "translate",
+      "grammar": [
+        "kata"
+      ],
+      "vi": "Xin chỉ cho tôi cách đọc chữ Hán này.",
+      "answers": [
+        "この漢字の読み方を教えてください。",
+        "この漢字の読み方を[教えてください|教えてくれませんか|教えてくださいませんか|教えていただけませんか]。"
+      ],
+      "examples": [
+        {
+          "answer": "このかんじのよみかたをおしえてください",
+          "score": 100
+        },
+        {
+          "answer": "この漢字を読み方を教えてください。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "この漢字の書き方を教えてください。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-26-e24",
+      "type": "translate",
+      "grammar": [
+        "chuu-juu"
+      ],
+      "vi": "Hôm qua trời mưa suốt cả ngày.",
+      "answers": [
+        "昨日は一日中雨でした。",
+        "昨日は一日中雨[でした|が降っていました|が降りました]。"
+      ],
+      "examples": [
+        {
+          "answer": "きのうはいちにちじゅうあめでした",
+          "score": 100
+        },
+        {
+          "answer": "昨日は一日中に雨が降っていました。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "昨日は一日中晴れでした。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-26-e25",
+      "type": "translate",
+      "grammar": [
+        "de-mo-suggestion"
+      ],
+      "vi": "(Mời bạn) Mình uống trà hay gì đó nhé? (dùng でも)",
+      "answers": [
+        "お茶でも飲みませんか。",
+        "お茶でも[飲みませんか|飲みましょうか|飲みましょう|いかがですか]。",
+        "お茶でも[飲まない|飲もう]？"
+      ],
+      "examples": [
+        {
+          "answer": "おちゃでものみませんか",
+          "score": 100
+        },
+        {
+          "answer": "お茶でも飲まない？",
+          "score": 100
+        },
+        {
+          "answer": "お茶をでも飲みませんか。",
+          "score": 85,
+          "issues": [
+            "extra_word"
+          ]
+        },
+        {
+          "answer": "お茶を飲みませんでした。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-26-e26",
+      "type": "translate",
+      "grammar": [
+        "sa"
+      ],
+      "vi": "Cái hộp này nặng bao nhiêu? (dùng 重さ)",
+      "answers": [
+        "この箱の重さはどのくらいですか。",
+        "この箱の重さは[どのくらい|どのぐらい|どれくらい|どれぐらい|何キロ](ですか)。"
+      ],
+      "examples": [
+        {
+          "answer": "このはこのおもさはどのくらいですか",
+          "score": 100
+        },
+        {
+          "answer": "この箱は重さはどのくらいですか。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "この箱の重いはどのくらいですか。",
+          "score": 0
+        },
+        {
+          "answer": "この箱の大きさはどのくらいですか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n4-26-e27",
+      "type": "translate",
+      "grammar": [
+        "ga-suru"
+      ],
+      "vi": "Từ trong bếp có mùi thơm.",
+      "answers": [
+        "台所からいいにおいがします。",
+        "台所から(とても)いいにおいがします。"
+      ],
+      "examples": [
+        {
+          "answer": "だいどころからいいにおいがします",
+          "score": 100
+        },
+        {
+          "answer": "台所からいいにおいをします。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "台所からいいにおいがあります。",
+          "score": 0
+        },
+        {
+          "answer": "台所から変なにおいがします。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "父に泳ぎ方を教えてもらいました。": "{父|ちち}に{泳|およ}ぎ{方|かた}を{教|おし}えてもらいました。",
+    "いい勉強の仕方を教えてください。": "いい{勉|べん}{強|きょう}の{仕|し}{方|かた}を{教|おし}えてください。",
+    "バスが来ないから、仕方がありません。歩きましょう。": "バスが{来|こ}ないから、{仕|し}{方|かた}がありません。{歩|ある}きましょう。",
+    "スポーツ、例えばテニスや水泳などが好きです。": "スポーツ、{例|たと}えばテニスや{水|すい}{泳|えい}などが{好|す}きです。",
+    "この映画館のスクリーンはとても大きいです。": "この{映|えい}{画|が}{館|かん}のスクリーンはとても{大|おお}きいです。",
+    "薬を飲んだら、頭がすっとしました。": "{薬|くすり}を{飲|の}んだら、{頭|あたま}がすっとしました。",
+    "田中さんはすっと部屋を出ていきました。": "{田中|たなか}さんはすっと{部屋|へや}を{出|で}ていきました。",
+    "新しいステレオで音楽を聞きます。": "{新|あたら}しいステレオで{音|おん}{楽|がく}を{聞|き}きます。",
+    "靴の中に砂が入りました。": "{靴|くつ}の{中|なか}に{砂|すな}が{入|はい}りました。",
+    "このパンはソフトでおいしいです。": "このパンはソフトでおいしいです。",
+    "パソコンに新しいソフトを入れました。": "パソコンに{新|あたら}しいソフトを{入|い}れました。",
+    "このタイプのかばんが欲しいです。": "このタイプのかばんが{欲|ほ}しいです。",
+    "田中さんは私の好きなタイプです。": "{田中|たなか}さんは{私|わたし}の{好|す}きなタイプです。",
+    "適当な言葉を選んでください。": "{適|てき}{当|とう}な{言|こと}{葉|ば}を{選|えら}んでください。",
+    "そんな適当な答えではだめです。": "そんな{適|てき}{当|とう}な{答|こた}えではだめです。",
+    "昔は電報で結婚のお祝いを送りました。": "{昔|むかし}は{電|でん}{報|ぽう}で{結|けっ}{婚|こん}のお{祝|いわ}いを{送|おく}りました。",
+    "都の人口は今も増えています。": "{都|と}の{人|じん}{口|こう}は{今|いま}も{増|ふ}えています。",
+    "秋になると、木の葉が赤や黄色になります。": "{秋|あき}になると、{木|き}の{葉|は}が{赤|あか}や{黄|き}{色|いろ}になります。",
+    "日曜日に庭の草を取りました。": "{日|にち}{曜|よう}{日|び}に{庭|にわ}の{草|くさ}を{取|と}りました。",
+    "夏の夜は虫の声がします。": "{夏|なつ}の{夜|よる}は{虫|むし}の{声|こえ}がします。",
+    "庭に小鳥が来ています。": "{庭|にわ}に{小|こ}{鳥|とり}が{来|き}ています。",
+    "今夜はつきがきれいですね。": "{今|こん}{夜|や}はつきがきれいですね。",
+    "今年の夏は非常に暑いです。": "{今年|ことし}の{夏|なつ}は{非|ひ}{常|じょう}に{暑|あつ}いです。",
+    "これは世界でもっとも古い建物の一つです。": "これは{世|せ}{界|かい}でもっとも{古|ふる}い{建|たて}{物|もの}の{一|ひと}つです。",
+    "黒または青のペンで書いてください。": "{黒|くろ}または{青|あお}のペンで{書|か}いてください。",
+    "昔はワープロで手紙を書きました。": "{昔|むかし}はワープロで{手|て}{紙|がみ}を{書|か}きました。",
+    "飛行場まで車で1時間かかります。": "{飛|ひ}{行|こう}{場|じょう}まで{車|くるま}で1{時間|じかん}かかります。",
+    "この漢字は、こう書きます。": "この{漢|かん}{字|じ}は、こう{書|か}きます。",
+    "この雲は犬の形をしていますね。": "この{雲|くも}は{犬|いぬ}の{形|かたち}をしていますね。",
+    "紙で鳥を折りました。": "{紙|かみ}で{鳥|とり}を{折|お}りました。",
+    "木の枝を折らないでください。": "{木|き}の{枝|えだ}を{折|お}らないでください。",
+    "まず、手を洗ってください。": "まず、{手|て}を{洗|あら}ってください。",
+    "この漢字の読み方を教えてください。": "この{漢|かん}{字|じ}の{読|よ}み{方|かた}を{教|おし}えてください。",
+    "すみません、切符の買い方がわかりません。": "すみません、{切|きっ}{符|ぷ}の{買|か}い{方|かた}がわかりません。",
+    "母にカレーの作り方を習いました。": "{母|はは}にカレーの{作|つく}り{方|かた}を{習|なら}いました。",
+    "このカメラの使い方は簡単です。": "このカメラの{使|つか}い{方|かた}は{簡|かん}{単|たん}です。",
+    "この漢字を読み方を教えてください。": "この{漢|かん}{字|じ}を{読|よ}み{方|かた}を{教|おし}えてください。",
+    "この漢字の読む方を教えてください。": "この{漢|かん}{字|じ}の{読|よ}む{方|かた}を{教|おし}えてください。",
+    "田中は今、会議中です。": "{田中|たなか}は{今|いま}、{会|かい}{議|ぎ}{中|ちゅう}です。",
+    "授業中は寝てはいけません。": "{授|じゅ}{業|ぎょう}{中|ちゅう}は{寝|ね}てはいけません。",
+    "昨日は一日中雨でした。": "{昨日|きのう}は{一|いち}{日|にち}{中|じゅう}{雨|あめ}でした。",
+    "この歌は世界中の人が知っています。": "この{歌|うた}は{世|せ}{界|かい}{中|じゅう}の{人|ひと}が{知|し}っています。",
+    "今、授業中です。": "{今|いま}、{授|じゅ}{業|ぎょう}{中|ちゅう}です。",
+    "今、授業の中です。": "{今|いま}、{授|じゅ}{業|ぎょう}の{中|なか}です。",
+    "昨日は一日中勉強しました。": "{昨日|きのう}は{一|いち}{日|にち}{中|じゅう}{勉|べん}{強|きょう}しました。",
+    "昨日は一日中に勉強しました。": "{昨日|きのう}は{一|いち}{日|にち}{中|じゅう}に{勉|べん}{強|きょう}しました。",
+    "休みの日は映画とか買い物とかに行きます。": "{休|やす}みの{日|ひ}は{映|えい}{画|が}とか{買|か}い{物|もの}とかに{行|い}きます。",
+    "駅の近くにはレストランとか喫茶店とかがあります。": "{駅|えき}の{近|ちか}くにはレストランとか{喫|きっ}{茶|さ}{店|てん}とかがあります。",
+    "日曜日は掃除とか洗濯とかで忙しいです。": "{日|にち}{曜|よう}{日|び}は{掃|そう}{除|じ}とか{洗|せん}{濯|たく}とかで{忙|いそが}しいです。",
+    "日曜日は掃除とか洗濯とかをします。": "{日|にち}{曜|よう}{日|び}は{掃|そう}{除|じ}とか{洗|せん}{濯|たく}とかをします。",
+    "日曜日は掃除をとか洗濯をとかします。": "{日|にち}{曜|よう}{日|び}は{掃|そう}{除|じ}をとか{洗|せん}{濯|たく}をとかします。",
+    "デパートで服や靴などを買いました。": "デパートで{服|ふく}や{靴|くつ}などを{買|か}いました。",
+    "この店では、テレビ、ステレオ、パソコンなどを売っています。": "この{店|みせ}では、テレビ、ステレオ、パソコンなどを{売|う}っています。",
+    "お茶などいかがですか。": "お{茶|ちゃ}などいかがですか。",
+    "パンや牛乳などを買いました。": "パンや{牛|ぎゅう}{乳|にゅう}などを{買|か}いました。",
+    "パンや牛乳を買いましたなど。": "パンや{牛|ぎゅう}{乳|にゅう}を{買|か}いましたなど。",
+    "暑いですね。冷たい物でも飲みませんか。": "{暑|あつ}いですね。{冷|つめ}たい{物|もの}でも{飲|の}みませんか。",
+    "時間があったら、映画でも見に行きませんか。": "{時|じ}{間|かん}があったら、{映|えい}{画|が}でも{見|み}に{行|い}きませんか。",
+    "待っている間、雑誌でも読んでいてください。": "{待|ま}っている{間|あいだ}、{雑|ざっ}{誌|し}でも{読|よ}んでいてください。",
+    "お茶でも飲みませんか。": "お{茶|ちゃ}でも{飲|の}みませんか。",
+    "お茶をでも飲みませんか。": "お{茶|ちゃ}をでも{飲|の}みませんか。",
+    "この箱の重さは5キロです。": "この{箱|はこ}の{重|おも}さは5キロです。",
+    "この部屋の広さはどのくらいですか。": "この{部屋|へや}の{広|ひろ}さはどのくらいですか。",
+    "日本の夏の暑さに驚きました。": "{日本|にほん}の{夏|なつ}の{暑|あつ}さに{驚|おどろ}きました。",
+    "この町のよさは静かなところです。": "この{町|まち}のよさは{静|しず}かなところです。",
+    "この箱の重いは5キロです。": "この{箱|はこ}の{重|おも}いは5キロです。",
+    "この町のいいさは静かなところです。": "この{町|まち}のいいさは{静|しず}かなところです。",
+    "台所からいいにおいがします。": "{台|だい}{所|どころ}からいいにおいがします。",
+    "隣の部屋で変な音がしました。": "{隣|となり}の{部屋|へや}で{変|へん}な{音|おと}がしました。",
+    "このケーキはお酒の味がします。": "このケーキはお{酒|さけ}の{味|あじ}がします。",
+    "明日は雨が降るような気がします。": "{明日|あした}は{雨|あめ}が{降|ふ}るような{気|き}がします。",
+    "台所からいいにおいがあります。": "{台|だい}{所|どころ}からいいにおいがあります。",
+    "外で子供の声がしました。": "{外|そと}で{子|こ}{供|ども}の{声|こえ}がしました。",
+    "外で子供の声をしました。": "{外|そと}で{子|こ}{供|ども}の{声|こえ}をしました。",
+    "の": "の",
+    "を": "を",
+    "が": "が",
+    "使い方": "{使|つか}い{方|かた}",
+    "使う方": "{使|つか}う{方|かた}",
+    "使った方": "{使|つか}った{方|ほう}",
+    "すみません": "すみません",
+    "切符の": "{切|きっ}{符|ぷ}の",
+    "買い方を": "{買|か}い{方|かた}を",
+    "教えてください": "{教|おし}えてください",
+    "すみません切符の買い方を教えてください": "すみません{切|きっ}{符|ぷ}の{買|か}い{方|かた}を{教|おし}えてください",
+    "中": "{中|ちゅう}",
+    "間": "{間|あいだ}",
+    "前": "{前|まえ}",
+    "レポートは今週中に出してください。": "レポートは{今|こん}{週|しゅう}{中|ちゅう}に{出|だ}してください。",
+    "休みの日は": "{休|やす}みの{日|ひ}は",
+    "映画とか": "{映|えい}{画|が}とか",
+    "買い物とかに": "{買|か}い{物|もの}とかに",
+    "行きます": "{行|い}きます",
+    "休みの日は映画とか買い物とかに行きます": "{休|やす}みの{日|ひ}は{映|えい}{画|が}とか{買|か}い{物|もの}とかに{行|い}きます",
+    "とか": "とか",
+    "など": "など",
+    "でも": "でも",
+    "パンとか牛乳とか買ったよ。": "パンとか{牛|ぎゅう}{乳|にゅう}とか{買|か}ったよ。",
+    "まで": "まで",
+    "より": "より",
+    "肉や野菜などを買いました。": "{肉|にく}や{野|や}{菜|さい}などを{買|か}いました。",
+    "肉や野菜を買いましたなど。": "{肉|にく}や{野|や}{菜|さい}を{買|か}いましたなど。",
+    "肉や野菜だけを買いました。": "{肉|にく}や{野|や}{菜|さい}だけを{買|か}いました。",
+    "へ": "へ",
+    "映画でも見に行きませんか。": "{映|えい}{画|が}でも{見|み}に{行|い}きませんか。",
+    "待っている間": "{待|ま}っている{間|あいだ}",
+    "雑誌でも": "{雑|ざっ}{誌|し}でも",
+    "読んでいて": "{読|よ}んでいて",
+    "ください": "ください",
+    "待っている間雑誌でも読んでいてください": "{待|ま}っている{間|あいだ}{雑|ざっ}{誌|し}でも{読|よ}んでいてください",
+    "重さ": "{重|おも}さ",
+    "重い": "{重|おも}い",
+    "重く": "{重|おも}く",
+    "広さ": "{広|ひろ}さ",
+    "広い": "{広|ひろ}い",
+    "広く": "{広|ひろ}く",
+    "よさ": "よさ",
+    "よく": "よく",
+    "よかった": "よかった",
+    "します": "します",
+    "あります": "あります",
+    "なります": "なります",
+    "誰かの声がしました。": "{誰|だれ}かの{声|こえ}がしました。",
+    "誰かの声をしました。": "{誰|だれ}かの{声|こえ}をしました。",
+    "誰かの声にしました。": "{誰|だれ}かの{声|こえ}にしました。",
+    "葉": "{葉|は}",
+    "草": "{草|くさ}",
+    "虫": "{虫|むし}",
+    "砂": "{砂|すな}",
+    "小鳥": "{小|こ}{鳥|とり}",
+    "例えば": "{例|たと}えば",
+    "まず": "まず",
+    "または": "または",
+    "非常に": "{非|ひ}{常|じょう}に",
+    "こう": "こう",
+    "お茶でも飲まない？": "お{茶|ちゃ}でも{飲|の}まない？",
+    "この箱の重さはどのくらいですか。": "この{箱|はこ}の{重|おも}さはどのくらいですか。",
+    "台所からとてもいいにおいがします。": "{台|だい}{所|どころ}からとてもいいにおいがします。"
+  }
+}

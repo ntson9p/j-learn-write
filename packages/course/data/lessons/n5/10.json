@@ -1,0 +1,1399 @@
+{
+  "id": "n5-10",
+  "goalsVi": [
+    "Rủ người khác cùng làm gì với 〜ませんか, nhận lời với 〜ましょう, từ chối khéo với ちょっと…",
+    "Đề nghị giúp đỡ, cùng bàn giờ và chỗ hẹn gặp với 〜ましょうか",
+    "Nói cho, cho mượn, mượn, dạy, học, gặp ai đó với trợ từ に"
+  ],
+  "words": [
+    {
+      "no": 62,
+      "word": "一緒",
+      "meaningsVi": [
+        "cùng nhau"
+      ],
+      "noteVi": "Thường dùng ở dạng 一緒に, đặt trước động từ: 一緒に行きます (cùng đi). \"Cùng với ai\" thì thêm と: 友達と一緒に (cùng với bạn).",
+      "examples": [
+        {
+          "ja": "一緒に映画を見ませんか。",
+          "vi": "Cùng xem phim không?"
+        },
+        {
+          "ja": "マイさんと一緒に公園へ行きました。",
+          "vi": "Tôi đã đi công viên cùng với Mai."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 1,
+      "word": "会う",
+      "meaningsVi": [
+        "gặp"
+      ],
+      "noteVi": "Người mình gặp đi với に (hoặc と), không đi với を: 友達に会います (gặp bạn).",
+      "examples": [
+        {
+          "ja": "駅で友達に会います。",
+          "vi": "Tôi gặp bạn ở nhà ga."
+        },
+        {
+          "ja": "明日、3時に会いましょう。",
+          "vi": "Ngày mai gặp nhau lúc 3 giờ nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 87,
+      "word": "映画",
+      "meaningsVi": [
+        "phim, phim điện ảnh"
+      ],
+      "noteVi": "Âm Hán Việt \"ánh họa\". Xem phim: 映画を見ます.",
+      "examples": [
+        {
+          "ja": "日曜日に映画を見ませんか。",
+          "vi": "Chủ nhật cùng xem phim không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 228,
+      "word": "公園",
+      "meaningsVi": [
+        "công viên"
+      ],
+      "noteVi": "Âm Hán Việt \"công viên\", nghĩa giống tiếng Việt.",
+      "examples": [
+        {
+          "ja": "公園で写真を撮りましょう。",
+          "vi": "Mình chụp ảnh ở công viên đi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 273,
+      "word": "散歩",
+      "meaningsVi": [
+        "đi dạo, tản bộ"
+      ],
+      "noteVi": "Âm Hán Việt \"tản bộ\". Dùng với する: 散歩します. Nơi mình đi dạo qua thường đi với を: 公園を散歩します.",
+      "examples": [
+        {
+          "ja": "毎朝、公園を散歩します。",
+          "vi": "Sáng nào tôi cũng đi dạo trong công viên."
+        },
+        {
+          "ja": "一緒に散歩しませんか。",
+          "vi": "Cùng đi dạo không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 185,
+      "word": "喫茶店",
+      "meaningsVi": [
+        "quán cà phê, quán giải khát"
+      ],
+      "noteVi": "Âm Hán Việt \"khiết trà điếm\" (quán uống trà). Thường chỉ quán cà phê kiểu truyền thống, yên tĩnh; quán hiện đại hay gọi là カフェ.",
+      "examples": [
+        {
+          "ja": "駅の喫茶店で会いましょう。",
+          "vi": "Gặp nhau ở quán cà phê trong nhà ga nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 482,
+      "word": "パーティー",
+      "meaningsVi": [
+        "bữa tiệc"
+      ],
+      "noteVi": "Tổ chức tiệc: パーティーをします. Đến dự tiệc: パーティーに来ます, パーティーへ行きます.",
+      "examples": [
+        {
+          "ja": "土曜日に私の家でパーティーをします。",
+          "vi": "Thứ bảy nhà tôi tổ chức tiệc."
+        },
+        {
+          "ja": "パーティーに来ませんか。",
+          "vi": "Bạn đến dự tiệc không?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 384,
+      "word": "ちょっと",
+      "meaningsVi": [
+        "một chút, một lát",
+        "hơi… (để từ chối khéo)"
+      ],
+      "noteVi": "Khi từ chối lời mời, người Nhật thường nói 「…はちょっと…」 rồi bỏ lửng, không nói thẳng \"không\"; người nghe hiểu đó là lời từ chối.",
+      "examples": [
+        {
+          "ja": "ちょっと休みましょう。",
+          "vi": "Nghỉ một chút đi."
+        },
+        {
+          "ja": "すみません、土曜日はちょっと…。",
+          "vi": "Xin lỗi, thứ bảy thì mình hơi… (không tiện)."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 90,
+      "word": "ええ",
+      "meaningsVi": [
+        "vâng, ừ"
+      ],
+      "noteVi": "Mềm và thân mật hơn はい một chút, hay dùng khi nói chuyện. Trong tình huống trang trọng hoặc với người trên, dùng はい.",
+      "examples": [
+        {
+          "ja": "ええ、一緒に行きましょう。",
+          "vi": "Ừ, cùng đi nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 582,
+      "word": "また",
+      "meaningsVi": [
+        "lại, lần nữa"
+      ],
+      "noteVi": "Khi chia tay: 「また明日」 = mai gặp lại, 「また来週」 = tuần sau gặp lại.",
+      "examples": [
+        {
+          "ja": "また来週会いましょう。",
+          "vi": "Tuần sau gặp lại nhé."
+        },
+        {
+          "ja": "また明日。",
+          "vi": "Mai gặp lại nhé."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 270,
+      "word": "さようなら",
+      "meaningsVi": [
+        "tạm biệt"
+      ],
+      "noteVi": "Nghe khá trang trọng, như khi chia tay lâu. Học sinh hay chào thầy cô 「先生、さようなら」 cuối buổi học; với bạn bè, người Nhật thường nói 「また明日」.",
+      "examples": [
+        {
+          "ja": "皆さん、さようなら。",
+          "vi": "Tạm biệt mọi người."
+        },
+        {
+          "ja": "先生、さようなら。",
+          "vi": "Em chào thầy ạ. (khi ra về)"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 152,
+      "word": "かける",
+      "meaningsVi": [
+        "gọi (điện thoại)"
+      ],
+      "noteVi": "電話をかけます = gọi điện thoại; người được gọi đi với に. かける còn nhiều nghĩa khác (treo, đeo kính…), sẽ học sau.",
+      "examples": [
+        {
+          "ja": "毎晩、家族に電話をかけます。",
+          "vi": "Tối nào tôi cũng gọi điện cho gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 401,
+      "word": "手紙",
+      "meaningsVi": [
+        "thư, lá thư"
+      ],
+      "noteVi": "Âm Hán Việt \"thủ chỉ\" (giấy viết tay): thư viết tay, gửi qua bưu điện.",
+      "examples": [
+        {
+          "ja": "友達に手紙を書きます。",
+          "vi": "Tôi viết thư cho bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 150,
+      "word": "書く",
+      "meaningsVi": [
+        "viết"
+      ],
+      "noteVi": "Kanji 書 cũng có trong 辞書 (từ điển) và 図書館 (thư viện).",
+      "examples": [
+        {
+          "ja": "日本語で手紙を書きました。",
+          "vi": "Tôi đã viết thư bằng tiếng Nhật."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 10,
+      "word": "あげる",
+      "meaningsVi": [
+        "cho, tặng"
+      ],
+      "noteVi": "Người nhận đi với に, vật đi với を: 友達に本をあげます. Chỉ dùng khi mình (hoặc người khác) cho người ngoài; người khác cho mình thì dùng くれる (học ở N4). Với nghĩa \"cho\", người Nhật thường viết bằng hiragana; chữ Hán 上げる dùng cho nghĩa \"nâng lên\".",
+      "examples": [
+        {
+          "ja": "マイさんに本をあげました。",
+          "vi": "Tôi đã tặng Mai một quyển sách."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 154,
+      "word": "貸す",
+      "meaningsVi": [
+        "cho mượn, cho vay"
+      ],
+      "noteVi": "Dễ nhầm với 借りる (mượn). 貸す là mình đưa đồ cho người khác dùng; người mượn đi với に: グエンさんに傘を貸します.",
+      "examples": [
+        {
+          "ja": "グエンさんに傘を貸しました。",
+          "vi": "Tôi đã cho anh Nguyễn mượn ô."
+        },
+        {
+          "ja": "ボールペンを貸しましょうか。",
+          "vi": "Tôi cho bạn mượn bút bi nhé?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 170,
+      "word": "借りる",
+      "meaningsVi": [
+        "mượn, vay"
+      ],
+      "noteVi": "Người cho mượn đi với に (hoặc から): 友達に辞書を借ります = mượn từ điển của bạn. Mượn ở một nơi thì dùng で: 図書館で本を借ります.",
+      "examples": [
+        {
+          "ja": "図書館で本を借りました。",
+          "vi": "Tôi đã mượn sách ở thư viện."
+        },
+        {
+          "ja": "友達に辞書を借りました。",
+          "vi": "Tôi đã mượn từ điển của bạn."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 108,
+      "word": "教える",
+      "meaningsVi": [
+        "dạy",
+        "chỉ, cho biết"
+      ],
+      "noteVi": "Người học (người được cho biết) đi với に. Ngoài nghĩa \"dạy\", 教える còn là \"cho biết, chỉ cho\": số điện thoại, đường đi…",
+      "examples": [
+        {
+          "ja": "私はアンさんにベトナム語を教えます。",
+          "vi": "Tôi dạy tiếng Việt cho An."
+        },
+        {
+          "ja": "マイさんの電話番号を教えましょうか。",
+          "vi": "Tôi cho bạn số điện thoại của Mai nhé?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 458,
+      "word": "習う",
+      "meaningsVi": [
+        "học (từ ai đó)"
+      ],
+      "noteVi": "Học một kỹ năng từ người dạy; người dạy đi với に: 先生に日本語を習います. 勉強する là học nói chung, cả tự học. Âm Hán Việt \"tập\" (luyện tập).",
+      "examples": [
+        {
+          "ja": "山田先生に日本語を習います。",
+          "vi": "Tôi học tiếng Nhật với thầy Yamada."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 597,
+      "word": "見せる",
+      "meaningsVi": [
+        "cho xem"
+      ],
+      "noteVi": "Khác 見る (tự mình xem): 見せる là đưa cho người khác xem; người xem đi với に.",
+      "examples": [
+        {
+          "ja": "友達に家族の写真を見せました。",
+          "vi": "Tôi đã cho bạn xem ảnh gia đình."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 293,
+      "word": "写真",
+      "meaningsVi": [
+        "ảnh, bức ảnh"
+      ],
+      "noteVi": "Âm Hán Việt \"tả chân\" (ghi lại cái thật). Chụp ảnh: 写真を撮ります.",
+      "examples": [
+        {
+          "ja": "これは家族の写真です。",
+          "vi": "Đây là ảnh gia đình tôi."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 443,
+      "word": "撮る",
+      "meaningsVi": [
+        "chụp (ảnh)",
+        "quay (phim)"
+      ],
+      "noteVi": "Chỉ dùng cho chụp ảnh, quay phim. とる với nghĩa \"lấy\" là một từ khác, viết 取る.",
+      "examples": [
+        {
+          "ja": "写真を撮りましょうか。",
+          "vi": "Để tôi chụp ảnh cho bạn nhé?"
+        },
+        {
+          "ja": "公園で写真を撮りました。",
+          "vi": "Tôi đã chụp ảnh ở công viên."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 585,
+      "word": "待つ",
+      "meaningsVi": [
+        "đợi, chờ"
+      ],
+      "noteVi": "Người hoặc vật được đợi đi với を: 友達を待ちます (đợi bạn), バスを待ちます (đợi xe buýt).",
+      "examples": [
+        {
+          "ja": "駅で友達を待ちます。",
+          "vi": "Tôi đợi bạn ở nhà ga."
+        },
+        {
+          "ja": "どこで待ちましょうか。",
+          "vi": "Mình đợi ở đâu nhỉ?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 618,
+      "word": "持つ",
+      "meaningsVi": [
+        "cầm, mang, xách",
+        "có (sở hữu)"
+      ],
+      "noteVi": "持ちましょうか (để tôi xách giúp nhé) là câu đề nghị giúp rất hay dùng. Nghĩa \"có, sở hữu\" (持っています) sẽ học sau.",
+      "examples": [
+        {
+          "ja": "かばんを持ちましょうか。",
+          "vi": "Để tôi xách cặp giúp bạn nhé?"
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 602,
+      "word": "皆さん",
+      "meaningsVi": [
+        "mọi người, các bạn, quý vị"
+      ],
+      "noteVi": "Dùng để gọi cả nhóm người nghe một cách lịch sự: 「皆さん、こんにちは」 (Xin chào mọi người).",
+      "examples": [
+        {
+          "ja": "皆さん、一緒に写真を撮りましょう。",
+          "vi": "Mọi người ơi, cùng chụp ảnh nào."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "no": 222,
+      "word": "結構",
+      "meaningsVi": [
+        "không cần, đủ rồi (từ chối lịch sự)",
+        "được, ổn",
+        "khá (là)"
+      ],
+      "noteVi": "Âm Hán Việt \"kết cấu\" nhưng không có nghĩa \"cấu trúc\". 「いいえ、結構です」 = \"Không, cảm ơn\": từ chối lịch sự một lời mời hay lời đề nghị giúp.",
+      "examples": [
+        {
+          "ja": "いいえ、結構です。",
+          "vi": "Dạ thôi, không cần đâu ạ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "char": "書",
+      "meaningVi": "viết",
+      "noteVi": "Có trong 書く (viết), 辞書 (từ điển), 図書館 (thư viện). Phần trên là cây bút (聿), phần dưới giống chữ 日.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "友",
+      "meaningVi": "bạn",
+      "noteVi": "Có trong 友達 (bạn bè). Hình hai bàn tay nắm lấy nhau. Dễ nhầm với 反 và 左.",
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "char": "休",
+      "meaningVi": "nghỉ",
+      "noteVi": "Người (亻) dựa vào gốc cây (木) để nghỉ. Có trong 休む (nghỉ) và 休み (ngày nghỉ).",
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "grammar": [
+    {
+      "id": "masen-ka",
+      "titleVi": "〜ませんか: rủ, mời (… không?)",
+      "summaryVi": "V-ませんか: lời mời, rủ lịch sự \"cùng … không?\": 一緒に映画を見ませんか.",
+      "explanationVi": [
+        "Đổi **ます** thành **ませんか** để **mời, rủ** người nghe: 「一緒に映画を見ませんか」 = \"Cùng xem phim không?\". Hình thức là câu hỏi phủ định (\"không xem à?\"), nhưng ý là một lời mời lịch sự.",
+        "Cách làm: 行きます → 行き**ませんか**, 見ます → 見**ませんか**, 散歩します → 散歩し**ませんか**. Hay đi với **一緒に** (cùng nhau).",
+        "〜ませんか để người nghe tự quyết định nên **nhẹ nhàng, lịch sự** hơn 〜ましょう; nên dùng khi mời người chưa thân hoặc người trên.",
+        "Nhận lời: 「ええ、行きましょう」. Từ chối: người Nhật ít nói thẳng 「いいえ、行きません」 mà xin lỗi rồi bỏ lửng: 「すみません、土曜日はちょっと…」."
+      ],
+      "patterns": [
+        "(一緒に) V-ませんか"
+      ],
+      "examples": [
+        {
+          "ja": "一緒に昼ご飯を食べませんか。",
+          "vi": "Cùng ăn trưa không?"
+        },
+        {
+          "ja": "土曜日、公園へ行きませんか。",
+          "vi": "Thứ bảy cùng đi công viên không?"
+        },
+        {
+          "ja": "日曜日にパーティーをします。来ませんか。",
+          "vi": "Chủ nhật mình tổ chức tiệc. Bạn đến không?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "一緒に映画を見るませんか。",
+          "right": "一緒に映画を見ませんか。",
+          "noteVi": "ませんか thay cho ます của thể ます (見ます → 見ませんか), không gắn sau dạng từ điển 見る."
+        },
+        {
+          "wrong": "一緒に映画を見ますか。",
+          "right": "一緒に映画を見ませんか。",
+          "noteVi": "Câu 見ますか không sai ngữ pháp nhưng chỉ hỏi \"Bạn có xem không?\", không phải lời mời. Muốn rủ thì dùng ませんか."
+        },
+        {
+          "wrong": "いいえ、行きません。",
+          "right": "すみません、土曜日はちょっと…。",
+          "noteVi": "Đáp lời mời bằng 「いいえ、行きません」 không sai ngữ pháp nhưng nghe cộc lốc. Từ chối lịch sự: xin lỗi rồi bỏ lửng câu với ちょっと."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mashou",
+      "titleVi": "〜ましょう: cùng … nào, … nhé",
+      "summaryVi": "V-ましょう: rủ cùng làm, hoặc nhận lời mời: 行きましょう = đi thôi.",
+      "explanationVi": [
+        "**〜ましょう** nghĩa là \"cùng … nào\", \"… nhé\": người nói đề nghị **mình và người nghe cùng làm**. Cách làm: đổi ます thành **ましょう**: 行きます → 行き**ましょう**, 休みます → 休み**ましょう**.",
+        "Dùng để **nhận lời mời**: 「一緒に行きませんか」 「ええ、行きましょう」; hoặc để rủ khi biết người nghe cũng muốn làm: 「ちょっと休みましょう」.",
+        "〜ましょう chủ động, dứt khoát hơn 〜ませんか, gần như việc đã được quyết định. Khi mời người chưa thân hay người trên, dùng 〜ませんか thì lịch sự hơn."
+      ],
+      "patterns": [
+        "V-ましょう"
+      ],
+      "examples": [
+        {
+          "ja": "ええ、行きましょう。",
+          "vi": "Ừ, đi thôi."
+        },
+        {
+          "ja": "3時に駅で会いましょう。",
+          "vi": "3 giờ gặp nhau ở nhà ga nhé."
+        },
+        {
+          "ja": "皆さん、ちょっと休みましょう。",
+          "vi": "Mọi người ơi, nghỉ một chút nào."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "一緒に行くましょう。",
+          "right": "一緒に行きましょう。",
+          "noteVi": "ましょう thay cho ます (行きます → 行きましょう), không gắn sau dạng từ điển 行く."
+        },
+        {
+          "wrong": "ええ、行きませんか。",
+          "right": "ええ、行きましょう。",
+          "noteVi": "Đáp lời mời 「一緒に行きませんか」 thì dùng ましょう. Đáp bằng ませんか là lại mời ngược người kia."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "mashou-ka",
+      "titleVi": "〜ましょうか: để tôi … nhé? / mình … nhỉ?",
+      "summaryVi": "V-ましょうか: đề nghị làm giúp người nghe (持ちましょうか), hoặc cùng bàn bạc (どこで会いましょうか).",
+      "explanationVi": [
+        "**〜ましょうか** dùng để **đề nghị làm giúp** người nghe: 「かばんを持ちましょうか」 = \"Để tôi xách cặp giúp nhé?\". Cách làm: đổi ます thành **ましょうか**.",
+        "Đi với từ để hỏi, 〜ましょうか dùng để **cùng bàn, cùng quyết định**: 「どこで会いましょうか」 = \"Mình gặp nhau ở đâu nhỉ?\", 「何時に会いましょうか」 = \"Mấy giờ mình gặp nhau nhỉ?\".",
+        "Đáp lời đề nghị giúp: nhận thì nói 「ええ、お願いします」, từ chối lịch sự thì nói 「いいえ、結構です」.",
+        "Phân biệt: 持ち**ましょうか** = để **tôi** xách; 持ち**ませんか** = mời **bạn** xách."
+      ],
+      "patterns": [
+        "V-ましょうか",
+        "どこで／何時に V-ましょうか"
+      ],
+      "examples": [
+        {
+          "ja": "かばんを持ちましょうか。",
+          "vi": "Để tôi xách cặp giúp bạn nhé?"
+        },
+        {
+          "ja": "写真を撮りましょうか。",
+          "vi": "Để tôi chụp ảnh cho bạn nhé?"
+        },
+        {
+          "ja": "どこで会いましょうか。",
+          "vi": "Mình gặp nhau ở đâu nhỉ?"
+        },
+        {
+          "ja": "何時に会いましょうか。",
+          "vi": "Mấy giờ mình gặp nhau nhỉ?"
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "かばんを持ちませんか。",
+          "right": "かばんを持ちましょうか。",
+          "noteVi": "Muốn đề nghị xách giúp thì dùng ましょうか. 持ちませんか là mời người nghe xách, ngược với ý muốn nói."
+        },
+        {
+          "wrong": "ええ、持ちましょう。",
+          "right": "ええ、お願いします。",
+          "noteVi": "Đáp lời 「かばんを持ちましょうか」: người được giúp nói お願いします. 持ちましょう nghĩa là \"cùng xách nào\", không phải lời nhận giúp đỡ."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    },
+    {
+      "id": "ni-indirect-object",
+      "titleVi": "Trợ từ に: cho ai, với ai",
+      "summaryVi": "N(người) に N を V: に chỉ người nhận hoặc người liên quan tới hành động: 友達に手紙を書きます.",
+      "explanationVi": [
+        "Với các động từ **あげる** (cho), **貸す** (cho mượn), **教える** (dạy), **見せる** (cho xem), **書く** (viết thư), **かける** (gọi điện), **người nhận** đi với **に**, vật đi với **を**: 「友達に手紙を書きます」 = Tôi viết thư cho bạn.",
+        "Với **借りる** (mượn) và **習う** (học), に chỉ người mà mình **nhận từ** đó: 「友達に本を借ります」 = Tôi mượn sách **của** bạn; 「先生に日本語を習います」 = Tôi học tiếng Nhật **với** thầy. Ở đây cũng có thể dùng から.",
+        "**会う** (gặp) cũng đi với に: 「駅で友達に会います」. Tiếng Việt nói \"gặp bạn\", không có giới từ, nên người Việt hay dùng nhầm を.",
+        "Trật tự thường gặp: người + に, vật + を, **động từ ở cuối câu**. Tiếng Việt nói \"cho bạn quyển sách\", tiếng Nhật nói 「友達に本をあげます」."
+      ],
+      "patterns": [
+        "N1(người) に N2(vật) を V",
+        "N(người) に 会います"
+      ],
+      "examples": [
+        {
+          "ja": "友達に手紙を書きます。",
+          "vi": "Tôi viết thư cho bạn."
+        },
+        {
+          "ja": "マイさんに傘を貸しました。",
+          "vi": "Tôi đã cho Mai mượn ô."
+        },
+        {
+          "ja": "先生に日本語を習います。",
+          "vi": "Tôi học tiếng Nhật với thầy giáo."
+        },
+        {
+          "ja": "駅で田中さんに会いました。",
+          "vi": "Tôi đã gặp anh Tanaka ở nhà ga."
+        }
+      ],
+      "mistakes": [
+        {
+          "wrong": "駅で友達を会います。",
+          "right": "駅で友達に会います。",
+          "noteVi": "会う đi với に (hoặc と), không đi với を dù tiếng Việt nói \"gặp bạn\"."
+        },
+        {
+          "wrong": "友達を手紙を書きます。",
+          "right": "友達に手紙を書きます。",
+          "noteVi": "Người nhận đi với に; を chỉ dành cho vật (lá thư)."
+        },
+        {
+          "wrong": "友達に辞書を貸しました。",
+          "right": "友達に辞書を借りました。",
+          "noteVi": "Muốn nói \"Tôi đã mượn từ điển của bạn\" thì dùng 借りました. 貸しました nghĩa ngược lại: \"Tôi đã cho bạn mượn từ điển\"."
+        }
+      ],
+      "review": {
+        "status": "draft"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "id": "n5-10-e01",
+      "type": "choice",
+      "grammar": [
+        "masen-ka"
+      ],
+      "promptVi": "Bạn muốn rủ bạn mình cùng xem phim. Câu nào phù hợp?",
+      "options": [
+        "一緒に映画を見ませんか。",
+        "一緒に映画を見ましたか。",
+        "一緒に映画を見ません。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-10-e02",
+      "type": "fill",
+      "grammar": [
+        "masen-ka"
+      ],
+      "before": "日曜日、公園へ",
+      "after": "。",
+      "answers": [
+        "行きませんか"
+      ],
+      "options": [
+        "行きませんか",
+        "行きましたか",
+        "行きません"
+      ],
+      "vi": "Chủ nhật cùng đi công viên không?"
+    },
+    {
+      "id": "n5-10-e03",
+      "type": "order",
+      "grammar": [
+        "masen-ka"
+      ],
+      "vi": "Cùng đi dạo không?",
+      "tiles": [
+        "散歩",
+        "一緒に",
+        "しませんか"
+      ],
+      "answers": [
+        "一緒に散歩しませんか"
+      ]
+    },
+    {
+      "id": "n5-10-e04",
+      "type": "choice",
+      "grammar": [
+        "mashou"
+      ],
+      "promptVi": "Bạn muốn nhận lời mời này. Chọn câu trả lời đúng.",
+      "ja": "一緒に昼ご飯を食べませんか。",
+      "options": [
+        "ええ、食べましょう。",
+        "ええ、食べませんか。",
+        "いいえ、食べません。"
+      ],
+      "answer": 0,
+      "explainVi": "Nhận lời mời thì dùng ましょう."
+    },
+    {
+      "id": "n5-10-e05",
+      "type": "fill",
+      "grammar": [
+        "mashou"
+      ],
+      "before": "3時に駅で",
+      "after": "。",
+      "answers": [
+        "会いましょう"
+      ],
+      "options": [
+        "会いましょう",
+        "会いました",
+        "会いませんでした"
+      ],
+      "vi": "3 giờ gặp nhau ở nhà ga nhé."
+    },
+    {
+      "id": "n5-10-e06",
+      "type": "order",
+      "grammar": [
+        "mashou"
+      ],
+      "vi": "Mình chụp ảnh ở công viên đi.",
+      "tiles": [
+        "撮りましょう",
+        "公園で",
+        "写真を"
+      ],
+      "answers": [
+        "公園で写真を撮りましょう",
+        "写真を公園で撮りましょう"
+      ]
+    },
+    {
+      "id": "n5-10-e07",
+      "type": "choice",
+      "grammar": [
+        "mashou-ka"
+      ],
+      "promptVi": "Cô Tanaka đang xách một cái cặp nặng. Bạn đề nghị xách giúp:",
+      "options": [
+        "かばんを持ちましょうか。",
+        "かばんを持ちませんか。",
+        "かばんを持ちましたか。"
+      ],
+      "answer": 0,
+      "explainVi": "ましょうか: để tôi làm giúp; ませんか là mời cô Tanaka xách."
+    },
+    {
+      "id": "n5-10-e08",
+      "type": "choice",
+      "grammar": [
+        "mashou-ka"
+      ],
+      "promptVi": "Câu này nghĩa là gì?",
+      "ja": "写真を撮りましょうか。",
+      "options": [
+        "Để tôi chụp ảnh cho bạn nhé?",
+        "Bạn đã chụp ảnh chưa?",
+        "Bạn có chụp ảnh không?"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-10-e09",
+      "type": "fill",
+      "grammar": [
+        "mashou-ka"
+      ],
+      "before": "どこで",
+      "after": "。",
+      "answers": [
+        "会いましょうか"
+      ],
+      "options": [
+        "会いましょうか",
+        "会いましたか",
+        "会いませんでしたか"
+      ],
+      "vi": "Mình gặp nhau ở đâu nhỉ? (cùng bàn chỗ hẹn)"
+    },
+    {
+      "id": "n5-10-e10",
+      "type": "choice",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "promptVi": "Chọn trợ từ đúng: \"Tôi viết thư cho bạn.\"",
+      "ja": "友達＿手紙を書きます。",
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-10-e11",
+      "type": "fill",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "before": "駅で田中さん",
+      "after": "会いました。",
+      "answers": [
+        "に"
+      ],
+      "options": [
+        "に",
+        "を",
+        "で"
+      ],
+      "vi": "Tôi đã gặp anh Tanaka ở nhà ga.",
+      "explainVi": "Động từ \"gặp\" (あいます) đi với に, không đi với を."
+    },
+    {
+      "id": "n5-10-e12",
+      "type": "order",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "vi": "Tôi học tiếng Nhật với thầy Yamada.",
+      "tiles": [
+        "習います",
+        "日本語を",
+        "山田先生に"
+      ],
+      "answers": [
+        "山田先生に日本語を習います",
+        "日本語を山田先生に習います"
+      ]
+    },
+    {
+      "id": "n5-10-e13",
+      "type": "choice",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "promptVi": "Câu nào nghĩa là \"Tôi đã mượn ô của Mai\"?",
+      "options": [
+        "マイさんに傘を借りました。",
+        "マイさんに傘を貸しました。",
+        "マイさんに傘を見せました。"
+      ],
+      "answer": 0,
+      "explainVi": "かります = mượn (người cho mượn đi với に); かします = cho mượn."
+    },
+    {
+      "id": "n5-10-e14",
+      "type": "fill",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "before": "私はアンさん",
+      "after": "ベトナム語を教えます。",
+      "answers": [
+        "に"
+      ],
+      "vi": "Tôi dạy tiếng Việt cho An."
+    },
+    {
+      "id": "n5-10-e15",
+      "type": "order",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "vi": "Tôi đã tặng anh Nguyễn một quyển từ điển.",
+      "tiles": [
+        "あげました",
+        "辞書を",
+        "グエンさんに"
+      ],
+      "answers": [
+        "グエンさんに辞書をあげました",
+        "辞書をグエンさんにあげました"
+      ]
+    },
+    {
+      "id": "n5-10-e16",
+      "type": "match",
+      "promptVi": "Ghép động từ với nghĩa",
+      "pairs": [
+        [
+          "貸します",
+          "cho mượn"
+        ],
+        [
+          "借ります",
+          "mượn"
+        ],
+        [
+          "教えます",
+          "dạy"
+        ],
+        [
+          "習います",
+          "học (từ ai đó)"
+        ],
+        [
+          "見せます",
+          "cho xem"
+        ]
+      ]
+    },
+    {
+      "id": "n5-10-e17",
+      "type": "match",
+      "promptVi": "Ghép từ với nghĩa",
+      "pairs": [
+        [
+          "映画",
+          "phim"
+        ],
+        [
+          "公園",
+          "công viên"
+        ],
+        [
+          "喫茶店",
+          "quán cà phê"
+        ],
+        [
+          "写真",
+          "ảnh"
+        ],
+        [
+          "手紙",
+          "thư"
+        ]
+      ]
+    },
+    {
+      "id": "n5-10-e18",
+      "type": "choice",
+      "grammar": [
+        "masen-ka"
+      ],
+      "promptVi": "Thứ bảy bạn bận. Từ chối lời mời này một cách lịch sự:",
+      "ja": "土曜日、一緒に映画を見ませんか。",
+      "options": [
+        "すみません、土曜日はちょっと…。",
+        "いいえ、見ません。",
+        "ええ、見ましょう。"
+      ],
+      "answer": 0,
+      "explainVi": "Người Nhật thường xin lỗi rồi bỏ lửng câu với ちょっと, thay vì nói thẳng いいえ."
+    },
+    {
+      "id": "n5-10-e19",
+      "type": "choice",
+      "grammar": [
+        "mashou-ka"
+      ],
+      "promptVi": "Bạn không cần giúp. Từ chối lịch sự lời đề nghị này:",
+      "ja": "かばんを持ちましょうか。",
+      "options": [
+        "いいえ、結構です。",
+        "ええ、お願いします。",
+        "ええ、持ちましょう。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-10-e20",
+      "type": "choice",
+      "grammar": [
+        "mashou-ka"
+      ],
+      "promptVi": "Bạn và bạn mình muốn cùng quyết định giờ gặp. Hỏi thế nào?",
+      "options": [
+        "何時に会いましょうか。",
+        "何時に会いましたか。",
+        "何時ですか。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-10-e21",
+      "type": "choice",
+      "promptVi": "Chia tay bạn cùng lớp sau giờ học, hẹn mai gặp lại. Bạn nói:",
+      "options": [
+        "また明日。",
+        "はじめまして。",
+        "いただきます。"
+      ],
+      "answer": 0
+    },
+    {
+      "id": "n5-10-e22",
+      "type": "fill",
+      "before": "毎晩、家族に電話を",
+      "after": "。",
+      "answers": [
+        "かけます"
+      ],
+      "options": [
+        "かけます",
+        "書きます",
+        "見せます"
+      ],
+      "vi": "Tối nào tôi cũng gọi điện cho gia đình."
+    },
+    {
+      "id": "n5-10-e23",
+      "type": "translate",
+      "grammar": [
+        "masen-ka"
+      ],
+      "vi": "Chủ nhật này cùng ăn tối ở nhà hàng không?",
+      "answers": [
+        "[今週の日曜日|日曜日|今週の日曜日に|日曜日に]、(一緒に)[レストランで晩ご飯を|晩ご飯をレストランで]食べませんか。"
+      ],
+      "examples": [
+        {
+          "answer": "にちようび、いっしょにレストランでばんごはんをたべませんか。",
+          "score": 100
+        },
+        {
+          "answer": "日曜日、一緒にレストランに晩ご飯を食べませんか。",
+          "score": 80,
+          "issues": [
+            "ni_de"
+          ]
+        },
+        {
+          "answer": "日曜日、一緒にレストランで晩ご飯を食べますか。",
+          "score": 0
+        },
+        {
+          "answer": "土曜日、一緒にレストランで晩ご飯を食べませんか。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-10-e24",
+      "type": "question",
+      "grammar": [
+        "mashou"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "土曜日、一緒に公園へ行きませんか。",
+        "promptVi": "Thứ bảy cùng đi công viên không? Bạn nhận lời: \"Ừ, cùng đi nào.\"",
+        "answers": [
+          "ええ、行きましょう。",
+          "([ええ|はい]、)[(一緒に)(公園へ)|公園へ一緒に]行きましょう。"
+        ],
+        "examples": [
+          {
+            "answer": "ええ、いきましょう。",
+            "score": 100
+          },
+          {
+            "answer": "ええ、こうえんえいきましょう。",
+            "score": 90,
+            "issues": [
+              "particle_kana"
+            ]
+          },
+          {
+            "answer": "ええ、行きませんか。",
+            "score": 0
+          },
+          {
+            "answer": "いいえ、行きません。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-10-e25",
+      "type": "question",
+      "grammar": [
+        "mashou-ka",
+        "mashou"
+      ],
+      "question": {
+        "type": "model",
+        "prompt": "何時に会いましょうか。",
+        "promptVi": "Mấy giờ mình gặp nhau nhỉ? Bạn trả lời: \"Gặp nhau lúc 6 giờ nhé.\"",
+        "answers": [
+          "6時に会いましょう。"
+        ],
+        "examples": [
+          {
+            "answer": "ろくじにあいましょう。",
+            "score": 100
+          },
+          {
+            "answer": "6時会いましょう。",
+            "score": 85,
+            "issues": [
+              "missing_word"
+            ]
+          },
+          {
+            "answer": "6時で会いましょう。",
+            "score": 80,
+            "issues": [
+              "wrong_particle"
+            ]
+          },
+          {
+            "answer": "7時に会いましょう。",
+            "score": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "n5-10-e26",
+      "type": "translate",
+      "grammar": [
+        "ni-indirect-object"
+      ],
+      "vi": "Tôi đã cho Mai mượn quyển từ điển.",
+      "answers": [
+        "(私は)[マイさんに辞書を|辞書をマイさんに]貸しました。"
+      ],
+      "examples": [
+        {
+          "answer": "マイさんにじしょをかしました。",
+          "score": 100
+        },
+        {
+          "answer": "マイさんを辞書を貸しました。",
+          "score": 80,
+          "issues": [
+            "wrong_particle"
+          ]
+        },
+        {
+          "answer": "マイさんに辞書お貸しました。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "マイさんに辞書を借りました。",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "n5-10-e27",
+      "type": "translate",
+      "grammar": [
+        "mashou-ka"
+      ],
+      "vi": "Để tôi cầm ô giúp bạn nhé?",
+      "answers": [
+        "傘を持ちましょうか。"
+      ],
+      "examples": [
+        {
+          "answer": "かさをもちましょうか。",
+          "score": 100
+        },
+        {
+          "answer": "かさおもちましょうか。",
+          "score": 90,
+          "issues": [
+            "particle_kana"
+          ]
+        },
+        {
+          "answer": "傘を持ちませんか。",
+          "score": 0
+        },
+        {
+          "answer": "かばんを持ちましょうか。",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "ruby": {
+    "一緒に映画を見ませんか。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}ませんか。",
+    "マイさんと一緒に公園へ行きました。": "マイさんと{一|いっ}{緒|しょ}に{公|こう}{園|えん}へ{行|い}きました。",
+    "駅で友達に会います。": "{駅|えき}で{友|とも}{達|だち}に{会|あ}います。",
+    "明日、3時に会いましょう。": "{明日|あした}、3{時|じ}に{会|あ}いましょう。",
+    "日曜日に映画を見ませんか。": "{日|にち}{曜|よう}{日|び}に{映|えい}{画|が}を{見|み}ませんか。",
+    "公園で写真を撮りましょう。": "{公|こう}{園|えん}で{写|しゃ}{真|しん}を{撮|と}りましょう。",
+    "毎朝、公園を散歩します。": "{毎|まい}{朝|あさ}、{公|こう}{園|えん}を{散|さん}{歩|ぽ}します。",
+    "一緒に散歩しませんか。": "{一|いっ}{緒|しょ}に{散|さん}{歩|ぽ}しませんか。",
+    "駅の喫茶店で会いましょう。": "{駅|えき}の{喫|きっ}{茶|さ}{店|てん}で{会|あ}いましょう。",
+    "土曜日に私の家でパーティーをします。": "{土|ど}{曜|よう}{日|び}に{私|わたし}の{家|いえ}でパーティーをします。",
+    "パーティーに来ませんか。": "パーティーに{来|き}ませんか。",
+    "ちょっと休みましょう。": "ちょっと{休|やす}みましょう。",
+    "すみません、土曜日はちょっと…。": "すみません、{土|ど}{曜|よう}{日|び}はちょっと…。",
+    "ええ、一緒に行きましょう。": "ええ、{一|いっ}{緒|しょ}に{行|い}きましょう。",
+    "また来週会いましょう。": "また{来|らい}{週|しゅう}{会|あ}いましょう。",
+    "また明日。": "また{明日|あした}。",
+    "皆さん、さようなら。": "{皆|みな}さん、さようなら。",
+    "先生、さようなら。": "{先|せん}{生|せい}、さようなら。",
+    "毎晩、家族に電話をかけます。": "{毎|まい}{晩|ばん}、{家|か}{族|ぞく}に{電|でん}{話|わ}をかけます。",
+    "友達に手紙を書きます。": "{友|とも}{達|だち}に{手|て}{紙|がみ}を{書|か}きます。",
+    "日本語で手紙を書きました。": "{日本|にほん}{語|ご}で{手|て}{紙|がみ}を{書|か}きました。",
+    "マイさんに本をあげました。": "マイさんに{本|ほん}をあげました。",
+    "グエンさんに傘を貸しました。": "グエンさんに{傘|かさ}を{貸|か}しました。",
+    "ボールペンを貸しましょうか。": "ボールペンを{貸|か}しましょうか。",
+    "図書館で本を借りました。": "{図|と}{書|しょ}{館|かん}で{本|ほん}を{借|か}りました。",
+    "友達に辞書を借りました。": "{友|とも}{達|だち}に{辞|じ}{書|しょ}を{借|か}りました。",
+    "私はアンさんにベトナム語を教えます。": "{私|わたし}はアンさんにベトナム{語|ご}を{教|おし}えます。",
+    "マイさんの電話番号を教えましょうか。": "マイさんの{電|でん}{話|わ}{番|ばん}{号|ごう}を{教|おし}えましょうか。",
+    "山田先生に日本語を習います。": "{山田|やまだ}{先|せん}{生|せい}に{日本|にほん}{語|ご}を{習|なら}います。",
+    "友達に家族の写真を見せました。": "{友|とも}{達|だち}に{家|か}{族|ぞく}の{写|しゃ}{真|しん}を{見|み}せました。",
+    "これは家族の写真です。": "これは{家|か}{族|ぞく}の{写|しゃ}{真|しん}です。",
+    "写真を撮りましょうか。": "{写|しゃ}{真|しん}を{撮|と}りましょうか。",
+    "公園で写真を撮りました。": "{公|こう}{園|えん}で{写|しゃ}{真|しん}を{撮|と}りました。",
+    "駅で友達を待ちます。": "{駅|えき}で{友|とも}{達|だち}を{待|ま}ちます。",
+    "どこで待ちましょうか。": "どこで{待|ま}ちましょうか。",
+    "かばんを持ちましょうか。": "かばんを{持|も}ちましょうか。",
+    "皆さん、一緒に写真を撮りましょう。": "{皆|みな}さん、{一|いっ}{緒|しょ}に{写|しゃ}{真|しん}を{撮|と}りましょう。",
+    "いいえ、結構です。": "いいえ、{結|けっ}{構|こう}です。",
+    "一緒に昼ご飯を食べませんか。": "{一|いっ}{緒|しょ}に{昼|ひる}ご{飯|はん}を{食|た}べませんか。",
+    "土曜日、公園へ行きませんか。": "{土|ど}{曜|よう}{日|び}、{公|こう}{園|えん}へ{行|い}きませんか。",
+    "日曜日にパーティーをします。来ませんか。": "{日|にち}{曜|よう}{日|び}にパーティーをします。{来|き}ませんか。",
+    "一緒に映画を見るませんか。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}るませんか。",
+    "一緒に映画を見ますか。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}ますか。",
+    "いいえ、行きません。": "いいえ、{行|い}きません。",
+    "ええ、行きましょう。": "ええ、{行|い}きましょう。",
+    "3時に駅で会いましょう。": "3{時|じ}に{駅|えき}で{会|あ}いましょう。",
+    "皆さん、ちょっと休みましょう。": "{皆|みな}さん、ちょっと{休|やす}みましょう。",
+    "一緒に行きましょう。": "{一|いっ}{緒|しょ}に{行|い}きましょう。",
+    "一緒に行くましょう。": "{一|いっ}{緒|しょ}に{行|い}くましょう。",
+    "ええ、行きませんか。": "ええ、{行|い}きませんか。",
+    "どこで会いましょうか。": "どこで{会|あ}いましょうか。",
+    "何時に会いましょうか。": "{何時|なんじ}に{会|あ}いましょうか。",
+    "かばんを持ちませんか。": "かばんを{持|も}ちませんか。",
+    "ええ、お願いします。": "ええ、お{願|ねが}いします。",
+    "ええ、持ちましょう。": "ええ、{持|も}ちましょう。",
+    "マイさんに傘を貸しました。": "マイさんに{傘|かさ}を{貸|か}しました。",
+    "先生に日本語を習います。": "{先|せん}{生|せい}に{日本|にほん}{語|ご}を{習|なら}います。",
+    "駅で田中さんに会いました。": "{駅|えき}で{田中|たなか}さんに{会|あ}いました。",
+    "駅で友達を会います。": "{駅|えき}で{友|とも}{達|だち}を{会|あ}います。",
+    "友達を手紙を書きます。": "{友|とも}{達|だち}を{手|て}{紙|がみ}を{書|か}きます。",
+    "友達に辞書を貸しました。": "{友|とも}{達|だち}に{辞|じ}{書|しょ}を{貸|か}しました。",
+    "一緒に映画を見ましたか。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}ましたか。",
+    "一緒に映画を見ません。": "{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}ません。",
+    "日曜日、公園へ行きませんか。": "{日|にち}{曜|よう}{日|び}、{公|こう}{園|えん}へ{行|い}きませんか。",
+    "行きませんか": "{行|い}きませんか",
+    "行きましたか": "{行|い}きましたか",
+    "行きません": "{行|い}きません",
+    "散歩": "{散|さん}{歩|ぽ}",
+    "一緒に": "{一|いっ}{緒|しょ}に",
+    "しませんか": "しませんか",
+    "一緒に散歩しませんか": "{一|いっ}{緒|しょ}に{散|さん}{歩|ぽ}しませんか",
+    "ええ、食べましょう。": "ええ、{食|た}べましょう。",
+    "ええ、食べませんか。": "ええ、{食|た}べませんか。",
+    "いいえ、食べません。": "いいえ、{食|た}べません。",
+    "会いましょう": "{会|あ}いましょう",
+    "会いました": "{会|あ}いました",
+    "会いませんでした": "{会|あ}いませんでした",
+    "撮りましょう": "{撮|と}りましょう",
+    "公園で": "{公|こう}{園|えん}で",
+    "写真を": "{写|しゃ}{真|しん}を",
+    "公園で写真を撮りましょう": "{公|こう}{園|えん}で{写|しゃ}{真|しん}を{撮|と}りましょう",
+    "写真を公園で撮りましょう": "{写|しゃ}{真|しん}を{公|こう}{園|えん}で{撮|と}りましょう",
+    "かばんを持ちましたか。": "かばんを{持|も}ちましたか。",
+    "会いましょうか": "{会|あ}いましょうか",
+    "会いましたか": "{会|あ}いましたか",
+    "会いませんでしたか": "{会|あ}いませんでしたか",
+    "友達＿手紙を書きます。": "{友|とも}{達|だち}＿{手|て}{紙|がみ}を{書|か}きます。",
+    "に": "に",
+    "を": "を",
+    "で": "で",
+    "習います": "{習|なら}います",
+    "日本語を": "{日本|にほん}{語|ご}を",
+    "山田先生に": "{山田|やまだ}{先|せん}{生|せい}に",
+    "山田先生に日本語を習います": "{山田|やまだ}{先|せん}{生|せい}に{日本|にほん}{語|ご}を{習|なら}います",
+    "日本語を山田先生に習います": "{日本|にほん}{語|ご}を{山田|やまだ}{先|せん}{生|せい}に{習|なら}います",
+    "マイさんに傘を借りました。": "マイさんに{傘|かさ}を{借|か}りました。",
+    "マイさんに傘を見せました。": "マイさんに{傘|かさ}を{見|み}せました。",
+    "あげました": "あげました",
+    "辞書を": "{辞|じ}{書|しょ}を",
+    "グエンさんに": "グエンさんに",
+    "グエンさんに辞書をあげました": "グエンさんに{辞|じ}{書|しょ}をあげました",
+    "辞書をグエンさんにあげました": "{辞|じ}{書|しょ}をグエンさんにあげました",
+    "貸します": "{貸|か}します",
+    "借ります": "{借|か}ります",
+    "教えます": "{教|おし}えます",
+    "見せます": "{見|み}せます",
+    "映画": "{映|えい}{画|が}",
+    "公園": "{公|こう}{園|えん}",
+    "喫茶店": "{喫|きっ}{茶|さ}{店|てん}",
+    "写真": "{写|しゃ}{真|しん}",
+    "手紙": "{手|て}{紙|がみ}",
+    "土曜日、一緒に映画を見ませんか。": "{土|ど}{曜|よう}{日|び}、{一|いっ}{緒|しょ}に{映|えい}{画|が}を{見|み}ませんか。",
+    "いいえ、見ません。": "いいえ、{見|み}ません。",
+    "ええ、見ましょう。": "ええ、{見|み}ましょう。",
+    "何時に会いましたか。": "{何時|なんじ}に{会|あ}いましたか。",
+    "何時ですか。": "{何時|なんじ}ですか。",
+    "はじめまして。": "はじめまして。",
+    "いただきます。": "いただきます。",
+    "かけます": "かけます",
+    "書きます": "{書|か}きます",
+    "今週の日曜日、一緒にレストランで晩ご飯を食べませんか。": "{今|こん}{週|しゅう}の{日|にち}{曜|よう}{日|び}、{一|いっ}{緒|しょ}にレストランで{晩|ばん}ご{飯|はん}を{食|た}べませんか。",
+    "土曜日、一緒に公園へ行きませんか。": "{土|ど}{曜|よう}{日|び}、{一|いっ}{緒|しょ}に{公|こう}{園|えん}へ{行|い}きませんか。",
+    "ええ、一緒に公園へ行きましょう。": "ええ、{一|いっ}{緒|しょ}に{公|こう}{園|えん}へ{行|い}きましょう。",
+    "6時に会いましょう。": "6{時|じ}に{会|あ}いましょう。",
+    "私はマイさんに辞書を貸しました。": "{私|わたし}はマイさんに{辞|じ}{書|しょ}を{貸|か}しました。",
+    "傘を持ちましょうか。": "{傘|かさ}を{持|も}ちましょうか。"
+  }
+}
